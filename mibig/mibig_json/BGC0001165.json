@@ -1,0 +1,474 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Nathan Moss", 
+        "submitter_institution": "University of California, San Diego", 
+        "submitter_email": "namoss@ucsd.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001165", 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ], 
+        "publications": "15332855, 10482399, 10496976, 9443933, 7565634, 16834357, 17928301, 19835378, 20660778, 21387490, 21357626, 22103656, 22991895", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AY652953", 
+                    "start_coord": 1, 
+                    "end_coord": 87427, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction", 
+                        "Other"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Curacin A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "chEBI", 
+                    "chEMBL", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 6438908, 
+                "chebi_id": 3961, 
+                "chembl_id": 89138, 
+                "chemspider_id": 4445239, 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "anti-tubulin", 
+                "chem_target": "Colchicine site of tubulin", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "cyclopropyl ring", 
+                        "moiety_subcluster": [
+                            "aat70096.1", 
+                            "aat70097.1", 
+                            "aat70098.1", 
+                            "aat70099.1", 
+                            "aat70100.1", 
+                            "aat70101.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "Terminal alkene", 
+                        "moiety_subcluster": [
+                            "aat70108.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "curA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AAT70096.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "curB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AAT70097.1", 
+                    "gene_annotation": "ACP", 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "curC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AAT70098.1", 
+                    "gene_annotation": "KS", 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "curD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AAT70099.1", 
+                    "gene_annotation": "HMG-CoA synthase", 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "curE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AAT70100.1", 
+                    "gene_annotation": "enoyl-CoA hydratase/isomerase", 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "curF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AAT70101.1", 
+                    "gene_annotation": "PKS/NRPS", 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "curG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AAT70102.1", 
+                    "gene_annotation": "PKS", 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "curH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AAT70103.1", 
+                    "gene_annotation": "PKS", 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "curI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AAT70104.1", 
+                    "gene_annotation": "PKS", 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "curJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AAT70105.1", 
+                    "gene_annotation": "PKS", 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "curK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AAT70106.1", 
+                    "gene_annotation": "PKS", 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "curL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AAT70107.1", 
+                    "gene_annotation": "PKS", 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "curM", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AAT70108.1", 
+                    "gene_annotation": "PKS", 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "curN", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AAT70109.1", 
+                    "gene_annotation": "hydrolase", 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "None"
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "pks_te_type": "Other", 
+            "pks_thioesterase": [
+                "aat70108.1"
+            ], 
+            "pks_release_type": "Other", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AAT70096.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "0", 
+                            "pks_domains": [
+                                "AT", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "None", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "T", 
+                                "T", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "None", 
+                            "pks_mod_doms": [
+                                "Oxidation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAT70101.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "ER", 
+                                "KS", 
+                                "AT", 
+                                "T", 
+                                "C", 
+                                "A", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Cyclohexylcarbonyl-CoA", 
+                            "evidence_at_spec": "None", 
+                            "pks_mod_doms": [
+                                "Other"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAT70102.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "DH", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "None", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAT70103.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "4", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "ER", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "None", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAT70104.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "5", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "None", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAT70105.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "6", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "ER", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "None", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAT70106.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "7", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "None", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAT70107.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "8", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T", 
+                                "TE"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "None", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Other"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "[H][C@]1(CCC[C@H]1C(O)=O)[C@]1([H])C\\C=C\\C=C(C#N)/[C@H](O)[C@@H](C)C[C@H](C)C[C@H](C)C[C@H](C)[C@@H](O)CC(=O)O1", 
+                "compound": "borrelidin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KT362046", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001533", 
+        "publications": [
+            "27451447"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

@@ -1,25 +1,28 @@
-# process-antiSMASH
+# process antiSMASH 5 output
 
-## blastHits.sh
+## mibig.sh 
+## A command line tool to convert antiSMASH 5 output to a csv file containing blast hits for biosynthetic gene clusters at a user-specified significance for percent_ID and percent_coverage
 
-**Description:** Processes antiSMASH 4.1.0 results to output a tab delimited file containing blast hits for gene clusters at a user-specified significance (percent_ID and percent_coverage).
+**Author:** Nick Crosbie, October 2019
 
-**Author:** Nick Crosbie, August 2018
+**Dependencies:** GNU bash (version with readarray), awk, sed, jq, cut, xargs, paste
 
-**Input requirements:** antiSMASH 4.1.0 output
+**Input requirements:** antiSMASH 5 output json file(s); MIBiG data files in json format (obtain from https://mibig.secondarymetabolites.org/download)
 
-**Dependencies:** GNU bash, grep, awk, cut, paste, uniq, sort, join
+**Installation**
+- clone the repository (https://github.com/crosbien/processAntiSmash.git)
+- install dependencies
+- update MIBiG json files - these **must** be stored in the directory **/processAntiSmash/mibig/mbig_json** 
 
-**Usage:** ../bin/blastHits.sh percent_ID percent_coverage
+**Usage:** ./mibig.sh percent_ID percent_coverage path-to-data-directory path-to-output-directory
 
-**Example:** ../bin/blastHits.sh 70 70
+**Usage example:** ./mibig.sh 70 70 ../testData ../output   (command **must** be issued from the **/processAntiSmash/mibig** directory)
 
-**Test**
-- unpack the example "antiSMASHed" genomes (tar achives contained in /example-genomes) to a sister directory of /bin named /genome. 
-- from the /genome directory, execute "../bin/blastHits.sh 70 70" without the quotation marks. This will create a file named *smashOut.txt* in the /genome directory, the contents of which should match the *ex-smashOut.txt* file located in the /example-output directory. 
-- to run on your own data, replace the example antiSMASHed genomes with your own antiSMASH output.  Note that you can change the percent_ID and percent_coverage threshold values to you liking.
+**Example data:** three antiSMASH 5 output json files are included in the directory **/processAntiSmash/testData**
 
-**Note:** antiSMASH 4.1.0 uses DIAMOND to produce blast-like output, and the term 'blast' is used in that context.
+**Example output:** an example output csv is included in the directory **/processAntiSmash/output**
 
-*Please consider acknowledging the author if the script proves useful to your research.*
+**Note:** antiSMASH 5 uses DIAMOND to produce blast-like output, and the term 'blast' is used in that context.
+
+**Citation:** Crosbie ND (2019) mibig.sh: A command line tool to process antiSMASH 5 output. https://github.com/crosbien/processAntiSmash
 

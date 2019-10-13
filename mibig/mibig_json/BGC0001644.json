@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "lacunalides"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3965219, 
+                    "Accession": "CP007142", 
+                    "start_coord": 3836738
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001644", 
+        "publications": [
+            "30025185"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Trans-AT type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

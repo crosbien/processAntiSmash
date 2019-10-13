@@ -1,0 +1,28 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 44259, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "staurosporine"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2696772, 
+                    "Accession": "CP000850", 
+                    "start_coord": 2672473
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000827", 
+        "minimal": true, 
+        "biosyn_class": [
+            "Alkaloid"
+        ]
+    }
+}

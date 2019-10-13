@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C\\C=C1/NC(=O)C2CSC(=N2)C2CC(C)N2C(=O)C(CC(C)C)NC(=O)C(C)NC(=O)C(O)COC(=O)C(C(C)C)N(C)C(=O)C(NC(=O)C2CCCCN2C1=O)C(C)O", 
+                "compound": "vioprolide"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "MH108942", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001822", 
+        "publications": [
+            "29694699"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

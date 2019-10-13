@@ -1,0 +1,268 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "David Fewer, annotation team", 
+        "submitter_institution": "University of Helsinki", 
+        "submitter_email": "david.fewer@helsinki.fi"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001016", 
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ], 
+        "publications": "14766543,17163649", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AY212249", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "microcystin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 445434, 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "Hepatotoxin", 
+                "chem_target": "Eukaryotic protein phosphatase 1 and 2A", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "D-erythro-beta-methylaspartic acid", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": []
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Hydrolysis", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AAO62588.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "11", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Arginine", 
+                                "evidence_a_spec": "None", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AAO62587.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "9", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Leucine / Arginine", 
+                                "evidence_a_spec": "None", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "10", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Aspartate / N-methylaspartate", 
+                                "evidence_a_spec": "None", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AAO62586.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "7", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Serine", 
+                                "evidence_a_spec": "None", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "Methylation", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "8", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Alanine", 
+                                "evidence_a_spec": "None", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AAO62585.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Hydrocinnamate", 
+                                "evidence_a_spec": "None", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AAO62582.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "5", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "Aminotransferase", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Glutamine", 
+                                "evidence_a_spec": "None", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AAO62585.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "None", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAO62584.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "None", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAO62582.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "4", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "None", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

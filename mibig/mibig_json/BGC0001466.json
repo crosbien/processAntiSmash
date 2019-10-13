@@ -1,0 +1,102 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Yang Hai", 
+        "submitter_institution": "UCLA", 
+        "submitter_email": "YANGHAI62@UCLA.EDU"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001466", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "10.1021/jacs.7b13350", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "MG837518.1 ", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production"
+                    ]
+                }, 
+                {
+                    "Accession": "MG837524.1 ", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "MG837522.1 ", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }, 
+                {
+                    "Accession": "MG837520.1 ", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "MG837521.1 ", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "MG837519.1 ", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Wortmanamide", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC(CCCCNC(/C=C/CCCCCCCC/C=C/C[C@H](O)C)=O)=O", 
+                "mol_mass": 366.2635, 
+                "mass_ion_type": "[M-H]-", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry", 
+                    "Chemical derivatization"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "mg837519.1"
+            ], 
+            "nr_iterations": 7, 
+            "iterative_subtype": "Highly reducing", 
+            "pks_te_type": "None", 
+            "pks_release_type": "Other"
+        }
+    }, 
+    "comments": "The corresponding author for this entry should be both Yang Hai and Prof. Yi Tang, (yitang@ucla.edu)"
+}

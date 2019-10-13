@@ -1,0 +1,342 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Katherine Williams", 
+        "submitter_institution": "Cardiff University", 
+        "submitter_email": "williamsk60@cardiff.ac.uk"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001340", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "27099957, 26452099", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "ku928136", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "byssochlamic acid", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "chEMBL"
+                ], 
+                "pubchem_id": 164723, 
+                "chembl_id": 3039421, 
+                "evidence_struct": [
+                    "NMR", 
+                    "X-ray"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "bfL12", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1841, 
+                    "gene_endpos": 3812, 
+                    "gene_id": "ANF07276.1", 
+                    "gene_annotation": "MFS transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bfL11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4760, 
+                    "gene_endpos": 5585, 
+                    "gene_id": "ANF07277.1", 
+                    "gene_annotation": "enoyl-CoA hydratase/isomerase family protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bfL10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6336, 
+                    "gene_endpos": 7122, 
+                    "gene_id": "ANF07278.1", 
+                    "gene_annotation": "ketosteroid isomerase-like protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "bfL9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7905, 
+                    "gene_endpos": 8537, 
+                    "gene_id": "ANF07279.1", 
+                    "gene_annotation": "phosphatidylethanolamine-binding protein-like protein", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "bfL8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9232, 
+                    "gene_endpos": 9901, 
+                    "gene_id": "ANF07280.1", 
+                    "gene_annotation": "putative regulatory protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bfL7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11833, 
+                    "gene_endpos": 13376, 
+                    "gene_id": "ANF07281.1", 
+                    "gene_annotation": "C6 transcription factor", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bfL6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14721, 
+                    "gene_endpos": 15503, 
+                    "gene_id": "ANF07282.1", 
+                    "gene_annotation": "ketosteroid isomerase-like protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "bfL5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16375, 
+                    "gene_endpos": 17067, 
+                    "gene_id": "ANF07283.1", 
+                    "gene_annotation": "phosphatidylethanolamine-binding protein-like protein", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "bfL4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18310, 
+                    "gene_endpos": 20034, 
+                    "gene_id": "ANF07284.1", 
+                    "gene_annotation": "MFS", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bfL3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20610, 
+                    "gene_endpos": 22126, 
+                    "gene_id": "ANF07285.1", 
+                    "gene_annotation": "2-methylcitrate dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydration", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "bfL2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22865, 
+                    "gene_endpos": 24492, 
+                    "gene_id": "ANF07286.1", 
+                    "gene_annotation": "citrate synthase-like protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "bfL1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25045, 
+                    "gene_endpos": 25830, 
+                    "gene_id": "ANF07287.1", 
+                    "gene_annotation": "hydrolase 341", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "bfpks1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26350, 
+                    "gene_endpos": 34624, 
+                    "gene_id": "ANF07288.1", 
+                    "gene_annotation": "hrPKS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        " Other in vivo study"
+                    ], 
+                    "mut_pheno": "Cessation of byssochlamic acid and agnestadride biosynthesis"
+                }, 
+                {
+                    "gene_name": "bfR1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 34976, 
+                    "gene_endpos": 35495, 
+                    "gene_id": "ANF07289.1", 
+                    "gene_annotation": "DUF636 domain-containing protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bfR2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 36349, 
+                    "gene_endpos": 37008, 
+                    "gene_id": "ANF07290.1", 
+                    "gene_annotation": "sodium/solute symporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bfR3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 38074, 
+                    "gene_endpos": 38803, 
+                    "gene_id": "ANF07291.1", 
+                    "gene_annotation": "seed maturation-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bfR4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 41331, 
+                    "gene_endpos": 43675, 
+                    "gene_id": "ANF07292.1", 
+                    "gene_annotation": "C6 transcription factor 2", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bfR5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 45381, 
+                    "gene_endpos": 47802, 
+                    "gene_id": "ANF07293.1", 
+                    "gene_annotation": "small oligopeptide transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bfR6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 49811, 
+                    "gene_endpos": 50381, 
+                    "gene_id": "ANF07294.1", 
+                    "gene_annotation": "YCII-related domain protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bfR7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 50918, 
+                    "gene_endpos": 51432, 
+                    "gene_id": "ANF07295.1", 
+                    "gene_annotation": "YCII-related domain protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "anf07288.1"
+            ], 
+            "nr_iterations": 3, 
+            "iterative_subtype": "Highly reducing", 
+            "pks_te_type": "Unknown", 
+            "pks_release_type": "Unknown", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "ANF07288.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "ER", 
+                                "KR"
+                            ], 
+                            "at_substr_spec": "Acetyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Iterated", 
+                            "pks_evidence_skip_iter": "Sequence-based prediction"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

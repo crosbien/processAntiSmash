@@ -1,0 +1,29 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "coagulin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "AF300457", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000617", 
+        "RiPP": {
+            "ripp_subclass": "Other"
+        }, 
+        "publications": [
+            "11097892"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

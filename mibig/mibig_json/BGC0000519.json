@@ -1,0 +1,152 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Daniel Petras", 
+        "submitter_institution": "TU Berlin / AK S\u00c3\u00bcssmuth", 
+        "submitter_email": "daniel.petras@chem.tu-berlin.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000519", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "20082397", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "FN178622.1", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Labyrinthopeptin A2", 
+                "chem_synonyms": [], 
+                "molecular_formula": "C85H110N20O24S4", 
+                "mol_mass": 1922.6872, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "Antiviral", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "Labionin", 
+                        "moiety_subcluster": [
+                            "cax48971.1"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "Labyrinthopeptin A1", 
+                "chem_synonyms": [], 
+                "molecular_formula": "C92H119N23O25S4", 
+                "mol_mass": 2073.763, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "Antiviral", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "Labionin", 
+                        "moiety_subcluster": [
+                            "cax48971.1"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "Labyrinthopeptin A3", 
+                "chem_synonyms": [], 
+                "molecular_formula": "C96H124N24O28S4", 
+                "mol_mass": 2188.79, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "Antiviral", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "Labionin", 
+                        "moiety_subcluster": [
+                            "cax48971.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "RiPP": {
+            "ripp_subclass": "Lantipeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "c0mp60"
+                    ], 
+                    "core_pept_aa": "MASILELQNLDVEHARGENRSDWSLWECCSTGSLFACC", 
+                    "lead_pept_len": 20, 
+                    "foll_pept_len": -1, 
+                    "peptidase": [], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 4, 
+                            "AA_pos_2": 8, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 9, 
+                            "AA_pos_2": 18, 
+                            "crosslink_type": "Other"
+                        }, 
+                        {
+                            "AA_pos_1": 13, 
+                            "AA_pos_2": 17, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }, 
+                {
+                    "gene_id": [
+                        "c0mp59"
+                    ], 
+                    "core_pept_aa": "MASILELQDLEVERASSAADSNASVWECCSTGSWVPFTCC", 
+                    "lead_pept_len": 18, 
+                    "foll_pept_len": -1, 
+                    "peptidase": [], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 5, 
+                            "AA_pos_2": 9, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 10, 
+                            "AA_pos_2": 21, 
+                            "crosslink_type": "Other"
+                        }, 
+                        {
+                            "AA_pos_1": 14, 
+                            "AA_pos_2": 20, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

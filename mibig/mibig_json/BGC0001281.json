@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 52922086, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "ustilagic acid"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 304200, 
+                    "Accession": "NC_026500", 
+                    "start_coord": 344300
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001281", 
+        "publications": "21926207, 20173069, 17850255, 15932999",
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CCC1(CCC(O1)C1(C)CCC2(CC(O)C(C)C(O2)C(C)C(OC)C(C)C(O)=O)O1)C1OC(CC1C)C1OC(O)(CO)C(C)CC1C", 
+                "compound": "monensin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KX263301", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001670", 
+        "publications": [
+            "27718094"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Other"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

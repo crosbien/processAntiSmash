@@ -1,0 +1,37 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 6450484, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "myxovirescin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 4809194, 
+                    "Accession": "CP000113", 
+                    "start_coord": 4797714
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001104", 
+        "publications": [
+            "16835859"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Trans-AT type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

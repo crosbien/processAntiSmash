@@ -1,0 +1,246 @@
+{
+    "version": "16",
+    "personal": {
+        "submitter_name": "Konstantinos Papadimitriou",
+        "submitter_institution": "Agricultural University of Athens",
+        "submitter_email": "kpapadimitriou@aua.gr"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000526",
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": "12450808,17581139,20023075",
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "Accession": "DQ835394",
+                    "start_coord": -1,
+                    "end_coord": -1,
+                    "conn_comp_cluster": [
+                        "Enzymatic assays",
+                        "Gene expression correlated with compound production",
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "macedocin",
+                "chem_synonyms": [],
+                "mol_mass": -1,
+                "mass_ion_type": "None",
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "dehydro amino acids",
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ],
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "abi30223.1",
+                        "abi30224.1"
+                    ],
+                    "evidence_operon": "Other"
+                },
+                {
+                    "operon_genes": [
+                        "abi30226.1",
+                        "abi30227.1",
+                        "abi30228.1",
+                        "abi30229.1",
+                        "abi30230.1",
+                        "abi30231.1",
+                        "abi30232.1",
+                        "abi30233.1"
+                    ],
+                    "evidence_operon": "Other"
+                }
+            ],
+            "gene": [
+                {
+                    "gene_name": "mcdK",
+                    "not_in_gbk": false,
+                    "gene_startpos": 1,
+                    "gene_endpos": 1866,
+                    "gene_id": "ABI30222.1",
+                    "gene_annotation": "putative relaxase",
+                    "gene_function": "",
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                },
+                {
+                    "gene_name": "mcdK",
+                    "not_in_gbk": false,
+                    "gene_startpos": 1946,
+                    "gene_endpos": 3307,
+                    "gene_id": "ABI30223.1",
+                    "gene_annotation": "McdK",
+                    "gene_function": "",
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                },
+                {
+                    "gene_name": "mcdR",
+                    "not_in_gbk": false,
+                    "gene_startpos": 3324,
+                    "gene_endpos": 4022,
+                    "gene_id": "ABI30224.1",
+                    "gene_annotation": "McdR",
+                    "gene_function": "",
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                },
+                {
+                    "gene_name": "tnp",
+                    "not_in_gbk": false,
+                    "gene_startpos": 4137,
+                    "gene_endpos": 5312,
+                    "gene_id": "ABI30225.1",
+                    "gene_annotation": "putative transposase",
+                    "gene_function": "",
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                },
+                {
+                    "gene_name": "mcdA",
+                    "not_in_gbk": false,
+                    "gene_startpos": 5556,
+                    "gene_endpos": 5711,
+                    "gene_id": "ABI30226.1",
+                    "gene_annotation": "McdA",
+                    "gene_function": "",
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                },
+                {
+                    "gene_name": "mcdA_",
+                    "not_in_gbk": false,
+                    "gene_startpos": 5740,
+                    "gene_endpos": 5895,
+                    "gene_id": "ABI30227.1",
+                    "gene_annotation": "McdA'",
+                    "gene_function": "",
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                },
+                {
+                    "gene_name": "mcdA1",
+                    "not_in_gbk": false,
+                    "gene_startpos": 6359,
+                    "gene_endpos": 6520,
+                    "gene_id": "ABI30228.1",
+                    "gene_annotation": "McdA1",
+                    "gene_function": "",
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                },
+                {
+                    "gene_name": "mcdM",
+                    "not_in_gbk": false,
+                    "gene_startpos": 6540,
+                    "gene_endpos": 9326,
+                    "gene_id": "ABI30229.1",
+                    "gene_annotation": "McdM",
+                    "gene_function": "",
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                },
+                {
+                    "gene_name": "mcdT",
+                    "not_in_gbk": false,
+                    "gene_startpos": 9353,
+                    "gene_endpos": 11425,
+                    "gene_id": "ABI30230.1",
+                    "gene_annotation": "McdT",
+                    "gene_function": "",
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                },
+                {
+                    "gene_name": "mcdF",
+                    "not_in_gbk": false,
+                    "gene_startpos": 11526,
+                    "gene_endpos": 12440,
+                    "gene_id": "ABI30231.1",
+                    "gene_annotation": "McdF",
+                    "gene_function": "",
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                },
+                {
+                    "gene_name": "mcdE",
+                    "not_in_gbk": false,
+                    "gene_startpos": 12442,
+                    "gene_endpos": 13206,
+                    "gene_id": "ABI30232.1",
+                    "gene_annotation": "McdE",
+                    "gene_function": "",
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                },
+                {
+                    "gene_name": "mcdG",
+                    "not_in_gbk": false,
+                    "gene_startpos": 13269,
+                    "gene_endpos": 14006,
+                    "gene_id": "ABI30233.1",
+                    "gene_annotation": "McdG",
+                    "gene_function": "",
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "not_in_gbk": false,
+                    "gene_startpos": 14286,
+                    "gene_endpos": 14510,
+                    "gene_id": "ABI30234.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "",
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                },
+                {
+                    "gene_name": "No gene ID",
+                    "not_in_gbk": false,
+                    "gene_startpos": 14971,
+                    "gene_endpos": 15171,
+                    "gene_id": "ABI30235.1",
+                    "gene_annotation": "hypothetical protein",
+                    "gene_function": "",
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        "RiPP": {
+            "ripp_subclass": "Lantipeptide",
+            "lin_cycl_ripp": "linear"
+        }
+    }
+}

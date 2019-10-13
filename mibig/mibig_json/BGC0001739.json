@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C(C(=O)O)P(=O)(O)O", 
+                "compound": "phosphonoacetic Acid"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 109122, 
+                    "Accession": "NZ_JNXE01000019", 
+                    "start_coord": 94228
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001739", 
+        "publications": [
+            "28103011"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

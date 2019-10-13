@@ -1,0 +1,38 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 2973, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "desferrioxamine B"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 5584948, 
+                    "Accession": "AP009493", 
+                    "start_coord": 5578822
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000941", 
+        "Other": {
+            "biosyn_class": [
+                "Other"
+            ]
+        }, 
+        "publications": [
+            "18375553", 
+            "18364359", 
+            "18310036"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

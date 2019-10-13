@@ -1,0 +1,457 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Guohui Pan", 
+        "submitter_institution": "The Scripps Research Institute", 
+        "submitter_email": "gpan@scripps.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000177", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "19726666,23394593,12002995,15700980", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "GQ274953", 
+                    "start_coord": 1, 
+                    "end_coord": 53336, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "iso-migrastatin", 
+                "chem_synonyms": [
+                    "iso-mgs"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "chEMBL"
+                ], 
+                "pubchem_id": 15940571, 
+                "chembl_id": 1221912, 
+                "chem_act": [
+                    "Cytotoxic", 
+                    "Inhibitor"
+                ], 
+                "chem_moieties": [
+                    {
+                        "moiety_subcluster": []
+                    }
+                ]
+            }, 
+            {
+                "compound": "migrastatin", 
+                "chem_synonyms": [
+                    "mgs"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 11016431, 
+                "chem_act": [
+                    "Cytotoxic", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "actin-bundling protein fascin", 
+                "chem_moieties": [
+                    {
+                        "moiety_subcluster": []
+                    }
+                ]
+            }, 
+            {
+                "compound": "Dorrigocin A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 44543743, 
+                "chem_act": [
+                    "Cytotoxic", 
+                    "Inhibitor"
+                ]
+            }, 
+            {
+                "compound": "Dorrigocin B", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 44543727, 
+                "chem_act": [
+                    "Cytotoxic", 
+                    "Inhibitor"
+                ]
+            }, 
+            {
+                "compound": "13-epi-Dorrigocin A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 44543739, 
+                "chem_act": [
+                    "Cytotoxic", 
+                    "Inhibitor"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "mgsA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 3654, 
+                    "gene_id": "ACY01386.1", 
+                    "gene_annotation": "transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of iso-MGS, MGS and DGNs production"
+                }, 
+                {
+                    "gene_name": "mgsB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4026, 
+                    "gene_endpos": 5615, 
+                    "gene_id": "ACY01387.1", 
+                    "gene_annotation": "trans-acting acyl transferase/thioesterase fusion protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "reduced production of iso-MGS, MGS and DGNs"
+                }, 
+                {
+                    "gene_name": "mgsC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5701, 
+                    "gene_endpos": 5952, 
+                    "gene_id": "ACY01388.1", 
+                    "gene_annotation": "acyl carrier protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of iso-MGS, MGS and DGNs production"
+                }, 
+                {
+                    "gene_name": "mgsD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5957, 
+                    "gene_endpos": 7927, 
+                    "gene_id": "ACY01389.1", 
+                    "gene_annotation": "amidotransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Amination", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of iso-MGS, MGS and DGNs production"
+                }, 
+                {
+                    "gene_name": "mgsE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7943, 
+                    "gene_endpos": 17521, 
+                    "gene_id": "ACY01390.1", 
+                    "gene_annotation": "AT-less polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mgsF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17568, 
+                    "gene_endpos": 41648, 
+                    "gene_id": "ACY01391.1", 
+                    "gene_annotation": "AT-less polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of iso-MGS, MGS and DGNs production"
+                }, 
+                {
+                    "gene_name": "mgsG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 41705, 
+                    "gene_endpos": 47566, 
+                    "gene_id": "ACY01392.1", 
+                    "gene_annotation": "AT-less polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mgsH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 47568, 
+                    "gene_endpos": 49823, 
+                    "gene_id": "ACY01393.1", 
+                    "gene_annotation": "trans-acting acyl transferase/oxidoreductase fusion protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of iso-MGS, MGS and DGNs production"
+                }, 
+                {
+                    "gene_name": "mgsI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 49855, 
+                    "gene_endpos": 50871, 
+                    "gene_id": "ACY01394.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of unreduced products, loss of iso-MGS, MGS and DGNs production"
+                }, 
+                {
+                    "gene_name": "mgsJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 51167, 
+                    "gene_endpos": 52012, 
+                    "gene_id": "ACY01395.1", 
+                    "gene_annotation": "O-methyl transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of unmethylated products, loss of iso-MGS, MGS and DGNs production"
+                }, 
+                {
+                    "gene_name": "mgsK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 52125, 
+                    "gene_endpos": 53336, 
+                    "gene_id": "ACY01396.1", 
+                    "gene_annotation": "hydroxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of unhydroxylated products, loss of iso-MGS, MGS and DGNs production"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Macrolide", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Modular type I", 
+                "Trans-AT type I"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "trans_at": [
+                "acy01393"
+            ], 
+            "pks_te_type": "Type I", 
+            "pks_release_type": "Macrolactonization", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "ACY01388.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "0", 
+                            "pks_domains": [
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "ACY01390.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "KS", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "Michael branching"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "KS"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "ACY01391.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "pks_domains": [
+                                "KS", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "7", 
+                            "pks_domains": [
+                                "KS", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "8", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "9", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "ACY01392.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "10", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "9", 
+                            "pks_domains": [
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

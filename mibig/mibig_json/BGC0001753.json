@@ -1,0 +1,30 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CC(C)C1NC(=O)C2=CSC(=N2)C2=C(N=C(C=C2)C(=O)NC(=C)C(=O)NC(=C)C(N)=O)C2=C(C)OC(=N2)C(=C)NC(=O)C(=C)NC(=O)C2=CSC(=N2)C(C)NC(=O)C2=CSC(=N2)C(C)NC(=O)C2=C(C)OC(CNC1=O)=N2", 
+                "compound": "radamycin"
+            }, 
+            {
+                "compound": "globimycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 155574, 
+                    "Accession": "NZ_JNZK01000003", 
+                    "start_coord": 134923
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001753", 
+        "publications": [
+            "10.1016/j.tetlet.2017.12.056"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

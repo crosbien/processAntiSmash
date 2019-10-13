@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "weishanmycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "MF925482", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001823", 
+        "publications": [
+            "29229819"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

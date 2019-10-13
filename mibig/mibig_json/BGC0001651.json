@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "legionaminic acid"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 1164630, 
+                    "Accession": "CP003191", 
+                    "start_coord": 1153920
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001651", 
+        "Other": {
+            "biosyn_class": [
+                "Other"
+            ]
+        }, 
+        "publications": [
+            "27986835"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

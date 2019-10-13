@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 6438329, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "calicheamicin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "AF497482", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000033", 
+        "publications": [
+            "12183629"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

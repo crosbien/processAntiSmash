@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C[C@@H]1CC/C/2=C(/C[C@@H](CC(C[C@@H]12)(C)C)O)\\C", 
+                "compound": "pristinol"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 7138013, 
+                    "Accession": "NZ_CM000950", 
+                    "start_coord": 7136895
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001746", 
+        "publications": [
+            "27403888"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

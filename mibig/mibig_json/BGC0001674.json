@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "MS-271"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 407939, 
+                    "Accession": "FONR01000003", 
+                    "start_coord": 396027
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001674", 
+        "publications": [
+            "29974638"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

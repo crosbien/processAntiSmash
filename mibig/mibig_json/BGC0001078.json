@@ -1,0 +1,37 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 6439197, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "furaquinocin A"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "AB212624", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001078", 
+        "publications": [
+            "16452404"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type III"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene", 
+            "Polyketide"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "GE37468",
+                "chem_struct": "NC(=O)CC1NC(=O)c2nc(oc2C)c2ccc(nc2c2csc(n2)c2csc(n2)C2N(C(=O)C(NC(=O)C3N=C(C(NC(=O)c4nc1sc4)Cc1ccccc1)SC3)Cc1ccc(cc1)O)C(CC2C)O)c1scc(n1)C(=O)NC(=C)C(=O)NC(=C)C(=O)O",
+                "molecular_formula": "C59H52N14O12S5",
+                "mol_mass": 1309.45
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 24412, 
+                    "Accession": "JN052143", 
+                    "start_coord": 7234
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000605", 
+        "RiPP": {
+            "ripp_subclass": "Thiopeptide"
+        }, 
+        "publications": [
+            "21788474"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

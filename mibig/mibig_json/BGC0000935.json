@@ -1,0 +1,438 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Zhe Rui", 
+        "submitter_institution": "UC Berkeley", 
+        "submitter_email": "ruizhebio@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000935", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "22999880", 
+        "loci": {
+            "complete": "incomplete", 
+            "nucl_acc": [
+                {
+                    "Accession": "JF417969.1", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Esmeraldin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 443757, 
+                "chem_act": [
+                	"Pigment", 
+                    "Unknown"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "6-methylsalicylic acid", 
+                        "moiety_subcluster": [
+                            "afb35628.1", 
+                            "afb35629.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "phenazine", 
+                        "moiety_subcluster": [
+                            "afb35618.1", 
+                            "afb35620.1", 
+                            "afb35622.1", 
+                            "afb35627.1", 
+                            "afb35626.1", 
+                            "afb35633.1", 
+                            "afb35632.1", 
+                            "afb35631.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "esmT3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 152, 
+                    "gene_endpos": 1624, 
+                    "gene_id": "AFB35615.1", 
+                    "gene_annotation": "Integrin-like protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Same as wild-type."
+                }, 
+                {
+                    "gene_name": "esmT4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1695, 
+                    "gene_endpos": 2423, 
+                    "gene_id": "AFB35616.1", 
+                    "gene_annotation": "Transcriptional regulation", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Same as wild-type."
+                }, 
+                {
+                    "gene_name": "esmT5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2551, 
+                    "gene_endpos": 3999, 
+                    "gene_id": "AFB35617.1", 
+                    "gene_annotation": "Exporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Same as wild-type."
+                }, 
+                {
+                    "gene_name": "esmA1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4154, 
+                    "gene_endpos": 4654, 
+                    "gene_id": "AFB35618.1", 
+                    "gene_annotation": "AOCHC dimerization", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Similar to wild-type: the esmA1 mutant accumulated more than 2.5-fold of the shunt product PCA than the wild-type."
+                }, 
+                {
+                    "gene_name": "esmH1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4703, 
+                    "gene_endpos": 5035, 
+                    "gene_id": "AFB35619.1", 
+                    "gene_annotation": "Hypothetical", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "esmA2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5068, 
+                    "gene_endpos": 5703, 
+                    "gene_id": "AFB35620.1", 
+                    "gene_annotation": "PDC formation", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Similar as wild-type except that the PDC-derived metabolites were barely detectable in the esmA2 mutant."
+                }, 
+                {
+                    "gene_name": "esmB2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5783, 
+                    "gene_endpos": 7204, 
+                    "gene_id": "AFB35621.1", 
+                    "gene_annotation": "Function with EsmB1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The esmB2 mutant failed to produce esmeraldin but accumulated PDC and PCA."
+                }, 
+                {
+                    "gene_name": "esmB1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7204, 
+                    "gene_endpos": 8301, 
+                    "gene_id": "AFB35623.1", 
+                    "gene_annotation": "PDC adenylase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The esmB1 mutant failed to produce esmeraldin but accumulated PDC and PCA."
+                }, 
+                {
+                    "gene_name": "esmT1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8314, 
+                    "gene_endpos": 9399, 
+                    "gene_id": "AFB35624.1", 
+                    "gene_annotation": "Transcriptional activation", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The esmT1 mutant failed to produce any phenazine."
+                }, 
+                {
+                    "gene_name": "esmA3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9770, 
+                    "gene_endpos": 10507, 
+                    "gene_id": "AFB35622.1", 
+                    "gene_annotation": "DHHA isomerase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The esmA3 mutant failed to produce any phenazine."
+                }, 
+                {
+                    "gene_name": "esmT2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10563, 
+                    "gene_endpos": 13358, 
+                    "gene_id": "AFB35625.1", 
+                    "gene_annotation": "Quorum sensing", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The esmT2 mutant failed to produce any phenazine."
+                }, 
+                {
+                    "gene_name": "esmA5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13803, 
+                    "gene_endpos": 15731, 
+                    "gene_id": "AFB35626.1", 
+                    "gene_annotation": "ADIC synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The esmA5 mutant failed to produce any phenazine."
+                }, 
+                {
+                    "gene_name": "esmA4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15728, 
+                    "gene_endpos": 16396, 
+                    "gene_id": "AFB35627.1", 
+                    "gene_annotation": "DHHA synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The esmA4 mutant failed to produce any phenazine."
+                }, 
+                {
+                    "gene_name": "esmD3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16422, 
+                    "gene_endpos": 16673, 
+                    "gene_id": "AFB35628.1", 
+                    "gene_annotation": "6-methylsalicylyl carrier protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The esmD3 mutant accumulated saphenic acid, 6-acetyl-PCA, and PCA. The esmD3 only produced trace amount of esmeraldins."
+                }, 
+                {
+                    "gene_name": "esmD2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16712, 
+                    "gene_endpos": 18415, 
+                    "gene_id": "AFB35629.1", 
+                    "gene_annotation": "6-MSA adenylase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The esmD2 mutant accumulated saphenic acid, 6-acetyl-PCA, and PCA, but failed to produce any esmeraldin or saphenamycin."
+                }, 
+                {
+                    "gene_name": "esmD1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18518, 
+                    "gene_endpos": 19555, 
+                    "gene_id": "AFB35630.1", 
+                    "gene_annotation": "Esterification", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The esmD1 mutant accumulated saphenic acid, 6-acetyl-PCA, and PCA, but failed to produce any esmeraldin or saphenamycin."
+                }, 
+                {
+                    "gene_name": "esmA8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19651, 
+                    "gene_endpos": 20187, 
+                    "gene_id": "AFB35631.1", 
+                    "gene_annotation": "Shikimate kinase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Same as wild-type."
+                }, 
+                {
+                    "gene_name": "esmA7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20199, 
+                    "gene_endpos": 21383, 
+                    "gene_id": "AFB35632.1", 
+                    "gene_annotation": "Chorismate synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Same as wild-type."
+                }, 
+                {
+                    "gene_name": "esmA6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21427, 
+                    "gene_endpos": 22842, 
+                    "gene_id": "AFB35633.1", 
+                    "gene_annotation": "DAHP synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Same as wild-type."
+                }, 
+                {
+                    "gene_name": "esmB3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23336, 
+                    "gene_endpos": 23743, 
+                    "gene_id": "AFB35634.1", 
+                    "gene_annotation": "PDC carrier protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The esmB3 mutant failed to produce esmeraldin but accumulated PDC and PCA."
+                }, 
+                {
+                    "gene_name": "esmB4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23736, 
+                    "gene_endpos": 26510, 
+                    "gene_id": "AFB35635.1", 
+                    "gene_annotation": "KS-AT-ACP", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The esmB4 mutant failed to produce esmeraldin but accumulated PDC and PCA."
+                }, 
+                {
+                    "gene_name": "esmB5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26523, 
+                    "gene_endpos": 27314, 
+                    "gene_id": "AFB35636.1", 
+                    "gene_annotation": "Thioesterase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The esmB5 mutant only produced trace amounts of saphenamycin and esmeraldin, but accumulated large amounts of PDC and PCA."
+                }, 
+                {
+                    "gene_name": "esmC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27311, 
+                    "gene_endpos": 28384, 
+                    "gene_id": "AFB35637.1", 
+                    "gene_annotation": "6-acetyl-PCA reductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The esmC mutant accumulated 6-acetyl-PCA, PDC, PCA, and only produced trace amount of saphenamycin."
+                }, 
+                {
+                    "gene_name": "esmH2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 28479, 
+                    "gene_endpos": 28916, 
+                    "gene_id": "AFB35638.1", 
+                    "gene_annotation": "Hypothetical", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "esmT6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 28885, 
+                    "gene_endpos": 29847, 
+                    "gene_id": "AFB35639.1", 
+                    "gene_annotation": "Transcriptional regulation", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Same as wild-type."
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Aminocoumarin"
+        }, 
+        "Polyketide": {
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AFB35623.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "0", 
+                            "pks_domains": [
+                                "A"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AFB35635.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "None", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "comments": "The esmeraldin biosynthetic gene cluster was identified on a dispensable giant plasmid."
+}
+
+

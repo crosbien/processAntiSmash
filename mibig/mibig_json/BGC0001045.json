@@ -1,0 +1,288 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Yi-Qiang (Eric) Cheng", 
+        "submitter_institution": "University of North Texas Health Science Center", 
+        "submitter_email": "yiqiang.cheng@unthsc.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001045", 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ], 
+        "publications": "24973954", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "JQ045344", 
+                    "start_coord": 4917, 
+                    "end_coord": 45295, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Spiruchostatin A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 60209141, 
+                "chem_act": [
+                    "Antifungal", 
+                    "Cytotoxic", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "Histone deacetylases", 
+                "chem_moieties": [
+                    {
+                        "moiety_subcluster": [
+                            "disulfide bond"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "afr69331", 
+                        "afr69332", 
+                        "afr69333", 
+                        "afr69334", 
+                        "afr69335", 
+                        "afr69336", 
+                        "afr69337", 
+                        "afr69338", 
+                        "afr69339", 
+                        "afr69340", 
+                        "afr69341"
+                    ], 
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "spiR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2300, 
+                    "gene_endpos": 3715, 
+                    "gene_id": "AFR69327.1", 
+                    "gene_annotation": "putative protease PrtA", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "spiR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4917, 
+                    "gene_endpos": 5789, 
+                    "gene_id": "AFR69329.1", 
+                    "gene_annotation": "lysR family transcriptional activator SpiR", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "spiN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6111, 
+                    "gene_endpos": 6359, 
+                    "gene_id": "AFR69330.1", 
+                    "gene_annotation": "putative type II peptidyl carrier protein (PCP) SpiN", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "spiA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6631, 
+                    "gene_endpos": 11655, 
+                    "gene_id": "AFR69331.1", 
+                    "gene_annotation": "nonribosomal peptide synthetase SpiA", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "spiB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11655, 
+                    "gene_endpos": 16340, 
+                    "gene_id": "AFR69332.1", 
+                    "gene_annotation": "polyketide synthase SpiB", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "spiC1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16340, 
+                    "gene_endpos": 19867, 
+                    "gene_id": "AFR69333.1", 
+                    "gene_annotation": "polyketide synthase SpiC1", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "spiDE1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19864, 
+                    "gene_endpos": 32109, 
+                    "gene_id": "AFR69334.1", 
+                    "gene_annotation": "nonribosomal peptide synthetase SpiDE1", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "spiC2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 32106, 
+                    "gene_endpos": 36674, 
+                    "gene_id": "AFR69335.1", 
+                    "gene_annotation": "polyketide synthase SpiC2", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "spiF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 36664, 
+                    "gene_endpos": 37839, 
+                    "gene_id": "AFR69328.1", 
+                    "gene_annotation": "acyl CoA dehydrogenase SpiF", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "spiG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 37836, 
+                    "gene_endpos": 38804, 
+                    "gene_id": "AFR69336.1", 
+                    "gene_annotation": "phosphotransfearse SpiG", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "spiE2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 38801, 
+                    "gene_endpos": 41020, 
+                    "gene_id": "AFR69337.1", 
+                    "gene_annotation": "nonribosomal peptide synthetase SpiE2", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "spiH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 41103, 
+                    "gene_endpos": 42008, 
+                    "gene_id": "AFR69338.1", 
+                    "gene_annotation": "FAD-dependent disulfide oxidoreductase SpiH", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "spiI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 42066, 
+                    "gene_endpos": 42971, 
+                    "gene_id": "AFR69339.1", 
+                    "gene_annotation": "esterase/lipase SpiI", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "spiJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43182, 
+                    "gene_endpos": 44033, 
+                    "gene_id": "AFR69340.1", 
+                    "gene_annotation": "type II thioesterase SpiJ", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "spiP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 44153, 
+                    "gene_endpos": 45295, 
+                    "gene_id": "AFR69341.1", 
+                    "gene_annotation": "malonyl CoA acyl transferase (MCAT) SpiP", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 45705, 
+                    "gene_endpos": 46709, 
+                    "gene_id": "AFR69342.1", 
+                    "gene_annotation": "luxR family transcriptional regulator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Cyclic depsipeptide", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Type II", 
+            "nrps_release_type": "Macrolactamization"
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Macrolide", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "pks_te_type": "Type II", 
+            "pks_thioesterase": [
+                "afr69340"
+            ], 
+            "pks_release_type": "Macrolactamization"
+        }
+    }
+}
+
+

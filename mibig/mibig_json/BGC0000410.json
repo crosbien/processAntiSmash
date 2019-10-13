@@ -1,0 +1,23 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "pseudomonine"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "EF484930", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000410", 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

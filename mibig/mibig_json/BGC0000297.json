@@ -1,0 +1,202 @@
+{
+    "version": "11", 
+    "personal": {
+        "submitter_name": "Keishi Ishida", 
+        "submitter_institution": "Leipniz Institute for Natural Product Research and Infection Biology", 
+        "submitter_email": "keishi.ishida@hki-jena.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000297", 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide",
+            "Saccharide"
+        ], 
+        "publications": "17524987, 20863139, 19201978", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AM071396", 
+                    "start_coord": 2649, 
+                    "end_coord": 24685, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Aeruginoside 126B", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C([C@@H](CC(C)C)NC([C@@H](CC1=CC=CC=C1)O)=O)N2[C@H]3C[C@H](OC4OCC(O)C(O)C4O)CC[C@H]3C[C@H]2C(NCCCCNC(N)=N)=O", 
+                "molecular_formula": "C34H53N6O9", 
+                "mol_mass": 691.4051, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "Aeruginoside 126A", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C([C@@H](CC(C)C)NC([C@@H](CC1=CC=CC=C1)O)=O)N2[C@H]3C[C@H](OC4OCC(O)C(O)C4O)CC[C@H]3C[C@H]2C(NCCC5=CCN(C(N)=N)C5)=O", 
+                "molecular_formula": "C36H54N6O9", 
+                "mol_mass": 715.4056, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "Trypsin, thrombin", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "2-carboxy-6-hydroxy-octahydroindole", 
+                        "moiety_subcluster": [
+                            "caj21199.2", 
+                            "cam59603.1", 
+                            "cam59604.1", 
+                            "cam59605.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "1-amino-2-(N-amidino-delta3-pyrrolinyl)-ethyl", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_id": "CAJ21199.2", 
+                    "gene_annotation": "putative oxygenase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other"
+                    ]
+                }, 
+                {
+                    "gene_id": "CAM59603.1", 
+                    "gene_annotation": "Prephenate decarboxylase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Other"
+                    ], 
+                    "mut_pheno": "Loss of aeruginoside production"
+                }, 
+                {
+                    "gene_id": "CAM59604.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Other"
+                    ], 
+                    "mut_pheno": "Loss of aeruginoside production"
+                }, 
+                {
+                    "gene_id": "CAM59605.1", 
+                    "gene_annotation": "putative reductase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Other"
+                    ], 
+                    "mut_pheno": "Loss of aeruginoside production"
+                }, 
+                {
+                    "gene_id": "CAM59607.1", 
+                    "gene_annotation": "putative dioxygenase", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_id": "CAM59608.1", 
+                    "gene_annotation": "putative glycosyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Glycopeptide", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "CAM59601.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "Unknown"
+                            }, 
+                            "nrps_mod_doms": "Other"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "CAJ21198.2", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Leucine", 
+                                "epimerized": true, 
+                                "evidence_a_spec": "Sequence-based prediction"
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "CAM59606.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Other", 
+                                "other_spec": "2-carboxy-6-hydroxy-octahydroindole", 
+                                "aa_subcluster": [
+                                    "caj21199.2", 
+                                    "cam59603.1", 
+                                    "cam59604.1", 
+                                    "cam59605.1"
+                                ]
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None"
+                        }
+                    ]
+                }
+            ], 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Other"
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Other"
+            ], 
+            "starter_unit": "Other", 
+            "pks_genes": [
+                "cam59601.1"
+            ]
+        }
+    }
+}
+
+

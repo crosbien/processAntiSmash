@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 3085238, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "naphthyridinomycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "JQ996389", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000394", 
+        "publications": [
+            "23841701"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

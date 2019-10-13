@@ -1,0 +1,193 @@
+{
+    "version": "11", 
+    "personal": {
+        "submitter_name": "Dr. Yvonne Mast", 
+        "submitter_institution": "University T\u00c3\u00bcbingen, IMIT", 
+        "submitter_email": "yvonne.mast@biotech.uni-tuebingen.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000406", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "15574905", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "X65195", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Phosphinothricintripeptide", 
+                "chem_synonyms": [
+                    "phosphinothricin", 
+                    "bialaphos", 
+                    "glufosinate", 
+                    "basta"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 25244585, 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "glutamine synthetase", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "phosphino-group", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "phsB", 
+                    "gene_id": "CAJ14037", 
+                    "gene_annotation": "peptide synthetase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "PTT-deficient"
+                }, 
+                {
+                    "gene_name": "orfM", 
+                    "gene_id": "CAJ14038", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "PTT-deficient"
+                }, 
+                {
+                    "gene_name": "phsC", 
+                    "gene_id": "CAJ14039", 
+                    "gene_annotation": "peptide synthetase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "PTT-deficient"
+                }, 
+                {
+                    "gene_name": "pmi", 
+                    "gene_id": "CAJ14040", 
+                    "gene_annotation": "phosphinomethylmalate isomerase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "PTT-deficient"
+                }, 
+                {
+                    "gene_name": "ppm", 
+                    "gene_id": "CAJ14044", 
+                    "gene_annotation": "PEP-phosphomutase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "PTT-deficient"
+                }, 
+                {
+                    "gene_name": "ppd", 
+                    "gene_id": "CAJ14045", 
+                    "gene_annotation": "phosphonopyruvate decarboxylase ", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "PTT-deficient"
+                }, 
+                {
+                    "gene_name": "pms", 
+                    "gene_id": "CAA46312", 
+                    "gene_annotation": "2-phosphinomethylmalic acid synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "phsA", 
+                    "gene_id": "CAA46313", 
+                    "gene_annotation": "peptide synthetase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "PTT-deficient"
+                }, 
+                {
+                    "gene_name": "pat", 
+                    "gene_id": "CAA46314", 
+                    "gene_annotation": "phosphinothricin acetyl transferase", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "PTT-deficient"
+                }, 
+                {
+                    "gene_name": "dea", 
+                    "gene_id": "CAA46315", 
+                    "gene_annotation": "phosphinothricin tripeptide acetyl hydrolase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acetylation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "the1", 
+                    "gene_id": "CAJ14052", 
+                    "gene_annotation": "thioesterase", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "reduced PTT production"
+                }, 
+                {
+                    "gene_name": "the2", 
+                    "gene_id": "CAJ14053", 
+                    "gene_annotation": "thioesterase", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "reduced PTT production"
+                }, 
+                {
+                    "gene_name": "prpA", 
+                    "gene_id": "CAJ14055", 
+                    "gene_annotation": "regulatory protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "PTT-deficient"
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_te_type": "Both", 
+            "nrps_release_type": "Hydrolysis"
+        }
+    }
+}
+
+

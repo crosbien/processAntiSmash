@@ -1,0 +1,55 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "cyclochlorotine",
+                "database_deposited": true,
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "pubchem_id": 57134655
+            },
+            {
+                "compound": "Hydroxy-cyclochlorotine",
+                "chem_struct": "CC(C)[C@@H]1NC(=O)[C@@H]2[C@H](Cl)[C@H](Cl)CN2C(=O)[C@H](CO)NC(=O)C[C@@H](NC(=O)[C@H](CO)NC1=O)C1=CC=CC=C1",
+                "molecular_formula": "C25H33Cl2N5O7",
+                "mol_mass": 586.473
+            },
+            {
+                "compound": "Cyclotine",
+                "chem_struct": "CC[C@@H]1NC(=O)[C@@H]2CCCN2C(=O)[C@H](CO)NC(=O)C[C@@H](NC(=O)[C@H](CO)NC1=O)C1=CC=CC=C1",
+                "molecular_formula": "C24H33N5O7",
+                "mol_mass": 503.556
+            },
+            {
+                "compound": "Cyclochlorotine B",
+                "chem_struct": "CC[C@@H]1NC(=O)[C@@H]2[C@H](Cl)CCN2C(=O)[C@H](CO)NC(=O)C[C@@H](NC(=O)[C@H](CO)NC1=O)C1=CC=CC=C1",
+                "molecular_formula": "C24H32ClN5O7",
+                "mol_mass": 538.001
+            },
+            {
+                "compound": "Deoxy-Cyclochlorotine",
+                "chem_struct": "CC[C@@H]1NC(=O)[C@@H]2[C@H](Cl)[C@H](Cl)CN2C(=O)[C@H](C)NC(=O)C[C@@H](NC(=O)[C@H](CO)NC1=O)C1=CC=CC=C1",
+                "molecular_formula": "C24H31Cl2N5O6",
+                "mol_mass": 556.447
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2218283, 
+                    "Accession": "CVMT01000002", 
+                    "start_coord": 2179859
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001402", 
+        "publications": [
+            "26954535"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

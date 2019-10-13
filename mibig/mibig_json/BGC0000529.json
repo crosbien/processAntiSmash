@@ -1,0 +1,411 @@
+{
+    "personal": {
+        "submitter_email": "msosio@naicons.com / lorena.fernandez-martinez@jic.ac.uk", 
+        "submitter_name": "Margherita Sosio and Lorena T. Fernandez-Martinez", 
+        "submitter_institution": "Naicons Srl and John Innes Centre; Norwich Research Park; Norwich; NR4 7UH; United Kingdom"
+    }, 
+    "version": "17", 
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 23062, 
+                    "Accession": "HM536998", 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ], 
+                    "start_coord": 1656
+                }
+            ], 
+            "complete": "complete"
+        }, 
+        "compounds": [
+            {
+                "mol_mass": 2232.95, 
+                "chem_struct": "O=C(N[C@H](C(NC(C(N[C@H](C(N[C@H](C(N[C@H]([C@H](C)SC[C@@H](C(N[C@H]([C@H](O)C)C(N[C@@H](C(N1[C@H]2[C@@H](O)CC1)=O)CSC[C@H](NC([C@H](CC(N)=O)NC([C@H](NC(CNC(CNC(CNC2=O)=O)=O)=O)CSC[C@@H](C(N/C=C\\\\SC3)=O)NC4=O)=O)=O)C(N[C@@H]3C(N[C@@H]4CC5=CC=CC=C5)=O)=O)=O)=O)NC6=O)C(N7[C@H](C(NC6)=O)CCC7)=O)=O)CSC8)=O)CC(C)C)=O)=C)=O)CC9=CNC%10=C9C=C(Cl)C=C%10)[C@@H]8NC(/C(NC([C@H](C(C)C)N)=O)=C/C)=O", 
+                "mass_ion_type": "none", 
+                "chem_moieties": [
+                    {
+                        "moiety_subcluster": []
+                    }
+                ], 
+                "chem_target": "Lipid II", 
+                "compound": "microbisporicin A2", 
+                "molecular_formula": "C94 H127 Cl N26 O26 S5", 
+                "chem_synonyms": [
+                    "microbisporicin",
+                    "antibiotic 107891", 
+                    "NAI-107 A2"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "mibj", 
+                        "miby", 
+                        "mibz", 
+                        "mibo"
+                    ], 
+                    "evidence_operon": "Other"
+                }, 
+                {
+                    "operon_genes": [
+                        "mibq"
+                    ], 
+                    "evidence_operon": "Other"
+                }, 
+                {
+                    "operon_genes": [
+                        "mibr"
+                    ], 
+                    "evidence_operon": "Other"
+                }, 
+                {
+                    "operon_genes": [
+                        "mibx", 
+                        "mibw"
+                    ], 
+                    "evidence_operon": "Other"
+                }, 
+                {
+                    "operon_genes": [
+                        "miba", 
+                        "mibb", 
+                        "mibc", 
+                        "mibd", 
+                        "mibt", 
+                        "mibu", 
+                        "mibv"
+                    ], 
+                    "evidence_operon": "Other"
+                }, 
+                {
+                    "operon_genes": [
+                        "mibe", 
+                        "mibf", 
+                        "mibh", 
+                        "mibs", 
+                        "mibn"
+                    ], 
+                    "evidence_operon": "Other"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_function": "Unknown", 
+                    "gene_endpos": 2294, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_id": "ADK32546.1", 
+                    "gene_annotation": "MibJ, hypothetical membrane protein", 
+                    "gene_startpos": 1656, 
+                    "not_in_gbk": false, 
+                    "gene_name": "mibJ"
+                }, 
+                {
+                    "gene_function": "Transport", 
+                    "gene_endpos": 3067, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_id": "ADK32547.1", 
+                    "gene_annotation": "putative ABC permease", 
+                    "gene_startpos": 2291, 
+                    "not_in_gbk": false, 
+                    "gene_name": "mibY"
+                }, 
+                {
+                    "gene_function": "Transport", 
+                    "gene_endpos": 3966, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_id": "ADK32548.1", 
+                    "gene_annotation": "putative ABC transporter ATP-binding protein", 
+                    "gene_startpos": 3064, 
+                    "not_in_gbk": false, 
+                    "gene_name": "mibZ"
+                }, 
+                {
+                    "gene_function": "Tailoring", 
+                    "gene_endpos": 5207, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_id": "ADK32549.1", 
+                    "gene_annotation": "cytochrome P450", 
+                    "gene_startpos": 3963, 
+                    "not_in_gbk": false, 
+                    "tailoring": "Hydroxylation", 
+                    "gene_name": "mibO"
+                }, 
+                {
+                    "gene_function": "Resistance/immunity", 
+                    "gene_endpos": 5629, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_id": "ADK32550.1", 
+                    "gene_annotation": "putative lipoprotein signal peptide-containing protein", 
+                    "gene_startpos": 5240, 
+                    "not_in_gbk": false, 
+                    "gene_name": "mibQ"
+                }, 
+                {
+                    "gene_function": "Regulation", 
+                    "gene_endpos": 6720, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction",
+                        "Knock-out"
+                    ], 
+                    "gene_id": "ADK32551.1", 
+                    "gene_annotation": "putative DNA-binding protein, transcriptional activator", 
+                    "gene_startpos": 5938, 
+                    "not_in_gbk": false,
+                    "mut_pheno": "non-producer", 
+                    "gene_name": "mibR"
+                }, 
+                {
+                    "gene_function": "Regulation", 
+                    "gene_endpos": 7833, 
+                    "evidence_genefunction": [
+                        "Other"
+                    ], 
+                    "gene_id": "ADK32552.1", 
+                    "gene_annotation": "putative anti-sigma factor", 
+                    "gene_startpos": 7066, 
+                    "not_in_gbk": false, 
+                    "gene_name": "mibW"
+                }, 
+                {
+                    "gene_function": "Regulation", 
+                    "gene_endpos": 8485, 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "gene_id": "ADK32553.1", 
+                    "gene_annotation": "RNA polymerase, sigma-24 subunit, ECF subfamily", 
+                    "gene_startpos": 7823, 
+                    "not_in_gbk": false, 
+                    "mut_pheno": "non-producer", 
+                    "gene_name": "mibX"
+                }, 
+                {
+                    "gene_function": "Scaffold biosynthesis", 
+                    "gene_endpos": 8789, 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "gene_id": "ADK32554.1", 
+                    "gene_annotation": "microbisporicin structural preproprotein", 
+                    "gene_startpos": 8616, 
+                    "not_in_gbk": false, 
+                    "mut_pheno": "non-producer", 
+                    "gene_name": "mibA"
+                }, 
+                {
+                    "gene_function": "Scaffold biosynthesis", 
+                    "gene_endpos": 12254, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_id": "ADK32555.1", 
+                    "gene_annotation": "lantibiotic dehydratase", 
+                    "gene_startpos": 8907, 
+                    "not_in_gbk": false, 
+                    "gene_name": "mibB"
+                }, 
+                {
+                    "gene_function": "Scaffold biosynthesis", 
+                    "gene_endpos": 13708, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_id": "ADK32556.1", 
+                    "gene_annotation": "lantibiotic cyclase", 
+                    "gene_startpos": 12251, 
+                    "not_in_gbk": false, 
+                    "gene_name": "mibC"
+                }, 
+                {
+                    "gene_function": "Scaffold biosynthesis", 
+                    "gene_endpos": 14420, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction",
+                        "Knock-out"
+                    ], 
+                    "gene_id": "ADK32557.1", 
+                    "gene_annotation": "flavoprotein decarboxylase", 
+                    "gene_startpos": 13737, 
+                    "not_in_gbk": false,
+                    "mut_pheno": "non-producer",
+                    "gene_name": "mibD"
+                }, 
+                {
+                    "gene_function": "Transport", 
+                    "gene_endpos": 15367, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_id": "ADK32558.1", 
+                    "gene_annotation": "ABC transporter ATP-binding domain", 
+                    "gene_startpos": 14417, 
+                    "not_in_gbk": false, 
+                    "mut_pheno": "normal production", 
+                    "gene_name": "mibT"
+                }, 
+                {
+                    "gene_function": "Transport", 
+                    "gene_endpos": 16217, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_id": "ADK32559.1", 
+                    "gene_annotation": "ABC-type multidrug transport system permease component", 
+                    "gene_startpos": 15345, 
+                    "not_in_gbk": false,
+                    "mut_pheno": "normal production",
+                    "gene_name": "mibU"
+                }, 
+                {
+                    "gene_function": "Unknown", 
+                    "gene_endpos": 17229, 
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_id": "ADK32560.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_startpos": 16225, 
+                    "not_in_gbk": false, 
+                    "mut_pheno": "normal production", 
+                    "gene_name": "mibV"
+                }, 
+                {
+                    "gene_function": "Transport", 
+                    "gene_endpos": 18777, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction",
+                        "Knock-out"
+                    ], 
+                    "gene_id": "ADK32561.1", 
+                    "gene_annotation": "putative lantibiotic ABC transporter permease protein", 
+                    "gene_startpos": 18028, 
+                    "not_in_gbk": false,
+                    "mut_pheno": "very low production",
+                    "gene_name": "mibE"
+                }, 
+                {
+                    "gene_function": "Transport", 
+                    "gene_endpos": 19489, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction",
+                        "Knock-out"
+                    ], 
+                    "gene_id": "ADK32562.1", 
+                    "gene_annotation": "putative lantibiotic ABC transporter ATP-binding protein", 
+                    "gene_startpos": 18779, 
+                    "not_in_gbk": false,
+                    "mut_pheno": "very low production",
+                    "gene_name": "mibF"
+                }, 
+                {
+                    "gene_function": "Tailoring", 
+                    "gene_endpos": 21228, 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "gene_id": "ADK32563.1", 
+                    "gene_annotation": "tryptophan-5-halogenase", 
+                    "mut_pheno": "producer of only nonchlorinated compound", 
+                    "gene_startpos": 19522, 
+                    "not_in_gbk": false, 
+                    "tailoring": "Halogenation", 
+                    "gene_name": "mibH"
+                }, 
+                {
+                    "gene_function": "Tailoring", 
+                    "gene_endpos": 21761, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_id": "ADK32564.1", 
+                    "gene_annotation": "flavin reductase", 
+                    "gene_startpos": 21225, 
+                    "not_in_gbk": false, 
+                    "tailoring": "FADH2 supply for chlorination", 
+                    "gene_name": "mibS"
+                }, 
+                {
+                    "gene_function": "Other enzymatic", 
+                    "gene_endpos": 23062, 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "gene_id": "ADK32565.1", 
+                    "gene_annotation": "integral membrane ion antiporter", 
+                    "gene_startpos": 21758, 
+                    "not_in_gbk": false, 
+                    "mut_pheno": "normal production", 
+                    "gene_name": "mibN"
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000529", 
+        "RiPP": {
+            "ripp_subclass": "Lantipeptide", 
+            "precursor_loci": [
+                {
+                    "foll_pept_len": -1, 
+                    "crosslinks": [
+                        {
+                            "crosslink_type": "Thioether", 
+                            "AA_pos_1": 3, 
+                            "AA_pos_2": 7
+                        }, 
+                        {
+                            "crosslink_type": "Thioether", 
+                            "AA_pos_1": 8, 
+                            "AA_pos_2": 11
+                        }, 
+                        {
+                            "crosslink_type": "Thioether", 
+                            "AA_pos_1": 13, 
+                            "AA_pos_2": 20
+                        }, 
+                        {
+                            "crosslink_type": "Thioether", 
+                            "AA_pos_1": 18, 
+                            "AA_pos_2": 23
+                        }, 
+                        {
+                            "crosslink_type": "Thioether", 
+                            "AA_pos_1": 21, 
+                            "AA_pos_2": 23
+                        }
+                    ], 
+                    "core_pept_aa": "VTSWSLCTPGCTSPGGGSNCSFCC", 
+                    "gene_id": [
+                        "adk32554"
+                    ], 
+                    "lead_pept_len": 33, 
+                    "recogn_motif": "LDLD", 
+                    "peptidase": []
+                }
+            ], 
+            "lin_cycl_ripp": "Linear"
+        }, 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "20628010,24459268, 24422756, 21478362,24627484"
+    }
+}

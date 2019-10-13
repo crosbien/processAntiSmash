@@ -1,0 +1,729 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Stefan Diethelm, Leonard Kaysser", 
+        "submitter_institution": "Scripps Institution of Oceanography, Eberhard Karls University Tuebingen", 
+        "submitter_email": "sdiethelm@ucsd.edu, leonard.kaysser@uni-tuebingen.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001083", 
+        "biosyn_class": [
+            "Polyketide", 
+            "Terpene"
+        ], 
+        "publications": "22784372", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "JX186999", 
+                    "start_coord": 1, 
+                    "end_coord": 57523, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "merochlorin A", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C2C([C@]3(C/C(C4)=C(C)\\\\C)[C@@H]4[C@@](C)(CC/C=C(C)/C)[C@](C3=O)(Cl)C2=O)=CC(O)=C1", 
+                "molecular_formula": "C25H29ClO4", 
+                "mol_mass": 427.1682, 
+                "mass_ion_type": "[M-H]-", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "chlorine", 
+                        "moiety_subcluster": [
+                            "mcl24"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "merochlorin B", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C2C(C(C3C(C)(CC/C=C(C)/C)O4)(C/C(C3)=C(C)/C)C4=C(Cl)C2=O)=CC(O)=C1", 
+                "molecular_formula": "C25H29ClO4", 
+                "mol_mass": 427.1682, 
+                "mass_ion_type": "[M-H]-", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "chlorine", 
+                        "moiety_subcluster": [
+                            "mcl24"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "deschloro-merochlorin A", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C2C([C@]3(C/C(C4)=C(C)\\\\C)[C@@H]4[C@@](C)(CC/C=C(C)/C)[C@](C3=O)([H])C2=O)=CC(O)=C1", 
+                "molecular_formula": "C25H30O4", 
+                "mol_mass": 393.2071, 
+                "mass_ion_type": "[M-H]-", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "deschloro-merochlorin B", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C2C(C(C3C(C)(CC/C=C(C)/C)O4)(C/C(C3)=C(C)/C)C4=C([H])C2=O)=CC(O)=C1", 
+                "molecular_formula": "C25H30O4", 
+                "mol_mass": 393.2071, 
+                "mass_ion_type": "[M-H]-", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "isochloro-merochlorin B", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C2C(C(C3C(C)(CC/C=C(C)/C)O4)(C/C(C3)=C(C)/C)C4=C([H])C2=O)=CC(O)=C1Cl", 
+                "molecular_formula": "C25H29ClO4", 
+                "mol_mass": 427.1682, 
+                "mass_ion_type": "[M-H]-", 
+                "chem_act": [
+                    "Unknown"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "chlorine", 
+                        "moiety_subcluster": [
+                            "mcl24"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "dichloro-merochlorin B", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C2C(C(C3C(C)(CC/C=C(C)/C)O4)(C/C(C3)=C(C)/C)C4=C(Cl)C2=O)=CC(O)=C1Cl", 
+                "molecular_formula": "C25H28Cl2O4", 
+                "mol_mass": 461.1292, 
+                "mass_ion_type": "[M-H]-", 
+                "chem_act": [
+                    "Unknown"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "chlorine", 
+                        "moiety_subcluster": [
+                            "mcl24"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "merochlorin D", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C2C(C(C(O)(C/C(C/C=C(C)/CC/C=C(C)/C)=C(C)/C)C(Cl)(C)C2=O)=O)=CC(O)=C1", 
+                "molecular_formula": "C26H33ClO5", 
+                "mol_mass": 459.1944, 
+                "mass_ion_type": "[M-H]-", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "chlorine", 
+                        "moiety_subcluster": [
+                            "mcl24"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "merochlorin C", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C2C(C(C3(O)C(Cl)(C)C2=O)=O)=CC(OC(C)(C)C(Cl)CC/C(C)=C/C/C(C3)=C(C)/C)=C1", 
+                "molecular_formula": "C26H32Cl2O5", 
+                "mol_mass": 493.1554, 
+                "mass_ion_type": "[M-H]-", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "chlorine", 
+                        "moiety_subcluster": [
+                            "mcl24"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "chlorine", 
+                        "moiety_subcluster": [
+                            "mcl40"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [], 
+            "gene": [
+                {
+                    "gene_name": "mcl1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68886.1", 
+                    "gene_annotation": "methylenetetrahydrofolate reductase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68887.1", 
+                    "gene_annotation": "isoprenyl diphosphate synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68888.1", 
+                    "gene_annotation": "ketoacyl-ACP synthase III", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68889.1", 
+                    "gene_annotation": "HMG-CoA synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68890.1", 
+                    "gene_annotation": "HMG-CoA reductase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68891.1", 
+                    "gene_annotation": "isopentenyldiphosphate isomerase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68892.1", 
+                    "gene_annotation": "phosphomevalonate kinase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68893.1", 
+                    "gene_annotation": "mevalonate diphosphate decarboxylase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68894.1", 
+                    "gene_annotation": "mevalonate kinase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68895.1", 
+                    "gene_annotation": "MerR-like transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68896.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl12", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68897.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl13", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68898.1", 
+                    "gene_annotation": "3-carboxymuconate cycloisomerase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl14", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68899.1", 
+                    "gene_annotation": "FAD-dependent oxidoreductase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl15", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68900.1", 
+                    "gene_annotation": "cytochrome B-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl16", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68901.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl17", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68902.1", 
+                    "gene_annotation": "type-III polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl18", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68903.1", 
+                    "gene_annotation": "monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl19", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68904.1", 
+                    "gene_annotation": "aminotransferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl20", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68905.1", 
+                    "gene_annotation": "AMP-dependent synthetase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl21", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68906.1", 
+                    "gene_annotation": "methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl22", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68907.1", 
+                    "gene_annotation": "isosesquilavandulyl diphosphate synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl23", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68908.1", 
+                    "gene_annotation": "aromatic prenyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Prenylation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl24", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68909.1", 
+                    "gene_annotation": "vanadium-dependent chloroperoxidase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Halogenation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl25", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68910.1", 
+                    "gene_annotation": "MFS-like transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl26", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68911.1", 
+                    "gene_annotation": "aromatase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl27", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68912.1", 
+                    "gene_annotation": "thioesterase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl28", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68913.1", 
+                    "gene_annotation": "SARP-like transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl29", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68914.1", 
+                    "gene_annotation": "TetR-like transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl30", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68915.1", 
+                    "gene_annotation": "iron-sulfur-binding oxidoreductase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl31", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68916.1", 
+                    "gene_annotation": "SARP-like transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl32", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68917.1", 
+                    "gene_annotation": "TetR-like transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl33", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68918.1", 
+                    "gene_annotation": "NRPS-like condensation domain", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl34", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68919.1", 
+                    "gene_annotation": "SARP-like transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl35", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68920.1", 
+                    "gene_annotation": "SARP-like transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl36", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68921.1", 
+                    "gene_annotation": "SARP-like transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl37", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68922.1", 
+                    "gene_annotation": "AfsA-like gamma-butyrolactone synthase", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl38", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68923.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl39", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68924.1", 
+                    "gene_annotation": "MFS-like transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl40", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68925.1", 
+                    "gene_annotation": "vanadium-dependent chloroperoxidase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Halogenation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcl41", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AGH68926.1", 
+                    "gene_annotation": "thioredoxin-like oxidoreductase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type III"
+            ], 
+            "starter_unit": "Malonamyl-CoA", 
+            "pks_genes": [
+                "mcl17,agh68902.1"
+            ], 
+            "ketide_length": 5, 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AGH68902.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Terpene": {
+            "terpene_subclass": "Other", 
+            "terpene_c_len": "Sesquiterpene", 
+            "terpene_precursor": "DMAPP", 
+            "terpene_synth_cycl": [
+                "mcl22", 
+                "AGH68907.1"
+            ], 
+            "prenyl_transf": [
+                "mcl23", 
+                "AGH68908.1"
+            ]
+        }
+    }, 
+    "comments": "An unusual terpene cyclization catalyzed by chloroperoxidases not by classic terpene synthase/cyclases"
+}
+
+

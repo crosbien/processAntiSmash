@@ -1,0 +1,787 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Xiaohui Yan", 
+        "submitter_institution": "The Scripps Research Institute", 
+        "submitter_email": "xyan@scripps.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000965", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "12183628,10639366,12785829,14580219,14987060,16104723,16887797,17234789,17516659,17887753,18052279,18182490,18426211,19246381,19817865,19856960,20551990,21250756,22519717,", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AY048670", 
+                    "start_coord": 5982, 
+                    "end_coord": 78769, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "C-1027", 
+                "chem_synonyms": [
+                    "lidamycin", 
+                    "c-1027 chromophore"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 5281917, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Cytotoxic"
+                ], 
+                "chem_target": "DNA", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "Benzoxazolinate", 
+                        "moiety_subcluster": [
+                            "aal06663", 
+                            "aal06664", 
+                            "aal06665", 
+                            "aal06666", 
+                            "aal06673", 
+                            "aal06683", 
+                            "aal06684"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "sgcB1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5982, 
+                    "gene_endpos": 7478, 
+                    "gene_id": "AAL06653.1", 
+                    "gene_annotation": "glycerol phosphate ABC transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcB2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7573, 
+                    "gene_endpos": 9927, 
+                    "gene_id": "AAL06654.1", 
+                    "gene_annotation": "UvrA-like drug resistance pump", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcB3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9982, 
+                    "gene_endpos": 11349, 
+                    "gene_id": "AAL06655.1", 
+                    "gene_annotation": "Na/H efflux pump", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcC3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11351, 
+                    "gene_endpos": 12835, 
+                    "gene_id": "AAL06656.1", 
+                    "gene_annotation": "alkylhalidase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Halogenation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "3-deschloro-C-1027 and 3-deschloro-5-deshydroxy-C-1027 producing"
+                }, 
+                {
+                    "gene_name": "sgcA1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13012, 
+                    "gene_endpos": 14079, 
+                    "gene_id": "AAL06657.1", 
+                    "gene_annotation": "dNTP-glucose synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "cagA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14212, 
+                    "gene_endpos": 14643, 
+                    "gene_id": "AAL06658.1", 
+                    "gene_annotation": "C-1027 apoprotein", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcA4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14690, 
+                    "gene_endpos": 15922, 
+                    "gene_id": "AAL06659.1", 
+                    "gene_annotation": "amino transferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcA5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15919, 
+                    "gene_endpos": 16653, 
+                    "gene_id": "AAL06660.1", 
+                    "gene_annotation": "N-methyl transferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcA3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16653, 
+                    "gene_endpos": 17924, 
+                    "gene_id": "AAL06661.1", 
+                    "gene_annotation": "C-methyl transferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18031, 
+                    "gene_endpos": 19188, 
+                    "gene_id": "AAL06662.1", 
+                    "gene_annotation": "epoxide hydrolase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydrolysis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcD1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19262, 
+                    "gene_endpos": 19924, 
+                    "gene_id": "AAL06663.1", 
+                    "gene_annotation": "anthranilate synthase II", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19921, 
+                    "gene_endpos": 21402, 
+                    "gene_id": "AAL06664.1", 
+                    "gene_annotation": "anthranilate synthase I", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcD5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21419, 
+                    "gene_endpos": 22873, 
+                    "gene_id": "AAL06665.1", 
+                    "gene_annotation": "putative phenylacetyl CoA ligase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22870, 
+                    "gene_endpos": 23541, 
+                    "gene_id": "AAL06666.1", 
+                    "gene_annotation": "hypothetical Fe-S flavoprotein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcD6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23561, 
+                    "gene_endpos": 24697, 
+                    "gene_id": "AAL06667.1", 
+                    "gene_annotation": "3-O-acyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acylation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "C-1027-nonproducer"
+                }, 
+                {
+                    "gene_name": "sgcA2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24981, 
+                    "gene_endpos": 25559, 
+                    "gene_id": "AAL06668.1", 
+                    "gene_annotation": "dNTP-4-keto-6-deoxyglucose epimerase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcD2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25810, 
+                    "gene_endpos": 27165, 
+                    "gene_id": "AAL06669.1", 
+                    "gene_annotation": "squalene monooxygenase-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcA6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27209, 
+                    "gene_endpos": 28588, 
+                    "gene_id": "AAL06670.1", 
+                    "gene_annotation": "glycosyl transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 28585, 
+                    "gene_endpos": 29583, 
+                    "gene_id": "AAL06671.1", 
+                    "gene_annotation": "dNTP-glucose dehydratase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "C-1027-nonproducer"
+                }, 
+                {
+                    "gene_name": "sgcB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29627, 
+                    "gene_endpos": 31192, 
+                    "gene_id": "AAL06672.1", 
+                    "gene_annotation": "transmembrane efflux protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31275, 
+                    "gene_endpos": 32585, 
+                    "gene_id": "AAL06673.1", 
+                    "gene_annotation": "coenzyme F390 synthase-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 32804, 
+                    "gene_endpos": 34387, 
+                    "gene_id": "AAL06674.1", 
+                    "gene_annotation": "chlorophenol-4-monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "deshydroxy-C-1027 producer"
+                }, 
+                {
+                    "gene_name": "sgcI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 34453, 
+                    "gene_endpos": 35289, 
+                    "gene_id": "AAL06675.1", 
+                    "gene_annotation": "haloacetate dehalogenase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 35511, 
+                    "gene_endpos": 35933, 
+                    "gene_id": "AAL06676.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 36160, 
+                    "gene_endpos": 37485, 
+                    "gene_id": "AAL06677.1", 
+                    "gene_annotation": "citrate/shikimate transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcC5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 37554, 
+                    "gene_endpos": 38933, 
+                    "gene_id": "AAL06678.1", 
+                    "gene_annotation": "C-domain type II peptide synthetase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acylation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcC2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 38978, 
+                    "gene_endpos": 39259, 
+                    "gene_id": "AAL06679.1", 
+                    "gene_annotation": "type II PCP", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcC4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 39362, 
+                    "gene_endpos": 40981, 
+                    "gene_id": "AAL06680.1", 
+                    "gene_annotation": "putative ammonia lyase/transferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "C-1027 non-producer"
+                }, 
+                {
+                    "gene_name": "sgcC1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 41047, 
+                    "gene_endpos": 43692, 
+                    "gene_id": "AAL06681.1", 
+                    "gene_annotation": "A-domain type II peptide synthetase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcB4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43940, 
+                    "gene_endpos": 46018, 
+                    "gene_id": "AAL06682.1", 
+                    "gene_annotation": "antibiotic transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcD4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 46162, 
+                    "gene_endpos": 47166, 
+                    "gene_id": "AAL06683.1", 
+                    "gene_annotation": "O-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcD3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 47223, 
+                    "gene_endpos": 48479, 
+                    "gene_id": "AAL06684.1", 
+                    "gene_annotation": "P450 hydroxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 48603, 
+                    "gene_endpos": 49709, 
+                    "gene_id": "AAL06685.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 50345, 
+                    "gene_endpos": 51385, 
+                    "gene_id": "AAL06686.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 51416, 
+                    "gene_endpos": 52336, 
+                    "gene_id": "AAL06687.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 53212, 
+                    "gene_endpos": 54069, 
+                    "gene_id": "AAL06688.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 54226, 
+                    "gene_endpos": 55374, 
+                    "gene_id": "AAL06689.1", 
+                    "gene_annotation": "Regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "titer increased for C-1027"
+                }, 
+                {
+                    "gene_name": "sgcQ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 56021, 
+                    "gene_endpos": 56875, 
+                    "gene_id": "AAL06690.1", 
+                    "gene_annotation": "putative oxidase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcE11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 56922, 
+                    "gene_endpos": 57725, 
+                    "gene_id": "AAL06691.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcE10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 57828, 
+                    "gene_endpos": 58298, 
+                    "gene_id": "AAL06692.1", 
+                    "gene_annotation": "thioesterase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcE9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 58435, 
+                    "gene_endpos": 60090, 
+                    "gene_id": "AAL06693.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcE8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 60087, 
+                    "gene_endpos": 60677, 
+                    "gene_id": "AAL06694.1", 
+                    "gene_annotation": "putative regulatory protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcR1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 60935, 
+                    "gene_endpos": 62014, 
+                    "gene_id": "AAL06695.1", 
+                    "gene_annotation": "regulatory protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcR2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 62040, 
+                    "gene_endpos": 62894, 
+                    "gene_id": "AAL06696.1", 
+                    "gene_annotation": "putative regulatory protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcE7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 62782, 
+                    "gene_endpos": 64131, 
+                    "gene_id": "AAL06697.1", 
+                    "gene_annotation": "P450 hydroxylase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcE6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 64128, 
+                    "gene_endpos": 64676, 
+                    "gene_id": "AAL06698.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 64757, 
+                    "gene_endpos": 70576, 
+                    "gene_id": "AAL06699.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcE5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 70573, 
+                    "gene_endpos": 71703, 
+                    "gene_id": "AAL06700.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcE4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 71700, 
+                    "gene_endpos": 73628, 
+                    "gene_id": "AAL06701.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcE3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 73625, 
+                    "gene_endpos": 74611, 
+                    "gene_id": "AAL06702.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcE2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 74942, 
+                    "gene_endpos": 75688, 
+                    "gene_id": "AAL06703.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcE1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 75873, 
+                    "gene_endpos": 76316, 
+                    "gene_id": "AAL06704.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcS", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 76421, 
+                    "gene_endpos": 77026, 
+                    "gene_id": "AAL06705.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 77031, 
+                    "gene_endpos": 77492, 
+                    "gene_id": "AAL06706.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "sgcR3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 77582, 
+                    "gene_endpos": 78769, 
+                    "gene_id": "AAL06707.1", 
+                    "gene_annotation": "TylR regulatory protein-like protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Enediyine", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Iterative type I", 
+                "Enediyne type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "aal06699"
+            ], 
+            "nr_iterations": 7, 
+            "iterative_subtype": "Partially reducing", 
+            "iter_cycl_type": "Other", 
+            "pks_te_type": "Type II", 
+            "pks_thioesterase": [
+                "aal06692"
+            ], 
+            "pks_release_type": "Unknown", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "aal06699", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "ACP", 
+                                "KR", 
+                                "DH"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Activity assay", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Iterated", 
+                            "pks_evidence_skip_iter": "Activity assay"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

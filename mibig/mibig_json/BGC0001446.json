@@ -1,0 +1,138 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Jeff Cary", 
+        "submitter_institution": "USDA Souther Regional Research Center", 
+        "submitter_email": "Jeff.Cary@ARS.USDA.GOV"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001446", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "24412484,24405210", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "EQ963472", 
+                    "start_coord": 2642293, 
+                    "end_coord": 2658105, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "asparasone A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 10808295, 
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "Antiinsectan "
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2642293, 
+                    "gene_endpos": 2642633, 
+                    "gene_id": "EED57517.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "lack of asparasone A production, produced lighter, reddish-brown sclerotia compared to the dark brown sclerotia of the control strain, decrease in expression of other genes in cluster"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2646293, 
+                    "gene_endpos": 2652837, 
+                    "gene_id": "EED57518.1", 
+                    "gene_annotation": "polyketide synthase, putative", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "lack of asparasone A production,  greyish-yellow sclerotia rather than dark brown sclerotia, production of sclerotia was significantly reduced"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2653373, 
+                    "gene_endpos": 2655374, 
+                    "gene_id": "EED57519.1", 
+                    "gene_annotation": "MFS glucose transporter, putative", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2656834, 
+                    "gene_endpos": 2658105, 
+                    "gene_id": "EED57520.1", 
+                    "gene_annotation": "efflux pump antibiotic resistance protein, putative", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [], 
+            "nr_iterations": 8, 
+            "iterative_subtype": "Non-reducing", 
+            "iter_cycl_type": "Other", 
+            "pks_te_type": "Unknown", 
+            "pks_release_type": "Unknown", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "EED57518.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "T", 
+                                "TE"
+                            ], 
+                            "at_substr_spec": "None", 
+                            "evidence_at_spec": "None", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Iterated", 
+                            "pks_evidence_skip_iter": "None"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+

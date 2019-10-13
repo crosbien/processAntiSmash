@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C/C=C/[C@@H]([C@@H](/C=C/C1=C(C(=CC=C1)O)C=O)O)O", 
+                "compound": "pyriculol"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3688831, 
+                    "Accession": "CM001233", 
+                    "start_coord": 3633847
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001749", 
+        "publications": [
+            "27902426"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Other"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

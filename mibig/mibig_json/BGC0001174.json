@@ -1,0 +1,139 @@
+{
+    "version": "11", 
+    "personal": {
+        "submitter_name": "Doug Mitchell", 
+        "submitter_institution": "University of Illinois at Urbana-Champaign", 
+        "submitter_email": "douglasm@illinois.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001174", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "21950656", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP004085", 
+                    "start_coord": 1876183, 
+                    "end_coord": 1882234, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "corynazolicin", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(NCC(NCC(O)=O)=O)C1=CSC(C2=CSC(C3=CSC(C4=CSC(C5=CSC([C@@H]6CCCN6C([C@@H](NC(C7=C(C)OC(C8=C(C)OC(C9=CSC(C%10=COC(C%11=CSC([C@@H](N(C)C)CCCNC(N)=N)=N%11)=N%10)=N9)=N8)=N7)=O)[C@H](CC)C)=O)=N5)=N4)=N3)=N2)=N1", 
+                "molecular_formula": "C55H56N18O9S7", 
+                "mol_mass": 1337.2595, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "pznA", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 1876183, 
+                    "gene_endpos": 1876320, 
+                    "gene_annotation": "RiPP precursor peptide", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ymcC", 
+                    "gene_id": "CU7111_1581", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "pznL", 
+                    "gene_id": "CU7111_1582", 
+                    "gene_annotation": "SAM-dependent methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pznJ", 
+                    "gene_id": "CU7111_1583", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "pznC", 
+                    "gene_id": "CU7111_1584", 
+                    "gene_annotation": "cyclodehydratase partner", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pznD", 
+                    "gene_id": "CU7111_1585", 
+                    "gene_annotation": "cyclodehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Heterocyclization", 
+                    "evidence_genefunction": [
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pznB", 
+                    "gene_id": "CU7111_1586", 
+                    "gene_annotation": "FMN-dependent dehydrogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pznE", 
+                    "gene_id": "CU7111_1587", 
+                    "gene_annotation": "protease", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "LAP", 
+            "lin_cycl_ripp": "Linear", 
+            "precursor_loci": [
+                {
+                    "gene_id": [], 
+                    "core_pept_aa": "RCSCTTIPCCCCCGG", 
+                    "lead_pept_len": 31, 
+                    "foll_pept_len": -1, 
+                    "peptidase": [
+                        "cu7111_1587"
+                    ]
+                }
+            ]
+        }
+    }, 
+    "embargo": true
+}
+
+

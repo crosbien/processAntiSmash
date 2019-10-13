@@ -1,0 +1,288 @@
+{
+    "version": "12", 
+    "personal": {
+        "submitter_name": "Leonilde Moreira", 
+        "submitter_institution": "Institute for Bioengineering and Biosciences, Instituto Superior T\u00c3\u00a9cnico, Universidade de Lisboa", 
+        "submitter_email": "lmoreira@tecnico.ulisboa.pt"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000808", 
+        "biosyn_class": [
+            "Saccharide"
+        ], 
+        "publications": "14637140,19948863,17184737,15995219,17114319,23460819,22919582", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP000869", 
+                    "start_coord": 2031936, 
+                    "end_coord": 2046706, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "CP000869", 
+                    "start_coord": 1703900, 
+                    "end_coord": 1717963, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Cepacian", 
+                "chem_synonyms": [
+                    "exopolysaccharide"
+                ], 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "Protection against host immune system"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "bceA", 
+                    "gene_id": "Bmul_4920", 
+                    "gene_annotation": "mannose-1-phosphate guanylyltransferase / mannose-6-phosphate isomerase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "cepacian with different rheoloical properties"
+                }, 
+                {
+                    "gene_name": "bceB", 
+                    "gene_id": "Bmul_4919", 
+                    "gene_annotation": "undecaprenyl-phosphate glucose phosphotransferase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "bceC", 
+                    "gene_id": "Bmul_4918", 
+                    "gene_annotation": "UDP-glucose 6-dehydrogenase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bceD", 
+                    "gene_id": "Bmul_4917", 
+                    "gene_annotation": "protein tyrosine phosphatase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "cepacian with low molecular mass"
+                }, 
+                {
+                    "gene_name": "bceE", 
+                    "gene_id": "Bmul_4916", 
+                    "gene_annotation": "polysaccharide export protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No cepacian production"
+                }, 
+                {
+                    "gene_name": "bceF", 
+                    "gene_id": "Bmul_4915", 
+                    "gene_annotation": "exopolysaccharide tyrosine-protein kinase", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "No cepacian production"
+                }, 
+                {
+                    "gene_name": "bceG", 
+                    "gene_id": "Bmul_4914", 
+                    "gene_annotation": "glycosyl transferase, family 2", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bceH", 
+                    "gene_id": "Bmul_4913", 
+                    "gene_annotation": "glycosyltransferase-like protein", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bceI", 
+                    "gene_id": "Bmul_4912", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bceJ", 
+                    "gene_id": "Bmul_4911", 
+                    "gene_annotation": "glycosyl transferase, group 1", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bceK", 
+                    "gene_id": "Bmul_4910", 
+                    "gene_annotation": "glycosyl transferase, group 1", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bceM", 
+                    "gene_id": "Bmul_4613", 
+                    "gene_annotation": "NAD-dependent epimerase/dehydratase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bceN", 
+                    "gene_id": "Bmul_4612", 
+                    "gene_annotation": "GDP-mannose 4,6-dehydratase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "bceO", 
+                    "gene_id": "Bmul_4611", 
+                    "gene_annotation": "acyltransferase 3", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bceP", 
+                    "gene_id": "Bmul_4610", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bceQ", 
+                    "gene_id": "Bmul_4609", 
+                    "gene_annotation": "polysaccharide biosynthesis protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No cepacian produced"
+                }, 
+                {
+                    "gene_name": "bceR", 
+                    "gene_id": "Bmul_4608", 
+                    "gene_annotation": "glycosyl transferase, group 1", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No cepacian produced"
+                }, 
+                {
+                    "gene_name": "bceS", 
+                    "gene_id": "Bmul_4607", 
+                    "gene_annotation": "acyltransferase 3", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acetylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Cepacian with decreased acetylation content"
+                }, 
+                {
+                    "gene_id": "Bmul_4606", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "bceT", 
+                    "gene_id": "Bmul_4605", 
+                    "gene_annotation": "UTP-glucose-1-phosphate uridylyltransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bceU", 
+                    "gene_id": "Bmul_4604", 
+                    "gene_annotation": "acyltransferase 3", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acetylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Saccharide": {
+            "saccharide_subclass": "exopolysaccharide", 
+            "gt_genes": [
+                {
+                    "gt_gene": "Bmul_4914", 
+                    "gt_specificity": "Unknown"
+                }, 
+                {
+                    "gt_gene": "Bmul_4913", 
+                    "gt_specificity": "Unknown"
+                }, 
+                {
+                    "gt_gene": "Bmul_4911", 
+                    "gt_specificity": "Unknown"
+                }, 
+                {
+                    "gt_gene": "Bmul_4910", 
+                    "gt_specificity": "Unknown"
+                }, 
+                {
+                    "gt_gene": "Bmul_4608", 
+                    "gt_specificity": "Unknown"
+                }, 
+                {
+                    "gt_specificity": "None"
+                }
+            ]
+        }
+    }
+}
+
+

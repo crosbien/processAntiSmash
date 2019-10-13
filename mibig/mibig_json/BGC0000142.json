@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "salinilactam"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3185224, 
+                    "Accession": "CP000667", 
+                    "start_coord": 3103236
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000142", 
+        "publications": [
+            "17563368"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

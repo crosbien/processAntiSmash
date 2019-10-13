@@ -1,0 +1,234 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Fang-Yuan Chang", 
+        "submitter_institution": "MIT", 
+        "submitter_email": "fangyuanchang@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001333", 
+        "biosyn_class": [
+            "Alkaloid"
+        ], 
+        "publications": "21542592", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "JF439215", 
+                    "start_coord": 2570, 
+                    "end_coord": 22587, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "BE-54017", 
+                "chem_synonyms": [
+                    "unii-t7972epw8p", 
+                    "t7972epw8p"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 66575233, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_target": "V-ATPase", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Indole group", 
+                        "moiety_subcluster": [
+                            "aef32092.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "abeM2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2570, 
+                    "gene_endpos": 3262, 
+                    "gene_id": "AEF32089.1", 
+                    "gene_annotation": "N-methyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "abeX1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3371, 
+                    "gene_endpos": 4972, 
+                    "gene_id": "AEF32090.1", 
+                    "gene_annotation": "monooxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "abeM1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5177, 
+                    "gene_endpos": 5872, 
+                    "gene_id": "AEF32091.1", 
+                    "gene_annotation": "N-methyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "abeD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5869, 
+                    "gene_endpos": 8916, 
+                    "gene_id": "AEF32092.1", 
+                    "gene_annotation": "chromopyrrolic acid synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "abeX2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8934, 
+                    "gene_endpos": 10157, 
+                    "gene_id": "AEF32093.1", 
+                    "gene_annotation": "monooxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "abeM3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10154, 
+                    "gene_endpos": 11164, 
+                    "gene_id": "AEF32094.1", 
+                    "gene_annotation": "O-methyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "abeH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11190, 
+                    "gene_endpos": 12737, 
+                    "gene_id": "AEF32095.1", 
+                    "gene_annotation": "tryptophan 5-halogenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "abeT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12743, 
+                    "gene_endpos": 13981, 
+                    "gene_id": "AEF32096.1", 
+                    "gene_annotation": "putative cation/H+ antiporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "abeF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13978, 
+                    "gene_endpos": 14460, 
+                    "gene_id": "AEF32097.1", 
+                    "gene_annotation": "putative flavin reductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "abeY", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14521, 
+                    "gene_endpos": 15315, 
+                    "gene_id": "AEF32098.1", 
+                    "gene_annotation": "putative alpha/beta hydrolase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "abeO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15470, 
+                    "gene_endpos": 17011, 
+                    "gene_id": "AEF32099.1", 
+                    "gene_annotation": "tryptophan oxidase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "abeC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17008, 
+                    "gene_endpos": 18609, 
+                    "gene_id": "AEF32100.1", 
+                    "gene_annotation": "RebC-like monooxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "abeP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18606, 
+                    "gene_endpos": 19784, 
+                    "gene_id": "AEF32101.1", 
+                    "gene_annotation": "RebP-like cytochrome P450", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "abeR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19789, 
+                    "gene_endpos": 22587, 
+                    "gene_id": "AEF32102.1", 
+                    "gene_annotation": "LuxR-like transcription regulator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "Alkaloid": {
+            "alkaloid_subclass": "Indole/benzopyrrole"
+        }
+    }
+}

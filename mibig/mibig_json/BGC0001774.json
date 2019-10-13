@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CC(C)CCCCCCCCCCCCC(=O)NCC(=O)NC1C(C(C(OC1C(CO)O)NC2=NC=NC3=C2NC=N3)O)O", 
+                "compound": "septacidin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 24025, 
+                    "Accession": "MF372757", 
+                    "start_coord": 1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001774", 
+        "publications": [
+            "29483275"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

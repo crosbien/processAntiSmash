@@ -1,0 +1,35 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 16132391, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "epidermin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "X62386", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000508", 
+        "RiPP": {
+            "ripp_subclass": "Lanthipeptide"
+        }, 
+        "publications": [
+            "1740156", 
+            "841"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

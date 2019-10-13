@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 5378308, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "rubromycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "AF293355", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000266", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type II"
+            ]
+        }, 
+        "minimal": true
+    }
+}

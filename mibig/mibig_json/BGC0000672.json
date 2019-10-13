@@ -1,0 +1,39 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 10313699, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "phytocassane"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 90658693, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "oryzalides"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 22764099, 
+                    "Accession": "AP008208", 
+                    "start_coord": 22520469
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000672", 
+        "publications": [
+            "21985968"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

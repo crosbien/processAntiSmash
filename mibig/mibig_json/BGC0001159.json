@@ -1,0 +1,386 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Bradley S Moore", 
+        "submitter_institution": "University of California San Diego", 
+        "submitter_email": "bsmoore@ucsd.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001159", 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ], 
+        "publications": "22800473", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "JX157625", 
+                    "start_coord": 1, 
+                    "end_coord": 43083, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "marinopyrrole A", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(C1=CC=CC=C1O)C2=CC(Cl)=C(Cl)N2C3=C(C(C4=CC=CC=C4O)=O)NC(Cl)=C3Cl", 
+                "molecular_formula": "C22H12Cl4N2O4", 
+                "mol_mass": 507.9551, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }, 
+            {
+                "compound": "marynopyrrole E", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(C1=CC(Br)=CC=C1O)C2=CC(Cl)=C(Cl)N2C3=C(C(C4=CC=CC=C4O)=O)NC(Cl)=C3Cl", 
+                "molecular_formula": "C22H11BrCl4N2O4", 
+                "mol_mass": 585.8656, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }, 
+            {
+                "compound": "marynopyrrole D", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(C1=CC(Cl)=CC=C1O)C2=CC(Cl)=C(Cl)N2C3=C(C(C4=CC=CC=C4O)=O)NC(Cl)=C3Cl", 
+                "molecular_formula": "C22H11Cl5N2O4", 
+                "mol_mass": 541.9161, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }, 
+            {
+                "compound": "marynopyrrole C", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(C1=CC=CC=C1O)C2=CC(Cl)=C(Cl)N2C3=C(C(C4=CC(Cl)=CC=C4O)=O)NC(Cl)=C3Cl", 
+                "molecular_formula": "C22H11Cl5N2O4", 
+                "mol_mass": 541.9161, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }, 
+            {
+                "compound": "marinopyrrole B", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(C1=CC=CC=C1O)C2=C(Br)C(Cl)=C(Cl)N2C3=C(C(C4=CC=CC=C4O)=O)NC(Cl)=C3Cl", 
+                "molecular_formula": "C22H11BrCl4N2O4", 
+                "mol_mass": 585.8656, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": []
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "mpy1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5310, 
+                    "gene_endpos": 5858, 
+                    "gene_id": "AFP87518.1", 
+                    "gene_annotation": "flavin reductase", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolish production"
+                }, 
+                {
+                    "gene_name": "mpy2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5855, 
+                    "gene_endpos": 7486, 
+                    "gene_id": "AFP87519.1", 
+                    "gene_annotation": "proline adenyltransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "mpy3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7483, 
+                    "gene_endpos": 8622, 
+                    "gene_id": "AFP87520.1", 
+                    "gene_annotation": "acyl-CoA dehydrogenase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "mpy4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8664, 
+                    "gene_endpos": 10034, 
+                    "gene_id": "AFP87521.1", 
+                    "gene_annotation": "sodium/hydrogen exchanger", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "mpy5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10031, 
+                    "gene_endpos": 11785, 
+                    "gene_id": "AFP87522.1", 
+                    "gene_annotation": "FADH2-dependent halogenase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "mpy6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11817, 
+                    "gene_endpos": 18584, 
+                    "gene_id": "AFP87523.1", 
+                    "gene_annotation": "type I polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "mpy7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18581, 
+                    "gene_endpos": 25324, 
+                    "gene_id": "AFP87524.1", 
+                    "gene_annotation": "type I polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "mpy8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25414, 
+                    "gene_endpos": 26448, 
+                    "gene_id": "AFP87525.1", 
+                    "gene_annotation": "4'-phosphopantetheinyl transferase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "mpy9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26451, 
+                    "gene_endpos": 27299, 
+                    "gene_id": "AFP87526.1", 
+                    "gene_annotation": "type II thioesterase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "mpy10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27470, 
+                    "gene_endpos": 29218, 
+                    "gene_id": "AFP87527.1", 
+                    "gene_annotation": "FADH2-dependent halogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Halogenation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "monodeoxypyoluteorin"
+                }, 
+                {
+                    "gene_name": "mpy11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29258, 
+                    "gene_endpos": 30928, 
+                    "gene_id": "AFP87528.1", 
+                    "gene_annotation": "FADH2-dependent halogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Halogenation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "monodeoxypyoluteorin"
+                }, 
+                {
+                    "gene_name": "mpy12", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30954, 
+                    "gene_endpos": 31694, 
+                    "gene_id": "AFP87529.1", 
+                    "gene_annotation": "ABC transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "mpy13", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31744, 
+                    "gene_endpos": 32481, 
+                    "gene_id": "AFP87530.1", 
+                    "gene_annotation": "ABC transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "mpy14", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 32513, 
+                    "gene_endpos": 33253, 
+                    "gene_id": "AFP87531.1", 
+                    "gene_annotation": "ABC transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "mpy15", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33367, 
+                    "gene_endpos": 33633, 
+                    "gene_id": "AFP87532.1", 
+                    "gene_annotation": "proline carrier protein", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "mpy16", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33648, 
+                    "gene_endpos": 34991, 
+                    "gene_id": "AFP87533.1", 
+                    "gene_annotation": "FADH2-dependent halogenase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolish production"
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Other"
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Other", 
+            "pks_te_type": "Both", 
+            "pks_thioesterase": [
+                "afp87523.1", 
+                "afp87526.1"
+            ], 
+            "pks_release_type": "Other", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AFP87524.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AFP87523.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T", 
+                                "TE"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

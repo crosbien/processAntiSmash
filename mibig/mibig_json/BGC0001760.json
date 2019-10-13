@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "rimosamide"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 59133, 
+                    "Accession": "NZ_ANSJ01000026", 
+                    "start_coord": 30040
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001760", 
+        "publications": [
+            "27809474"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Helge B. Bode", 
+        "submitter_institution": "Molecular Biotechnology, Institute for Molecular Bioscience, Goethe University Frankfurt, 60438 Frankfurt/Main, Germany", 
+        "submitter_email": "h.bode@bio.uni-frankfurt.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000180", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "23821465", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KM222819", 
+                    "start_coord": 4550, 
+                    "end_coord": 31415, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Legioliulin", 
+                "chem_synonyms": [], 
+                "chem_struct": "Oc3cccc2C=C(\\\\C=C\\\\C=C\\\\c1ccccc1)OC(=O)c23", 
+                "molecular_formula": "C19H14O3", 
+                "mol_mass": 291.101571, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "fluorescence"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_id": "AIU36110.1", 
+                    "gene_annotation": "PAL phenylalanine ammonia lyase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Trans-AT type I"
+            ], 
+            "starter_unit": "Other", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AIU36103.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "pks_mod_doms": "None", 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Ketoreductase", 
+                                "Dehydratase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": "None"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "pks_mod_doms": "None"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "pks_mod_doms": "None", 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Ketoreductase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": "None", 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Dehydratase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "pks_mod_doms": "None", 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ], 
+            "trans_at": [], 
+            "pks_te_type": "Type I", 
+            "pks_release_type": "Other"
+        }
+    }
+}
+
+

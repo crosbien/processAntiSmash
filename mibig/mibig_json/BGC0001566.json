@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CCCC[C@@H]1CCCC[C@H]([C@@H](C2=CC(=C([C@@H](CCCC[C@H]([C@@H](C3=CC(=C1C(=C3)O)O)O)C)CCCC)C(=C2)O)O)O)C", 
+                "compound": "cylindrocyclophane"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KX682397", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001566", 
+        "publications": [
+            "28671684"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Other"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "gellan polysaccharide"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "AY217008", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000768", 
+        "publications": [
+            "14767675", 
+            "15741740", 
+            "16085866", 
+            "11513745", 
+            "18506441"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Saccharide"
+        ]
+    }
+}

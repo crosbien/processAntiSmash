@@ -1,0 +1,41 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 170973, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "roseoflavin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 8004593, 
+                    "Accession": "HE971709", 
+                    "start_coord": 8001567
+                }, 
+                {
+                    "end_coord": 5266176, 
+                    "Accession": "HE971709", 
+                    "start_coord": 5263728
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000927", 
+        "Other": {
+            "biosyn_class": [
+                "Other"
+            ]
+        }, 
+        "publications": [
+            "23043000"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

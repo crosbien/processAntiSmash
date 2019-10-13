@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "asperthecin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 1555677, 
+                    "Accession": "BN001301", 
+                    "start_coord": 1533932
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000684", 
+        "publications": [
+            "18978088"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

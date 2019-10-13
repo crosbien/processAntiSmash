@@ -1,0 +1,151 @@
+{
+    "version": "11", 
+    "personal": {
+        "submitter_name": "Helge B. Bode", 
+        "submitter_institution": "Goethe Universit\u00c3\u00a4t Frankfurt", 
+        "submitter_email": "h.bode@bio.uni-frankfurt.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001134", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "23851573", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "NC_005126.1", 
+                    "start_coord": 4844034, 
+                    "end_coord": 4843318, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Photopyrone A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 71576814, 
+                "chem_act": [
+                    "Signalling"
+                ], 
+                "chem_target": "PluR"
+            }, 
+            {
+                "compound": "Photopyrone B", 
+                "chem_synonyms": [
+                    "4-hydroxy-3-(5-methylhexyl)-6-(2-methylpropyl)-2h-pyran-2-one"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 71576815, 
+                "chem_act": [
+                    "Signalling"
+                ], 
+                "chem_target": "PluR"
+            }, 
+            {
+                "compound": "Photopyrone C", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1OC(=CC(O)=C1CCCCCCCC)CC(C)C", 
+                "molecular_formula": "C17H28O3", 
+                "mol_mass": 281.21112, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Signalling"
+                ], 
+                "chem_target": "PluR"
+            }, 
+            {
+                "compound": "Photopyrone D", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 71576813, 
+                "chem_act": [
+                    "Signalling"
+                ], 
+                "chem_target": "PluR"
+            }, 
+            {
+                "compound": "Photopyrone E", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1OC(=CC(O)=C1CCCCCCCCCC)CC(C)C", 
+                "molecular_formula": "C19H32O3", 
+                "mol_mass": 309.242421, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Signalling"
+                ], 
+                "chem_target": "PluR"
+            }, 
+            {
+                "compound": "Photopyrone F", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1OC(=CC(O)=C1CCCCC(C)C)CC(C)C", 
+                "molecular_formula": "C20H34O3", 
+                "mol_mass": 323.258071, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Signalling"
+                ], 
+                "chem_target": "PluR"
+            }, 
+            {
+                "compound": "Photopyrone G", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1OC(=CC(O)=C1CCCCCCCCCCCC)CC(C)C", 
+                "molecular_formula": "C21H36O3", 
+                "mol_mass": 337.273721, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Signalling"
+                ], 
+                "chem_target": "PluR"
+            }, 
+            {
+                "compound": "Photopyrone H", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1OC(=CC(O)=C1CCCCCCCCCCC(C)C)CC(C)C", 
+                "molecular_formula": "C22H38O3", 
+                "mol_mass": 351.289372, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Signalling"
+                ], 
+                "chem_target": "PluR"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "PpyS", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 4844034, 
+                    "gene_endpos": 4843318, 
+                    "gene_annotation": "KS involved in photopyrone biosynthesis", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "signaling defect"
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Other"
+        }
+    }
+}
+

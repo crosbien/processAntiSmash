@@ -1,0 +1,942 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Emily Balskus", 
+        "submitter_institution": "Harvard University", 
+        "submitter_email": "balskus@chemistry.harvard.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000240", 
+        "biosyn_class": [
+            "Polyketide", 
+            "Saccharide"
+        ], 
+        "publications": "23649992,25045187,24383813", 
+        "loci": {
+            "complete": "unknown", 
+            "nucl_acc": [
+                {
+                    "Accession": "KF731828", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "lomaiviticin A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 56841540, 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_target": "DNA", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "diazo group", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }, 
+            {
+                "compound": "lomaiviticin C", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C([C@@]([C@@]([C@@](O[C@H]1C[C@H](OC)[C@@H](O)[C@H](C)O1)(CC)[C@@H]2O[C@@H]3C[C@H](O)[C@@H](N(C)C)[C@H](C)O3)([H])C(C(C4=C5C(C6=C(O)C=CC(O)=C6C4=O)=O)=C2C5=[N+]=[N-])=O)([H])[C@@](O[C@@H]7O[C@@H](C)[C@H](O)[C@@H](OC)C7)(CC)[C@@H]8O[C@@H]9C[C@H](O)[C@@H](N(C)C)[C@H](C)O9)C%10=C8C=C%11C%10=C(O)C%12=C(O)C=CC(O)=C%12C%11=O", 
+                "molecular_formula": "C68H82N4O24", 
+                "mol_mass": 1338.53, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_target": "DNA", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "diazo group", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }, 
+            {
+                "compound": "lomaiviticin D", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C([C@@]([C@@]([C@@](O[C@H]1C[C@H](OC)[C@@H](O)[C@H](C)O1)(CC)[C@@H]2O[C@@H]3C[C@H](O)[C@@H](N(C)C)[C@H](C)O3)([H])C(C(C4=C5C(C6=C(O)C=CC(O)=C6C4=O)=O)=C2C5=[N+]=[N-])=O)([H])[C@@](O[C@@H]7O[C@@H](C)[C@H](OC)[C@@H](OC)C7)(CC)[C@@H]8O[C@@H]9C[C@H](O)[C@@H](N(C)C)[C@H](C)O9)C%10=C8C=C%11C%10=C(O)C%12=C(O)C=CC(O)=C%12C%11=O", 
+                "molecular_formula": "C69H84N4O24", 
+                "mol_mass": 1352.55, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Unknown"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "diazo group", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }, 
+            {
+                "compound": "lomaiviticin E", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C([C@@]([C@@]([C@@](O[C@H]1C[C@H](OC)[C@@H](OC)[C@H](C)O1)(CC)[C@@H]2O[C@@H]3C[C@H](O)[C@@H](N(C)C)[C@H](C)O3)([H])C(C(C4=C5C(C6=C(O)C=CC(O)=C6C4=O)=O)=C2C5=[N+]=[N-])=O)([H])[C@@](O[C@@H]7O[C@@H](C)[C@H](OC)[C@@H](OC)C7)(CC)[C@@H]8O[C@@H]9C[C@H](O)[C@@H](N(C)C)[C@H](C)O9)C%10=C8C=C%11C%10=C(O)C%12=C(O)C=CC(O)=C%12C%11=O", 
+                "molecular_formula": "C70H86N4O24", 
+                "mol_mass": 1366.56, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Unknown"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "diazo group", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "lom1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 45, 
+                    "gene_endpos": 1619, 
+                    "gene_id": "AHZ61835.1", 
+                    "gene_annotation": "EmrB/QacA family drug resistance transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1820, 
+                    "gene_endpos": 2305, 
+                    "gene_id": "AHZ61836.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2462, 
+                    "gene_endpos": 3292, 
+                    "gene_id": "AHZ61837.1", 
+                    "gene_annotation": "ABC transporter-like protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3289, 
+                    "gene_endpos": 4239, 
+                    "gene_id": "AHZ61838.1", 
+                    "gene_annotation": "ABC transporter-like protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4199, 
+                    "gene_endpos": 4729, 
+                    "gene_id": "AHZ61839.1", 
+                    "gene_annotation": "glyoxalase/bleomycin resistance protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4873, 
+                    "gene_endpos": 5649, 
+                    "gene_id": "AHZ61840.1", 
+                    "gene_annotation": "alpha,beta-hydrolase family protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5892, 
+                    "gene_endpos": 6728, 
+                    "gene_id": "AHZ61841.1", 
+                    "gene_annotation": "SARP family regulatory protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7477, 
+                    "gene_endpos": 8310, 
+                    "gene_id": "AHZ61842.1", 
+                    "gene_annotation": "AraC transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8610, 
+                    "gene_endpos": 10004, 
+                    "gene_id": "AHZ61843.1", 
+                    "gene_annotation": "NDP-hexose 2,3-dehydratase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10094, 
+                    "gene_endpos": 10759, 
+                    "gene_id": "AHZ61844.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10801, 
+                    "gene_endpos": 11247, 
+                    "gene_id": "AHZ61845.1", 
+                    "gene_annotation": "carboxymuconolactone decarboxylase/alkylhydroperoxidase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom12", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11177, 
+                    "gene_endpos": 12004, 
+                    "gene_id": "AHZ61846.1", 
+                    "gene_annotation": "peptidase C26, glutamine amidotransferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom13", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12470, 
+                    "gene_endpos": 14242, 
+                    "gene_id": "AHZ61847.1", 
+                    "gene_annotation": "FAD-binding monooxygenase aromatic ring hydroxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom14", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14410, 
+                    "gene_endpos": 15876, 
+                    "gene_id": "AHZ61848.1", 
+                    "gene_annotation": "protoporphyrinogen oxidase, amine oxidase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom15", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15998, 
+                    "gene_endpos": 17104, 
+                    "gene_id": "AHZ61849.1", 
+                    "gene_annotation": "nuclease, transcriptional regulation", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom16", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17156, 
+                    "gene_endpos": 18655, 
+                    "gene_id": "AHZ61850.1", 
+                    "gene_annotation": "FAD-binding monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom17", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18664, 
+                    "gene_endpos": 20136, 
+                    "gene_id": "AHZ61851.1", 
+                    "gene_annotation": "FAD-binding monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom18", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20353, 
+                    "gene_endpos": 21081, 
+                    "gene_id": "AHZ61852.1", 
+                    "gene_annotation": "short-chain dehydrogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom19", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21167, 
+                    "gene_endpos": 22039, 
+                    "gene_id": "AHZ61853.1", 
+                    "gene_annotation": "NAD-dependent epimerase/dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom20", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22098, 
+                    "gene_endpos": 22715, 
+                    "gene_id": "AHZ61854.1", 
+                    "gene_annotation": "DSBA oxidoreductase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom21", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22729, 
+                    "gene_endpos": 23058, 
+                    "gene_id": "AHZ61855.1", 
+                    "gene_annotation": "polyketide synthesis, cyclase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom22", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23087, 
+                    "gene_endpos": 23872, 
+                    "gene_id": "AHZ61856.1", 
+                    "gene_annotation": "short-chain dehydrogenase/reductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom23", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24063, 
+                    "gene_endpos": 25100, 
+                    "gene_id": "AHZ61857.1", 
+                    "gene_annotation": "O-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom24", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25154, 
+                    "gene_endpos": 26665, 
+                    "gene_id": "AHZ61858.1", 
+                    "gene_annotation": "FAD-binding monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom25", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26687, 
+                    "gene_endpos": 27649, 
+                    "gene_id": "AHZ61859.1", 
+                    "gene_annotation": "cyclase/dehydratase/aromatase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom26", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27646, 
+                    "gene_endpos": 29085, 
+                    "gene_id": "AHZ61860.1", 
+                    "gene_annotation": "FAD-binding monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom27", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29072, 
+                    "gene_endpos": 30550, 
+                    "gene_id": "AHZ61861.1", 
+                    "gene_annotation": "FAD-binding monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom28", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30621, 
+                    "gene_endpos": 31364, 
+                    "gene_id": "AHZ61862.1", 
+                    "gene_annotation": "antibiotic biosynthesis monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom29", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31429, 
+                    "gene_endpos": 33312, 
+                    "gene_id": "AHZ61863.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom30", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33287, 
+                    "gene_endpos": 33643, 
+                    "gene_id": "AHZ61864.1", 
+                    "gene_annotation": "4Fe-4S ferrodoxin", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom31", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33712, 
+                    "gene_endpos": 34506, 
+                    "gene_id": "AHZ61865.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom32", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 34556, 
+                    "gene_endpos": 36058, 
+                    "gene_id": "AHZ61866.1", 
+                    "gene_annotation": "glutamine synthetase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom33", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 36055, 
+                    "gene_endpos": 37473, 
+                    "gene_id": "AHZ61867.1", 
+                    "gene_annotation": "amidase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom34", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 37714, 
+                    "gene_endpos": 39000, 
+                    "gene_id": "AHZ61868.1", 
+                    "gene_annotation": "adenylosuccinate lyase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom35", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 38984, 
+                    "gene_endpos": 39385, 
+                    "gene_id": "AHZ61869.1", 
+                    "gene_annotation": "N-acetyltransferase GCN5", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom36", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 39515, 
+                    "gene_endpos": 40717, 
+                    "gene_id": "AHZ61870.1", 
+                    "gene_annotation": "aminotransferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom37", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 40714, 
+                    "gene_endpos": 41841, 
+                    "gene_id": "AHZ61871.1", 
+                    "gene_annotation": "methyltransferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom38", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 41865, 
+                    "gene_endpos": 42890, 
+                    "gene_id": "AHZ61872.1", 
+                    "gene_annotation": "3-isopropylmalate dehydrogenase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom39", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 42887, 
+                    "gene_endpos": 43363, 
+                    "gene_id": "AHZ61873.1", 
+                    "gene_annotation": "aminotransferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom40", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43360, 
+                    "gene_endpos": 43974, 
+                    "gene_id": "AHZ61874.1", 
+                    "gene_annotation": "3-isopropylmalate dehydratase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom41", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43984, 
+                    "gene_endpos": 45381, 
+                    "gene_id": "AHZ61875.1", 
+                    "gene_annotation": "isopropylmalate isomerase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom42", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 45378, 
+                    "gene_endpos": 46469, 
+                    "gene_id": "AHZ61876.1", 
+                    "gene_annotation": "pyruvate carboxyltransferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom43", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 47128, 
+                    "gene_endpos": 48897, 
+                    "gene_id": "AHZ61877.1", 
+                    "gene_annotation": "ABC-transporter-like protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom44", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 48994, 
+                    "gene_endpos": 49314, 
+                    "gene_id": "AHZ61878.1", 
+                    "gene_annotation": "Rieske (2Fe-2S) domain containing protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom45", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 49568, 
+                    "gene_endpos": 49978, 
+                    "gene_id": "AHZ61879.1", 
+                    "gene_annotation": "glyoxalase/bleomycin resistance protein/dioxygenase", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom46", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 50046, 
+                    "gene_endpos": 50843, 
+                    "gene_id": "AHZ61880.1", 
+                    "gene_annotation": "glyoxalase/bleomycin resistance protein/dioxygenase", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Resistance/immunity"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom47", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 50928, 
+                    "gene_endpos": 52490, 
+                    "gene_id": "AHZ61881.1", 
+                    "gene_annotation": "TAP-domain containing protein; secreted peptidase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom48", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 52578, 
+                    "gene_endpos": 53699, 
+                    "gene_id": "AHZ61882.1", 
+                    "gene_annotation": "glycosyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom49", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 53696, 
+                    "gene_endpos": 54715, 
+                    "gene_id": "AHZ61883.1", 
+                    "gene_annotation": "O-methyltransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom50", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 54995, 
+                    "gene_endpos": 55921, 
+                    "gene_id": "AHZ61884.1", 
+                    "gene_annotation": "N-methyltransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom51", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 56026, 
+                    "gene_endpos": 56991, 
+                    "gene_id": "AHZ61885.1", 
+                    "gene_annotation": "NAD-dependent epimerase/dehydratase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom52", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 57001, 
+                    "gene_endpos": 57612, 
+                    "gene_id": "AHZ61886.1", 
+                    "gene_annotation": "dTDP-4-dehydrorhamnose 3,5 epimerase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom53", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 57661, 
+                    "gene_endpos": 58665, 
+                    "gene_id": "AHZ61887.1", 
+                    "gene_annotation": "NDP-hexose-3-ketoreductase;oxidoreductase domain containing protein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom54", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 58694, 
+                    "gene_endpos": 59428, 
+                    "gene_id": "AHZ61888.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom55", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 59544, 
+                    "gene_endpos": 60584, 
+                    "gene_id": "AHZ61889.1", 
+                    "gene_annotation": "glycosyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom56", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 60601, 
+                    "gene_endpos": 61812, 
+                    "gene_id": "AHZ61890.1", 
+                    "gene_annotation": "DegT/DnrJ/EryC1/StrS aminotransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom57", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 61987, 
+                    "gene_endpos": 63003, 
+                    "gene_id": "AHZ61891.1", 
+                    "gene_annotation": "dTDP-glucose 4,6-dehydratase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom58", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 63000, 
+                    "gene_endpos": 64271, 
+                    "gene_id": "AHZ61892.1", 
+                    "gene_annotation": "beta-ketoacyl synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        " sequence-based prediction"
+                    ], 
+                    "mut_pheno": "Loss of lomaiviticin production"
+                }, 
+                {
+                    "gene_name": "lom59", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 64268, 
+                    "gene_endpos": 65596, 
+                    "gene_id": "AHZ61893.1", 
+                    "gene_annotation": "beta-ketoacyl synthase, chain length factor", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom60", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 65553, 
+                    "gene_endpos": 65807, 
+                    "gene_id": "AHZ61894.1", 
+                    "gene_annotation": "phosphopantheine-binding protein; acyl carrier protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay", 
+                        " sequenced-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom61", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 65789, 
+                    "gene_endpos": 66772, 
+                    "gene_id": "AHZ61895.1", 
+                    "gene_annotation": "acyl transferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom62", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 66835, 
+                    "gene_endpos": 67809, 
+                    "gene_id": "AHZ61896.1", 
+                    "gene_annotation": "acyl transferase/decarboxylase, LnmK-like protein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom63", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 67828, 
+                    "gene_endpos": 68076, 
+                    "gene_id": "AHZ61897.1", 
+                    "gene_annotation": "phosphopantheine-binding protein; acyl carrier protein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay", 
+                        " sequenced-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom64", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 68263, 
+                    "gene_endpos": 68724, 
+                    "gene_id": "AHZ61898.1", 
+                    "gene_annotation": "AraC transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lom65", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 68906, 
+                    "gene_endpos": 69778, 
+                    "gene_id": "AHZ61899.1", 
+                    "gene_annotation": "glucose-1-phosphate thymidylytransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Angucycline", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Propionyl-CoA", 
+            "pks_genes": [
+                "ahz61892"
+            ], 
+            "ketide_length": 10, 
+            "cyclases": "AHZ61855,AHZ61859"
+        }, 
+        "Saccharide": {
+            "saccharide_subclass": "hybrid/tailoring", 
+            "gt_genes": [
+                {
+                    "gt_gene": "AHZ61889", 
+                    "gt_specificity": "Unknown"
+                }, 
+                {
+                    "gt_gene": "AHZ61882", 
+                    "gt_specificity": "Unknown"
+                }
+            ]
+        }
+    }
+}
+
+

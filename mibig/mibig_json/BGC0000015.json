@@ -1,0 +1,42 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 5386092, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "amphotericin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "AF357202", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "AY639386", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000015", 
+        "publications": [
+            "11451671", 
+            "16079135"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

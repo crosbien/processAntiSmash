@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "trichodiene-11-one"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "LC222739", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001811", 
+        "publications": [
+            "16125338", 
+            "17188234", 
+            "17711459", 
+            "17897620", 
+            "18776660", 
+            "26227913", 
+            "27120196", 
+            "27773916"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

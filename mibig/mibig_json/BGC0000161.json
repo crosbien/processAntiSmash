@@ -1,0 +1,128 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Yuta Tsunematsu", 
+        "submitter_institution": "University of Shizuoka", 
+        "submitter_email": "tsunematsu@u-shizuoka-ken.ac.jp"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000161", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "24816227", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CH476594", 
+                    "start_coord": 399827, 
+                    "end_coord": 432585, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "terrein", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 12443340, 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "phytotoxicity"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "terA", 
+                    "gene_id": "ATEG_00145, EAU38791.1", 
+                    "gene_annotation": "PKS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Heterologous expression"
+                    ], 
+                    "mut_pheno": "abolishment of terrein production"
+                }, 
+                {
+                    "gene_name": "terB", 
+                    "gene_id": "ATEG_00144, EAU38790.1", 
+                    "gene_annotation": "multidomain protein with dehydratase and ketoreductase function", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "abolishment of terrein production"
+                }, 
+                {
+                    "gene_name": "ATEG_00143", 
+                    "gene_id": "EAU38789.1", 
+                    "gene_annotation": "FAD-dependent monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolishment of terrein production"
+                }, 
+                {
+                    "gene_name": "ATEG_00142", 
+                    "gene_id": "EAU38788.1", 
+                    "gene_annotation": "FAD-dependent monooxygenase", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "abolishment of terrein production"
+                }, 
+                {
+                    "gene_name": "ATEG_00141", 
+                    "gene_id": "EAU38787.1", 
+                    "gene_annotation": "multicupper oxidase", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "abolishment of terrein production"
+                }, 
+                {
+                    "gene_name": "ATEG_00140", 
+                    "gene_id": "EAU38786.1", 
+                    "gene_annotation": "protein with kelch motif", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "abolishment of terrein production"
+                }, 
+                {
+                    "gene_name": "ATEG_00139", 
+                    "gene_id": "EAU38785.1", 
+                    "gene_annotation": "transcription factor", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Other in vivo study"
+                    ], 
+                    "mut_pheno": "abolishment of terrein production"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "ateg_00145"
+            ], 
+            "nr_iterations": 4, 
+            "iterative_subtype": "Non-reducing", 
+            "iter_cycl_type": "C2-C7 first", 
+            "pks_te_type": "Unknown", 
+            "pks_release_type": "Unknown"
+        }
+    }
+}
+
+

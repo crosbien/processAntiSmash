@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "LP2006"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 365660, 
+                    "Accession": "NZ_ANAC01000010", 
+                    "start_coord": 360089
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001655", 
+        "publications": [
+            "28244986"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

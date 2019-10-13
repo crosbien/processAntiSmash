@@ -1,0 +1,46 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "hexaricin A",
+                "chem_struct": "COC1=C2[C@H](O)CC3=C(C(O)=C4C(=O)O[C@H](C)CC4=C3)C2=C(O)C2=C1C(=O)C1=C(O)C=CC=C1C2=O",
+                "molecular_formula": "C27H20O9",
+                "mol_mass": 488.448
+            },
+            {
+                "compound": "hexaricin B",
+                "chem_struct": "COC1=C2[C@@H](CC3=C(C(O)=C4C(=O)O[C@H](C)CC4=C3)C2=C(O)C2=C1C(=O)C1=C(O)C=CC=C1C2=O)OC(C)=C",
+                "molecular_formula": "C30H24O9",
+                "mol_mass": 528.513
+            },
+            {
+                "compound": "hexaricin C",
+                "chem_struct": "COC1=C2CCC3=C(C(O)=C4C(=O)O[C@@H](C)CC4=C3)C2=C(O)C2=C1C(=O)C1=C(O)C=CC=C1C2=O",
+                "molecular_formula": "C27H20O8",
+                "mol_mass": 472.449
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KT713752", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001376", 
+        "publications": [
+            "26754814"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type II"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

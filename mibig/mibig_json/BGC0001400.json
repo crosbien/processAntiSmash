@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 6436023, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "citreoviridin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 386869, 
+                    "Accession": "CH476608", 
+                    "start_coord": 371404
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001400", 
+        "publications": [
+            "26954888"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

@@ -1,0 +1,145 @@
+{
+   "version": "16",
+   "personal": {
+      "submitter_name": "Daniel Krug",
+      "submitter_institution": "HIPS",
+      "submitter_email": "daniel.krug@helmholtz-hzi.de"
+   },
+   "general_params": {
+      "mibig_accession": "BGC0000044",
+      "biosyn_class": [
+         "Polyketide"
+      ],
+      "publications": "25102237",
+      "loci": {
+         "complete": "complete",
+         "nucl_acc": [
+            {
+               "Accession": "CP002271",
+               "mixs_compliant": false,
+               "start_coord": 1,
+               "end_coord": 21284,
+               "conn_comp_cluster": [
+                  "Heterologous expression"
+               ]
+            }
+         ]
+      },
+      "compounds": [
+         {
+            "compound": "Dawenol",
+            "chem_synonyms": [],
+            "database_deposited": false,
+            "chem_struct": "C(/C)=C/C(/C)=C/C=C/C(/C)=C/C=C/C(/C)=C/C(/C)=C/C(C)C(O)C(C)C(OC(C)=O)C",
+            "molecular_formula": "C28H42O3",
+            "mol_mass": 427.3207,
+            "mass_ion_type": "[M+H]+",
+            "chem_act": [
+               "Unknown"
+            ]
+         }
+      ],
+      "genes": {
+         "gene": [
+            {
+               "gene_name": "STAUR_1572",
+               "not_in_gbk": false,
+               "gene_id": "ADO69376.1",
+               "gene_function": "Tailoring",
+               "tailoring": "Oxidation",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "STAUR_1573",
+               "not_in_gbk": false,
+               "gene_id": "ADO69377.1",
+               "gene_function": "Activation / processing",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "STAUR_1574",
+               "not_in_gbk": false,
+               "gene_id": "ADO69378.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Knock-out"
+               ],
+               "mut_pheno": "loss of production"
+            },
+            {
+               "gene_name": "STAUR_1575",
+               "not_in_gbk": false,
+               "gene_id": "ADO69379.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "STAUR_1576",
+               "not_in_gbk": false,
+               "gene_id": "ADO69380.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "STAUR_1577",
+               "not_in_gbk": false,
+               "gene_id": "ADO69381.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "STAUR_1578",
+               "not_in_gbk": false,
+               "gene_id": "ADO69382.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "STAUR_1579",
+               "not_in_gbk": false,
+               "gene_id": "ADO69383.1",
+               "gene_annotation": "Ppant transferase",
+               "gene_function": "Activation / processing",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "STAUR_1580",
+               "not_in_gbk": false,
+               "gene_id": "ADO69384.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            }
+         ]
+      },
+      "Polyketide": {
+         "pk_subclass": "Polyene",
+         "lin_cycl_pk": "Linear",
+         "pks_subclass": [
+            "PUFA synthase or related"
+         ],
+         "starter_unit": "Acetyl-CoA",
+         "mod_pks_genes": [],
+         "pks_genes": [],
+         "pufa_mod_doms": "None",
+         "pks_te_type": "None",
+         "pks_thioesterase": []
+      }
+   },
+   "embargo": false
+}

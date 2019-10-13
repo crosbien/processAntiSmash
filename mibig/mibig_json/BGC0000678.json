@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 24199350, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "pentalenolactone"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3758933, 
+                    "Accession": "BA000030", 
+                    "start_coord": 3745497
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000678", 
+        "publications": [
+            "16681390"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

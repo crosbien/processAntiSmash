@@ -1,0 +1,264 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Margherita Sosio", 
+        "submitter_institution": "Naicons Srl", 
+        "submitter_email": "msosio@naicons.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001476", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "doi: 10.1016/j.chembiol.2018.02.008", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "MG266907 ", 
+                    "start_coord": 1, 
+                    "end_coord": 17038, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "pseudouridimycin", 
+                "chem_synonyms": [
+                    "pum"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 59651398, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry", 
+                    "Chemical derivatization", 
+                    "Total synthesis"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "RNA Polymerase", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "pseudouridine, aminopseudouridine", 
+                        "moiety_subcluster": [
+                            "aminopseudouridine:avt42376", 
+                            "avt42377", 
+                            "avt42378", 
+                            "avt42379"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "pumA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 220, 
+                    "gene_endpos": 624, 
+                    "gene_id": "AVT42371.1", 
+                    "gene_annotation": "PumA", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pumB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 621, 
+                    "gene_endpos": 1811, 
+                    "gene_id": "AVT42372.1", 
+                    "gene_annotation": "putative transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pumC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1884, 
+                    "gene_endpos": 2642, 
+                    "gene_id": "AVT42373.1", 
+                    "gene_annotation": "DeoR family transcriptional regulator", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pumD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2647, 
+                    "gene_endpos": 3249, 
+                    "gene_id": "AVT42386.1", 
+                    "gene_annotation": "HAD family hydrolase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pumE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3576, 
+                    "gene_endpos": 4832, 
+                    "gene_id": "AVT42374.1", 
+                    "gene_annotation": "flavin-dependent oxidoreductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "pumF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5029, 
+                    "gene_endpos": 5838, 
+                    "gene_id": "AVT42375.1", 
+                    "gene_annotation": "PumF", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pumG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5774, 
+                    "gene_endpos": 7096, 
+                    "gene_id": "AVT42376.1", 
+                    "gene_annotation": "PLP-dependent aspartate aminotransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "pumH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7158, 
+                    "gene_endpos": 7859, 
+                    "gene_id": "AVT42377.1", 
+                    "gene_annotation": "adenylate kinase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pumI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7840, 
+                    "gene_endpos": 9447, 
+                    "gene_id": "AVT42378.1", 
+                    "gene_annotation": "glucose-methanol-choline oxidoreductase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "pumJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9444, 
+                    "gene_endpos": 10472, 
+                    "gene_id": "AVT42379.1", 
+                    "gene_annotation": "tRNA pseudouridine synthase TruD", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "pumK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10581, 
+                    "gene_endpos": 11789, 
+                    "gene_id": "AVT42380.1", 
+                    "gene_annotation": "ATP-grasp domain protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "pumL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11774, 
+                    "gene_endpos": 13045, 
+                    "gene_id": "AVT42381.1", 
+                    "gene_annotation": "major facilitator superfamily protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pumM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13042, 
+                    "gene_endpos": 14475, 
+                    "gene_id": "AVT42382.1", 
+                    "gene_annotation": "D-alanine-D-alanine ligase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "pumN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14501, 
+                    "gene_endpos": 15643, 
+                    "gene_id": "AVT42383.1", 
+                    "gene_annotation": "amidinotransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "pumO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15726, 
+                    "gene_endpos": 16358, 
+                    "gene_id": "AVT42384.1", 
+                    "gene_annotation": "PumO", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pumP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16556, 
+                    "gene_endpos": 17038, 
+                    "gene_id": "AVT42385.1", 
+                    "gene_annotation": "HAD family hydrolase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Nucleoside"
+        }
+    }
+}
+

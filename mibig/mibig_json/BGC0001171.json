@@ -1,0 +1,159 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Professor Douglas Mitchell", 
+        "submitter_institution": "University of Illinois at Urbana-Champaign", 
+        "submitter_email": "douglasm@illinois.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001171", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "18375757,18787690,19286651,21075895,21822292,24606727", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AE017262", 
+                    "start_coord": 1126697, 
+                    "end_coord": 1132588, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Listeriolysin S", 
+                "chem_synonyms": [
+                    "lls"
+                ], 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "llsA", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 1126697, 
+                    "gene_endpos": 1126846, 
+                    "gene_annotation": "RiPP precursor peptide", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "llsG", 
+                    "gene_id": "LMOf2365_1113", 
+                    "gene_annotation": "ABC transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "Loss of hemolytic activity."
+                }, 
+                {
+                    "gene_name": "llsH", 
+                    "gene_id": "LMOf2365_1114", 
+                    "gene_annotation": "ABC transporter ", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "Loss of hemolytic activity."
+                }, 
+                {
+                    "gene_name": "llsX", 
+                    "gene_id": "LMOf2365_1115", 
+                    "gene_annotation": "Unknown", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "Loss of hemolytic activity."
+                }, 
+                {
+                    "gene_name": "llsB", 
+                    "gene_id": "LMOf2365_1116", 
+                    "gene_annotation": "Dehydrogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "Loss of hemolytic activity."
+                }, 
+                {
+                    "gene_name": "llsC", 
+                    "gene_id": "LMOf2365_1117", 
+                    "gene_annotation": "Cyclodehydratase partner", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Heterocyclization", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "Loss of hemolytic activity."
+                }, 
+                {
+                    "gene_name": "llsD", 
+                    "gene_id": "LMOf2365_1118", 
+                    "gene_annotation": "Cyclodehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Heterocyclization", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "Loss of hemolytic activity."
+                }, 
+                {
+                    "gene_name": "llsE ", 
+                    "gene_id": "LMOf2365_1119", 
+                    "gene_annotation": "Putative protease", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "None - maintenance of hemolytic activity."
+                }
+            ], 
+            "operon": [
+                {
+                    "operon_genes": [
+                        "lmof2365_1113", 
+                        "lmof2365_1114", 
+                        "lmof2365_1115", 
+                        "lmof2365_1116", 
+                        "lmof2365_1117", 
+                        "lmof2365_1118", 
+                        "lmof2365_1119"
+                    ], 
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "LAP", 
+            "lin_cycl_ripp": "Linear", 
+            "precursor_loci": [
+                {
+                    "gene_id": [], 
+                    "core_pept_aa": "CCSCSCSTCTCTCTCASSAATKM", 
+                    "lead_pept_len": 26, 
+                    "foll_pept_len": -1, 
+                    "peptidase": [
+                        "lmof2365_1119"
+                    ]
+                }
+            ]
+        }
+    }, 
+    "comments": "The genes within the llsGHXBCDE operon section should also contain an unannotated precursor peptide gene, llsA."
+}
+
+

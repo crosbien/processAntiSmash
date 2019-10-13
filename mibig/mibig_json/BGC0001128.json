@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "luminmide"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3880790, 
+                    "Accession": "BX470251", 
+                    "start_coord": 3865092
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001128", 
+        "publications": [
+            "22544021"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

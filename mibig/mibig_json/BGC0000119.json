@@ -1,0 +1,794 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Taifo Mahmud", 
+        "submitter_institution": "Oregon State University", 
+        "submitter_email": "Taifo.Mahmud@oregonstate.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000119", 
+        "biosyn_class": [
+            "Polyketide", 
+            "Other", 
+			"Saccharide"
+        ], 
+        "publications": "17827660,19670201,21513878,23521145,23744829", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "FJ392609.1", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "pactamycin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 5289124, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Antifungal", 
+                    "Cytotoxic"
+                ], 
+                "chem_target": "Ribosomes", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "6-methylsalicylic acid", 
+                        "moiety_subcluster": [
+                            "acj24875"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "aminocyclipentitol", 
+                        "moiety_subcluster": [
+                            "acj24861", 
+                            "acj24868", 
+                            "acj24865"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "7-deoxypactamycin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 3064514, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Antifungal", 
+                    "Cytotoxic"
+                ], 
+                "chem_target": "Ribosomes", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "6-methylsalicylic acid", 
+                        "moiety_subcluster": [
+                            "acj24875"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "aminocyclopentitol", 
+                        "moiety_subcluster": [
+                            "acj24861", 
+                            "acj24868", 
+                            "acj24865"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "ACJ24841.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 1489, 
+                    "gene_id": "ACJ24841.1", 
+                    "gene_annotation": "phosphoribosylformylglycinamidine synthase II-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24842.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1756, 
+                    "gene_endpos": 2643, 
+                    "gene_id": "ACJ24842.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24843.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2803, 
+                    "gene_endpos": 4377, 
+                    "gene_id": "ACJ24843.1", 
+                    "gene_annotation": "n-acetylgalactosamine-6-sulfate sulfatase-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24844.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5443, 
+                    "gene_endpos": 7026, 
+                    "gene_id": "ACJ24844.1", 
+                    "gene_annotation": "amidophosphoribosyltransferase-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24845.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7060, 
+                    "gene_endpos": 8160, 
+                    "gene_id": "ACJ24845.1", 
+                    "gene_annotation": "phosphoribosylaminoimidazole synthetase-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24846.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9066, 
+                    "gene_endpos": 10160, 
+                    "gene_id": "ACJ24846.1", 
+                    "gene_annotation": "valine dehydrogenase (NADP+)-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24847.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10461, 
+                    "gene_endpos": 11279, 
+                    "gene_id": "ACJ24847.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24848.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12500, 
+                    "gene_endpos": 13135, 
+                    "gene_id": "ACJ24848.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24849.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14199, 
+                    "gene_endpos": 18185, 
+                    "gene_id": "ACJ24849.1", 
+                    "gene_annotation": "ATP-dependent helicase-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24850.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18815, 
+                    "gene_endpos": 19801, 
+                    "gene_id": "ACJ24850.1", 
+                    "gene_annotation": "integral membrane protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24851.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19889, 
+                    "gene_endpos": 21616, 
+                    "gene_id": "ACJ24851.1", 
+                    "gene_annotation": "putative ECF-family RNA polymerase sigma factor", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24852.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21753, 
+                    "gene_endpos": 22910, 
+                    "gene_id": "ACJ24852.1", 
+                    "gene_annotation": "putative FAD-dependent pyridine nucleotide-disulphide oxidoreductase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24853.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23582, 
+                    "gene_endpos": 24052, 
+                    "gene_id": "ACJ24853.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24854.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24165, 
+                    "gene_endpos": 24932, 
+                    "gene_id": "ACJ24854.1", 
+                    "gene_annotation": "putative translation initiation factor IF-2", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24855.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25050, 
+                    "gene_endpos": 25502, 
+                    "gene_id": "ACJ24855.1", 
+                    "gene_annotation": "putative translation initiation factor IF-2", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ptmY", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25602, 
+                    "gene_endpos": 27968, 
+                    "gene_id": "ACJ24856.1", 
+                    "gene_annotation": "putative ATP-dependent RNA helicase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ptmY", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29893, 
+                    "gene_endpos": 31086, 
+                    "gene_id": "ACJ24857.1", 
+                    "gene_annotation": "putative cytochrome P450 monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "7-deoxypactamycin production"
+                }, 
+                {
+                    "gene_name": "ptmZ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31140, 
+                    "gene_endpos": 31628, 
+                    "gene_id": "ACJ24858.1", 
+                    "gene_annotation": "glutathione peroxidase-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ptmA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31845, 
+                    "gene_endpos": 33020, 
+                    "gene_id": "ACJ24859.1", 
+                    "gene_annotation": "L-alanine:N-amidino-3-keto-scyllo-inosamine aminotransferase-like protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no pactamycin production"
+                }, 
+                {
+                    "gene_name": "ptmB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33035, 
+                    "gene_endpos": 34747, 
+                    "gene_id": "ACJ24860.1", 
+                    "gene_annotation": "putative carbamoyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Carboxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no pactamycin production"
+                }, 
+                {
+                    "gene_name": "ptmC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 35020, 
+                    "gene_endpos": 36123, 
+                    "gene_id": "ACJ24861.1", 
+                    "gene_annotation": "Fe-S radical SAM oxidoreductase-like protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no pactamycin production"
+                }, 
+                {
+                    "gene_name": "ptmD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 36189, 
+                    "gene_endpos": 37265, 
+                    "gene_id": "ACJ24862.1", 
+                    "gene_annotation": "HemK family methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "N,N-desmethylpactamycin production"
+                }, 
+                {
+                    "gene_name": "ptmE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 37258, 
+                    "gene_endpos": 37794, 
+                    "gene_id": "ACJ24863.1", 
+                    "gene_annotation": "putative glucokinase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ptmF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 37794, 
+                    "gene_endpos": 38444, 
+                    "gene_id": "ACJ24864.1", 
+                    "gene_annotation": "two component transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ptmG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 38620, 
+                    "gene_endpos": 39756, 
+                    "gene_id": "ACJ24865.1", 
+                    "gene_annotation": "putative nucleotydyltransferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ptmH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 40175, 
+                    "gene_endpos": 42160, 
+                    "gene_id": "ACJ24866.1", 
+                    "gene_annotation": "putative C-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "TM-026 production"
+                }, 
+                {
+                    "gene_name": "ptmI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 42192, 
+                    "gene_endpos": 42476, 
+                    "gene_id": "ACJ24867.1", 
+                    "gene_annotation": "putative acyl carrier protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ptmJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 42482, 
+                    "gene_endpos": 43438, 
+                    "gene_id": "ACJ24868.1", 
+                    "gene_annotation": "putative glycosyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "no pactamycin production"
+                }, 
+                {
+                    "gene_name": "ptmK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43435, 
+                    "gene_endpos": 45123, 
+                    "gene_id": "ACJ24869.1", 
+                    "gene_annotation": "putative ketoacyl-ACP synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ptmL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 45116, 
+                    "gene_endpos": 46843, 
+                    "gene_id": "ACJ24870.1", 
+                    "gene_annotation": "putative C-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no pactamycin production"
+                }, 
+                {
+                    "gene_name": "ptmM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 46894, 
+                    "gene_endpos": 48630, 
+                    "gene_id": "ACJ24871.1", 
+                    "gene_annotation": "putative C-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no pactamycin production"
+                }, 
+                {
+                    "gene_name": "ptmN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 48634, 
+                    "gene_endpos": 49689, 
+                    "gene_id": "ACJ24872.1", 
+                    "gene_annotation": "putative NAD dependent dehydrogenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no pactamycin production"
+                }, 
+                {
+                    "gene_name": "ptmO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 50000, 
+                    "gene_endpos": 50773, 
+                    "gene_id": "ACJ24873.1", 
+                    "gene_annotation": "putative hydrolase/acyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no pactamycin production"
+                }, 
+                {
+                    "gene_name": "ptmP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 50883, 
+                    "gene_endpos": 51518, 
+                    "gene_id": "ACJ24874.1", 
+                    "gene_annotation": "phosphopantetheinyl transferase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no pactamycin production"
+                }, 
+                {
+                    "gene_name": "ptmQ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 52474, 
+                    "gene_endpos": 58059, 
+                    "gene_id": "ACJ24875.1", 
+                    "gene_annotation": "6-methylsalicylic acid synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "de-6MSA-pactamycin"
+                }, 
+                {
+                    "gene_name": "ptmR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 58056, 
+                    "gene_endpos": 59129, 
+                    "gene_id": "ACJ24876.1", 
+                    "gene_annotation": "ketoacyl-ACP synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ptmS", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 59143, 
+                    "gene_endpos": 60660, 
+                    "gene_id": "ACJ24877.1", 
+                    "gene_annotation": "putative AMP-forming acyl-CoA synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no pactamycin biosynthesis"
+                }, 
+                {
+                    "gene_name": "ptmT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 60657, 
+                    "gene_endpos": 61991, 
+                    "gene_id": "ACJ24878.1", 
+                    "gene_annotation": "glutamate-1-semialdehyde aminotransferase-like protein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no pactamycin production"
+                }, 
+                {
+                    "gene_name": "ptmU", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 62153, 
+                    "gene_endpos": 62992, 
+                    "gene_id": "ACJ24879.1", 
+                    "gene_annotation": "putative short-chain dehydrogenase/reductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no pactamycin production"
+                }, 
+                {
+                    "gene_name": "ptmV", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 63030, 
+                    "gene_endpos": 63710, 
+                    "gene_id": "ACJ24880.1", 
+                    "gene_annotation": "putative phosphatase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ptmW", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 64635, 
+                    "gene_endpos": 65450, 
+                    "gene_id": "ACJ24881.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ptmX", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 66186, 
+                    "gene_endpos": 67481, 
+                    "gene_id": "ACJ24882.1", 
+                    "gene_annotation": "integral membrane protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24883.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 67855, 
+                    "gene_endpos": 69201, 
+                    "gene_id": "ACJ24883.1", 
+                    "gene_annotation": "putative peptidase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24884.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 69778, 
+                    "gene_endpos": 70359, 
+                    "gene_id": "ACJ24884.1", 
+                    "gene_annotation": "nourseothricin acetyltransferase-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24885.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 70343, 
+                    "gene_endpos": 73474, 
+                    "gene_id": "ACJ24885.1", 
+                    "gene_annotation": "putative ATP-dependent helicase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24886.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 73641, 
+                    "gene_endpos": 74723, 
+                    "gene_id": "ACJ24886.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24887.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 74737, 
+                    "gene_endpos": 76386, 
+                    "gene_id": "ACJ24887.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24888.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 76463, 
+                    "gene_endpos": 76867, 
+                    "gene_id": "ACJ24888.1", 
+                    "gene_annotation": "glycosyl transferase family 51", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24889.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 77327, 
+                    "gene_endpos": 78619, 
+                    "gene_id": "ACJ24889.1", 
+                    "gene_annotation": "putative methyltransferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24890.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 78767, 
+                    "gene_endpos": 79951, 
+                    "gene_id": "ACJ24890.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24891.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 80490, 
+                    "gene_endpos": 81968, 
+                    "gene_id": "ACJ24891.1", 
+                    "gene_annotation": "sporulation associated protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24892.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 82831, 
+                    "gene_endpos": 84993, 
+                    "gene_id": "ACJ24892.1", 
+                    "gene_annotation": "putative secreted protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACJ24893.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 85154, 
+                    "gene_endpos": 86350, 
+                    "gene_id": "ACJ24893.1", 
+                    "gene_annotation": "multi-domain regulatory protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "acj24875"
+            ], 
+            "nr_iterations": 3, 
+            "iterative_subtype": "Partially reducing", 
+            "iter_cycl_type": "C2-C7 first", 
+            "pks_te_type": "None", 
+            "pks_release_type": "Other"
+        }, 
+        "Other": {
+            "other_subclass": "None"
+        }, 
+		"Saccharide": {
+			"saccharide_subclass": "hybrid/tailoring",
+            "gt_genes": [
+                {
+                    "gt_gene": "ptmJ",
+                    "gt_specificity": "Unknown"
+                },
+				{
+					"gt_gene": "ACJ24888.1",
+                    "gt_specificity": "Unknown" 
+                }
+			]
+		}
+	}
+}
+

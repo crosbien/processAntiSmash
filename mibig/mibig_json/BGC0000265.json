@@ -1,0 +1,37 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 5351236, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "rhodomycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "U10405", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000265", 
+        "publications": [
+            "8081500", 
+            "775"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type II"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

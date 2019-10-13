@@ -1,0 +1,701 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Xiaohui Yan", 
+        "submitter_institution": "The Scripps Research Institute", 
+        "submitter_email": "xyan@scripps.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000112", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "15797213,17539640,18223152,18387946,19702337,20704329", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AY117439", 
+                    "start_coord": 10097, 
+                    "end_coord": 72712, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Gene expression correlated with compound production"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "neocarzinostatin ", 
+                "chem_synonyms": [
+                    "neocarzinostatin chromophore"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 447545, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Cytotoxic"
+                ], 
+                "chem_target": "DNA", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "naphthonate", 
+                        "moiety_subcluster": [
+                            "aam77986", 
+                            "aam77997", 
+                            "aam77987", 
+                            "aam77984"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "ncsC4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10097, 
+                    "gene_endpos": 10894, 
+                    "gene_id": "AAM77980.1", 
+                    "gene_annotation": "NDP-hexose-4-ketoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsC3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11170, 
+                    "gene_endpos": 12750, 
+                    "gene_id": "AAM77981.1", 
+                    "gene_annotation": "aminotransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Amination", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsORF13", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12823, 
+                    "gene_endpos": 13503, 
+                    "gene_id": "AAM77982.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsORF14", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13500, 
+                    "gene_endpos": 14543, 
+                    "gene_id": "AAM77983.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsB1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14674, 
+                    "gene_endpos": 15672, 
+                    "gene_id": "AAM77984.1", 
+                    "gene_annotation": "O-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsORF16", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15786, 
+                    "gene_endpos": 16220, 
+                    "gene_id": "AAM77985.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16754, 
+                    "gene_endpos": 22015, 
+                    "gene_id": "AAM77986.1", 
+                    "gene_annotation": "iterative type I polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsB2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22479, 
+                    "gene_endpos": 24155, 
+                    "gene_id": "AAM77987.1", 
+                    "gene_annotation": "adenylate ligase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "neocarinostatin non-producing"
+                }, 
+                {
+                    "gene_name": "ncsORf19", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24215, 
+                    "gene_endpos": 26377, 
+                    "gene_id": "AAM77988.1", 
+                    "gene_annotation": "membrane protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26475, 
+                    "gene_endpos": 27179, 
+                    "gene_id": "AAM77989.1", 
+                    "gene_annotation": "NDP-hexose synthetase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsC1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27203, 
+                    "gene_endpos": 28198, 
+                    "gene_id": "AAM77990.1", 
+                    "gene_annotation": "NDP-hexose-4,6-dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydration", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsC5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 28341, 
+                    "gene_endpos": 29060, 
+                    "gene_id": "AAM77991.1", 
+                    "gene_annotation": "N-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Amination", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsC6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29285, 
+                    "gene_endpos": 30493, 
+                    "gene_id": "AAM77992.1", 
+                    "gene_annotation": "glycosyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsORF24", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30490, 
+                    "gene_endpos": 31383, 
+                    "gene_id": "AAM77993.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31475, 
+                    "gene_endpos": 31918, 
+                    "gene_id": "AAM77994.1", 
+                    "gene_annotation": "neocarzinostatin apoprotein", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsF1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 32765, 
+                    "gene_endpos": 33922, 
+                    "gene_id": "AAM77995.1", 
+                    "gene_annotation": "epoxide hydrolase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydrolysis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsB4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 34420, 
+                    "gene_endpos": 35190, 
+                    "gene_id": "AAM77996.1", 
+                    "gene_annotation": "esterase/hydrolase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsB3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 35390, 
+                    "gene_endpos": 36622, 
+                    "gene_id": "AAM77997.1", 
+                    "gene_annotation": "cytochrome P-450", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsORF29", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 36937, 
+                    "gene_endpos": 37308, 
+                    "gene_id": "AAM77998.1", 
+                    "gene_annotation": "hydroxylase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsA2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 37422, 
+                    "gene_endpos": 38906, 
+                    "gene_id": "AAM77999.1", 
+                    "gene_annotation": "transmembrane transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsR4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 39459, 
+                    "gene_endpos": 40076, 
+                    "gene_id": "AAM78000.1", 
+                    "gene_annotation": "transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsORF32", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 40368, 
+                    "gene_endpos": 41744, 
+                    "gene_id": "AAM78001.1", 
+                    "gene_annotation": "oxidase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsF2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 41951, 
+                    "gene_endpos": 43114, 
+                    "gene_id": "AAM78002.1", 
+                    "gene_annotation": "epoxide hydrolase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydrolysis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsORF34", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43345, 
+                    "gene_endpos": 44670, 
+                    "gene_id": "AAM78003.1", 
+                    "gene_annotation": "hydroxylase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsE11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 44775, 
+                    "gene_endpos": 45578, 
+                    "gene_id": "AAM78004.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsE9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 45715, 
+                    "gene_endpos": 47373, 
+                    "gene_id": "AAM78005.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsE8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 47370, 
+                    "gene_endpos": 47969, 
+                    "gene_id": "AAM78006.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsR6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 48237, 
+                    "gene_endpos": 49301, 
+                    "gene_id": "AAM78007.1", 
+                    "gene_annotation": "transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsR5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 49345, 
+                    "gene_endpos": 50139, 
+                    "gene_id": "AAM78008.1", 
+                    "gene_annotation": "transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsE7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 50199, 
+                    "gene_endpos": 51551, 
+                    "gene_id": "AAM78009.1", 
+                    "gene_annotation": "cytochrome P-450", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsE6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 51548, 
+                    "gene_endpos": 52096, 
+                    "gene_id": "AAM78010.1", 
+                    "gene_annotation": "flavin reductase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsE10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 52093, 
+                    "gene_endpos": 52554, 
+                    "gene_id": "AAM78011.1", 
+                    "gene_annotation": "thioesterase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 52544, 
+                    "gene_endpos": 58477, 
+                    "gene_id": "AAM78012.1", 
+                    "gene_annotation": "warhead-forming iterative polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "neocarzinostatin non-producing"
+                }, 
+                {
+                    "gene_name": "ncsE5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 58474, 
+                    "gene_endpos": 59568, 
+                    "gene_id": "AAM78013.1", 
+                    "gene_annotation": "putative transporter", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsE4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 59565, 
+                    "gene_endpos": 61475, 
+                    "gene_id": "AAM78014.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsE3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 61472, 
+                    "gene_endpos": 62458, 
+                    "gene_id": "AAM78015.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsE2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 62542, 
+                    "gene_endpos": 63522, 
+                    "gene_id": "AAM78016.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsE1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 63625, 
+                    "gene_endpos": 64068, 
+                    "gene_id": "AAM78017.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsORF49", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 64364, 
+                    "gene_endpos": 65566, 
+                    "gene_id": "AAM78018.1", 
+                    "gene_annotation": "transposase", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsR7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 65682, 
+                    "gene_endpos": 66860, 
+                    "gene_id": "AAM78019.1", 
+                    "gene_annotation": "transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsR3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 67166, 
+                    "gene_endpos": 67786, 
+                    "gene_id": "AAM78020.1", 
+                    "gene_annotation": "transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsC2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 67831, 
+                    "gene_endpos": 68811, 
+                    "gene_id": "AAM78021.1", 
+                    "gene_annotation": "NDP-hexose-2,3-dehydratase", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsR2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 68808, 
+                    "gene_endpos": 69434, 
+                    "gene_id": "AAM78022.1", 
+                    "gene_annotation": "butyrolactone receptor", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsR1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 69554, 
+                    "gene_endpos": 70507, 
+                    "gene_id": "AAM78023.1", 
+                    "gene_annotation": "transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "neocarzinostatin non-producing"
+                }, 
+                {
+                    "gene_name": "ncsORF55", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 70817, 
+                    "gene_endpos": 71611, 
+                    "gene_id": "AAM78024.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncsORF56", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 71738, 
+                    "gene_endpos": 72712, 
+                    "gene_id": "AAM78025.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Enediyine", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Iterative type I", 
+                "Enediyne type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "aam77986", 
+                "aam78012"
+            ], 
+            "nr_iterations": 7, 
+            "iterative_subtype": "Partially reducing", 
+            "iter_cycl_type": "Other", 
+            "pks_te_type": "Type II", 
+            "pks_thioesterase": [
+                "aam78011"
+            ], 
+            "pks_release_type": "Unknown", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AAM77986.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "ACP"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Sequence-based prediction", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Iterated", 
+                            "pks_evidence_skip_iter": "Structure-based inference"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAM78012.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "ACP", 
+                                "KR", 
+                                "DH", 
+                                "PPTASE"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Activity assay", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Iterated", 
+                            "pks_evidence_skip_iter": "Activity assay"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

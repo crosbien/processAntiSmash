@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "actinokineosin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 88354, 
+                    "Accession": "AYXG01000139", 
+                    "start_coord": 79318
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001496", 
+        "publications": [
+            "27813109"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

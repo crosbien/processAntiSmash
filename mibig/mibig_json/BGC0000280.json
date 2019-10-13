@@ -1,0 +1,149 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Fergal O'Gara", 
+        "submitter_institution": "BIOMERIT Research Centre, School of Microbiology, University College Cork", 
+        "submitter_email": "f.ogara@ucc.ie"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000280", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "15256586,12003942,10708392,15256586,19181839,23624246", 
+        "loci": {
+            "complete": "incomplete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AF497760", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Gene expression correlated with compound production"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "2,4-diacetylphloroglucinol", 
+                "chem_synonyms": [],
+				"database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 16547, 
+                "chem_act": [
+                    "Antifungal"
+                ], 
+                "chem_target": "Mitochondria"
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "aam27405.1", 
+                        "aam27404.1", 
+                        "aam27407.1", 
+                        "aam27403.1"
+                    ], 
+                    "evidence_operon": "Other"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 385, 
+                    "gene_endpos": 1011, 
+                    "gene_id": "AAM27406.1", 
+                    "gene_annotation": "PhlF", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Altered kinetics of DAPG biosynthesis"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1429, 
+                    "gene_endpos": 2511, 
+                    "gene_id": "AAM27405.1", 
+                    "gene_annotation": "PhlA", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Loss of DAPG production"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2543, 
+                    "gene_endpos": 3739, 
+                    "gene_id": "AAM27404.1", 
+                    "gene_annotation": "PhlC", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Loss of DAPG production"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3750, 
+                    "gene_endpos": 4190, 
+                    "gene_id": "AAM27407.1", 
+                    "gene_annotation": "PhlB", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Loss of DAPG production"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4346, 
+                    "gene_endpos": 5395, 
+                    "gene_id": "AAM27403.1", 
+                    "gene_annotation": "PhlD", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Loss of DAPG production"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5521, 
+                    "gene_endpos": 6033, 
+                    "gene_id": "AAM27402.1", 
+                    "gene_annotation": "PhlE", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Reduced production of DAPG and increased stress sensitivity"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Polyphenol", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type III"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [], 
+            "ketide_length": -1
+        }
+    }
+}
+
+

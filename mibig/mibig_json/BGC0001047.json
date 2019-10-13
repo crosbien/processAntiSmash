@@ -1,0 +1,37 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 24978526, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "syringolin A"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 25621, 
+                    "Accession": "AJ548826", 
+                    "start_coord": 3503
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001047", 
+        "publications": [
+            "14714872"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

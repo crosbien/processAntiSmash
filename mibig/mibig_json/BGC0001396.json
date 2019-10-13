@@ -1,0 +1,54 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "aldgamycin J",
+                "chem_struct": "CO[C@@H]1[C@H](O)[C@@H](C)O[C@@H](OCC2C3OC3CCC(=O)[C@@](C)(O)CC(C)C(O[C@@H]3O[C@H](C)C[C@](O)([C@H](C)O)[C@H]3O)C(C)\\C=C\\C(=O)OC2C)[C@@H]1OC",
+                "molecular_formula": "C36H60O15",
+                "mol_mass": 732.861
+            },
+            {
+                "compound": "aldgamycin K",
+                "chem_struct": "CO[C@@H]1[C@H](O)[C@@H](C)O[C@@H](OCC2C3OC3CCC(=O)C(C)CC(C)C(O[C@@H]3O[C@H](C)C[C@](O)([C@H](C)O)[C@H]3O)C(C)\\C=C\\C(=O)OC2C)[C@@H]1OC",
+                "molecular_formula": "C36H60O14",
+                "mol_mass": 716.862
+            },
+            {
+                "compound": "aldgamycin P",
+                "chem_struct": "CO[C@@H]1[C@H](O)[C@@H](C)O[C@@H](OCC2C3OC3CCC(=O)[C@@](C)(O)CC(C)C(O[C@@H]3O[C@H](C)C[C@@]4(OC(=O)O[C@H]4C)[C@H]3O)C(C)\\C=C\\C(=O)OC2C)[C@@H]1OC",
+                "molecular_formula": "C37H58O16",
+                "mol_mass": 758.855
+            },
+            {
+                "compound": "aldgamycin E",
+                "database_deposited": true,
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "pubchem_id": 102425548
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU568466", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001396", 
+        "publications": [
+            "27191535"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

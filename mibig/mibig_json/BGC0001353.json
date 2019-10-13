@@ -1,0 +1,40 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "thiolactomycin",
+                "chem_struct": "C\\C(C=C)=C/[C@@]1(C)SC(=O)C(C)=C1O",
+                "molecular_formula": "C11H14O2S",
+                "mol_mass": 210.298
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "LN879412", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "LN879413", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001353", 
+        "publications": [
+            "doi:10.1039/C5SC03059E"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

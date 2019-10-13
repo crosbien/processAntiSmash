@@ -1,0 +1,90 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Yuta Tsunematsu", 
+        "submitter_institution": "University of Shizuoka", 
+        "submitter_email": "tsunematsu@u-shizuoka-ken.ac.jp"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001123", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "25302411", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AP007154", 
+                    "start_coord": 59595, 
+                    "end_coord": 103337, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "aspirochlorine", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 44559211, 
+                "chemspider_id": 23326711, 
+                "chem_act": [
+                    "Antifungal", 
+                    "Cytotoxic"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "aclH", 
+                    "gene_id": "AOR_1_34164, XP_001818590", 
+                    "gene_annotation": "FAD-dependent halogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Halogenation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "abolishment of aspirochlorine production"
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AOR_1_68164, XP_001818608", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Phenylalanine", 
+                                "evidence_a_spec": "Activity assay"
+                            }, 
+                            "cdom_subtype": "Unknown", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Iterated", 
+                            "nrps_evidence_skip_iter": "Sequence-based prediction"
+                        }
+                    ]
+                }
+            ], 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Other"
+        }
+    }
+}
+
+

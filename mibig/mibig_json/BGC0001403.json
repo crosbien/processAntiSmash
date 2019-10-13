@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 3035292, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "trypacidin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3845945, 
+                    "Accession": "CM000172", 
+                    "start_coord": 3821995
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001403", 
+        "publications": [
+            "26242966, 26278536, 27611015"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

@@ -1,0 +1,291 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Fang-Yuan Chang", 
+        "submitter_institution": "MIT", 
+        "submitter_email": "fangyuanchang@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001337", 
+        "biosyn_class": [
+            "Alkaloid"
+        ], 
+        "publications": "26150486", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KR052816", 
+                    "start_coord": 3107, 
+                    "end_coord": 25639, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "lazarimide A", 
+                "chem_synonyms": [
+                    "lazarimide"
+                ], 
+                "chem_struct": "O=C1[C@@]2(O)N3C(C4=C([C@@]2(O)C(N1C)=O)C5=CC(Cl)=CC=C5N4)=C(OC)C6=CC(O)=C(Cl)C=C63", 
+                "molecular_formula": "C22H16Cl2N3O6", 
+                "mol_mass": 486.026, 
+                "mass_ion_type": "[M-H]-", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Indole group", 
+                        "moiety_subcluster": [
+                            "akq20701.1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "compound": "lazarimide B",
+                "chem_struct": "COC1=C2N(C3=C1C=CC(Cl)=C3)[C@]1(O)C(=O)N(C)C(=O)[C@]1(O)C1=C2NC2=C1C=C(Cl)C=C2",
+                "molecular_formula": "C22H15Cl2N3O5",
+                "mol_mass": 472.284
+            },
+            {
+                "compound": "lazarimide C",
+                "chem_struct": "O[C@@]12C(=O)NC(=O)[C@]1(O)C1=C(NC3=C1C=C(Cl)C=C3)C1=C2C2=C(N1)C=C(Cl)C=C2",
+                "molecular_formula": "C20H11Cl2N3O4",
+                "mol_mass": 428.231
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "lzrX1a", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3107, 
+                    "gene_endpos": 3502, 
+                    "gene_id": "AKQ20686.1", 
+                    "gene_annotation": "monooxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lzrX1b", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3436, 
+                    "gene_endpos": 4686, 
+                    "gene_id": "AKQ20687.1", 
+                    "gene_annotation": "monooxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lzrM1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4824, 
+                    "gene_endpos": 5516, 
+                    "gene_id": "AKQ20688.1", 
+                    "gene_annotation": "N-methyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lzrP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5513, 
+                    "gene_endpos": 6697, 
+                    "gene_id": "AKQ20689.1", 
+                    "gene_annotation": "RebP-like cytochrome p450", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lzrC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6694, 
+                    "gene_endpos": 8361, 
+                    "gene_id": "AKQ20690.1", 
+                    "gene_annotation": "RebC-like monooxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lzrY1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8539, 
+                    "gene_endpos": 9303, 
+                    "gene_id": "AKQ20691.1", 
+                    "gene_annotation": "putative alpha/beta hydrolase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lzrY2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9282, 
+                    "gene_endpos": 9509, 
+                    "gene_id": "AKQ20692.1", 
+                    "gene_annotation": "putative alpha/beta hydrolase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lzrF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9575, 
+                    "gene_endpos": 10054, 
+                    "gene_id": "AKQ20693.1", 
+                    "gene_annotation": "putative flavin reductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lzrT1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10051, 
+                    "gene_endpos": 10545, 
+                    "gene_id": "AKQ20694.1", 
+                    "gene_annotation": "putative cation/H+ antiporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lzrT2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10503, 
+                    "gene_endpos": 11270, 
+                    "gene_id": "AKQ20695.1", 
+                    "gene_annotation": "putative cation/H+ antiporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lzrH1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11283, 
+                    "gene_endpos": 12821, 
+                    "gene_id": "AKQ20696.1", 
+                    "gene_annotation": "tryptophan-5 halogenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lzrM3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12858, 
+                    "gene_endpos": 13859, 
+                    "gene_id": "AKQ20697.1", 
+                    "gene_annotation": "O-methyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lzrX2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13856, 
+                    "gene_endpos": 15109, 
+                    "gene_id": "AKQ20698.1", 
+                    "gene_annotation": "monooxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lzrH2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15114, 
+                    "gene_endpos": 16706, 
+                    "gene_id": "AKQ20699.1", 
+                    "gene_annotation": "tryptophan-6 halogenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lzrO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16907, 
+                    "gene_endpos": 18343, 
+                    "gene_id": "AKQ20700.1", 
+                    "gene_annotation": "RebO-like L-amino acid oxidase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lzrD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18340, 
+                    "gene_endpos": 21273, 
+                    "gene_id": "AKQ20701.1", 
+                    "gene_annotation": "RebD-like chromopyrrolic acid synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lzrG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21266, 
+                    "gene_endpos": 22363, 
+                    "gene_id": "AKQ20702.1", 
+                    "gene_annotation": "cytochrome p450", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lzrR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22796, 
+                    "gene_endpos": 25639, 
+                    "gene_id": "AKQ20703.1", 
+                    "gene_annotation": "LuxR-type transcriptional regulator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "Alkaloid": {
+            "alkaloid_subclass": "Indole/benzopyrrole"
+        }
+    }
+}

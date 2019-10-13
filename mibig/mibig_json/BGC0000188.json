@@ -1,0 +1,545 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Brett Neilan", 
+        "submitter_institution": "The University of New South Wales", 
+        "submitter_email": "b.neilan@unsw.edu.au"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000188", 
+        "biosyn_class": [
+            "Alkaloid"
+        ], 
+        "publications": "18487408, 20692275", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "DQ787200", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Saxitoxin", 
+                "chem_synonyms": [
+                    "stx", 
+                    "saxitoxin hydrate"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "chEBI", 
+                    "chEMBL", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 37165, 
+                "chebi_id": 34970, 
+                "chembl_id": 501134, 
+                "chemspider_id": 34106, 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "Neurotoxic", 
+                "chem_target": "Voltage-gated sodium channels of nerve cells"
+            }, 
+            {
+                "compound": "Neosaxitoxin", 
+                "chem_synonyms": [
+                    "neo", 
+                    "neostx"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 104753, 
+                "chemspider_id": 19975931, 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "Neurotoxic", 
+                "chem_target": "Voltage-gated sodium channels of nerve cells"
+            }, 
+            {
+                "compound": "decarbamoylsaxitoxin ", 
+                "chem_synonyms": [
+                    "dcstx"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 24941628, 
+                "chemspider_id": 94709, 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "Neurotoxic", 
+                "chem_target": "Voltage-gated sodium channels of nerve cells"
+            }, 
+            {
+                "compound": "gonyautoxin 3", 
+                "chem_synonyms": [
+                    "gtx 3", 
+                    "gtx iii"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 2342141, 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "Neurotoxic", 
+                "chem_target": "Voltage-gated sodium channels of nerve cells"
+            }, 
+            {
+                "compound": "gonyautoxin 2", 
+                "chem_synonyms": [
+                    "gtx2", 
+                    "gtx ii"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "chEBI"
+                ], 
+                "pubchem_id": 11593018, 
+                "chebi_id": 80769, 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "Neurotoxic", 
+                "chem_target": "Voltage-gated sodium channels of nerve cells"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 1320, 
+                    "gene_id": "ABI75088.1", 
+                    "gene_annotation": "alr5035-like protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1625, 
+                    "gene_endpos": 2383, 
+                    "gene_id": "ABI75089.1", 
+                    "gene_annotation": "sterole desaturase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2621, 
+                    "gene_endpos": 3016, 
+                    "gene_id": "ABI75090.1", 
+                    "gene_annotation": "InsB-like protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2955, 
+                    "gene_endpos": 3314, 
+                    "gene_id": "ABI75091.1", 
+                    "gene_annotation": "InsA-like protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3647, 
+                    "gene_endpos": 4000, 
+                    "gene_id": "ABI75092.1", 
+                    "gene_annotation": "Unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4030, 
+                    "gene_endpos": 4986, 
+                    "gene_id": "ABI75093.1", 
+                    "gene_annotation": "cytidine deaminase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5047, 
+                    "gene_endpos": 8784, 
+                    "gene_id": "ABI75094.1", 
+                    "gene_annotation": "polyketide synthase-related protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9140, 
+                    "gene_endpos": 9526, 
+                    "gene_id": "ABI75095.1", 
+                    "gene_annotation": "chaperone-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9686, 
+                    "gene_endpos": 11101, 
+                    "gene_id": "ABI75096.1", 
+                    "gene_annotation": "sodium-driven multidrug and toxic compound extrusion protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11112, 
+                    "gene_endpos": 12245, 
+                    "gene_id": "ABI75097.1", 
+                    "gene_annotation": "amidinotransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12314, 
+                    "gene_endpos": 13318, 
+                    "gene_id": "ABI75098.1", 
+                    "gene_annotation": "phenylpropionate dioxygenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13476, 
+                    "gene_endpos": 15314, 
+                    "gene_id": "ABI75099.1", 
+                    "gene_annotation": "NodU/CmcH-related carbamoyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15318, 
+                    "gene_endpos": 15761, 
+                    "gene_id": "ABI75100.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15761, 
+                    "gene_endpos": 15925, 
+                    "gene_id": "ABI75101.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15937, 
+                    "gene_endpos": 17235, 
+                    "gene_id": "ABI75102.1", 
+                    "gene_annotation": "GDSL-lipase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17323, 
+                    "gene_endpos": 18771, 
+                    "gene_id": "ABI75103.1", 
+                    "gene_annotation": "sodium-driven multidrug and toxic compound extrusion protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19119, 
+                    "gene_endpos": 19949, 
+                    "gene_id": "ABI75104.1", 
+                    "gene_annotation": "sulfotransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Sulfation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtX", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20238, 
+                    "gene_endpos": 21011, 
+                    "gene_id": "ABI75105.1", 
+                    "gene_annotation": "cephalosporin hydroxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtW", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21175, 
+                    "gene_endpos": 21501, 
+                    "gene_id": "ABI75106.1", 
+                    "gene_annotation": "ferredoxin", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtV", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21542, 
+                    "gene_endpos": 23194, 
+                    "gene_id": "ABI75107.1", 
+                    "gene_annotation": "FAD-dependent succinate dehydrogenase/fumarate reductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtU", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23199, 
+                    "gene_endpos": 23948, 
+                    "gene_id": "ABI75108.1", 
+                    "gene_annotation": "short-chain alcohol dehydrogenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24091, 
+                    "gene_endpos": 25095, 
+                    "gene_id": "ABI75109.1", 
+                    "gene_annotation": "phenylpropionate dioxygenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtS", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25173, 
+                    "gene_endpos": 25898, 
+                    "gene_id": "ABI75110.1", 
+                    "gene_annotation": "phytanoyl-CoA dioxygenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "orf24", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25974, 
+                    "gene_endpos": 26549, 
+                    "gene_id": "ABI75111.1", 
+                    "gene_annotation": "cyanophage S-PM2 protein CAF34141-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26605, 
+                    "gene_endpos": 27381, 
+                    "gene_id": "ABI75112.1", 
+                    "gene_annotation": "acyl-CoA N-acyltransferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtQ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27392, 
+                    "gene_endpos": 28168, 
+                    "gene_id": "ABI75113.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 28281, 
+                    "gene_endpos": 29507, 
+                    "gene_id": "ABI75114.1", 
+                    "gene_annotation": "putative saxitoxin-binding protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29667, 
+                    "gene_endpos": 30269, 
+                    "gene_id": "ABI75115.1", 
+                    "gene_annotation": "adenylylsulfate kinase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30612, 
+                    "gene_endpos": 31961, 
+                    "gene_id": "ABI75116.1", 
+                    "gene_annotation": "transposase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtY", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 32612, 
+                    "gene_endpos": 33277, 
+                    "gene_id": "ABI75117.1", 
+                    "gene_annotation": "phosphate uptake regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sxtZ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33325, 
+                    "gene_endpos": 34677, 
+                    "gene_id": "ABI75118.1", 
+                    "gene_annotation": "histidine kinase", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "OmpR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 35029, 
+                    "gene_endpos": 35847, 
+                    "gene_id": "ABI75119.1", 
+                    "gene_annotation": "transcriptional regulator OmpR family", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 35972, 
+                    "gene_endpos": 36745, 
+                    "gene_id": "ABI75120.1", 
+                    "gene_annotation": "HisA-related protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 37060, 
+                    "gene_endpos": 37455, 
+                    "gene_id": "ABI75121.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "Alkaloid": {
+            "alkaloid_subclass": "Purine"
+        }
+    }
+}
+
+

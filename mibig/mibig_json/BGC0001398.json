@@ -1,0 +1,138 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 6438581, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "phomopsin A"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 23643564, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "phomopsin B"
+            },
+            {
+                "compound": "phomopsin E",
+                "chem_struct": "CC\\C(C)=C(\\NC(=O)[C@@H]1C=CCN1C(=O)[C@H]1NC(=O)[C@@H](NC(=O)[C@H]([C@@H](O)C2=CC(O[C@]1(C)CC)=C(O)C(Cl)=C2)N(C)C)C(C)=C)C(=O)N\\C(=C\\C(O)=O)C(O)=O",
+                "molecular_formula": "C37H47ClN6O12",
+                "mol_mass": 803.266
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645826", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645827", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645828", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645829", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645830", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645831", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645832", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645833", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645834", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645835", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645836", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645837", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645838", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645839", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645840", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645841", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645842", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645843", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU645844", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001398", 
+        "RiPP": {
+            "ripp_subclass": "Other"
+        }, 
+        "publications": [
+            "26979951"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

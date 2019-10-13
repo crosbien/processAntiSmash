@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CCC1CCCC(CC)C(=O)NCCCC(CC)C(CC1)O[C@@H]1O[C@@H](C)[C@H](O)[C@@H](N)[C@H]1O", 
+                "compound": "fluvirucin b2"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "LC095592", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001597", 
+        "publications": [
+            "26818633"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

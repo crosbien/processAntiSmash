@@ -1,0 +1,95 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Barry Scott", 
+        "submitter_institution": "Massey University", 
+        "submitter_email": "d.b.scott@massey.ac.nz"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001082", 
+        "biosyn_class": [
+            "Terpene"
+        ], 
+        "publications": "11169115,16494875,17428785,19529962,23949005,23311903,23525886,23886345", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "HM171111", 
+                    "start_coord": 28174, 
+                    "end_coord": 46982, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "paxilline", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 105008, 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "BK channels"
+            }, 
+            {
+                "compound": "paspaline", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 115028, 
+                "chem_act": [
+                    "Inhibitor", 
+                    "Antiviral"
+                ], 
+                "chem_target": "BK channels"
+            }, 
+            {
+                "compound": "13-desoxypaxilline", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 14166134, 
+                "chem_act": [
+                    "Antiviral"
+                ], 
+                "chem_target": ""
+            }, 
+            {
+                "compound": "paspaline B", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 10342949, 
+                "chem_act": [
+                    ""
+                ], 
+                "chem_target": ""
+            }         
+        ], 
+        "genes": {}, 
+        "Terpene": {
+            "terpene_subclass": "Sterol", 
+            "terpene_c_len": "Hemiterpene", 
+            "terpene_precursor": "DMAPP", 
+            "terpene_synth_cycl": [], 
+            "prenyl_transf": []
+        }
+    }
+}
+
+
+

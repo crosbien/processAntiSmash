@@ -1,0 +1,771 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Jason Micklefield", 
+        "submitter_institution": "The University of Manchester", 
+        "submitter_email": "jason.micklefield@manchester.ac.uk"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000315", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "12445768,16925444,17784761,11790750,17513473,18020333,15099062,22711659,17322197,17373765,18237171,18020333,21135931,22245678", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AL645882", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "CDA1b", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(N[C@@H](CC(O)=O)C(N[C@H](C1=CC=C(O)C=C1)C(N[C@@H](CC(O)=O)C(NCC(N[C@@H](C(N[C@@H](CCC(O)=O)C(N[C@@H](CC2=CNC3=C2C=CC=C3)C(O[C@H](C)[C@@H]4NC([C@H](CO)NC(C(O5)C5CCC)=O)=O)=O)=O)=O)[C@H](OP(O)(O)=O)C(N)=O)=O)=O)=O)=O)[C@H](CC(O)=O)NC([C@@H](CC6=CNC7=C6C=CC=C7)NC4=O)=O", 
+                "molecular_formula": "C66H79N14O29P", 
+                "mol_mass": 1562.49, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "Unknown"
+            }, 
+            {
+                "compound": "CDA2a", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(N[C@@H](CC(O)=O)C(N[C@H](C1=CC=C(O)C=C1)C(N[C@@H](CC(O)=O)C(NCC(N[C@@H](C(N[C@@H](CCC(O)=O)C(N/C(C(O[C@H](C)[C@@H]2NC([C@H](CO)NC(C(O3)C3CCC)=O)=O)=O)=C\\\\C4=CNC5=C4C=CC=C5)=O)=O)[C@H](OP(O)(O)=O)C(N)=O)=O)=O)=O)=O)[C@H](CC(O)=O)NC([C@@H](CC6=CNC7=C6C=CC=C7)NC2=O)=O", 
+                "molecular_formula": "C67H79N14O29P", 
+                "mol_mass": 1574.49, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "Unknown"
+            }, 
+            {
+                "compound": "CDA2b", 
+                "chem_synonyms": [], 
+                "chem_struct": "CCCC1OC1C(=O)N[C@@H](CO)C(=O)N[C@H]1[C@@H](C)OC(=O)[C@H](CC2=CNC3=C2C=CC=C3)NC(=O)[C@@H](NC(=O)[C@H](NC(=O)CNC(=O)[C@H](CC(O)=O)NC(=O)[C@H](NC(=O)[C@H](CC(O)=O)NC(=O)[C@H](CC(O)=O)NC(=O)[C@@H](CC2=CNC3=C2C=CC=C3)NC1=O)C1=CC=C(O)C=C1)[C@H](OP(O)(O)=O)C(N)=O)C(C)CC(O)=O", 
+                "molecular_formula": "C67H81N14O29P", 
+                "mol_mass": 1576, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "Unknown"
+            }, 
+            {
+                "compound": "CDA3a", 
+                "chem_synonyms": [],
+                "molecular_formula": "C66H76N14O26", 
+                "mol_mass": 1480.51, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "Unknown"
+            }, 
+            {
+                "compound": "CDA3b", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(N[C@@H](CC(O)=O)C(N[C@H](C1=CC=C(O)C=C1)C(N[C@@H](CC(O)=O)C(NCC(N[C@@H](C(N[C@@H](CCC(O)=O)C(N[C@@H](CC2=CNC3=C2C=CC=C3)C(O[C@H](C)[C@@H]4NC([C@H](CO)NC(C(O5)C5CCC)=O)=O)=O)=O)=O)[C@@H](C(N)=O)O)=O)=O)=O)=O)[C@H](CC(O)=C)NC([C@@H](CC6=CNC7=C6C=CC=C7)NC4=O)=O", 
+                "molecular_formula": "C66H78N14O26", 
+                "mol_mass": 1482.52, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "Unknown"
+            }, 
+            {
+                "compound": "CDA4a", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(N[C@@H](CC(O)=O)C(N[C@H](C1=CC=C(O)C=C1)C(N[C@@H](CC(O)=O)C(NCC(N[C@@H](C(N[C@@H]([C@H](C)CC(O)=O)C(N/C(C(O[C@H](C)[C@@H]2NC([C@H](CO)NC(C(O3)C3CCC)=O)=O)=O)=C\\\\C4=CNC5=C4C=CC=C5)=O)=O)[C@H](O)C(N)=O)=O)=O)=O)=O)[C@H](CC(O)=O)NC([C@@H](CC6=CNC7=C6C=CC=C7)NC2=O)=O", 
+                "molecular_formula": "C67H78N14O26", 
+                "mol_mass": 1494.52, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "Unknown"
+            }, 
+            {
+                "compound": "CDA4b", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(N[C@@H](CC(O)=O)C(N[C@H](C1=CC=C(O)C=C1)C(N[C@@H](CC(O)=O)C(NCC(N[C@@H](C(N[C@@H]([C@H](C)CC(O)=O)C(N[C@@H](CC2=CNC3=C2C=CC=C3)C(O[C@H](C)[C@@H]4NC([C@H](CO)NC(C(O5)C5CCC)=O)=O)=O)=O)=O)[C@@H](C(N)=O)O)=O)=O)=O)=O)[C@H](CC(O)=O)NC([C@@H](CC6=CNC7=C6C=CC=C7)NC4=O)=O", 
+                "molecular_formula": "C67H80N14O26", 
+                "mol_mass": 1496.54, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "Unknown"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "SCO3210", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3519449, 
+                    "gene_endpos": 3520903, 
+                    "gene_id": "CAB38581.1", 
+                    "gene_annotation": "putative 2-dehydro-3-deoxyheptonate aldolase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3211", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3520900, 
+                    "gene_endpos": 3521676, 
+                    "gene_id": "CAB38582.1", 
+                    "gene_annotation": "putative indoleglycerol phosphate synthase (trpC2)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3212", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3521673, 
+                    "gene_endpos": 3522680, 
+                    "gene_id": "CAB38583.1", 
+                    "gene_annotation": "probable anthranilate phosphoribotransferase (trpD2)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3213", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3522697, 
+                    "gene_endpos": 3523299, 
+                    "gene_id": "CAB38584.1", 
+                    "gene_annotation": "probable anthranilate synthase component II (trpG)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3214", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3523296, 
+                    "gene_endpos": 3524831, 
+                    "gene_id": "CAB38585.1", 
+                    "gene_annotation": "probable anthranilate synthase component I (trpE2)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3215", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3524828, 
+                    "gene_endpos": 3525844, 
+                    "gene_id": "CAB38586.1", 
+                    "gene_annotation": "2-oxogluterate-3-methyltransferase (glmT)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay & knock-out"
+                    ], 
+                    "mut_pheno": "Knock-out produces only Glu containing CDA. PMID: 16925444, 17784761"
+                }, 
+                {
+                    "gene_name": "SCO3216", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3526137, 
+                    "gene_endpos": 3528527, 
+                    "gene_id": "CAB38587.1", 
+                    "gene_annotation": "putative integral membrane ATPase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3217", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3529272, 
+                    "gene_endpos": 3531188, 
+                    "gene_id": "CAB38588.1", 
+                    "gene_annotation": "putative transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3218", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3531250, 
+                    "gene_endpos": 3531465, 
+                    "gene_id": "CAB38589.1", 
+                    "gene_annotation": "putative small conserved hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3219", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3531588, 
+                    "gene_endpos": 3532763, 
+                    "gene_id": "CAB38590.1", 
+                    "gene_annotation": "putative lipase (putative secreted protein)", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3220", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3532971, 
+                    "gene_endpos": 3533399, 
+                    "gene_id": "CAB38591.1", 
+                    "gene_annotation": "putative secreted protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3221", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3533492, 
+                    "gene_endpos": 3534346, 
+                    "gene_id": "CAB38592.1", 
+                    "gene_annotation": "putative oxidoreductase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3222", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3534444, 
+                    "gene_endpos": 3534899, 
+                    "gene_id": "CAB38593.1", 
+                    "gene_annotation": "putative secreted protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3223", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3535054, 
+                    "gene_endpos": 3535848, 
+                    "gene_id": "CAB38594.1", 
+                    "gene_annotation": "putative ABC transporter integral membrane protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3224", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3535855, 
+                    "gene_endpos": 3536808, 
+                    "gene_id": "CAB38595.1", 
+                    "gene_annotation": "putative ABC transporter ATP-binding protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3225", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3536945, 
+                    "gene_endpos": 3538660, 
+                    "gene_id": "CAB38596.1", 
+                    "gene_annotation": "two component sensor kinase (absA1)", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ], 
+                    "mut_pheno": "PMID: 11790750"
+                }, 
+                {
+                    "gene_name": "SCO3226", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3538679, 
+                    "gene_endpos": 3539347, 
+                    "gene_id": "CAB38597.1", 
+                    "gene_annotation": "two component system response regulator (absA2)", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ], 
+                    "mut_pheno": "PMID: 11790750, 17513473"
+                }, 
+                {
+                    "gene_name": "SCO3227", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3539337, 
+                    "gene_endpos": 3540671, 
+                    "gene_id": "CAD55497.1", 
+                    "gene_annotation": "4-hydroxyphenylglycine aminotransferase (hpgT)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3228", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3540668, 
+                    "gene_endpos": 3541801, 
+                    "gene_id": "CAB38520.1", 
+                    "gene_annotation": "4-hydroxymandelate oxidase (Hmo)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Knock-out abolishes CDA production which is restored on feeding L-HPG (unpublished)"
+                }, 
+                {
+                    "gene_name": "SCO3229", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3541951, 
+                    "gene_endpos": 3543066, 
+                    "gene_id": "CAB38519.1", 
+                    "gene_annotation": "4-hydroxymandelic acid synthase (HmaS)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Knock-out abolishes CDA production which is restored on feeding 4-hydroxyphenylglyoxylate, 4-hydroxymandelate or  L-HPG. PMID 12445768"
+                }, 
+                {
+                    "gene_name": "SCO3230", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3543335, 
+                    "gene_endpos": 3565726, 
+                    "gene_id": "CAB38518.1", 
+                    "gene_annotation": "CDA peptide synthetase I (CdaPs1)", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ], 
+                    "mut_pheno": "Mutagenesis of Ser residue of the CdaPS1 module 1 PCP domain to Ala abolishes CDA production, which can be restored on feeding fatty acid-Ser-SNAC analogues. PMID: 18020333"
+                }, 
+                {
+                    "gene_name": "SCO3231", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3565723, 
+                    "gene_endpos": 3576735, 
+                    "gene_id": "CAB38517.1", 
+                    "gene_annotation": "CDA peptide synthetase II (CdaPs2)", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ], 
+                    "mut_pheno": "Modification of the Asp-activating adenylation domain specificity (module 7). PMID: 15099062"
+                }, 
+                {
+                    "gene_name": "SCO3232", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3576735, 
+                    "gene_endpos": 3583988, 
+                    "gene_id": "CAD55498.1", 
+                    "gene_annotation": "CDA peptide synthetase III (CdaPs3)", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ], 
+                    "mut_pheno": "Modification of the Glu-activating adenylation domain specificity ( module 10 ). PMID: 22711659"
+                }, 
+                {
+                    "gene_name": "SCO3233", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3583992, 
+                    "gene_endpos": 3584810, 
+                    "gene_id": "CAB38877.1", 
+                    "gene_annotation": "putative type II thioesterase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "PMID: 15099062"
+                }, 
+                {
+                    "gene_name": "SCO3234", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3584822, 
+                    "gene_endpos": 3585724, 
+                    "gene_id": "CAB38878.1", 
+                    "gene_annotation": "3-hydroxyasparagine phosphotransferase (HasP)", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Phosphorylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Knock-out produces only none phosphorylated CDAs. PMID: 17322197"
+                }, 
+                {
+                    "gene_name": "SCO3235", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3585800, 
+                    "gene_endpos": 3587647, 
+                    "gene_id": "CAB38879.1", 
+                    "gene_annotation": "putative ABC transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3236", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3587687, 
+                    "gene_endpos": 3588688, 
+                    "gene_id": "CAB38880.1", 
+                    "gene_annotation": "Asparagine oxygenase (AsnO)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay & knockout"
+                    ], 
+                    "mut_pheno": "Knock-out produces only Asn containing CDAs. PMID: 17322197, 17373765"
+                }, 
+                {
+                    "gene_name": "SCO3237", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3588746, 
+                    "gene_endpos": 3590134, 
+                    "gene_id": "CAB38881.1", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3238", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3590146, 
+                    "gene_endpos": 3591306, 
+                    "gene_id": "CAB38882.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3239", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3591313, 
+                    "gene_endpos": 3592182, 
+                    "gene_id": "CAB38883.1", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3240", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3592179, 
+                    "gene_endpos": 3592889, 
+                    "gene_id": "CAB38884.1", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3241", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3592886, 
+                    "gene_endpos": 3593758, 
+                    "gene_id": "CAB38885.1", 
+                    "gene_annotation": "putaive isomerase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3242", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3593755, 
+                    "gene_endpos": 3594630, 
+                    "gene_id": "CAB38886.1", 
+                    "gene_annotation": "puitative transferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3243", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3594627, 
+                    "gene_endpos": 3595793, 
+                    "gene_id": "CAB38887.1", 
+                    "gene_annotation": "putative myo-inositol phosphate synthase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3244", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3595843, 
+                    "gene_endpos": 3596640, 
+                    "gene_id": "CAB38888.1", 
+                    "gene_annotation": "putative secreted protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3245", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3596708, 
+                    "gene_endpos": 3597970, 
+                    "gene_id": "CAB38889.1", 
+                    "gene_annotation": "Hexenoyl-S-ACP Monooxygenase (hcmO)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "Shown to be an epoxidase in vitro. PMID: 18237171"
+                }, 
+                {
+                    "gene_name": "SCO3246", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3598017, 
+                    "gene_endpos": 3599009, 
+                    "gene_id": "CAB38890.1", 
+                    "gene_annotation": "3-Oxoacyl-[acyl carrier protein] synthase III (fabH4)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO3247", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3599006, 
+                    "gene_endpos": 3600808, 
+                    "gene_id": "CAB38891.1", 
+                    "gene_annotation": "Hexanoyl-S-ACP oxidase/epoxidase (hxcO)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay & knockout"
+                    ], 
+                    "mut_pheno": "Knock-out produces hexanoyl-CDAs missing the epoxide moiety. PMID: 18020333, 18237171"
+                }, 
+                {
+                    "gene_name": "SCO3248", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3600858, 
+                    "gene_endpos": 3602078, 
+                    "gene_id": "CAB38892.1", 
+                    "gene_annotation": "3-Oxoacyl-[acyl carrier protein] synthase II (fabF3)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ], 
+                    "mut_pheno": "Active site modification of FabF3 affects the CDA fatty acid chain length. PMID 21135931"
+                }, 
+                {
+                    "gene_name": "SCO3249", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3602075, 
+                    "gene_endpos": 3602320, 
+                    "gene_id": "CAB38893.1", 
+                    "gene_annotation": "acyl carrier protein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "2,3-epoxyhexanoyl-S-ACP shown to be substrate for CdaPS,  module 1, C-domain. PMID: 22245678"
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Ca+-dependent lipopeptide", 
+            "lipid_moiety": "2,3-epoxyhexanoyl", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Both", 
+            "nrps_release_type": "Macrolactonization", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "SCO3230", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Serine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Starter", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Threonine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Tryptophan", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Aspartate", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Aspartate", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "4-Hydroxyphenylglycine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "SCO3231", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "7", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Aspartate", 
+                                "evidence_a_spec": "Other", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "8", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Glycine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "9", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Asparigine or (2S, 3S)-3-hydroxyasparagine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "SCO3232", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "10", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Glutamate or (2S, 3R)-3-methylglutamate", 
+                                "evidence_a_spec": "Other", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "11", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Tryptophan", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

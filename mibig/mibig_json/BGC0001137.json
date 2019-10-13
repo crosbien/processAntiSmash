@@ -1,0 +1,121 @@
+{
+    "version": "11", 
+    "personal": {
+        "submitter_name": "Jianhua Ju", 
+        "submitter_institution": "South China Sea Institute of Oceanology, Chinese Academy of Sciences", 
+        "submitter_email": "jju@scsio.ac.cn"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001137", 
+        "biosyn_class": [
+            "Alkaloid"
+        ], 
+        "publications": "23913777", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KC541560",
+                    "start_coord": 11893,  
+                    "end_coord": 16114,
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "marinacarboline a", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(C1=CC(C2=CC=CC=C2N3)=C3C(C(C)=O)=N1)NCCC4=CC=C(OC)C=C4", 
+                "molecular_formula": "C23H21N3O3", 
+                "mol_mass": 387.1583, 
+                "mass_ion_type": "[M-H]-", 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "antimalarial  ", 
+                "chem_target": "unknown"
+            }, 
+            {
+                "compound": "marinacarboline b", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(C1=CC(C2=CC=CC=C2N3)=C3C(C(C)=O)=N1)NCCC4=CC=C(O)C=C4", 
+                "molecular_formula": "C22H19N3O3", 
+                "mol_mass": 373.1426, 
+                "mass_ion_type": "[M-H]-", 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "antimalarial  ", 
+                "chem_target": "unknown"
+            }, 
+            {
+                "compound": "marinacarboline c", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(C1=CC(C2=CC=CC=C2N3)=C3C(C(C)=O)=N1)NCCC4=CC=CC=C4", 
+                "molecular_formula": "C22H19N3O2", 
+                "mol_mass": 357.1477, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "antimalarial", 
+                "chem_target": "unknown"
+            }, 
+            {
+                "compound": "marinacarboline d", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(C1=CC(C2=CC=CC=C2N3)=C3C(C(C)=O)=N1)NCCC4=CNC5=C4C=CC=C5", 
+                "molecular_formula": "C24H20N4O2", 
+                "mol_mass": 396.1586, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "antimalarial  ", 
+                "chem_target": "unknown"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "mcbC", 
+                    "gene_id": "protein_id=AGL76722.1", 
+                    "gene_annotation": "glutamate decarboxylase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "McbC knock-out failed to produce marinacarboline A-D, accumulating 1-acetyl-3-carboxy-b-carboline as the major product and 1-acetyl-b-carboline as the minor product. Compounds were observed in lower abundance than the McbA knock-out" 
+                }, 
+                {
+                    "gene_name": "mcbB", 
+                    "gene_id": "protein_id=AGL76721.1", 
+                    "gene_annotation": "cucumopine synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "McbB knock-out was shown to abolish production of 1-acetyl-b-carboline and marinacarboline A-D"
+                }, 
+                {
+                    "gene_name": "mcbA", 
+                    "gene_id": "protein_id=AGL76720.1", 
+                    "gene_annotation": "fatty acid CoA ligase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "McbA knock-out failed to produce marinacarboline A-D, accumulating 1-acetyl-3-carboxy-b-carboline as the major product and 1-acetyl-b-carboline as the minor product"
+                }
+            ]
+        }, 
+        "Alkaloid": {
+            "alkaloid_subclass": "Indole/benzopyrrole"
+        }
+    }, 
+    "comments": "Paper for this gene cluster:\\nChen Q, Ji C, Song Y, Huang H, Ma J, Tian X, Ju J.Discovery of McbB, an enzyme catalyzing the \u00ce\u00b2-carboline skeleton construction in the marinacarboline biosynthetic pathway.Angew Chem Int Ed Engl. 2013,52(38):9980-9984. \\n"
+}
+

@@ -1,0 +1,362 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Marnix Medema", 
+        "submitter_institution": "Wageningen University", 
+        "submitter_email": "marnix.medema@wur.nl"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000194", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "25690356,24035284,23601640,23073761,22765902,22086671,21506596,19381365,19361520,19292437,19246012,18804114,18691223,18245777,18207163,18205400,18034463,17644591,17579485,17338074,17227452,16285746,16164554,15498668,15458634,15286722,12421300,11851466,10805574,10684659,10519556,10091691,9209048,8636024,7615536,7929165,7683365,1527048,1766437,1716725,1878971,2394677,2469622", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AL645882", 
+                    "start_coord": 5513809, 
+                    "end_coord": 5535091, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Actinorhodin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "chEBI", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 5280985, 
+                "chebi_id": 2448, 
+                "chemspider_id": 16735642, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry", 
+                    "X-ray"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "actVI-B", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5513809, 
+                    "gene_endpos": 5514249, 
+                    "gene_id": "CAC37459.1", 
+                    "gene_annotation": "hydroxylacyl-CoA dehydrogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydrogenation", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ], 
+                    "mut_pheno": "No obvious change in phenotype"
+                }, 
+                {
+                    "gene_name": "actVI-1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5514323, 
+                    "gene_endpos": 5515246, 
+                    "gene_id": "CAC37460.1", 
+                    "gene_annotation": "hydroxylacyl-CoA dehydrogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydrogenation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of brown pigment (DMAC and aloesaponarin II)"
+                }, 
+                {
+                    "gene_name": "actVI-2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5515243, 
+                    "gene_endpos": 5516232, 
+                    "gene_id": "CAC37461.1", 
+                    "gene_annotation": "putative oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of (S)-DNPA (brown pigment)"
+                }, 
+                {
+                    "gene_name": "actVI-3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5516299, 
+                    "gene_endpos": 5516943, 
+                    "gene_id": "CAC37462.1", 
+                    "gene_annotation": "putative dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydration", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of red pigment"
+                }, 
+                {
+                    "gene_name": "actVI-4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5516977, 
+                    "gene_endpos": 5517897, 
+                    "gene_id": "CAD55222.1", 
+                    "gene_annotation": "putative oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Reduced actinorhodin production"
+                }, 
+                {
+                    "gene_name": "actVA1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5517894, 
+                    "gene_endpos": 5519495, 
+                    "gene_id": "CAC44189.1", 
+                    "gene_annotation": "integral membrane protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Impaired actinorhodin production"
+                }, 
+                {
+                    "gene_name": "actVA2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5519497, 
+                    "gene_endpos": 5519892, 
+                    "gene_id": "CAC44190.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of shunt product"
+                }, 
+                {
+                    "gene_name": "actVA3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5519987, 
+                    "gene_endpos": 5520832, 
+                    "gene_id": "CAC44191.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of shunt product"
+                }, 
+                {
+                    "gene_name": "actVA4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5520857, 
+                    "gene_endpos": 5521741, 
+                    "gene_id": "CAC44192.1", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of DHK"
+                }, 
+                {
+                    "gene_name": "actVA5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5521738, 
+                    "gene_endpos": 5522883, 
+                    "gene_id": "CAC44193.1", 
+                    "gene_annotation": "putative hydrolase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of actinoperylone (yellowish brown pigment)"
+                }, 
+                {
+                    "gene_name": "actVA6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5522876, 
+                    "gene_endpos": 5523217, 
+                    "gene_id": "CAC44194.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "actII-1 (actR)", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5523183, 
+                    "gene_endpos": 5523962, 
+                    "gene_id": "CAC44195.1", 
+                    "gene_annotation": "putative transcriptional regulatory protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "actII-2 (actA)", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5524073, 
+                    "gene_endpos": 5525809, 
+                    "gene_id": "CAC44196.1", 
+                    "gene_annotation": "putative actinorhodin transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Impaired actinorhodin production"
+                }, 
+                {
+                    "gene_name": "actII-3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5525809, 
+                    "gene_endpos": 5527944, 
+                    "gene_id": "CAC44197.1", 
+                    "gene_annotation": "putative membrane protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Impaired actinorhodin production"
+                }, 
+                {
+                    "gene_name": "actII-4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5528094, 
+                    "gene_endpos": 5528861, 
+                    "gene_id": "CAC44198.1", 
+                    "gene_annotation": "actinorhodin cluster activator protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "actIII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5528935, 
+                    "gene_endpos": 5529720, 
+                    "gene_id": "CAC44199.1", 
+                    "gene_annotation": "ketoacyl reductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Abolishment of actinorhodin production"
+                }, 
+                {
+                    "gene_name": "actI-1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5529801, 
+                    "gene_endpos": 5531204, 
+                    "gene_id": "CAC44200.1", 
+                    "gene_annotation": "actinorhodin polyketide beta-ketoacyl synthase alpha subunit", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Abolishment of actinorhodin production"
+                }, 
+                {
+                    "gene_name": "actI-2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5531201, 
+                    "gene_endpos": 5532424, 
+                    "gene_id": "CAC44201.1", 
+                    "gene_annotation": "actinorhodin polyketide beta-ketoacyl synthase beta subunit", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "actI-3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5532449, 
+                    "gene_endpos": 5532709, 
+                    "gene_id": "CAC44202.1", 
+                    "gene_annotation": "actinorhodin polyketide synthase acyl carrier protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "actVII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5532706, 
+                    "gene_endpos": 5533656, 
+                    "gene_id": "CAC44203.1", 
+                    "gene_annotation": "actinorhodin polyketide synthase bifunctional cyclase/dehydratase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of shunt product"
+                }, 
+                {
+                    "gene_name": "actIV", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5533653, 
+                    "gene_endpos": 5534546, 
+                    "gene_id": "CAC44204.1", 
+                    "gene_annotation": "cyclase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of shunt product"
+                }, 
+                {
+                    "gene_name": "actVB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5534558, 
+                    "gene_endpos": 5535091, 
+                    "gene_id": "CAC44205.1", 
+                    "gene_annotation": "actinorhodin polyketide putative dimerase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of shunt product"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Benzoisochromanequinone", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "pks_genes": [
+                "sco5087"
+            ], 
+            "ketide_length": 8, 
+            "cyclases": "SCO5090,SCO5091"
+        }
+    }
+}

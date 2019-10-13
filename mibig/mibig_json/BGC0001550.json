@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "citrulassin D"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 7545, 
+                    "Accession": "NZ_JNZY01000033", 
+                    "start_coord": 2136
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001550", 
+        "publications": [
+            "28244986"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

@@ -1,0 +1,272 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Arnold J.M. Driessen", 
+        "submitter_institution": "University of Groningen", 
+        "submitter_email": "a.j.m.driessen@rug.nl"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000420", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "25998659,26668029,26729047,23776469,24225953, 22118684", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AM920436", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "histidyltryptophanyldiketopiperazine", 
+                "chem_synonyms": [
+                    "htd"
+                ], 
+                "molecular_formula": "C17H17N5O2", 
+                "mol_mass": 324.1455, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "dehydrohistidyltryptophanyldiketopiperazine", 
+                "chem_synonyms": [
+                    "dhtd"
+                ], 
+                "molecular_formula": "C17H15N5O2", 
+                "mol_mass": 322.1299, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "roquefortine D", 
+                "chem_synonyms": [
+                    "roquefortine d"
+                ], 
+                "molecular_formula": "C22H25N5O2", 
+                "mol_mass": 392.2081, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "unknown"
+            }, 
+            {
+                "compound": "roquefortine C", 
+                "chem_synonyms": [
+                    "roquefortine c"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 5935070, 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "RNA synthesis"
+            }, 
+            {
+                "compound": "glandicoline A", 
+                "chem_synonyms": [
+                    "glandicoline a"
+                ], 
+                "molecular_formula": "C22H21N5O3", 
+                "mol_mass": 404.1717, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "unknown"
+            }, 
+            {
+                "compound": "glandicoline B", 
+                "chem_synonyms": [
+                    "glandicoline b"
+                ], 
+                "molecular_formula": "C22H21N5O4", 
+                "mol_mass": 420.1666, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "unknown"
+            }, 
+            {
+                "compound": "meleagrin", 
+                "chem_synonyms": [
+                    "meleagrin"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 6437857, 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "unknown"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "roqT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 1792, 
+                    "gene_id": "CAP96439.1", 
+                    "gene_annotation": "Transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "enhanced metabolite production"
+                }, 
+                {
+                    "gene_name": "roqD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2640, 
+                    "gene_endpos": 3978, 
+                    "gene_id": "CAP96440.1", 
+                    "gene_annotation": "dimethylallyltryptophan synthase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Prenylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "production of only HTD and DHTD"
+                }, 
+                {
+                    "gene_name": "roqN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4335, 
+                    "gene_endpos": 5367, 
+                    "gene_id": "CAP96441.1", 
+                    "gene_annotation": "methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "block of conversion glandicoline B into meleagrin"
+                }, 
+                {
+                    "gene_name": "roqO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5950, 
+                    "gene_endpos": 7802, 
+                    "gene_id": "CAP96442.1", 
+                    "gene_annotation": "P450 monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "block of conversion glandicoline A into glandicoline A"
+                }, 
+                {
+                    "gene_name": "roqM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8150, 
+                    "gene_endpos": 9659, 
+                    "gene_id": "CAP96443.1", 
+                    "gene_annotation": "MAK1-type monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "block of conversion roquefortine C into glandicoline A"
+                }, 
+                {
+                    "gene_name": "roqR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11020, 
+                    "gene_endpos": 12665, 
+                    "gene_id": "CAP96444.1", 
+                    "gene_annotation": "cytochrome P450 oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of HTD and roquefortine D early in pathway"
+                }, 
+                {
+                    "gene_name": "roqA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13202, 
+                    "gene_endpos": 20659, 
+                    "gene_id": "CAP96445.1", 
+                    "gene_annotation": "NRPS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "complete block of HTD and roquefortin biosynthesis"
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Unknown", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "CAP96445.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Tryptophan", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Histidine", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

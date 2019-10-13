@@ -1,0 +1,37 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 5748534, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "mycobactin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2680020, 
+                    "Accession": "AL123456", 
+                    "start_coord": 2656200
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001021", 
+        "publications": [
+            "9831524"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "[H][C@]12C[C@@H](C)CC[C@]1([H])[C@](C)([C@@H](\\C=C\\C=C\\C)C(C)=C2)C(\\O)=C1\\C(=O)[C@@H](CO)N(C)C1=O", 
+                "compound": "phomasetin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 26559, 
+                    "Accession": "LC361337", 
+                    "start_coord": 2234
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001738", 
+        "publications": [
+            "29972614"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

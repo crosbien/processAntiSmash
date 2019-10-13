@@ -1,0 +1,23 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "isorenieratene"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 709212, 
+                    "Accession": "CP006259", 
+                    "start_coord": 697069
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001227", 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

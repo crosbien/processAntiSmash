@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "EPS273"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3730171, 
+                    "Accession": "NZ_CP015641", 
+                    "start_coord": 3711099
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001586", 
+        "publications": [
+            "28698510"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Saccharide"
+        ]
+    }
+}

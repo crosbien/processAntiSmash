@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 56844124, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "PR toxin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3358585, 
+                    "Accession": "HG792016", 
+                    "start_coord": 3342234
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000667", 
+        "publications": [
+            "24239699, 27921136"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

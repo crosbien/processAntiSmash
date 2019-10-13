@@ -1,0 +1,101 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Sean Brady", 
+        "submitter_institution": "The Rockefeller University", 
+        "submitter_email": "sbrady@rockefeller.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000817", 
+        "biosyn_class": [
+            "Alkaloid"
+        ], 
+        "publications": "24648189", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KF551863", 
+                    "start_coord": 5678, 
+                    "end_coord": 12491, 
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "methylarcyriarubin", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(N1C)C(C2=CNC3=CC=CC=C32)=C(C4=CNC5=CC=CC=C54)C1=O", 
+                "molecular_formula": "C21H15N3O2", 
+                "mol_mass": 341.1164, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_target": "Protein kinase"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "marM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5678, 
+                    "gene_endpos": 6733, 
+                    "gene_id": "AHE14572.1", 
+                    "gene_annotation": "N-methyltransferase MarM", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "marB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7087, 
+                    "gene_endpos": 10515, 
+                    "gene_id": "AHE14562.1", 
+                    "gene_annotation": "chromopyrrolic acid synthase MarB", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "marC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10561, 
+                    "gene_endpos": 11898, 
+                    "gene_id": "AHE14552.1", 
+                    "gene_annotation": "Rieske [2Fe-2S] domain dioxygenase MarC", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "marE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11895, 
+                    "gene_endpos": 12491, 
+                    "gene_id": "AHE14571.1", 
+                    "gene_annotation": "putative VioE-like protein MarE", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }
+            ]
+        }, 
+        "Alkaloid": {
+            "alkaloid_subclass": "Pyrrole/pyrrolidine"
+        }
+    }
+}
+
+

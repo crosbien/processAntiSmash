@@ -1,0 +1,72 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Thomas Torring", 
+        "submitter_institution": "Aarhus University", 
+        "submitter_email": "thomast@chem.au.dk"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001329", 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ], 
+        "publications": "24242000", 
+        "loci": {
+            "complete": "incomplete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KL569388.1", 
+                    "start_coord": 1, 
+                    "end_coord": 36804, 
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Rakicidin D", 
+                "chem_synonyms": [], 
+                "chem_struct": "CN(CC(N[C@@H]([C@@H](C(N)=O)O)C(OC([C@H](C)CCCCCC)[C@H](C)C(N1)=O)=O)=O)C(/C=C/C1=C)=O", 
+                "molecular_formula": "C24H38N3O7", 
+                "mol_mass": 495.2813, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "4-amido-2,4-pentadienoate", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "NRP": {
+            "subclass": "Cyclic depsipeptide", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Unknown", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Macrolactonization"
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Macrolide", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Other", 
+            "pks_te_type": "Unknown", 
+            "pks_release_type": "Macrolactonization"
+        }
+    }, 
+    "embargo": true
+}

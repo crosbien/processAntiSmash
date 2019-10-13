@@ -1,0 +1,29 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "enterocin A"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2313194, 
+                    "Accession": "CP003583", 
+                    "start_coord": 2312434
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000618", 
+        "RiPP": {
+            "ripp_subclass": "Other"
+        }, 
+        "publications": [
+            "8633865"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

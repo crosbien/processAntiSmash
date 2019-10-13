@@ -1,0 +1,268 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Aaron Puri", 
+        "submitter_institution": "University of Washington", 
+        "submitter_email": "awpuri@uw.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001480", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "29361220, 27994019", 
+        "loci": {
+            "complete": "unknown", 
+            "nucl_acc": [
+                {
+                    "Accession": "NZ_JMLA01000001.1", 
+                    "start_coord": 833380, 
+                    "end_coord": 851631, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Gene expression correlated with compound production"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Tundrenone", 
+                "chem_synonyms": [], 
+                "chem_struct": "O[C@@H]1C=CC([C@](C2)([H])[C@H]1OC(C(OCC(C(O)C(CCCCC)=O)=C)=O)=C)=C(O)C2=O", 
+                "molecular_formula": "C22H28O8", 
+                "mol_mass": 421.1857, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "tunA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 833380, 
+                    "gene_endpos": 834075, 
+                    "gene_id": "WP_027148168.1", 
+                    "gene_annotation": "HAD-IB family hydrolase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "tunB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 834124, 
+                    "gene_endpos": 835275, 
+                    "gene_id": "WP_027148169.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "tunC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 835318, 
+                    "gene_endpos": 836016, 
+                    "gene_id": "WP_027148170.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "tunD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 836018, 
+                    "gene_endpos": 837613, 
+                    "gene_id": "WP_027148171.1", 
+                    "gene_annotation": "FAD-dependent monooxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "tunE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 837627, 
+                    "gene_endpos": 838616, 
+                    "gene_id": "WP_027148172.1", 
+                    "gene_annotation": "aldo/keto reductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "tunF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 838629, 
+                    "gene_endpos": 840170, 
+                    "gene_id": "WP_027148173.1", 
+                    "gene_annotation": "DHA2 family efflux MFS transporter permease subunit", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "tunG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 840249, 
+                    "gene_endpos": 841424, 
+                    "gene_id": "WP_051604059.1", 
+                    "gene_annotation": "HlyD family secretion protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "tunH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 841439, 
+                    "gene_endpos": 841687, 
+                    "gene_id": "WP_027148174.1", 
+                    "gene_annotation": "acyl carrier protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "tunI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 841696, 
+                    "gene_endpos": 843009, 
+                    "gene_id": "WP_027148175.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "tunJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 843021, 
+                    "gene_endpos": 844622, 
+                    "gene_id": "WP_027148176.1", 
+                    "gene_annotation": "Acyl-CoA ligase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Bicyclic ring and modified lipid tail still produced, but not joined"
+                }, 
+                {
+                    "gene_name": "tunK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 844771, 
+                    "gene_endpos": 845589, 
+                    "gene_id": "WP_027148177.1", 
+                    "gene_annotation": "alpha/beta hydrolase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "tunL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 845710, 
+                    "gene_endpos": 847065, 
+                    "gene_id": "WP_027148178.1", 
+                    "gene_annotation": "type I secretion protein TolC", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "tunM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 847252, 
+                    "gene_endpos": 848274, 
+                    "gene_id": "WP_027148179.1", 
+                    "gene_annotation": "NAD(P)-dependent alcohol dehydrogenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "tunN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 848543, 
+                    "gene_endpos": 850246, 
+                    "gene_id": "WP_081813268.1", 
+                    "gene_annotation": "anthranilate synthase component I", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "tunO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 850249, 
+                    "gene_endpos": 850893, 
+                    "gene_id": "WP_027148181.1", 
+                    "gene_annotation": "aminodeoxychorismate/anthranilate synthase component II", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "tunP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 850984, 
+                    "gene_endpos": 851631, 
+                    "gene_id": "WP_027148182.1", 
+                    "gene_annotation": "glutathione S-transferase family protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 851857, 
+                    "gene_endpos": 852282, 
+                    "gene_id": "WP_036304852.1", 
+                    "gene_annotation": "DUF4902 domain-containing protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mbaR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 852453, 
+                    "gene_endpos": 853163, 
+                    "gene_id": "WP_006890625.1", 
+                    "gene_annotation": "LuxR family transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study", 
+                        " Activity assay"
+                    ]
+                }
+            ]
+        }
+    }
+}

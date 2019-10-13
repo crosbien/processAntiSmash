@@ -1,0 +1,101 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "micromonolactam"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KC608848", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KC608849", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KC608850", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KC608851", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KC608852", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KC608853", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KC608854", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KC608855", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KC608856", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KC608857", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KC608858", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KC608859", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KC608860", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KC608861", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "KC608862", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000095", 
+        "publications": [
+            "23677034"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

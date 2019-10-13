@@ -1,0 +1,230 @@
+{
+    "version": "10", 
+    "personal": {
+        "submitter_name": "Carmen M\u00c3\u00a9ndez", 
+        "submitter_institution": "University of Oviedo", 
+        "submitter_email": "cmendezf@uniovi.es"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000210", 
+        "biosyn_class": [
+            "Polyketide", 
+            "Saccharide"
+        ], 
+        "publications": "21342468,21244022,17768249,16391039,15255901,15112992", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AJ578458", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "chromomycin A3", 
+                "chem_synonyms": [
+                    "toyomycin", 
+                    "toyomicin", 
+                    "aburamycin b"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 5351560, 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_target": "DNA"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "cmmA", 
+                    "gene_id": "CAE17546.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "4A,4E-O-dideacetyl-chromomycin A3"
+                }, 
+                {
+                    "gene_name": "cmmMIII", 
+                    "gene_id": "CAE17530.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Other in vivo study", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "accumulates 4B-O-demethyl-chromomycin A3, 4B-O-demethylchromomycin A3 and 4B-O-demethyl-4B-O-acetyl-4A-O-deacetylchromomycin A3"
+                }, 
+                {
+                    "gene_name": "cmmGI", 
+                    "gene_id": "CAE17535.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "premithramycinone, prechromomycin A4, 4A-O-deacetyl-3A-O-acetyl-prechromomycin A4 and 3A-O-acetyl-prechromomycin A4"
+                }, 
+                {
+                    "gene_name": "cmmOIV", 
+                    "gene_id": "CAE17536.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "4B-O-methyl-4A,4E-di-O-acetyl-prechromomycin B, 4A,4E-di-Oacetyl-3A-des-(4B-O-methyl-D-oliosyl)-prechromomycin B, 4C,4E-diketo-prechromomycin B, 4B-O-methyl-4E-O-acetyl-prechromomycin B"
+                }, 
+                {
+                    "gene_name": "cmmWI", 
+                    "gene_id": "CAE17537.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "chromomycin SK, chromycin SA and chromomycin SDK"
+                }, 
+                {
+                    "gene_name": "cmmGIII", 
+                    "gene_id": "CAE17545.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "premithramycinone, premithramycin A1 "
+                }, 
+                {
+                    "gene_name": "cmmA", 
+                    "gene_id": "CAE17546.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "4A,4E-O-dideacetyl-chromomycin A3"
+                }, 
+                {
+                    "gene_name": "cmmGIV", 
+                    "gene_id": "CAE17547.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "premithramycinone and 4-demethyl-premithramycinone"
+                }, 
+                {
+                    "gene_name": "cmmGII", 
+                    "gene_id": "CAE17548.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "premithramycinone, premithramycin A1 and prechromomycin A3"
+                }, 
+                {
+                    "gene_name": "cmmRI", 
+                    "gene_id": "CAE17531.1", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Other in vivo study", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "loss of chromomycin production"
+                }, 
+                {
+                    "gene_name": "cmmRII", 
+                    "gene_id": "CAE17541.1", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Other in vivo study", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "strongly increase of chromomycin production"
+                }, 
+                {
+                    "gene_name": "cmrX", 
+                    "gene_id": "CAE17542.1", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Other in vivo study", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "loss of chromomycin resistance and decrese of chromomycin production"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "pks_genes": [
+                "cae17520.1", 
+                "cae17526.1" 
+            ], 
+            "ketide_length": 10, 
+            "cyclases": "CAE17518.1, CAE17525.1, CAE17552.1"
+        }, 
+        "Saccharide": {
+            "saccharide_subclass": "oligosaccharide", 
+            "gt_genes": [
+                {
+                    "gt_gene": "CAE17535.1", 
+                    "gt_specificity": "D-oliose", 
+                    "evidence_gt_spec": "Knock-out construct"
+                }, 
+                {
+                    "gt_gene": "CAE17545.1", 
+                    "gt_specificity": "D-olivose ", 
+                    "evidence_gt_spec": "Knock-out construct"
+                }, 
+                {
+                    "gt_gene": "CAE17547.1", 
+                    "gt_specificity": "D-olivose ", 
+                    "evidence_gt_spec": "Knock-out construct"
+                }, 
+                {
+                    "gt_gene": "CAE17548.1", 
+                    "gt_specificity": "D-oliose", 
+                    "evidence_gt_spec": "Knock-out construct"
+                }
+            ]
+        }
+    }
+}
+

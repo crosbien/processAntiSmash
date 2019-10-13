@@ -1,0 +1,30 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CCC(C)C1NC(=O)C(CS\\C=C/NC(=O)C(NC(=O)C(CC(C)C)NC(=O)C(C)NC1=O)C(O)C1=CN(C)C=[N+]1C)NC(=O)C(C)NC(=S)C(C)NC(=S)C(C)NC(=S)C(C)NC(=S)C(CCSC)NC(=S)C(NC(=O)C(C)(O)CC(C)=O)C(C)C", 
+                "compound": "thioviridamide"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "AB819757", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001803", 
+        "RiPP": {
+            "ripp_subclass": "Other"
+        }, 
+        "publications": [
+            "28968491"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

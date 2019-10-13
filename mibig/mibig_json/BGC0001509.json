@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "anikasin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 161212, 
+                    "Accession": "NZ_LVEJ01000013", 
+                    "start_coord": 116447
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001509", 
+        "publications": [
+            "28846366"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

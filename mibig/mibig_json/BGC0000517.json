@@ -1,0 +1,189 @@
+{
+    "version": "10", 
+    "personal": {
+        "submitter_name": "Wilfred Van Der Donk", 
+        "submitter_institution": "The University of Illinois at Urbana-Champaign", 
+        "submitter_email": "vddonk@illinois.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000517", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "17085596, 17233677, 18940665, 19678697, 22003874", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "BA000004.3", 
+                    "start_coord": 472000, 
+                    "end_coord": 586037, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Proven expression in natural host", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Haloduracin beta", 
+                "chem_synonyms": [
+                	"Hal beta"
+                ], 
+                "molecular_formula": "C103H155N27O27S4", 
+                "mol_mass": 2330.05, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "cell wall- lipidII, pore forming"
+            }, 
+            {
+                "compound": "Haloduracin alpha", 
+                "chem_synonyms": [
+                	"Hal alpha"
+                ], 
+                "molecular_formula": "C130H196N36O37S6", 
+                "mol_mass": 3045.29, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "HalM1", 
+                    "gene_id": "BAB04174.1", 
+                    "gene_annotation": "Class II lantibiotic synthetase", 
+                    "gene_function": "Scaffold Biosynthesis", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Other in vivo study", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "HalM2", 
+                    "gene_id": "BAB04171.1", 
+                    "gene_annotation": "Class II lantibiotic synthetase", 
+                    "gene_function": "Scaffold Biosynthesis", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Other in vivo study", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "HalA2", 
+                    "gene_id": "BAB04172.1", 
+                    "gene_annotation": "lantibiotic haloduracin precursor", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "HalA1", 
+                    "gene_id": "BAB04173.1", 
+                    "gene_annotation": "lantibiotic haloduracin precursor", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "HalT", 
+                    "gene_id": "BAB04170.1", 
+                    "gene_annotation": "lantibiotic haloduracin protease and transporter", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "Lantipeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "BAB04173.1"
+                    ], 
+                    "core_pept_aa": "CAWYNISCRLGNKGAYCTLTVECMPSCN", 
+                    "lead_pept_len": 41, 
+                    "foll_pept_len": -1, 
+                    "cleavage_recogn_site": "GA", 
+                    "peptidase": [
+                    	"BAB04170.1"
+                    ], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 7, 
+                            "AA_pos_2": 17, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 18, 
+                            "AA_pos_2": 23, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 20, 
+                            "AA_pos_2": 27, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }, 
+                {
+                    "gene_id": [
+                        "BAB04172.1"
+                    ], 
+                    "core_pept_aa": "GDVHAQTTWPCATVGVSVALCPTTKCTSQC", 
+                    "lead_pept_len": 41, 
+                    "foll_pept_len": -1, 
+                    "cleavage_recogn_site": "GS, GDVHAQ", 
+                    "peptidase": [
+                    	"BAB04170.1"
+                    ], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 1, 
+                            "AA_pos_2": 5, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 11, 
+                            "AA_pos_2": 15, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 17, 
+                            "AA_pos_2": 20, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 21, 
+                            "AA_pos_2": 24, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "comments": "The lantibiotic synthetases complete dehydration and cyclization so reaction type was marked as other. "
+}
+
+

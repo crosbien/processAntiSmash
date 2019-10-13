@@ -1,0 +1,520 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Stefan Diethelm", 
+        "submitter_institution": "Scripps Institution of Oceanography", 
+        "submitter_email": "sdiethelm@ucsd.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001079", 
+        "biosyn_class": [
+            "Polyketide", 
+            "Terpene"
+        ], 
+        "publications": "17392281,21384874", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "EF397638.1", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays", 
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Napyradiomycin A80915C", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1C2(Cl)C(OC(C)(C)C(Cl)C2)(CC3C(C)(C)C(Cl)CCC3(O)C)C(C4=CC(O)=C(C)C(O)=C41)=O", 
+                "molecular_formula": "C26H33Cl3O6", 
+                "mol_mass": 547.1415, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "chlorine", 
+                        "moiety_subcluster": [
+                            "naph1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "chlorine", 
+                        "moiety_subcluster": [
+                            "naph4"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "chlorine", 
+                        "moiety_subcluster": [
+                            "naph2"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "napT1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 0, 
+                    "gene_endpos": 0, 
+                    "gene_id": "ABS50443.1", 
+                    "gene_annotation": "putative HMG-CoA synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "napT2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50444.1", 
+                    "gene_annotation": "putative HMG-CoA reductase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napT3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50445.1", 
+                    "gene_annotation": "putative type 2 IPP isomerase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napT4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50446.1", 
+                    "gene_annotation": "putative phosphomevalonate kinase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napT5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50447.1", 
+                    "gene_annotation": "putative mevalonate decarboxylase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napT6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50448.1", 
+                    "gene_annotation": "putative mevalonate kinase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napU1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50449.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napU2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50450.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napB1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50451.1", 
+                    "gene_annotation": "putative THN synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napB2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50452.1", 
+                    "gene_annotation": "putative monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napB4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50453.1", 
+                    "gene_annotation": "putative acyl-CoA synthase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napT7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50454.1", 
+                    "gene_annotation": "putative polyprenyl synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napR1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50455.1", 
+                    "gene_annotation": "putative regulatory protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napR2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50456.1", 
+                    "gene_annotation": "putative sodium transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napR3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50457.1", 
+                    "gene_annotation": "putative transcription regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napH1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50458.1", 
+                    "gene_annotation": "putative vanadium chloroperoxidase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Halogenation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napU3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50459.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napH2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50460.1", 
+                    "gene_annotation": "putative FADH2 dependent halogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Halogenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napT8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50461.1", 
+                    "gene_annotation": "putative prenyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napT9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50462.1", 
+                    "gene_annotation": "putative prenyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napH3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50463.1", 
+                    "gene_annotation": "putative vanadium chloroperoxidase", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napH4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50464.1", 
+                    "gene_annotation": "putative vanadium chloroperoxidase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Halogenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napB5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50465.1", 
+                    "gene_annotation": "putative methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napR4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50466.1", 
+                    "gene_annotation": "putative transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napR5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50467.1", 
+                    "gene_annotation": "putative efflux protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napR6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50468.1", 
+                    "gene_annotation": "putative efflux protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napR7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50469.1", 
+                    "gene_annotation": "putative transcription regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napR8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50470.1", 
+                    "gene_annotation": "putative regulatory protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napU4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50471.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50472.1", 
+                    "gene_annotation": "putative transposase", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "napR9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ABS50473.1", 
+                    "gene_annotation": "putative efflux transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type III"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "pks_genes": [
+                "napb1"
+            ], 
+            "ketide_length": 5, 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "ABS50451.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Terpene": {
+            "terpene_subclass": "Other", 
+            "terpene_c_len": "Monoterpene", 
+            "terpene_precursor": "DMAPP", 
+            "terpene_synth_cycl": [
+                "napt1-7"
+            ], 
+            "prenyl_transf": [
+                "napt8", 
+                "napt9"
+            ]
+        }
+    }
+}
+
+

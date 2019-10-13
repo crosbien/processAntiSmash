@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 6435893, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "cyclosporin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 197080, 
+                    "Accession": "AOHE01000194", 
+                    "start_coord": 103530
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000334", 
+        "publications": [
+            "23818858"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

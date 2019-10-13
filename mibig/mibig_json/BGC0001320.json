@@ -1,0 +1,29 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "alpha-chaconine"
+            }, 
+            {
+                "compound": "alpha-solanine"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "Solgenomics", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001320", 
+        "publications": [
+            "23788733"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

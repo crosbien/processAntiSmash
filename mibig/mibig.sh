@@ -37,7 +37,7 @@ for FILE in $3/*.json; do
        + .general_params.compounds[0].chem_act[1] + ","
        + .general_params.compounds[0].compound + ","
        + .general_params.compounds[1].compound + ","
-       + .general_params.compounds[2].compound' ./mibig_json_1.4/$k.json
+       + .general_params.compounds[2].compound' ./mibig_json/$k.json
   done >out3.txt
 
   # 6. Retrieve the annotations metadata

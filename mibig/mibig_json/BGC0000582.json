@@ -1,0 +1,150 @@
+{
+    "version": "6", 
+    "personal": {
+        "submitter_name": "Jan Claesen", 
+        "submitter_institution": "University of California at San Francisco", 
+        "submitter_email": "jclaesen@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000582", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "20805503, 22841713, 7802859", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "HQ148718", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Proven expression in natural host"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "cypemycin", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC(N(C)C)C(N/C(C(N1C(CCC1)C(NC(C(N/C(C(N2C(CCC2)C(N/C(C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(N/C(C(NC(C(NC(C(NC(C(NC3C(C)C)=O)CC(C)C)=O)CS/C=C\\\\NC3=O)=O)[C@H](C)CC)=O)=C/C)=O)CO)=O)[H])=O)CCC(N)=O)=O)[C@H](C)CC)=O)C(C)C)=O)CC4=CC=CC=C4)=O)CCC(N)=O)=O)C)=O)C(C)C)=O)=C\\\\C)=O)=O)=C\\\\C)=O)C)=O)=O)=C\\\\C)=O", 
+                "molecular_formula": "C99H154N24O24S", 
+                "mol_mass": 2095.1289, 
+                "mass_ion_type": "M+H+", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Cytotoxic"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "orf1", 
+                    "gene_id": "ADR72961.1", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "no effect on cypemycin biosynthesis"
+                }, 
+                {
+                    "gene_name": "cypA", 
+                    "gene_id": "ADR72962.1", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "abolishes cypemycin biosynthesis"
+                }, 
+                {
+                    "gene_name": "cypH", 
+                    "gene_id": "ADR72963.1", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "abolishes cypemycin biosynthesis"
+                }, 
+                {
+                    "gene_name": "cypL", 
+                    "gene_id": "ADR72964.1", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "abolishes cypemycin biosynthesis"
+                }, 
+                {
+                    "gene_name": "cypD", 
+                    "gene_id": "ADR72965.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "production of nondecarboxylated cypemycin; no activity against M. luteus"
+                }, 
+                {
+                    "gene_name": "cypM", 
+                    "gene_id": "ADR72966.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "production of nonmethylated cypemycin; no activity against M. luteus"
+                }, 
+                {
+                    "gene_name": "cypT", 
+                    "gene_id": "ADR72967.1", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "reduced cypemycin transport"
+                }, 
+                {
+                    "gene_name": "cypP", 
+                    "gene_id": "ADR72968.1", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "reduced cypemycin transport"
+                }, 
+                {
+                    "gene_name": "cypI", 
+                    "gene_id": "ADR72969.1", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "no apparent effect on cypemycin activity against M. luteus"
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "Linaridin", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "adr72962.1"
+                    ], 
+                    "core_pept_aa": "ATPATPTVAQFVIQGSTICLVC", 
+                    "lead_pept_len": 42, 
+                    "foll_pept_len": -1, 
+                    "peptidase": [], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 19, 
+                            "AA_pos_2": 22, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "comments": "Paper reporting the cypemycin structure is not archived in PubMed:\\nMinami Y, et al. (1994) Structure of cypemycin, a new peptide antibiotic. Tetrahedron Lett 35:8001\u00e2\u0080\u00938004"
+}
+
+

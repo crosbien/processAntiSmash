@@ -1,0 +1,115 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Alexey Melnik", 
+        "submitter_institution": "UCSD", 
+        "submitter_email": "alexvmelnik@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000579", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "21983601", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "NZ_CM000951", 
+                    "start_coord": 7626723, 
+                    "end_coord": 7632847, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "SSV-2083", 
+                "chem_synonyms": [], 
+                "mol_mass": 2082.83, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_id": "SSEG_05172", 
+                    "gene_annotation": "prepropeptide", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "SSEG_09672", 
+                    "gene_annotation": "lactamase", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "SSEG_09764", 
+                    "gene_annotation": "Peptidase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "SSEG_09675", 
+                    "gene_annotation": "Antibiotic resistance ABC transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "SSEG_05178", 
+                    "gene_annotation": "Antibiotic resistance ABC transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "SSEG_05179", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "SSEG_05180", 
+                    "gene_annotation": "protein disulfide isomerase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "Lantipeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "sseg_05172"
+                    ], 
+                    "core_pept_aa": "CVWGGDCTDFLGCGTAWICV", 
+                    "lead_pept_len": 36, 
+                    "foll_pept_len": 20, 
+                    "peptidase": []
+                }
+            ]
+        }
+    }
+}
+
+

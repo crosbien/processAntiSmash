@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "nenestatin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 68576, 
+                    "Accession": "KY454837", 
+                    "start_coord": 3153
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001693", 
+        "publications": [
+            "https://doi.org/10.1016/j.tet.2017.03.054"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type II"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

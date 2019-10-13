@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "GG exopolysaccharide"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "FJ428614", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000803", 
+        "publications": [
+            "19346339"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Saccharide"
+        ]
+    }
+}

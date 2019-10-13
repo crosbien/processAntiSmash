@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "[H][C@@]12[C@@H](CC3=C(COC3=O)[C@@]1(COC(C)=O)CCC[C@]2(C)COC(C)=O)OC(=O)C1=CC=CC=C1", 
+                "compound": "astellolide"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3513098, 
+                    "Accession": "BA000051", 
+                    "start_coord": 3489600
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001518", 
+        "publications": [
+            "27628599"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

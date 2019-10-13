@@ -1,0 +1,450 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Eric J. N. Helfrich", 
+        "submitter_institution": "Institute of Microbiology, Eidgen\u00c3\u00b6ssische Technische Hochschule (ETH) Zurich, Piel lab", 
+        "submitter_email": "ehelfrich@ethz.ch"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001108", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "12381784, 24307486, 19206228, 15958059, 15598566, 20464003, 10.1016/S0040-4039(01)96058-7, 10.1016/S0040-4039(00)75458-X, 10.1016/S0040-4039(01)89729-X, 10.1016/0005-2787(71)90665-4", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AY328023", 
+                    "start_coord": 6372, 
+                    "end_coord": 58844, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "pederin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 5381287, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry", 
+                    "Chemical derivatization"
+                ], 
+                "chem_act": [
+                    "Cytotoxic", 
+                    "Inhibitor", 
+                    "Other"
+                ], 
+                "other_chem_act": "dermatotoxic", 
+                "chem_target": "inhibition of protein biosynthesis caused by binding to the ribosome. This mechanism causes a ribotoxic stress response and ultimately apoptosis."
+            }, 
+            {
+                "compound": "pseudopederin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 12314693, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Cytotoxic", 
+                    "Inhibitor"
+                ]
+            }, 
+            {
+                "compound": "pederone", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 177799, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Cytotoxic", 
+                    "Inhibitor"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 520, 
+                    "gene_id": "AAS47548.1", 
+                    "gene_annotation": "putative isocitrate dehydrogenase kinase/phosphatase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_pubs": [
+                        "None"
+                    ], 
+                    "gene_comments": "AY328023 and AY850690\\n together build up the pederin gene cluster (BGC0001108\\n and BGC0000255\\n) BGC0001109\\n is not complete."
+                }, 
+                {
+                    "gene_name": "pedA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1911, 
+                    "gene_endpos": 2654, 
+                    "gene_id": "AAS47549.1", 
+                    "gene_annotation": "putative dioxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dioxygenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pedA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6372, 
+                    "gene_endpos": 7310, 
+                    "gene_id": "AAS47557.1", 
+                    "gene_annotation": "putative methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pedB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7324, 
+                    "gene_endpos": 8718, 
+                    "gene_id": "AAS47558.1", 
+                    "gene_annotation": "putative FMN-dependent oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pedC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8894, 
+                    "gene_endpos": 9898, 
+                    "gene_id": "AAS47559.1", 
+                    "gene_annotation": "putative acyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pedD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10062, 
+                    "gene_endpos": 11111, 
+                    "gene_id": "AAS47563.1", 
+                    "gene_annotation": "putative acyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pedE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11341, 
+                    "gene_endpos": 12162, 
+                    "gene_id": "AAS47560.1", 
+                    "gene_annotation": "putative methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pedE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11341, 
+                    "gene_endpos": 12162, 
+                    "gene_id": "AAS47560.1", 
+                    "gene_annotation": "putative methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        [
+                            "Sequence-based prediction"
+                        ]
+                    ]
+                }, 
+                {
+                    "gene_name": "pedG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 38240, 
+                    "gene_endpos": 39541, 
+                    "gene_id": "AAS47561.1", 
+                    "gene_annotation": "putative FAD-dependent monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pedH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 39565, 
+                    "gene_endpos": 58365, 
+                    "gene_id": "AAS47562.1", 
+                    "gene_annotation": "mixed type I polyketide synthase - peptide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 61329, 
+                    "gene_endpos": 61637, 
+                    "gene_id": "AAS47550.1", 
+                    "gene_annotation": "putative acyl carrier protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_pubs": [
+                        "None"
+                    ], 
+                    "gene_comments": ""
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 66565, 
+                    "gene_endpos": 68511, 
+                    "gene_id": "AAS47551.1", 
+                    "gene_annotation": "putative DNA helicase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 69647, 
+                    "gene_endpos": 70096, 
+                    "gene_id": "AAS47552.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 70095, 
+                    "gene_endpos": 70571, 
+                    "gene_id": "AAS47553.1", 
+                    "gene_annotation": "putative RNA methylase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 72053, 
+                    "gene_endpos": 72415, 
+                    "gene_id": "AAS47554.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 72966, 
+                    "gene_endpos": 74459, 
+                    "gene_id": "AAS47555.1", 
+                    "gene_annotation": "putative aldehyde dehydrogenase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 627, 
+                    "gene_endpos": 7609, 
+                    "gene_id": "AAW33970.1", 
+                    "gene_annotation": "putative formamidopyrimidine-DNA glycosylase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null, 
+                    "gene_pubs": [
+                        "None"
+                    ], 
+                    "gene_comments": null
+                }, 
+                {
+                    "gene_name": "PedL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2401, 
+                    "gene_endpos": 3156, 
+                    "gene_id": "AAW33971.1", 
+                    "gene_annotation": "crotonase superfamily", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null, 
+                    "gene_pubs": [
+                        "None"
+                    ], 
+                    "gene_comments": null
+                }, 
+                {
+                    "gene_name": "PedM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3258, 
+                    "gene_endpos": 4589, 
+                    "gene_id": "AAW33972.1", 
+                    "gene_annotation": "putative ketoacyl synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null, 
+                    "gene_pubs": [
+                        "None"
+                    ], 
+                    "gene_comments": null
+                }, 
+                {
+                    "gene_name": "PedN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4579, 
+                    "gene_endpos": 4821, 
+                    "gene_id": "AAW33973.1", 
+                    "gene_annotation": "putative acyl carrier protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null, 
+                    "gene_pubs": [
+                        "None"
+                    ], 
+                    "gene_comments": null
+                }, 
+                {
+                    "gene_name": "PedO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5045, 
+                    "gene_endpos": 6052, 
+                    "gene_id": "AAW33974.1", 
+                    "gene_annotation": "putative methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": null, 
+                    "gene_pubs": [
+                        "19206228"
+                    ], 
+                    "gene_comments": null
+                }, 
+                {
+                    "gene_name": "PedP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6283, 
+                    "gene_endpos": 7575, 
+                    "gene_id": "AAW33975.1", 
+                    "gene_annotation": "putative 3-hydroxy-3-methylglutaryl coenzyme A-like protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null, 
+                    "gene_pubs": [
+                        "None"
+                    ], 
+                    "gene_comments": null
+                }, 
+                {
+                    "gene_name": "PedQ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7576, 
+                    "gene_endpos": 8520, 
+                    "gene_id": "AAW33976.1", 
+                    "gene_annotation": "putative hydrolase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null, 
+                    "gene_pubs": [
+                        "None"
+                    ], 
+                    "gene_comments": null
+                }, 
+                {
+                    "gene_name": "PedR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8547, 
+                    "gene_endpos": 9440, 
+                    "gene_id": "AAW33977.1", 
+                    "gene_annotation": "putative LysR-type regulatory protei", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null, 
+                    "gene_pubs": [
+                        "None"
+                    ], 
+                    "gene_comments": null
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Trans-AT type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "trans_at": [
+                "aas47559.1", 
+                "aas47563.1"
+            ], 
+            "pks_te_type": "Type I", 
+            "pks_release_type": "Other"
+        }
+    }, 
+    "comments": "Pederin is most likely not released by the TE domain but by PedG."
+}

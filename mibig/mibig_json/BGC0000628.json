@@ -1,0 +1,63 @@
+{
+    "version": "3", 
+    "personal": {
+        "submitter_name": "Mohamed Donia", 
+        "submitter_institution": "Princeton University", 
+        "submitter_email": "donia@princeton.edu"
+    }, 
+    "general_params": {
+    	"mibig_accession": "BGC0000628",
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "25215495", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "ACGO02000004", 
+                    "start_coord": 9724, 
+                    "end_coord": 22493, 
+                    "conn_comp_cluster": "Knock-out studies"
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "lactocillin",
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(NC(C(O)=O)C)C1=CSC(C2=CSC(C3=NC(C4=CSC(C(CSC(C5=CNC6=C5C=CC=C6)=O)NC7=O)=N4)=C(C8=NC(C(NC(C(C)O)C(N/C(C9=NC(C(NC(C%10=NC7CS%10)C(O)C)=O)=CS9)=C\\\\C)=O)=O)=CS8)C=C3)=N2)=N1", 
+                "molecular_formula": "C51H45N13O10S7", 
+                "mol_mass": 1224.15184, 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "Binds to the 50S ribosomal subunit, Protein synthesis inhibitor", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "Indole carboxylic acid", 
+                        "subcluster": "unknown"
+                    }
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "RiPP": {
+            "ripp_subclass": "Thiopeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "hmpref0514_11728"
+                    ], 
+                    "core_pept_aa": "SCTTCTCCCSCCA", 
+                    "lead_pept_len": 45, 
+                    "foll_pept_len": 13, 
+                    "peptidase": []
+                }
+            ]
+        }
+    }
+} 
+

@@ -1,0 +1,96 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "David Fewer (annotation team)", 
+        "submitter_institution": "University of Helsinki", 
+        "submitter_email": "david.fewer@helsinki.fi"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000661", 
+        "biosyn_class": [
+            "Terpene"
+        ], 
+        "publications": "19031897", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP001037", 
+                    "start_coord": 3420177, 
+                    "end_coord": 3414766, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "geosmin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 29746, 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "Odorous metabolite"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 3417916, 
+                    "gene_endpos": 3420177, 
+                    "gene_id": "ACC81293.1", 
+                    "gene_annotation": "Geosmin synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 3417819, 
+                    "gene_endpos": 3416410, 
+                    "gene_id": "ACC81292.1", 
+                    "gene_annotation": "cyclic nucleotide-binding protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 3416175, 
+                    "gene_endpos": 3414766, 
+                    "gene_id": "ACC81291.1", 
+                    "gene_annotation": "cyclic nucleotide-binding protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }
+            ]
+        }, 
+        "Terpene": {
+            "terpene_subclass": "Sterol", 
+            "terpene_c_len": "Sesquiterpene", 
+            "terpene_precursor": "FPP", 
+            "terpene_synth_cycl": [
+                "npun_r2756"
+            ], 
+            "prenyl_transf": []
+        }
+    }
+}
+
+

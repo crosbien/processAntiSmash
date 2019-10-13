@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "lichenicidin VK21 A1"
+            }, 
+            {
+                "compound": "lichenicidin VK21 A2"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "GU949560", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000525", 
+        "RiPP": {
+            "ripp_subclass": "Lanthipeptide"
+        }, 
+        "publications": [
+            "20578714"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

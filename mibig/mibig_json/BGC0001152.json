@@ -1,0 +1,275 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Susan Jensen", 
+        "submitter_institution": "University of Alberta", 
+        "submitter_email": "susan.jensen@ualberta.ca"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001152", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "17400768, 18291316", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "EF451155", 
+                    "start_coord": 10739, 
+                    "end_coord": 42549, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "fusaricidin B", 
+                "chem_synonyms": [
+                    "gatavalin"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 8923602, 
+                "chem_act": [
+                    "Antifungal"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "fusG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10739, 
+                    "gene_endpos": 11473, 
+                    "gene_id": "ACA34357.1", 
+                    "gene_annotation": "enoyl-acyl carrier protein reductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "fusF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11534, 
+                    "gene_endpos": 12946, 
+                    "gene_id": "ACA34358.1", 
+                    "gene_annotation": "acyl-CoA ligase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "fusE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12991, 
+                    "gene_endpos": 14214, 
+                    "gene_id": "ACA34359.1", 
+                    "gene_annotation": "aldehyde dehydrogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "fusD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14211, 
+                    "gene_endpos": 15911, 
+                    "gene_id": "ACA34360.1", 
+                    "gene_annotation": "acetolactate synthase large subunit", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "fusC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16118, 
+                    "gene_endpos": 17176, 
+                    "gene_id": "ACA34361.1", 
+                    "gene_annotation": "3-oxoacyl-acyl carrier protein synthase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "fusB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17181, 
+                    "gene_endpos": 17588, 
+                    "gene_id": "ACA34362.1", 
+                    "gene_annotation": "(3R)-hydroxymyristoyl-acyl carrier protein dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "fusA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17682, 
+                    "gene_endpos": 41408, 
+                    "gene_id": "ABQ96384.2", 
+                    "gene_annotation": "fusaricidin synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "non-producer"
+                }, 
+                {
+                    "gene_name": "fusTE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 41926, 
+                    "gene_endpos": 42549, 
+                    "gene_id": "ACA34363.1", 
+                    "gene_annotation": "alpa/beta hydrolase-thioesterase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other lipopeptide", 
+            "lipid_moiety": "guanidinylated b-hydroxy fatty acid", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Both", 
+            "nrps_release_type": "Macrolactonization", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "ACA34358.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "None", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "ABQ96384.2", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Threonine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Starter", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Valine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Tyrosine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Allo-threonine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Asparigine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "7", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "D-alanine", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "ACA34361.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

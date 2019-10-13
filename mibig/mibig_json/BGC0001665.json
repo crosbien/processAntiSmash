@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "methylated alkyl-resorcinol"
+            }, 
+            {
+                "compound": "methylated acyl-phloroglucinol"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3011664, 
+                    "Accession": "CP000854", 
+                    "start_coord": 2992146
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001665", 
+        "publications": [
+            "29695799"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type III"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

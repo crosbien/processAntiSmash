@@ -1,0 +1,35 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 16132433, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "mersacidin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "AJ250862", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000527", 
+        "RiPP": {
+            "ripp_subclass": "Lanthipeptide"
+        }, 
+        "publications": [
+            "10831439", 
+            "2181159"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

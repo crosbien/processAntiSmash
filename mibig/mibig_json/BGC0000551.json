@@ -1,0 +1,129 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Joanne Willey", 
+        "submitter_institution": "Hofstra University", 
+        "submitter_email": "joanne.m.willey@hofstra.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000551", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "15277670", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AL645882", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "SapB", 
+                "chem_synonyms": [], 
+                "chem_struct": "CCC(C)C1C(=O)NC(C(=O)NC(C(=O)NC(CSCC(C(=O)NC(C(=O)NC(C(=O)NC(=C)C(=O)N1)CC(C)C)CO)NC(=O)C(CC(=O)O)NC(=O)CNC(=O)C2CSCC(C(=O)NC(C(=O)NC(C(=O)NC(=C)C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N2)CC(C)C)CC(C)C)CC(C)C)C)CCCNC(=N)N)NC(=O)CNC(=O)C(C(C)O)N)C(=O)NC(CC(=O)N)C(=O)O)C(C)O)C(C)O", 
+                "mol_mass": 2026.97, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Surfactant"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "lanthionine, dehydroalanine", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "ramc", 
+                        "rams", 
+                        "rama", 
+                        "ramb"
+                    ], 
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "SCO6681", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 2793, 
+                    "gene_id": "CAA19960.1", 
+                    "gene_annotation": "putative serine/threonine protein kinase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydration", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO6682", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2831, 
+                    "gene_endpos": 2959, 
+                    "gene_id": "CAA19961.1", 
+                    "gene_annotation": "hypothetical protein SC5A7.32", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO6683", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2995, 
+                    "gene_endpos": 4905, 
+                    "gene_id": "CAA19962.1", 
+                    "gene_annotation": "putative ABC transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO6684", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4902, 
+                    "gene_endpos": 6728, 
+                    "gene_id": "CAA19963.1", 
+                    "gene_annotation": "putative ABC transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "Lantipeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "rams"
+                    ], 
+                    "core_pept_aa": "TGSRASLLLCGDSSLSITTCN", 
+                    "lead_pept_len": 21, 
+                    "foll_pept_len": -1, 
+                    "cleavage_recogn_site": "DVETGS", 
+                    "peptidase": []
+                }
+            ]
+        }
+    }
+}
+
+

@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 72937, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "viscosin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2831449, 
+                    "Accession": "AM181176", 
+                    "start_coord": 2788013
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001312", 
+        "publications": [
+            "11358168"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

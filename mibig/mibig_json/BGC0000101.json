@@ -1,0 +1,331 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Philipp Wiemann", 
+        "submitter_institution": "University of Wisconsin-Madison", 
+        "submitter_email": "pwiemann@wisc.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000101", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "19448638, 20139316, 21351751, 22730213, 22909031, 23848338", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "BN001308", 
+                    "start_coord": 4381095, 
+                    "end_coord": 4404005, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "BN001301.1", 
+                    "start_coord": 3102076, 
+                    "end_coord": 3103468, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "BN001302.1", 
+                    "start_coord": 441042, 
+                    "end_coord": 446753, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "emodin", 
+                "chem_synonyms": [ 
+                    "frangula emodin", 
+                    "emodol", 
+                    "rheum emodin", 
+                    "schuttgelb"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 3220, 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "STAT3"
+            }, 
+            {
+                "compound": "monodictyphenone ", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 16114922, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "shamixanthone", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 15596091, 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "calmodulin"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "mdpK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4381456, 
+                    "gene_endpos": 4382253, 
+                    "gene_id": "CBF90090.1", 
+                    "gene_annotation": "Baeyer-Villiger oxidase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of chrysophanol"
+                }, 
+                {
+                    "gene_name": "mdpJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4382618, 
+                    "gene_endpos": 4383416, 
+                    "gene_id": "CBF90092.1", 
+                    "gene_annotation": "glutathione-S-transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of chrysophanol"
+                }, 
+                {
+                    "gene_name": "mdpI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4383562, 
+                    "gene_endpos": 4385418, 
+                    "gene_id": "CBF90094.1", 
+                    "gene_annotation": "acyl-CoA synthase, putative", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no significant changes"
+                }, 
+                {
+                    "gene_name": "mdpH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4385793, 
+                    "gene_endpos": 4387378, 
+                    "gene_id": "CBF90095.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Decarboxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of endocrocin"
+                }, 
+                {
+                    "gene_name": "mdpG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4387684, 
+                    "gene_endpos": 4393245, 
+                    "gene_id": "CBF90097.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of emodin, monodictyphenone and shamixanthone"
+                }, 
+                {
+                    "gene_name": "mdpF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4393714, 
+                    "gene_endpos": 4394731, 
+                    "gene_id": "CBF90099.1", 
+                    "gene_annotation": "metallo-beta-lactamase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of emodin, monodictyphenone and shamixanthone"
+                }, 
+                {
+                    "gene_name": "mdpE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4396210, 
+                    "gene_endpos": 4397517, 
+                    "gene_id": "CBF90101.1", 
+                    "gene_annotation": "Zn(II)2Cys6 transcription factor", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "significant reduction of emodin, monodictyphenone and shamixanthone"
+                }, 
+                {
+                    "gene_name": "mdpD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4398044, 
+                    "gene_endpos": 4399687, 
+                    "gene_id": "CBF90103.1", 
+                    "gene_annotation": "monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no significant changes"
+                }, 
+                {
+                    "gene_name": "mdpC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4400318, 
+                    "gene_endpos": 4401170, 
+                    "gene_id": "CBF90105.1", 
+                    "gene_annotation": "phenol reductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of emodin"
+                }, 
+                {
+                    "gene_name": "mpdB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4401466, 
+                    "gene_endpos": 4402157, 
+                    "gene_id": "CBF90107.1", 
+                    "gene_annotation": "dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydration", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of emodin"
+                }, 
+                {
+                    "gene_name": "mdpA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4402496, 
+                    "gene_endpos": 4404005, 
+                    "gene_id": "CBF90109.1", 
+                    "gene_annotation": "AflJ-like co-activator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "significant reduction of emodin, monodictyphenone and shamixanthone"
+                }, 
+                {
+                    "gene_name": "xptA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3103468, 
+                    "gene_endpos": 3102076, 
+                    "gene_id": "CBF71451.1", 
+                    "gene_annotation": "prenyl-transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Prenylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of variecoxanthone A"
+                }, 
+                {
+                    "gene_name": "xptB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 445123, 
+                    "gene_endpos": 446753, 
+                    "gene_id": "AN1204", 
+                    "gene_annotation": "prenyl-transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Prenylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of intermediates"
+                }, 
+                {
+                    "gene_name": "xptC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 441042, 
+                    "gene_endpos": 443217, 
+                    "gene_id": "CBF73676.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of emericillin"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Polyphenol", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [], 
+            "nr_iterations": 7, 
+            "iterative_subtype": "Non-reducing", 
+            "iter_cycl_type": "C6-C11 first", 
+            "pks_te_type": "Other", 
+            "pks_thioesterase": [
+                "xm_652661"
+            ], 
+            "pks_release_type": "Hydrolysis", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "CBF90097.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "SAT", 
+                                "KS", 
+                                "AT", 
+                                "PT", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Iterated", 
+                            "pks_evidence_skip_iter": "Structure-based inference"
+                        }
+                    ]
+                }
+            ]
+        }
+    } 
+}
+

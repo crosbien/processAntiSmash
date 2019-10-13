@@ -1,0 +1,93 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Andriy Luzhetskyy", 
+        "submitter_institution": "Helmholtz Institute for Pharmaceutical Sciences Saarland", 
+        "submitter_email": "andriy.luzhetskyy@helmholtz-hzi.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000267", 
+        "biosyn_class": [
+            "Polyketide", 
+            "Saccharide"
+        ], 
+        "publications": "19384899", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "FJ670504", 
+                    "start_coord": 1126, 
+                    "end_coord": 35081, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Saquayamycin Z", 
+                "chem_synonyms": [], 
+                "molecular_formula": "C73H102O29", 
+                "mol_mass": 1465.63952, 
+                "mass_ion_type": "[M+Na]+", 
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "Polyketide": {
+            "pk_subclass": "Angucycline", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "acp19353.1"
+            ], 
+            "ketide_length": 9, 
+            "cyclases": "ACP19352.1, ACP19357.1"
+        }, 
+        "Saccharide": {
+            "saccharide_subclass": "oligosaccharide", 
+            "gt_genes": [
+                {
+                "gt_gene": "ACP19370.1",
+                "gt_specificity": "D-olivose", 
+                "evidence_gt_spec": "Knock-out construct"
+                }, 
+                {
+                "gt_gene": "ACP19363.1", 
+                "gt_specificity": "L-rhodinose", 
+                "evidence_gt_spec": "Knock-out construct"
+                }, 
+				{
+                "gt_gene": "ACP19364.1", 
+                "gt_specificity": "D-olivose", 
+                "evidence_gt_spec": "Knock-out construct"
+                }, 
+				{
+                "gt_gene": "ACP19365.1", 
+                "gt_specificity": "Unknown"
+                }, 
+				{
+                "gt_gene": "ACP19361.1", 
+                "gt_specificity": "L-Rhodinose", 
+                "evidence_gt_spec": "Knock-out construct"
+                }, 
+				{
+                "gt_gene": "ACP19375.1", 
+                "gt_specificity": "2-deoxy-L-fucose", 
+                "evidence_gt_spec": "Knock-out construct"
+                }
+			]
+		}
+    }
+}
+
+
+
+

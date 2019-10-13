@@ -1,0 +1,29 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "bicereucin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 70655, 
+                    "Accession": "ADFM01000043", 
+                    "start_coord": 59854
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001407", 
+        "RiPP": {
+            "ripp_subclass": "Other"
+        }, 
+        "publications": [
+            "27074593"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 122733, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "methylenomycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 251017, 
+                    "Accession": "AL589148", 
+                    "start_coord": 231676
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000914", 
+        "Other": {
+            "biosyn_class": [
+                "Other"
+            ]
+        }, 
+        "publications": [
+            "19054329", 
+            "18988741", 
+            "12000953", 
+            "9573173"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

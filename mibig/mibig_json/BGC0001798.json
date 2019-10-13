@@ -1,0 +1,44 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "[H][C@]1(O[C@H]2CC[C@@H](O)[C@@H](C)O2)[C@@H](C)[C@@]2([H])C(C)=CC3(CC)OC4=CC(=O)C=C1C24NC(=O)\\C(C)=C3\\O", 
+                "compound": "tetrapetalone A"
+            }, 
+            {
+                "chem_struct": "CC(OC(C)=O)[C@@]12C=C(C)[C@@H]3[C@@H](C)[C@H](O[C@H]4CC[C@@H](O)[C@@H](C)O4)C4=CC(=O)C=C(N1C(=O)C(C)=C2O)[C@]34O", 
+                "compound": "tetrapetalone B"
+            }, 
+            {
+                "chem_struct": "CC[C@@]12C=C(C)[C@@H]3[C@@H](C)[C@H](O[C@H]4CC[C@@H](O)[C@@H](C)O4)C4=CC(=O)C=C(N1C(=O)[C@](C)(O)C2=O)[C@]34O", 
+                "compound": "tetrapetalone C"
+            }, 
+            {
+                "chem_struct": "CC(OC(C)=O)C12C=C(C)[C@@H]3[C@@H](C)[C@H](O[C@H]4CC[C@@H](O)[C@@H](C)O4)C4=CC(=O)C=C(N1C(=O)[C@](C)(O)C2=O)[C@]34O", 
+                "compound": "tetrapetalone D"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 75307, 
+                    "Accession": "MG603754", 
+                    "start_coord": 1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001798", 
+        "publications": [
+            "-"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Other"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "dipeptide aldehydes"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 1912292, 
+                    "Accession": "NZ_ACII02000003", 
+                    "start_coord": 1882321
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001575", 
+        "publications": [
+            "28111075"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

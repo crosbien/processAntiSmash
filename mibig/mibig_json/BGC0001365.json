@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "clapurines"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 384390, 
+                    "Accession": "CAGA01000011", 
+                    "start_coord": 360607
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001365", 
+        "publications": [
+            "27390873"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

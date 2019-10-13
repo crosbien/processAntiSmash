@@ -1,0 +1,28 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "salinipostin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 4725672, 
+                    "Accession": "NC_009380", 
+                    "start_coord": 4714378
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001458", 
+        "Other": {
+            "biosyn_class": [
+                "Other"
+            ]
+        }, 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "minimal": true
+    }
+}

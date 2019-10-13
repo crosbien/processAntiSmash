@@ -1,0 +1,61 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Mohamed Donia", 
+        "submitter_institution": "Princeton University", 
+        "submitter_email": "donia@princeton.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000482", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "18425112", 
+        "loci": {
+            "complete": "incomplete", 
+            "nucl_acc": [
+                {
+                    "Accession": "EU290744", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "trunkamide", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 9811230, 
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "RiPP": {
+            "ripp_subclass": "Cyanobactin", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "eu290744"
+                    ], 
+                    "core_pept_aa": "TSIAPFC", 
+                    "lead_pept_len": 40, 
+                    "foll_pept_len": -1, 
+                    "cleavage_recogn_site": "GVDAS, SYD, SYDD", 
+                    "peptidase": []
+                }
+            ]
+        }
+    }
+}
+
+

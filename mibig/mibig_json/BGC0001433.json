@@ -1,0 +1,458 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Suhui Ye", 
+        "submitter_institution": "University of Oviedo", 
+        "submitter_email": "suhuiye_86@hotmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001433", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "10.3389/fmicb.2017.00194", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "LT615255", 
+                    "start_coord": 5044, 
+                    "end_coord": 50325, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "argimycin PI", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(O)[C@@H](NC(C)=O)CS/C(C)=C([H])/C([H])=C1C=CC2=C\\\\1C=CC=N2", 
+                "molecular_formula": "C17H18N2O3S", 
+                "mol_mass": 330.1, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "Argimycin PII", 
+                "chem_synonyms": [], 
+                "chem_struct": "[H]C(/C([H])=C(SC[C@@H](C(O)=O)NC(C)=O)\\\\C)=C1C=CC2=C\\\\1C=CC=N2", 
+                "molecular_formula": "C17H18N2O3S", 
+                "mol_mass": 330.1, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "Argimycin PIII", 
+                "chem_synonyms": [
+                    "nigrifactin"
+                ], 
+                "chem_struct": "C/C=C/C=C/C=C/C1=NCCCC1", 
+                "molecular_formula": "C12H17N", 
+                "mol_mass": 175.14, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }, 
+            {
+                "compound": "Argimycin PIV", 
+                "chem_synonyms": [], 
+                "chem_struct": "C/C=C/C=C1C=C[C@]2([H])NCC[C@@H](O)[C@@]2\\\\1O", 
+                "molecular_formula": "C12H17NO2", 
+                "mol_mass": 207.13, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "Argimycin PV", 
+                "chem_synonyms": [], 
+                "chem_struct": "C/C=C/C=C1C=C[C@]2([H])NCCC[C@@]2\\\\1O", 
+                "molecular_formula": "C12H17NO", 
+                "mol_mass": 191.13, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "Argimycin PVI", 
+                "chem_synonyms": [], 
+                "chem_struct": "C/C=C/C=C1C=C[C@]2([H])NCCC[C@@]2\\\\1[H]", 
+                "molecular_formula": "C12H17N", 
+                "mol_mass": 175.14, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }, 
+            {
+                "compound": "Argimycin PIX", 
+                "chem_synonyms": [], 
+                "chem_struct": "C/C=C/C=C/CCC1NCCCC1", 
+                "molecular_formula": "C12H21N", 
+                "mol_mass": 179.17, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "arpRI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5044, 
+                    "gene_endpos": 7530, 
+                    "gene_id": "SCO70300.1", 
+                    "gene_annotation": "SARP-like transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Non producer"
+                }, 
+                {
+                    "gene_name": "arpO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7867, 
+                    "gene_endpos": 9318, 
+                    "gene_id": "SCO70301.1", 
+                    "gene_annotation": "Dehydrogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arpDHI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9694, 
+                    "gene_endpos": 10872, 
+                    "gene_id": "SCO70302.1", 
+                    "gene_annotation": "Dehydrogenase/hydroxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arpDHII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10927, 
+                    "gene_endpos": 11808, 
+                    "gene_id": "SCO70303.1", 
+                    "gene_annotation": "Imine reductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arpN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12579, 
+                    "gene_endpos": 14183, 
+                    "gene_id": "SCO70304.1", 
+                    "gene_annotation": "Aminotransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        " other in vivo study"
+                    ], 
+                    "mut_pheno": "Non producer"
+                }, 
+                {
+                    "gene_name": "arpK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14364, 
+                    "gene_endpos": 14912, 
+                    "gene_id": "SCO70305.1", 
+                    "gene_annotation": "Flavin reductase", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arpHI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14998, 
+                    "gene_endpos": 15411, 
+                    "gene_id": "SCO70306.1", 
+                    "gene_annotation": "Cyclase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arpHII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15515, 
+                    "gene_endpos": 15925, 
+                    "gene_id": "SCO70307.1", 
+                    "gene_annotation": "Cyclase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arpPI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16117, 
+                    "gene_endpos": 29994, 
+                    "gene_id": "SCO70308.1", 
+                    "gene_annotation": "Type I polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arpPII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30065, 
+                    "gene_endpos": 40786, 
+                    "gene_id": "SCO70309.1", 
+                    "gene_annotation": "Type I polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arpPIII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 40845, 
+                    "gene_endpos": 47456, 
+                    "gene_id": "SCO70310.1", 
+                    "gene_annotation": "Type I polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Non producer"
+                }, 
+                {
+                    "gene_name": "arpT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 47550, 
+                    "gene_endpos": 48323, 
+                    "gene_id": "SCO70311.1", 
+                    "gene_annotation": "Type II thioesterase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arpX", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 48574, 
+                    "gene_endpos": 49107, 
+                    "gene_id": "SCO70312.1", 
+                    "gene_annotation": "Hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arpRII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 49693, 
+                    "gene_endpos": 50325, 
+                    "gene_id": "SCO70313.1", 
+                    "gene_annotation": "TetR-like transcriptional repressor", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Overproducer"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "pks_te_type": "Type II", 
+            "pks_thioesterase": [
+                "sco70311.1"
+            ], 
+            "pks_release_type": "Reductive release", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "SCO70308", 
+                    "pks_module": [
+                        {
+                            "module_nr": "0", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "ACP"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Sequence-based prediction", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "ACP"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Sequence-based prediction", 
+                            "kr_stereochem": "D-OH", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "ACP"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Sequence-based prediction", 
+                            "kr_stereochem": "D-OH", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": " SCO70309", 
+                    "pks_module": [
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "ACP"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Sequence-based prediction", 
+                            "kr_stereochem": "D-OH", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "ACP"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Sequence-based prediction", 
+                            "kr_stereochem": "Inactive", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "SCO70310", 
+                    "pks_module": [
+                        {
+                            "module_nr": "5", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "ACP", 
+                                "TR"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Sequence-based prediction", 
+                            "kr_stereochem": "D-OH", 
+                            "pks_mod_doms": [
+                                "Other"
+                            ], 
+                            "pks_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "comments": "No coments"
+}
+

@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C(C(C)=O)(NC(C(C)C)C(NC(CCSC)C(NC(C(NC(C(NC(C(NC(C(NC1C(=O)NC(C(NC(C)C(=O)NC(CC2C=CC=CC=2)C(NC(C(O)C2N(C)C=[N+](C)C=2)C(=O)NC=CSC1C)=O)=O)C(C)C)=O)C)=S)C)=S)C)=O)C)=S)=S)=O", 
+                "compound": "thioholgamide A"
+            }, 
+            {
+                "chem_struct": "C(C(C)=O)(NC(C(C)C)C(NC(CCS(=O)C)C(NC(C(NC(C(NC(C(NC(C(NC1C(=O)NC(C(NC(C)C(=O)NC(CC2C=CC=CC=2)C(NC(C(O)C2N(C)C=[N+](C)C=2)C(=O)NC=CSC1C)=O)=O)C(C)C)=O)C)=S)C)=S)C)=O)C)=S)=S)=O", 
+                "compound": "thioholgamide B"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "MF593843", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001802", 
+        "RiPP": {
+            "ripp_subclass": "Other"
+        }, 
+        "publications": [
+            "28981254"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

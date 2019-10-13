@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 12306055, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "(-)-delta-cadinene"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 79952, 
+                    "Accession": "DS570637", 
+                    "start_coord": 74962
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000674", 
+        "publications": [
+            "21276937"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

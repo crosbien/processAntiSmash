@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 91437, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "terreic acid"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 116126, 
+                    "Accession": "CH476602", 
+                    "start_coord": 89034
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000160", 
+        "publications": [
+            "25265334"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

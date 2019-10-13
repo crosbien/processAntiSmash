@@ -1,0 +1,50 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "cerecidin"
+            }, 
+            {
+                "compound": "cerecidin A1"
+            }, 
+            {
+                "compound": "cerecidin A2"
+            }, 
+            {
+                "compound": "cerecidin A3"
+            }, 
+            {
+                "compound": "cerecidin A4"
+            }, 
+            {
+                "compound": "cerecidin A5"
+            }, 
+            {
+                "compound": "cerecidin A6"
+            }, 
+            {
+                "compound": "cerecidin A7"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KJ000001", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000502", 
+        "RiPP": {
+            "ripp_subclass": "Lanthipeptide"
+        }, 
+        "publications": [
+            "24532070"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

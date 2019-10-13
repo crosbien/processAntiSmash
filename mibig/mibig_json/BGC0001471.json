@@ -1,0 +1,75 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Christopher Schwalen", 
+        "submitter_institution": "University of Illinois at Urbana-Champaign", 
+        "submitter_email": "cschwal@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001471", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "29983054,29507203,", 
+        "loci": {
+            "complete": "unknown", 
+            "nucl_acc": [
+                {
+                    "Accession": "NZ_FOEF01000002", 
+                    "start_coord": 708692, 
+                    "end_coord": 733454, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "saalfelduracin", 
+                "chem_synonyms": [], 
+                "chem_struct": "C[C@H]([C@H](NC1=S)C2=NC([C@](N3)([H])[C@](C4=NC(C(N[C@@](C(N/C(C5=N[C@](C(N[C@](C(C)(O)[C@@H](C)O)([H])C6=NC1=CS6)=O)([H])CS5)=C\\\\C)=O)([H])[C@@H](C)O)=O)=CS4)(NC(C(NC(C(NC(C(NC([C@@](C)([H])N[C@@H]7C=CC8=C(N=C9C=C8[C@@H](O)C)[C@H]7O)=O)=C)=O)=C)=O)=C)=O)CCC3C%10=NC(C(NC(C(NC(C(O)=O)=C)=O)=C)=O)=CS%10)=CS2)OC9=O", 
+                "molecular_formula": "C69H76N18O18S6", 
+                "mol_mass": 1637.3996, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "thioamide", 
+                        "moiety_subcluster": [
+                            "wp_091614392.1", 
+                            "wp_091614389.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "RiPP": {
+            "ripp_subclass": "Thiopeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "wp_091614358.1"
+                    ], 
+                    "core_pept_aa": "ASSSSCTTCICTCSCSS", 
+                    "lead_pept_len": 61, 
+                    "foll_pept_len": -1, 
+                    "peptidase": []
+                }
+            ]
+        }
+    }, 
+    "comments": "As we are waiting on publication, we do not have a DOI/PMID for article associated with this cluster (Step 2). A related publication from our lab has been used to allow for MIBiG submission while this publication is finishing the review process.", 
+    "embargo": true
+}
+

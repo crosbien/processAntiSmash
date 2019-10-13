@@ -1,0 +1,245 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Carla S. Jones", 
+        "submitter_institution": "Roosevelt University", 
+        "submitter_email": "csjonesphd@googlemail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000824", 
+        "biosyn_class": [
+            "Alkaloid"
+        ], 
+        "publications": "19482954,21742508,18954141,17351042,19780555,19429608,21742508,19630972,21501195,21786790,12388673,1508978,11926312,8405307", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP001037", 
+                    "start_coord": 1514904, 
+                    "end_coord": 1544157, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "CP001037", 
+                    "start_coord": 6473624, 
+                    "end_coord": 6479269, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction", 
+                        "Other"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Scytonemin", 
+                "chem_synonyms": [
+                    "none"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "chEMBL", 
+                    "ChemSpider"
+                ], 
+                "chembl_id": 505177, 
+                "chemspider_id": 16736974, 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "antiproliferative; anti-inflammatory; radical scavenging; UV protectant", 
+                "chem_target": "polo-like kinase 1; protein kinase C", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "indole-phenolic scytonemin skeleton", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_id": "ACC79980.1", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "aroG", 
+                    "gene_id": "ACC79981.1", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction", 
+                        "Other"
+                    ]
+                }, 
+                {
+                    "gene_name": "trpD", 
+                    "gene_id": "ACC79982.1", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction", 
+                        "Other"
+                    ]
+                }, 
+                {
+                    "gene_name": "trpB", 
+                    "gene_id": "ACC79983.1", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction", 
+                        "Other"
+                    ]
+                }, 
+                {
+                    "gene_name": "tyrP1", 
+                    "gene_id": "ACC79984.1", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "trpA", 
+                    "gene_id": "ACC79985.1", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction", 
+                        "Other"
+                    ]
+                }, 
+                {
+                    "gene_name": "trpC", 
+                    "gene_id": "ACC79986.1", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction", 
+                        "Other"
+                    ]
+                }, 
+                {
+                    "gene_name": "trpE", 
+                    "gene_id": "ACC79987.1", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction", 
+                        "Other"
+                    ]
+                }, 
+                {
+                    "gene_name": "aroB", 
+                    "gene_id": "ACC79988.1", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction", 
+                        "Other"
+                    ]
+                }, 
+                {
+                    "gene_name": "frnE", 
+                    "gene_id": "ACC79989.1", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "tyrA", 
+                    "gene_id": "ACC79990.1", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "ACC79991.1", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "scyF", 
+                    "gene_id": "ACC79992.1", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "scyE", 
+                    "gene_id": "ACC79993.1", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "scyD", 
+                    "gene_id": "ACC79994.1", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "Loss of Scytonemin Production"
+                }, 
+                {
+                    "gene_name": "scyC", 
+                    "gene_id": "ACC79995.1", 
+                    "gene_annotation": "cyclization and decarboxylation", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay", 
+                        "Other"
+                    ]
+                }, 
+                {
+                    "gene_name": "scyB", 
+                    "gene_id": "ACC79996.1", 
+                    "gene_annotation": "tryptophan dehydrogenase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay", 
+                        "Other"
+                    ]
+                }, 
+                {
+                    "gene_name": "scyA", 
+                    "gene_id": "ACC79997.1", 
+                    "gene_annotation": "indolic-phenolic coupling", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay", 
+                        "Other"
+                    ]
+                }, 
+                {
+                    "gene_id": "ACC79998.1", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_id": "ACC79999.1", 
+                    "gene_function": "Unknown"
+                }
+            ], 
+            "operon": [
+                {
+                    "operon_genes": [
+                        "npun_r1259", 
+                        "npun_r1260", 
+                        "npun_r1261", 
+                        "npun_r1262", 
+                        "npun_r1263", 
+                        "npun_r1264", 
+                        "npun_r1265", 
+                        "npun_r1266", 
+                        "npun_r1267", 
+                        "npun_r1268", 
+                        "npun_r1269", 
+                        "npun_r1270", 
+                        "npun_r1271", 
+                        "npun_r1272", 
+                        "npun_r1273", 
+                        "npun_r1274", 
+                        "npun_r1275", 
+                        "npun_r1276"
+                    ], 
+                    "evidence_operon": "Other"
+                }
+            ]
+        }, 
+        "Alkaloid": {
+            "alkaloid_subclass": "Indole/benzopyrrole"
+        }
+    }, 
+    "comments": "The second genomic locus I listed for scytonemin biosynthesis involves 5 genes (Npun_F5232-Npun5236) that have been shown to be upregulated through cDNA analysis by UV light (as has the main scytonemin cluster) and are shown to be associated with the main scytonemin cluster in other cyanobacterial species but are separated from the scytonmein cluster in Nostoc.  \\n\\nAlso, the genes Npun_1277 and Npun_1278 are thought through sequence analysis to be involved in scytonemin biosynthesis, particularly signaling but are located on a different operon.  These are included as part of the main scytonemin gene cluster however there is no experimental evidence to support this. \\n\\nAll of the genes from Npun_R1260-Npun_R1276 have been shown through cDNA assays to be upregulated under UV light, a known key factor in the production of scytonemin."
+}
+
+

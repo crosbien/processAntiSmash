@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "kleboxymycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 18579, 
+                    "Accession": "MF401554", 
+                    "start_coord": 1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001637", 
+        "publications": [
+            "28972161"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

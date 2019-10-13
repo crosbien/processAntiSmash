@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "nocardiopsin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 80239, 
+                    "Accession": "KP339942", 
+                    "start_coord": 3538
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001195", 
+        "publications": [
+            "25755076"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Tilmann Weber", 
+        "submitter_institution": "Technical University of Denmark", 
+        "submitter_email": "tiwe@biosustain.dtu.dk"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001226", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "26437689, 26433383", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP006259", 
+                    "start_coord": 182318, 
+                    "end_coord": 189114, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "CP006259", 
+                    "start_coord": 8087659, 
+                    "end_coord": 8091232, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "streptocollin", 
+                "chem_synonyms": [], 
+                "mol_mass": 1064.2, 
+                "mass_ion_type": "[M+2H]2+", 
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "protein tyrosine phosphatase 1B (PTP1B)"
+            }
+        ], 
+        "genes": {}, 
+        "RiPP": {
+            "ripp_subclass": "Lanthipeptide", 
+            "lin_cycl_ripp": "Linear", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "b446_00784"
+                    ], 
+                    "core_pept_aa": "MENQTLELLAHLHALPETDPVDFDGASYSGTCACVGLLTLLNTVCVGISCA", 
+                    "lead_pept_len": 28, 
+                    "foll_pept_len": -1, 
+                    "peptidase": [], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 3, 
+                            "AA_pos_2": 22, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 4, 
+                            "AA_pos_2": 15, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 6, 
+                            "AA_pos_2": 11, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 17, 
+                            "AA_pos_2": 21, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }, 
+                {
+                    "gene_id": [
+                        "b446_34506"
+                    ], 
+                    "core_pept_aa": "MENQTLELLAHLHALPETDPVDFDGASYSGTCACVGLLTLLNTVCVGISCA", 
+                    "lead_pept_len": 28, 
+                    "foll_pept_len": -1, 
+                    "peptidase": [], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 3, 
+                            "AA_pos_2": 22, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 4, 
+                            "AA_pos_2": 15, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 6, 
+                            "AA_pos_2": 11, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 17, 
+                            "AA_pos_2": 21, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

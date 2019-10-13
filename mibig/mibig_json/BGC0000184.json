@@ -1,0 +1,531 @@
+{
+   "version": "16",
+   "personal": {
+      "submitter_name": "Daniel Krug",
+      "submitter_institution": "HIPS",
+      "submitter_email": "daniel.krug@helmholtz-hzi.de"
+   },
+   "general_params": {
+      "mibig_accession": "BGC0000184",
+      "biosyn_class": [
+         "Polyketide"
+      ],
+      "publications": "20715267",
+      "loci": {
+         "complete": "complete",
+         "nucl_acc": [
+            {
+               "Accession": "HM584908",
+               "mixs_compliant": false,
+               "start_coord": 23952,
+               "end_coord": 148058,
+               "conn_comp_cluster": [
+                  "Knock-out studies"
+               ]
+            }
+         ]
+      },
+      "compounds": [
+         {
+            "compound": "Sorangicin A",
+            "chem_synonyms": [],
+            "database_deposited": false,
+            "chem_struct": "C1C=C[C@@H]2[C@H]3O[C@@H](C=CCC4C(C)[C@@H](O)C[C@H]([C@@H](O)[C@H](C=CCCC=CC[C@@H]5O[C@@H](/C(/C)=C/C(C)CCCCC(=O)O)C(C=C5)OC(=O)C=CC=1)O)O4)C(C)C(C3)O2",
+            "molecular_formula": "C47H66O11",
+            "mol_mass": 807.4678,
+            "mass_ion_type": "[M+H]+",
+            "chem_act": [
+               "Antibacterial"
+            ]
+         }
+      ],
+      "genes": {
+         "gene": [
+            {
+               "gene_name": "sorA",
+               "not_in_gbk": false,
+               "gene_id": "ADN68476.1",
+               "gene_annotation": "SorA",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "sorB",
+               "not_in_gbk": false,
+               "gene_id": "ADN68477.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "sorC",
+               "not_in_gbk": false,
+               "gene_id": "ADN68478.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "sorD",
+               "not_in_gbk": false,
+               "gene_id": "ADN68479.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "sorE",
+               "not_in_gbk": false,
+               "gene_id": "ADN68480.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "sorG",
+               "not_in_gbk": false,
+               "gene_id": "ADN68482.1",
+               "gene_annotation": "SorG",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "sorH",
+               "not_in_gbk": false,
+               "gene_id": "ADN68483.1",
+               "gene_annotation": "SorH",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "sorI",
+               "not_in_gbk": false,
+               "gene_id": "ADN68484.1",
+               "gene_annotation": "SorI",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "sorN",
+               "not_in_gbk": false,
+               "gene_id": "ADN68488.1",
+               "gene_annotation": "enoyl reductase",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "sorO",
+               "not_in_gbk": false,
+               "gene_id": "ADN68489.1",
+               "gene_annotation": "tandem acyl transferase and enoyl reductase",
+               "gene_function": "Activation / processing",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            }
+         ]
+      },
+      "Polyketide": {
+         "pk_subclass": "Other",
+         "lin_cycl_pk": "Cyclic",
+         "pks_subclass": [
+            "Trans-AT type I"
+         ],
+         "starter_unit": "Malonyl-CoA",
+         "mod_pks_genes": [
+            {
+               "mod_pks_gene": "ADN68476.1",
+               "pks_module": [
+                  {
+                     "module_nr": "1",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "2",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "3",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "Methylation",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "4",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "5",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "6",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "7",
+                     "pks_domains": [
+                        "Ketosynthase"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "ADN68477.1",
+               "pks_module": [
+                  {
+                     "module_nr": "7",
+                     "pks_domains": [
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "8",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "9",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "10",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "11",
+                     "pks_domains": [
+                        "Ketosynthase"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "ADN68478.1",
+               "pks_module": [
+                  {
+                     "module_nr": "11",
+                     "pks_domains": [
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "12",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "ADN68479.1",
+               "pks_module": [
+                  {
+                     "module_nr": "12",
+                     "pks_domains": [
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "Methylation",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "13",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "14",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "ADN68480.1",
+               "pks_module": [
+                  {
+                     "module_nr": "14",
+                     "pks_domains": [
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "Methylation",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "15",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "16",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "17",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "ADN68482.1",
+               "pks_module": [
+                  {
+                     "module_nr": "17",
+                     "pks_domains": [
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "Methylation",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "18",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "19",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Dehydratase"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "ADN68483.1",
+               "pks_module": [
+                  {
+                     "module_nr": "19",
+                     "pks_domains": [
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "20",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "21",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "22",
+                     "pks_domains": [
+                        "Ketosynthase"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "ADN68484.1",
+               "pks_module": [
+                  {
+                     "module_nr": "22",
+                     "pks_domains": [
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "23",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            }
+         ],
+         "pks_genes": [],
+         "trans_at": [
+            "adn68489.1"
+         ],
+         "pks_te_type": "None",
+         "pks_thioesterase": [],
+         "pks_release_type": "Unknown"
+      }
+   },
+   "embargo": false
+}

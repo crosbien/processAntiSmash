@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "paramagnetoquinone 1"
+            }, 
+            {
+                "compound": "paramagnetoquinone 2"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KX533975", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001730", 
+        "publications": [
+            "28218529"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Other"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

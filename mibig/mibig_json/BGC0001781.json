@@ -1,0 +1,29 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "sphaericin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 161251, 
+                    "Accession": "BDCX01000012", 
+                    "start_coord": 158350
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001781", 
+        "RiPP": {
+            "ripp_subclass": "Other"
+        }, 
+        "publications": [
+            "doi:10.1002/ejoc.201601334"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

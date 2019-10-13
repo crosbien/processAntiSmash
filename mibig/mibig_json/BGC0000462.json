@@ -1,0 +1,299 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Ren\u00c3\u00a9 De Mot ", 
+        "submitter_institution": "University of Leuven (KU Leuven)", 
+        "submitter_email": "rene.demot@biw.kuleuven.be"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000462", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "22544260", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "JN982332", 
+                    "start_coord": 1116, 
+                    "end_coord": 10056, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "JN982333", 
+                    "start_coord": 3354, 
+                    "end_coord": 30958, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "WLIP", 
+                "chem_synonyms": [
+                    "white-line-inducing principle"
+                ], 
+                "chem_struct": "O=C([C@@H](CC(C)C)NC([C@@H](C(C)C)NC([C@H](NC([C@H](NC([C@H](CC(C)C)NC(C[C@H](O)CCCCCCC)=O)=O)CCC(O)=O)=O)[C@](C)([H])OC1=O)=O)=O)N[C@H](CO)C(N[C@@H](CC(C)C)C(N[C@H](CO)C(N[C@H]1[C@H](CC)C)=O)=O)=O", 
+                "molecular_formula": "C54H95N9O16", 
+                "mol_mass": 1126.3828, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Other"
+                ], 
+                "other_chem_act": "White line formation with tolaasin; hemolytic activity"
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "afj23818.1", 
+                        "afj23817.1"
+                    ], 
+                    "evidence_operon": "Other"
+                }, 
+                {
+                    "operon_genes": [
+                        "afj23825.1", 
+                        "afj23826.1", 
+                        "afj23827.1", 
+                        "afj23828.1"
+                    ], 
+                    "evidence_operon": "Other"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "wlpF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1116, 
+                    "gene_endpos": 2513, 
+                    "gene_id": "AFJ23817.1", 
+                    "gene_annotation": "OprM family outer membrane protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wlpR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2530, 
+                    "gene_endpos": 3294, 
+                    "gene_id": "AFJ23818.1", 
+                    "gene_annotation": "LuxR family regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No WLIP production"
+                }, 
+                {
+                    "gene_name": "wlpA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3709, 
+                    "gene_endpos": 10056, 
+                    "gene_id": "AFJ23819.1", 
+                    "gene_annotation": "WLIP synthetase A", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No WLIP production"
+                }, 
+                {
+                    "gene_name": "wlpB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3354, 
+                    "gene_endpos": 16256, 
+                    "gene_id": "AFJ23825.1", 
+                    "gene_annotation": "WLIP synthetase B", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No WLIP production"
+                }, 
+                {
+                    "gene_name": "wlpC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16253, 
+                    "gene_endpos": 27655, 
+                    "gene_id": "AFJ23826.1", 
+                    "gene_annotation": "WLIP synthetase C", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No WLIP production"
+                }, 
+                {
+                    "gene_name": "wlpD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27792, 
+                    "gene_endpos": 28949, 
+                    "gene_id": "AFJ23827.1", 
+                    "gene_annotation": "MacA-like protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wlpE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 28946, 
+                    "gene_endpos": 30958, 
+                    "gene_id": "AFJ23828.1", 
+                    "gene_annotation": "MacB-like ABC transporter protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other lipopeptide", 
+            "lipid_moiety": "3-hydroxydecanoic acid", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Type II", 
+            "nrps_release_type": "Macrolactonization", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AFJ23819.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Leucine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Starter", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Glutamate", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AFJ23825.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Allo-threonine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Valine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Leucine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Serine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AFJ23826.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "7", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Leucine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "8", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Serine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "9", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Isoleucine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

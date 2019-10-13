@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "coelibactin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 8529581, 
+                    "Accession": "AL645882", 
+                    "start_coord": 8504461
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000324", 
+        "publications": [
+            "12000953", 
+            "8843436"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "citrulassin F"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 6882094, 
+                    "Accession": "BA000030", 
+                    "start_coord": 6877533
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001552", 
+        "publications": [
+            "28244986"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

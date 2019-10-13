@@ -1,0 +1,57 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Carlos Olano", 
+        "submitter_institution": "University of Oviedo", 
+        "submitter_email": "olanocarlos@uniovi.es"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001452", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": " PMC5797532 ", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "LT986736", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Sipanmycin", 
+                "chem_synonyms": [], 
+                "molecular_formula": "C46H71N3O8", 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "evidence_struct": [
+                    "NMR"
+                ], 
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "None", 
+            "pks_te_type": "Both", 
+            "pks_thioesterase": [], 
+            "pks_release_type": "None"
+        }
+    }, 
+    "embargo": true
+}
+

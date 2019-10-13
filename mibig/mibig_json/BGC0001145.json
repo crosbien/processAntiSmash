@@ -1,0 +1,167 @@
+{
+    "version": "14", 
+    "personal": {
+        "submitter_name": "Douglas A. Mitchell", 
+        "submitter_institution": "University of Illinois at Urbana-Champaign", 
+        "submitter_email": "douglasm@illinois.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001145", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "24937678,21885289,17010619", 
+        "loci": {
+            "complete": "unknown", 
+            "nucl_acc": [
+                {
+                    "Accession": "NZ_AORZ01000028", 
+                    "start_coord": 35019, 
+                    "end_coord": 50744, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "cyclothiazomycin B", 
+                "chem_synonyms": [
+                    "cyclothiazomycin b1", 
+                    "ctb1"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 56682060, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Antifungal"
+                ], 
+                "chem_target": "fungal cell wall chitin,bacteriophage RNA polymerase"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "ctmI", 
+                    "gene_id": "WP_004943462", 
+                    "gene_annotation": "ThiF-like protein", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "ctmB", 
+                    "gene_id": "WP_004943465", 
+                    "gene_annotation": "dehydrogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ctmA", 
+                    "gene_id": "WP_004943468", 
+                    "gene_annotation": "precursor peptide", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction", 
+                        "Other"
+                    ]
+                }, 
+                {
+                    "gene_name": "ctmD", 
+                    "gene_id": "WP_004943471", 
+                    "gene_annotation": "cyclodehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Heterocyclization", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ctmE", 
+                    "gene_id": "WP_004943473", 
+                    "gene_annotation": "lanthipeptide dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydration", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ctmF", 
+                    "gene_id": "WP_004943476", 
+                    "gene_annotation": "lanthipeptide dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydration", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ctmG", 
+                    "gene_id": "WP_004943480", 
+                    "gene_annotation": "putative pyridine synthase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Heterocyclization", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ctmJ", 
+                    "gene_id": "WP_004943483", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "ctmK", 
+                    "gene_id": "WP_004943486", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "ctmH", 
+                    "gene_id": "WP_004943488", 
+                    "gene_annotation": "LuxR family transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "Thiopeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "wp_004943468"
+                    ], 
+                    "core_pept_aa": "SNCTSRGTPASCCSCCCC", 
+                    "lead_pept_len": 42, 
+                    "foll_pept_len": -1, 
+                    "peptidase": [], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 1, 
+                            "AA_pos_2": 11, 
+                            "crosslink_type": "Other"
+                        }, 
+                        {
+                            "AA_pos_1": 5, 
+                            "AA_pos_2": 18, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

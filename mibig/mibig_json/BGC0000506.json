@@ -1,0 +1,64 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Prof. Dr. Karl-Dieter Entian", 
+        "submitter_institution": "Goethe University ", 
+        "submitter_email": "sec-entian@bio.uni-frankfurt.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000506", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "21239550, 25381239", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "HQ871873", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Entianin", 
+                "chem_synonyms": [], 
+                "chem_struct": "NC(CC1=CNC2=C1C=CC=C2)C(NC(CCCCN)C(NC(CSCC(C(NC(C5C)C(N4C(C(NC([H])C(NC(CS5)C(NC(C(C)C)C(NC(C6C)C(NC([H])C(NC(CC(C)C)C(NC(CC(C)C)C(NC(CCC(N)=O)C(NC(C(NC(CS6)C(NC(CC7=CC=CC=C7)C(NC(CC(C)C)C(NC(CCC(N)=O)C(NC(C8C)C(NC(C(CC)C)C(NC(C9C)C(NC(CS8)C(NC(CC(N)=O)C(NC(CS9)C(NC(CCCCN)C(NC(C(CC)C)C(NC(C(NC(CCCCN)C(O)=O)=O)=C)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=CC)=O)=O)=O)=O)=O)=O)=O)=O)=O)CCC4)=O)=O)NC3=O)C(NC(CCC(O)=O)C(NC(C(NC3C(C)C)=O)=C)=O)=O)=O)=O", 
+                "molecular_formula": "C150H231N39O38S5", 
+                "mol_mass": 3347.6, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Signalling"
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "RiPP": {
+            "ripp_subclass": "Lantipeptide", 
+            "lin_cycl_ripp": "Linear", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "etns"
+                    ], 
+                    "core_pept_aa": "WKSESVCTPGCVTGLLQTCFLQTITCNCKISK", 
+                    "lead_pept_len": 24, 
+                    "foll_pept_len": 32, 
+                    "peptidase": []
+                }
+            ]
+        }
+    }
+}
+
+

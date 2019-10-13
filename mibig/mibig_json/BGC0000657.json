@@ -1,0 +1,82 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "David Fewer, annotation team", 
+        "submitter_institution": "University of Helsinki", 
+        "submitter_email": "david.fewer@helsinki.fi"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000657", 
+        "biosyn_class": [
+            "Terpene"
+        ], 
+        "publications": "21490938", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "HQ830028", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "2-methylisoborneol", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 9237955, 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "Odorous metabolite"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "SCO7700", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8537030, 
+                    "gene_endpos": 8538352, 
+                    "gene_id": "CAD55534.1", 
+                    "gene_annotation": "putative cyclase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "SCO7701", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8538368, 
+                    "gene_endpos": 8539246, 
+                    "gene_id": "CAC44557.1", 
+                    "gene_annotation": "putative methyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Terpene": {
+            "terpene_subclass": "None", 
+            "terpene_c_len": "Monoterpene", 
+            "terpene_precursor": "GPP", 
+            "terpene_synth_cycl": [
+                "aek21533.1"
+            ], 
+            "prenyl_transf": []
+        }
+    }
+}
+
+

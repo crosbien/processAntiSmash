@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 44605341, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "lorneic acid A"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 356479, 
+                    "Accession": "BBOM01000004", 
+                    "start_coord": 294463
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001200", 
+        "publications": [
+            "25603349"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Other"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

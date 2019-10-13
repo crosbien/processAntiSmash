@@ -1,0 +1,318 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Rene De Mot ", 
+        "submitter_institution": "University of Leuven (KU Leuven)", 
+        "submitter_email": "rene.demot@biw.kuleuven.be"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000921", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "22035801", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "GU211010", 
+                    "start_coord": 4335, 
+                    "end_coord": 20085, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Promysalin", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(OC(CCCCCC(O)C(N)=O)CCCCCC)C(CC=C1)N1C(C2=C(O)C=CC=C2)=O", 
+                "molecular_formula": "C26H39N2O6 ", 
+                "mol_mass": 475.2766, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "salicylic acid", 
+                        "moiety_subcluster": [
+                            "adq74616.1", 
+                            "adq74615.1", 
+                            "adq74621.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "2-pyrroline-5-carboxylic acid ", 
+                        "moiety_subcluster": [
+                            "adq74618.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "2,8-dihydroxymyristamide", 
+                        "moiety_subcluster": [
+                            "adq74614.1", 
+                            "adq74607.1", 
+                            "adq74608.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "ADQ74609.1,ADQ74610.1,ADQ74611.1,ADQ74612.1,ADQ74613.1,ADQ74614.1,ADQ74615.1,ADQ74616.1,ADQ74617.1,ADQ74618.1,ADQ74619.1,ADQ74620.1,ADQ74621.1" 
+                    ], 
+                    "evidence_operon": "Other"
+                }, 
+                {
+                    "operon_genes": [
+                        "ADQ74607.1,ADQ74608.1"
+                    ], 
+                    "evidence_operon": "Other"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "ppgO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4335, 
+                    "gene_endpos": 6323, 
+                    "gene_id": "ADQ74607.1", 
+                    "gene_annotation": "glutamine amidotransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Amination", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Precursor identified"
+                }, 
+                {
+                    "gene_name": "ppgN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6361, 
+                    "gene_endpos": 7359, 
+                    "gene_id": "ADQ74608.1", 
+                    "gene_annotation": "Rieske [2Fe-2S] domain protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Precursor identified"
+                }, 
+                {
+                    "gene_name": "ppgA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7778, 
+                    "gene_endpos": 8011, 
+                    "gene_id": "ADQ74609.1", 
+                    "gene_annotation": "carrier protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ppgB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8004, 
+                    "gene_endpos": 8771, 
+                    "gene_id": "ADQ74610.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ppgC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8791, 
+                    "gene_endpos": 9093, 
+                    "gene_id": "ADQ74611.1", 
+                    "gene_annotation": "acyl carrier protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ppgD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9090, 
+                    "gene_endpos": 9542, 
+                    "gene_id": "ADQ74612.1", 
+                    "gene_annotation": "beta-hydroxymyristoyl-acyl carrier protein dehydratase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ppgE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9539, 
+                    "gene_endpos": 10525, 
+                    "gene_id": "ADQ74613.1", 
+                    "gene_annotation": "beta-ketoacyl synthase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ppgF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10533, 
+                    "gene_endpos": 11525, 
+                    "gene_id": "ADQ74614.1", 
+                    "gene_annotation": "Rieske [2Fe-2S] domain protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ppgG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11592, 
+                    "gene_endpos": 11903, 
+                    "gene_id": "ADQ74615.1", 
+                    "gene_annotation": "isochorismate-pyruvate lyase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ppgH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11900, 
+                    "gene_endpos": 13309, 
+                    "gene_id": "ADQ74616.1", 
+                    "gene_annotation": "isochorismate synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ppgI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13347, 
+                    "gene_endpos": 14189, 
+                    "gene_id": "ADQ74617.1", 
+                    "gene_annotation": "metal-dependent hydrolase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ppgJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14216, 
+                    "gene_endpos": 15997, 
+                    "gene_id": "ADQ74618.1", 
+                    "gene_annotation": "amino acid adenylation protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ppgK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16011, 
+                    "gene_endpos": 17207, 
+                    "gene_id": "ADQ74619.1", 
+                    "gene_annotation": "beta-ketoacyl synthase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ppgL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17204, 
+                    "gene_endpos": 18469, 
+                    "gene_id": "ADQ74620.1", 
+                    "gene_annotation": "BAHD family acyl transferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ppgM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18466, 
+                    "gene_endpos": 20040, 
+                    "gene_id": "ADQ74621.1", 
+                    "gene_annotation": "salicylyl-AMP ligase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Metabolic intermediate identified"
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Shikimate-derived"
+        }, 
+        "NRP": {
+            "nrps_genes": [
+                {
+                    "nrps_gene": "ADQ74618.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Proline", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "ADQ74619.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

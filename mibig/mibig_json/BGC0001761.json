@@ -1,0 +1,35 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C/C/1=C/C/C=C\\C/C(=C\\C(=O)O[C@@H]2C[C@@H](C1)O[C@](C2)(CC/C(=C/CC3=CC=CC=C3)/C)O)/CC(=O)O", 
+                "compound": "ripostatin A"
+            }, 
+            {
+                "chem_struct": "C/C/1=C/C/C=C\\C/C(=C\\C(=O)O[C@H](C[C@@H](C1)O)C[C@@H](CC/C(=C/CC2=CC=CC=C2)/C)O)/CC(=O)O", 
+                "compound": "ripostatin B"
+            }, 
+            {
+                "chem_struct": "C/C(=C\\CC1=CC=CC=C1)/CCC(=O)/C=C/C[C@@H](C/C(=C/C/C=C/C/C(=C\\C(=O)O)/CC(=O)O)/C)O", 
+                "compound": "ripostatin C"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KY646190", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001761", 
+        "publications": [
+            "28098952"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

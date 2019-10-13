@@ -1,0 +1,337 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Yuta Tsunematsu", 
+        "submitter_institution": "University of Shizuoka", 
+        "submitter_email": "tsunematsu@u-shizuoka-ken.ac.jp"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001112", 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ], 
+        "publications": "17154220,19266509,22915379,24048471,25214315", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AM411073", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "rhizoxin A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 6437358, 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_target": "tublin"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "rhiG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1066, 
+                    "gene_endpos": 3063, 
+                    "gene_id": "CAL69887.1", 
+                    "gene_annotation": "acyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of rhizoxin A production"
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [
+                "am411073"
+            ], 
+            "nrps_release_type": "Other", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "rhiA, CAL69888.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "rhiB, CAL69889.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Serine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "Oxidation", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Macrolide", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Trans-AT type I"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "trans_at": [
+                "rhig", 
+                "am411073"
+            ], 
+            "pks_te_type": "Type I", 
+            "pks_release_type": "Macrolactonization", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "rhiA, CAL69888.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "0", 
+                            "pks_domains": [
+                                "KS"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "rhiB, CAL69889.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR"
+                            ], 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "rhiC, CAL69890.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "A-group", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR", 
+                                "T", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "A-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "rhiD, CAL69891.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "7", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "Other"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "8", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "rhiE, CAL69892.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "10", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "11", 
+                            "pks_domains": [
+                                "KS", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "Michael branching"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "9", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KS", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "A-group", 
+                            "pks_mod_doms": [
+                                "Other"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "rhiF, CAL69893.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "12", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

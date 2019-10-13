@@ -1,0 +1,173 @@
+{
+    "version": "11", 
+    "personal": {
+        "submitter_name": "Doug Mitchell, Rainer Borriss", 
+        "submitter_institution": "University of Illinois at Urbana-Champaign, Humboldt University Berlin", 
+        "submitter_email": "douglasm@illinois.edu, rainer.borriss@rz.hu-berlin.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001173", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "21950656,23878226,24085393", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "NZ_ABRX01000001", 
+                    "start_coord": 223361, 
+                    "end_coord": 233305, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays", 
+                        "Proven expression in natural host", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "plantazolicin", 
+                "chem_synonyms": [
+                    "pzn", 
+                    "plantazolicin a"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 28419936, 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "pznF", 
+                    "gene_id": "BAT_2475", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "pznK", 
+                    "gene_id": "BAT_2474", 
+                    "gene_annotation": "regulatory protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pznG", 
+                    "gene_id": "BAT_2473", 
+                    "gene_annotation": "ABC transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pznH", 
+                    "gene_id": "BAT_2472", 
+                    "gene_annotation": "ABC transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pznI", 
+                    "gene_id": "BAT_2471", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "pznA", 
+                    "gene_id": "BAT_4209", 
+                    "gene_annotation": "RiPP precursor peptide", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pznJ", 
+                    "gene_id": "BAT_2470", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "pznC", 
+                    "gene_id": "BAT_2469", 
+                    "gene_annotation": "cyclodehydratase partner", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pznD", 
+                    "gene_id": "BAT_2468", 
+                    "gene_annotation": "cyclodehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Heterocyclization", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pznB", 
+                    "gene_id": "BAT_2467", 
+                    "gene_annotation": "FMN-dependent dehydrogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pznE", 
+                    "gene_id": "BAT_2466", 
+                    "gene_annotation": "protease", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pznL", 
+                    "gene_id": "BAT_2465", 
+                    "gene_annotation": "SAM-dependent methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "LAP", 
+            "lin_cycl_ripp": "Linear", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "bat_4209"
+                    ], 
+                    "core_pept_aa": "RCTCTTIISSSSTF", 
+                    "lead_pept_len": 27, 
+                    "foll_pept_len": -1, 
+                    "peptidase": [
+                        "bat_2466"
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

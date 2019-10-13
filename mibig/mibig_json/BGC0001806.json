@@ -1,0 +1,24 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CCC(C)C1NC(=O)C(NC(=O)C(\\NC(=O)C(NC(=O)C(CC(C)C)NC(=O)C(CCC(N)=O)NC(=O)C(NC(=O)C(NC(=O)C(CC(C)C)NC(=O)C(CO)NC(=O)C(NC(=O)C(CC(C)C)NC(=O)C(CO)NC(=O)C2CCCN2C(=O)C(\\NC(=O)CCCC(O)=O)=C\\C)C(C)C)C(C)C)C(C)C)C(C)C)=C\\C)C(C)OC(=O)C(CCCCN)NC(=O)C(CCN)NC(=O)C(CCO)NC1=O", 
+                "compound": "tolaasin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KX432141", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001806", 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

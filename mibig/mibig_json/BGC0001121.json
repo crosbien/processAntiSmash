@@ -1,0 +1,91 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Yuta Tsunematsu", 
+        "submitter_institution": "University of Shizuoka", 
+        "submitter_email": "tsunematsu@u-shizuoka-ken.ac.jp"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001121", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "19666480, 20174687", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "BN001302.1", 
+                    "start_coord": 206866, 
+                    "end_coord": 213367, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Gene expression correlated with compound production"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "orsellinic acid", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 68072, 
+                "chemspider_id": 61385, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "an7909", 
+                "xp_681178"
+            ], 
+            "nr_iterations": 3, 
+            "iterative_subtype": "Non-reducing", 
+            "iter_cycl_type": "C2-C7 first", 
+            "pks_te_type": "Unknown", 
+            "pks_release_type": "Hydrolysis", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AN7909", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "SAT", 
+                                "KS", 
+                                "AT", 
+                                "PT", 
+                                "ACP", 
+                                "ACP", 
+                                "TE/CLC"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "None", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Iterated", 
+                            "pks_evidence_skip_iter": "Sequence-based prediction"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

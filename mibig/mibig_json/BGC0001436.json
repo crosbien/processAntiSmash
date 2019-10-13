@@ -1,0 +1,344 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Katherine Williams", 
+        "submitter_institution": "University of Bristol", 
+        "submitter_email": "katherine.williams@bristol.ac.uk"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001436", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "28660939", 
+        "loci": {
+            "complete": "unknown", 
+            "nucl_acc": [
+                {
+                    "Accession": "MF197864", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "cornexistin", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(OC1=O)C2=C1[C@@H](CCC)[C@H](O)C(C[C@H](O)/C(C2)=C\\\\C)=O", 
+                "molecular_formula": "C16H20O6", 
+                "mol_mass": 308.13, 
+                "mass_ion_type": "None", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry", 
+                    "X-ray"
+                ], 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "Herbicidal", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "maleic anhydride", 
+                        "moiety_subcluster": [
+                            "ask38715.1", 
+                            "ask38711.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "pvL18", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26, 
+                    "gene_endpos": 3420, 
+                    "gene_id": "ASK38699.1", 
+                    "gene_annotation": "putative nonribosomal peptide synthetase-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pvL17", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3962, 
+                    "gene_endpos": 4990, 
+                    "gene_id": "ASK38700.1", 
+                    "gene_annotation": "putative fumarylacetoacetate hydrolase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pvL16", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6530, 
+                    "gene_endpos": 7261, 
+                    "gene_id": "ASK38701.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pvL15", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8347, 
+                    "gene_endpos": 9393, 
+                    "gene_id": "ASK38702.1", 
+                    "gene_annotation": "putative aldo/keto reductase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pvL14", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11449, 
+                    "gene_endpos": 13371, 
+                    "gene_id": "ASK38703.1", 
+                    "gene_annotation": "putative transketolase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "pvL13", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14979, 
+                    "gene_endpos": 16613, 
+                    "gene_id": "ASK38704.1", 
+                    "gene_annotation": "cytochrome P450", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Accumulation of  2,2-dihydrocornexistin"
+                }, 
+                {
+                    "gene_name": "pvL12", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17137, 
+                    "gene_endpos": 18645, 
+                    "gene_id": "ASK38705.1", 
+                    "gene_annotation": "major facilitator superfamily transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pvL11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19894, 
+                    "gene_endpos": 20845, 
+                    "gene_id": "ASK38706.1", 
+                    "gene_annotation": "dienelactone hydrolase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydrolysis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Reduction in cornexistin titre"
+                }, 
+                {
+                    "gene_name": "pvL10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21179, 
+                    "gene_endpos": 22777, 
+                    "gene_id": "ASK38707.1", 
+                    "gene_annotation": "major facilitator superfamily transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pvL9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23323, 
+                    "gene_endpos": 25562, 
+                    "gene_id": "ASK38708.1", 
+                    "gene_annotation": "putative serine carboxypeptidase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "pvL8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25765, 
+                    "gene_endpos": 27237, 
+                    "gene_id": "ASK38709.1", 
+                    "gene_annotation": "C6 transcription factor", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pvL7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 28909, 
+                    "gene_endpos": 30039, 
+                    "gene_id": "ASK38710.1", 
+                    "gene_annotation": "putative gluconolactonase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "pvL6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30414, 
+                    "gene_endpos": 32011, 
+                    "gene_id": "ASK38711.1", 
+                    "gene_annotation": "citrate synthase-like protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No production of cornexistin or related metabolites"
+                }, 
+                {
+                    "gene_name": "pvL5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33721, 
+                    "gene_endpos": 34814, 
+                    "gene_id": "ASK38712.1", 
+                    "gene_annotation": "dioxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Accumulation 6-dehydroxy-2,20-dihydrocornexistin"
+                }, 
+                {
+                    "gene_name": "pvL4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 36452, 
+                    "gene_endpos": 38034, 
+                    "gene_id": "ASK38713.1", 
+                    "gene_annotation": "major facilitator superfamily transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pvL3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 38429, 
+                    "gene_endpos": 39284, 
+                    "gene_id": "ASK38714.1", 
+                    "gene_annotation": "ketosteroid isomerase-like protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Accumulation of monomer(s)"
+                }, 
+                {
+                    "gene_name": "pvL2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 39996, 
+                    "gene_endpos": 41525, 
+                    "gene_id": "ASK38715.1", 
+                    "gene_annotation": "2-methylcitrate dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydration", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pvL1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 42010, 
+                    "gene_endpos": 42823, 
+                    "gene_id": "ASK38716.1", 
+                    "gene_annotation": "hydrolase 341", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No production of cornexistin or related metabolites"
+                }, 
+                {
+                    "gene_name": "pvpks1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43533, 
+                    "gene_endpos": 51315, 
+                    "gene_id": "ASK38717.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No production of cornexistin or related metabolites"
+                }, 
+                {
+                    "gene_name": "pvR1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 51716, 
+                    "gene_endpos": 52424, 
+                    "gene_id": "ASK38718.1", 
+                    "gene_annotation": "PEBP-like protein", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Reduction in titre of cornexistin and accumulation of monomer(s)"
+                }, 
+                {
+                    "gene_name": "pvR2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 55167, 
+                    "gene_endpos": 56534, 
+                    "gene_id": "ASK38719.1", 
+                    "gene_annotation": "putative phosphotransferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "ask38717.1"
+            ], 
+            "nr_iterations": 3, 
+            "iterative_subtype": "Highly reducing", 
+            "pks_te_type": "None", 
+            "pks_release_type": "Unknown"
+        }
+    }
+}
+

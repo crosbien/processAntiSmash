@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 932, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "naringenin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 6463122, 
+                    "Accession": "CM000913", 
+                    "start_coord": 6460418
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001310", 
+        "publications": [
+            "26553209"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

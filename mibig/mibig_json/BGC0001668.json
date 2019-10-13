@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "OC1OC(=O)C(=C1CC1=CC=CC=C1)C1=CC=CC=C1", 
+                "compound": "microperfuranone"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 797948, 
+                    "Accession": "BN001306", 
+                    "start_coord": 790405
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001668", 
+        "publications": [
+            "22627757"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C[C@@H]1[C@@H](NC(C)=O)\\C=C(/C)\\C=C\\[C@H](O)C\\C=C(/C)\\C=C\\[C@@H](O)C\\C=C(C)\\C1=O", 
+                "compound": "chejuenolide A"
+            }, 
+            {
+                "chem_struct": "C[C@H]1[C@@H](NC(C)=O)\\C=C(/C)\\C=C\\[C@H](O)C\\C=C(/C)\\C=C\\[C@@H](O)C\\C=C(C)\\C1=O", 
+                "compound": "chejuenolide B"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 51429, 
+                    "Accession": "HE664023", 
+                    "start_coord": 1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001543", 
+        "publications": [
+            "29483632"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Trans-AT type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

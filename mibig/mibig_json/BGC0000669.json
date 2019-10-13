@@ -1,0 +1,106 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Hans-Wilhelm Nuetzmann", 
+        "submitter_institution": "John Innes Centre", 
+        "submitter_email": "hans-wilhelm.nutzmann@jic.ac.uk"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000669", 
+        "biosyn_class": [
+            "Terpene"
+        ], 
+        "publications": "21876149, 22882494", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "NC_003076", 
+                    "start_coord": 17023646, 
+                    "end_coord": 17058245, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Marneral", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 25001002, 
+                "chem_act": [
+                    "Unknown"
+                ], 
+                "chem_moieties": [
+                    {
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": []
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "CYP705A12", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17023646, 
+                    "gene_endpos": 17025229, 
+                    "gene_id": "NP_199072.1", 
+                    "gene_annotation": "cytochrome P450, family 705, subfamily A, polypeptide 12", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "CYP71A16", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17031111, 
+                    "gene_endpos": 17033726, 
+                    "gene_id": "NP_199073.1", 
+                    "gene_annotation": "cytochrome P450 71A16", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "MRN1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17053517, 
+                    "gene_endpos": 17058245, 
+                    "gene_id": "NP_199074.1", 
+                    "gene_annotation": "marneral synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }
+            ]
+        }, 
+        "Terpene": {
+            "terpene_subclass": "Other", 
+            "terpene_c_len": "Triterpene", 
+            "terpene_precursor": "FPP", 
+            "terpene_synth_cycl": [
+                "mrn1"
+            ], 
+            "prenyl_transf": []
+        }
+    }
+}
+
+

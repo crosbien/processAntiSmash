@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "lipooligosaccharide"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 4357778, 
+                    "Accession": "AE015928", 
+                    "start_coord": 4337976
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001654", 
+        "publications": [
+            "29535205"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Saccharide"
+        ]
+    }
+}

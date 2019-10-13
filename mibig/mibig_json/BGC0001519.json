@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "COC[C@@H]1N(O)C(=O)[C@H]2CCCNN2C(=O)[C@@H](NC(=O)[C@](C)(O)[C@]2(O)CC[C@@H](CC(C)C)[C@H](C)O2)[C@@H](OC(=O)[C@@H](C)N(O)C(=O)[C@@H]2CCCNN2C(=O)CNC1=O)C(C)C", 
+                "compound": "aurantimycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 64790, 
+                    "Accession": "NZ_AOPZ01000014", 
+                    "start_coord": 1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001519", 
+        "publications": [
+            "27655321"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

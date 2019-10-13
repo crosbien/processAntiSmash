@@ -1,0 +1,222 @@
+{
+    "version": "14", 
+    "personal": {
+        "submitter_name": "Harald Gross", 
+        "submitter_institution": "University of Tuebingen", 
+        "submitter_email": "harald.gross@uni-tuebingen.de"
+    }, 
+    "general_params": {
+    	"mibig_accession": "BGC0000305", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "23169772, 20460722, 14522057", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AB107223", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [ 
+            {
+                "compound": "Arthrofactin A", 
+                "chem_synonyms": [], 
+                "chem_struct": "CCCCCCC[C@H](O)CC(N[C@@H](C(N[C@@H](C(N[C@H]([C@H](OC([C@@H](NC([C@@H](NC([C@@H](NC([C@@H](CO)NC(C(CC(C)C)N1)=O)=O)[C@@H](C)CC)=O)[C@@H](C)CC)=O)CC(O)=O)=O)C)C(N[C@@H](C(N[C@H](CC(C)C)C(N[C@H](CO)C1=O)=O)=O)CC(C)C)=O)=O)CC(O)=O)=O)CC(C)C)=O", 
+                "molecular_formula": "C64H111N11O20", 
+                "mol_mass": 1353.8007, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Surfactant"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "arfA", 
+                    "gene_id": "BAC67534.2", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arfB", 
+                    "gene_id": "BAC67535.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "impaired swarming"
+                }, 
+                {
+                    "gene_name": "arfC", 
+                    "gene_id": "BAC67536.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other lipopeptide", 
+            "lipid_moiety": "3-OH-decanoic acid", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "BAC67534.2", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Aspartate", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None"
+                        }, 
+                        {
+                            "module_nr": "1",  
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Leucine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "Starter", 
+                            "nrps_mod_doms": "None"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "BAC67535.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Threonine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Leucine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Leucine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Serine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "BAC67536.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "7", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Leucine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "8", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Serine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "9", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Isoleucine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "10", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Isoleucine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "11", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Aspartate", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ], 
+            "nrps_te_type": "Both", 
+            "nrps_release_type": "Macrolactonization"
+        }
+    }
+}

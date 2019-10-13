@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "acarviostatin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 55264, 
+                    "Accession": "AHGS01000039", 
+                    "start_coord": 14922
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000804", 
+        "publications": [
+            "22691180"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Saccharide"
+        ]
+    }
+}

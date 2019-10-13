@@ -1,0 +1,45 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 70680458, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "delftibactin A"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 70680459, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "delftibactin B"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 5252500, 
+                    "Accession": "CP000884", 
+                    "start_coord": 5211544
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000984", 
+        "publications": [
+            "23377039"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

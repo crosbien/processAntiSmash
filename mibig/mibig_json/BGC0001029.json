@@ -1,0 +1,359 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "David Fewer", 
+        "submitter_institution": "University of Helsinki", 
+        "submitter_email": "david.fewer@helsinki.fi"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001029", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "21948844", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "JF430079", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Nostophycin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 8899707, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "aeu11005.1", 
+                        "aeu11006.1", 
+                        "aeu11003.1"
+                    ]
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 1390, 
+                    "gene_id": "AEU10996.1", 
+                    "gene_annotation": "ResB-like protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1487, 
+                    "gene_endpos": 2578, 
+                    "gene_id": "AEU10997.1", 
+                    "gene_annotation": "ABC transporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2610, 
+                    "gene_endpos": 4286, 
+                    "gene_id": "AEU10998.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4439, 
+                    "gene_endpos": 4849, 
+                    "gene_id": "AEU10999.1", 
+                    "gene_annotation": "GTP cyclohydrolase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4881, 
+                    "gene_endpos": 5279, 
+                    "gene_id": "AEU11000.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5432, 
+                    "gene_endpos": 5812, 
+                    "gene_id": "AEU11001.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "npnA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6331, 
+                    "gene_endpos": 6888, 
+                    "gene_id": "AEU11002.1", 
+                    "gene_annotation": "putative RNA ligase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "npnA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7801, 
+                    "gene_endpos": 23181, 
+                    "gene_id": "AEU11005.1", 
+                    "gene_annotation": "NpnA", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "npnB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23208, 
+                    "gene_endpos": 37514, 
+                    "gene_id": "AEU11006.1", 
+                    "gene_annotation": "NpnB", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "npnC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 37517, 
+                    "gene_endpos": 52732, 
+                    "gene_id": "AEU11003.1", 
+                    "gene_annotation": "NpnC", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 52949, 
+                    "gene_endpos": 55249, 
+                    "gene_id": "AEU11004.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Hydrolysis", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AEU11005.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "VGVWVAASGK", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AEU11006.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "4", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "DAWLFGLIDK", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "DILALGLIWK", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AEU11003.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "6", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "DVQFIAHVVK", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "7", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "DAWTIAAVCK", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "8", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "DAFFLGVTFK", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "9", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "DVQFIAHVVK", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AEU11005.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "ER", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "None", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "None", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AEU11006.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "None", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "barnesin A"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 734668, 
+                    "Accession": "CP003333", 
+                    "start_coord": 713687
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001524", 
+        "publications": [
+            "29901979"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

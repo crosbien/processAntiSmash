@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 3002143, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "helvolic acid "
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3908342, 
+                    "Accession": "CM000172", 
+                    "start_coord": 3892066
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000686", 
+        "publications": [
+            "19415934,29158519"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

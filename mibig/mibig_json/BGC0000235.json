@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "kiamycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 139606, 
+                    "Accession": "AGSW01000147", 
+                    "start_coord": 118282
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000235", 
+        "publications": [
+            "22536997"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type II"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

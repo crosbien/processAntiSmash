@@ -1,0 +1,102 @@
+Pairings.annotation,Pairings.genecluster,Pairings.input,Biosynthetic_class,Chemical_activity1,Chemical_activity2,Product_compound1,Product_compound2,Product_compound3,Accession,Organism,Data_file
+putative_prenyl_transferase,BGC0001167_c1,input|c2|35211-36108|+|MAE_00500|hypothetical,RiPP,Unknown,,Piricyclamide,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+hypothetical_protein,BGC0001167_c1,input|c2|36187-36520|+|MAE_00510|hypothetical,RiPP,Unknown,,Piricyclamide,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+hypothetical_protein,BGC0001167_c1,input|c2|36516-37185|+|MAE_00520|hypothetical,RiPP,Unknown,,Piricyclamide,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+hypothetical_protein,BGC0001167_c1,input|c2|37227-37674|+|MAE_00530|hypothetical,RiPP,Unknown,,Piricyclamide,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+N-terminal_cyanobactin_protease,BGC0001167_c1,input|c2|38310-38682|+|MAE_00550|putative,RiPP,Unknown,,Piricyclamide,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+N-terminal_cyanobactin_protease,BGC0001167_c1,input|c2|43174-44089|+|MAE_00590|putative,RiPP,Unknown,,Piricyclamide,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+N-terminal_cyanobactin_protease,BGC0001167_c1,input|c2|46417-47488|+|MAE_00640|putative,RiPP,Unknown,,Piricyclamide,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+hypothetical_protein,BGC0001167_c1,input|c2|47616-47826|+|MAE_00650|hypothetical,RiPP,Unknown,,Piricyclamide,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+piricyclamide_precursor,BGC0001167_c1,input|c2|49053-49209|+|MAE_00670|unknown,RiPP,Unknown,,Piricyclamide,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+hypothetical_protein,BGC0001167_c1,input|c2|49280-50063|-|MAE_00680|hypothetical,RiPP,Unknown,,Piricyclamide,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+C-terminal_cyanoabactin_protease,BGC0001167_c1,input|c2|50139-50649|+|MAE_00690|putative,RiPP,Unknown,,Piricyclamide,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+C-terminal_cyanoabactin_protease,BGC0001167_c1,input|c2|50783-52235|+|MAE_00700|putative,RiPP,Unknown,,Piricyclamide,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+anacyclamide_synthesis_protein_AcyF,BGC0000472_c1,input|c2|35211-36108|+|MAE_00500|hypothetical,RiPP,Unknown,,anacyclamide,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+hypothetical_protein,BGC0000472_c1,input|c2|36516-37185|+|MAE_00520|hypothetical,RiPP,Unknown,,anacyclamide,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+putative_prenyl_transferase,BGC0000479_c1,input|c2|35211-36108|+|MAE_00500|hypothetical,RiPP,Unknown,,prenylagaramide B,prenylagaramide C,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+conserved_hypothetical_protein,BGC0000479_c1,input|c2|37709-38279|+|MAE_00540|hypothetical,RiPP,Unknown,,prenylagaramide B,prenylagaramide C,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+TruA,BGC0000477_c1,input|c2|46417-47488|+|MAE_00640|putative,RiPP,Unknown,,patellin 2 ,patellin 3,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+transposase,BGC0001656_c1,input|c4|1876105-1876348|-|MAE_21020|hypothetical,Polyketide,,,luminaolide,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+ABC_transporter,BGC0000592_c1,input|c5|2173289-2175353|+|MAE_24070|ABC-transporter,RiPP,Inhibitor,,Microviridin B,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+acetyltransferase,BGC0000592_c1,input|c5|2175499-2176033|+|MAE_24080|acetyltransferase,RiPP,Inhibitor,,Microviridin B,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+ATP_grasp_ligase,BGC0000592_c1,input|c5|2176296-2177271|-|MAE_24090|hypothetical,RiPP,Inhibitor,,Microviridin B,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+ATP_grasp_ligase,BGC0000592_c1,input|c5|2177324-2178305|-|MAE_24100|hypothetical,RiPP,Inhibitor,,Microviridin B,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+microviridin_precursor,BGC0000592_c1,input|c5|2178583-2178736|-|MAE_24110|unknown,RiPP,Inhibitor,,Microviridin B,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+ATP_grasp_ligase,BGC0000593_c1,input|c5|2176296-2177271|-|MAE_24090|hypothetical,RiPP,Inhibitor,,microviridin J,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+ATP_grasp_ligase,BGC0000593_c1,input|c5|2177324-2178305|-|MAE_24100|hypothetical,RiPP,Inhibitor,,microviridin J,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+microviridin_precursor,BGC0000593_c1,input|c5|2178583-2178736|-|MAE_24110|unknown,RiPP,Inhibitor,,microviridin J,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+MvdA,BGC0000594_c1,input|c5|2173289-2175353|+|MAE_24070|ABC-transporter,RiPP,,,microviridin K,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+MvdD,BGC0000594_c1,input|c5|2176296-2177271|-|MAE_24090|hypothetical,RiPP,,,microviridin K,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+Uma3,BGC0001017_c1,input|c8|3480965-3482492|+|MAE_38500|hypothetical,NRP,Cytotoxic,Inhibitor,microcystin LR,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+Uma2,BGC0001017_c1,input|c8|3482538-3483102|+|MAE_38510|hypothetical,NRP,Cytotoxic,Inhibitor,microcystin LR,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+Uma2,BGC0001017_c1,input|c8|3483265-3483829|+|MAE_38520|hypothetical,NRP,Cytotoxic,Inhibitor,microcystin LR,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+Uma1,BGC0001017_c1,input|c8|3484072-3486124|+|MAE_38540|hypothetical,NRP,Cytotoxic,Inhibitor,microcystin LR,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+McyC,BGC0001017_c1,input|c8|3486435-3490311|-|MAE_38550|McyC,NRP,Cytotoxic,Inhibitor,microcystin LR,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+McyB,BGC0001017_c1,input|c8|3490307-3496688|-|MAE_38560|McyB,NRP,Cytotoxic,Inhibitor,microcystin LR,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+McyA,BGC0001017_c1,input|c8|3496703-3505067|-|MAE_38570|McyA,NRP,Cytotoxic,Inhibitor,microcystin LR,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+McyD,BGC0001017_c1,input|c8|3505973-3517679|+|MAE_38600|McyD,NRP,Cytotoxic,Inhibitor,microcystin LR,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+McyE,BGC0001017_c1,input|c8|3517845-3528309|+|MAE_38610|McyE,NRP,Cytotoxic,Inhibitor,microcystin LR,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+McyF,BGC0001017_c1,input|c8|3528340-3529096|+|MAE_38620|McyF,NRP,Cytotoxic,Inhibitor,microcystin LR,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+McyG,BGC0001017_c1,input|c8|3529227-3537123|+|MAE_38630|McyG,NRP,Cytotoxic,Inhibitor,microcystin LR,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+McyH,BGC0001017_c1,input|c8|3537205-3538963|+|MAE_38640|McyH,NRP,Cytotoxic,Inhibitor,microcystin LR,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+McyI,BGC0001017_c1,input|c8|3539001-3540015|+|MAE_38650|McyI,NRP,Cytotoxic,Inhibitor,microcystin LR,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+McyJ,BGC0001017_c1,input|c8|3540181-3541027|+|MAE_38660|McyJ,NRP,Cytotoxic,Inhibitor,microcystin LR,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+peptide_synthetase,BGC0001667_c1,input|c8|3486435-3490311|-|MAE_38550|McyC,NRP,,,microcystin-LR,microcystin-FR,microcystin-LA,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+peptide_synthetase,BGC0001667_c1,input|c8|3490307-3496688|-|MAE_38560|McyB,NRP,,,microcystin-LR,microcystin-FR,microcystin-LA,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+hybrid_polyketide_synthase/peptide_synthetase,BGC0001667_c1,input|c8|3517845-3528309|+|MAE_38610|McyE,NRP,,,microcystin-LR,microcystin-FR,microcystin-LA,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+amino_acid_racemase,BGC0001667_c1,input|c8|3528340-3529096|+|MAE_38620|McyF,NRP,,,microcystin-LR,microcystin-FR,microcystin-LA,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+hybrid_peptide_synthetase/polyketide_synthase,BGC0001667_c1,input|c8|3529227-3537123|+|MAE_38630|McyG,NRP,,,microcystin-LR,microcystin-FR,microcystin-LA,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+ABC_transporter,BGC0001667_c1,input|c8|3537205-3538963|+|MAE_38640|McyH,NRP,,,microcystin-LR,microcystin-FR,microcystin-LA,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+phosphoglycerate_dehydrogenase,BGC0001667_c1,input|c8|3539001-3540015|+|MAE_38650|McyI,NRP,,,microcystin-LR,microcystin-FR,microcystin-LA,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+O-methyl_transferase,BGC0001667_c1,input|c8|3540181-3541027|+|MAE_38660|McyJ,NRP,,,microcystin-LR,microcystin-FR,microcystin-LA,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+peptide_sythetase,BGC0001016_c1,input|c8|3486435-3490311|-|MAE_38550|McyC,NRP,Other,,microcystin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+peptide_sythetase,BGC0001016_c1,input|c8|3490307-3496688|-|MAE_38560|McyB,NRP,Other,,microcystin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+polyketide_synthase_peptide_sythetase_fusion_protein,BGC0001016_c1,input|c8|3517845-3528309|+|MAE_38610|McyE,NRP,Other,,microcystin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+peptide_sythetase_polyketide_synthase_fusion_protein,BGC0001016_c1,input|c8|3529227-3537123|+|MAE_38630|McyG,NRP,Other,,microcystin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+ABC_transporter_ATP-binding-like_protein,BGC0001016_c1,input|c8|3537205-3538963|+|MAE_38640|McyH,NRP,Other,,microcystin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+phosphoglycerate_dehydrogenase-like_protein,BGC0001016_c1,input|c8|3539001-3540015|+|MAE_38650|McyI,NRP,Other,,microcystin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+putative_O-methyl_transferase,BGC0001016_c1,input|c8|3540181-3541027|+|MAE_38660|McyJ,NRP,Other,,microcystin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+microcystin_synthetase,BGC0001015_c1,input|c8|3486435-3490311|-|MAE_38550|McyC,NRP,,,microcystin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+polyketide_synthase_type_I,BGC0001015_c1,input|c8|3505973-3517679|+|MAE_38600|McyD,NRP,,,microcystin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+peptide_synthetase,BGC0001015_c1,input|c8|3517845-3528309|+|MAE_38610|McyE,NRP,,,microcystin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+peptide_synthetase,BGC0001015_c1,input|c8|3529227-3537123|+|MAE_38630|McyG,NRP,,,microcystin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+ABC_transporter,BGC0001015_c1,input|c8|3537205-3538963|+|MAE_38640|McyH,NRP,,,microcystin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+O-methyltransferase,BGC0001015_c1,input|c8|3540181-3541027|+|MAE_38660|McyJ,NRP,,,microcystin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+NdaB,BGC0001705_c1,input|c8|3486435-3490311|-|MAE_38550|McyC,NRP,,,nodularin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+NdaF,BGC0001705_c1,input|c8|3517845-3528309|+|MAE_38610|McyE,NRP,,,nodularin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+NdaC,BGC0001705_c1,input|c8|3529227-3537123|+|MAE_38630|McyG,NRP,,,nodularin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+NdaI,BGC0001705_c1,input|c8|3537205-3538963|+|MAE_38640|McyH,NRP,,,nodularin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+NdaH,BGC0001705_c1,input|c8|3539001-3540015|+|MAE_38650|McyI,NRP,,,nodularin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+NdaE,BGC0001705_c1,input|c8|3540181-3541027|+|MAE_38660|McyJ,NRP,,,nodularin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+NdaB,BGC0000396_c1,input|c8|3486435-3490311|-|MAE_38550|McyC,NRP,,,nodularin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+AerN,BGC0000298_c1,input|c10|5194434-5196429|-|MAE_56480|ABC-transporter,NRP,Inhibitor,,Aeruginosin 98-A,Aeruginosin 98-B,Aeruginosin 98-C,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+putative_oxidoreductase,BGC0000298_c1,input|c10|5201875-5202652|-|MAE_56510|3-oxoacyl-[acyl-carrier-protein],NRP,Inhibitor,,Aeruginosin 98-A,Aeruginosin 98-B,Aeruginosin 98-C,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+AerG1,BGC0000298_c1,input|c10|5202707-5205986|-|MAE_56520|non-ribosomal,NRP,Inhibitor,,Aeruginosin 98-A,Aeruginosin 98-B,Aeruginosin 98-C,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+AerF,BGC0000298_c1,input|c10|5207053-5207854|-|MAE_56540|3-oxoacyl-[acyl-carrier-protein],NRP,Inhibitor,,Aeruginosin 98-A,Aeruginosin 98-B,Aeruginosin 98-C,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+AerE,BGC0000298_c1,input|c10|5207902-5208250|-|MAE_56550|hypothetical,NRP,Inhibitor,,Aeruginosin 98-A,Aeruginosin 98-B,Aeruginosin 98-C,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+AerD,BGC0000298_c1,input|c10|5208625-5209258|-|MAE_56560|bacilysin,NRP,Inhibitor,,Aeruginosin 98-A,Aeruginosin 98-B,Aeruginosin 98-C,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+AerK,BGC0000298_c1,input|c10|5209251-5210295|-|MAE_56570|isopentenyl-dephosphate,NRP,Inhibitor,,Aeruginosin 98-A,Aeruginosin 98-B,Aeruginosin 98-C,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+AerB,BGC0000298_c1,input|c10|5210334-5215095|-|MAE_56580|peptide,NRP,Inhibitor,,Aeruginosin 98-A,Aeruginosin 98-B,Aeruginosin 98-C,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+AerA,BGC0000298_c1,input|c10|5215458-5219745|-|MAE_56590|non-ribosomal,NRP,Inhibitor,,Aeruginosin 98-A,Aeruginosin 98-B,Aeruginosin 98-C,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+hypothetical_protein,BGC0000297_c1,input|c10|5208625-5209258|-|MAE_56560|bacilysin,NRP,Unknown,,Aeruginoside 126B,Aeruginoside 126A,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+non-ribosomal_peptide_synthetase/polyketide_synthase_hybrid_enzyme,BGC0000297_c1,input|c10|5215458-5219745|-|MAE_56590|non-ribosomal,NRP,Unknown,,Aeruginoside 126B,Aeruginoside 126A,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+putative_acyl-carrier_protein_reductase,BGC0001018_c1,input|c11|5523820-5524555|-|MAE_59950|putative,NRP,,,micropeptin K139,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+putative_methyltransferase,BGC0001018_c1,input|c11|5524594-5525383|-|MAE_59960|putative,NRP,,,micropeptin K139,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+hypothetical_protein,BGC0001018_c1,input|c11|5526213-5526693|-|MAE_59990|hypothetical,NRP,,,micropeptin K139,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+nonribosomal_peptide_synthetase,BGC0001018_c1,input|c11|5526970-5531227|-|MAE_60000|McnE,NRP,,,micropeptin K139,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+nonribosomal_peptide_synthetase,BGC0001018_c1,input|c11|5526970-5531227|-|MAE_60000|McnE,NRP,,,micropeptin K139,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+nonribosomal_peptide_synthetase,BGC0001018_c1,input|c11|5531393-5545568|-|MAE_60010|McnC,NRP,,,micropeptin K139,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+nonribosomal_peptide_synthetase,BGC0001018_c1,input|c11|5545564-5548882|-|MAE_60020|McnB,NRP,,,micropeptin K139,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+nonribosomal_peptide_synthetase,BGC0001018_c1,input|c11|5548884-5552181|-|MAE_60030|McnA,NRP,,,micropeptin K139,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+putative_ABC_transporter,BGC0001018_c1,input|c11|5554077-5556147|+|MAE_60060|ABC-transporter,NRP,,,micropeptin K139,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+McnE,BGC0000332_c1,input|c11|5526970-5531227|-|MAE_60000|McnE,NRP,,,cyanopeptolin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+McnC,BGC0000332_c1,input|c11|5531393-5545568|-|MAE_60010|McnC,NRP,,,cyanopeptolin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+McnB,BGC0000332_c1,input|c11|5545564-5548882|-|MAE_60020|McnB,NRP,,,cyanopeptolin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+McnA,BGC0000332_c1,input|c11|5548884-5552181|-|MAE_60030|McnA,NRP,,,cyanopeptolin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+McnF,BGC0000332_c1,input|c11|5554077-5556147|+|MAE_60060|ABC-transporter,NRP,,,cyanopeptolin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+McnG,BGC0000332_c1,input|c11|5556208-5557378|+|MAE_60070|McnG,NRP,,,cyanopeptolin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+OciC,BGC0000331_c1,input|c11|5526970-5531227|-|MAE_60000|McnE,NRP,,,cyanopeptin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+OciB,BGC0000331_c1,input|c11|5531393-5545568|-|MAE_60010|McnC,NRP,,,cyanopeptin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+ABC_transporter,BGC0000331_c1,input|c11|5554077-5556147|+|MAE_60060|ABC-transporter,NRP,,,cyanopeptin,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+short_chain_dehydrogenase,BGC0000594_c1,input|c11|5523820-5524555|-|MAE_59950|putative,RiPP,,,microviridin K,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json
+putative_methyltransferase,BGC0000594_c1,input|c11|5524594-5525383|-|MAE_59960|putative,RiPP,,,microviridin K,,,AP009552,Microcystis aeruginosa NIES-843,GCA_000010625.1_ASM1062v1_genomic.json

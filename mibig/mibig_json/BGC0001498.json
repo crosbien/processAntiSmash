@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CC(=O)N(CCCC[C@@H](C(=O)O)NC(=O)CC(CC(=O)N[C@@H](CCCCN(C(=O)C)O)C(=O)O)(C(=O)O)O)O", 
+                "compound": "aerobactin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 30575, 
+                    "Accession": "CBXF010000089", 
+                    "start_coord": 16055
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001498", 
+        "publications": [
+            "28654175"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

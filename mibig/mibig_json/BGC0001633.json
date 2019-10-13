@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "N=C(N)NCCC[C@H](NC(=N)N)C(=O)N[C@@H](Cc1ccccc1)C(=O)C[C@@H](Cc2ccccc2)C(=O)O", 
+                "compound": "ketomemicin B3"
+            }, 
+            {
+                "chem_struct": "N=C(N)NCCC[C@H](NC(=N)N)C(=O)N[C@H](Cc1ccccc1)C(=O)C[C@@H](Cc2ccccc2)C(=O)O", 
+                "compound": "ketomemicin B4"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 58838, 
+                    "Accession": "AORZ01000018", 
+                    "start_coord": 52624
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001633", 
+        "Other": {
+            "biosyn_class": [
+                "Other"
+            ]
+        }, 
+        "publications": [
+            "28097768"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

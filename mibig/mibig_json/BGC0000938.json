@@ -1,0 +1,423 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Wilfred Van Der Donk", 
+        "submitter_institution": "University of Illinois at Urbana-Champaign", 
+        "submitter_email": "vddonk@illinois.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000938", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "17113999,17220970,4605290", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "EU924263", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Fosfomycin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 73491, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "UDP-GlcNAc enolpyruvyltransferase (MurA)", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "Epoxide", 
+                        "moiety_subcluster": [
+                            "acg70827.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "Phosphonate", 
+                        "moiety_subcluster": [
+                            "acg70831.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "bioH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 105, 
+                    "gene_endpos": 1385, 
+                    "gene_id": "ACG70810.1", 
+                    "gene_annotation": "putative membrane protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "bioH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1478, 
+                    "gene_endpos": 2260, 
+                    "gene_id": "ACG70811.1", 
+                    "gene_annotation": "pimeloyl-CoA synthesis protein-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "fomR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2291, 
+                    "gene_endpos": 2788, 
+                    "gene_id": "ACG70812.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "fomR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3250, 
+                    "gene_endpos": 4083, 
+                    "gene_id": "ACG70813.1", 
+                    "gene_annotation": "transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4146, 
+                    "gene_endpos": 5405, 
+                    "gene_id": "ACG70814.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5380, 
+                    "gene_endpos": 6471, 
+                    "gene_id": "ACG70815.1", 
+                    "gene_annotation": "mandelate racemase-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6547, 
+                    "gene_endpos": 7224, 
+                    "gene_id": "ACG70816.1", 
+                    "gene_annotation": "demethylmenaquinone methyltransferase-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7221, 
+                    "gene_endpos": 8570, 
+                    "gene_id": "ACG70817.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8545, 
+                    "gene_endpos": 9483, 
+                    "gene_id": "ACG70818.1", 
+                    "gene_annotation": "branched-chain amino acid aminotransferase-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9470, 
+                    "gene_endpos": 10237, 
+                    "gene_id": "ACG70819.1", 
+                    "gene_annotation": "putative coenzyme PQQ synthesis protein c", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10239, 
+                    "gene_endpos": 11240, 
+                    "gene_id": "ACG70820.1", 
+                    "gene_annotation": "HMG-CoA lyase-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11575, 
+                    "gene_endpos": 12339, 
+                    "gene_id": "ACG70821.1", 
+                    "gene_annotation": "succinyl-diaminopimelate desuccinylase-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12336, 
+                    "gene_endpos": 13658, 
+                    "gene_id": "ACG70822.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "fomF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13682, 
+                    "gene_endpos": 15001, 
+                    "gene_id": "ACG70823.1", 
+                    "gene_annotation": "putative antibiotic transport protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "fomF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15002, 
+                    "gene_endpos": 16411, 
+                    "gene_id": "ACG70824.1", 
+                    "gene_annotation": "FomF", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "fomE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16408, 
+                    "gene_endpos": 17094, 
+                    "gene_id": "ACG70825.1", 
+                    "gene_annotation": "FomE", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "fom3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17478, 
+                    "gene_endpos": 19082, 
+                    "gene_id": "ACG70826.1", 
+                    "gene_annotation": "SAM-dependent methyltransferase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "fom4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19099, 
+                    "gene_endpos": 19695, 
+                    "gene_id": "ACG70827.1", 
+                    "gene_annotation": "epoxidase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction", 
+                        " Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "fomD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19790, 
+                    "gene_endpos": 20413, 
+                    "gene_id": "ACG70828.1", 
+                    "gene_annotation": "FomD", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "fomA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20417, 
+                    "gene_endpos": 21217, 
+                    "gene_id": "ACG70829.1", 
+                    "gene_annotation": "kinase", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction", 
+                        " Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "fomB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21230, 
+                    "gene_endpos": 22222, 
+                    "gene_id": "ACG70830.1", 
+                    "gene_annotation": "FomB", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction", 
+                        " Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "fom1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22254, 
+                    "gene_endpos": 23561, 
+                    "gene_id": "ACG70831.1", 
+                    "gene_annotation": "phosphoenolpyruvate phosphomutase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction", 
+                        " Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "fom2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23558, 
+                    "gene_endpos": 24712, 
+                    "gene_id": "ACG70832.1", 
+                    "gene_annotation": "phosphonopyruvate decarboxylase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction", 
+                        " Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "fomC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24709, 
+                    "gene_endpos": 25857, 
+                    "gene_id": "ACG70833.1", 
+                    "gene_annotation": "group III metal-dependent alcohol dehydrogenase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction", 
+                        " Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25841, 
+                    "gene_endpos": 26767, 
+                    "gene_id": "ACG70834.1", 
+                    "gene_annotation": "putative dienelactone hydrolase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "phnD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26910, 
+                    "gene_endpos": 27644, 
+                    "gene_id": "ACG70835.1", 
+                    "gene_annotation": "putative transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "phnD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27739, 
+                    "gene_endpos": 28707, 
+                    "gene_id": "ACG70836.1", 
+                    "gene_annotation": "phosphonate-binding periplasmic protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "phnC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 28745, 
+                    "gene_endpos": 29542, 
+                    "gene_id": "ACG70837.1", 
+                    "gene_annotation": "ATP-binding phosphonate ABC transporter PhnC", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "phnE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29539, 
+                    "gene_endpos": 31263, 
+                    "gene_id": "ACG70838.1", 
+                    "gene_annotation": "ABC-type phosphonate permease", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Aminocoumarin"
+        }
+    }
+}
+
+

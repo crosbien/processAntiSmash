@@ -1,0 +1,74 @@
+{
+    "version": "12", 
+    "personal": {
+        "submitter_name": "Helge Bode", 
+        "submitter_institution": "Goethe Universit\u00c3\u00a4t Frankfurt", 
+        "submitter_email": "h.bode@bio.uni-frankfurt.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000839", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "24467333,16957125,4217145", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP001699", 
+                    "start_coord": 2259497, 
+                    "end_coord": 2285133, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression", 
+                        "Proven expression in natural host", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Flexirubin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 6450309, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "flxA", 
+                    "gene_id": "Cpin_1853", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "flxY", 
+                    "gene_id": "Cpin_1877", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }
+            ], 
+            "operon": [
+                {
+                    "operon_genes": []
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Other"
+        }
+    }
+}
+
+

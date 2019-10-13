@@ -1,0 +1,35 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 41774, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "acarbose"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "Y18523", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000691", 
+        "publications": [
+            "10196166", 
+            "11443082", 
+            "11937512", 
+            "12681481", 
+            "15808935"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Saccharide"
+        ]
+    }
+}

@@ -1,0 +1,367 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Susan Jensen", 
+        "submitter_institution": "University of Alberta", 
+        "submitter_email": "susan.jensen@ualberta.ca"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000845", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "8088547, 9515708, 10223939, 10681345, 11319114, 11882698, 14693539, 14742203, 14982786, 15342599, 15793135, 18388457, 19011915, 19941870, 20711575, 23104404", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "DS570624", 
+                    "start_coord": 177438, 
+                    "end_coord": 209626, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "clavulanic acid", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 5280980, 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "beta-lactamase", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "beta-lactam ring", 
+                        "moiety_subcluster": [
+                            "sscg_00151"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "sscg_00150", 
+                        "sscg_00151", 
+                        "sscg_00152", 
+                        "sscg_00153"
+                    ], 
+                    "evidence_operon": "Other"
+                }, 
+                {
+                    "operon_genes": [
+                        "sscg_00156", 
+                        "sscg_00157"
+                    ], 
+                    "evidence_operon": "Other"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "ceaS2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 177939, 
+                    "gene_endpos": 179660, 
+                    "gene_id": "EDY47122.1", 
+                    "gene_annotation": "carboxyethylarginine synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "conditional non-producer"
+                }, 
+                {
+                    "gene_name": "bls2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 179663, 
+                    "gene_endpos": 181204, 
+                    "gene_id": "EDY47123.1", 
+                    "gene_annotation": "beta-lactam synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "conditional non-producer"
+                }, 
+                {
+                    "gene_name": "pah2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 181377, 
+                    "gene_endpos": 182318, 
+                    "gene_id": "EDY47124.1", 
+                    "gene_annotation": "proclavaminate amidinohydrolase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "conditional non-producer"
+                }, 
+                {
+                    "gene_name": "cas2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 182334, 
+                    "gene_endpos": 183311, 
+                    "gene_id": "EDY47125.1", 
+                    "gene_annotation": "clavaminate synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "conditional non-producer"
+                }, 
+                {
+                    "gene_name": "oat2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 183618, 
+                    "gene_endpos": 184799, 
+                    "gene_id": "EDY47126.1", 
+                    "gene_annotation": "glutamate N-acetyltransferase 2", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "conditional reduced production"
+                }, 
+                {
+                    "gene_name": "oppA1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 184964, 
+                    "gene_endpos": 186631, 
+                    "gene_id": "EDY47127.1", 
+                    "gene_annotation": "oligopeptide-binding lipoprotein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "non-producer"
+                }, 
+                {
+                    "gene_name": "claR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 187415, 
+                    "gene_endpos": 188734, 
+                    "gene_id": "EDY47128.1", 
+                    "gene_annotation": "transcription activator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "non-producer"
+                }, 
+                {
+                    "gene_name": "cad", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 189039, 
+                    "gene_endpos": 189785, 
+                    "gene_id": "EDY47129.1", 
+                    "gene_annotation": "clavaldehyde dehydrogenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "non-producer"
+                }, 
+                {
+                    "gene_name": "cyp", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 190186, 
+                    "gene_endpos": 191412, 
+                    "gene_id": "EDY47130.1", 
+                    "gene_annotation": "cytochrome P450-SU2", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "non-producer"
+                }, 
+                {
+                    "gene_name": "fd", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 191418, 
+                    "gene_endpos": 191624, 
+                    "gene_id": "EDY47131.1", 
+                    "gene_annotation": "ferredoxin", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "reduced production"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 191858, 
+                    "gene_endpos": 193234, 
+                    "gene_id": "EDY47132.1", 
+                    "gene_annotation": "beta-lactamase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "non-producer"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 193231, 
+                    "gene_endpos": 194253, 
+                    "gene_id": "EDY47133.1", 
+                    "gene_annotation": "efflux protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "reduced production"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 194205, 
+                    "gene_endpos": 195224, 
+                    "gene_id": "EDY47134.1", 
+                    "gene_annotation": "acetyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "reduced production"
+                }, 
+                {
+                    "gene_name": "oppA2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 195611, 
+                    "gene_endpos": 196942, 
+                    "gene_id": "EDY47135.1", 
+                    "gene_annotation": "oligopeptide-binding lipoprotein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "non-producer"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 197297, 
+                    "gene_endpos": 198502, 
+                    "gene_id": "EDY47136.1", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "non-producer"
+                }, 
+                {
+                    "gene_name": "gcaS", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 198499, 
+                    "gene_endpos": 199887, 
+                    "gene_id": "EDY47137.1", 
+                    "gene_annotation": "glycylclavaminate synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "non-producer"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 200085, 
+                    "gene_endpos": 201569, 
+                    "gene_id": "EDY47138.1", 
+                    "gene_annotation": "penicillin-binding protein PBP", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ], 
+                    "mut_pheno": "essential protein"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 202035, 
+                    "gene_endpos": 204329, 
+                    "gene_id": "EDY47139.1", 
+                    "gene_annotation": "penicillin-binding protein", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no effect"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 204526, 
+                    "gene_endpos": 205707, 
+                    "gene_id": "EDY47140.1", 
+                    "gene_annotation": "cytochrome P450 hydroxylase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no effect"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 206500, 
+                    "gene_endpos": 207105, 
+                    "gene_id": "EDY47141.1", 
+                    "gene_annotation": "RNA polymerase sigma factor SigL", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "slightly reduced production"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 207102, 
+                    "gene_endpos": 208652, 
+                    "gene_id": "EDY47142.1", 
+                    "gene_annotation": "histidine kinase", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "slightly reduced production"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 208814, 
+                    "gene_endpos": 209626, 
+                    "gene_id": "EDY47143.1", 
+                    "gene_annotation": "two-component system response regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "slightly reduced production"
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Non-NRP beta-lactam"
+        }
+    }
+}
+
+

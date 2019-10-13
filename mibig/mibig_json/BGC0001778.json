@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "OC[C@H]1O[C@H]([C@H](O)[C@@H]1O)C1=CC(=O)NC1=O", 
+                "compound": "showdomycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 29440, 
+                    "Accession": "LAQS01000018", 
+                    "start_coord": 12966
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001778", 
+        "publications": [
+            "28418235"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

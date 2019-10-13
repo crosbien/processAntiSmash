@@ -1,0 +1,40 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 6440871, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "lankacidin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 35881, 
+                    "Accession": "AB088224", 
+                    "start_coord": 4922
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001100", 
+        "publications": [
+            "12791134", 
+            "10954087", 
+            "10767533", 
+            "9836424"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Trans-AT type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "AmfS"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2829457, 
+                    "Accession": "AP009493", 
+                    "start_coord": 2822113
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000496", 
+        "RiPP": {
+            "ripp_subclass": "Lanthipeptide"
+        }, 
+        "publications": [
+            "11844785"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

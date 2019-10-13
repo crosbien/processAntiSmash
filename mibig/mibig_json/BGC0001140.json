@@ -1,0 +1,592 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Xiaohui Yan / Michael Smanski", 
+        "submitter_institution": "The Scripps Research Institute / University of Minnesota", 
+        "submitter_email": "xyan@scripps.edu / smanski@umn.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001140", 
+        "biosyn_class": [
+            "Terpene"
+        ], 
+        "publications": "19164156,20232845,21825154,23157615,23361357", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "FJ655920.1", 
+                    "start_coord": 4628, 
+                    "end_coord": 45606, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "platensimycin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 6857724, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry", 
+                    "X-ray", 
+                    "Total synthesis"
+                ], 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "FabF fatty acid synthase", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "3-amino-4-hydroxybenzoic acid", 
+                        "moiety_subcluster": [
+                            "aco31287.1", 
+                            "aco31288.1", 
+                            "aco31289.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "ent-Kaurene", 
+                        "moiety_subcluster": [
+                            "aco31283.1", 
+                            "aco31279.1", 
+                            "aco31276.1"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "Platencin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 44450228, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry", 
+                    "Total synthesis"
+                ], 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "Fatty acid synthases FabF & FabH", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "3-amino-4-hydroxybenzoic acid", 
+                        "moiety_subcluster": [
+                            "add82993", 
+                            "add82994"
+                        ]
+                    },
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "ent-atiserene", 
+                        "moiety_subcluster": [
+                            "aco31276.1", 
+                            "aco31274.1", 
+                            "aco31283.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "ptmO1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4628, 
+                    "gene_endpos": 5392, 
+                    "gene_id": "ACO31265.1", 
+                    "gene_annotation": "dehydrogenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "ptmU1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5389, 
+                    "gene_endpos": 5943, 
+                    "gene_id": "ACO31266.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmA1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6030, 
+                    "gene_endpos": 7334, 
+                    "gene_id": "ACO31267.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmU2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7331, 
+                    "gene_endpos": 8041, 
+                    "gene_id": "ACO31268.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmR2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8087, 
+                    "gene_endpos": 8488, 
+                    "gene_id": "ACO31269.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8488, 
+                    "gene_endpos": 9645, 
+                    "gene_id": "ACO31270.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "PtmM4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9647, 
+                    "gene_endpos": 11215, 
+                    "gene_id": "ACO31271.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmU3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11244, 
+                    "gene_endpos": 12326, 
+                    "gene_id": "ACO31272.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12408, 
+                    "gene_endpos": 13262, 
+                    "gene_id": "ACO31273.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmT1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13327, 
+                    "gene_endpos": 14253, 
+                    "gene_id": "ACO31274.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmO2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14250, 
+                    "gene_endpos": 15572, 
+                    "gene_id": "ACO31275.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmT2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15572, 
+                    "gene_endpos": 17173, 
+                    "gene_id": "ACO31276.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmO3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17311, 
+                    "gene_endpos": 18168, 
+                    "gene_id": "ACO31277.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmO4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18168, 
+                    "gene_endpos": 19334, 
+                    "gene_id": "ACO31278.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmT3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19331, 
+                    "gene_endpos": 20260, 
+                    "gene_id": "ACO31279.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmO5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20301, 
+                    "gene_endpos": 21593, 
+                    "gene_id": "ACO31280.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmR3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21590, 
+                    "gene_endpos": 22657, 
+                    "gene_id": "ACO31281.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmO6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22745, 
+                    "gene_endpos": 23587, 
+                    "gene_id": "ACO31282.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmT4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23644, 
+                    "gene_endpos": 24690, 
+                    "gene_id": "ACO31283.1", 
+                    "gene_annotation": "GGDP synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmM1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24690, 
+                    "gene_endpos": 26036, 
+                    "gene_id": "ACO31284.1", 
+                    "gene_annotation": "HMBDP reductase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmM2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26044, 
+                    "gene_endpos": 27144, 
+                    "gene_id": "ACO31285.1", 
+                    "gene_annotation": "HMBDP synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmM3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27131, 
+                    "gene_endpos": 28894, 
+                    "gene_id": "ACO31286.1", 
+                    "gene_annotation": "DXP synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmB1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 28972, 
+                    "gene_endpos": 29805, 
+                    "gene_id": "ACO31287.1", 
+                    "gene_annotation": "ADHOHP synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ],
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmB2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29857, 
+                    "gene_endpos": 30963, 
+                    "gene_id": "ACO31288.1", 
+                    "gene_annotation": "ADHOHP synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                            "Sequence-based prediction"
+                    ],
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmB3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30969, 
+                    "gene_endpos": 32159, 
+                    "gene_id": "ACO31289.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 32218, 
+                    "gene_endpos": 33093, 
+                    "gene_id": "ACO31290.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmP1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33179, 
+                    "gene_endpos": 34603, 
+                    "gene_id": "ACO31291.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmP2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 34675, 
+                    "gene_endpos": 35919, 
+                    "gene_id": "ACO31292.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmO7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 35934, 
+                    "gene_endpos": 36839, 
+                    "gene_id": "ACO31293.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmR1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 36872, 
+                    "gene_endpos": 37588, 
+                    "gene_id": "ACO31294.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmO8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 37880, 
+                    "gene_endpos": 38716, 
+                    "gene_id": "ACO31295.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmU4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 38713, 
+                    "gene_endpos": 40503, 
+                    "gene_id": "ACO31296.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmA3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 40542, 
+                    "gene_endpos": 42125, 
+                    "gene_id": "ACO31297.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmP3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 42293, 
+                    "gene_endpos": 43507, 
+                    "gene_id": "ACS13710.1", 
+                    "gene_annotation": "Resistance gene", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ],
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmP4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43625, 
+                    "gene_endpos": 45247, 
+                    "gene_id": "ACS13711.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ptmO9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 45271, 
+                    "gene_endpos": 45606, 
+                    "gene_id": "ACS13712.1", 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }
+            ]
+        }, 
+        "Terpene": {
+            "terpene_subclass": "Other", 
+            "terpene_c_len": "Diterpene", 
+            "terpene_precursor": "GGPP", 
+            "terpene_synth_cycl": [
+                "aco31274.1", 
+                "aco31276.1", 
+                "aco31279.1"
+            ], 
+            "prenyl_transf": ["aco31283"]
+        }
+    }
+}
+
+

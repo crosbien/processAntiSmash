@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CC[C@H](C)[C@@H]1NC(=O)[C@@H](CC(C)C)NC(=O)[C@@H](CC2=CC=CC=C2)NC(=O)[C@@H](NC(=O)[C@H](CCCCN)NC(=O)[C@H](NC(=O)[C@@H](NC(=O)[C@@H](C)NC1=O)[C@@H](C)CC)[C@H](C)CC)[C@@H](C)CC", 
+                "compound": "surugamide A"
+            }, 
+            {
+                "chem_struct": "CC[C@H](C)[C@@H]1NC(=O)[C@@H](CC(C)C)NC(=O)[C@@H](CC2=CC=CC=C2)NC(=O)[C@@H](NC(=O)[C@H](CCCCN)NC(=O)[C@H](NC(=O)[C@@H](NC(=O)[C@@H](C)NC1=O)C(C)C)[C@H](C)CC)[C@@H](C)CC", 
+                "compound": "surugamide D"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3971215, 
+                    "Accession": "NC_020990", 
+                    "start_coord": 3888752
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001792", 
+        "publications": [
+            "28590725"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

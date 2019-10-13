@@ -1,0 +1,40 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "JBIR-76",
+                "chem_struct": "COC1C2=COC(CO)=C2C(=O)C2=C(O)C(OC)=C(O)C=C12",
+                "molecular_formula": "C15H14O7",
+                "mol_mass": 306.270
+            },
+            {
+                "compound": "JBIR-77",
+                "chem_struct": "[H]CC1=C2C(=CO1)C(OC)C1=CC(O)=C(OC)C(O)=C1C2=O",
+                "molecular_formula": "C15H14O6",
+                "mol_mass": 290.271
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "LC125462", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001386", 
+        "publications": [
+            "27158812"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type II"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

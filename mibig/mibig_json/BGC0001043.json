@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "SGR PTMs"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 966540, 
+                    "Accession": "AP009493", 
+                    "start_coord": 950358
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001043", 
+        "publications": [
+            "24305602"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

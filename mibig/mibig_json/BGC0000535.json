@@ -1,0 +1,192 @@
+{
+    "version": "6", 
+    "personal": {
+        "submitter_name": "Aljosa Trmcic", 
+        "submitter_institution": "Cornell Univeristy", 
+        "submitter_email": "at543@cornell.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000535", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "21183019", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "HM219853", 
+                    "start_coord": 828, 
+                    "end_coord": 14152, 
+                    "conn_comp_cluster": [
+                        "Proven expression in natural host", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "nisin A", 
+                "chem_synonyms": [
+                    "nisin"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 16130280, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Signalling"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_id": "nisB", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydration", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "nisG", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "nisE", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "nisF", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "nisK", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "nisR", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "nisP", 
+                    "gene_function": "Activation / processing"
+                }, 
+                {
+                    "gene_id": "nisI", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "nisC", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "nisA", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "nisT", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "Lantipeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "adj56352.1"
+                    ], 
+                    "core_pept_aa": "ITSISLCTPGCKTGALMGCNMKTATCHCSIHVSK", 
+                    "lead_pept_len": 23, 
+                    "foll_pept_len": -1, 
+                    "peptidase": [
+                        "adj56357.1"
+                    ], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 3, 
+                            "AA_pos_2": 7, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 13, 
+                            "AA_pos_2": 19, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 23, 
+                            "AA_pos_2": 26, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 8, 
+                            "AA_pos_2": 11, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 25, 
+                            "AA_pos_2": 28, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

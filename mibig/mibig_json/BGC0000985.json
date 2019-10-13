@@ -1,0 +1,186 @@
+{
+    "version": "11", 
+    "personal": {
+        "submitter_name": "Jia Jia Zhang", 
+        "submitter_institution": "University of California, San Diego", 
+        "submitter_email": "jaz010@ucsd.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000985", 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ], 
+        "publications": "22458477", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP003239", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Didemnin B", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 13895197, 
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }, 
+            {
+                "compound": "Nordidemnin B", 
+                "chem_synonyms": [], 
+                "molecular_formula": "C56H87N7O15", 
+                "mol_mass": 1097.63, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "Didemnin X", 
+                "chem_synonyms": [], 
+                "molecular_formula": "C82H131N13O23", 
+                "mol_mass": 1665.95, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "Didemnin Y", 
+                "chem_synonyms": [], 
+                "molecular_formula": "C87H139N15O25", 
+                "mol_mass": 1794.01, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "didB", 
+                    "gene_id": "TMO_c0603", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "didA", 
+                    "gene_id": "TMO_c0602", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "didC", 
+                    "gene_id": "TMO_c0604", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "didD", 
+                    "gene_id": "TMO_c0605", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "didE", 
+                    "gene_id": "TMO_c0606", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "didF", 
+                    "gene_id": "TMO_c0607", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "didG", 
+                    "gene_id": "TMO_c0608", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "didH", 
+                    "gene_id": "TMO_c0609", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "didI", 
+                    "gene_id": "TMO_c0610", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "didJ", 
+                    "gene_id": "TMO_c0611", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mbtH", 
+                    "gene_id": "TMO_c0612", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Cyclic depsipeptide", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Type I", 
+            "nrps_thioesterase": [
+                "tmo_c0611"
+            ], 
+            "nrps_release_type": "Macrolactamization"
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Trans-AT type I"
+            ], 
+            "starter_unit": "Other", 
+            "trans_at": []
+        }
+    },
+    "Comments": "Analysis of genes flanking didA-J, and within the Tistrella mobilis genome, did not reveal a discrete AT suggesting the Didemnin polyketide synthase may use the fatty acid synthase FabD"
+}
+
+

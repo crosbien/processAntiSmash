@@ -1,0 +1,355 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Andreas Bechthold", 
+        "submitter_institution": "Albert-Ludwigs-University of Freiburg, Germany ", 
+        "submitter_email": "andreas.bechthold@pharmazie.uni-freiburg.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000197", 
+        "biosyn_class": [
+            "Polyketide", 
+            "Saccharide"
+        ], 
+        "publications": "17357167, 5433438, 1335359, 5478623, 1322986, 16713002, 18553079", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "DQ915964.1", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Aranciamycin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "chEMBL"
+                ], 
+                "pubchem_id": 15177995, 
+                "chembl_id": 1096602, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Cytotoxic"
+                ], 
+                "chem_target": "collagenase, DNA synthesis "
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 711, 
+                    "gene_endpos": 1541, 
+                    "gene_id": "ABL09949.1", 
+                    "gene_annotation": "SCC75A.25c", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2069, 
+                    "gene_endpos": 2680, 
+                    "gene_id": "ABL09950.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3617, 
+                    "gene_endpos": 5569, 
+                    "gene_id": "ABL09951.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6024, 
+                    "gene_endpos": 8852, 
+                    "gene_id": "ABL09952.1", 
+                    "gene_annotation": "response regulator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9913, 
+                    "gene_endpos": 11256, 
+                    "gene_id": "ABL09953.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11272, 
+                    "gene_endpos": 12216, 
+                    "gene_id": "ABL09954.1", 
+                    "gene_annotation": "cyclase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12254, 
+                    "gene_endpos": 13039, 
+                    "gene_id": "ABL09955.1", 
+                    "gene_annotation": "ketoreductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13224, 
+                    "gene_endpos": 13679, 
+                    "gene_id": "ABL09956.1", 
+                    "gene_annotation": "aromatase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13854, 
+                    "gene_endpos": 14120, 
+                    "gene_id": "ABL09957.1", 
+                    "gene_annotation": "acyl carrier protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14144, 
+                    "gene_endpos": 15370, 
+                    "gene_id": "ABL09958.1", 
+                    "gene_annotation": "chain length factor", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15367, 
+                    "gene_endpos": 16638, 
+                    "gene_id": "ABL09959.1", 
+                    "gene_annotation": "ketoacyl synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Absence of aranciamycin production"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16844, 
+                    "gene_endpos": 17617, 
+                    "gene_id": "ABL09960.1", 
+                    "gene_annotation": "cyclase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18199, 
+                    "gene_endpos": 18807, 
+                    "gene_id": "ABL09961.1", 
+                    "gene_annotation": "regulator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18737, 
+                    "gene_endpos": 19957, 
+                    "gene_id": "ABL09962.1", 
+                    "gene_annotation": "signal transduction histidine kinase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20708, 
+                    "gene_endpos": 21517, 
+                    "gene_id": "ABL09963.1", 
+                    "gene_annotation": "pathway specific transcription activator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21990, 
+                    "gene_endpos": 22646, 
+                    "gene_id": "ABL09964.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22835, 
+                    "gene_endpos": 25870, 
+                    "gene_id": "ABL09965.1", 
+                    "gene_annotation": "helicase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26090, 
+                    "gene_endpos": 27349, 
+                    "gene_id": "ABL09966.1", 
+                    "gene_annotation": "O-methyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27737, 
+                    "gene_endpos": 29260, 
+                    "gene_id": "ABL09967.1", 
+                    "gene_annotation": "transmembrane efflux protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29585, 
+                    "gene_endpos": 30868, 
+                    "gene_id": "ABL09968.1", 
+                    "gene_annotation": "L-rhamnosyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "Production of non-glycosylated anthracycline aglycone"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31341, 
+                    "gene_endpos": 32867, 
+                    "gene_id": "ABL09969.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33305, 
+                    "gene_endpos": 34192, 
+                    "gene_id": "ABL09970.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 34703, 
+                    "gene_endpos": 35758, 
+                    "gene_id": "ABL09971.1", 
+                    "gene_annotation": "methyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Anthracycline", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "None", 
+            "pks_genes": [
+                "abl09959.1"
+            ], 
+            "ketide_length": 10, 
+            "cyclases": "ABL09954.1, ABL09960.1"
+        }, 
+        "Saccharide": {
+            "saccharide_subclass": "hybrid/tailoring", 
+            "gt_genes": [
+                {
+                    "gt_gene": "ABL09968.1", 
+                    "gt_specificity": "Multiple (promiscuous)", 
+                    "evidence_gt_spec": "Knock-out construct"
+                }
+            ]
+        }
+    }
+}
+
+

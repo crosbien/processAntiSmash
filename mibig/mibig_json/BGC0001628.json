@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CC(C)[C@H](O)[C@@H](NC(=O)[C@H](C)NC(=O)[C@@H](CC(O)=O)NC(=O)[C@@H](NC(=O)CC1=CC=CC=C1)C(C)C)C(=O)NCC(=O)N[C@H](C)C(=O)N[C@@H](CC1=CC=CC=C1)C(O)=O", 
+                "compound": "JBIR-78"
+            }, 
+            {
+                "chem_struct": "CC(C)[C@H](O)[C@@H](NC(=O)[C@H](C)NC(=O)[C@@H](CS(O)(=O)=O)NC(=O)[C@@H](NC(=O)CC1=CC=CC=C1)C(C)C)C(=O)NCC(=O)N[C@H](C)C(=O)N[C@@H](CC1=CC=CC=C1)C(O)=O", 
+                "compound": "JBIR-95"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "LC217607", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001628", 
+        "publications": [
+            "28505407"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

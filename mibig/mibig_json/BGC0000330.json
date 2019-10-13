@@ -1,0 +1,364 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Markus Nett", 
+        "submitter_institution": "Hans-Knoell-Institute", 
+        "submitter_email": "markus.nett@hki-jena.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000330", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "22381697", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AM260480", 
+                    "start_coord": 1886949, 
+                    "end_coord": 1923310, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "cupriachelin", 
+                "chem_synonyms": [], 
+                "chem_struct": "CCCCCCCCCC(N[C@@H]([C@H](O)C(O)=O)C(N[C@H](C(N[C@@H]([C@H](O)C(O)=O)C(NCC(N[C@@H](CCCN(O)C(C[C@@H](O)C)=O)C(O)=O)=O)=O)=O)CCN)=O)=O", 
+                "molecular_formula": "C33H57N7O16", 
+                "mol_mass": 806.3788, 
+                "mass_ion_type": "[M-H]-", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Siderophore"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Lipid", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "cucQ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1887290, 
+                    "gene_endpos": 1886949, 
+                    "gene_id": "CAJ96461.1", 
+                    "gene_annotation": "hypothetical membrane spanning protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cucP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1888905, 
+                    "gene_endpos": 1887274, 
+                    "gene_id": "CAJ96462.1", 
+                    "gene_annotation": "iron regulated protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cucO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1889270, 
+                    "gene_endpos": 1888902, 
+                    "gene_id": "CAJ96463.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cucN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1891578, 
+                    "gene_endpos": 1889296, 
+                    "gene_id": "CAJ96464.1", 
+                    "gene_annotation": "outer membrane receptor, TonB dependent", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cucM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1893084, 
+                    "gene_endpos": 1891684, 
+                    "gene_id": "CAJ96465.1", 
+                    "gene_annotation": "ornithine N-monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cucL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1894207, 
+                    "gene_endpos": 1893107, 
+                    "gene_id": "CAJ96466.1", 
+                    "gene_annotation": "N-acyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cucK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1895922, 
+                    "gene_endpos": 1894240, 
+                    "gene_id": "CAJ96467.1", 
+                    "gene_annotation": "ABC-type transporter, ATPase and permease components: Pep3E family", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cucJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1899146, 
+                    "gene_endpos": 1895919, 
+                    "gene_id": "CAJ96468.1", 
+                    "gene_annotation": "non-ribosomal peptide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cucI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1899397, 
+                    "gene_endpos": 1900152, 
+                    "gene_id": "CAJ96469.1", 
+                    "gene_annotation": "putative iron transport-related membrane protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cucH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1906191, 
+                    "gene_endpos": 1900165, 
+                    "gene_id": "CAJ96470.1", 
+                    "gene_annotation": "non-ribosomal peptide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolishment of cupriachelin production"
+                }, 
+                {
+                    "gene_name": "cucG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1909324, 
+                    "gene_endpos": 1906229, 
+                    "gene_id": "CAJ96471.1", 
+                    "gene_annotation": "non-ribosomal peptide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "cucF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1918601, 
+                    "gene_endpos": 1909317, 
+                    "gene_id": "CAJ96472.1", 
+                    "gene_annotation": "non-ribosomal peptide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cucE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1919778, 
+                    "gene_endpos": 1918717, 
+                    "gene_id": "CAJ96473.1", 
+                    "gene_annotation": "pyoverdine biosynthesis regulatory gene", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cucD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1920048, 
+                    "gene_endpos": 1920254, 
+                    "gene_id": "CAJ96474.1", 
+                    "gene_annotation": "MbtH-like protein", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cucC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1920251, 
+                    "gene_endpos": 1921069, 
+                    "gene_id": "CAJ96475.1", 
+                    "gene_annotation": "thioesterase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cucB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1921056, 
+                    "gene_endpos": 1921889, 
+                    "gene_id": "CAJ96476.1", 
+                    "gene_annotation": "phosphopantetheinyltransferase family protein", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cucA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1921886, 
+                    "gene_endpos": 1923310, 
+                    "gene_id": "CAJ96477.1", 
+                    "gene_annotation": "aminotransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "NRP siderophore", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_te_type": "Type II", 
+            "nrps_release_type": "Hydrolysis", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "CAJ96472.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "None", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Starter", 
+                            "nrps_mod_doms": "Oxidation", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Aspartate", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "Oxidation", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "2,4-Diaminobutyric acid", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "Oxidation", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "CAJ96471.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Aspartate", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "CAJ96468.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "4", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Glycine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "CAJ96470.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "5", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "N5-Hydroxyornithine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

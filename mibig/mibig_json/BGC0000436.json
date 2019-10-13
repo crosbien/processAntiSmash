@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 24978526, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "syringolin A"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 28527, 
+                    "Accession": "AJVM01000074", 
+                    "start_coord": 7793
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000436", 
+        "publications": [
+            "24727275"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

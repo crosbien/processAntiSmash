@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "sorbicillin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 1216347, 
+                    "Accession": "AM920436", 
+                    "start_coord": 1187590
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001404", 
+        "publications": [
+            "27107123"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

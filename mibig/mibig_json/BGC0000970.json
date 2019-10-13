@@ -1,0 +1,325 @@
+{
+   "version": "16",
+   "personal": {
+      "submitter_name": "Daniel Krug",
+      "submitter_institution": "HIPS",
+      "submitter_email": "daniel.krug@helmholtz-hzi.de"
+   },
+   "general_params": {
+      "mibig_accession": "BGC0000970",
+      "biosyn_class": [
+         "NRP",
+         "Polyketide"
+      ],
+      "publications": "19171307",
+      "loci": {
+         "complete": "complete",
+         "nucl_acc": [
+            {
+               "Accession": "AM988861",
+               "mixs_compliant": false,
+               "start_coord": 1,
+               "end_coord": 51243,
+               "conn_comp_cluster": [
+                  "Knock-out studies"
+               ]
+            }
+         ]
+      },
+      "compounds": [
+         {
+            "compound": "Chondrochloren",
+            "chem_synonyms": [],
+            "database_deposited": false,
+            "chem_struct": "O(C)[C@@H](C(=O)N/C=C\\C1C=CC(O)=C(Cl)C=1)[C@H](O)[C@@H](/C=C(\\C)/C(=O)[C@@H](C)[C@@H](O)[C@H](C)CCCC)OC",
+            "molecular_formula": "C27H40Cl1N1O7",
+            "mol_mass": 526.2566,
+            "mass_ion_type": "[M+H]+",
+            "chem_act": [
+               "Antibacterial"
+            ]
+         }
+      ],
+      "genes": {
+         "gene": [
+            {
+               "gene_name": "cnd-acp",
+               "not_in_gbk": true,
+               "gene_startpos": 38434,
+               "gene_endpos": 38706,
+               "gene_annotation": "acyl carrier protein",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "cndA",
+               "not_in_gbk": false,
+               "gene_id": "CAQ43075.1",
+               "gene_annotation": "polyketide synthase",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "cndB",
+               "not_in_gbk": false,
+               "gene_id": "CAQ43076.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "cndC",
+               "not_in_gbk": false,
+               "gene_id": "CAQ43077.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "cndD",
+               "not_in_gbk": false,
+               "gene_id": "CAQ43078.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "cndE",
+               "not_in_gbk": false,
+               "gene_id": "CAQ43079.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "cndF",
+               "not_in_gbk": false,
+               "gene_id": "CAQ43084.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "cndG",
+               "not_in_gbk": false,
+               "gene_id": "CAQ43085.1",
+               "gene_function": "Tailoring",
+               "tailoring": "Decarboxylation",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "cndH",
+               "not_in_gbk": false,
+               "gene_id": "CAQ43074.1",
+               "gene_function": "Tailoring",
+               "tailoring": "Halogenation",
+               "evidence_genefunction": [
+                  "Knock-out"
+               ],
+               "mut_pheno": "complete loss of production"
+            },
+            {
+               "gene_name": "cndI",
+               "not_in_gbk": false,
+               "gene_id": "CAQ43073.1",
+               "gene_function": "Tailoring",
+               "tailoring": "Methylation",
+               "evidence_genefunction": [
+                  "Knock-out"
+               ],
+               "mut_pheno": "shift of production towards chondrochloren A"
+            },
+            {
+               "gene_name": "ctg1_orf00024",
+               "not_in_gbk": false,
+               "gene_id": "ctg1_orf00024"
+            },
+            {
+               "gene_name": "orf3",
+               "not_in_gbk": false,
+               "gene_id": "CAQ43080.1",
+               "gene_function": "Precursor biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "orf5",
+               "not_in_gbk": false,
+               "gene_id": "CAQ43081.1",
+               "gene_function": "Precursor biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "orf6",
+               "not_in_gbk": false,
+               "gene_id": "CAQ43082.1",
+               "gene_function": "Precursor biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            }
+         ]
+      },
+      "NRP": {
+         "subclass": "Other",
+         "lin_cycl_nrp": "Linear",
+         "nrps_genes": [
+            {
+               "nrps_gene": "CAQ43084.1",
+               "nrps_module": [
+                  {
+                     "module_nr": "7",
+                     "a_substr_spec": {
+                        "aa_type": "Proteinogenic",
+                        "prot_adom_spec": "Tyrosine",
+                        "evidence_a_spec": "Structure-based inference",
+                        "epimerized": false
+                     },
+                     "cdom_subtype": "LCL",
+                     "nrps_mod_doms": "None",
+                     "nrps_mod_skip_iter": "Neither"
+                  }
+               ]
+            }
+         ],
+         "nrps_te_type": "Type I",
+         "nrps_release_type": "Hydrolysis"
+      },
+      "Polyketide": {
+         "pk_subclass": "Other",
+         "lin_cycl_pk": "Linear",
+         "pks_subclass": [
+            "Modular type I"
+         ],
+         "starter_unit": "Butyryl-ACP",
+         "mod_pks_genes": [
+            {
+               "mod_pks_gene": "CAQ43075.1",
+               "pks_module": [
+                  {
+                     "module_nr": "1",
+                     "pks_domains": [
+                        "CoA-ligase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Unknown",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "2",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Enoylreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Methylmalonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "CAQ43076.1",
+               "pks_module": [
+                  {
+                     "module_nr": "3",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Methylmalonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "CAQ43077.1",
+               "pks_module": [
+                  {
+                     "module_nr": "4",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Methylmalonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "CAQ43078.1",
+               "pks_module": [
+                  {
+                     "module_nr": "5",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Hydroxymalonyl-CoA",
+                     "evidence_at_spec": "Sequence-based prediction",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "CAQ43079.1",
+               "pks_module": [
+                  {
+                     "module_nr": "6",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Hydroxymalonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "Methylation",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            }
+         ],
+         "pks_te_type": "None",
+         "pks_thioesterase": [],
+         "pks_release_type": "Hydrolysis"
+      }
+   },
+   "embargo": false
+}

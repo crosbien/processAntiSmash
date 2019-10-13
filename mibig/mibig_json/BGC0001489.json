@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 172675, 
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "compound": "6-hydroxymellein"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 29885, 
+                    "Accession": "MG777496", 
+                    "start_coord": 7141
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001489", 
+        "publications": [
+            "27264554"
+        ], 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true
+    }
+}

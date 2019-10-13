@@ -1,0 +1,63 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Navjot Kaur", 
+        "submitter_institution": "CSIR Imtech, Chandigarh, India", 
+        "submitter_email": "nkaur@imtech.res.in"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001459", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "17978218", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "LOBU02000007", 
+                    "start_coord": 259653, 
+                    "end_coord": 327583, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "decaplanin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 195570, 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "cell wall", 
+                "chem_moieties": [
+                    {
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "NRP": {
+            "subclass": "Glycopeptide", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_te_type": "Unknown", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "None"
+        }
+    }, 
+    "comments": "nkaur@imtech.res.in\\nmayil@imtech.res.in"
+}
+

@@ -1,0 +1,331 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Sean Doyle", 
+        "submitter_institution": "Maynooth University", 
+        "submitter_email": "sean.doyle@nuim.ie"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000361", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "24847038,25126990,25311525,25062268,24039048,22936680,21749092,21513890,20548963,20593880,18199036,17601876,17154540,16956378,16757745,15979823", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AY838877", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }, 
+                {
+                    "Accession": "AAHF01000001", 
+                    "start_coord": 980000, 
+                    "end_coord": 981200, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production"
+                    ]
+                }, 
+                {
+                    "Accession": "AAHF01000006", 
+                    "start_coord": 1054011, 
+                    "end_coord": 1054627, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Gliotoxin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 6223, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Antifungal", 
+                    "Antioxidant", 
+                    "Cytotoxic", 
+                    "Inhibitor"
+                ]
+            }, 
+            {
+                "compound": "Bisdethiobis(methylthio)gliotoxin", 
+                "chem_synonyms": [
+                    "bismethylgliotoxin"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 135171858, 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "Formation attenuates gliotoxin biosynthesis", 
+                "chem_moieties": [
+                    {
+                        "moiety_subcluster": [
+                            "afua_1g11120"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "gliT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1211, 
+                    "gene_endpos": 2273, 
+                    "gene_id": "AAW03299.1", 
+                    "gene_annotation": "GliT", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "gliotoxin biosynthesis absent; hyper-sensitive to exogenous gliotoxin"
+                }, 
+                {
+                    "gene_name": "gliF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2576, 
+                    "gene_endpos": 4147, 
+                    "gene_id": "AAW03300.1", 
+                    "gene_annotation": "GliF", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "gliN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4601, 
+                    "gene_endpos": 5565, 
+                    "gene_id": "AAW03301.1", 
+                    "gene_annotation": "GliN", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "gliotoxin biosynthesis absent"
+                }, 
+                {
+                    "gene_name": "gliA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5955, 
+                    "gene_endpos": 7583, 
+                    "gene_id": "AAW03302.1", 
+                    "gene_annotation": "GliA", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "gliotoxin secretion attenuated; sensitive to exogenous gliotoxin"
+                }, 
+                {
+                    "gene_name": "gliK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8172, 
+                    "gene_endpos": 9043, 
+                    "gene_id": "AAW03303.1", 
+                    "gene_annotation": "GliK", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "gliotoxin biosynthesis absent"
+                }, 
+                {
+                    "gene_name": "gliG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9295, 
+                    "gene_endpos": 10123, 
+                    "gene_id": "AAW03304.1", 
+                    "gene_annotation": "GliG", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Sulfation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "gliotoxin biosynthesis absent"
+                }, 
+                {
+                    "gene_name": "gliM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10499, 
+                    "gene_endpos": 11966, 
+                    "gene_id": "AAW03305.1", 
+                    "gene_annotation": "GliM", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ], 
+                    "mut_pheno": "unknown"
+                }, 
+                {
+                    "gene_name": "gliC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12134, 
+                    "gene_endpos": 13984, 
+                    "gene_id": "AAW03306.1", 
+                    "gene_annotation": "GliC", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "gliotoxin biosynthesis absent"
+                }, 
+                {
+                    "gene_name": "gliP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14389, 
+                    "gene_endpos": 20893, 
+                    "gene_id": "AAW03307.1", 
+                    "gene_annotation": "GliP", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "gliotoxin biosynthesis absent"
+                }, 
+                {
+                    "gene_name": "gliJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21248, 
+                    "gene_endpos": 22568, 
+                    "gene_id": "AAW03308.1", 
+                    "gene_annotation": "GliJ", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "gliotoxin biosynthesis absent"
+                }, 
+                {
+                    "gene_name": "gliI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22911, 
+                    "gene_endpos": 24338, 
+                    "gene_id": "AAW03309.1", 
+                    "gene_annotation": "GliI", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "gliotoxin biosynthesis absent"
+                }, 
+                {
+                    "gene_name": "gliZ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25058, 
+                    "gene_endpos": 26470, 
+                    "gene_id": "AAW03310.1", 
+                    "gene_annotation": "GliZ", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "gliotoxin biosynthesis absent"
+                }, 
+                {
+                    "gene_name": "gliH", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 1054011, 
+                    "gene_endpos": 1054627, 
+                    "gene_id": "AFUA_6G09745", 
+                    "gene_annotation": "GliH", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "gliotoxin biosynthesis absent"
+                }, 
+                {
+                    "gene_name": "gtmA", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 980000, 
+                    "gene_endpos": 981200, 
+                    "gene_id": "AFUA_2G11120", 
+                    "gene_annotation": "GtmA", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "gliotoxin bis-thiomethylation"
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Unknown", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Unknown", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AAW03307.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Phenylalanine", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Serine", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "comments": "The gli cluster contains an additional experimentally verified gene (gliH; EAL88826) which is essential for gliotoxin biosynthesis (Schrettl et al. 2010- PMID 20548963). gliH occurs after gliT in the gli cluster.\\n\\nBismethylgliotoxin is also formed via the action of the gli cluster, plus one additional gene on chromosome 2 (gliotoxin bis-thiomethyltransferase; AFUA_2g11120; Dolan et al. 2014; PMID 25126990)."
+}
+
+

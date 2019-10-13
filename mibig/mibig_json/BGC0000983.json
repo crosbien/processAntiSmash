@@ -1,0 +1,289 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Yit-Heng Chooi", 
+        "submitter_institution": "The Australian National University", 
+        "submitter_email": "yhchooi@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000983", 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ], 
+        "publications": "21983160,10900214,", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "DS027057", 
+                    "start_coord": 334000, 
+                    "end_coord": 378500, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "cytochalasin E", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 5458385, 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "angiogenesis"
+            }, 
+            {
+                "compound": "cytochalasin K", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 44583793, 
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 334675, 
+                    "gene_endpos": 338654, 
+                    "gene_id": "EAW09112.1", 
+                    "gene_annotation": "sensor histidine kinase/response regulator, putative", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 339108, 
+                    "gene_endpos": 341077, 
+                    "gene_id": "EAW09113.1", 
+                    "gene_annotation": "glucan 1,4-alpha-glucosidase, putative", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 342001, 
+                    "gene_endpos": 342585, 
+                    "gene_id": "EAW09114.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ccsR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 344589, 
+                    "gene_endpos": 345815, 
+                    "gene_id": "EAW09115.1", 
+                    "gene_annotation": "transcriptional factor", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "ccsB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 348127, 
+                    "gene_endpos": 350093, 
+                    "gene_id": "EAW09116.1", 
+                    "gene_annotation": "cyclohexanone monooxygenase, putative", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ccsA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 351008, 
+                    "gene_endpos": 363381, 
+                    "gene_id": "EAW09117.1", 
+                    "gene_annotation": "hybrid NRPS/PKS enzyme, putative", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of cytochalasin production"
+                }, 
+                {
+                    "gene_name": "ccsD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 365082, 
+                    "gene_endpos": 366679, 
+                    "gene_id": "EAW09118.1", 
+                    "gene_annotation": "cytochrome P450 oxidoreductase GliF", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ccsE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 367924, 
+                    "gene_endpos": 369304, 
+                    "gene_id": "EAW09119.1", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ccsF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 369641, 
+                    "gene_endpos": 370831, 
+                    "gene_id": "EAW09120.1", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ccsC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 371259, 
+                    "gene_endpos": 372412, 
+                    "gene_id": "EAW09121.1", 
+                    "gene_annotation": "zinc-binding dehydrogenase family oxidoreductase, putative", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ccsG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 372611, 
+                    "gene_endpos": 374407, 
+                    "gene_id": "EAW09122.1", 
+                    "gene_annotation": "cytochrome P450", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 374885, 
+                    "gene_endpos": 375614, 
+                    "gene_id": "EAW09123.1", 
+                    "gene_annotation": "thioredoxin, putative", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 376973, 
+                    "gene_endpos": 378481, 
+                    "gene_id": "EAW09124.1", 
+                    "gene_annotation": "mannitol dehydrogenase, putative", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Reductive release", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "EAW09117.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Phenylalanine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "eaw09117"
+            ], 
+            "nr_iterations": 8, 
+            "iterative_subtype": "Highly reducing", 
+            "iter_cycl_type": "Other", 
+            "pks_te_type": "None", 
+            "pks_release_type": "Reductive release", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "EAW09117.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Iterated", 
+                            "pks_evidence_skip_iter": "Structure-based inference"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

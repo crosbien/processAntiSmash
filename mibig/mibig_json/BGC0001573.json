@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CN1CC(CC2C1CC3=CNC4=CC=CC2=C34)C(=O)O", 
+                "compound": "dihydrolysergic acid"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KY677717", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001573", 
+        "publications": [
+            "28476772"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Alkaloid"
+        ]
+    }
+}

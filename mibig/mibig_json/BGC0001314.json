@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 12302184, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "tirucalla"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 14250000, 
+                    "Accession": "NC_003076", 
+                    "start_coord": 14190000
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001314", 
+        "publications": [
+            "25502595"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

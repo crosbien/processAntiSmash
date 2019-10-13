@@ -1,0 +1,553 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Monica G. Malmierca", 
+        "submitter_institution": "University of Oviedo", 
+        "submitter_email": "mgomh@unileon.es"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001439", 
+        "biosyn_class": [
+            "Polyketide", 
+            "Saccharide"
+        ], 
+        "publications": "15326518,15940739,21077936,22179067,27867014", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KZ195574", 
+                    "start_coord": 7078663, 
+                    "end_coord": 7118727, 
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "antibiotic HKI 10311129 ", 
+                "chem_synonyms": [], 
+                "chem_struct": "NC(C(C([C@]12O[C@H]3CC[C@H](O[C@H]4CC[C@H](O)[C@@H](C)O4)[C@@H](C)O3)=O)=C(O)[C@H](O[C@H]5CC[C@H](O[C@H]6CC[C@H](O[C@H]7CC[C@H](O[C@H]8CC[C@H](O)[C@H](C)O8)[C@H](C)O7)[C@H](C)O6)[C@@H](C)O5)C2CC9=CC%10=C(C(C=C(OC)C%10=O)=O)C(O)=C9C1=O)=O", 
+                "molecular_formula": "C56H75NO22", 
+                "mol_mass": 1113.4765, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "Other"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }, 
+            {
+                "compound": "antibiotic A2121-1 ", 
+                "chem_synonyms": [], 
+                "chem_struct": "NC(C(C([C@]12O[C@H]3CC[C@H](O[C@H]4CC[C@H](O)[C@@H](C)O4)[C@@H](C)O3)=O)=C(O)[C@H](O[C@H]5CC[C@H](O[C@H]6CC[C@H](O[C@H]7CC[C@H](O[C@H]8CC[C@H](OC(CC(O)=O)=O)[C@H](C)O8)[C@H](C)O7)[C@H](C)O6)[C@@H](C)O5)C2CC9=CC%10=C(C(C=C(OC)C%10=O)=O)C(O)=C9C1=O)=O", 
+                "molecular_formula": "C59H77NO25", 
+                "mol_mass": 1199.4794, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "Other"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }, 
+            {
+                "compound": "cervimycin D ", 
+                "chem_synonyms": [], 
+                "chem_struct": "NC(C(C([C@]12O[C@H]3CC[C@H](O[C@H]4CC[C@H](O)[C@@H](C)O4)[C@@H](C)O3)=O)=C(O)[C@H](O[C@H]5CC[C@H](O[C@H]6CC[C@H](O[C@H]7CC[C@H](O[C@H]8CC[C@H](OC(C(C)C(O)=O)=O)[C@H](C)O8)[C@H](C)O7)[C@H](C)O6)[C@@H](C)O5)C2CC9=CC%10=C(C(C=C(OC)C%10=O)=O)C(O)=C9C1=O)=O", 
+                "molecular_formula": "C60H79NO25", 
+                "mol_mass": 1213.4939, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "Other"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }, 
+            {
+                "compound": "cervimycin C ", 
+                "chem_synonyms": [], 
+                "chem_struct": "NC(C(C([C@]12O[C@H]3CC[C@H](O[C@H]4CC[C@H](O)[C@@H](C)O4)[C@@H](C)O3)=O)=C(O)[C@H](O[C@H]5CC[C@H](O[C@H]6CC[C@H](O[C@H]7CC[C@H](O[C@H]8CC[C@H](OC(C(C)(C)C(O)=O)=O)[C@H](C)O8)[C@H](C)O7)[C@H](C)O6)[C@@H](C)O5)C2CC9=CC%10=C(C(C=C(OC)C%10=O)=O)C(O)=C9C1=O)=O", 
+                "molecular_formula": "C61H81NO25", 
+                "mol_mass": 1227.5115, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "Other"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }, 
+            {
+                "compound": "cervimycin A ", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC(C(C([C@]12O[C@H]3CC[C@H](O[C@H]4CC[C@H](O)[C@@H](C)O4)[C@@H](C)O3)=O)=C(O)[C@H](O[C@H]5CC[C@H](O[C@H]6CC[C@H](O[C@H]7CC[C@H](O[C@H]8CC[C@H](OC(C(C)(C)C(O)=O)=O)[C@H](C)O8)[C@H](C)O7)[C@H](C)O6)[C@@H](C)O5)C2CC9=CC%10=C(C(C=C(OC)C%10=O)=O)C(O)=C9C1=O)=O", 
+                "molecular_formula": "C62H82O25", 
+                "mol_mass": 1226.5152, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "Other"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "cvm1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7078664, 
+                    "gene_endpos": 7079944, 
+                    "gene_id": "OWA01596.1", 
+                    "gene_annotation": "beta-ACP synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7079941, 
+                    "gene_endpos": 7081158, 
+                    "gene_id": "OWA01597.1", 
+                    "gene_annotation": "ketosynthase chain-length factor", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7081238, 
+                    "gene_endpos": 7081495, 
+                    "gene_id": "OWA01598.1", 
+                    "gene_annotation": "actinorhodin polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7081532, 
+                    "gene_endpos": 7083370, 
+                    "gene_id": "OWA01599.1", 
+                    "gene_annotation": "asparagine synthase (glutamine-hydrolyzing)", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7083467, 
+                    "gene_endpos": 7084774, 
+                    "gene_id": "OWA01600.1", 
+                    "gene_annotation": "lipopolysaccharide biosynthesis protein RfbH", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7084934, 
+                    "gene_endpos": 7085968, 
+                    "gene_id": "OWA01601.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7085993, 
+                    "gene_endpos": 7086754, 
+                    "gene_id": "OWA01602.1", 
+                    "gene_annotation": "short-chain dehydrogenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7086936, 
+                    "gene_endpos": 7088270, 
+                    "gene_id": "OWA01603.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7088267, 
+                    "gene_endpos": 7089406, 
+                    "gene_id": "OWA01604.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7089399, 
+                    "gene_endpos": 7090454, 
+                    "gene_id": "OWA01605.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7090582, 
+                    "gene_endpos": 7091799, 
+                    "gene_id": "OWA01606.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm12", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7091903, 
+                    "gene_endpos": 7092910, 
+                    "gene_id": "OWA01607.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm13", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7093093, 
+                    "gene_endpos": 7093698, 
+                    "gene_id": "OWA01608.1", 
+                    "gene_annotation": "dTDP-4-dehydrorhamnose 3,5-epimerase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm14", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7093705, 
+                    "gene_endpos": 7097025, 
+                    "gene_id": "OWA01609.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm15", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7097050, 
+                    "gene_endpos": 7098246, 
+                    "gene_id": "OWA01610.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm16", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7098251, 
+                    "gene_endpos": 7099414, 
+                    "gene_id": "OWA01611.1", 
+                    "gene_annotation": "glycosyl transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm17", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7099755, 
+                    "gene_endpos": 7100162, 
+                    "gene_id": "OWA00000", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm18", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7099906, 
+                    "gene_endpos": 7102008, 
+                    "gene_id": "OWA01612.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm19", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7102191, 
+                    "gene_endpos": 7103339, 
+                    "gene_id": "OWA01613.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm20", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7103489, 
+                    "gene_endpos": 7104388, 
+                    "gene_id": "OWA01614.1", 
+                    "gene_annotation": "glucose-1-phosphate thymidylyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm21", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7104398, 
+                    "gene_endpos": 7105210, 
+                    "gene_id": "OWA01615.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm22", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7105443, 
+                    "gene_endpos": 7106213, 
+                    "gene_id": "OWA01684.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm23", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7106365, 
+                    "gene_endpos": 7107336, 
+                    "gene_id": "OWA01685.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm24", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7107405, 
+                    "gene_endpos": 7108850, 
+                    "gene_id": "OWA01616.1", 
+                    "gene_annotation": "NDP-hexose 2,3-dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm25", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7108882, 
+                    "gene_endpos": 7109847, 
+                    "gene_id": "OWA01617.1", 
+                    "gene_annotation": "dTDP-glucose 4,6-dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm26", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7109889, 
+                    "gene_endpos": 7110920, 
+                    "gene_id": "OWA01618.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm27", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7110949, 
+                    "gene_endpos": 7111896, 
+                    "gene_id": "OWA01619.1", 
+                    "gene_annotation": "aromatase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm28", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7112090, 
+                    "gene_endpos": 7112530, 
+                    "gene_id": "OWA01620.1", 
+                    "gene_annotation": "hydroxylacyl-CoA dehydrogenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm29", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7112593, 
+                    "gene_endpos": 7113366, 
+                    "gene_id": "OWA01621.1", 
+                    "gene_annotation": "cyclase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm30", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7113376, 
+                    "gene_endpos": 7115031, 
+                    "gene_id": "OWA01622.1", 
+                    "gene_annotation": "oxygenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm31", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7115170, 
+                    "gene_endpos": 7116792, 
+                    "gene_id": "OWA01623.1", 
+                    "gene_annotation": "acyl--CoA ligase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm32", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7116845, 
+                    "gene_endpos": 7117147, 
+                    "gene_id": "OWA01624.1", 
+                    "gene_annotation": "oxygenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm33", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7117155, 
+                    "gene_endpos": 7118726, 
+                    "gene_id": "OWA01625.1", 
+                    "gene_annotation": "methylmalonyl-CoA carboxyltransferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Tetracycline", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "None", 
+            "pks_genes": [], 
+            "ketide_length": -1
+        }, 
+        "Saccharide": {
+            "saccharide_subclass": "hybrid/tailoring", 
+            "gt_genes": [
+                {
+                    "gt_gene": "B9W62_31960", 
+                    "gt_specificity": "Unknown"
+                }, 
+                {
+                    "gt_gene": "B9W62_31975", 
+                    "gt_specificity": "Unknown"
+                }, 
+                {
+                    "gt_gene": "B9W62_31995", 
+                    "gt_specificity": "Unknown"
+                }, 
+                {
+                    "gt_gene": "B9W62_32000", 
+                    "gt_specificity": "Unknown"
+                }, 
+                {
+                    "gt_gene": "B9W62_32015", 
+                    "gt_specificity": "Unknown"
+                }
+            ]
+        }
+    }, 
+    "embargo": true
+}
+

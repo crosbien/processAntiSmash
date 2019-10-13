@@ -1,0 +1,480 @@
+{
+  "personal": {
+    "submitter_email": "juan-pablo.gomez-escribano@jic.ac.uk",
+    "submitter_name": "Juan Pablo Gomez-Escribano",
+    "submitter_institution": "John Innes Centre; Norwich Research Park; Norwich; NR4 7UH; UK"
+  },
+  "version": "16",
+  "general_params": {
+    "loci": {
+      "nucl_acc": [
+        {
+          "end_coord": 6948414,
+          "Accession": "AL645882",
+          "conn_comp_cluster": [
+            "Knock-out studies",
+            "Sequence-based prediction"
+          ],
+          "start_coord": 6890528
+        }
+      ],
+      "complete": "complete"
+    },
+    "compounds": [
+      {
+        "chemspider_id": 27475147,
+        "mol_mass": "348.417 ",
+        "chem_struct": "C/C=C/C(=O)/C/1=C/C(=C\\2/C=CCCN2)/SC[CH](C(=O)O1)NC(=O)C",
+        "chem_synonyms": [],
+        "database_deposited": true,
+        "compound": "coelimycin P1",
+        "molecular_formula": "C17H20N2O4S",
+        "databases_deposited": [
+          "ChemSpider"
+        ],
+        "chem_act": [
+          "Unknown"
+        ]
+      }
+    ],
+    "genes": {
+      "gene": [
+        {
+          "gene_function": "Regulation",
+          "gene_endpos": 6891175,
+          "evidence_genefunction": [
+            "Knock-out"
+          ],
+          "gene_id": "CAB60184.1",
+          "gene_annotation": "ScbR; Butyrolactone-responsive repressor protein",
+          "gene_startpos": 6890528,
+          "not_in_gbk": false,
+          "mut_pheno": "Over-expression of pathway-specific regulator cpkO (sco6280) [PMID: 15813737]",
+          "gene_name": "SCO6265"
+        },
+        {
+          "gene_function": "Other enzymatic",
+          "gene_endpos": 6892237,
+          "evidence_genefunction": [
+            "Knock-out"
+          ],
+          "gene_id": "CAB60185.1",
+          "gene_annotation": "ScbA; Butenolide synthase involved in SCB1 biosynthesis",
+          "gene_startpos": 6891293,
+          "not_in_gbk": false,
+          "mut_pheno": "Reduced expression of coelimycin gene cluster [PMID: 21342469]",
+          "gene_name": "SCO6266"
+        },
+        {
+          "gene_function": "Other enzymatic",
+          "gene_endpos": 6893207,
+          "evidence_genefunction": [
+            "Sequence-based prediction"
+          ],
+          "gene_id": "CAB60186.1",
+          "gene_annotation": "ScbB; Reductase involved in SCB1 biosynthesis",
+          "gene_startpos": 6892353,
+          "not_in_gbk": false,
+          "gene_name": "SCO6267"
+        },
+        {
+          "gene_function": "Regulation",
+          "gene_endpos": 6894022,
+          "evidence_genefunction": [
+            "Sequence-based prediction"
+          ],
+          "gene_id": "CAB60187.1",
+          "gene_annotation": "CpkM; Two-component system histidine kinase",
+          "gene_startpos": 6893258,
+          "not_in_gbk": false,
+          "gene_name": "SCO6268"
+        },
+        {
+          "gene_function": "Precursor biosynthesis",
+          "gene_endpos": 6895200,
+          "evidence_genefunction": [
+            "Sequence-based prediction"
+          ],
+          "gene_id": "CAB60188.1",
+          "gene_annotation": "CpkP-beta; beta-Ketoacid-dependent ferredoxin reductase beta-subunit",
+          "gene_startpos": 6894148,
+          "not_in_gbk": false,
+          "gene_name": "SCO6269"
+        },
+        {
+          "gene_function": "Precursor biosynthesis",
+          "gene_endpos": 6897085,
+          "evidence_genefunction": [
+            "Sequence-based prediction"
+          ],
+          "gene_id": "CAB60189.1",
+          "gene_annotation": "CpkP-alpha; alpha-Ketoacid-dependent ferredoxin reductase alpha-subunit",
+          "gene_startpos": 6895193,
+          "not_in_gbk": false,
+          "gene_name": "SCO6270"
+        },
+        {
+          "gene_function": "Precursor biosynthesis",
+          "gene_endpos": 6898861,
+          "evidence_genefunction": [
+            "Sequence-based prediction"
+          ],
+          "gene_id": "CAD55505.1",
+          "gene_annotation": "AccA1; Acyl-CoA carboxylase alpha-subunit (biotinylated)",
+          "gene_startpos": 6897089,
+          "not_in_gbk": false,
+          "gene_name": "SCO6271"
+        },
+        {
+          "gene_function": "Tailoring",
+          "gene_endpos": 6900822,
+          "evidence_genefunction": [
+            "Knock-out"
+          ],
+          "gene_id": "CAC22143.1",
+          "gene_annotation": "ScF; Secreted flavin-dependent epoxidase/dehydrogenase",
+          "mut_pheno": "Intermediates accumulated (unpublished)",
+          "gene_startpos": 6899170,
+          "not_in_gbk": false,
+          "tailoring": "Monooxygenation",
+          "gene_name": "SCO6272"
+        },
+        {
+          "gene_function": "Scaffold biosynthesis",
+          "gene_endpos": 6907356,
+          "evidence_genefunction": [
+            "Sequence-based prediction"
+          ],
+          "gene_id": "CAC22144.1",
+          "gene_annotation": "CpkC; Polyketide synthase module 5",
+          "gene_startpos": 6900898,
+          "not_in_gbk": false,
+          "gene_name": "SCO6273"
+        },
+        {
+          "gene_function": "Scaffold biosynthesis",
+          "gene_endpos": 6918143,
+          "evidence_genefunction": [
+            "Sequence-based prediction"
+          ],
+          "gene_id": "CAC22145.1",
+          "gene_annotation": "CpkB; Polyketide synthase modules 3 and 4",
+          "gene_startpos": 6907413,
+          "not_in_gbk": false,
+          "gene_name": "SCO6274"
+        },
+        {
+          "gene_function": "Scaffold biosynthesis",
+          "gene_endpos": 6931959,
+          "evidence_genefunction": [
+            "Sequence-based prediction"
+          ],
+          "gene_id": "CAD55506.1",
+          "gene_annotation": "CpkA; Polyketide synthase loading module, and modules 1 and 2",
+          "gene_startpos": 6918286,
+          "not_in_gbk": false,
+          "gene_name": "SCO6275"
+        },
+        {
+          "gene_function": "Tailoring",
+          "gene_endpos": 6933607,
+          "evidence_genefunction": [
+            "Knock-out"
+          ],
+          "gene_id": "CAC37877.1",
+          "gene_annotation": "CpkD; Secreted flavin-dependent epoxidase/dehydrogenase",
+          "mut_pheno": "Intermediates accumulated (unpublished)",
+          "gene_startpos": 6932285,
+          "not_in_gbk": false,
+          "tailoring": "Monooxygenation",
+          "gene_name": "SCO6276"
+        },
+        {
+          "gene_function": "Tailoring",
+          "gene_endpos": 6934464,
+          "evidence_genefunction": [
+            "Sequence-based prediction"
+          ],
+          "gene_id": "CAC37878.1",
+          "gene_annotation": "CpkE; Putative isomerase (alpha, beta-hydrolase fold)",
+          "gene_startpos": 6933604,
+          "not_in_gbk": false,
+          "tailoring": "Unknown",
+          "gene_name": "SCO6277"
+        },
+        {
+          "gene_function": "Transport",
+          "gene_endpos": 6936138,
+          "evidence_genefunction": [
+            "Sequence-based prediction"
+          ],
+          "gene_id": "CAC37879.1",
+          "gene_annotation": "CpkF; Transmembrane efflux protein",
+          "gene_startpos": 6934507,
+          "not_in_gbk": false,
+          "gene_name": "SCO6278"
+        },
+        {
+          "gene_function": "Tailoring",
+          "gene_endpos": 6937705,
+          "evidence_genefunction": [
+            "Sequence-based prediction"
+          ],
+          "gene_id": "CAC37880.1",
+          "gene_annotation": "CpkG; Pyridoxal-dependent aminotransferase",
+          "gene_startpos": 6936149,
+          "not_in_gbk": false,
+          "tailoring": "Amination",
+          "gene_name": "SCO6279"
+        },
+        {
+          "gene_function": "Regulation",
+          "gene_endpos": 6939643,
+          "evidence_genefunction": [
+            "Sequence-based prediction"
+          ],
+          "gene_id": "CAC37881.1",
+          "gene_annotation": "CpkO; KasO; SARP-family transcriptional activator",
+          "gene_startpos": 6938012,
+          "not_in_gbk": false,
+          "gene_name": "SCO6280"
+        },
+        {
+          "gene_function": "Tailoring",
+          "gene_endpos": 6941544,
+          "evidence_genefunction": [
+            "Knock-out"
+          ],
+          "gene_id": "CAC37882.1",
+          "gene_annotation": "CpkH; Secreted flavin-dependent epoxidase/dehydrogenase",
+          "mut_pheno": "Intermediates accumulated (unpublished)",
+          "gene_startpos": 6939907,
+          "not_in_gbk": false,
+          "tailoring": "Monooxygenation",
+          "gene_name": "SCO6281"
+        },
+        {
+          "gene_function": "Other enzymatic",
+          "gene_endpos": 6942543,
+          "evidence_genefunction": [
+            "Sequence-based prediction"
+          ],
+          "gene_id": "CAC37883.1",
+          "gene_annotation": "CpkI; Nicotinamide-dependent dehydrogenase",
+          "gene_startpos": 6941746,
+          "not_in_gbk": false,
+          "gene_name": "SCO6282"
+        },
+        {
+          "gene_function": "Unknown",
+          "gene_endpos": 6943506,
+          "evidence_genefunction": [
+            "Sequence-based prediction"
+          ],
+          "gene_id": "CAC37884.1",
+          "gene_annotation": "CpkJ; NmrA-family protein (unknown function)",
+          "gene_startpos": 6942661,
+          "not_in_gbk": false,
+          "gene_name": "SCO6283"
+        },
+        {
+          "gene_function": "Precursor biosynthesis",
+          "gene_endpos": 6945265,
+          "evidence_genefunction": [
+            "Sequence-based prediction"
+          ],
+          "gene_id": "CAC37885.1",
+          "gene_annotation": "CpkK; Acyl-CoA carboxylase beta-subunit",
+          "gene_startpos": 6943673,
+          "not_in_gbk": false,
+          "gene_name": "SCO6284"
+        },
+        {
+          "gene_function": "Unknown",
+          "gene_endpos": 6945543,
+          "evidence_genefunction": [
+            "Sequence-based prediction"
+          ],
+          "gene_id": "CAC37886.1",
+          "gene_annotation": "CpkL; Hypothetical protein (unknown function)",
+          "gene_startpos": 6945280,
+          "not_in_gbk": false,
+          "gene_name": "SCO6285"
+        },
+        {
+          "gene_function": "Regulation",
+          "gene_endpos": 6946379,
+          "evidence_genefunction": [
+            "Knock-out"
+          ],
+          "gene_id": "CAC37887.1",
+          "gene_annotation": "ScbR2; Butyrolactone-responsive repressor protein",
+          "gene_startpos": 6945705,
+          "not_in_gbk": false,
+          "mut_pheno": "Over-expression of gene cluster and over-production of metabolic product [PMID: 20447997]",
+          "gene_name": "SCO6286"
+        },
+        {
+          "gene_function": "Scaffold biosynthesis",
+          "gene_endpos": 6947423,
+          "evidence_genefunction": [
+            "Knock-out"
+          ],
+          "gene_id": "CAC37888.1",
+          "gene_annotation": "ScoT; Type II thioesterase",
+          "gene_startpos": 6946617,
+          "not_in_gbk": false,
+          "mut_pheno": "non-producing [PMID: 24660171]",
+          "gene_name": "SCO6287"
+        },
+        {
+          "gene_function": "Regulation",
+          "gene_endpos": 6948414,
+          "evidence_genefunction": [
+            "Sequence-based prediction"
+          ],
+          "gene_id": "CAC37890.1",
+          "gene_annotation": "CpkN; SARP-family transcriptional activator",
+          "gene_startpos": 6947584,
+          "not_in_gbk": false,
+          "gene_name": "SCO6288"
+        }
+      ]
+    },
+    "mibig_accession": "BGC0000038",
+    "biosyn_class": [
+      "Polyketide"
+    ],
+    "Polyketide": {
+      "pks_te_type": "Other",
+      "pks_subclass": [
+        "Modular type I"
+      ],
+      "mod_pks_genes": [
+        {
+          "mod_pks_gene": "CAD55506.1",
+          "pks_module": [
+            {
+              "pks_mod_doms": [
+                "None"
+              ],
+              "pks_domains": [
+                "KS",
+                "AT",
+                "T"
+              ],
+              "module_nr": "1",
+              "at_substr_spec": "Malonyl-CoA",
+              "pks_mod_skip_iter": "Neither",
+              "evidence_at_spec": "Structure-based inference"
+            },
+            {
+              "pks_mod_doms": [
+                "None"
+              ],
+              "pks_domains": [
+                "KS",
+                "AT",
+                "DH",
+                "KR",
+                "T"
+              ],
+              "module_nr": "2",
+              "at_substr_spec": "Malonyl-CoA",
+              "kr_stereochem": "Unknown",
+              "pks_mod_skip_iter": "Neither",
+              "evidence_at_spec": "Structure-based inference"
+            },
+            {
+              "pks_mod_doms": [
+                "None"
+              ],
+              "pks_domains": [
+                "KS",
+                "AT",
+                "DH",
+                "KR",
+                "T"
+              ],
+              "module_nr": "3",
+              "at_substr_spec": "Malonyl-CoA",
+              "kr_stereochem": "Unknown",
+              "pks_mod_skip_iter": "Neither",
+              "evidence_at_spec": "Structure-based inference"
+            }
+          ]
+        },
+        {
+          "mod_pks_gene": "CAC22145.1",
+          "pks_module": [
+            {
+              "pks_mod_doms": [
+                "None"
+              ],
+              "pks_domains": [
+                "KS",
+                "AT",
+                "DH",
+                "KR",
+                "T"
+              ],
+              "module_nr": "4",
+              "at_substr_spec": "Malonyl-CoA",
+              "kr_stereochem": "Unknown",
+              "pks_mod_skip_iter": "Neither",
+              "evidence_at_spec": "Structure-based inference"
+            },
+            {
+              "pks_mod_doms": [
+                "None"
+              ],
+              "pks_domains": [
+                "KS",
+                "AT",
+                "KR",
+                "T"
+              ],
+              "module_nr": "5",
+              "at_substr_spec": "Malonyl-CoA",
+              "kr_stereochem": "Unknown",
+              "pks_mod_skip_iter": "Neither",
+              "evidence_at_spec": "Structure-based inference"
+            }
+          ]
+        },
+        {
+          "mod_pks_gene": "CAC22144.1",
+          "pks_module": [
+            {
+              "pks_mod_doms": [
+                "None"
+              ],
+              "pks_domains": [
+                "KS",
+                "AT",
+                "DH",
+                "KR",
+                "T"
+              ],
+              "module_nr": "6",
+              "at_substr_spec": "Malonyl-CoA",
+              "kr_stereochem": "Unknown",
+              "pks_mod_skip_iter": "Neither",
+              "evidence_at_spec": "Structure-based inference"
+            }
+          ]
+        }
+      ],
+      "pks_thioesterase": [
+        "sco6273",
+        "sc2c4.03c",
+        "cpkc"
+      ],
+      "starter_unit": "Malonyl-CoA",
+      "pk_subclass": "Other",
+      "lin_cycl_pk": "Linear",
+      "pks_release_type": "Reductive release"
+    },
+    "publications": "17009021,20447997,24660171"
+  }
+}

@@ -1,0 +1,94 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Keishi Ishida", 
+        "submitter_institution": "Leipniz Institute for Natural Product Research and Infection Biology", 
+        "submitter_email": "keishi.ishida@hki-jena.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000934", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "24617951, 17103476, 17474781, 17543953 ", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KJ207079", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "5-Acetyl-5,10-dihydrophenazine-1-carboxylic acid", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC(C1=C2C(N(C(C)=O)C(C=CC=C3)=C3N2)=CC=C1)=O", 
+                "molecular_formula": "C15H12N2O3", 
+                "mol_mass": 269.0925, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }, 
+            {
+                "compound": "5-(2-Hydroxyacetyl)-5,10-dihydrophenazine-1-carboxylic acid", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC(C1=C2C(N(C(CO)=O)C(C=CC=C3)=C3N2)=CC=C1)=O", 
+                "molecular_formula": "C15H12N2O4", 
+                "mol_mass": 285.0869, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Antifungal"
+                ]
+            }, 
+            {
+                "compound": "endophenazine A1", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC(C1=C2C(N=C(C=CC=C3C/C=C(CO)\\\\C)C3=N2)=CC=C1)=O", 
+                "molecular_formula": "C18H16N2O3", 
+                "mol_mass": 309.1243, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }, 
+            {
+                "compound": "endophenazine F", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC(C1=C2C(N(C/C=C(C)/C)C(C3=N2)=CC(C=C3C/C=C(C)\\\\C)=O)=CC=C1)=O", 
+                "molecular_formula": "C23H24N2O3", 
+                "mol_mass": 377.1872, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Antifungal"
+                ]
+            }, 
+            {
+                "compound": "endophenazine G", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC(C1=C2C(N=C(C=CC=C3/C=C/C(C)(O)C)C3=N2)=CC=C1)=O", 
+                "molecular_formula": "C18H16N2O3", 
+                "mol_mass": 309.1232, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Antifungal"
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "Other": {
+            "other_subclass": "Phenazine"
+        }
+    }
+}
+
+

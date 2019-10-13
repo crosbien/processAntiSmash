@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 125665, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "mildiomycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 25938, 
+                    "Accession": "JN999998", 
+                    "start_coord": 6125
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000882", 
+        "Other": {
+            "biosyn_class": [
+                "Other"
+            ]
+        }, 
+        "publications": [
+            "18412191"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

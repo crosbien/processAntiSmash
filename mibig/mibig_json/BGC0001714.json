@@ -1,0 +1,38 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C(CC/C=C/C=C/C(=O)CCC/C=C/C=C/CCCCC(CC(CC(C(C(=O)NCC(=O)O)O)O)O)O)CCN(C(=N)N)O", 
+                "compound": "octacosamicin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "NZ_ANMG01000009", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "NZ_ANMG01000076", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001714", 
+        "publications": [
+            "27694801"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

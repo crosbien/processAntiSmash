@@ -1,0 +1,68 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Hans-Wilhelm Nuetzmann", 
+        "submitter_institution": "John Innes Centre", 
+        "submitter_email": "hans-wilhelm.nutzmann@jic.ac.uk"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000670", 
+        "biosyn_class": [
+            "Terpene"
+        ], 
+        "publications": "18356490", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "NC_003076.8", 
+                    "start_coord": 19428888, 
+                    "end_coord": 19461689, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Thalianol", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 25229600, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "Thaliandiol", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 3008858, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "Terpene": {
+            "terpene_subclass": "Other", 
+            "terpene_c_len": "Triterpene", 
+            "terpene_precursor": "FPP", 
+            "terpene_synth_cycl": [
+                "thas"
+            ], 
+            "prenyl_transf": []
+        }
+    }
+}
+
+

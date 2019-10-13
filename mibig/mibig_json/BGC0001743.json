@@ -1,0 +1,23 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "plantaricyclin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 12204, 
+                    "Accession": "NDXC01000075", 
+                    "start_coord": 9158
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001743", 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

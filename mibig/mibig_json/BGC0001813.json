@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "tyrobetaine"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 29680, 
+                    "Accession": "NZ_JOCH01000080", 
+                    "start_coord": 1569
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001813", 
+        "publications": [
+            "29510029"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

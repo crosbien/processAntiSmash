@@ -1,0 +1,24 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C[C@H]1[C@@H](C(=O)N1S(=O)(=O)[O-])NC(=O)/C(=N\\OC(C)(C)C(=O)O)/C2=CSC(=N2)[NH3+]", 
+                "compound": "monobactam"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KY452017", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001671", 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

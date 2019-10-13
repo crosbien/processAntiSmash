@@ -1,0 +1,65 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Roland Kersten", 
+        "submitter_institution": "Salk Institute of Biological Studies", 
+        "submitter_email": "rkersten@salk.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000212", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "24191063", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "GG770539", 
+                    "start_coord": 5086070, 
+                    "end_coord": 5121186, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Cinerubin B", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 66267, 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_target": "DNA"
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": []
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Anthracycline", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Propionyl-CoA", 
+            "pks_genes": [
+                "ssbg_00494"
+            ], 
+            "ketide_length": 10, 
+            "cyclases": "SSBG_00488, SSBG_00497, SSBG_00505"
+        }
+    }
+}
+
+

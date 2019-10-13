@@ -1,0 +1,78 @@
+{
+    "version": "14", 
+    "personal": {
+        "submitter_name": "Douglas A. Mitchell", 
+        "submitter_institution": "University of Illinois at Urbana-Champaign", 
+        "submitter_email": "douglasm@illinois.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001176", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "25601074", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "JROO01000009", 
+                    "start_coord": 9271, 
+                    "end_coord": 14062, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Streptomonomicin", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(O)C1CCCN1C(C(CC2=CC=C(O)C=C2)NC(C(C(C)CC)NC(C(C(C)C)NC(C(C(C)CC)NC(C(CC(C)C)NC(C(C)NC(C3N(C(C(CC4=CC=C(O)C=C4)NC(CNC(C(CC(C)C)NC(C(C(CC)C)NC(C(CC(NC(CO)C(NC(CC(C)C)C(NCC(NC(CO)C(NC5CO)=O)=O)=O)=O)=O)NC(C(CC(N)=O)NC(C(CC6=CC=C(O)C=C6)NC(C7CCCN7C5=O)=O)=O)=O)=O)=O)=O)=O)=O)CCC3)=O)=O)=O)=O)=O)=O)=O", 
+                "molecular_formula": "C107H160N22O30", 
+                "mol_mass": 2256.15684, 
+                "mass_ion_type": "[M+Na]+", 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "StmA", 
+                    "gene_id": "lp52_05076", 
+                    "gene_annotation": "Precursor-encoding gene", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ], 
+            "operon": [
+                {
+                    "operon_genes": []
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "Lassopeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "lp52_05076"
+                    ], 
+                    "core_pept_aa": "SLGSSPYNDILGYPALIVIYP", 
+                    "lead_pept_len": 20, 
+                    "foll_pept_len": 21, 
+                    "peptidase": []
+                }
+            ]
+        }
+    }, 
+    "comments": "Streptomonomicin is a lasso peptide from Streptomonospora alba with a unique Ser1-Asp9 linkage. Streptomonomicin exhibits antibiotic activity against Gram-positive bacteria, particularly the genus Bacillus.  ", 
+    "embargo": true
+}
+
+

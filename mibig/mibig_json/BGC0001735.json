@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C1[C@@H]([C@H](O[C@H]1N2C=NC3=C2NC=NC[C@H]3O)CO)O", 
+                "compound": "pentostatine"
+            }, 
+            {
+                "chem_struct": "C1=NC2=C(C(=N1)N)N=CN2[C@H]3[C@H]([C@@H]([C@H](O3)CO)O)O", 
+                "compound": "vidarabine"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KJ856912", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001735", 
+        "publications": [
+            "28111097"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

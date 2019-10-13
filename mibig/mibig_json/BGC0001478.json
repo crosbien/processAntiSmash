@@ -1,0 +1,103 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Margherita Sosio", 
+        "submitter_institution": "Naicons Srl", 
+        "submitter_email": "msosio@naicons.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001478", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "doi: 10.1016/j.chembiol.2018.02.008", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "MG459167", 
+                    "start_coord": 1, 
+                    "end_coord": 5365, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "desferrioxamine E", 
+                "chem_synonyms": [
+                    "nocardamine"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 161532, 
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Siderophore"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 101, 
+                    "gene_endpos": 1918, 
+                    "gene_id": "AVV61969.1", 
+                    "gene_annotation": "DesA", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1915, 
+                    "gene_endpos": 2484, 
+                    "gene_id": "AVV61970.1", 
+                    "gene_annotation": "DesB", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2481, 
+                    "gene_endpos": 3800, 
+                    "gene_id": "AVV61971.1", 
+                    "gene_annotation": "DesC", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3836, 
+                    "gene_endpos": 5365, 
+                    "gene_id": "AVV61972.1", 
+                    "gene_annotation": "DesD", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "None"
+        }
+    }
+}
+

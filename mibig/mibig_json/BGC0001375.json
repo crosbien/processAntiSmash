@@ -1,0 +1,71 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 6610243, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "penitrem A"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 3084087, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "penitrem B"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 76316105, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "penitrem C"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 3035208, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "penitrem D"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 3086087, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "penitrem E"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 3086086, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "penitrem F"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "LC027937", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001375", 
+        "publications": [
+            "25831977"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

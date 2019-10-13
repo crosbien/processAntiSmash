@@ -1,0 +1,305 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Markus Nett", 
+        "submitter_institution": "Hans-Knoell-Institute", 
+        "submitter_email": "markus.nett@hki-jena.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000072", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "25287056", 
+        "loci": {
+            "complete": "unknown", 
+            "nucl_acc": [
+                {
+                    "Accession": "KM361622", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "gulmirecin A", 
+                "chem_synonyms": [], 
+                "chem_struct": "C/C([C@@H](O[C@H]1O[C@H](CO)[C@@H](O)[C@@H]1O)[C@H](OC(CC(C)C)=O)C(C[C@@H](O)[C@@H]2C)=O)=C\\\\C[C@H](/C(C)=C\\\\C)OC2=O", 
+                "molecular_formula": "C27H42O11", 
+                "mol_mass": 541.266, 
+                "mass_ion_type": "[M-H]-", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_moieties": [
+                    {
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "gulG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1247, 
+                    "gene_endpos": 63, 
+                    "gene_id": "AIT55258.1", 
+                    "gene_annotation": "cytochrome P450", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "gulB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2050, 
+                    "gene_endpos": 6762, 
+                    "gene_id": "AIT55259.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "gulC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6790, 
+                    "gene_endpos": 12360, 
+                    "gene_id": "AIT55260.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "gulD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12404, 
+                    "gene_endpos": 17089, 
+                    "gene_id": "AIT55261.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "gulE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17104, 
+                    "gene_endpos": 20418, 
+                    "gene_id": "AIT55262.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "gulF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20420, 
+                    "gene_endpos": 27670, 
+                    "gene_id": "AIT55263.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "gulA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27712, 
+                    "gene_endpos": 34869, 
+                    "gene_id": "AIT55264.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Macrolide", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_te_type": "Type I", 
+            "pks_release_type": "Macrolactonization", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AIT55264.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "0", 
+                            "pks_domains": [
+                                "T", 
+                                "KS", 
+                                "AT", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Acetyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "T", 
+                                "KS", 
+                                "AT", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AIT55259.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "A-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AIT55260.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AIT55261.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "4", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AIT55262.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "5", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AIT55263.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "6", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "ER", 
+                                "KR", 
+                                "T", 
+                                "TE"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

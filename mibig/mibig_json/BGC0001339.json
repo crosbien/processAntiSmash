@@ -1,0 +1,338 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Russell Cox", 
+        "submitter_institution": "University of Hannover", 
+        "submitter_email": "russell.cox@oci.uni-hannover.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001339", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "10.1039/c6cc02130a", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KU946987", 
+                    "start_coord": 1, 
+                    "end_coord": 69700, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Squalestatin S1", 
+                "chem_synonyms": [
+                    "zaragozic acid a"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 4942838, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Antifungal", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "squalene synthase"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "mfL3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 46, 
+                    "gene_endpos": 4089, 
+                    "gene_id": "AMY15054.1", 
+                    "gene_annotation": "transcription factor", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfL2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5098, 
+                    "gene_endpos": 6941, 
+                    "gene_id": "AMY15055.1", 
+                    "gene_annotation": "MFS transporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfL1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8714, 
+                    "gene_endpos": 12825, 
+                    "gene_id": "AMY15056.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfpks1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15080, 
+                    "gene_endpos": 23393, 
+                    "gene_id": "AMY15057.1", 
+                    "gene_annotation": "tetraketide synthase MF-SQTKS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfM1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23904, 
+                    "gene_endpos": 25116, 
+                    "gene_id": "AMY15058.1", 
+                    "gene_annotation": "copper dependent oxygenase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfM2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25936, 
+                    "gene_endpos": 27732, 
+                    "gene_id": "AMY15059.1", 
+                    "gene_annotation": "MFS transporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfM3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 28231, 
+                    "gene_endpos": 29304, 
+                    "gene_id": "AMY15060.1", 
+                    "gene_annotation": "NADP dependent dehydrogenase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfM4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30144, 
+                    "gene_endpos": 31634, 
+                    "gene_id": "AMY15061.1", 
+                    "gene_annotation": "acyltransferase AT1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Loss of side chain acylation"
+                }, 
+                {
+                    "gene_name": "mfM5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 34454, 
+                    "gene_endpos": 34834, 
+                    "gene_id": "AMY15062.1", 
+                    "gene_annotation": "mfM5 protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfM6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 37170, 
+                    "gene_endpos": 39091, 
+                    "gene_id": "AMY15063.1", 
+                    "gene_annotation": "MFS transporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfM7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 40066, 
+                    "gene_endpos": 42358, 
+                    "gene_id": "AMY15064.1", 
+                    "gene_annotation": "phenylalanine ammonia-lyase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfM8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 42512, 
+                    "gene_endpos": 43583, 
+                    "gene_id": "AMY15065.1", 
+                    "gene_annotation": "esterase/lipase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfM9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 44065, 
+                    "gene_endpos": 45803, 
+                    "gene_id": "AMY15066.1", 
+                    "gene_annotation": "acyl-CoA synthetase/ligase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfM10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 46182, 
+                    "gene_endpos": 48142, 
+                    "gene_id": "AMY15067.1", 
+                    "gene_annotation": "hydrolase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfpks2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 48806, 
+                    "gene_endpos": 56980, 
+                    "gene_id": "AMY15068.1", 
+                    "gene_annotation": "hexaketide synthase MF-SQHKS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfR1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 57584, 
+                    "gene_endpos": 58709, 
+                    "gene_id": "AMY15069.1", 
+                    "gene_annotation": "putative non-heme iron dependent", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfR2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 59112, 
+                    "gene_endpos": 59993, 
+                    "gene_id": "AMY15070.1", 
+                    "gene_annotation": "putative non-heme iron dependent", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfR3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 60271, 
+                    "gene_endpos": 61886, 
+                    "gene_id": "AMY15071.1", 
+                    "gene_annotation": "citrate synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfR4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 62500, 
+                    "gene_endpos": 63906, 
+                    "gene_id": "AMY15072.1", 
+                    "gene_annotation": "acyltransferase-3 superfamily AT2", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfR5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 64258, 
+                    "gene_endpos": 66006, 
+                    "gene_id": "AMY15073.1", 
+                    "gene_annotation": "MFS transporter", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfR6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 66436, 
+                    "gene_endpos": 67748, 
+                    "gene_id": "AMY15074.1", 
+                    "gene_annotation": "squalene synthase", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mfR7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 68574, 
+                    "gene_endpos": 69577, 
+                    "gene_id": "AMY15075.1", 
+                    "gene_annotation": "ab hydrolase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Benzoyl-CoA", 
+            "pks_genes": [
+                "phpks1", 
+                "phpks2"
+            ], 
+            "nr_iterations": 5, 
+            "iterative_subtype": "Highly reducing", 
+            "pks_te_type": "None", 
+            "pks_release_type": "Unknown"
+        }
+    }
+}

@@ -1,0 +1,230 @@
+{
+    "version": "11", 
+    "personal": {
+        "submitter_name": "Daniel Krug", 
+        "submitter_institution": "Helmholtz Institute for Pharmaceutical Research Saarland", 
+        "submitter_email": "daniel.krug@helmholtz-hzi.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000955", 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ], 
+        "publications": "21626639,4917791,6809724", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "FR831800", 
+                    "start_coord": 1, 
+                    "end_coord": 33020, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Althiomycin", 
+                "chem_synonyms": [
+                    "matamycin"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 4576669, 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "ribosome", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "N-Oxime", 
+                        "moiety_subcluster": [
+                            "cca29200.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "almA", 
+                    "gene_id": "CCA29202.1", 
+                    "gene_annotation": "non-ribosomal peptide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of althiomycin production"
+                }, 
+                {
+                    "gene_name": "almB", 
+                    "gene_id": "CCA29203.1", 
+                    "gene_annotation": "non-ribosomal peptide synthetase/polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of althiomycin production"
+                }, 
+                {
+                    "gene_name": "almC", 
+                    "gene_id": "CCA29201.1", 
+                    "gene_annotation": "SAM-dependent methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of althiomycin production"
+                }, 
+                {
+                    "gene_name": "almD", 
+                    "gene_id": "CCA29200.1", 
+                    "gene_annotation": "N-oxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of althiomycin production"
+                }, 
+                {
+                    "gene_name": "almE", 
+                    "gene_id": "CCA29199.1", 
+                    "gene_annotation": "drug resistance transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ], 
+                    "mut_pheno": "confers althiomycin resistance upon heterologous expression"
+                }, 
+                {
+                    "gene_name": "almF", 
+                    "gene_id": "CCA29204.1", 
+                    "gene_annotation": "putative type-II thioesterase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "reduced althiomycin production"
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "CCA29202.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Glycine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "Starter", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Cysteine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "Heterocyclization", 
+                            "nrps_mod_doms": "Oxidation", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "CCA29203.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Serine", 
+                                "epimerized": true, 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Cysteine", 
+                                "epimerized": true, 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "Heterocyclization", 
+                            "nrps_mod_doms": "Oxidation", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Glycine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ], 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [
+                "cca29203.1"
+            ], 
+            "nrps_release_type": "Other"
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Other", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "CCA29203.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "5", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Acyltransferase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "pks_mod_doms": "None", 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ], 
+            "pks_te_type": "None", 
+            "pks_release_type": "Other"
+        }
+    } 
+}
+

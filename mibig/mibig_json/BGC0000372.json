@@ -1,0 +1,226 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Philipp Wiemann, Nancy Keller", 
+        "submitter_institution": "University of Wisconsin-Madison", 
+        "submitter_email": "pwiemann@wisc.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000372", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": " 25386169,23360537,7760082", 
+        "loci": {
+            "complete": "unknown", 
+            "nucl_acc": [
+                {
+                    "Accession": "CM000171", 
+                    "start_coord": 3423866, 
+                    "end_coord": 3446129, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "hexadehydroastechrome", 
+                "chem_synonyms": [
+                    "has"
+                ], 
+                "chem_struct": "C=C(/C=C/C1=CC=CC2=C1NC=C2CC(N3O[Fe](ON4C(CC5=CNC6=C5C=CC=C6/C=C/C(C)=C)=C(N=C(C4=O)C)OC)ON7C(CC8=CNC9=C8C=CC=C9/C=C/C(C)=C)=C(N=C(C7=O)C)OC)=C(N=C(C3=O)C)OC)C", 
+                "molecular_formula": "C60H60FeN9O9", 
+                "mol_mass": 1106.3863, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Cytotoxic", 
+                    "Other"
+                ], 
+                "chem_target": "iron chelator, coordinates Fe3+"
+            }, 
+            {
+                "compound": "terezine D", 
+                "chem_synonyms": [
+                    "chembl513584", 
+                    "megxm0_000106"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 10245773, 
+                "chem_act": [
+                    "Antifungal"
+                ]
+            }, 
+            {
+                "compound": "astechrome", 
+                "chem_synonyms": [], 
+                "chem_struct": "C/C(C)=C\\\\CC1=CC=CC2=C1NC=C2CC(N3O[Fe](ON4C(CC5=CNC6=C5C=CC=C6C/C=C(C)\\\\C)=C(N=C(C4=O)C)OC)ON7C(CC8=CNC9=C8C=CC=C9C/C=C(C)\\\\C)=C(N=C(C7=O)C)OC)=C(N=C(C3=O)C)OC", 
+                "molecular_formula": "C60H66FeN9O9", 
+                "mol_mass": 1112.4333, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "iron chelator, coordinates Fe3+"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "hasA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3423866, 
+                    "gene_endpos": 3425153, 
+                    "gene_id": "EAL92294.1", 
+                    "gene_annotation": "C6 transcription factor", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of terezine D, astechrome, and HAS production"
+                }, 
+                {
+                    "gene_name": "hasB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3426447, 
+                    "gene_endpos": 3427927, 
+                    "gene_id": "EAL92293.2", 
+                    "gene_annotation": "MFS transporter, putative", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of terezine D, astechrome, and HAS production"
+                }, 
+                {
+                    "gene_name": "hasC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3428497, 
+                    "gene_endpos": 3429858, 
+                    "gene_id": "EAL92292.1", 
+                    "gene_annotation": "O-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of HAS production, accumulation of early pathway intermediates"
+                }, 
+                {
+                    "gene_name": "hasD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3430194, 
+                    "gene_endpos": 3436923, 
+                    "gene_id": "EAL92291.2", 
+                    "gene_annotation": "nonribosomal peptide synthtease", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of terezine D, astechrome, and HAS production"
+                }, 
+                {
+                    "gene_name": "hasE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3437617, 
+                    "gene_endpos": 3439088, 
+                    "gene_id": "EAL92290.2", 
+                    "gene_annotation": "dimethylallyl tryptophan synthase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Prenylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of terezine D, astechrome, and HAS production"
+                }, 
+                {
+                    "gene_name": "hasF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3439311, 
+                    "gene_endpos": 3441817, 
+                    "gene_id": "EAL92289.2", 
+                    "gene_annotation": "C6 transcription factor", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no change in terezine D, astechrome, and HAS production"
+                }, 
+                {
+                    "gene_name": "hasG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3442294, 
+                    "gene_endpos": 3443860, 
+                    "gene_id": "EAL92288.1", 
+                    "gene_annotation": "FAD binding domain protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of astechrome"
+                }, 
+                {
+                    "gene_name": "hasH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3444204, 
+                    "gene_endpos": 3446129, 
+                    "gene_id": "EAL92287.1", 
+                    "gene_annotation": "cytochrome P450 monooxigenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of terezine D"
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Other", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "EAL92291.2", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Tryptophan", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Alanine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Heterocyclization", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

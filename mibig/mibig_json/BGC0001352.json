@@ -1,0 +1,40 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "Tu 3010",
+                "chem_struct": "CCC1=C(O)[C@](CC(N)=O)(SC1=O)\\C=C(/C)C=C",
+                "molecular_formula": "C13H17NO3S",
+                "mol_mass": 267.350
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "LN879414", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "LN879415", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001352", 
+        "publications": [
+            "doi:10.1039/C5SC03059E"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

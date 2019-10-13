@@ -1,0 +1,548 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Sean Brady", 
+        "submitter_institution": "The Rockefeller Univeristy", 
+        "submitter_email": "sbrady@rockefeller.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000199", 
+        "biosyn_class": [
+            "Polyketide", 
+			"Saccharide"
+        ], 
+        "publications": "24038656", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KF040454", 
+                    "start_coord": 1, 
+                    "end_coord": 40894, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Arimetamycin B", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1C2=C(C(C(C=C3C4=O)=C1C(O)=C3[C@@H](O[C@H]5C[C@H](O)[C@@H](O)[C@H](C)O5)[C@H](OC)[C@@]4(O)C)=O)C=C(OC)C=C2O", 
+                "molecular_formula": "C27H28O12", 
+                "mol_mass": 544.1581, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "Arimetamycin C", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1C2=C(C(C(C=C3C4=O)=C1C(O)=C3[C@@H](O[C@H]5C[C@H](OC)[C@@H](O)[C@H](C)O5)[C@H](OC)[C@@]4(O)C)=O)C=C(OC)C=C2O", 
+                "molecular_formula": "C28H30O12", 
+                "mol_mass": 558.1737, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "Arimetamycin A", 
+                "chem_synonyms": [], 
+                "chem_struct": "O[C@]1(C)[C@H](N(C)C)[C@H](C)O[C@@H](O[C@@H]2[C@H](C)O[C@@H](O[C@@H]([C@H](OC)[C@@]3(O)C)C4=C(O)C5=C(C=C4C3=O)C(C6=C(C5=O)C(O)=CC(OC)=C6)=O)C[C@]2(C)N(C)C)C1", 
+                "molecular_formula": "C39H52N2O13", 
+                "mol_mass": 756.3469, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_target": "MDR cancer cells"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "arm1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 781, 
+                    "gene_id": "AHA81971.1", 
+                    "gene_annotation": "putative hydroxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 884, 
+                    "gene_endpos": 1561, 
+                    "gene_id": "AHA82007.1", 
+                    "gene_annotation": "O-methyl transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Demethylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1554, 
+                    "gene_endpos": 2483, 
+                    "gene_id": "AHA81972.1", 
+                    "gene_annotation": "Aromatase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2591, 
+                    "gene_endpos": 3370, 
+                    "gene_id": "AHA81973.1", 
+                    "gene_annotation": "Cyclase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3553, 
+                    "gene_endpos": 3993, 
+                    "gene_id": "AHA81974.1", 
+                    "gene_annotation": "Cyclase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4035, 
+                    "gene_endpos": 4802, 
+                    "gene_id": "AHA81975.1", 
+                    "gene_annotation": "Ketoreductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4869, 
+                    "gene_endpos": 5210, 
+                    "gene_id": "AHA81976.1", 
+                    "gene_annotation": "Monooygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5243, 
+                    "gene_endpos": 6511, 
+                    "gene_id": "AHA81977.1", 
+                    "gene_annotation": "KS\u03b1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6508, 
+                    "gene_endpos": 7731, 
+                    "gene_id": "AHA81978.1", 
+                    "gene_annotation": "KS\u03b2 (CLF)", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7747, 
+                    "gene_endpos": 8004, 
+                    "gene_id": "AHA81979.1", 
+                    "gene_annotation": "ACP", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8457, 
+                    "gene_endpos": 9212, 
+                    "gene_id": "AHA81980.1", 
+                    "gene_annotation": "SARP family transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9461, 
+                    "gene_endpos": 10612, 
+                    "gene_id": "AHA81981.1", 
+                    "gene_annotation": "P450-oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm12", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10674, 
+                    "gene_endpos": 11924, 
+                    "gene_id": "AHA81982.1", 
+                    "gene_annotation": "Glycosyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm13", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11953, 
+                    "gene_endpos": 12282, 
+                    "gene_id": "AHA81983.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm14", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12279, 
+                    "gene_endpos": 13454, 
+                    "gene_id": "AHA81984.1", 
+                    "gene_annotation": "O-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Demethylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm15", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13473, 
+                    "gene_endpos": 14639, 
+                    "gene_id": "AHA81985.1", 
+                    "gene_annotation": "Oxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm16", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14716, 
+                    "gene_endpos": 16263, 
+                    "gene_id": "AHA81986.1", 
+                    "gene_annotation": "Dehydrogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm17", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16260, 
+                    "gene_endpos": 17456, 
+                    "gene_id": "AHA81987.1", 
+                    "gene_annotation": "P450-oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm19", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18104, 
+                    "gene_endpos": 20044, 
+                    "gene_id": "AHA81988.1", 
+                    "gene_annotation": "MarR family transcriptional  regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm20", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20041, 
+                    "gene_endpos": 20604, 
+                    "gene_id": "AHA81989.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm21", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20618, 
+                    "gene_endpos": 23404, 
+                    "gene_id": "AHA81990.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm22", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23624, 
+                    "gene_endpos": 24763, 
+                    "gene_id": "AHA81991.1", 
+                    "gene_annotation": "NDP-hexose-C3-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm23", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24783, 
+                    "gene_endpos": 25757, 
+                    "gene_id": "AHA81992.1", 
+                    "gene_annotation": "NDP-4-keto-6-deoxyhexose reductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm24", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25948, 
+                    "gene_endpos": 27111, 
+                    "gene_id": "AHA81993.1", 
+                    "gene_annotation": "NDP-hexose-3-aminotransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm25", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27147, 
+                    "gene_endpos": 28430, 
+                    "gene_id": "AHA81994.1", 
+                    "gene_annotation": "Glycosyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm26", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 28503, 
+                    "gene_endpos": 29354, 
+                    "gene_id": "AHA81995.1", 
+                    "gene_annotation": "ABC transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm27", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29351, 
+                    "gene_endpos": 30412, 
+                    "gene_id": "AHA81996.1", 
+                    "gene_annotation": "ANC transporter A TP-binding protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm28", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30529, 
+                    "gene_endpos": 31518, 
+                    "gene_id": "AHA81997.1", 
+                    "gene_annotation": "NDP-hexose-3-ketoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm29", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31717, 
+                    "gene_endpos": 32871, 
+                    "gene_id": "AHA81998.1", 
+                    "gene_annotation": "NDP-hexose-4-aminotransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm30", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 32891, 
+                    "gene_endpos": 33655, 
+                    "gene_id": "AHA81999.1", 
+                    "gene_annotation": "NDP-hexose-N,N-dimethyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm31", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33652, 
+                    "gene_endpos": 34878, 
+                    "gene_id": "AHA82000.1", 
+                    "gene_annotation": "NDP-hexose-C3-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm32", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 34868, 
+                    "gene_endpos": 36043, 
+                    "gene_id": "AHA82001.1", 
+                    "gene_annotation": "P450-oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm33", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 36073, 
+                    "gene_endpos": 37410, 
+                    "gene_id": "AHA82002.1", 
+                    "gene_annotation": "Glycosyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm34", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 37403, 
+                    "gene_endpos": 38113, 
+                    "gene_id": "AHA82003.1", 
+                    "gene_annotation": "NDP-hexose-N,N-dimethyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm35", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 38103, 
+                    "gene_endpos": 38723, 
+                    "gene_id": "AHA82004.1", 
+                    "gene_annotation": "NDP-hexose-3,5-epimerase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "arm36", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 38720, 
+                    "gene_endpos": 40273, 
+                    "gene_id": "AHA82005.1", 
+                    "gene_annotation": "NDP-hexose-2,3-dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 40441, 
+                    "gene_endpos": 40743, 
+                    "gene_id": "AHA82006.1", 
+                    "gene_annotation": "transposase", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Tetracycline", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "aha81977.1", 
+                "aha81978.1", 
+                "aha81979.1"
+            ], 
+            "ketide_length": 20, 
+            "cyclases": "AHA81972.1, AHA81973.1, AHA81974.1, AHA81975.1"
+        }
+    }
+}
+

@@ -1,0 +1,77 @@
+{
+    "version": "14", 
+    "personal": {
+        "submitter_name": "Douglas A. Mitchell", 
+        "submitter_institution": "University of Illinois at Urbana-Champaign", 
+        "submitter_email": "douglasm@illinois.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000603", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "24937678,24769844,20154110,2071486", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "FJ472825", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "cyclothiazomycin A", 
+                "chem_synonyms": [
+                    "cyclothiazomycin", 
+                    "5102-ii"
+                ], 
+                "chem_struct": "O=C([C@H]1CSC(C2=CSC(C3=CSC(C(NC([C@@H]4CSC(C5=CSC(C6=CC=C(C(N[C@@H](CC(N)=O)C7=N[C@H](C(N/C8=C\\\\C)=O)CS7)=O)C([C@H](NC9=O)C)=N6)=N5)=N4)=O)=C)=N3)=N2)=N1)N[C@H](C(O)=O)CS[C@@](C)(C(N[C@]([C@H](O)C)([H])C(NCC(N/C(C(N%10[C@H]9CCC%10)=O)=C\\\\C)=O)=O)=O)NC8=O", 
+                "molecular_formula": "C59H64N18O14S7", 
+                "mol_mass": 1495.2733, 
+                "mass_ion_type": "[M+Na]+", 
+                "chem_act": [
+                    "Antifungal", 
+                    "Other"
+                ], 
+                "other_chem_act": "renin inhibition", 
+                "chem_target": "human plasma renin"
+            }
+        ], 
+        "genes": {}, 
+        "RiPP": {
+            "ripp_subclass": "Thiopeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "acs50131.1"
+                    ], 
+                    "core_pept_aa": "SNCTSKGSPASCCSCCCC", 
+                    "lead_pept_len": 42, 
+                    "foll_pept_len": -1, 
+                    "peptidase": [], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 1, 
+                            "AA_pos_2": 11, 
+                            "crosslink_type": "Other"
+                        }, 
+                        {
+                            "AA_pos_1": 5, 
+                            "AA_pos_2": 18, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

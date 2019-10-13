@@ -1,0 +1,365 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Hendrik Wolff", 
+        "submitter_institution": "AK Bode, Goethe University, Germany", 
+        "submitter_email": "Wolff@bio.uni-frankfurt.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000446", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "25157164,28977734,28972161,29389112", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "NZ_MKGQ01000000", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "tilivalline", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 128363, 
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }, 
+            {
+                "compound": "9-deoxy tilivalline", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1C2=C(C=CC=C2)N[C@@H](C3=CNC4=C3C=CC=C4)[C@@]5([H])N1CCC5", 
+                "molecular_formula": "C20H19N3O", 
+                "mol_mass": 317.1528, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "dihydroxy tilivalline", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1C2=C(C(O)=CC(O)=C2)N[C@@H](C3=CNC4=C3C=CC=C4)[C@@]5([H])N1CCC5", 
+                "molecular_formula": "C20H19N3O3", 
+                "mol_mass": 349.1426, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "dehydro tilivallin", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1C2=C(C(O)=CC=C2)N[C@@H](C3=CNC4=C3C=CC=C4)[C@@]5([H])N1C=CC5", 
+                "molecular_formula": "C20H17N3O2", 
+                "mol_mass": 331.1321, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "dihydroxy-dehydro tilivallin", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1C2=C(C(O)=CC(O)=C2)N[C@@H](C3=CNC4=C3C=CC=C4)[C@@]5([H])N1C=CC5", 
+                "molecular_formula": "C20H17N3O3", 
+                "mol_mass": 347.127, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 405, 
+                    "gene_endpos": 1322, 
+                    "gene_id": "CDG76945.1", 
+                    "gene_annotation": "Nitrogen assimilation regulatory protein Nac", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 1429, 
+                    "gene_endpos": 2379, 
+                    "gene_id": "CDG76946.1", 
+                    "gene_annotation": "Alkanesulfonate utilization operon LysR-family regulator CbI", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 2458, 
+                    "gene_endpos": 3381, 
+                    "gene_id": "CDG76947.1", 
+                    "gene_annotation": "L,D-transpeptidase ErfK", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 3499, 
+                    "gene_endpos": 4106, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "Glutathione S-transferase, unnamed subgroup 2", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mfsX", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 4283, 
+                    "gene_endpos": 5188, 
+                    "gene_id": "CDG76949.1", 
+                    "gene_annotation": "Glycine cleavage system transcriptional activator GcvA", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mfsX", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 5613, 
+                    "gene_endpos": 6845, 
+                    "gene_id": "CDG76950.1", 
+                    "gene_annotation": "permease of the major facilitator superfamily protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "uvrX", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 6850, 
+                    "gene_endpos": 9072, 
+                    "gene_id": "CDG76951.1", 
+                    "gene_annotation": "Excinuclease ABC subunit A paralog of unknown function", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hmoX", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 9195, 
+                    "gene_endpos": 10712, 
+                    "gene_id": "CDG76952.1", 
+                    "gene_annotation": "4-hydroxyphenylacetate 3-monooxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "adsX", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 10751, 
+                    "gene_endpos": 12700, 
+                    "gene_id": "CDG76953.1", 
+                    "gene_annotation": "2-Amino-2-deoxy-isochorismate synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "icmX", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 12730, 
+                    "gene_endpos": 13362, 
+                    "gene_id": "CDG76954.1", 
+                    "gene_annotation": "Isochorismatase of siderophore biosynthesis", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "dhbX", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 13381, 
+                    "gene_endpos": 14166, 
+                    "gene_id": "CDG76955.1", 
+                    "gene_annotation": "2,3-dihydro-2,3-dihydroxybenzoate dehydrogenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "aroX", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 14156, 
+                    "gene_endpos": 15325, 
+                    "gene_id": "CDG76956.1", 
+                    "gene_annotation": "2-keto-3-deoxy-D-arabino-heptulosonate-7- phosphate synthase II", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "npsA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15783, 
+                    "gene_endpos": 17303, 
+                    "gene_id": "CDG76957.1", 
+                    "gene_annotation": "non-ribosomal peptide synthetase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "npsB", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 17306, 
+                    "gene_endpos": 17536, 
+                    "gene_id": "CDG76958.1", 
+                    "gene_annotation": "PCP domain", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "npsB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17602, 
+                    "gene_endpos": 21972, 
+                    "gene_id": "CDG76959.1", 
+                    "gene_annotation": "non-ribosomal peptide synthetase, terminal component", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "tRNA-Asn (GUU)", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 22516, 
+                    "gene_endpos": 23013, 
+                    "gene_id": "CDG76960.1", 
+                    "gene_annotation": "transcriptional regulator, MarR family", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 24005, 
+                    "gene_endpos": 24184, 
+                    "gene_id": "CDG76961.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "tRNA-Asn (GUU)", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 24193, 
+                    "gene_endpos": 25644, 
+                    "gene_id": "CDG76962.1", 
+                    "gene_annotation": "Putative inner membrane protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Pyrrolobenzodiazepine", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Reductive release", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "CDG76957.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "2,3-Dihydroxybenzoic acid", 
+                                "evidence_a_spec": "Feeding study", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "CDG76959.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Proline", 
+                                "evidence_a_spec": "Feeding study", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+

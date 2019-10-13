@@ -1,0 +1,42 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 164723, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "byssochlamic acid"
+            }, 
+            {
+                "compound": "agnestadrides",
+                "chem_struct": "CC\\C=C\\C1=C2CCC3=C(C(CC)C2(O)OC1=O)C(=O)OC3=O",
+                "molecular_formula": "C17H18O6",
+                "mol_mass": 318.325
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KU928136", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001385", 
+        "publications": [
+            "27099957"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

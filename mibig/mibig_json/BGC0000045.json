@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 6438143, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "dehydrocurvularin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 26000, 
+                    "Accession": "JX971534", 
+                    "start_coord": 4000
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000045", 
+        "publications": [
+            "23335766"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

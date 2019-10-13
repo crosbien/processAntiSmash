@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "alkylresorcinol"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 551330, 
+                    "Accession": "AP009493", 
+                    "start_coord": 548718
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000282", 
+        "publications": [
+            "18375553", 
+            "18364359", 
+            "18310036"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type III"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

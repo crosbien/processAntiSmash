@@ -1,0 +1,352 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Sergey Zotchev", 
+        "submitter_institution": "Norwegian University of Science and Technology", 
+        "submitter_email": "sergey.zotchev@ntnu.no"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000615", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "20562278", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "HM467197", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "TP-1161", 
+                "chem_synonyms": [], 
+                "molecular_formula": "C50H47N15O13S3", 
+                "mol_mass": 1161.2619, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "ribosome"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "tpa1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 429, 
+                    "gene_id": "ADO67763.1", 
+                    "gene_annotation": "Tpa1", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpa2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 518, 
+                    "gene_endpos": 1195, 
+                    "gene_id": "ADO67764.1", 
+                    "gene_annotation": "Tpa2", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpa3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1603, 
+                    "gene_endpos": 2130, 
+                    "gene_id": "ADO67765.1", 
+                    "gene_annotation": "Tpa3", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpa4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2227, 
+                    "gene_endpos": 2616, 
+                    "gene_id": "ADO67766.1", 
+                    "gene_annotation": "Tpa4", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpa5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3355, 
+                    "gene_endpos": 6822, 
+                    "gene_id": "ADO67767.1", 
+                    "gene_annotation": "Tpa5", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpa6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6857, 
+                    "gene_endpos": 10735, 
+                    "gene_id": "ADO67768.1", 
+                    "gene_annotation": "Tpa6", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpa7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10852, 
+                    "gene_endpos": 14034, 
+                    "gene_id": "ADO67769.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpaA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14405, 
+                    "gene_endpos": 14551, 
+                    "gene_id": "ADO67770.1", 
+                    "gene_annotation": "TpaA", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpaB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14689, 
+                    "gene_endpos": 15756, 
+                    "gene_id": "ADO67771.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpaC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15806, 
+                    "gene_endpos": 17152, 
+                    "gene_id": "ADO67772.1", 
+                    "gene_annotation": "TpaC", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "non-producer"
+                }, 
+                {
+                    "gene_name": "tpaD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17180, 
+                    "gene_endpos": 17782, 
+                    "gene_id": "ADO67773.1", 
+                    "gene_annotation": "TpaD", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpaE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17794, 
+                    "gene_endpos": 19434, 
+                    "gene_id": "ADO67774.1", 
+                    "gene_annotation": "TpaE", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpaF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19424, 
+                    "gene_endpos": 20125, 
+                    "gene_id": "ADO67775.1", 
+                    "gene_annotation": "TpaF", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpaG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20217, 
+                    "gene_endpos": 22031, 
+                    "gene_id": "ADO67776.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpaH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22028, 
+                    "gene_endpos": 23893, 
+                    "gene_id": "ADO67777.1", 
+                    "gene_annotation": "TpaH", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "non-producer"
+                }, 
+                {
+                    "gene_name": "tpaI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24008, 
+                    "gene_endpos": 24817, 
+                    "gene_id": "ADO67778.1", 
+                    "gene_annotation": "TpaI", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpaJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24879, 
+                    "gene_endpos": 26093, 
+                    "gene_id": "ADO67779.1", 
+                    "gene_annotation": "TpaJ", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "non-producer"
+                }, 
+                {
+                    "gene_name": "tpaX", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26463, 
+                    "gene_endpos": 26609, 
+                    "gene_id": "ADO67780.1", 
+                    "gene_annotation": "TpaX", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpaK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26673, 
+                    "gene_endpos": 29462, 
+                    "gene_id": "ADO67781.1", 
+                    "gene_annotation": "TpaK", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpaL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29497, 
+                    "gene_endpos": 30369, 
+                    "gene_id": "ADO67782.1", 
+                    "gene_annotation": "TpaL", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpa8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30799, 
+                    "gene_endpos": 31170, 
+                    "gene_id": "ADO67783.1", 
+                    "gene_annotation": "Tpa8", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpa9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31173, 
+                    "gene_endpos": 31643, 
+                    "gene_id": "ADO67784.1", 
+                    "gene_annotation": "Tpa9", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpa10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31692, 
+                    "gene_endpos": 33803, 
+                    "gene_id": "ADO67785.1", 
+                    "gene_annotation": "Tpa10", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpa11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33887, 
+                    "gene_endpos": 35080, 
+                    "gene_id": "ADO67786.1", 
+                    "gene_annotation": "Tpa11", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "Thiopeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "ado67770.1"
+                    ], 
+                    "core_pept_aa": "CTTSGCACSSSSSST", 
+                    "lead_pept_len": 33, 
+                    "peptidase": []
+                }
+            ]
+        }
+    }
+}
+
+

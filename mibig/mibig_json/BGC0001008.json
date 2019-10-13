@@ -1,0 +1,135 @@
+{
+    "version": "14", 
+    "personal": {
+        "submitter_name": "Xiaohui Yan", 
+        "submitter_institution": "The Scripps Research Institute", 
+        "submitter_email": "xyan@scripps.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001008", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "17918933,18223152,20534556,20718468", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AY271660", 
+                    "start_coord": 11790, 
+                    "end_coord": 75173, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "maduropeptin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 21805429, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Antioxidant"
+                ], 
+                "chem_target": "DNA", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "3,6-dimethylsalicylate", 
+                        "moiety_subcluster": [
+                            "aby66020.1", 
+                            "aby66019.1", 
+                            "aby66018.1", 
+                            "aby66017.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "mdpC4", 
+                    "gene_id": "ABY66005.1", 
+                    "gene_annotation": "MIO-containing aminomutase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "mdpC1", 
+                    "gene_id": "ABY66004.1", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "mdpB1", 
+                    "gene_id": "ABY66020.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "mdpB2", 
+                    "gene_id": "ABY66018.1", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "mdpE", 
+                    "gene_id": "AAQ17110.2", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Heterologous expression", 
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "mdeE10", 
+                    "gene_id": "AAQ17111.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Enediyine", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Iterative type I", 
+                "Enediyne type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "mdpe", 
+                "mdpb"
+            ], 
+            "nr_iterations": 7, 
+            "iterative_subtype": "Partially reducing", 
+            "iter_cycl_type": "Other", 
+            "pks_te_type": "Type II", 
+            "pks_thioesterase": [
+                "mdpe10"
+            ], 
+            "pks_release_type": "Hydrolysis"
+        }
+    }
+}
+
+

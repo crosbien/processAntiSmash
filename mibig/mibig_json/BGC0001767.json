@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "salinichelins"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 48531, 
+                    "Accession": "KB897466", 
+                    "start_coord": 18300
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001767", 
+        "publications": [
+            "28809850"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "keywimysin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 14846, 
+                    "Accession": "NZ_JOHD01000003", 
+                    "start_coord": 9373
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001634", 
+        "publications": [
+            "28244986"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

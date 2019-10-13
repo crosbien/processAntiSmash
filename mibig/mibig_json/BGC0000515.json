@@ -1,0 +1,131 @@
+{
+    "version": "11",
+    "personal": {
+        "submitter_name": "Wilfred Van Der Donk",
+        "submitter_institution": "The University of Illinois Urbana Champaign",
+        "submitter_email": "vddonk@illinois.edu"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000515",
+        "biosyn_class": [
+            "RiPP"
+        ],
+        "publications": "22431611,24169799",
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "Accession": "CP000557",
+                    "start_coord": 298823,
+                    "end_coord": 311453,
+                    "conn_comp_cluster": [
+                        "Enzymatic assays",
+                        "Heterologous expression",
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "geobacillin I",
+                "chem_synonyms": [],
+                "molecular_formula": "C136H220N40O37S8",
+                "mol_mass": 3262.5,
+                "mass_ion_type": "[M+H]+",
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "chem_target": "Binding to lipid II and pore formation"
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "geoAI",
+                    "gene_id": "GTNG_0265",
+                    "gene_annotation": "Lantibiotic antimicrobial precursor peptide",
+                    "gene_function": "Scaffold Biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay",
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "geoC",
+                    "gene_id": "GTNG_0268",
+                    "gene_annotation": "cyclase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay",
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "geoB",
+                    "gene_id": "GTNG_0266",
+                    "gene_annotation": "dehydratase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Activity assay",
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        },
+        "RiPP": {
+            "ripp_subclass": "Lantipeptide",
+            "lin_cycl_ripp": "Cyclic",
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        ""
+                    ],
+                    "core_pept_aa": "VTSKSLCTPGCITGVLMCLTQNSCVSCNSCIRC",
+                    "lead_pept_len": 23,
+                    "foll_pept_len": -1,
+                    "cleavage_recogn_site": "",
+                    "peptidase": [],
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 3,
+                            "AA_pos_2": 7,
+                            "crosslink_type": "Thioether"
+                        },
+                        {
+                            "AA_pos_1": 8,
+                            "AA_pos_2": 11,
+                            "crosslink_type": "Thioether"
+                        },
+                        {
+                            "AA_pos_1": 13,
+                            "AA_pos_2": 18,
+                            "crosslink_type": "Thioether"
+                        },
+                        {
+                            "AA_pos_1": 20,
+                            "AA_pos_2": 24,
+                            "crosslink_type": "Thioether"
+                        },
+                        {
+                            "AA_pos_1": 23,
+                            "AA_pos_2": 27,
+                            "crosslink_type": "Thioether"
+                        },
+                        {
+                            "AA_pos_1": 26,
+                            "AA_pos_2": 30,
+                            "crosslink_type": "Thioether"
+                        },
+                        {
+                            "AA_pos_1": 29,
+                            "AA_pos_2": 33,
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "comments": "Locus tags have been given to the genes described. As of now the genes have been given the automatic GeneID designation as either sunA, spaB and spaC. The entered GeneID designations are as follows: geoAI, geoB, geoC respectively to match what is reported in the literature. "
+}

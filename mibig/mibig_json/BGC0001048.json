@@ -1,0 +1,633 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Xiaohui Yan", 
+        "submitter_institution": "The Scripps Research Institute", 
+        "submitter_email": "xyan@scripps.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001048", 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide", 
+            "Saccharide"
+        ], 
+        "publications": "17216057,19189972,25299801,21210656,20094654,20049429", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "EF032505", 
+                    "start_coord": 1198, 
+                    "end_coord": 80111, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "tallysomycin A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 430602, 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_target": "DNA and RNA"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "tlmT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12315, 
+                    "gene_endpos": 14114, 
+                    "gene_id": "ABL74935.1", 
+                    "gene_annotation": "ABC multi-drug transport", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmX", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16093, 
+                    "gene_endpos": 22491, 
+                    "gene_id": "ABL74936.1", 
+                    "gene_annotation": "NRPS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmIX", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22488, 
+                    "gene_endpos": 25754, 
+                    "gene_id": "ABL74937.1", 
+                    "gene_annotation": "NRPS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmVIII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25751, 
+                    "gene_endpos": 30352, 
+                    "gene_id": "ABL74938.1", 
+                    "gene_annotation": "PKS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmVII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30349, 
+                    "gene_endpos": 33774, 
+                    "gene_id": "ABL74939.1", 
+                    "gene_annotation": "NRPS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmVI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33771, 
+                    "gene_endpos": 41999, 
+                    "gene_id": "ABL74940.1", 
+                    "gene_annotation": "NRPS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmV", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 41992, 
+                    "gene_endpos": 43812, 
+                    "gene_id": "ABL74941.1", 
+                    "gene_annotation": "NRPS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43812, 
+                    "gene_endpos": 44804, 
+                    "gene_id": "ABL74942.1", 
+                    "gene_annotation": "NAD-dependent sugar epimerase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Epimerization", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 44797, 
+                    "gene_endpos": 46698, 
+                    "gene_id": "ABL74943.1", 
+                    "gene_annotation": "alpha ketoglutarate-dependent hydroxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "orf21", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 46702, 
+                    "gene_endpos": 48588, 
+                    "gene_id": "ABL74944.1", 
+                    "gene_annotation": "Gln-dependent amino transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Amination", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmIV", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 48585, 
+                    "gene_endpos": 56447, 
+                    "gene_id": "ABL74945.1", 
+                    "gene_annotation": "NRPS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmIII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 56552, 
+                    "gene_endpos": 59083, 
+                    "gene_id": "ABL74946.1", 
+                    "gene_annotation": "NRPS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmR3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 59080, 
+                    "gene_endpos": 60126, 
+                    "gene_id": "ABL74947.1", 
+                    "gene_annotation": "SyrP-like regulatory protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 60123, 
+                    "gene_endpos": 61595, 
+                    "gene_id": "ABL74948.1", 
+                    "gene_annotation": "NRPS type II C", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "Orf16", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 61599, 
+                    "gene_endpos": 62168, 
+                    "gene_id": "ABL74949.1", 
+                    "gene_annotation": "MbtH-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 62186, 
+                    "gene_endpos": 63352, 
+                    "gene_id": "ABL74950.1", 
+                    "gene_annotation": "glycosyl transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolishment of TLM production"
+                }, 
+                {
+                    "gene_name": "tlmD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 63349, 
+                    "gene_endpos": 64965, 
+                    "gene_id": "ABL74951.1", 
+                    "gene_annotation": "carbamoyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 64965, 
+                    "gene_endpos": 65234, 
+                    "gene_id": "ABL74952.1", 
+                    "gene_annotation": "type II PCP", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 65231, 
+                    "gene_endpos": 66727, 
+                    "gene_id": "ABL74953.1", 
+                    "gene_annotation": "NTP sugar synthase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "orf11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 66724, 
+                    "gene_endpos": 67998, 
+                    "gene_id": "ABL74954.1", 
+                    "gene_annotation": "SAM-dependent oxidase or methyl transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "orf10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 68022, 
+                    "gene_endpos": 68948, 
+                    "gene_id": "ABL74955.1", 
+                    "gene_annotation": "alpha ketoglutarate-dependent hydroxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 69009, 
+                    "gene_endpos": 69383, 
+                    "gene_id": "ABL74956.1", 
+                    "gene_annotation": "Sh Ble binding protein", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmOrf8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 69452, 
+                    "gene_endpos": 70045, 
+                    "gene_id": "ABL74957.1", 
+                    "gene_annotation": "ankyrin-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmOrf7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 70042, 
+                    "gene_endpos": 70431, 
+                    "gene_id": "ABL74958.1", 
+                    "gene_annotation": "peptide deformylase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 70887, 
+                    "gene_endpos": 71861, 
+                    "gene_id": "ABL74959.1", 
+                    "gene_annotation": "alpha ketoglutarate-dependent hydroxylas", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "production of TLM H-1 and TLM H-2"
+                }, 
+                {
+                    "gene_name": "tlmJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 71889, 
+                    "gene_endpos": 73088, 
+                    "gene_id": "ABL74960.1", 
+                    "gene_annotation": "aminotransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Amination", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 73120, 
+                    "gene_endpos": 74682, 
+                    "gene_id": "ABL74961.1", 
+                    "gene_annotation": "glycosyl transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "production of TLM K-1, K-2 as major metabolites and TLM K-3, TLM K-4, and TLM K-5 as minor metabolites"
+                }, 
+                {
+                    "gene_name": "tlmB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 74732, 
+                    "gene_endpos": 75610, 
+                    "gene_id": "ABL74962.1", 
+                    "gene_annotation": "N-acetyl transferase", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmR2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 75700, 
+                    "gene_endpos": 76899, 
+                    "gene_id": "ABL74963.1", 
+                    "gene_annotation": "putative transcription regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tlmR1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 77602, 
+                    "gene_endpos": 77964, 
+                    "gene_id": "ABL74964.1", 
+                    "gene_annotation": "putative transcription regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Glycopeptide", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_te_type": "Unknown", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Unknown", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "ABL74936.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "4", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Asparigine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Histidine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "ABL74937.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "6", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Alanine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "ABL74939.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "8", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Threonine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "ABL74940.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Starter", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Serine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Asparigine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "ABL74941.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "ABL74945.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "10", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Cysteine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Heterocyclization", 
+                            "nrps_mod_doms": "Other", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "11", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Heterocyclization", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "9", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Beta-alanine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "ABL74946.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "11", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "Oxidation", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Other", 
+            "pks_te_type": "None", 
+            "pks_release_type": "None", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "ABL74938.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "7", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Sequence-based prediction", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

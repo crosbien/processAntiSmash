@@ -1,0 +1,107 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "R. Cameron Coates", 
+        "submitter_institution": "DOE Joint Genome Institute", 
+        "submitter_email": "rccoates@lbl.gov"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001164", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": " 24475038 ", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP002198", 
+                    "start_coord": 2029235, 
+                    "end_coord": 2037562, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "1-heptadecene", 
+                "chem_synonyms": [
+                    "heptadec-1-ene"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 23217, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "yp_003887107.1"
+                    ], 
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2029235, 
+                    "gene_endpos": 2037562, 
+                    "gene_id": "ADN13832.1", 
+                    "gene_annotation": "Polyketide Synthase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "pks_te_type": "Type I", 
+            "pks_release_type": "Other", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "ADN13832.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "FAAL", 
+                                "ACP", 
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "ACP", 
+                                "ST", 
+                                "TE"
+                            ], 
+                            "at_substr_spec": "Malonamyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Other"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

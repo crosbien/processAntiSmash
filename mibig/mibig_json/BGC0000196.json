@@ -1,0 +1,128 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Helge B. Bode", 
+        "submitter_institution": "Molecular Biotechnology, Institute for Molecular Bioscience, Goethe University Frankfurt, 60438 Frankfurt/Main, Germany", 
+        "submitter_email": "h.bode@bio.uni-frankfurt.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000196", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "17722122", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "BX470251", 
+                    "start_coord": 4907928, 
+                    "end_coord": 4897935, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "AQ-256", 
+                "chem_synonyms": [], 
+                "chem_struct": "Oc3cccc2C(=O)c1cc(O)cc(O)c1C(=O)c23", 
+                "molecular_formula": "C14H9O5", 
+                "mol_mass": 257.04445, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "AQ-270a", 
+                "chem_synonyms": [], 
+                "chem_struct": "Oc3cccc2C(=O)c1cc(O)cc(OC)c1C(=O)c23", 
+                "molecular_formula": "C15H11O5", 
+                "mol_mass": 271.0601, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "AQ-284a", 
+                "chem_synonyms": [], 
+                "chem_struct": "Oc3cccc2C(=O)c1cc(cc(OC)c1C(=O)c23)OC", 
+                "molecular_formula": "C16H13O5", 
+                "mol_mass": 285.07575, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "antA", 
+                    "gene_id": "plu4194", 
+                    "gene_function": "None"
+                }, 
+                {
+                    "gene_name": "antB", 
+                    "gene_id": "plu4193", 
+                    "gene_function": "None"
+                }, 
+                {
+                    "gene_name": "antC", 
+                    "gene_id": "plu4192", 
+                    "gene_function": "None"
+                }, 
+                {
+                    "gene_name": "antD", 
+                    "gene_id": "plu4191", 
+                    "gene_function": "None"
+                }, 
+                {
+                    "gene_name": "antE", 
+                    "gene_id": "plu4190", 
+                    "gene_function": "None"
+                }, 
+                {
+                    "gene_name": "antF", 
+                    "gene_id": "plu4189", 
+                    "gene_function": "None"
+                }, 
+                {
+                    "gene_name": "antG", 
+                    "gene_id": "plu4188", 
+                    "gene_function": "None"
+                }, 
+                {
+                    "gene_name": "antH", 
+                    "gene_id": "plu4187", 
+                    "gene_function": "None"
+                }, 
+                {
+                    "gene_name": "antI", 
+                    "gene_id": "plu4186", 
+                    "gene_function": "None"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Unknown", 
+            "pks_genes": [
+                "plu4191"
+            ], 
+            "ketide_length": -1, 
+            "cyclases": "plu4187"
+        }
+    }
+}
+
+

@@ -1,0 +1,128 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "R. Cameron Coates", 
+        "submitter_institution": "DOE Joint Genome Institute", 
+        "submitter_email": "rccoates@lbl.gov"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001160", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "24475038,21531827,25063658,22991895", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP000951", 
+                    "start_coord": 1205897, 
+                    "end_coord": 1214059, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "1-nonadecene", 
+                "chem_synonyms": [
+                    "nonadec-1-ene", 
+                    "nonadecene"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 29075, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "(14Z)-1,14-Nonadecadiene", 
+                "chem_synonyms": [
+                    "(14z)-nonadeca-1", 
+                    "14-diene"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 28184646, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "yp_001734428"
+                    ], 
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "6056266", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1214059, 
+                    "gene_endpos": 1205897, 
+                    "gene_id": "ACA99172.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Loss of production of 1-nonadecene and 1,14-nonadecadiene"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "pks_te_type": "Type I", 
+            "pks_release_type": "Other", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "ACA99172", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "FAAL", 
+                                "ACP", 
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "ACP", 
+                                "ST", 
+                                "TE"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Other"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "comments": "The thioester release mechanism of this pathway involves a release via hydrolysis and decarboxylation which was not an option for this submission."
+}
+
+

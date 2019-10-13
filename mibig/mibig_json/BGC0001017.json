@@ -1,0 +1,499 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Brett Neilan", 
+        "submitter_institution": "School of Biotechnology and Biomolecular Sciences, The University of New South Wales, Sydney, Australia", 
+        "submitter_email": "b.neilan@unsw.edu.au"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001017", 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ], 
+        "publications": "11033079,12713441,15528494,17142460,17163649,27105282,28570054", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AF183408.1", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "microcystin LR", 
+                "chem_synonyms": [
+                    "cyanoginosin lr", 
+                    "toxin i cyanobacterium"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "chEBI", 
+                    "chEMBL", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 445434, 
+                "chebi_id": 6925, 
+                "chembl_id": 444092, 
+                "chemspider_id": 4941647, 
+                "chem_act": [
+                    "Cytotoxic", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "Eucaryotic protein phosphatases type 1 and 2A"
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "AAF00960.1,AAF00961.1,AAF00962.1"
+                    ], 
+                    "evidence_operon": "Sequence-based prediction"
+                }, 
+                {
+                    "operon_genes": [
+                        "AAF00954.1,AAF00955.1,AAF00956.1,AAF00957.1,AAF00963.1,AAF00958.1,AAF00959.1"
+                    ], 
+                    "evidence_operon": "Other"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "dnaN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 422, 
+                    "gene_id": "AAF00953.1", 
+                    "gene_annotation": "DNA polymerase III beta subunit", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcyJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 992, 
+                    "gene_endpos": 1828, 
+                    "gene_id": "AAF00954.1", 
+                    "gene_annotation": "McyJ", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcyI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2004, 
+                    "gene_endpos": 3017, 
+                    "gene_id": "AAF00955.1", 
+                    "gene_annotation": "McyI", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcyH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3056, 
+                    "gene_endpos": 4672, 
+                    "gene_id": "AAF00956.1", 
+                    "gene_annotation": "McyH", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcyG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4896, 
+                    "gene_endpos": 12791, 
+                    "gene_id": "AAF00957.1", 
+                    "gene_annotation": "McyG", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcyF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12923, 
+                    "gene_endpos": 13678, 
+                    "gene_id": "AAF00963.1", 
+                    "gene_annotation": "McyF", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Epimerization", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcyE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13710, 
+                    "gene_endpos": 24173, 
+                    "gene_id": "AAF00958.1", 
+                    "gene_annotation": "McyE", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcyD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24340, 
+                    "gene_endpos": 36060, 
+                    "gene_id": "AAF00959.1", 
+                    "gene_annotation": "McyD", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcyA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 36793, 
+                    "gene_endpos": 45180, 
+                    "gene_id": "AAF00960.1", 
+                    "gene_annotation": "McyA", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcyB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 45196, 
+                    "gene_endpos": 51576, 
+                    "gene_id": "AAF00961.1", 
+                    "gene_annotation": "McyB", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "mcyC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 51573, 
+                    "gene_endpos": 55448, 
+                    "gene_id": "AAF00962.1", 
+                    "gene_annotation": "McyC", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "uma1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 55541, 
+                    "gene_endpos": 57592, 
+                    "gene_id": "AAF00964.1", 
+                    "gene_annotation": "Uma1", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "uma2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 57836, 
+                    "gene_endpos": 58399, 
+                    "gene_id": "AAF00965.1", 
+                    "gene_annotation": "Uma2", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "uma3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 58446, 
+                    "gene_endpos": 59972, 
+                    "gene_id": "AAF00966.1", 
+                    "gene_annotation": "Uma3", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "uma4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 60057, 
+                    "gene_endpos": 61271, 
+                    "gene_id": "AAF00967.1", 
+                    "gene_annotation": "Uma4", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "uma5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 62180, 
+                    "gene_endpos": 62614, 
+                    "gene_id": "AAF00968.1", 
+                    "gene_annotation": "Uma5", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "uma6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 62656, 
+                    "gene_endpos": 63626, 
+                    "gene_id": "AAF00969.1", 
+                    "gene_annotation": "Uma6", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Type I", 
+            "nrps_thioesterase": [
+                "mcyc"
+            ], 
+            "nrps_release_type": "Hydrolysis", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AAF00957.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Phenylacetate", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AAF00958.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Glutamate", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AAF00960.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "6", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Serine", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "Methylation", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "7", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Alanine", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AAF00961.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "8", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Leucine", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "9", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "D-N2-methylasparagine", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AAF00962.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "10", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Arginine", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Other", 
+            "pks_te_type": "None", 
+            "pks_release_type": "Hydrolysis", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AAF00957.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "None", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAF00958.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAF00959.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "5", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "comments": "This cyclic peptide is an inhibitors of eukaryotic protein phosphatases type 1 and 2A. Synthesized nonribosomally by RNPS, PKS and hybrid PKS-NRPPS enzymes, the microcystins contain a number of unusual amino acid residues including the L-amino polyketide moiety Adda (3-amino-9-methoxy-2,6,8-trimethyl-10-phenyl-4,6-decadienoic acid). "
+}
+
+

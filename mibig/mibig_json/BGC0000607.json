@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 6446886, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "micrococcin P1"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KM613043", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000607", 
+        "RiPP": {
+            "ripp_subclass": "Thiopeptide"
+        }, 
+        "publications": [
+            "25313391"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

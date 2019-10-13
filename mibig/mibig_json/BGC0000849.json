@@ -1,0 +1,112 @@
+{
+    "version": "8", 
+    "personal": {
+        "submitter_name": "Eriko Takano", 
+        "submitter_institution": "University of Manchester", 
+        "submitter_email": "eriko.takano@manchester.ac.uk"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000849", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "12000953,8843436", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AL645882", 
+                    "start_coord": 6890528, 
+                    "end_coord": 6948414, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Proven expression in natural host", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "SCB1", 
+                "chem_synonyms": [], 
+                "chem_struct": "O[C@@H](CCCCC(C)C)[C@H]1C(=O)OC[C@H]1CO", 
+                "molecular_formula": "C13H24O4", 
+                "mol_mass": 244.32726, 
+                "mass_ion_type": "Other", 
+                "chem_act": [
+                    "Signalling"
+                ], 
+                "chem_target": "SCO6265"
+            }, 
+            {
+                "compound": "SCB2", 
+                "chem_synonyms": [], 
+                "chem_struct": "O[C@@H](CCCCCCC)[C@H]1C(=O)OC[C@H]1CO", 
+                "molecular_formula": "C13H24O4", 
+                "mol_mass": 244.32726, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Signalling"
+                ], 
+                "chem_target": "SCO6265"
+            }, 
+            {
+                "compound": "SCB3", 
+                "chem_synonyms": [], 
+                "chem_struct": "O[C@@H](CCCCC(C)CC)[C@H]1C(=O)OC[C@H]1CO", 
+                "molecular_formula": "C14H26O4", 
+                "mol_mass": 258.35384, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Signalling"
+                ], 
+                "chem_target": "SCO6265"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "scbB", 
+                    "gene_id": "SCO6264", 
+                    "gene_annotation": "3-ketoaceyl-ACP/CoA reductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "No production of SCB1, SCB2 or SCB3"
+                }, 
+                {
+                    "gene_name": "scbR", 
+                    "gene_id": "SCO6265", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "No production of SCB1, SCB2 or SCB3 and overproduction of coelimycin"
+                }, 
+                {
+                    "gene_name": "scbA", 
+                    "gene_id": "SCO6266", 
+                    "gene_annotation": "SCBs Biosynthesis Enzyme", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "No production of SCB1, SCB2 or SCB3 and over production of actinorhodin, undecylprodisiosin and coelimycin"
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Butyrolactone"
+        }
+    }
+}
+
+

@@ -1,0 +1,46 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "PM100117",
+                "chem_struct": "CCC(OC1CC(C)(O)C(OC2OC(C)C(CC2O)OC(=O)C(C)C(OC2CCC(O)C(C)O2)C2=CC3=C(C=C2)C(=O)C(C)=CC3=O)C(C)O1)C(C)C(O)C(C)C(O)C(C)C1OC(=O)\\C=C\\CC(O)CC(O)CCCC(O)CCC(C)C(O)C(=O)C2(O)CC(O)CC(CC(O)CC(O)CC(O)CCCC(O)CCC1C)O2",
+                "molecular_formula": "C82H132O29",
+                "mol_mass": 1581.929
+            },
+            {
+                "compound": "PM100118",
+                "chem_struct": "[H]C1CC(OC(=O)C(C)C(OC2CCC(O)C(C)O2)C2=CC3=C(C=C2)C(=O)C(C)=CC3=O)C(C)OC1OC1C(C)OC(CC1(C)O)OC(CC)C(C)C(O)C(C)C(O)C(C)C1OC(=O)\\C=C\\CC(O)CC(O)CCCC(O)CCC(C)C(O)C(=O)C2(O)CC(O)CC(CC(O)CC(O)CC(O)CCCC(O)CCC1C)O2",
+                "molecular_formula": "C82H132O28",
+                "mol_mass": 1565.930
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "LN997801", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "LN997802", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001359", 
+        "publications": [
+            "26648119", 
+            "26905289"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

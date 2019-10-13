@@ -1,0 +1,673 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Christopher Morton Thomas", 
+        "submitter_institution": "University of Birmingham", 
+        "submitter_email": "c.m.thomas@bham.ac.uk"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000182", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "    11495990,12770824,15583005,15726184,16039529,17383964,17713071,20013982,21318358,24625190", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AF318063", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Pseudomonic acid A", 
+                "chem_synonyms": [
+                    "mupirocin"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 393914, 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "Isoleucyl tRNA synthetase", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "epoxide ring", 
+                        "moiety_subcluster": [
+                            "mmpe"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "pyran ring", 
+                        "moiety_subcluster": [
+                            "mupw", 
+                            "mupt"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "beta-methylation", 
+                        "moiety_subcluster": [
+                            "mupg", 
+                            "muph", 
+                            "mupj", 
+                            "mupk", 
+                            "macpc"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "ester bond", 
+                        "moiety_subcluster": []
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "C8 hydroxyl removal after pyran ring formation", 
+                        "moiety_subcluster": [
+                            "macpe", 
+                            "mupu", 
+                            "mupv", 
+                            "mupo", 
+                            "mupc", 
+                            "mupf"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "mupZ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 201, 
+                    "gene_endpos": 569, 
+                    "gene_id": "AFD33556.1", 
+                    "gene_annotation": "MupZ", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 600, 
+                    "gene_endpos": 1709, 
+                    "gene_id": "AAK28503.1", 
+                    "gene_annotation": "MupA", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mmpA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1706, 
+                    "gene_endpos": 10243, 
+                    "gene_id": "AAM12909.2", 
+                    "gene_annotation": "MmpA", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10278, 
+                    "gene_endpos": 11183, 
+                    "gene_id": "AAM12910.1", 
+                    "gene_annotation": "MupB", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mmpB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11325, 
+                    "gene_endpos": 17555, 
+                    "gene_id": "AAM12911.1", 
+                    "gene_annotation": "MmpB", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mmpC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17629, 
+                    "gene_endpos": 20961, 
+                    "gene_id": "AAM12912.1", 
+                    "gene_annotation": "MmpC", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mmpD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20958, 
+                    "gene_endpos": 40526, 
+                    "gene_id": "AAM12913.2", 
+                    "gene_annotation": "MmpD", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 40523, 
+                    "gene_endpos": 41818, 
+                    "gene_id": "AAM12914.1", 
+                    "gene_annotation": "MupC", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "macpA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 41870, 
+                    "gene_endpos": 42175, 
+                    "gene_id": "AAM12915.1", 
+                    "gene_annotation": "MacpA", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 42216, 
+                    "gene_endpos": 42959, 
+                    "gene_id": "AAM12916.1", 
+                    "gene_annotation": "MupD", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 42983, 
+                    "gene_endpos": 44005, 
+                    "gene_id": "AAM12917.1", 
+                    "gene_annotation": "MupE", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "macpB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 44062, 
+                    "gene_endpos": 44313, 
+                    "gene_id": "AAM12918.1", 
+                    "gene_annotation": "MacpB", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 44334, 
+                    "gene_endpos": 45344, 
+                    "gene_id": "AAM12919.1", 
+                    "gene_annotation": "MupF", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "macpC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 45506, 
+                    "gene_endpos": 45742, 
+                    "gene_id": "AAM12920.1", 
+                    "gene_annotation": "MacpC", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 45729, 
+                    "gene_endpos": 46967, 
+                    "gene_id": "AAM12921.1", 
+                    "gene_annotation": "MupG", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 46964, 
+                    "gene_endpos": 48229, 
+                    "gene_id": "AAM12922.1", 
+                    "gene_annotation": "MupH", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 48226, 
+                    "gene_endpos": 48993, 
+                    "gene_id": "AAM12923.1", 
+                    "gene_annotation": "MupJ", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 49047, 
+                    "gene_endpos": 49790, 
+                    "gene_id": "AAM12924.1", 
+                    "gene_annotation": "MupK", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mmpE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 49802, 
+                    "gene_endpos": 53377, 
+                    "gene_id": "AAM12925.2", 
+                    "gene_annotation": "MmpE", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 53423, 
+                    "gene_endpos": 54361, 
+                    "gene_id": "AAM12926.1", 
+                    "gene_annotation": "MupL", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 54444, 
+                    "gene_endpos": 57536, 
+                    "gene_id": "AAM12927.2", 
+                    "gene_annotation": "MupM", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 57597, 
+                    "gene_endpos": 58448, 
+                    "gene_id": "AAM12928.2", 
+                    "gene_annotation": "MupN", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 58574, 
+                    "gene_endpos": 59938, 
+                    "gene_id": "AAM12929.2", 
+                    "gene_annotation": "MupO", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 59935, 
+                    "gene_endpos": 60864, 
+                    "gene_id": "AAM12930.2", 
+                    "gene_annotation": "MupP", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupQ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 60912, 
+                    "gene_endpos": 62267, 
+                    "gene_id": "AAM12931.1", 
+                    "gene_annotation": "MupQ", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupS", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 62264, 
+                    "gene_endpos": 63037, 
+                    "gene_id": "AAM12932.1", 
+                    "gene_annotation": "MupS", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "macpD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 63031, 
+                    "gene_endpos": 63351, 
+                    "gene_id": "AAM12933.1", 
+                    "gene_annotation": "MacpD", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mmpF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 63348, 
+                    "gene_endpos": 65585, 
+                    "gene_id": "AAM12934.1", 
+                    "gene_annotation": "MmpF", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "macpE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 65730, 
+                    "gene_endpos": 65972, 
+                    "gene_id": "AAM12935.1", 
+                    "gene_annotation": "MacpE", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 65995, 
+                    "gene_endpos": 66345, 
+                    "gene_id": "AAM12936.1", 
+                    "gene_annotation": "MupT", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupU", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 66415, 
+                    "gene_endpos": 67992, 
+                    "gene_id": "AAM12937.1", 
+                    "gene_annotation": "MupU", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupV", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 68027, 
+                    "gene_endpos": 70015, 
+                    "gene_id": "AAM12938.1", 
+                    "gene_annotation": "MupV", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupW", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 70055, 
+                    "gene_endpos": 71446, 
+                    "gene_id": "AAM12939.1", 
+                    "gene_annotation": "MupW", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 71638, 
+                    "gene_endpos": 72342, 
+                    "gene_id": "AAK28504.1", 
+                    "gene_annotation": "MupR", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupX", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 72380, 
+                    "gene_endpos": 73918, 
+                    "gene_id": "AAM12940.1", 
+                    "gene_annotation": "MupX", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "mupI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 73911, 
+                    "gene_endpos": 74486, 
+                    "gene_id": "AAK28505.1", 
+                    "gene_annotation": "MupI", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Iterative type I", 
+                "Trans-AT type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [], 
+            "nr_iterations": 3, 
+            "iterative_subtype": "Highly reducing", 
+            "trans_at": [
+                "1"
+            ], 
+            "pks_te_type": "Type I", 
+            "pks_release_type": "Hydrolysis", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AAM12909.2", 
+                    "pks_module": [
+                        {
+                            "module_nr": "5", 
+                            "pks_domains": [
+                                "KS", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "7", 
+                            "pks_domains": [
+                                "KS", 
+                                "T", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "Beta-branching"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAM12911.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "8", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T", 
+                                "T", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Iterated", 
+                            "pks_evidence_skip_iter": "Structure-based inference"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAM12913.2", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

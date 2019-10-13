@@ -1,0 +1,42 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "sioxanthin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 275581, 
+                    "Accession": "CP000667", 
+                    "start_coord": 274055
+                }, 
+                {
+                    "end_coord": 2705543, 
+                    "Accession": "CP000667", 
+                    "start_coord": 2704284
+                }, 
+                {
+                    "end_coord": 3727993, 
+                    "Accession": "CP000667", 
+                    "start_coord": 3720230
+                }, 
+                {
+                    "end_coord": 5036389, 
+                    "Accession": "CP000667", 
+                    "start_coord": 5031196
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001087", 
+        "publications": [
+            "25329237"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Saccharide", 
+            "Terpene"
+        ]
+    }
+}

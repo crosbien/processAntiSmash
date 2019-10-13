@@ -1,0 +1,62 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Prof. Dr. Karl-Dieter Entian", 
+        "submitter_institution": "Goethe University Frankfurt", 
+        "submitter_email": "Entian@bio.uni-frankfurt.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000511", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "11872722,25381239", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AF233755", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Ericin S", 
+                "chem_synonyms": [], 
+                "chem_struct": "NC(CC1=CNC2=C1C=CC=C2)C(NC(CCCCN)C(NC(CSCC(C(NC(C5C)C(N4C(C(NC([H])C(NC(CS5)C(NC(C(C)C)C(NC(C6C)C(NC([H])C(NC(C(C)C)C(NC(CC(C)C)C(NC(CCC(N)=O)C(NC(C(NC(CS6)C(NC(CC7=CC=CC=C7)C(NC(CC(C)C)C(NC(CCC(N)=O)C(NC(C8C)C(NC(C(CC)C)C(NC(C9C)C(NC(CS8)C(NC(CC(N)=O)C(NC(CS9)C(NC(CC%10=CNC=N%10)C(NC(C(CC)C)C(NC(C(NC(CCCCN)C(O)=O)=O)=C)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=O)=CC)=O)=O)=O)=O)=O)=O)=O)=O)=O)CCC4)=O)=O)NC3=O)C(NC(CCC(O)=O)C(NC(C(NC3C(C)C)=O)=C)=O)=O)=O)=O", 
+                "molecular_formula": "C149H224N40O38S5", 
+                "mol_mass": 3343.5, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Signalling"
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "RiPP": {
+            "ripp_subclass": "Lantipeptide", 
+            "lin_cycl_ripp": "Linear", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "eris"
+                    ], 
+                    "core_pept_aa": "WKSESVCTPGCVTGVLQTCFLQTITCNC", 
+                    "lead_pept_len": 24, 
+                    "foll_pept_len": 28, 
+                    "peptidase": []
+                }
+            ]
+        }
+    }
+}
+
+

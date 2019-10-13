@@ -1,0 +1,273 @@
+{
+    "version": "11", 
+    "personal": {
+        "submitter_name": "Changsheng Zhang", 
+        "submitter_institution": "South China Sea Institute of Oceanology, Chinese Academy of Sciences", 
+        "submitter_email": "czhang2006@gmail.com"
+    }, 
+    "general_params": {
+    	"mibig_accession": "BGC0001004", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "23868295,23432710,21897400", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KC013978", 
+                    "start_coord": 2344, 
+                    "end_coord": 100910, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "lobophorin B", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 44566672, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Cytotoxic"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "lobS1", 
+                    "gene_id": "AGI99478.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "lobG1", 
+                    "gene_id": "AGI99481.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "lobG2", 
+                    "gene_id": "AGI99486.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "lobG3", 
+                    "gene_id": "AGI99487.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Macrolide", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "lobA1, AGI99482.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "10", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Acyltransferase", 
+                                "Ketoreductase", 
+                                "Dehydratase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "pks_mod_doms": "None"
+                        }, 
+                        {
+                            "module_nr": "9", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Acyltransferase", 
+                                "Ketoreductase", 
+                                "Dehydratase", 
+                                "Enoylreductase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": "None"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "lobA2, AGI99494.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "11", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Acyltransferase", 
+                                "Ketoreductase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "pks_mod_doms": "None"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "lobA3, AGI99495.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "8", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Acyltransferase", 
+                                "Ketoreductase", 
+                                "Dehydratase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "pks_mod_doms": "None"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "lobA4, AGI99496.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "4", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Acyltransferase", 
+                                "Ketoreductase", 
+                                "Dehydratase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "pks_mod_doms": "None"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Acyltransferase", 
+                                "Ketoreductase", 
+                                "Dehydratase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "pks_mod_doms": "None"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Acyltransferase", 
+                                "Ketoreductase", 
+                                "Dehydratase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "pks_mod_doms": "None"
+                        }, 
+                        {
+                            "module_nr": "7", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Acyltransferase", 
+                                "Ketoreductase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "pks_mod_doms": "None"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "lobA5", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Acyltransferase", 
+                                "Ketoreductase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "pks_mod_doms": "None"
+                        }, 
+                        {
+                            "module_nr": "0", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Acyltransferase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "pks_mod_doms": "None"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Acyltransferase", 
+                                "Ketoreductase", 
+                                "Dehydratase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "pks_mod_doms": "None"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Acyltransferase", 
+                                "Ketoreductase", 
+                                "Dehydratase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "pks_mod_doms": "None"
+                        }
+                    ]
+                }
+            ], 
+            "pks_te_type": "Unknown", 
+            "pks_release_type": "Hydrolysis"
+        }
+    },
+    "comments": "The cluster described is found within Streptomyces sp. SCSIO 01127"
+}
+
+

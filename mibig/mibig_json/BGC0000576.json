@@ -1,0 +1,29 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "rubrivinodin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 728876, 
+                    "Accession": "AP012320", 
+                    "start_coord": 720921
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000576", 
+        "RiPP": {
+            "ripp_subclass": "Lasso Peptide"
+        }, 
+        "publications": [
+            "23897438"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

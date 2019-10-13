@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "aspercryptins"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 138817, 
+                    "Accession": "BN001302", 
+                    "start_coord": 74783
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001515", 
+        "publications": [
+            "27310134"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

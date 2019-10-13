@@ -1,0 +1,127 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Helge B. Bode", 
+        "submitter_institution": "Molecular Biotechnology, Institute for Molecular Bioscience, Goethe University Frankfurt, 60438 Frankfurt/Main, Germany", 
+        "submitter_email": "h.bode@bio.uni-frankfurt.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001129", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "24816640", 
+        "loci": {
+            "complete": "unknown", 
+            "nucl_acc": [
+                {
+                    "Accession": "-", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Xenolindicin A", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC(=O)[C@@H](NC(=O)[C@H](CCC(=O)O)NC(=O)[C@@H](CCCCN)NC(=O)[C@@H](CO)NC(=O)[C@H](CC(N)=O)NC(=O)[C@@H](CCC(N)=O)NC(=O)CCCCCCCCCCCCC)C(C)O", 
+                "molecular_formula": "C41H74N9O14", 
+                "mol_mass": 916.534975, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "NRP": {
+            "subclass": "Other lipopeptide", 
+            "lipid_moiety": "n-terminal myristic acid", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "-", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Glutamine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "Starter", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Asparagine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Serine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Lysine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Glutamate", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Threonine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ], 
+            "nrps_te_type": "Type I", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Hydrolysis"
+        }
+    }
+}
+

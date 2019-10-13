@@ -1,0 +1,94 @@
+{
+    "version": "12", 
+    "personal": {
+        "submitter_name": "Keishi Ishida", 
+        "submitter_institution": "Leibniz Institute for Natural Product Research and Infection Biology", 
+        "submitter_email": "keishi.ishida@hki-jena.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000892", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "24898429, 24588891, 8544177", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP002599", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Proven expression in natural host", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Caryoynencin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 6474912, 
+                "chemspider_id": 4976794, 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_id": "AEA60662", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "Loss of caryoynencin production"
+                }, 
+                {
+                    "gene_id": "AEA60661", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "Loss of caryoynencin production"
+                }, 
+                {
+                    "gene_id": "AEA60655", 
+                    "gene_annotation": "bifunctional desaturase and hydroxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "Production of intermediate and loss of caryoynencin production"
+                }
+            ], 
+            "operon": [
+                {
+                    "operon_genes": []
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "None"
+        }
+    }, 
+    "comments": "The experimental validation of function and structure was done in Burkholderia caryophylli strain DSM 50341, not in Burkholderia gladioli BSR3. The accession numbers of the experimentally targeted genes are: KJ815051, KJ815052, KJ815053, KJ815054, KJ815055, KJ815056, KJ815057, KJ815058, KJ815059, KJ815060."
+}
+

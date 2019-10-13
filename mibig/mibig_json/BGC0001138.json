@@ -1,0 +1,365 @@
+{
+    "version": "11", 
+    "personal": {
+        "submitter_name": "Jianhua Ju", 
+        "submitter_institution": "South China Sea Institute of Oceanology,Chinese Academy of Sciences", 
+        "submitter_email": "jju@scsio.ac.cn"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001138", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "22064543", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "JN651966", 
+                    "start_coord": 3630, 
+                    "end_coord": 37225, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "a201a", 
+                "chem_synonyms": [], 
+                "chem_struct": "CN(C)C1=C2C(N([C@H]3[C@H](O)[C@H](NC(/C(C)=C/C4=CC=C(O[C@@H]([C@@H](O)[C@H]/5O)OC5=C(CO[C@@H]6[C@@H](O)[C@@H](OC)[C@H](OC)[C@@H](C)O6)/OC)C=C4)=O)[C@@H](CO)O3)C=N2)=NC=N1", 
+                "molecular_formula": "C37H50N6O14", 
+                "mol_mass": 802.3385, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "binds to ribosome so as to inhibit protein synthesis"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "mtdE", 
+                    "gene_id": "protein_id=AET51843.1", 
+                    "gene_annotation": "NTP-pyrophosphohydrolase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdA", 
+                    "gene_id": "protein_id=AET51839.1", 
+                    "gene_annotation": "GntR family transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdB", 
+                    "gene_id": "protein_id=AET51840.1", 
+                    "gene_annotation": "peptidase S15", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdC", 
+                    "gene_id": "protein_id=AET51841.1", 
+                    "gene_annotation": "putative uncharacterized protein", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdD", 
+                    "gene_id": "protein_id=AET51842.1", 
+                    "gene_annotation": "putative uncharacterized protein", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdF", 
+                    "gene_id": "protein_id=AET51844.1", 
+                    "gene_annotation": "oxireductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdG", 
+                    "gene_id": "protein_id=AET51845.1", 
+                    "gene_annotation": "aminotransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Amination", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdM1", 
+                    "gene_id": "protein_id=AET51846.1", 
+                    "gene_annotation": "N-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdH", 
+                    "gene_id": "protein_id=AET51847.1", 
+                    "gene_annotation": "GDP-D-manose-4,6-dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydration", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdI", 
+                    "gene_id": "protein_id=AET51848.1", 
+                    "gene_annotation": "acyltransferase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdG1", 
+                    "gene_id": "protein_id=AET51849.1", 
+                    "gene_annotation": "glycosyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdJ", 
+                    "gene_id": "protein_id=AET51850.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdR1", 
+                    "gene_id": "protein_id=AET51851.1", 
+                    "gene_annotation": "ABC transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdK", 
+                    "gene_id": "protein_id=AET51852.1", 
+                    "gene_annotation": "glucokinase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Phosphorylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdL", 
+                    "gene_id": "protein_id=AET51853.1", 
+                    "gene_annotation": "transglycosylse", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Epimerization", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdM", 
+                    "gene_id": "protein_id=AET51872.1", 
+                    "gene_annotation": "NAD-dependent epimerase/dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Epimerization", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdN", 
+                    "gene_id": "protein_id=AET51854.1", 
+                    "gene_annotation": "acyl carrier protein", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdO", 
+                    "gene_id": "protein_id=AET51855.1", 
+                    "gene_annotation": "ketoacyl synthase 1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdP", 
+                    "gene_id": "protein_id=AET51856.1", 
+                    "gene_annotation": "putative uncharacterized protein", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdQ", 
+                    "gene_id": "protein_id=AET51857.1", 
+                    "gene_annotation": "CoA-ligase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdS", 
+                    "gene_id": "protein_id=AET51858.1", 
+                    "gene_annotation": "ACP", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdT", 
+                    "gene_id": "protein_id=AET51859.1", 
+                    "gene_annotation": "3-ketoacyl ACP dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydration", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdR2", 
+                    "gene_id": "protein_id=AET51860.1", 
+                    "gene_annotation": "phosphotransferase", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdU", 
+                    "gene_id": "protein_id=AET51861.1", 
+                    "gene_annotation": "3-ketoacyl ACP reductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdG2", 
+                    "gene_id": "protein_id=AET51862.1", 
+                    "gene_annotation": "glycosyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdM2", 
+                    "gene_id": "protein_id=AET51863.1", 
+                    "gene_annotation": "methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdV", 
+                    "gene_id": "protein_id=AET51864.1", 
+                    "gene_annotation": "putative chorismate pyruvate-lyase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdM3", 
+                    "gene_id": "protein_id=AET51865.1", 
+                    "gene_annotation": "methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdR3", 
+                    "gene_id": "protein_id=AET51866.1", 
+                    "gene_annotation": "transmembrane protein", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdW", 
+                    "gene_id": "protein_id=AET51867.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }, 
+                {
+                    "gene_name": "mtdM4", 
+                    "gene_id": "protein_id=AET51868.1", 
+                    "gene_annotation": "methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "not obvious"
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Nucleoside"
+        }
+    }
+}
+

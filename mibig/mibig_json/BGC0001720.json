@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CC1=C(O)C(=O)C(=C(O)C1=O)C1=C(O)C(=O)C(C)=C(O)C1=O", 
+                "compound": "oosporein"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 54012, 
+                    "Accession": "JH725181", 
+                    "start_coord": 8391
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001720", 
+        "publications": [
+            "28193896"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 51394521, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "(+)-T-muurolol "
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 69969, 
+                    "Accession": "DS570654", 
+                    "start_coord": 64994
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000675", 
+        "publications": [
+            "21276937"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

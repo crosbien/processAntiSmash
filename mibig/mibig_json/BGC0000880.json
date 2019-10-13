@@ -1,0 +1,252 @@
+{
+  "personal": {
+    "submitter_email": "david.widdick@jic.ac.uk",
+    "submitter_name": "David Widdick and Juan Pablo Gomez-Escribano",
+    "submitter_institution": "John Innes Centre"
+  },
+  "version": "17",
+  "comments": "The core sugar components of tunicamycin are identical to corynetoxin, however between the two variations in lipid side chain exist.",
+  "general_params": {
+    "loci": {
+      "nucl_acc": [
+        {
+          "end_coord": 20609,
+          "Accession": "HQ172897",
+          "conn_comp_cluster": [
+            "Knock-out studies",
+            "Enzymatic assays",
+            "Heterologous expression",
+            "Sequence-based prediction"
+          ],
+          "start_coord": 8616
+        }
+      ],
+      "complete": "complete"
+    },
+    "compounds": [
+      {
+        "chemspider_id": 27471420,
+        "mol_mass": 830.916,
+        "chem_struct": "CCCCCCCCCCCC/C=C/C(=O)N[C@@H]1[C@H]([C@H]([C@H](O[C@H]1O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)NC(=O)C)C[C@H]([C@@H]3[C@H]([C@H]([C@@H](O3)n4ccc(=O)[nH]c4=O)O)O)O)O)O",
+        "chem_synonyms": [
+          "tunicamycin IV"
+        ],
+        "database_deposited": true,
+        "chem_target": "MraY",
+        "compound": "Tunicamycin B1",
+        "molecular_formula": "C38H62N4O16",
+        "databases_deposited": [
+          "ChemSpider"
+        ],
+        "chem_act": [
+          "Antibacterial",
+          "Antifungal",
+          "Cytotoxic"
+        ]
+      }
+    ],
+    "genes": {
+      "operon": [
+        {
+          "operon_genes": [
+            "tuna",
+            "tunb",
+            "tunc",
+            "tund",
+            "tune",
+            "tunf",
+            "tung",
+            "tunh",
+            "tuni",
+            "tunj",
+            "tunk",
+            "tunl",
+            "tunm",
+            "tunn"
+          ],
+          "evidence_operon": "Sequence-based prediction"
+        }
+      ],
+      "gene": [
+        {
+          "gene_function": "Precursor biosynthesis",
+          "gene_endpos": 9581,
+          "evidence_genefunction": [
+            "Activity assay"
+          ],
+          "gene_id": "ADP94221.1",
+          "gene_annotation": "TunA",
+          "gene_startpos": 8616,
+          "not_in_gbk": false,
+          "gene_name": "tunA"
+        },
+        {
+          "gene_function": "Precursor biosynthesis",
+          "gene_endpos": 10597,
+          "evidence_genefunction": [
+            "Knock-out"
+          ],
+          "gene_id": "ADP94222.1",
+          "gene_annotation": "TunB",
+          "gene_startpos": 9581,
+          "not_in_gbk": false,
+          "mut_pheno": "Abolishes production",
+          "gene_name": "tunB"
+        },
+        {
+          "gene_function": "",
+          "gene_endpos": 11557,
+          "evidence_genefunction": [
+            ""
+          ],
+          "gene_id": "ADP94223.1",
+          "gene_annotation": "TunC",
+          "gene_startpos": 10601,
+          "not_in_gbk": false,
+          "gene_name": "tunC"
+        },
+        {
+          "gene_function": "",
+          "gene_endpos": 12981,
+          "evidence_genefunction": [
+            ""
+          ],
+          "gene_id": "ADP94224.1",
+          "gene_annotation": "TunD",
+          "gene_startpos": 11557,
+          "not_in_gbk": false,
+          "gene_name": "tunD"
+        },
+        {
+          "gene_function": "",
+          "gene_endpos": 13682,
+          "evidence_genefunction": [
+            ""
+          ],
+          "gene_id": "ADP94225.1",
+          "gene_annotation": "TunE",
+          "gene_startpos": 12978,
+          "not_in_gbk": false,
+          "gene_name": "tunE"
+        },
+        {
+          "gene_function": "Precursor biosynthesis",
+          "gene_endpos": 14662,
+          "evidence_genefunction": [
+            "Activity assay"
+          ],
+          "gene_id": "ADP94226.1",
+          "gene_annotation": "TunF",
+          "gene_startpos": 13679,
+          "not_in_gbk": false,
+          "mut_pheno": "Abolishes production",
+          "gene_name": "tunF"
+        },
+        {
+          "gene_function": "",
+          "gene_endpos": 15275,
+          "evidence_genefunction": [
+            ""
+          ],
+          "gene_id": "ADP94227.1",
+          "gene_annotation": "TunG",
+          "gene_startpos": 14664,
+          "not_in_gbk": false,
+          "gene_name": "tunG"
+        },
+        {
+          "gene_function": "",
+          "gene_endpos": 16819,
+          "evidence_genefunction": [
+            ""
+          ],
+          "gene_id": "ADP94228.1",
+          "gene_annotation": "TunH",
+          "gene_startpos": 15272,
+          "not_in_gbk": false,
+          "gene_name": "tunH"
+        },
+        {
+          "gene_function": "",
+          "gene_endpos": 17736,
+          "evidence_genefunction": [
+            ""
+          ],
+          "gene_id": "ADP94229.1",
+          "gene_annotation": "TunI",
+          "gene_startpos": 16822,
+          "not_in_gbk": false,
+          "gene_name": "tunI"
+        },
+        {
+          "gene_function": "",
+          "gene_endpos": 18508,
+          "evidence_genefunction": [
+            ""
+          ],
+          "gene_id": "ADP94230.1",
+          "gene_annotation": "TunJ",
+          "gene_startpos": 17720,
+          "not_in_gbk": false,
+          "gene_name": "tunJ"
+        },
+        {
+          "gene_function": "",
+          "gene_endpos": 18793,
+          "evidence_genefunction": [
+            ""
+          ],
+          "gene_id": "ADP94231.1",
+          "gene_annotation": "TunK",
+          "gene_startpos": 18548,
+          "not_in_gbk": false,
+          "gene_name": "tunK"
+        },
+        {
+          "gene_function": "",
+          "gene_endpos": 19479,
+          "evidence_genefunction": [
+            ""
+          ],
+          "gene_id": "ADP94232.1",
+          "gene_annotation": "TunL",
+          "gene_startpos": 18790,
+          "not_in_gbk": false,
+          "gene_name": "tunL"
+        },
+        {
+          "gene_function": "",
+          "gene_endpos": 20137,
+          "evidence_genefunction": [
+            ""
+          ],
+          "gene_id": "ADP94233.1",
+          "gene_annotation": "TunM",
+          "gene_startpos": 19487,
+          "not_in_gbk": false,
+          "gene_name": "tunM"
+        },
+        {
+          "gene_function": "",
+          "gene_endpos": 20609,
+          "evidence_genefunction": [
+            ""
+          ],
+          "gene_id": "ADP94234.1",
+          "gene_annotation": "TunN",
+          "gene_startpos": 20151,
+          "not_in_gbk": false,
+          "gene_name": "tunN"
+        }
+      ]
+    },
+    "mibig_accession": "BGC0000880",
+    "Other": {
+      "other_subclass": "None"
+    },
+    "biosyn_class": [
+      "Nucleoside"
+    ],
+    "publications": " 22717438 , "
+  }
+}

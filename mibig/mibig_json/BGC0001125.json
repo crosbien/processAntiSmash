@@ -1,0 +1,61 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 72193951, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "puwainaphycin A"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 72193952, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "puwainaphycin B"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 72193953, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "puwainaphycin C"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 72193954, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "puwainaphycin D"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KM078884", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001125", 
+        "publications": [
+            "25369527"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

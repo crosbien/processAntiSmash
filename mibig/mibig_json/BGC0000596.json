@@ -1,0 +1,83 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Alexey Melnik", 
+        "submitter_institution": "UCSD", 
+        "submitter_email": "alexvmelnik@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000596", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "21983601", 
+        "loci": {
+            "complete": "incomplete", 
+            "nucl_acc": [
+                {
+                    "Accession": "NZ_GG657756", 
+                    "start_coord": 5668767, 
+                    "end_coord": 5690544, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "SLI-2138", 
+                "chem_synonyms": [], 
+                "mol_mass": 2138.17, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_id": "SSPG_05081", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_id": "SSPG_05087", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_id": "SSPG_05088", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_id": "SSPG_05090", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_id": "SSPG_05093", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_id": "SSPG_05096", 
+                    "gene_annotation": "FAD-dependent oxidoreductase", 
+                    "gene_function": "Unknown"
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "Other", 
+            "lin_cycl_ripp": "Linear", 
+            "precursor_loci": [
+                {
+                    "gene_id": [], 
+                    "core_pept_aa": "MNLLTDILAGLVHFVGWLV", 
+                    "lead_pept_len": 30, 
+                    "foll_pept_len": 19, 
+                    "peptidase": []
+                }
+            ]
+        }
+    }
+}
+
+

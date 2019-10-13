@@ -1,0 +1,590 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "David Fewer", 
+        "submitter_institution": "University of Helsinki", 
+        "submitter_email": "david.fewer@helsinki.fi"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000369", 
+        "biosyn_class": [
+            "NRP", 
+            "Saccharide"
+        ], 
+        "publications": "24742428", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KJ502174", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Hassallidin C", 
+                "chem_synonyms": [],
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antifungal"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "acetylated hexosamine", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 154, 
+                    "gene_endpos": 1275, 
+                    "gene_id": "AHZ20758.1", 
+                    "gene_annotation": "phage integrase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1472, 
+                    "gene_endpos": 2344, 
+                    "gene_id": "AHZ20759.1", 
+                    "gene_annotation": "IS5 family IS5 ssgr transposase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2620, 
+                    "gene_endpos": 4380, 
+                    "gene_id": "AHZ20760.1", 
+                    "gene_annotation": "ABC transporter transmembrane domain/ATP-binding domain protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4713, 
+                    "gene_endpos": 6743, 
+                    "gene_id": "AHZ20761.1", 
+                    "gene_annotation": "alpha amylase catalytic domain-containing protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6951, 
+                    "gene_endpos": 7991, 
+                    "gene_id": "AHZ20762.1", 
+                    "gene_annotation": "methyltransferase domain-containing protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8047, 
+                    "gene_endpos": 8835, 
+                    "gene_id": "AHZ20763.1", 
+                    "gene_annotation": "glycosyl transferase family 2 protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8832, 
+                    "gene_endpos": 9344, 
+                    "gene_id": "AHZ20764.1", 
+                    "gene_annotation": "GtrA-like protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9348, 
+                    "gene_endpos": 10988, 
+                    "gene_id": "AHZ20765.1", 
+                    "gene_annotation": "putative membrane protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11023, 
+                    "gene_endpos": 12405, 
+                    "gene_id": "AHZ20766.1", 
+                    "gene_annotation": "AMP-dependent synthetase/ligase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12405, 
+                    "gene_endpos": 12740, 
+                    "gene_id": "AHZ20767.1", 
+                    "gene_annotation": "acyl carrier protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12748, 
+                    "gene_endpos": 13854, 
+                    "gene_id": "AHZ20768.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13892, 
+                    "gene_endpos": 15223, 
+                    "gene_id": "AHZ20769.1", 
+                    "gene_annotation": "putative esterase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15220, 
+                    "gene_endpos": 16560, 
+                    "gene_id": "AHZ20770.1", 
+                    "gene_annotation": "major facilitator transporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16657, 
+                    "gene_endpos": 17421, 
+                    "gene_id": "AHZ20771.1", 
+                    "gene_annotation": "3-oxoacyl-acyl-carrier-protein reductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17666, 
+                    "gene_endpos": 18238, 
+                    "gene_id": "AHZ20772.1", 
+                    "gene_annotation": "aspartyl/asparaginyl beta-hydroxylase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18328, 
+                    "gene_endpos": 27489, 
+                    "gene_id": "AHZ20773.1", 
+                    "gene_annotation": "non-ribosomal peptide synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27532, 
+                    "gene_endpos": 38469, 
+                    "gene_id": "AHZ20774.1", 
+                    "gene_annotation": "non-ribosomal peptide synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 38488, 
+                    "gene_endpos": 39546, 
+                    "gene_id": "AHZ20775.1", 
+                    "gene_annotation": "NAD dependent epimerase/dehydratase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasQ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 39630, 
+                    "gene_endpos": 40835, 
+                    "gene_id": "AHZ20776.1", 
+                    "gene_annotation": "glycosyltransferase MGT family", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 40926, 
+                    "gene_endpos": 42032, 
+                    "gene_id": "AHZ20777.1", 
+                    "gene_annotation": "putative acyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasS", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 42120, 
+                    "gene_endpos": 42644, 
+                    "gene_id": "AHZ20778.1", 
+                    "gene_annotation": "transcription factor jumonji domain-containing protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 42721, 
+                    "gene_endpos": 43488, 
+                    "gene_id": "AHZ20779.1", 
+                    "gene_annotation": "glycosyltransferase DXD motif-containing protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasU", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43558, 
+                    "gene_endpos": 43779, 
+                    "gene_id": "AHZ20780.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasV", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43869, 
+                    "gene_endpos": 50324, 
+                    "gene_id": "AHZ20781.1", 
+                    "gene_annotation": "non-ribosomal peptide synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasW", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 50526, 
+                    "gene_endpos": 50897, 
+                    "gene_id": "AHZ20782.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasX", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 50903, 
+                    "gene_endpos": 51844, 
+                    "gene_id": "AHZ20783.1", 
+                    "gene_annotation": "glycosyl transferase family 2 protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasY", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 51868, 
+                    "gene_endpos": 60414, 
+                    "gene_id": "AHZ20784.1", 
+                    "gene_annotation": "non-ribosomal peptide synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hasZ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 60476, 
+                    "gene_endpos": 61759, 
+                    "gene_id": "AHZ20785.1", 
+                    "gene_annotation": "major facilitator transporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 61873, 
+                    "gene_endpos": 62229, 
+                    "gene_id": "AHZ20786.1", 
+                    "gene_annotation": "IS1380 family transposase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 62268, 
+                    "gene_endpos": 63722, 
+                    "gene_id": "AHZ20787.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 63681, 
+                    "gene_endpos": 64994, 
+                    "gene_id": "AHZ20788.1", 
+                    "gene_annotation": "CemA family protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 65053, 
+                    "gene_endpos": 67245, 
+                    "gene_id": "AHZ20789.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Hydrolysis", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AHZ20766.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Dihydroxy hexadecanoic acid", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AHZ20773.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Threonine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Tyrosine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AHZ20774.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "5", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Threonine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Glutamine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "7", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Glycine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AHZ20781.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Threonine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Starter", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Threonine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AHZ20784.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "8", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "N-methyl-threonine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "Methylation", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "9", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Glutamine / Tyrosine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+

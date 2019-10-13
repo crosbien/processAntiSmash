@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "moomysin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 79729, 
+                    "Accession": "NC_017586", 
+                    "start_coord": 76815
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001673", 
+        "publications": [
+            "28244986"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

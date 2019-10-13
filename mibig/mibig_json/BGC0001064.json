@@ -1,0 +1,315 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Emily Balskus", 
+        "submitter_institution": "Harvard University", 
+        "submitter_email": "balskus@chemistry.harvard.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001064", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "23106426", 
+        "loci": {
+            "complete": "unknown", 
+            "nucl_acc": [
+                {
+                    "Accession": "JX477167", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Cylindrocyclophane D", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C2C(O)=CC([C@H](OC(C)=O)[C@@H](C)CCCC[C@H](CCCC)C(C(O)=C3)=C(O)C=C3[C@H](OC(C)=O)[C@@H](C)CCCC[C@@H]2CCCC)=C1", 
+                "molecular_formula": "C40H60O8", 
+                "mol_mass": 668.43, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "paracyclophane ring", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }, 
+            {
+                "compound": "Cylindrocyclophane E", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C2C(O)=CC([C@H](OC(C)=O)[C@@H](C)CCCC[C@H](CCCC)C(C(O)=C3)=C(O)C=C3C[C@@H](C)CCCC[C@@H]2CCCC)=C1", 
+                "molecular_formula": "C38H58O6", 
+                "mol_mass": 610.42, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "paracyclophane ring", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }, 
+            {
+                "compound": "Cylindrocyclophane F", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C2C(O)=CC(C[C@@H](C)CCCC[C@H](CCCC)C(C(O)=C3)=C(O)C=C3C[C@@H](C)CCCC[C@@H]2CCCC)=C1", 
+                "molecular_formula": "C36H56O4", 
+                "mol_mass": 552.42, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "paracyclophane ring", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "cylA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1069, 
+                    "gene_endpos": 2886, 
+                    "gene_id": "AFV96135.1", 
+                    "gene_annotation": "AMP-dependent synthetase/ligase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "cylB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3419, 
+                    "gene_endpos": 3745, 
+                    "gene_id": "AFV96136.1", 
+                    "gene_annotation": "acyl carrier protein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "cylC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4003, 
+                    "gene_endpos": 5418, 
+                    "gene_id": "AFV96137.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "cylD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5656, 
+                    "gene_endpos": 9342, 
+                    "gene_id": "AFV96138.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cylE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9332, 
+                    "gene_endpos": 10573, 
+                    "gene_id": "AFV96139.1", 
+                    "gene_annotation": "beta-ketoacyl synthase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cylF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10578, 
+                    "gene_endpos": 11837, 
+                    "gene_id": "AFV96140.1", 
+                    "gene_annotation": "HMG-CoA synthase-like enzyme", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cylG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11840, 
+                    "gene_endpos": 12604, 
+                    "gene_id": "AFV96141.1", 
+                    "gene_annotation": "enoyl-CoA hydratase/isomerase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cylH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12592, 
+                    "gene_endpos": 19266, 
+                    "gene_id": "AFV96142.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cylI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19362, 
+                    "gene_endpos": 20483, 
+                    "gene_id": "AFV96143.1", 
+                    "gene_annotation": "type III polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "cylJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20495, 
+                    "gene_endpos": 21094, 
+                    "gene_id": "AFV96144.1", 
+                    "gene_annotation": "phospholipid methyltransferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "cylK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21475, 
+                    "gene_endpos": 23430, 
+                    "gene_id": "AFV96145.1", 
+                    "gene_annotation": "hemolysin-type calcium-binding region", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "cylL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23972, 
+                    "gene_endpos": 25579, 
+                    "gene_id": "AFV96146.1", 
+                    "gene_annotation": "choline dehydrogenase-like flavoprotein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Modular type I", 
+                "Type III"
+            ], 
+            "starter_unit": "Other", 
+            "pks_genes": [
+                "afv96143"
+            ], 
+            "ketide_length": 4, 
+            "pks_te_type": "Other", 
+            "pks_thioesterase": [
+                "afv96142"
+            ], 
+            "pks_release_type": "Other", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AFV96135.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "0", 
+                            "pks_domains": [
+                                "CAL"
+                            ], 
+                            "at_substr_spec": "Decanoyl-CoA", 
+                            "evidence_at_spec": "Activity assay", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AFV96138.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AFV96142.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "ER", 
+                                "KS", 
+                                "AT", 
+                                "T", 
+                                "TE"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Activity assay", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

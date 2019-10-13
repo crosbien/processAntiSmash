@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "asperipin 2a"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 846480, 
+                    "Accession": "EQ963476", 
+                    "start_coord": 840072
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001306", 
+        "RiPP": {
+            "ripp_subclass": "Other"
+        }, 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "minimal": true
+    }
+}

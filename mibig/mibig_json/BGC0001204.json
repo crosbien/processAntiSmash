@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 73348086, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "versipelostatin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 115042, 
+                    "Accession": "LC006086", 
+                    "start_coord": 6818
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001204", 
+        "publications": [
+            "25551461"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Other"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

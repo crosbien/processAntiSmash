@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "venemycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 549437, 
+                    "Accession": "NZ_CP018074", 
+                    "start_coord": 519875
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001819", 
+        "publications": [
+            "27605017"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

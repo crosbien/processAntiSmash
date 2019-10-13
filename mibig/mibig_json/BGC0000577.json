@@ -1,0 +1,29 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "sphingonodin II"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 77087, 
+                    "Accession": "AP010805", 
+                    "start_coord": 68575
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000577", 
+        "RiPP": {
+            "ripp_subclass": "Lasso Peptide"
+        }, 
+        "publications": [
+            "23897438"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

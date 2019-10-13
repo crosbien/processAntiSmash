@@ -1,0 +1,28 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "caboxamycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 5323285, 
+                    "Accession": "NZ_JJOB01000001", 
+                    "start_coord": 5309241
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001444", 
+        "Other": {
+            "biosyn_class": [
+                "Other"
+            ]
+        }, 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "minimal": true
+    }
+}

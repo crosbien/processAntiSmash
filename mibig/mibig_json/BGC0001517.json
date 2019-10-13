@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C1=CC=C(C=C1)C[C@@H](COC(=O)[C@H](CC2=CC=CC=C2)NC(=O)C3=CC=CC=C3)NC(=O)C4=CC=CC=C4", 
+                "compound": "asperphenamate"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 184270, 
+                    "Accession": "NT_165937", 
+                    "start_coord": 159865
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001517", 
+        "publications": [
+            "29719714"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "John Biggins", 
+        "submitter_institution": "The Rockefeller University", 
+        "submitter_email": "jbiggins@rockefeller.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000830", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "AF367409.1", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AF367409", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Violacein", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 9928039, 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_target": "TNF-alpha-1", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Indole group", 
+                        "moiety_subcluster": [
+                            "tryptophan dimer"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "aam21200.1", 
+                        "aam21201.1", 
+                        "aam21202.1", 
+                        "aam21203.1"
+                    ], 
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "vioA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1501, 
+                    "gene_endpos": 2805, 
+                    "gene_id": "AAM21200.1", 
+                    "gene_annotation": "VioA", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "vioB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2802, 
+                    "gene_endpos": 5819, 
+                    "gene_id": "AAM21201.1", 
+                    "gene_annotation": "VioB", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "vioC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5821, 
+                    "gene_endpos": 7110, 
+                    "gene_id": "AAM21202.1", 
+                    "gene_annotation": "VioC", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "vioD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7110, 
+                    "gene_endpos": 8228, 
+                    "gene_id": "AAM21203.1", 
+                    "gene_annotation": "VioD", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Aminocoumarin"
+        }
+    }
+}
+
+

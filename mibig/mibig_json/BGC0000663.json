@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 92155, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "hopene"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 7529773, 
+                    "Accession": "AL645882", 
+                    "start_coord": 7516017
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000663", 
+        "publications": [
+            "12000953", 
+            "8843436"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

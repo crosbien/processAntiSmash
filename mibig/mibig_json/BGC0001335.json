@@ -1,0 +1,303 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Fang-Yuan Chang", 
+        "submitter_institution": "MIT", 
+        "submitter_email": "fangyuanchang@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001335", 
+        "biosyn_class": [
+            "Alkaloid"
+        ], 
+        "publications": "23302687", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "JX827455", 
+                    "start_coord": 9991, 
+                    "end_coord": 36113, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "borregomycin A", 
+                "chem_synonyms": [
+                    "borregomycin"
+                ], 
+                "chem_struct": "O=C1[C@]2(OC)N3C(C4=C([C@]2(OC)C(N1C)=O)C5=CC=C(Cl)C=C5N4)(O)C(C6=CC=C(Cl)C=C63)=O", 
+                "molecular_formula": "C23H17Cl2N3O6", 
+                "mol_mass": 500.0403, 
+                "mass_ion_type": "M-", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Indole group", 
+                        "moiety_subcluster": [
+                            "agi62212.1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "compound": "borregomycin B",
+                "database_deposited": true,
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "pubchem_id": 102196434
+            },
+            {
+                "compound": "borregomycin C",
+                "database_deposited": true,
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "pubchem_id": 102196435
+            },
+            {
+                "compound": "borregomycin D",
+                "database_deposited": true,
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "pubchem_id": 102196436
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "borR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9991, 
+                    "gene_endpos": 12867, 
+                    "gene_id": "AGI62210.1", 
+                    "gene_annotation": "transcriptional regulatory protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "borP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13009, 
+                    "gene_endpos": 14274, 
+                    "gene_id": "AGI62211.1", 
+                    "gene_annotation": "RebP-like cytochrome P450", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "borD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14345, 
+                    "gene_endpos": 17635, 
+                    "gene_id": "AGI62212.1", 
+                    "gene_annotation": "chromopyrrolic acid synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "borO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17650, 
+                    "gene_endpos": 19092, 
+                    "gene_id": "AGI62213.1", 
+                    "gene_annotation": "tryptophan oxidase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "borT1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19368, 
+                    "gene_endpos": 19892, 
+                    "gene_id": "AGI62214.1", 
+                    "gene_annotation": "putative ATP-binding ABC transporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "borT2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19889, 
+                    "gene_endpos": 20665, 
+                    "gene_id": "AGI62215.1", 
+                    "gene_annotation": "putative ATP-binding ABC transporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "borF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20626, 
+                    "gene_endpos": 21216, 
+                    "gene_id": "AGI62216.1", 
+                    "gene_annotation": "flavin reductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "borH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21229, 
+                    "gene_endpos": 22818, 
+                    "gene_id": "AGI62217.1", 
+                    "gene_annotation": "tryptophan 6-halogenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "borM1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22845, 
+                    "gene_endpos": 23591, 
+                    "gene_id": "AGI62218.1", 
+                    "gene_annotation": "methyltransferase borM1", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "borC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23915, 
+                    "gene_endpos": 25531, 
+                    "gene_id": "AGI62219.1", 
+                    "gene_annotation": "RebC-like monooxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "borX2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25580, 
+                    "gene_endpos": 26833, 
+                    "gene_id": "AGI62220.1", 
+                    "gene_annotation": "AbeX2-like monooxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "borY1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26925, 
+                    "gene_endpos": 27386, 
+                    "gene_id": "AGI62221.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "borY2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27457, 
+                    "gene_endpos": 27771, 
+                    "gene_id": "AGI62222.1", 
+                    "gene_annotation": "monooxygenase-like protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "borT3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27842, 
+                    "gene_endpos": 30007, 
+                    "gene_id": "AGI62223.1", 
+                    "gene_annotation": "putative drug exporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "borX3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30194, 
+                    "gene_endpos": 31429, 
+                    "gene_id": "AGI62224.1", 
+                    "gene_annotation": "cytochrome P450", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "borX1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31719, 
+                    "gene_endpos": 33386, 
+                    "gene_id": "AGI62225.1", 
+                    "gene_annotation": "AbeX1-like monooxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "borM2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33749, 
+                    "gene_endpos": 34477, 
+                    "gene_id": "AGI62226.1", 
+                    "gene_annotation": "methyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "borM3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 34551, 
+                    "gene_endpos": 36113, 
+                    "gene_id": "AGI62227.1", 
+                    "gene_annotation": "methyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "Alkaloid": {
+            "alkaloid_subclass": "Indole/benzopyrrole"
+        }
+    }
+}

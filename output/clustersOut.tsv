@@ -1,0 +1,89 @@
+Pairings.annotation	Pairings.genecluster	Pairings.input	Biosynthetic_class	Chemical_activity1	Chemical_activity2	Product_compound1	Product_compound2	Product_compound3	Accession	Organism	Data_file
+N-terminal_cyanobactin_protease	BGC0001167_c1	input|c2|46417-47488|+|MAE_00640|putative	RiPP	Unknown		Piricyclamide			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+hypothetical_protein	BGC0001167_c1	input|c2|47616-47826|+|MAE_00650|hypothetical	RiPP	Unknown		Piricyclamide			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+piricyclamide_precursor	BGC0001167_c1	input|c2|49053-49209|+|MAE_00670|unknown	RiPP	Unknown		Piricyclamide			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+C-terminal_cyanoabactin_protease	BGC0001167_c1	input|c2|50783-52235|+|MAE_00700|putative	RiPP	Unknown		Piricyclamide			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+ABC_transporter	BGC0000592_c1	input|c5|2173289-2175353|+|MAE_24070|ABC-transporter	RiPP	Inhibitor		Microviridin B			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+acetyltransferase	BGC0000592_c1	input|c5|2175499-2176033|+|MAE_24080|acetyltransferase	RiPP	Inhibitor		Microviridin B			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+ATP_grasp_ligase	BGC0000592_c1	input|c5|2176296-2177271|-|MAE_24090|hypothetical	RiPP	Inhibitor		Microviridin B			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+ATP_grasp_ligase	BGC0000592_c1	input|c5|2177324-2178305|-|MAE_24100|hypothetical	RiPP	Inhibitor		Microviridin B			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+ATP_grasp_ligase	BGC0000593_c1	input|c5|2176296-2177271|-|MAE_24090|hypothetical	RiPP	Inhibitor		microviridin J			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+ATP_grasp_ligase	BGC0000593_c1	input|c5|2177324-2178305|-|MAE_24100|hypothetical	RiPP	Inhibitor		microviridin J			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+Uma3	BGC0001017_c1	input|c8|3480965-3482492|+|MAE_38500|hypothetical	NRP	Cytotoxic	Inhibitor	microcystin LR			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+Uma1	BGC0001017_c1	input|c8|3484072-3486124|+|MAE_38540|hypothetical	NRP	Cytotoxic	Inhibitor	microcystin LR			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+McyC	BGC0001017_c1	input|c8|3486435-3490311|-|MAE_38550|McyC	NRP	Cytotoxic	Inhibitor	microcystin LR			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+McyA	BGC0001017_c1	input|c8|3496703-3505067|-|MAE_38570|McyA	NRP	Cytotoxic	Inhibitor	microcystin LR			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+McyD	BGC0001017_c1	input|c8|3505973-3517679|+|MAE_38600|McyD	NRP	Cytotoxic	Inhibitor	microcystin LR			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+McyE	BGC0001017_c1	input|c8|3517845-3528309|+|MAE_38610|McyE	NRP	Cytotoxic	Inhibitor	microcystin LR			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+McyF	BGC0001017_c1	input|c8|3528340-3529096|+|MAE_38620|McyF	NRP	Cytotoxic	Inhibitor	microcystin LR			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+McyG	BGC0001017_c1	input|c8|3529227-3537123|+|MAE_38630|McyG	NRP	Cytotoxic	Inhibitor	microcystin LR			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+McyI	BGC0001017_c1	input|c8|3539001-3540015|+|MAE_38650|McyI	NRP	Cytotoxic	Inhibitor	microcystin LR			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+McyJ	BGC0001017_c1	input|c8|3540181-3541027|+|MAE_38660|McyJ	NRP	Cytotoxic	Inhibitor	microcystin LR			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+putative_oxidoreductase	BGC0000298_c1	input|c10|5201875-5202652|-|MAE_56510|3-oxoacyl-[acyl-carrier-protein]	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+AerG1	BGC0000298_c1	input|c10|5202707-5205986|-|MAE_56520|non-ribosomal	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+AerF	BGC0000298_c1	input|c10|5207053-5207854|-|MAE_56540|3-oxoacyl-[acyl-carrier-protein]	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+AerE	BGC0000298_c1	input|c10|5207902-5208250|-|MAE_56550|hypothetical	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+AerD	BGC0000298_c1	input|c10|5208625-5209258|-|MAE_56560|bacilysin	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+AerK	BGC0000298_c1	input|c10|5209251-5210295|-|MAE_56570|isopentenyl-dephosphate	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+AerA	BGC0000298_c1	input|c10|5215458-5219745|-|MAE_56590|non-ribosomal	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+putative_acyl-carrier_protein_reductase	BGC0001018_c1	input|c11|5523820-5524555|-|MAE_59950|putative	NRP			micropeptin K139			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+putative_methyltransferase	BGC0001018_c1	input|c11|5524594-5525383|-|MAE_59960|putative	NRP			micropeptin K139			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+nonribosomal_peptide_synthetase	BGC0001018_c1	input|c11|5526970-5531227|-|MAE_60000|McnE	NRP			micropeptin K139			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+nonribosomal_peptide_synthetase	BGC0001018_c1	input|c11|5545564-5548882|-|MAE_60020|McnB	NRP			micropeptin K139			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+putative_ABC_transporter	BGC0001018_c1	input|c11|5554077-5556147|+|MAE_60060|ABC-transporter	NRP			micropeptin K139			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+McnE	BGC0000332_c1	input|c11|5526970-5531227|-|MAE_60000|McnE	NRP			cyanopeptolin			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+McnB	BGC0000332_c1	input|c11|5545564-5548882|-|MAE_60020|McnB	NRP			cyanopeptolin			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+McnF	BGC0000332_c1	input|c11|5554077-5556147|+|MAE_60060|ABC-transporter	NRP			cyanopeptolin			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+McnG	BGC0000332_c1	input|c11|5556208-5557378|+|MAE_60070|McnG	NRP			cyanopeptolin			AP009552	Microcystis aeruginosa NIES-843	GCA_000010625.1_ASM1062v1_genomic.json
+putative_oxidoreductase	BGC0000298_c1	input|c2|1256454-1257231|-|MYAER_1227|3-oxoacyl-[acyl-carrier	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	CP011304	Microcystis aeruginosa NIES-2549	GCA_000981785.2_ASM98178v2_genomic.json
+AerG1	BGC0000298_c1	input|c2|1257286-1260565|-|MYAER_1228|Non-ribosomal	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	CP011304	Microcystis aeruginosa NIES-2549	GCA_000981785.2_ASM98178v2_genomic.json
+AerF	BGC0000298_c1	input|c2|1261632-1262433|-|MYAER_1230|3-oxoacyl-[acyl-carrier	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	CP011304	Microcystis aeruginosa NIES-2549	GCA_000981785.2_ASM98178v2_genomic.json
+AerE	BGC0000298_c1	input|c2|1262481-1263108|-|MYAER_1231|Bacilysin	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	CP011304	Microcystis aeruginosa NIES-2549	GCA_000981785.2_ASM98178v2_genomic.json
+AerD	BGC0000298_c1	input|c2|1263204-1263837|-|MYAER_1232|Bacilysin	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	CP011304	Microcystis aeruginosa NIES-2549	GCA_000981785.2_ASM98178v2_genomic.json
+AerK	BGC0000298_c1	input|c2|1263830-1264874|-|MYAER_1233|Isopentenyl-diphosphate	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	CP011304	Microcystis aeruginosa NIES-2549	GCA_000981785.2_ASM98178v2_genomic.json
+AerJ	BGC0000298_c1	input|c2|1269809-1271633|-|MYAER_1235|FAD-binding	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	CP011304	Microcystis aeruginosa NIES-2549	GCA_000981785.2_ASM98178v2_genomic.json
+putative_ABC_transporter	BGC0001018_c1	input|c4|2963056-2963191|-|MYAER_2993|ABC	NRP			micropeptin K139			CP011304	Microcystis aeruginosa NIES-2549	GCA_000981785.2_ASM98178v2_genomic.json
+putative_ABC_transporter	BGC0001018_c1	input|c4|2963223-2965125|-|MYAER_2994|ABC	NRP			micropeptin K139			CP011304	Microcystis aeruginosa NIES-2549	GCA_000981785.2_ASM98178v2_genomic.json
+nonribosomal_peptide_synthetase	BGC0001018_c1	input|c4|2972901-2987067|+|MYAER_2997|Malonyl	NRP			micropeptin K139			CP011304	Microcystis aeruginosa NIES-2549	GCA_000981785.2_ASM98178v2_genomic.json
+nonribosomal_peptide_synthetase	BGC0001018_c1	input|c4|2987232-2991450|+|MYAER_2998|Malonyl	NRP			micropeptin K139			CP011304	Microcystis aeruginosa NIES-2549	GCA_000981785.2_ASM98178v2_genomic.json
+putative_methyltransferase	BGC0001018_c1	input|c4|2993149-2993938|+|MYAER_3002|2-methyl-6-phytyl-1,4-benzoquinone	NRP			micropeptin K139			CP011304	Microcystis aeruginosa NIES-2549	GCA_000981785.2_ASM98178v2_genomic.json
+putative_acyl-carrier_protein_reductase	BGC0001018_c1	input|c4|2993976-2994711|+|MYAER_3003|3-oxoacyl-[acyl-carrier	NRP			micropeptin K139			CP011304	Microcystis aeruginosa NIES-2549	GCA_000981785.2_ASM98178v2_genomic.json
+McnG	BGC0000332_c1	input|c4|2961825-2962995|-|MYAER_2992|hypothetical	NRP			cyanopeptolin			CP011304	Microcystis aeruginosa NIES-2549	GCA_000981785.2_ASM98178v2_genomic.json
+McnF	BGC0000332_c1	input|c4|2963056-2963191|-|MYAER_2993|ABC	NRP			cyanopeptolin			CP011304	Microcystis aeruginosa NIES-2549	GCA_000981785.2_ASM98178v2_genomic.json
+McnF	BGC0000332_c1	input|c4|2963223-2965125|-|MYAER_2994|ABC	NRP			cyanopeptolin			CP011304	Microcystis aeruginosa NIES-2549	GCA_000981785.2_ASM98178v2_genomic.json
+McnE	BGC0000332_c1	input|c4|2987232-2991450|+|MYAER_2998|Malonyl	NRP			cyanopeptolin			CP011304	Microcystis aeruginosa NIES-2549	GCA_000981785.2_ASM98178v2_genomic.json
+Uma4	BGC0001017_c1	input|c1|1431074-1432289|+|BH695_1535|Uma4	NRP	Cytotoxic	Inhibitor	microcystin LR			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+putative_oxidoreductase	BGC0000298_c1	input|c2|1499059-1499836|-|BH695_1602|hypothetical	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+AerG1	BGC0000298_c1	input|c2|1499891-1503170|-|BH695_1603|hypothetical	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+AerF	BGC0000298_c1	input|c2|1503874-1504675|-|BH695_1606|hypothetical	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+AerK	BGC0000298_c1	input|c2|1506072-1507116|-|BH695_1609|hypothetical	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+AerJ	BGC0000298_c1	input|c2|1512039-1513863|-|BH695_1611|AerJ	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+AerA	BGC0000298_c1	input|c2|1514153-1518440|-|BH695_1612|hypothetical	NRP	Inhibitor		Aeruginosin 98-A	Aeruginosin 98-B	Aeruginosin 98-C	CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+thiazoline_oxidase/subtilisin-like_protease	BGC0000474_c1	input|c4|2592117-2596059|-|BH695_2738|hypothetical	RiPP	Unknown		microcyclamide			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+hypothetical_protein	BGC0000474_c1	input|c4|2596998-2597802|-|BH695_2740|hypothetical	RiPP	Unknown		microcyclamide			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+putative_microcyclamide_biosynthesis_protein	BGC0000474_c1	input|c4|2597854-2598820|-|BH695_2741|hypothetical	RiPP	Unknown		microcyclamide			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+adenylation/heterocyclization_protein	BGC0000474_c1	input|c4|2599539-2601870|-|BH695_2743|hypothetical	RiPP	Unknown		microcyclamide			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+putative_microcyclamide_biosynthesis_protein	BGC0000474_c1	input|c4|2602221-2602473|-|BH695_2745|hypothetical	RiPP	Unknown		microcyclamide			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+subtilisin-like_protein	BGC0000474_c1	input|c4|2602578-2604552|-|BH695_2746|hypothetical	RiPP	Unknown		microcyclamide			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+hypothetical_protein	BGC0000473_c1	input|c4|2596998-2597802|-|BH695_2740|hypothetical	RiPP	Unknown		microcyclamide			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+adenylation/heterocyclization_protein	BGC0000473_c1	input|c4|2599539-2601870|-|BH695_2743|hypothetical	RiPP	Unknown		microcyclamide			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+putative_microcyclamide_biosynthesis_protein	BGC0000483_c1	input|c4|2602221-2602473|-|BH695_2745|hypothetical	RiPP	Unknown		Aeruginosamide B	Aeruginosamide C		CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+conserved_hypothetical_protein	BGC0000483_c1	input|c4|2602578-2604552|-|BH695_2746|hypothetical	RiPP	Unknown		Aeruginosamide B	Aeruginosamide C		CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+McyI	BGC0001017_c1	input|c5|3026179-3027193|-|BH695_3236|McyI	NRP	Cytotoxic	Inhibitor	microcystin LR			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+McyG	BGC0001017_c1	input|c5|3029071-3036967|-|BH695_3238|McyG	NRP	Cytotoxic	Inhibitor	microcystin LR			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+McyF	BGC0001017_c1	input|c5|3037098-3037854|-|BH695_3239|McyF	NRP	Cytotoxic	Inhibitor	microcystin LR			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+McyE	BGC0001017_c1	input|c5|3037885-3048349|-|BH695_3240|McyE	NRP	Cytotoxic	Inhibitor	microcystin LR			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+McyD	BGC0001017_c1	input|c5|3048515-3060236|-|BH695_3241|McyD	NRP	Cytotoxic	Inhibitor	microcystin LR			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+McyA	BGC0001017_c1	input|c5|3060968-3069356|+|BH695_3242|McyA	NRP	Cytotoxic	Inhibitor	microcystin LR			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+McyB	BGC0001017_c1	input|c5|3069371-3075752|+|BH695_3243|McyB	NRP	Cytotoxic	Inhibitor	microcystin LR			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+McyC	BGC0001017_c1	input|c5|3075748-3079624|+|BH695_3244|McyC	NRP	Cytotoxic	Inhibitor	microcystin LR			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+Uma1	BGC0001017_c1	input|c5|3079716-3081627|-|BH695_3245|Uma1	NRP	Cytotoxic	Inhibitor	microcystin LR			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+Uma2	BGC0001017_c1	input|c5|3082010-3082574|-|BH695_3246|Uma2	NRP	Cytotoxic	Inhibitor	microcystin LR			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+Uma3	BGC0001017_c1	input|c5|3082620-3084147|-|BH695_3247|Uma3	NRP	Cytotoxic	Inhibitor	microcystin LR			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+Uma4	BGC0001017_c1	input|c5|3084231-3085446|-|BH695_3248|Uma4	NRP	Cytotoxic	Inhibitor	microcystin LR			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+Uma5	BGC0001017_c1	input|c5|3086353-3086788|-|BH695_3249|Uma5	NRP	Cytotoxic	Inhibitor	microcystin LR			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+putative_acyl-carrier_protein_reductase	BGC0001018_c1	input|c7|4369561-4370296|-|BH695_4618|hypothetical	NRP			micropeptin K139			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+putative_methyltransferase	BGC0001018_c1	input|c7|4370334-4371123|-|BH695_4619|hypothetical	NRP			micropeptin K139			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+putative_ABC_transporter	BGC0001018_c1	input|c7|4399059-4401129|+|BH695_4628|hypothetical	NRP			micropeptin K139			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+McnF	BGC0000332_c1	input|c7|4399059-4401129|+|BH695_4628|hypothetical	NRP			cyanopeptolin			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json
+McnG	BGC0000332_c1	input|c7|4401132-4402359|+|BH695_4629|hypothetical	NRP			cyanopeptolin			CP020771	Microcystis aeruginosa PCC 7806SL	GCA_002095975.1_ASM209597v1_genomic.json

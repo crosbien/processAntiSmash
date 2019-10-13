@@ -16,7 +16,7 @@
 
 **Usage:** ./mibig.sh percent_ID percent_coverage path-to-data-directory path-to-output-directory
 
-**Usage example:** ./mibig.sh 70 70 ../testData ../output   (command **must** be issued from the **/processAntiSmash/mibig** directory)
+**Usage example:** ./mibig.sh 95 95 ../testData ../output   (command **must** be issued from the **/processAntiSmash/mibig** directory)
 
 **Example data:** three antiSMASH 5 output json files are included in the directory **/processAntiSmash/testData**
 

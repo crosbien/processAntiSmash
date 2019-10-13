@@ -1,0 +1,181 @@
+{
+    "version": "10", 
+    "personal": {
+        "submitter_name": "Wilfred A. Van Der Donk", 
+        "submitter_institution": "The University of Illinois at Urbana-Champaign", 
+        "submitter_email": "vddonk@illinois.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000509", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "24866416,21802007,22524291", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "JQ979180", 
+                    "start_coord": 4943, 
+                    "end_coord": 14152, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "epilancin 15X", 
+                "chem_synonyms": [], 
+                "molecular_formula": "C145H233N41O33S3", 
+                "mol_mass": 3172.7, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "unknown, pore formation", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "N-terminal lactate", 
+                        "moiety_subcluster": [
+                            "afn69434.1", 
+                            "afn69430.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_id": "AFN69429.1", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "elxO", 
+                    "gene_id": "AFN69430.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "elxT", 
+                    "gene_id": "AFN69431.1", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "elxA", 
+                    "gene_id": "AFN69432.1", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "elxP", 
+                    "gene_id": "AFN69433.1", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "elxB", 
+                    "gene_id": "AFN69434.1", 
+                    "gene_function": "Scaffold Biosynthesis", 
+                    "tailoring": "Dehydration", 
+                    "evidence_genefunction": [
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "elxC", 
+                    "gene_id": "AFN69435.1", 
+                    "gene_function": "Scaffold Biosynthesis", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "elx1", 
+                    "gene_id": "AFN69436.1", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "elx2", 
+                    "gene_id": "AFN69437.1", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "elx3", 
+                    "gene_id": "AFN69438.1", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "orfA", 
+                    "gene_id": "AFN69439.1", 
+                    "gene_function": "Unknown"
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "Lantipeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "afn69432.1"
+                    ], 
+                    "core_pept_aa": "SASIVKTTIK ASKKLCRGFT LTCGCHFTGK K", 
+                    "lead_pept_len": 25, 
+                    "cleavage_recogn_site": "SDLNPQA", 
+                    "recogn_motif": "FDLN", 
+                    "peptidase": [
+                        "afn69433.1"
+                    ], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 12, 
+                            "AA_pos_2": 16, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 20, 
+                            "AA_pos_2": 23, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 22, 
+                            "AA_pos_2": 25, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

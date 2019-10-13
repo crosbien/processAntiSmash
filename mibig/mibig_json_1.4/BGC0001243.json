@@ -1,0 +1,134 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 15786208, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "botryenalol"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 185781, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "botrydial"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 14157997, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "dihydrobotrydial"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 10803586, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "botryendial"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 101917952, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "beta-O-Methyl-dihydrobotrydialone"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 11509607, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "botcinic acid"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 11654791, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "botcinin A"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "FR717895", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "FR718877", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "FR718878", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "FR718879", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "FR718880", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "FR718881", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "FR718882", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "FR718883", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "FR718884", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "FR718885", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "FR718886", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001243", 
+        "publications": [
+            "21722295"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

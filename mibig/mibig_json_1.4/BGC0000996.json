@@ -1,0 +1,159 @@
+{
+    "version": "8",
+    "personal": {
+        "submitter_name": "Joshua Blodgett",
+        "submitter_institution": "Washington Univeristy in St Louis",
+        "submitter_email": "jblodgett@wustl.edu"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000996",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": "20547882",
+        "loci": {
+            "complete": "incomplete",
+            "nucl_acc": [
+                {
+                    "Accession": "GG657742",
+                    "start_coord": 4892742,
+                    "end_coord": 4909316,
+                    "conn_comp_cluster": [
+                        "Knock-out studies",
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "Accession": "GU722189",
+                    "start_coord": -1,
+                    "end_coord": -1,
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "frontalamide B",
+                "chem_synonyms": [],
+                "chem_struct": "O=C(NCCC(O)C1C(O)=C(C(/C=C/2)=O)C(N1)=O)/C=C\\\\C[C@H]([C@]3([H])[C@]4([H])[C@@]5([H])[C@@](C[C@H](C=C)[C@@H]5C)([H])C3)[C@H]2CC4=O",
+                "molecular_formula": "C29H36N2O6",
+                "mol_mass": 509.2662,
+                "mass_ion_type": "[M+H]+",
+                "chem_act": [
+                    "Antifungal"
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "ftdB",
+                    "gene_id": "SSLG_04251",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Activity assay",
+                        "Sequence-based prediction"
+                    ],
+                    "mut_pheno": "null production"
+                },
+                {
+                    "gene_name": "ftdA",
+                    "gene_id": "SSLG_04250",
+                    "gene_annotation": "frontalamide hydroxylase",
+                    "gene_function": "Tailoring",
+                    "tailoring": "Hydroxylation",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Activity assay",
+                        "Sequence-based prediction"
+                    ],
+                    "mut_pheno": "deoxy-frontalamide accumulation"
+                }
+            ],
+            "operon": [
+                {
+                    "operon_genes": [
+                        "sslg_04250",
+                        "sslg_04251",
+                        "sslg_04253",
+                        "sslg_04254",
+                        "sslg_04255",
+                        "sslg_04256"
+                    ],
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ]
+        },
+        "NRP": {
+            "subclass": "Other",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Type I",
+            "nrps_thioesterase": [
+                "sslg_04251"
+            ],
+            "nrps_release_type": "Other",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "EFL02193.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "1",
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic",
+                                "nonprot_adom_spec": "Ornithine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": false
+                            },
+                            "cdom_subtype": "Unknown",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Cyclic",
+            "pks_subclass": [
+                "Iterative typeI"
+            ],
+            "starter_unit": "Unknown",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "EFL02193.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "12",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Dehydratase"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "kr_stereochem": "Unknown",
+                            "pks_mod_doms": "None",
+                            "pks_mod_skip_iter": "Iterated",
+                            "pks_evidence_skip_iter": "Sequence-based prediction"
+                        }
+                    ]
+                }
+            ],
+            "pks_genes": [
+                "none"
+            ],
+            "nr_iterations": 12,
+            "iterative_subtype": "Partially reducing",
+            "iter_cycl_type": "Other",
+            "pks_te_type": "None",
+            "pks_release_type": "Unknown"
+        }
+    },
+    "comments": "The ftdB gene is present in three parts, and must be merged. A new paper includes the publication of a fragment that closed a genome sequencing gap within FtdB. Locus tags and protein ID comprising FtdB from N-C terminus: SSLG_04251, protein_id=ADJ54381.1,SSLG_04252. This is why there are two loci listed, which is technically incorrect. Only one locus but in GenBank as the sum of two accession numbers.",
+    "embargo": true
+}

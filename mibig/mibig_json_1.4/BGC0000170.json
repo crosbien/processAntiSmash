@@ -1,0 +1,97 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "yanuthone D",
+                "database_deposited": true,
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 10436112
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "not_in_gbk": false,
+                    "gene_name": "yanR",
+                    "gene_id": "ASPNIDRAFT_44961",
+                    "gene_annotation": "Transcription factor"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_name": "yanC",
+                    "gene_id": "ASPNIDRAFT_54844",
+                    "gene_annotation": "CYP450"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_name": "yanB",
+                    "gene_id": "ASPNIDRAFT_44963",
+                    "gene_annotation": "Decarboxylase"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_name": "yanG",
+                    "gene_id": "ASPNIDRAFT_44964"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_name": "yanA",
+                    "gene_id": "ASPNIDRAFT_44965"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_name": "yanH",
+                    "gene_id": "ASPNIDRAFT_193092",
+                    "gene_annotation": "CYP450"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_name": "yanI",
+                    "gene_id": "ASPNIDRAFT_44967",
+                    "gene_annotation": "O-Mevalon transferase"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_name": "yanD",
+                    "gene_id": "ASPNIDRAFT_127904",
+                    "gene_annotation": "Dehydrogenase"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_name": "yanE",
+                    "gene_id": "ASPNIDRAFT_192604"
+                },
+                {
+                    "not_in_gbk": false,
+                    "gene_name": "yanF",
+                    "gene_id": "ASPNIDRAFT_44970",
+                    "gene_annotation": "Oxidase"
+                }
+            ]
+        },
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 49030, 
+                    "Accession": "ACJE01000012", 
+                    "start_coord": 25033
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000170", 
+        "publications": [
+            "24684908"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

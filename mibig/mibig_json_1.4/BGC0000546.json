@@ -1,0 +1,71 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Neha Garg", 
+        "submitter_institution": "University of California at San Diego", 
+        "submitter_email": "negarg@ucsd.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000546", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "21983601", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "NZ_DS999645", 
+                    "start_coord": 4112717, 
+                    "end_coord": 4120692, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "SAL-2242", 
+                "chem_synonyms": [], 
+                "mol_mass": 2242.22, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "RiPP": {
+            "ripp_subclass": "Lantipeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "sshg_03589", 
+                        "wp_003950016.1"
+                    ], 
+                    "core_pept_aa": "TGSQISLLICEYSSLSVTLCTP", 
+                    "lead_pept_len": 21, 
+                    "foll_pept_len": -1, 
+                    "peptidase": [], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 3, 
+                            "AA_pos_2": 10, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 13, 
+                            "AA_pos_2": 20, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "comments": "AmfS-like classIII lanthipeptide"
+}
+
+

@@ -1,0 +1,143 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Philipp Wiemann, Nancy Keller", 
+        "submitter_institution": "University of Wisconsin-Madison", 
+        "submitter_email": "pwiemann@wisc.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001118", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "22492455,23592999", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CM000172", 
+                    "start_coord": 55988, 
+                    "end_coord": 65225, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Gene expression correlated with compound production"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "endocrocin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 160483, 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "inhibits neutrophil recruitment, immunosuppressive"
+            }
+        ], 
+        "genes": {
+            "operon": [], 
+            "gene": [
+                {
+                    "gene_name": "encA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 55988, 
+                    "gene_endpos": 61485, 
+                    "gene_id": "EAL84397.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of endocrocin production"
+                }, 
+                {
+                    "gene_name": "encB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 61850, 
+                    "gene_endpos": 62856, 
+                    "gene_id": "EAL84396.1", 
+                    "gene_annotation": "metallo-beta-lactamase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of endocrocin production"
+                }, 
+                {
+                    "gene_name": "encC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 63169, 
+                    "gene_endpos": 63795, 
+                    "gene_id": "EBA27176.1", 
+                    "gene_annotation": "monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of endocrocin production"
+                }, 
+                {
+                    "gene_name": "encD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 64101, 
+                    "gene_endpos": 65225, 
+                    "gene_id": "EAL84395.2", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "endocrocin accumulation"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Polyphenol", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "pks_genes": [], 
+            "nr_iterations": -1, 
+            "iterative_subtype": "Non-reducing", 
+            "iter_cycl_type": "C6-C11 first", 
+            "pks_te_type": "None", 
+            "pks_release_type": "Other", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "XP_746435.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "SAT", 
+                                "KS", 
+                                "AT", 
+                                "PT", 
+                                "ACP"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Sequence-based prediction", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Iterated", 
+                            "pks_evidence_skip_iter": "Sequence-based prediction"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

@@ -1,0 +1,68 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Wu Yingying", 
+        "submitter_institution": "Xiamen Univerwity, China", 
+        "submitter_email": "wuyingying@xmu.edu.cn"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000106", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "21614382", 
+        "loci": {
+            "complete": "unknown", 
+            "nucl_acc": [
+                {
+                    "Accession": "GQ452266", 
+                    "start_coord": 1, 
+                    "end_coord": 106181, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "naphthomycin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 10101379,
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_target": "DNA, RNA", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "3-Amino-5-hydroxybenzoic acid", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": []
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Ansamycin", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_te_type": "None", 
+            "pks_release_type": "Macrolactamization"
+        }
+    }, 
+    "embargo": true
+}
+

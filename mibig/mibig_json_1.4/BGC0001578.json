@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CC1=CC(=C2C3=C1C(=O)C4[C@@H]([C@@]3(COC2=O)[C@@H]5[C@]4(C6=C7C(=COC(=O)C7=C(C=C6C)O)C5=O)OC)OC(=O)C)O", 
+                "compound": "duclauxin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 785137, 
+                    "Accession": "EQ962653", 
+                    "start_coord": 753988
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001578", 
+        "publications": [
+            "29741874"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

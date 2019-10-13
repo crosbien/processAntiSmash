@@ -1,0 +1,37 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 6126060, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "dynemicin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "EF552206", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001060", 
+        "publications": [
+            "18328078"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I", 
+                "Type II"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

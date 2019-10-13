@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "berninamycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KC894738", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001472", 
+        "RiPP": {
+            "ripp_subclass": "Other"
+        }, 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "minimal": true
+    }
+}

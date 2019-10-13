@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "xefoampeptides A-G"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 57269, 
+                    "Accession": "MUBK01000010", 
+                    "start_coord": 39733
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001824", 
+        "publications": [
+            "28993611"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

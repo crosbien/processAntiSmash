@@ -1,0 +1,374 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Leonard Kaysser", 
+        "submitter_institution": "University of Tuebingen", 
+        "submitter_email": "leonard.kaysser@pharm.uni-tuebingen.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001441", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "28452105,14698035,10724015", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KY249118", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "belactosin A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 25053219, 
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "20S proteasome", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "beta-lactone", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }, 
+            {
+                "compound": "belactosin C", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 10666031, 
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "20S proteasome", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "beta-lactone", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "belA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 348, 
+                    "gene_id": "ARO49568.1", 
+                    "gene_annotation": "glyoxalase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 410, 
+                    "gene_endpos": 994, 
+                    "gene_id": "ARO49569.1", 
+                    "gene_annotation": "acetyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1052, 
+                    "gene_endpos": 1975, 
+                    "gene_id": "ARO49570.1", 
+                    "gene_annotation": "peptidase U61", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1972, 
+                    "gene_endpos": 3921, 
+                    "gene_id": "ARO49571.1", 
+                    "gene_annotation": "acyl-peptide hydrolase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3942, 
+                    "gene_endpos": 5246, 
+                    "gene_id": "ARO49572.1", 
+                    "gene_annotation": "acetyl-ornithine deacetylase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5239, 
+                    "gene_endpos": 6072, 
+                    "gene_id": "ARO49573.1", 
+                    "gene_annotation": "ABC transporter substrate-binding protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6194, 
+                    "gene_endpos": 6790, 
+                    "gene_id": "ARO49574.1", 
+                    "gene_annotation": "3-isopropylmalate dehydratase small subunit", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6802, 
+                    "gene_endpos": 8193, 
+                    "gene_id": "ARO49575.1", 
+                    "gene_annotation": "3-isopropylmalate dehydratase large subunit", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8233, 
+                    "gene_endpos": 9708, 
+                    "gene_id": "ARO49576.1", 
+                    "gene_annotation": "AMP-dependent synthetase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9708, 
+                    "gene_endpos": 10394, 
+                    "gene_id": "ARO49577.1", 
+                    "gene_annotation": "SAM dependent methyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10591, 
+                    "gene_endpos": 12288, 
+                    "gene_id": "ARO49578.1", 
+                    "gene_annotation": "2-IPM synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolished production"
+                }, 
+                {
+                    "gene_name": "belK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12542, 
+                    "gene_endpos": 13618, 
+                    "gene_id": "ARO49579.1", 
+                    "gene_annotation": "Iron-containing redox enzyme", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13654, 
+                    "gene_endpos": 14343, 
+                    "gene_id": "ARO49580.1", 
+                    "gene_annotation": "BsmA domain containing protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14340, 
+                    "gene_endpos": 15212, 
+                    "gene_id": "ARO49581.1", 
+                    "gene_annotation": "diaminopimelate epimerase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15209, 
+                    "gene_endpos": 17296, 
+                    "gene_id": "ARO49582.1", 
+                    "gene_annotation": "molybdopterin oxidoreductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17384, 
+                    "gene_endpos": 18253, 
+                    "gene_id": "ARO49583.1", 
+                    "gene_annotation": "LysR family transcription regulator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18359, 
+                    "gene_endpos": 18679, 
+                    "gene_id": "ARO49584.1", 
+                    "gene_annotation": "LuxR family transcription regulator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belQ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19057, 
+                    "gene_endpos": 19932, 
+                    "gene_id": "ARO49585.1", 
+                    "gene_annotation": "XRE family transcription regulator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20619, 
+                    "gene_endpos": 21428, 
+                    "gene_id": "ARO49586.1", 
+                    "gene_annotation": "methylesterase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belS", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21425, 
+                    "gene_endpos": 22831, 
+                    "gene_id": "ARO49587.1", 
+                    "gene_annotation": "MFS transporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23267, 
+                    "gene_endpos": 24319, 
+                    "gene_id": "ARO49588.1", 
+                    "gene_annotation": "1,4-beta-xylanase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belU", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24574, 
+                    "gene_endpos": 25836, 
+                    "gene_id": "ARO49589.1", 
+                    "gene_annotation": "ATP-dependent carboxylate-amide ligase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "belV", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26018, 
+                    "gene_endpos": 27187, 
+                    "gene_id": "ARO49590.1", 
+                    "gene_annotation": "AMP-dependent synthetase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27264, 
+                    "gene_endpos": 27983, 
+                    "gene_id": "ARO49591.1", 
+                    "gene_annotation": "SAM-dependent methyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "None"
+        }
+    }
+}
+

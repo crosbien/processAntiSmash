@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CCC1C(=O)C2(C)CC(C)=CCC(OC(=O)CC1(O)O2)C(C)C(O)C(C)CC(C)=CC(C)C(O)C(C)C(=O)CC", 
+                "compound": "actinoallolide A"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 56721, 
+                    "Accession": "LC326402", 
+                    "start_coord": 1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001495", 
+        "publications": [
+            "29679043"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Other"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

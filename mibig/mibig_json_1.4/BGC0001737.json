@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CC(CCC1=CC=CC=C1)/C=C(\\C)/C(C(C)/C=C(\\C)/C=C/C=C\\C=C\\C=C(/C)\\C(=O)NC(C)CO)O", 
+                "compound": "phenalamide"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "KY646191", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001737", 
+        "publications": [
+            "28098952"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

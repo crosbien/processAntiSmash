@@ -1,0 +1,153 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Neha Garg", 
+        "submitter_institution": "University of California at San Diego", 
+        "submitter_email": "negarg@ucsd.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000518", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "24802639", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "GG657757", 
+                    "start_coord": 8170944, 
+                    "end_coord": 8185829, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Informatipeptin", 
+                "chem_synonyms": [], 
+                "mol_mass": 1065.57, 
+                "mass_ion_type": "[M+2H]2+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8170944, 
+                    "gene_endpos": 8171159, 
+                    "gene_id": "EFL36745.1", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8171904, 
+                    "gene_endpos": 8173316, 
+                    "gene_id": "EFL36746.1", 
+                    "gene_annotation": "protease", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8173417, 
+                    "gene_endpos": 8175561, 
+                    "gene_id": "EFL36747.1", 
+                    "gene_annotation": "magnesium or manganese-dependent protein phosphatase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8175883, 
+                    "gene_endpos": 8176356, 
+                    "gene_id": "EFL36748.1", 
+                    "gene_annotation": "two-component system response regulator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8176654, 
+                    "gene_endpos": 8178751, 
+                    "gene_id": "EFL36749.1", 
+                    "gene_annotation": "ABC transporter ATP-binding protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 8180512, 
+                    "gene_endpos": 8180399, 
+                    "gene_annotation": "Precursor peptide", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8180568, 
+                    "gene_endpos": 8183261, 
+                    "gene_id": "EFL36750.1", 
+                    "gene_annotation": "LanKC-type lanthionine synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8183301, 
+                    "gene_endpos": 8185829, 
+                    "gene_id": "EFL36751.1", 
+                    "gene_annotation": "regulatory protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "Lantipeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [], 
+                    "core_pept_aa": "TDGGGASTVSLLSCISAASVLLCL ", 
+                    "lead_pept_len": 38, 
+                    "foll_pept_len": -1, 
+                    "peptidase": []
+                }
+            ]
+        }
+    }
+}
+
+

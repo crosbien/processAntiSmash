@@ -1,0 +1,860 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Stefano Donadio", 
+        "submitter_institution": "Naicons", 
+        "submitter_email": "sdonadio@naicons.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000289", 
+        "biosyn_class": [
+            "NRP", 
+			"Saccharide"
+        ], 
+        "publications": "12837387, 15664522, 16007453, 16499611, 17044690, 17935335, 20414653, 17873036", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AJ561198.1", 
+                    "start_coord": 6242, 
+                    "end_coord": 77096, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "A40926", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 32741751, 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "lipid II", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "3,5 dihydroxyphenylglycine", 
+                        "moiety_subcluster": [
+                            "cad91226-cad91229"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 141, 
+                    "gene_id": "CAD91190.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 347, 
+                    "gene_endpos": 1207, 
+                    "gene_id": "CAD91191.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1797, 
+                    "gene_endpos": 2627, 
+                    "gene_id": "CAD91192.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3225, 
+                    "gene_endpos": 4181, 
+                    "gene_id": "CAD91193.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4178, 
+                    "gene_endpos": 4690, 
+                    "gene_id": "CAD91194.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4838, 
+                    "gene_endpos": 6202, 
+                    "gene_id": "CAD91195.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6242, 
+                    "gene_endpos": 7342, 
+                    "gene_id": "CAD91196.1", 
+                    "gene_annotation": "putative hydroxymandelate oxidase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7461, 
+                    "gene_endpos": 8531, 
+                    "gene_id": "CAD91197.1", 
+                    "gene_annotation": "putative hydroxymandelate synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8760, 
+                    "gene_endpos": 11363, 
+                    "gene_id": "CAD91198.1", 
+                    "gene_annotation": "putative regulator LuxR family", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no production"
+                }, 
+                {
+                    "gene_name": "dbv4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11468, 
+                    "gene_endpos": 12433, 
+                    "gene_id": "CAD91199.1", 
+                    "gene_annotation": "putative regulator StrR family", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13385, 
+                    "gene_endpos": 14494, 
+                    "gene_id": "CAD91200.1", 
+                    "gene_annotation": "putative prephenate dehydrogenase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14522, 
+                    "gene_endpos": 15175, 
+                    "gene_id": "CAD91201.1", 
+                    "gene_annotation": "putative response regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15271, 
+                    "gene_endpos": 15861, 
+                    "gene_id": "CAD91202.1", 
+                    "gene_annotation": "putative VanY-type carboxypeptidase", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15910, 
+                    "gene_endpos": 16869, 
+                    "gene_id": "CAD91203.1", 
+                    "gene_annotation": "Dbv8 protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acylation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16872, 
+                    "gene_endpos": 18098, 
+                    "gene_id": "CAD91204.1", 
+                    "gene_annotation": "glycosyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18152, 
+                    "gene_endpos": 19621, 
+                    "gene_id": "CAD91205.1", 
+                    "gene_annotation": "halogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Halogenation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "des-chloro compound"
+                }, 
+                {
+                    "gene_name": "dbv11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19681, 
+                    "gene_endpos": 20943, 
+                    "gene_id": "CAD91206.1", 
+                    "gene_annotation": "putative oxygenase OxyC", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv12", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21025, 
+                    "gene_endpos": 22221, 
+                    "gene_id": "CAD91207.1", 
+                    "gene_annotation": "putative OxyB monooxigenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv13", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22211, 
+                    "gene_endpos": 23365, 
+                    "gene_id": "CAD91208.1", 
+                    "gene_annotation": "putative monooxygenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv14", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23387, 
+                    "gene_endpos": 24568, 
+                    "gene_id": "CAD91209.1", 
+                    "gene_annotation": "putative OxyA monooxygenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv15", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24664, 
+                    "gene_endpos": 24873, 
+                    "gene_id": "CAD91210.1", 
+                    "gene_annotation": "Dbv15 protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv16", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24870, 
+                    "gene_endpos": 30461, 
+                    "gene_id": "CAD91211.1", 
+                    "gene_annotation": "putative non-ribosomal peptide synthetase, module 7", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv17", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30480, 
+                    "gene_endpos": 42731, 
+                    "gene_id": "CAD91212.1", 
+                    "gene_annotation": "putative non-ribosomal peptide synthetase, modules 4-6", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv18", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 42962, 
+                    "gene_endpos": 45223, 
+                    "gene_id": "CAD91213.1", 
+                    "gene_annotation": "putative ABC transporter, Dbv18", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv19", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 45355, 
+                    "gene_endpos": 46053, 
+                    "gene_id": "CAD91214.1", 
+                    "gene_annotation": "putative ABC transporter, Dbv19", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv20", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 46327, 
+                    "gene_endpos": 47934, 
+                    "gene_id": "CAD91215.1", 
+                    "gene_annotation": "putative mannosyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv21", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 47974, 
+                    "gene_endpos": 48786, 
+                    "gene_id": "CAD91216.1", 
+                    "gene_annotation": "Dbv21 protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv22", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 49070, 
+                    "gene_endpos": 50332, 
+                    "gene_id": "CAD91217.1", 
+                    "gene_annotation": "putative sensory kinase", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv23", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 50428, 
+                    "gene_endpos": 52557, 
+                    "gene_id": "CAD91218.1", 
+                    "gene_annotation": "putative acyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acetylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "deacetyl-mannose A40,926"
+                }, 
+                {
+                    "gene_name": "dbv24", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 52834, 
+                    "gene_endpos": 54780, 
+                    "gene_id": "CAD91219.1", 
+                    "gene_annotation": "putative ABC transporter, Dbv24", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv25", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 54777, 
+                    "gene_endpos": 61070, 
+                    "gene_id": "CAD91220.1", 
+                    "gene_annotation": "putative non-ribosomal peptide synthetase, modules 1-2", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv26", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 61067, 
+                    "gene_endpos": 64258, 
+                    "gene_id": "CAD91221.1", 
+                    "gene_annotation": "putative non-ribosomal peptide synthetase, module 3", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv27", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 64354, 
+                    "gene_endpos": 65187, 
+                    "gene_id": "CAD91222.1", 
+                    "gene_annotation": "putative methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv28", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 65248, 
+                    "gene_endpos": 66843, 
+                    "gene_id": "CAD91223.1", 
+                    "gene_annotation": "putative beta-hydroxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "deoxy-A40,926"
+                }, 
+                {
+                    "gene_name": "dbv29", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 67076, 
+                    "gene_endpos": 68647, 
+                    "gene_id": "CAD91224.1", 
+                    "gene_annotation": "putative hexose oxidase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv30", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 69089, 
+                    "gene_endpos": 69514, 
+                    "gene_id": "CAD91225.1", 
+                    "gene_annotation": "Dbv30 protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv31", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 69671, 
+                    "gene_endpos": 70789, 
+                    "gene_id": "CAD91226.1", 
+                    "gene_annotation": "putative DpgA protein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv32", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 70801, 
+                    "gene_endpos": 71442, 
+                    "gene_id": "CAD91227.1", 
+                    "gene_annotation": "putative DpgB protein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv33", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 71439, 
+                    "gene_endpos": 72743, 
+                    "gene_id": "CAD91228.1", 
+                    "gene_annotation": "putative DpgC protein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv34", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 72740, 
+                    "gene_endpos": 73537, 
+                    "gene_id": "CAD91229.1", 
+                    "gene_annotation": "putative DpgD protein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv35", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 73534, 
+                    "gene_endpos": 74820, 
+                    "gene_id": "CAD91230.1", 
+                    "gene_annotation": "putative integral membrane ion antiporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv36", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 74887, 
+                    "gene_endpos": 75642, 
+                    "gene_id": "CAD91231.1", 
+                    "gene_annotation": "putative type II thioesterase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "dbv37", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 75810, 
+                    "gene_endpos": 77096, 
+                    "gene_id": "CAD91232.1", 
+                    "gene_annotation": "putative HpgT aminotransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 77423, 
+                    "gene_endpos": 77842, 
+                    "gene_id": "CAD91233.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 77990, 
+                    "gene_endpos": 78658, 
+                    "gene_id": "CAD91234.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 78655, 
+                    "gene_endpos": 79155, 
+                    "gene_id": "CAD91235.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 79142, 
+                    "gene_endpos": 80188, 
+                    "gene_id": "CAD91236.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 80333, 
+                    "gene_endpos": 81178, 
+                    "gene_id": "CAD91237.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 81706, 
+                    "gene_endpos": 83250, 
+                    "gene_id": "CAD91238.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 83696, 
+                    "gene_endpos": 84547, 
+                    "gene_id": "CAD91239.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 84588, 
+                    "gene_endpos": 85538, 
+                    "gene_id": "CAD91240.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 85535, 
+                    "gene_endpos": 86311, 
+                    "gene_id": "CAD91241.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 86308, 
+                    "gene_endpos": 87483, 
+                    "gene_id": "CAD91242.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 87476, 
+                    "gene_endpos": 88129, 
+                    "gene_id": "CAD91243.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 88596, 
+                    "gene_endpos": 89153, 
+                    "gene_id": "CAD91244.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Glycopeptide", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_te_type": "Type I", 
+            "nrps_thioesterase": [
+                "cad91211"
+            ], 
+            "nrps_release_type": "Hydrolysis", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "CAD91220.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Hydroxyphenylglycine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Tyrosine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "CAD91221.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "3,5-Dihydroxyphenylglycine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "CAD91212.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "4", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Hydroxyphenylglycine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Hydroxyphenylglycine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Tyrosine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "CAD91211.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "7", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "3,5-Dihydroxyphenylglycine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "Other", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+		}, 
+        "Saccharide": {
+            "saccharide_subclass": "hybrid/tailoring",
+            "gt_genes": [
+                {
+                "gt_gene": "CAD91204.1",
+                "gt_specificity": "N-acetyl-D-glucosamine", 
+                "evidence_gt_spec": "Activity assay"
+                }
+			]
+		}
+    }
+}
+
+

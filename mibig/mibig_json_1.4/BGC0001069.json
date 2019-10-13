@@ -1,0 +1,396 @@
+{
+   "version": "16",
+   "personal": {
+      "submitter_name": "Daniel Krug",
+      "submitter_institution": "HIPS",
+      "submitter_email": "daniel.krug@helmholtz-hzi.de"
+   },
+   "general_params": {
+      "mibig_accession": "BGC0001069",
+      "biosyn_class": [
+         "NRP",
+         "Polyketide"
+      ],
+      "publications": "16313990",
+      "loci": {
+         "complete": "complete",
+         "nucl_acc": [
+            {
+               "Accession": "DQ065771",
+               "mixs_compliant": false,
+               "start_coord": 1,
+               "end_coord": 96547,
+               "conn_comp_cluster": [
+                  "Knock-out studies"
+               ]
+            }
+         ]
+      },
+      "compounds": [
+         {
+            "compound": "Chivosazol",
+            "chem_synonyms": [],
+            "database_deposited": false,
+            "chem_struct": "O(C)C1C(C2OC=C(C=CC=CC(C(C)C=C(C)C=CC=CC=CC(=O)OC(C(C)C(CC(C)O)O)C(C)C=CC=CC=CC(O)C1)OC1O[C@H](C)[C@@H](O)[C@H](OC)[C@H]1OC)N=2)C",
+            "molecular_formula": "C49H71N1O12",
+            "mol_mass": 866.5049,
+            "mass_ion_type": "[M+H]+",
+            "chem_act": [
+               "Cytotoxic"
+            ],
+            "chem_target": "polymerizes actin"
+         }
+      ],
+      "genes": {
+         "gene": [
+            {
+               "gene_name": "chiA",
+               "not_in_gbk": false,
+               "gene_id": "AAY89048.1",
+               "gene_function": "Activation / processing",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "chiB",
+               "not_in_gbk": false,
+               "gene_id": "AAY89049.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Knock-out"
+               ],
+               "mut_pheno": "loss of production"
+            },
+            {
+               "gene_name": "chiC",
+               "not_in_gbk": false,
+               "gene_id": "AAY89050.1",
+               "gene_annotation": "polyketide synthase",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "chiD",
+               "not_in_gbk": false,
+               "gene_id": "AAY89051.1",
+               "gene_annotation": "hybrid nonribosomal peptide synthetase/polyketide synthase",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "chiE",
+               "not_in_gbk": false,
+               "gene_id": "AAY89052.1",
+               "gene_annotation": "polyketide synthase",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Knock-out"
+               ],
+               "mut_pheno": "loss of production"
+            },
+            {
+               "gene_name": "chiF",
+               "not_in_gbk": false,
+               "gene_id": "AAY89053.1",
+               "gene_annotation": "polyketide synthase",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "chiG",
+               "not_in_gbk": false,
+               "gene_id": "AAY89054.1",
+               "gene_function": "Tailoring",
+               "tailoring": "Methylation",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            }
+         ]
+      },
+      "NRP": {
+         "subclass": "Other",
+         "lin_cycl_nrp": "Linear",
+         "nrps_genes": [
+            {
+               "nrps_gene": "AAY89051.1",
+               "nrps_module": [
+                  {
+                     "module_nr": "9",
+                     "a_substr_spec": {
+                        "aa_type": "Proteinogenic",
+                        "prot_adom_spec": "Serine",
+                        "evidence_a_spec": "Structure-based inference",
+                        "epimerized": false
+                     },
+                     "cdom_subtype": "Heterocyclization",
+                     "nrps_mod_doms": "None",
+                     "nrps_mod_skip_iter": "Neither"
+                  }
+               ]
+            }
+         ],
+         "nrps_te_type": "None",
+         "nrps_thioesterase": [],
+         "nrps_release_type": "Other"
+      },
+      "Polyketide": {
+         "pk_subclass": "Macrolide",
+         "lin_cycl_pk": "Cyclic",
+         "pks_subclass": [
+            "Trans-AT type I"
+         ],
+         "starter_unit": "Acetyl-CoA",
+         "mod_pks_genes": [
+            {
+               "mod_pks_gene": "AAY89049.1",
+               "pks_module": [
+                  {
+                     "module_nr": "1",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Malonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "2",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "Methylation",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "3",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "Methylation",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "AAY89050.1",
+               "pks_module": [
+                  {
+                     "module_nr": "4",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "5",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "6",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "7",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "8",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "Methylation",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "AAY89051.1",
+               "pks_module": [
+                  {
+                     "module_nr": "10",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "11",
+                     "pks_domains": [
+                        "Ketosynthase"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "AAY89052.1",
+               "pks_module": [
+                  {
+                     "module_nr": "11",
+                     "pks_domains": [
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "12",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "Methylation",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "13",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "Methylation",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "AAY89053.1",
+               "pks_module": [
+                  {
+                     "module_nr": "14",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "15",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "16",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "Methylation",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "17",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            }
+         ],
+         "pks_genes": [],
+         "trans_at": [
+            "aay89049.1"
+         ],
+         "pks_te_type": "Type I",
+         "pks_thioesterase": [
+            "aay89053.1"
+         ],
+         "pks_release_type": "Macrolactonization"
+      }
+   },
+   "embargo": false
+}

@@ -1,0 +1,76 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 56930994, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "communesin A"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 44575539, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "communesin B"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 44575538, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "communesin C"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 44575540, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "communesin D communesin E"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 24741372, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "communesin G"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 11476943, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "communesin H"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 167646, 
+                    "Accession": "JQFY01000175", 
+                    "start_coord": 120403
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001205", 
+        "publications": [
+            "26963294,25571861"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Other"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

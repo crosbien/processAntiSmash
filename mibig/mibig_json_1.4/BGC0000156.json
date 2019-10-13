@@ -1,0 +1,124 @@
+{
+    "version": "14", 
+    "personal": {
+        "submitter_name": "Yit-Heng Chooi", 
+        "submitter_institution": "The Australian National University", 
+        "submitter_email": "yhchooi@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000156", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "21866960,7490206,7490207,", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "JN257714", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "TAN-1612", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 9887988, 
+                "chemspider_id": 8063660, 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "neuropeptide Y, neurokinin-1 receptor"
+            }, 
+            {
+                "compound": "1-(2,3,5,10-tetrahydroxy-7-methoxy-4-oxo-1,2,3,4-tetrahydroanthracen-2-yl)pentane-2,4-dione", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1C2=C(O)C3=C(O)C=C(OC)C=C3C=C2CC(CC(CC(C)=O)=O)(O)C1O", 
+                "molecular_formula": "C20H20O8", 
+                "mol_mass": 388.12, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "desmethyl TAN-1612", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1C2=C(O)C3=C(O)C=C(O)C=C3C=C2CC4(O)C1(O)C(C(C(C)=O)=C(O)C4)=O", 
+                "molecular_formula": "C20H16O9", 
+                "mol_mass": 400.08, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "AdaB", 
+                    "gene_id": "AEN83888", 
+                    "gene_annotation": "metallo-beta-lactamase-like thioesterase/Claisen cyclase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Heterologous expression", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "loss of TAN-1612 production"
+                }, 
+                {
+                    "gene_name": "AdaC", 
+                    "gene_id": "AEN83887", 
+                    "gene_annotation": "flavin-dependent monooxygenase, promote", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "loss of TAN-1612 and accumulation of 1-(2,3,5,10-tetrahydroxy-7-methoxy-4-oxo-1,2,3,4-tetrahydroanthracen-2-yl)pentane-2,4-dione"
+                }, 
+                {
+                    "gene_name": "AdaD", 
+                    "gene_id": "AEN83886", 
+                    "gene_annotation": "O-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Heterologous expression"
+                    ], 
+                    "mut_pheno": "loss of TAN-1612 and accumulation of desmethyl TAN-1612"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Tetracycline", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "aen83889"
+            ], 
+            "nr_iterations": 9, 
+            "iterative_subtype": "Non-reducing", 
+            "iter_cycl_type": "C6-C11 first", 
+            "pks_te_type": "Other", 
+            "pks_thioesterase": [
+                "aen83888"
+            ], 
+            "pks_release_type": "Claisen condensation"
+        }
+    }
+}
+
+

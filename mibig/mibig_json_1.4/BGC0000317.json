@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "publications": "25291769, 23135477",
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 65536,
+                "chemspider_id": 58980,
+                "databases_deposited": [
+                    "PubChem",
+                    "ChemSpider"
+                ], 
+                "compound": "cephalosporin C"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 98055, 
+                    "Accession": "JPKY01000002", 
+                    "start_coord": 73754
+                },
+                {
+                    "end_coord": 138270, 
+                    "Accession": "JPKY01000040", 
+                    "start_coord": 134856
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000317", 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

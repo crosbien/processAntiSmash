@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 5282079, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "mycolactone"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 137271, 
+                    "Accession": "BX649209", 
+                    "start_coord": 30054
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000103", 
+        "publications": [
+            "14736915"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

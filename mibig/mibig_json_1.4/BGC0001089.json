@@ -1,0 +1,511 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Rainer Borriss", 
+        "submitter_institution": "Humboldt University Berlin", 
+        "submitter_email": "rainer.borriss@rz.hu-berlin.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001089", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "16707694,17704766,17886826,20087918", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AJ634060", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "bacillaene", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 44227768, 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "baeB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1700345, 
+                    "gene_endpos": 1701022, 
+                    "gene_id": "YP001421284", 
+                    "gene_annotation": "hydroxyacylglutathione hydrolase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "baeC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1701337, 
+                    "gene_endpos": 1702206, 
+                    "gene_id": "YP001421285", 
+                    "gene_annotation": "malonyl-CoA-[acyl-carrier-protein] transacylase [AT]", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "baeD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1702343, 
+                    "gene_endpos": 1703317, 
+                    "gene_id": "YP001421286", 
+                    "gene_annotation": "malonyl-CoA-[acyl-carrier-protein] transacylase [AT]", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "baeE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1703319, 
+                    "gene_endpos": 1705559, 
+                    "gene_id": "YP001421287", 
+                    "gene_annotation": "malonyl-CoA-[acyl-carrier protein] transacylase [AT]/oxidoreductase [OR]", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "acpK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1705625, 
+                    "gene_endpos": 1705873, 
+                    "gene_id": "YP001421288", 
+                    "gene_annotation": "acyl carrier protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "baeG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1705925, 
+                    "gene_endpos": 1707187, 
+                    "gene_id": "YP001421289", 
+                    "gene_annotation": "3-hydroxy-3-methylglutaryl CoA synthase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "baeH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1707184, 
+                    "gene_endpos": 1707957, 
+                    "gene_id": "YP001421290", 
+                    "gene_annotation": "polyketide biosynthesis enoyl-CoA hydratase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "baeI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1707967, 
+                    "gene_endpos": 1708716, 
+                    "gene_id": "YP001421291", 
+                    "gene_annotation": "polyketide biosynthesis enoyl-CoA hydratase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "baeJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1708756, 
+                    "gene_endpos": 1723704, 
+                    "gene_id": "YP001421292", 
+                    "gene_annotation": "hybrid NRPS/PKS protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no synthesis of bacillaene"
+                }, 
+                {
+                    "gene_name": "baeL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1723706, 
+                    "gene_endpos": 1737133, 
+                    "gene_id": "YP001421293", 
+                    "gene_annotation": "polyketide synthase of type I", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "baeM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1737151, 
+                    "gene_endpos": 1747686, 
+                    "gene_id": "YP001421294", 
+                    "gene_annotation": "polyketide synthase of type I", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "baeN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1747676, 
+                    "gene_endpos": 1763977, 
+                    "gene_id": "YP001421295", 
+                    "gene_annotation": "hybrid NRPS/PKS protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "baeR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1763991, 
+                    "gene_endpos": 1771439, 
+                    "gene_id": "YP001421296", 
+                    "gene_annotation": "polyketide synthase of type I", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "baeS", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1772787, 
+                    "gene_endpos": 1771576, 
+                    "gene_id": "YP001421297", 
+                    "gene_annotation": "cytochrome P450 'oxidase'", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "None"
+        }, 
+        "NRP": {
+            "nrps_genes": [
+                {
+                    "nrps_gene": "YP001421292", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Glycine", 
+                                "evidence_a_spec": "None", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "YP001421295", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "11", 
+                            "a_substr_spec": {
+                                "aa_type": "None", 
+                                "evidence_a_spec": "None", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "YP001421292", 
+                    "pks_module": [
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "pks_domains": [
+                                "KS"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Skipped", 
+                            "pks_evidence_skip_iter": "Sequence-based prediction"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "YP001421293", 
+                    "pks_module": [
+                        {
+                            "module_nr": "4", 
+                            "pks_domains": [
+                                "DH", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "pks_domains": [
+                                "KS", 
+                                "T", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "7", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "8", 
+                            "pks_domains": [
+                                "KS"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Skipped", 
+                            "pks_evidence_skip_iter": "Structure-based inference"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "YP001421294", 
+                    "pks_module": [
+                        {
+                            "module_nr": "9", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "10", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "YP001421295", 
+                    "pks_module": [
+                        {
+                            "module_nr": "12", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "13", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "14", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "YP001421296", 
+                    "pks_module": [
+                        {
+                            "module_nr": "15", 
+                            "pks_domains": [
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "16", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Skipped", 
+                            "pks_evidence_skip_iter": "Structure-based inference"
+                        }, 
+                        {
+                            "module_nr": "17", 
+                            "pks_domains": [
+                                "KS", 
+                                "T", 
+                                "TE"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Skipped", 
+                            "pks_evidence_skip_iter": "Structure-based inference"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

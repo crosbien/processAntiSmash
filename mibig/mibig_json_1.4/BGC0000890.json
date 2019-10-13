@@ -1,0 +1,194 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Professor Bradley S. Moore", 
+        "submitter_institution": "Scripps Institution of Oceanography, UCSD", 
+        "submitter_email": "bsmoore@ucsd.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000890", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "24974229,19122661,24446431,7600609", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KF540211", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "pentabromopseudilin", 
+                "chem_synonyms": [], 
+                "chem_struct": "C1=C(C=C(C(=C1Br)O)C2=C(C(=C(N2)Br)Br)Br)Br", 
+                "molecular_formula": "C10H4Br5NO", 
+                "mol_mass": 547.61, 
+                "mass_ion_type": "[M-H]-", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Cytotoxic", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "Myosin ATPase, IspD ", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Pyrrole ring", 
+                        "moiety_subcluster": [
+                            "aha34034.1", 
+                            "aha34035.1", 
+                            "aha34036.1", 
+                            "aha34037.1", 
+                            "aha34033.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "bromophenol", 
+                        "moiety_subcluster": [
+                            "aha34038.1", 
+                            "aha34039.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [], 
+            "gene": [
+                {
+                    "gene_name": "bmp10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 1173, 
+                    "gene_id": "AHA34031.1", 
+                    "gene_annotation": "Bmp10, Ferredoxin Reductase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "bmp9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1220, 
+                    "gene_endpos": 1540, 
+                    "gene_id": "AHA34032.1", 
+                    "gene_annotation": "Bmp9, Ferredoxin", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "bmp8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1549, 
+                    "gene_endpos": 2139, 
+                    "gene_id": "AHA34033.1", 
+                    "gene_annotation": "Bmp8", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "bmp1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2372, 
+                    "gene_endpos": 3445, 
+                    "gene_id": "AHA34034.1", 
+                    "gene_annotation": "Bmp1, ACP-TE didomain", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "bmp2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3445, 
+                    "gene_endpos": 4665, 
+                    "gene_id": "AHA34035.1", 
+                    "gene_annotation": "Bmp2, Flavin-dependent pyrroly-S-ACP brominase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "bmp3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4675, 
+                    "gene_endpos": 5817, 
+                    "gene_id": "AHA34036.1", 
+                    "gene_annotation": "Bmp3, Flavin-dependent prolyl-S-ACP dehydrogenase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "bmp4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5814, 
+                    "gene_endpos": 7361, 
+                    "gene_id": "AHA34037.1", 
+                    "gene_annotation": "Bmp4, prolyl adenylation domain", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "bmp5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7408, 
+                    "gene_endpos": 8955, 
+                    "gene_id": "AHA34038.1", 
+                    "gene_annotation": "Bmp5, Flavin-dependent single-component p-hydroxybenzoate brominase/decarboxylase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "bmp6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8979, 
+                    "gene_endpos": 9608, 
+                    "gene_id": "AHA34039.1", 
+                    "gene_annotation": "Bmp6, Chorismate lyase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "bmp7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9612, 
+                    "gene_endpos": 11090, 
+                    "gene_id": "AHA34040.1", 
+                    "gene_annotation": "Bmp7, Cytochrome P450", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Aminocoumarin"
+        }
+    }
+}
+
+

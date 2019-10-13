@@ -1,0 +1,334 @@
+{
+    "version": "14", 
+    "personal": {
+        "submitter_name": "Alexander Kristian Apel", 
+        "submitter_institution": "Eberhard Karls Universit\u00c3\u00a4t T\u00c3\u00bcbingen", 
+        "submitter_email": "kristian.apel@uni-tuebingen.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000834", 
+        "biosyn_class": [
+            "Saccharide", 
+            "Other"
+        ], 
+        "publications": "10770754, 10801869, 12436260, 12736771, 14694473, 17139092, 15942002, 15870333, 15752721, 24407644, 19762445, 18568336, 18997325, 19857499, 17329822, 16514445, 16411240, 16274243, 16171397, 14694473, 12876368, 12680772, 11325587, 13355385, 13355386, 19557032, 24543916 ", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AF170880", 
+                    "start_coord": 4859, 
+                    "end_coord": 28076, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "novobiocin", 
+                "chem_synonyms": [
+                    "albamycin", 
+                    "cathomycin", 
+                    "streptonivicin", 
+                    "inamycin", 
+                    "spheromycin", 
+                    "cardelmycin", 
+                    "novobiocina", 
+                    "novobiocine"
+                ], 
+                "chem_struct": "O=C(N([H])[H])O[C@]([C@@]1([H])O[H])([H])[C@@](C(C([H])([H])[H])(C([H])([H])[H])O[C@@]1([H])OC2=C(C([H])([H])[H])C(OC3=O)=C(C(O[H])=C3N([H])C(C(C([H])=C4[H])=C([H])C(C([H])([H])/C([H])=C(C([H])([H])[H])/C([H])([H])[H])=C4O[H])=O)C([H])=C2[H])([H])OC([H])([H])[H]",
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 54675769, 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": " GyrB, subunit B protein of DNA gyrase", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "3-Dimethylallyl-4-hydroxybenzoic acid", 
+                        "moiety_subcluster": [
+                            "aaf67510.2", 
+                            "aaf67511.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "carbamoyl group", 
+                        "moiety_subcluster": [
+                            "aaf67507.2"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "aminocoumarin moiety", 
+                        "moiety_subcluster": [
+                            "aaf67501.2", 
+                            "aaf67502.1", 
+                            "aaf67503.1", 
+                            "aaf67504.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "novE", 
+                    "gene_id": "AAF67498.1", 
+                    "gene_annotation": "regulatory protein NovE", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Heterologous expression", 
+                        "Other"
+                    ], 
+                    "mut_pheno": "strong reduction of novobiocin biosynthesis"
+                }, 
+                {
+                    "gene_name": "novF", 
+                    "gene_id": "AAF67499.1", 
+                    "gene_annotation": "prephenate dehydrogenase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "novG", 
+                    "gene_id": "AAF67500.1", 
+                    "gene_annotation": "regulatory protein CloG", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Heterologous expression", 
+                        "Other"
+                    ], 
+                    "mut_pheno": "strong reduction of novobiocin biosynthesis"
+                }, 
+                {
+                    "gene_name": "novH", 
+                    "gene_id": "AAF67501.2", 
+                    "gene_annotation": "peptide synthetase-like protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Heterologous expression", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "no novobiocin production"
+                }, 
+                {
+                    "gene_name": "novI", 
+                    "gene_id": "AAF67502.1", 
+                    "gene_annotation": "cytochrome P450", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Heterologous expression", 
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "novJ", 
+                    "gene_id": "AAF67503.1", 
+                    "gene_annotation": "b-ketotyrosyl-reductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Heterologous expression", 
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "novK", 
+                    "gene_id": "AAF67504.1", 
+                    "gene_annotation": "b-ketotyrosyl-reductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Heterologous expression", 
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "novL", 
+                    "gene_id": "AAF67505.1", 
+                    "gene_annotation": "amide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Heterologous expression", 
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "novM", 
+                    "gene_id": "AAF67506.1", 
+                    "gene_annotation": "glycosyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Heterologous expression", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "production of novobiocic acid"
+                }, 
+                {
+                    "gene_name": "novN", 
+                    "gene_id": "AAF67507.2", 
+                    "gene_annotation": "carbamoyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Heterologous expression", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "production of novobiocin 103 (non-carbamylated novobiocin)"
+                }, 
+                {
+                    "gene_name": "novO", 
+                    "gene_id": "AAF67508.2", 
+                    "gene_annotation": "methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Heterologous expression", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "production of novobiocin 117 (novobiocin missing methylation on aminocoumarin moiety)"
+                }, 
+                {
+                    "gene_name": "novP", 
+                    "gene_id": "AAF67509.1", 
+                    "gene_annotation": "O-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Heterologous expression", 
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "novQ", 
+                    "gene_id": "AAF67510.2", 
+                    "gene_annotation": "ABBA prenyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Heterologous expression", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "no novobiocin production"
+                }, 
+                {
+                    "gene_name": "novR", 
+                    "gene_id": "AAF67511.1", 
+                    "gene_annotation": "alpha-ketoacid-dependent oxygenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "novS", 
+                    "gene_id": "AAF67512.1", 
+                    "gene_annotation": "dTDP-4-keto-6-deoxyhexose reductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Heterologous expression"
+                    ]
+                }, 
+                {
+                    "gene_name": "novT", 
+                    "gene_id": "AAF67513.1", 
+                    "gene_annotation": "dTDP-glucose 4,6-dehydratase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "novU", 
+                    "gene_id": "AAF67514.1", 
+                    "gene_annotation": "C-methyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Heterologous expression"
+                    ]
+                }, 
+                {
+                    "gene_name": "novV", 
+                    "gene_id": "AAF67515.1", 
+                    "gene_annotation": "dTDP-glucose synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "novW", 
+                    "gene_id": "AAF67516.1", 
+                    "gene_annotation": "dTDP-4-keto-6-deoxyglucose 3,5-epimerase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Heterologous expression"
+                    ]
+                }, 
+                {
+                    "gene_name": "gyrB_R", 
+                    "gene_id": "AAF67646.1", 
+                    "gene_annotation": "resistant DNA gyrase subunit B", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Heterologous expression"
+                    ]
+                }
+            ], 
+            "operon": [
+                {
+                    "operon_genes": [
+                        "aaf67501.2", 
+                        "aaf67502.1", 
+                        "aaf67503.1", 
+                        "aaf67504.1", 
+                        "aaf67505.1", 
+                        "aaf67506.1", 
+                        "aaf67507.1", 
+                        "aaf67508.1", 
+                        "aaf67509.1", 
+                        "aaf67510.1", 
+                        "aaf67511.1", 
+                        "aaf67512.1", 
+                        "aaf67513.1", 
+                        "aaf67514.1", 
+                        "aaf67515.1", 
+                        "aaf67516.1"
+                    ], 
+                    "evidence_operon": "Other"
+                }
+            ]
+        }, 
+        "Saccharide": {
+            "saccharide_subclass": "hybrid/tailoring", 
+            "gt_genes": [
+                {
+                    "gt_gene": "AAF67506.1", 
+                    "gt_specificity": "L-noviose", 
+                    "evidence_gt_spec": "Activity assay", 
+                    "sugar_subcluster": "AAF67512.1, AAF67513.1, AAF67514.1, AAF67515.1, AAF67516.1"
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Aminocoumarin"
+        }
+    }
+}
+
+

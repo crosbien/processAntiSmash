@@ -1,0 +1,39 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 122781, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "lankamycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 111152, 
+                    "Accession": "AB088224", 
+                    "start_coord": 43059
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000085", 
+        "publications": [
+            "12791134", 
+            "10954087", 
+            "10767533", 
+            "9836424"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

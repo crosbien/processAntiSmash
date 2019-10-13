@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 2358, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "benzoxazinone DIMBOA"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3267368, 
+                    "Accession": "CM000780", 
+                    "start_coord": 3003162
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000810", 
+        "publications": [
+            "11851909", 
+            "12620350", 
+            "18192444"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Alkaloid"
+        ]
+    }
+}

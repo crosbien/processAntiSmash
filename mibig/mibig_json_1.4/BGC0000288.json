@@ -1,0 +1,47 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "A-503083 A",
+                "chem_struct": "O=C1[C@@H](NC(C2=C[C@H](O)[C@H](O)[C@@H](O[C@@H](C(N)=O)[C@]3([H])[C@@H](OC)[C@@H](OC(N)=O)[C@H](N(C=C4)C(NC4=O)=O)O3)O2)=O)CCC[C@@H](C)N1",
+                "molecular_formula": "C25H34N6O13",
+                "mol_mass": 626.57
+            },
+            {
+                "compound": "A-503083 B",
+                "chem_struct": "O=C1[C@@H](NC(C2=C[C@H](O)[C@H](O)[C@@H](O[C@@H](C(N)=O)[C@]3([H])[C@@H](OC)[C@@H](OC(N)=O)[C@H](N(C=C4)C(NC4=O)=O)O3)O2)=O)CCCCN1",
+                "molecular_formula": "C24H32N6O13",
+                "mol_mass": 612.549
+            },
+            {
+                "compound": "A-503083 E",
+                "chem_struct": "O=C(N([C@H]1[C@H](OC(N)=O)[C@H](OC)[C@@]([H])([C@H](C(N)=O)O[C@H]2OC(C(OC)=O)=C[C@H](O)[C@@H]2O)O1)C=C3)NC3=O",
+                "molecular_formula": "C19H24N4O13",
+                "mol_mass": 516.416
+            },
+            {
+                "compound": "A-503083 F",
+                "chem_struct": "O=C(N([C@H]1[C@H](OC(N)=O)[C@H](OC)[C@@]([H])([C@H](C(N)=O)O[C@H]2OC(C(O)=O)=C[C@H](O)[C@@H]2O)O1)C=C3)NC3=O",
+                "molecular_formula": "C18H22N4O13",
+                "mol_mass": 502.38
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "AB538860", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000288", 
+        "publications": [
+            "20562876"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

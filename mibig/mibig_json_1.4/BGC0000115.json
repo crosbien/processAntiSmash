@@ -1,0 +1,699 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Sergey Zotchev", 
+        "submitter_institution": "Norwegian University of Science and Technology", 
+        "submitter_email": "sergey.zotchev@ntnu.no"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000115", 
+        "biosyn_class": [
+            "Polyketide", 
+			"Saccharide"
+        ], 
+        "publications": "10873841", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AF263912", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "nystatin A1", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 11286230, 
+                "chem_act": [
+                    "Antifungal"
+                ], 
+                "chem_target": "cellular membrane/ergosterol"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "nysF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 46, 
+                    "gene_endpos": 783, 
+                    "gene_id": "AAF71762.1", 
+                    "gene_annotation": "NysF", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "nystatin overproduction"
+                }, 
+                {
+                    "gene_name": "nysG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 867, 
+                    "gene_endpos": 2684, 
+                    "gene_id": "AAF71763.1", 
+                    "gene_annotation": "NysG", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulates 10-deoxynystatin"
+                }, 
+                {
+                    "gene_name": "nysH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2662, 
+                    "gene_endpos": 4416, 
+                    "gene_id": "AAF71764.1", 
+                    "gene_annotation": "NysH", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulated 10-deoxynystatin"
+                }, 
+                {
+                    "gene_name": "nysDIII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4714, 
+                    "gene_endpos": 5748, 
+                    "gene_id": "AAF71765.1", 
+                    "gene_annotation": "NysDIII", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "nysI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5930, 
+                    "gene_endpos": 34363, 
+                    "gene_id": "AAF71766.1", 
+                    "gene_annotation": "NysI", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "nysJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 34384, 
+                    "gene_endpos": 50691, 
+                    "gene_id": "AAF71767.1", 
+                    "gene_annotation": "NysJ", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "nysK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 50747, 
+                    "gene_endpos": 56947, 
+                    "gene_id": "AAF71768.1", 
+                    "gene_annotation": "NysK", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "nysL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 57095, 
+                    "gene_endpos": 58279, 
+                    "gene_id": "AAF71769.1", 
+                    "gene_annotation": "NysL", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "nysM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 58378, 
+                    "gene_endpos": 58572, 
+                    "gene_id": "AAF71770.1", 
+                    "gene_annotation": "NysM", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "nysN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 58637, 
+                    "gene_endpos": 59833, 
+                    "gene_id": "AAF71771.1", 
+                    "gene_annotation": "NysN", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "produces 16-decarboxy-16-methyl nystatin"
+                }, 
+                {
+                    "gene_name": "nysDII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 59830, 
+                    "gene_endpos": 60888, 
+                    "gene_id": "AAF71772.1", 
+                    "gene_annotation": "NysDII", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "nysDI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 60909, 
+                    "gene_endpos": 62429, 
+                    "gene_id": "AAF71773.1", 
+                    "gene_annotation": "NysDI", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "produces nystatin aglycon"
+                }, 
+                {
+                    "gene_name": "nysA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 62659, 
+                    "gene_endpos": 66759, 
+                    "gene_id": "AAF71774.1", 
+                    "gene_annotation": "NysA", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "does not produce nystatin"
+                }, 
+                {
+                    "gene_name": "nysB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 66805, 
+                    "gene_endpos": 76383, 
+                    "gene_id": "AAF71775.1", 
+                    "gene_annotation": "NysB", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "nysC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 76403, 
+                    "gene_endpos": 109693, 
+                    "gene_id": "AAF71776.1", 
+                    "gene_annotation": "NysC", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "does not produce nystatin"
+                }, 
+                {
+                    "gene_name": "nysE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 110113, 
+                    "gene_endpos": 110868, 
+                    "gene_id": "AAF71777.1", 
+                    "gene_annotation": "NysE", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "nystatin production drastically reduced"
+                }, 
+                {
+                    "gene_name": "nysRI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 111258, 
+                    "gene_endpos": 114158, 
+                    "gene_id": "AAF71778.1", 
+                    "gene_annotation": "NysRI", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "nystatin production drastically reduced"
+                }, 
+                {
+                    "gene_name": "nysRII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 114182, 
+                    "gene_endpos": 117043, 
+                    "gene_id": "AAF71779.1", 
+                    "gene_annotation": "NysRII", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "nystatin production drastically reduced"
+                }, 
+                {
+                    "gene_name": "nysRIII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 117033, 
+                    "gene_endpos": 119816, 
+                    "gene_id": "AAF71780.1", 
+                    "gene_annotation": "NysRIII", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "nystatin productino drastically reduced"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 120268, 
+                    "gene_endpos": 120900, 
+                    "gene_id": "AAF71781.1", 
+                    "gene_annotation": "ORF4", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no discernable phenotype"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 121589, 
+                    "gene_endpos": 122350, 
+                    "gene_id": "AAF71782.1", 
+                    "gene_annotation": "ORF3", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no discernable phenotype"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 122404, 
+                    "gene_endpos": 123468, 
+                    "gene_id": "AAF71783.1", 
+                    "gene_annotation": "ORF2", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Polyene", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "pks_te_type": "Both", 
+            "pks_thioesterase": [
+                "aaf71768.1", 
+                "aaf71777.1"
+            ], 
+            "pks_release_type": "Macrolactonization", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AAF71766.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "10", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "A-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "11", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "A-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "12", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "13", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "14", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "15", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAF71767.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "16", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "ER", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "17", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "18", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAF71768.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "19", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "T", 
+                                "TE"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAF71774.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Non-elongating"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAF71775.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "A-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "A-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAF71776.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "4", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "ER", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "7", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "8", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "9", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "B-group", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Saccharide": {
+            "saccharide_subclass": "hyrbid/tailoring", 
+            "gt_genes": [
+                {
+                    "gt_gene": "nysDI", 
+                    "gt_specificity": "mycoamine"
+                }
+            ]
+        }
+    }
+}
+

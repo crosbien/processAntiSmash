@@ -1,0 +1,23 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "fuscachelin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2196882, 
+                    "Accession": "CP000088", 
+                    "start_coord": 2172724
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000359", 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

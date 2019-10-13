@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 9829143, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "fellutamide B"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3931512, 
+                    "Accession": "BN001302", 
+                    "start_coord": 3944770
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001399", 
+        "publications": [
+            "27294372"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

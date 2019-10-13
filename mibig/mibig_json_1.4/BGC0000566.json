@@ -1,0 +1,177 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Professor Douglas Mitchell", 
+        "submitter_institution": "University of Illinois at Urbana-Champaign", 
+        "submitter_email": "douglasm@illinois.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000566", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "10858242,15819624,18375757,19286651,21822292,22001374", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AE004092", 
+                    "start_coord": 598682, 
+                    "end_coord": 606971, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Streptolysin S", 
+                "chem_synonyms": [], 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "sagA", 
+                    "gene_id": "SPy_0738", 
+                    "gene_annotation": "RiPP precursor peptide", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Heterologous expression", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "Loss of hemolytic activity."
+                }, 
+                {
+                    "gene_name": "sagB", 
+                    "gene_id": "SPy_0739", 
+                    "gene_annotation": "Dehydrogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Heterologous expression", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "Loss of hemolytic activity."
+                }, 
+                {
+                    "gene_name": "sagC", 
+                    "gene_id": "SPy_0740", 
+                    "gene_annotation": "Cyclodehydratase partner", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Heterocyclization", 
+                    "evidence_genefunction": [
+                        "Heterologous expression", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "Loss of hemolytic activity."
+                }, 
+                {
+                    "gene_name": "sagD", 
+                    "gene_id": "SPy_0741", 
+                    "gene_annotation": "Cyclodehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Heterocyclization", 
+                    "evidence_genefunction": [
+                        "Heterologous expression", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "Loss of hemolytic activity."
+                }, 
+                {
+                    "gene_name": "sagE", 
+                    "gene_id": "SPy_0742", 
+                    "gene_annotation": "Putative protease", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "Loss of hemolytic activity."
+                }, 
+                {
+                    "gene_name": "sagF", 
+                    "gene_id": "SPy_0743", 
+                    "gene_annotation": "Conserved unknown", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "Loss of hemolytic activity."
+                }, 
+                {
+                    "gene_name": "sagG", 
+                    "gene_id": "SPy_0744", 
+                    "gene_annotation": "ABC transporter ", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "Loss of hemolytic activity."
+                }, 
+                {
+                    "gene_name": "sagH", 
+                    "gene_id": "SPy_0745", 
+                    "gene_annotation": "ABC transporter ", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sagI", 
+                    "gene_id": "SPy_0746", 
+                    "gene_annotation": "ABC transporter ", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ], 
+            "operon": [
+                {
+                    "operon_genes": [
+                        "spy_0738", 
+                        "spy_0739", 
+                        "spy_0740", 
+                        "spy_0741", 
+                        "spy_0742", 
+                        "spy_0743", 
+                        "spy_0744", 
+                        "spy_0745", 
+                        "spy_0746"
+                    ], 
+                    "evidence_operon": "Other"
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "LAP", 
+            "lin_cycl_ripp": "Linear", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "spy_0738"
+                    ], 
+                    "core_pept_aa": "CCCCCTTCCFSIATGSGNSQGGSGSYTPGK", 
+                    "lead_pept_len": 23, 
+                    "foll_pept_len": -1, 
+                    "recogn_motif": "FxxxI", 
+                    "peptidase": [
+                        "spy_0742"
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

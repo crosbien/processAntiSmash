@@ -1,0 +1,23 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "FR900359"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 98508, 
+                    "Accession": "NZ_LGTG01000643", 
+                    "start_coord": 62709
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001451", 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

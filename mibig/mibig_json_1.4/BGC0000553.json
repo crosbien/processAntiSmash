@@ -1,0 +1,145 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Neha Garg", 
+        "submitter_institution": "University of California at San Diego", 
+        "submitter_email": "negarg@ucsd.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000553", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "21983601", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "NZ_DS999644", 
+                    "start_coord": 5221350, 
+                    "end_coord": 5228789, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "SRO15-2212", 
+                "chem_synonyms": [], 
+                "mol_mass": 2212.18, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 67, 
+                    "gene_endpos": 1542, 
+                    "gene_id": "WP_032798330.1", 
+                    "gene_annotation": "serine/threonine protein kinase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2676, 
+                    "gene_endpos": 2878, 
+                    "gene_id": "WP_032798142.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2904, 
+                    "gene_endpos": 3035, 
+                    "gene_id": "WP_003966507.1", 
+                    "gene_annotation": "AmfS protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3128, 
+                    "gene_endpos": 4193, 
+                    "gene_id": "WP_032798143.1", 
+                    "gene_annotation": "ABC transporter ATP-binding protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4477, 
+                    "gene_endpos": 4822, 
+                    "gene_id": "WP_032798144.1", 
+                    "gene_annotation": "ABC transporter ATP-binding protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6835, 
+                    "gene_endpos": 7440, 
+                    "gene_id": "WP_006127364.1", 
+                    "gene_annotation": "transcriptional regulator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "Lantipeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "ssgg_rs09925"
+                    ], 
+                    "core_pept_aa": "TGSQVSLLVCEYSSLSVVLCTP", 
+                    "lead_pept_len": 21, 
+                    "foll_pept_len": -1, 
+                    "peptidase": [], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 3, 
+                            "AA_pos_2": 10, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 13, 
+                            "AA_pos_2": 20, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "comments": "The SRO15-2212 prepropeptide sequence is identical with AmfS from Streptomyces griseus IFO13350"
+}
+
+

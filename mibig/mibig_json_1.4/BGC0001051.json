@@ -1,0 +1,299 @@
+{
+   "version": "16",
+   "personal": {
+      "submitter_name": "Daniel Krug",
+      "submitter_institution": "HIPS",
+      "submitter_email": "daniel.krug@helmholtz-hzi.de"
+   },
+   "general_params": {
+      "mibig_accession": "BGC0001051",
+      "biosyn_class": [
+         "NRP",
+         "Polyketide"
+      ],
+      "publications": "20416506",
+      "loci": {
+         "complete": "complete",
+         "nucl_acc": [
+            {
+               "Accession": "GQ981380",
+               "mixs_compliant": false,
+               "start_coord": 1,
+               "end_coord": 82258,
+               "conn_comp_cluster": [
+                  "Knock-out studies"
+               ]
+            }
+         ]
+      },
+      "compounds": [
+         {
+            "compound": "Thuggacin A",
+            "chem_synonyms": [],
+            "database_deposited": false,
+            "chem_struct": "[C@@H]1(O)C=CC=CC[C@H](OC(=O)C(CCCCCC)=CC2N=C(SC=2)[C@H](C)[C@@H](O)C1)[C@H]([C@H](O)C(C(O)/C(=C/C(=C/C)/C)/C)C)O",
+            "molecular_formula": "C35H53N1O7S1",
+            "mol_mass": 632.3615,
+            "mass_ion_type": "[M+H]+",
+            "chem_act": [
+               "Antibacterial"
+            ]
+         }
+      ],
+      "genes": {
+         "gene": [
+            {
+               "gene_name": "tgaA",
+               "not_in_gbk": false,
+               "gene_id": "ADH04639.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "tgaB ",
+               "not_in_gbk": false,
+               "gene_id": "ADH04640.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "tgaC ",
+               "not_in_gbk": false,
+               "gene_id": "ADH04641.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Knock-out"
+               ],
+               "mut_pheno": "loss of production"
+            },
+            {
+               "gene_name": "tgaD ",
+               "not_in_gbk": false,
+               "gene_id": "ADH04642.1",
+               "gene_annotation": "alcohol dehydrogenase",
+               "gene_function": "Tailoring",
+               "tailoring": "Oxidation",
+               "evidence_genefunction": [
+                  "Knock-out"
+               ],
+               "mut_pheno": "loss of production"
+            },
+            {
+               "gene_name": "tgaE ",
+               "not_in_gbk": false,
+               "gene_id": "ADH04638.1",
+               "gene_annotation": "monooxygenase",
+               "gene_function": "Tailoring",
+               "tailoring": "Oxidation",
+               "evidence_genefunction": [
+                  "Knock-out"
+               ],
+               "mut_pheno": "production of new derivatives"
+            }
+         ]
+      },
+      "NRP": {
+         "subclass": "Other",
+         "lin_cycl_nrp": "Linear",
+         "nrps_genes": [
+            {
+               "nrps_gene": "ADH04641.1",
+               "nrps_module": [
+                  {
+                     "module_nr": "10",
+                     "a_substr_spec": {
+                        "aa_type": "Proteinogenic",
+                        "prot_adom_spec": "Cysteine",
+                        "evidence_a_spec": "Sequence-based prediction",
+                        "epimerized": false
+                     },
+                     "cdom_subtype": "Heterocyclization",
+                     "nrps_mod_doms": "Oxidation",
+                     "nrps_mod_skip_iter": "Neither"
+                  }
+               ]
+            }
+         ],
+         "nrps_te_type": "None",
+         "nrps_thioesterase": [],
+         "nrps_release_type": "Macrolactonization"
+      },
+      "Polyketide": {
+         "pk_subclass": "Other",
+         "lin_cycl_pk": "Cyclic",
+         "pks_subclass": [
+            "Modular type I"
+         ],
+         "starter_unit": "Acetyl-CoA",
+         "mod_pks_genes": [
+            {
+               "mod_pks_gene": "ADH04639.1",
+               "pks_module": [
+                  {
+                     "module_nr": "1",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Enoylreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Methylmalonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "2",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Methylmalonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "3",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Methylmalonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "4",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Malonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "5",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Malonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "ADH04640.1",
+               "pks_module": [
+                  {
+                     "module_nr": "6",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Methylmalonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "7",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Malonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "ADH04641.1",
+               "pks_module": [
+                  {
+                     "module_nr": "8",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Malonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "9",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Methylmalonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "11",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Other",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            }
+         ],
+         "pks_te_type": "Type I",
+         "pks_thioesterase": [
+            "adh04641.1"
+         ],
+         "pks_release_type": "Macrolactonization"
+      }
+   },
+   "embargo": false
+}

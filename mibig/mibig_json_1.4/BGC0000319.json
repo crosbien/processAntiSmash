@@ -1,0 +1,332 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Susan Jensen", 
+        "submitter_institution": "University of Alberta", 
+        "submitter_email": "susan.jensen@ualberta.ca"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000319", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "3130293, 1547956, 1476443, 8652114, 8892828, 9696752, 10629179, 11882698, 15583166, 17573474", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "DS570624", 
+                    "start_coord": 142995, 
+                    "end_coord": 177446, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "cephamycin C", 
+                "chem_synonyms": [], 
+                "chem_struct": "CO[C@@]1([C@@H]2N(C1=O)C(=C(CS2)COC(=O)N)C(=O)O)NC(=O)CCCC(C(=O)O)N", 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "penicillin binding proteins, transpeptidase, carboxypeptidase", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "beta-lactam ring", 
+                        "moiety_subcluster": [
+                            "sscg_00147"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "sscg_00145", 
+                        "sscg_00146", 
+                        "sscg_00147"
+                    ], 
+                    "evidence_operon": "Other"
+                }, 
+                {
+                    "operon_genes": [
+                        "sscg_00141", 
+                        "sscg_00142", 
+                        "sscg_00143"
+                    ], 
+                    "evidence_operon": "Other"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "bla", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 999, 
+                    "gene_id": "EDY47102.1", 
+                    "gene_annotation": "Beta-lactamase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "pbp74", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1036, 
+                    "gene_endpos": 3117, 
+                    "gene_id": "EDY47103.1", 
+                    "gene_annotation": "Penicillin binding protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cmcT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3471, 
+                    "gene_endpos": 4940, 
+                    "gene_id": "EDY47104.1", 
+                    "gene_annotation": "Cephamycin transport protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "pcd", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5328, 
+                    "gene_endpos": 6866, 
+                    "gene_id": "EDY47105.1", 
+                    "gene_annotation": "Piperideine-6-carboxylate dehydrogenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cefE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6882, 
+                    "gene_endpos": 7817, 
+                    "gene_id": "EDY47106.1", 
+                    "gene_annotation": "Deacetoxycephalosporin C synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cefD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7896, 
+                    "gene_endpos": 9092, 
+                    "gene_id": "EDY47107.1", 
+                    "gene_annotation": "Isopenicillin N epimerase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cmcI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9867, 
+                    "gene_endpos": 10577, 
+                    "gene_id": "EDY47109.1", 
+                    "gene_annotation": "Cephalosporin-C7-hydroxylase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cmcJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10626, 
+                    "gene_endpos": 11558, 
+                    "gene_id": "EDY47110.1", 
+                    "gene_annotation": "Cephalosporin-C7-methoxylase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cefF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11655, 
+                    "gene_endpos": 12611, 
+                    "gene_id": "EDY47111.1", 
+                    "gene_annotation": "Deacetoxycephalosporin C hydroxylase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cmcH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12687, 
+                    "gene_endpos": 14252, 
+                    "gene_id": "EDY47112.1", 
+                    "gene_annotation": "3'-Hydroxymethylcephem-O-carbamoyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "ccaR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15168, 
+                    "gene_endpos": 15956, 
+                    "gene_id": "EDY47113.1", 
+                    "gene_annotation": "Positive regulator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16279, 
+                    "gene_endpos": 17295, 
+                    "gene_id": "EDY47115.1", 
+                    "gene_annotation": "Metallo-beta-lactamase-like protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "blp", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17642, 
+                    "gene_endpos": 18190, 
+                    "gene_id": "EDY47116.1", 
+                    "gene_annotation": "Beta-lactamase inhibitor protein-like protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lat", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18796, 
+                    "gene_endpos": 20169, 
+                    "gene_id": "EDY47117.1", 
+                    "gene_annotation": "L-Lysine-epsilon aminotransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "pcbAB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20406, 
+                    "gene_endpos": 31667, 
+                    "gene_id": "EDY47118.1", 
+                    "gene_annotation": "N-(5-Amino-5-carboxypentanoyl)-L-cysteinyl-D-valine synthetase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "pcbC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31699, 
+                    "gene_endpos": 32688, 
+                    "gene_id": "EDY47119.1", 
+                    "gene_annotation": "Isopenicillin N synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "pcbR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 32797, 
+                    "gene_endpos": 34452, 
+                    "gene_id": "EDY47121.1", 
+                    "gene_annotation": "penicillin binding protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Beta-lactam", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Unknown", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Unknown", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "EDY47118.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "2-Amino-adipic-acid", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Cysteine", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Valine", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

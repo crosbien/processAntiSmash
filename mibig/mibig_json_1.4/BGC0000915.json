@@ -1,0 +1,67 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Fengan Yu", 
+        "submitter_institution": "University of Michigan", 
+        "submitter_email": "fenganyu@umich.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000915", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "10099135", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AF127374", 
+                    "start_coord": 1, 
+                    "end_coord": 63728, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "mitomycin", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC1=C(C(=O)C2=C(C1=O)N3C[C@H]4[C@@H]([C@@]3([C@@H]2COC(=O)N)OC)N4)N", 
+                "molecular_formula": "C15H18N4O5", 
+                "mol_mass": 334.1277, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "3-Amino-5-hydroxybenzoic acid", 
+                        "moiety_subcluster": [
+                            "aad28452.1", 
+                            "mitt", 
+                            "aad28453.1", 
+                            "mits", 
+                            "aad28456.1", 
+                            "mitp", 
+                            "aad28452.1", 
+                            "mitj", 
+                            "aad32723.1", 
+                            "mita"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": []
+        }, 
+        "Other": {
+            "other_subclass": "Aminocoumarin"
+        }
+    }, 
+    "embargo": true
+}
+
+

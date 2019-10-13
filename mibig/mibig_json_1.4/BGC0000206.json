@@ -1,0 +1,87 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Keishi Ishida", 
+        "submitter_institution": "Leipniz Institute for Natural Product Research and Infection Biology", 
+        "submitter_email": "keishi.ishida@hki-jena.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000206", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "15911378,14529449,12384604,12107551", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AJ786382", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "Accession": "AJ786383", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "chartreusin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 5281394, 
+                "chemspider_id": 4444748, 
+                "chem_act": [
+                    "Inhibitor", 
+                    "Other"
+                ], 
+                "other_chem_act": "Antitumor", 
+                "chem_target": "DNA, topoisomerase II"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_id": "CAH10175.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Loss of chartreusin production, production of resomycin C"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Anthracycline", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "cah10161.1"
+            ], 
+            "ketide_length": 10, 
+            "cyclases": "CAH10155.1, CAH10156.1"
+        }
+    }
+}
+
+

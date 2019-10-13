@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 19649, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "streptomycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 6951001, 
+                    "Accession": "AP009493", 
+                    "start_coord": 6919728
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000724", 
+        "publications": [
+            "18375553", 
+            "18364359", 
+            "18310036"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Saccharide"
+        ]
+    }
+}

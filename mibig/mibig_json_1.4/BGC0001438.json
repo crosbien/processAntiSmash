@@ -1,0 +1,524 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Monica G. Malmierca", 
+        "submitter_institution": "University of Oviedo", 
+        "submitter_email": "mgomh@unileon.es"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001438", 
+        "biosyn_class": [
+            "Polyketide", 
+            "Saccharide"
+        ], 
+        "publications": "23860362", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KZ195572", 
+                    "start_coord": 1756999, 
+                    "end_coord": 1795313, 
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Warkmycin CS1", 
+                "chem_synonyms": [], 
+                "chem_struct": "O[C@H](C(C)=C1)[C@@]2(O)[C@]([C@@]1([H])O[C@H](C[C@@H](OC)[C@@H]3O)O[C@H]3C)(O)C4=C(C(C(C(O)=C5[C@@H](C[C@@H](O[C@H]6C[C@]([C@H](O[C@@H]7O[C@@H]([C@H](CC7)OC(N)=O)C)[C@@H](C)O6)(C)O)[C@@H]8O)O[C@@H]8C)=C(C=C5)C4=O)=O)[C@H](O)[C@@H]2OC(C)=O", 
+                "molecular_formula": "C48H65NO22", 
+                "mol_mass": 1025.4341, 
+                "mass_ion_type": "[M+NH4]+", 
+                "evidence_struct": [
+                    "NMR"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "Warkmycin CS2", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1C(C(O)=C2[C@@H](C[C@@H](O[C@H]3C[C@]([C@H](O[C@@H]4O[C@@H]([C@H](CC4)OC(N)=O)C)[C@@H](C)O3)(C)O)[C@@H]5O)O[C@@H]5C)=C(C=C2)C(C6=C1[C@H](O)[C@H](OC(C)=O)[C@]([C@H](OC(C)=O)C(C)=C7)(O)[C@@]6(O)[C@@]7([H])O[C@H](C[C@@H](OC)[C@@H]8O)O[C@H]8C)=O", 
+                "molecular_formula": "C50H67NO23", 
+                "mol_mass": 1049.4104, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "NMR"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "wmc1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1757000, 
+                    "gene_endpos": 1758787, 
+                    "gene_id": "OWA25221.1", 
+                    "gene_annotation": "carbamoyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1758810, 
+                    "gene_endpos": 1760039, 
+                    "gene_id": "OWA25222.1", 
+                    "gene_annotation": "methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1760101, 
+                    "gene_endpos": 1760877, 
+                    "gene_id": "OWA25223.1", 
+                    "gene_annotation": "dTDP-6-deoxy-L-hexose 3-O-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1760917, 
+                    "gene_endpos": 1761945, 
+                    "gene_id": "OWA25224.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1761902, 
+                    "gene_endpos": 1762831, 
+                    "gene_id": "OWA25225.1", 
+                    "gene_annotation": "glucose-1-phosphate thymidylyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1762828, 
+                    "gene_endpos": 1763463, 
+                    "gene_id": "OWA25226.1", 
+                    "gene_annotation": "dTDP-4-dehydrorhamnose 3,5-epimerase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1763649, 
+                    "gene_endpos": 1764806, 
+                    "gene_id": "OWA25227.1", 
+                    "gene_annotation": "C-glycosyltransferase SaqGT5", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1764897, 
+                    "gene_endpos": 1766030, 
+                    "gene_id": "OWA25228.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1766044, 
+                    "gene_endpos": 1767231, 
+                    "gene_id": "OWA25229.1", 
+                    "gene_annotation": "cytochrome P450", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1767298, 
+                    "gene_endpos": 1768503, 
+                    "gene_id": "OWA25230.1", 
+                    "gene_annotation": "glycosyl transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1768562, 
+                    "gene_endpos": 1769806, 
+                    "gene_id": "OWA25231.1", 
+                    "gene_annotation": "protein IroB", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc12", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1769898, 
+                    "gene_endpos": 1770479, 
+                    "gene_id": "OWA25232.1", 
+                    "gene_annotation": "TetR family transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc13", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1770533, 
+                    "gene_endpos": 1771336, 
+                    "gene_id": "OWA25233.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc14", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1771336, 
+                    "gene_endpos": 1772403, 
+                    "gene_id": "OWA25234.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc15", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1772400, 
+                    "gene_endpos": 1773800, 
+                    "gene_id": "OWA25479.1", 
+                    "gene_annotation": "NDP-hexose 2,3-dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc16", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1773827, 
+                    "gene_endpos": 1774582, 
+                    "gene_id": "OWA25235.1", 
+                    "gene_annotation": "NAD-dependent epimerase/dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc17", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1774674, 
+                    "gene_endpos": 1775984, 
+                    "gene_id": "OWA25236.1", 
+                    "gene_annotation": "lipopolysaccharide biosynthesis protein RfbH", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc18", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1775995, 
+                    "gene_endpos": 1776993, 
+                    "gene_id": "OWA25237.1", 
+                    "gene_annotation": "dTDP-glucose 4,6-dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc19", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1777089, 
+                    "gene_endpos": 1778138, 
+                    "gene_id": "OWA25480.1", 
+                    "gene_annotation": "aldo/keto reductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc20", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1778150, 
+                    "gene_endpos": 1778734, 
+                    "gene_id": "OWA25238.1", 
+                    "gene_annotation": "NADPH-dependent oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc21", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1778789, 
+                    "gene_endpos": 1779982, 
+                    "gene_id": "OWA25239.1", 
+                    "gene_annotation": "acyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acetylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc22", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1780069, 
+                    "gene_endpos": 1781340, 
+                    "gene_id": "OWA25240.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc23", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1781422, 
+                    "gene_endpos": 1783706, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "monooxygenase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc24", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1783771, 
+                    "gene_endpos": 1784718, 
+                    "gene_id": "OWA25241.1", 
+                    "gene_annotation": "cyclase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc25", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1784759, 
+                    "gene_endpos": 1785541, 
+                    "gene_id": "OWA25242.1", 
+                    "gene_annotation": "ketoacyl reductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc26", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1785610, 
+                    "gene_endpos": 1785873, 
+                    "gene_id": "OWA25243.1", 
+                    "gene_annotation": "actinorhodin polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc27", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1785870, 
+                    "gene_endpos": 1787099, 
+                    "gene_id": "OWA25244.1", 
+                    "gene_annotation": "ketosynthase chain-length factor", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc28", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1787096, 
+                    "gene_endpos": 1788400, 
+                    "gene_id": "OWA25245.1", 
+                    "gene_annotation": "beta-ACP synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc29", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1788397, 
+                    "gene_endpos": 1788726, 
+                    "gene_id": "OWA25246.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc30", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1788775, 
+                    "gene_endpos": 1790244, 
+                    "gene_id": "OWA25247.1", 
+                    "gene_annotation": "monooxygenase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc31", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1791109, 
+                    "gene_endpos": 1791594, 
+                    "gene_id": "OWA25248.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc32", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1791790, 
+                    "gene_endpos": 1792530, 
+                    "gene_id": "OWA25481.1", 
+                    "gene_annotation": "DNA-binding response regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc33", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1793121, 
+                    "gene_endpos": 1793723, 
+                    "gene_id": "OWA25249.1", 
+                    "gene_annotation": "NADPH-dependent oxidoreductase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "wmc34", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1793720, 
+                    "gene_endpos": 1795312, 
+                    "gene_id": "OWA25250.1", 
+                    "gene_annotation": "MFS transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Angucycline", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "None", 
+            "pks_genes": [], 
+            "ketide_length": -1
+        }, 
+        "Saccharide": {
+            "saccharide_subclass": "hybrid/tailoring", 
+            "gt_genes": [
+                {
+                    "gt_gene": "B9W61_07190", 
+                    "gt_specificity": "Unknown"
+                }, 
+                {
+                    "gt_gene": "B9W61_07195", 
+                    "gt_specificity": "Unknown"
+                }, 
+                {
+                    "gt_gene": "B9W61_07205", 
+                    "gt_specificity": "Unknown"
+                }, 
+                {
+                    "gt_gene": "B9W61_07210", 
+                    "gt_specificity": "Unknown"
+                }
+            ]
+        }
+    }, 
+    "embargo": true
+}
+

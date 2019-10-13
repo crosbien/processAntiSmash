@@ -1,0 +1,282 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Philipp Wiemann, Nancy Keller", 
+        "submitter_institution": "University of Wisconsin-Madison", 
+        "submitter_email": "pwiemann@wisc.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000356", 
+        "biosyn_class": [
+            "NRP", 
+            "Alkaloid"
+        ], 
+        "publications": " 8698635, 16520651, 9677311, 18321710, 17016657, 16755625, 18683158, 19226505, 19763315, 23109474, 23649274, 24082142", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AB436628", 
+                    "start_coord": 321, 
+                    "end_coord": 22997, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "verruculogen", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 104862, 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "M phase inhibitor of cell cycle"
+            }, 
+            {
+                "compound": "fumitremorgin B", 
+                "chem_synonyms": [
+                    "lanosulin"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 105113, 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "M phase inhibitor of cell cycle"
+            }, 
+            {
+                "compound": "fumitremorgin c", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 403923, 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "BCRP/ABCG2 inhibitor"
+            }, 
+            {
+                "compound": "tryprostatin A", 
+                "chem_synonyms": [], 
+                "chem_struct": "C/C(C)=C/CC1=C(CC2NC(C(CCC3)N3C2=O)=O)C4=C(N1)C=C(OC)C=C4", 
+                "molecular_formula": "C22H27N3O3", 
+                "mol_mass": 381.2052, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "M phase inhibitor of cell cycle, inhibitor of MAP-dependent microtubule assembly, BCRP/ABCG2 inhibitor"
+            }, 
+            {
+                "compound": "tryprostatin B", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 9863281, 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "BCRP/ABCG2 inhibitor"
+            }, 
+            {
+                "compound": "demethoxyfumitremorgin C", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 10337896, 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "M phase inhibitors of the mammalian cell cycle"
+            }, 
+            {
+                "compound": "brevianamide F", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 181567, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "ftmA/ftmPS", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 321, 
+                    "gene_endpos": 6956, 
+                    "gene_id": "BAH23995.1", 
+                    "gene_annotation": "nonribosomal peptide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        " Other in vivo study"
+                    ], 
+                    "mut_pheno": "knock out was done in Af293 background, no phenotype reported. Overexpression resulted in brevianamide F accumulation"
+                }, 
+                {
+                    "gene_name": "ftmC/ftmP450-1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8500, 
+                    "gene_endpos": 10454, 
+                    "gene_id": "BAH23996.1", 
+                    "gene_annotation": "cytochrome P450", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of tryprostatin B and demethoxyfumitremorgin C, loss of tryprostatin A and following pathway products"
+                }, 
+                {
+                    "gene_name": "ftmD/ftmMT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11206, 
+                    "gene_endpos": 12319, 
+                    "gene_id": "BAH23997.1", 
+                    "gene_annotation": "O-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "ftmB/ftmPT1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13039, 
+                    "gene_endpos": 14502, 
+                    "gene_id": "BAH23998.1", 
+                    "gene_annotation": "prenyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Prenylation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "ftmE/ftmP450-2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14683, 
+                    "gene_endpos": 16263, 
+                    "gene_id": "BAH23999.1", 
+                    "gene_annotation": "cytochrome P450", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Heterocyclization", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of tryprostatin A and B, loss of demethoxyfumitremorgin C, fumitremorgin C and following pathway products"
+                }, 
+                {
+                    "gene_name": "ftmF/ftmOx1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17139, 
+                    "gene_endpos": 18014, 
+                    "gene_id": "BAH24000.1", 
+                    "gene_annotation": "alpha-ketoglutarate dioxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Heterocyclization", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        " Activity assay"
+                    ], 
+                    "mut_pheno": "accumulation of fumitremorgin B, no report on loss of verruculogen but in vitro assay showed catalytic activity for the conversion step of fumitremorgin B to verruculogen"
+                }, 
+                {
+                    "gene_name": "ftmG/ftmP450-3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19109, 
+                    "gene_endpos": 20921, 
+                    "gene_id": "BAH24001.1", 
+                    "gene_annotation": "cytochrome P450", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of fumitremorgin C, loss of fumitremorgin B and verruculogen production"
+                }, 
+                {
+                    "gene_name": "ftmH/ftmPT2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21649, 
+                    "gene_endpos": 22997, 
+                    "gene_id": "BAH24002.1", 
+                    "gene_annotation": "prenyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Prenylation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Hydrolysis", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "BAH23995.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Multiple (promiscuous)", 
+                                "a_multiple_spec": "Tryptophan / Proline", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Multiple (promiscuous)", 
+                                "a_multiple_spec": "Proline / Tryptophan", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Alkaloid": {
+            "alkaloid_subclass": "Indole/benzopyrrole"
+        }
+    }, 
+    "comments": "ftmI/ftmO do not catalyze any enzymatic reactions, this has been shown by knock-out studies, and are therefore not regarded as part of the cluster.\\nA. fumigatus Af293 harbors a point mutation in ftmMT\\nN. fischeri NRRL181 produces fumitremorgin A catalyzed by ftmPT3 present outside the genomic context of the cluster homologous to A. fumigatus\\n"
+}
+
+

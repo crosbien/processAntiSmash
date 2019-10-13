@@ -1,0 +1,28 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 25058126, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "cephalosporin, cefEFG genes"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 136157, 
+                    "Accession": "JPKY01000040", 
+                    "start_coord": 130387
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000318", 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

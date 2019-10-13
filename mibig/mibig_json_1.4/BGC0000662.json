@@ -1,0 +1,28 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "grixazone"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 4972074, 
+                    "Accession": "AP009493", 
+                    "start_coord": 4957169
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000662", 
+        "publications": [
+            "18375553", 
+            "18364359", 
+            "18310036"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

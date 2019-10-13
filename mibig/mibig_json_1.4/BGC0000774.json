@@ -1,0 +1,362 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Frank-J\u00c3\u00b6rg Vorh\u00c3\u00b6lter", 
+        "submitter_institution": "Bielefeld University", 
+        "submitter_email": "frank@cebitec.uni-bielefeld.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000774", 
+        "biosyn_class": [
+            "Saccharide"
+        ], 
+        "publications": "18304669, 11589581 , 8253667, 1370280", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AF204145", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "lipopolysaccharide", 
+                "chem_synonyms": [
+                    "lps", 
+                    "endotoxin"
+                ], 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Other"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "wxcX", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4226580, 
+                    "gene_endpos": 4228667, 
+                    "gene_id": "CAP53093.1", 
+                    "gene_annotation": "conserved protein involved in carbohydrate biosynthesis", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "wxcJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4229338, 
+                    "gene_endpos": 4228697, 
+                    "gene_id": "CAP53094.1", 
+                    "gene_annotation": "3-oxoacid CoA-transferase subunit B", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Effect on mobility in SDS PAGE, autoagglutination"
+                }, 
+                {
+                    "gene_name": "wxcI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4230066, 
+                    "gene_endpos": 4229338, 
+                    "gene_id": "CAP53095.1", 
+                    "gene_annotation": "3-oxoacid CoA-transferase, subunit A", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Effect on mobility in SDS PAGE, autoagglutination"
+                }, 
+                {
+                    "gene_name": "xanA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4230201, 
+                    "gene_endpos": 4231547, 
+                    "gene_id": "CAP53096.1", 
+                    "gene_annotation": "phosphoglucomutase / phosphomannomutase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "xanB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4231593, 
+                    "gene_endpos": 4232996, 
+                    "gene_id": "CAP53097.1", 
+                    "gene_annotation": "phosphomannose isomerase / GDP-mannose pyrophosphorylase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "rmlD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4234026, 
+                    "gene_endpos": 4233118, 
+                    "gene_id": "CAP53098.1", 
+                    "gene_annotation": "dTDP-4-dehydrorhamnose reductase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Elimination of rhamnose from lipopolysaccharide"
+                }, 
+                {
+                    "gene_name": "rmlC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4234580, 
+                    "gene_endpos": 4234023, 
+                    "gene_id": "CAP53099.1", 
+                    "gene_annotation": "dTDP-4-dehydrorhamnose 3,5-epimerase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "rmlA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4235464, 
+                    "gene_endpos": 4234577, 
+                    "gene_id": "CAP53100.1", 
+                    "gene_annotation": "glucose-1-phosphate thymidylyltransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Elimination of rhamnose from lipopolysaccharide"
+                }, 
+                {
+                    "gene_name": "rmlB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4236583, 
+                    "gene_endpos": 4235528, 
+                    "gene_id": "CAP53101.1", 
+                    "gene_annotation": "dTDP-glucose 4,6-dehydratase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "wxcK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4238958, 
+                    "gene_endpos": 4240061, 
+                    "gene_id": "CAP53105.1", 
+                    "gene_annotation": "nucleotide sugar aminotransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "wxcL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4240046, 
+                    "gene_endpos": 4241017, 
+                    "gene_id": "CAP53106.1", 
+                    "gene_annotation": "glycosyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "wxcM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4241014, 
+                    "gene_endpos": 4241943, 
+                    "gene_id": "CAP53107.1", 
+                    "gene_annotation": "bifunctional nucleotide hexosamine acetyltransferase / isomerase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "wxvN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4241930, 
+                    "gene_endpos": 4242370, 
+                    "gene_id": "CAP53108.1", 
+                    "gene_annotation": "putative membrane protein", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "wxcO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4242440, 
+                    "gene_endpos": 4244692, 
+                    "gene_id": "CAP53109.1", 
+                    "gene_annotation": "integral membrane protein", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "rmd", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4245772, 
+                    "gene_endpos": 4244834, 
+                    "gene_id": "CAP53110.1", 
+                    "gene_annotation": "GDP-4-dehydro-D-rhamnose reductase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Effect on mobility in SDS PAGE"
+                }, 
+                {
+                    "gene_name": "gmd", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4246790, 
+                    "gene_endpos": 4245756, 
+                    "gene_id": "CAP53111.1", 
+                    "gene_annotation": "GDP-mannose 4,6-dehydratase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "wxcE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4247467, 
+                    "gene_endpos": 4246868, 
+                    "gene_id": "CAP53112.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Effect on mobility in SDS PAGE"
+                }, 
+                {
+                    "gene_name": "wxcD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4249248, 
+                    "gene_endpos": 4247503, 
+                    "gene_id": "CAP53113.1", 
+                    "gene_annotation": "putative glycosyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Effect on mobility in SDS PAGE"
+                }, 
+                {
+                    "gene_name": "wxcC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4250330, 
+                    "gene_endpos": 4249269, 
+                    "gene_id": "CAP53114.1", 
+                    "gene_annotation": "glycosyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Effect on mobility in SDS PAGE"
+                }, 
+                {
+                    "gene_name": "wxcB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4252668, 
+                    "gene_endpos": 4250380, 
+                    "gene_id": "CAP53115.1", 
+                    "gene_annotation": "putative protein kinase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Effect on mobility in SDS PAGE"
+                }, 
+                {
+                    "gene_name": "wzt", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4253994, 
+                    "gene_endpos": 4252708, 
+                    "gene_id": "CAP53116.1", 
+                    "gene_annotation": "ATP-binding component of an ABC-type polysaccharide exporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Effect on mobility in SDS PAGE"
+                }, 
+                {
+                    "gene_name": "wzm", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4254833, 
+                    "gene_endpos": 4253991, 
+                    "gene_id": "CAP53117.1", 
+                    "gene_annotation": "permease protein of an ABC-type polysaccaharide exporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "wxcA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4256245, 
+                    "gene_endpos": 4254860, 
+                    "gene_id": "CAP53118.1", 
+                    "gene_annotation": "glycosyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Effect on mobility in SDS PAGE"
+                }
+            ]
+        }, 
+        "Saccharide": {
+            "saccharide_subclass": "lipopolysaccharide", 
+            "gt_genes": [
+                {
+                    "gt_gene": "AAK53471.1", 
+                    "gt_specificity": "Unknown"
+                }, 
+                {
+                    "gt_gene": "AAK53479.1", 
+                    "gt_specificity": "Unknown"
+                }, 
+                {
+                    "gt_gene": "AAK53483.1", 
+                    "gt_specificity": "Unknown"
+                }
+            ]
+        }
+    }
+}
+
+

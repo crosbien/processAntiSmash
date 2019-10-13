@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "ethylenediaminesuccinic acid hydroxyarginine (EDHA)"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 6800400, 
+                    "Accession": "BA000030", 
+                    "start_coord": 6792146
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001587", 
+        "Other": {
+            "biosyn_class": [
+                "Other"
+            ]
+        }, 
+        "publications": [
+            "29667664"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "xanthomonin I"
+            }, 
+            {
+                "compound": "xanthomonin II"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 20900, 
+                    "Accession": "AEQX01000392", 
+                    "start_coord": 18047
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000580", 
+        "RiPP": {
+            "ripp_subclass": "Other"
+        }, 
+        "publications": [
+            "24446383"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "glidopeptin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3115010, 
+                    "Accession": "NZ_CP011371", 
+                    "start_coord": 3068194
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001608", 
+        "publications": [
+            "29666226"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

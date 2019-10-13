@@ -1,0 +1,252 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Jeff Cary", 
+        "submitter_institution": "USDA-ARS-SRRC", 
+        "submitter_email": "Jeff.Cary@ARS.USDA.GOV"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001445", 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ], 
+        "publications": "26051490", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "EQ963479", 
+                    "start_coord": 704693, 
+                    "end_coord": 736312, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Leporin B", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC(CCC1)C(C1C(/C=C/C)O2)C3=C2C(C4=CC=CC=C4)=CN(O)C3=O", 
+                "molecular_formula": "C22H25NO3", 
+                "mol_mass": 351.1834, 
+                "mass_ion_type": "M+", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Siderophore", 
+                    "Other"
+                ], 
+                "other_chem_act": "antiinsectan"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 704693, 
+                    "gene_endpos": 716533, 
+                    "gene_id": "EED49862.1", 
+                    "gene_annotation": "hybrid PKS/NRPS enzyme, putative", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of leporin production"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 716818, 
+                    "gene_endpos": 717296, 
+                    "gene_id": "EED49863.1", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 717626, 
+                    "gene_endpos": 719404, 
+                    "gene_id": "EED49864.1", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 719479, 
+                    "gene_endpos": 719901, 
+                    "gene_id": "EED49865.1", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 720534, 
+                    "gene_endpos": 722044, 
+                    "gene_id": "EED49866.1", 
+                    "gene_annotation": "monocarboxylate transporter, putative", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 722643, 
+                    "gene_endpos": 724554, 
+                    "gene_id": "EED49867.1", 
+                    "gene_annotation": "cytochrome P450, putative", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of leporin production"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 726830, 
+                    "gene_endpos": 729366, 
+                    "gene_id": "EED49868.1", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Overexpression"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 730081, 
+                    "gene_endpos": 731221, 
+                    "gene_id": "EED49869.1", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of leporin production"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 731458, 
+                    "gene_endpos": 732722, 
+                    "gene_id": "EED49870.1", 
+                    "gene_annotation": "alcohol dehydrogenase, putative", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 732934, 
+                    "gene_endpos": 734586, 
+                    "gene_id": "EED49871.1", 
+                    "gene_annotation": "cytochrome P450, putative", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 734919, 
+                    "gene_endpos": 736312, 
+                    "gene_id": "EED49872.1", 
+                    "gene_annotation": "O-methyltransferase, putative", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Unknown", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Unknown", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "EED49862.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "None", 
+                                "evidence_a_spec": "None", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Iterated", 
+                            "nrps_evidence_skip_iter": "None"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [], 
+            "nr_iterations": 5, 
+            "iterative_subtype": "Partially reducing", 
+            "pks_te_type": "Unknown", 
+            "pks_release_type": "Unknown", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "EED49862.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR"
+                            ], 
+                            "at_substr_spec": "None", 
+                            "evidence_at_spec": "None", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Iterated", 
+                            "pks_evidence_skip_iter": "None"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+

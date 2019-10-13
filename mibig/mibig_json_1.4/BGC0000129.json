@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 54734280, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "pyripyropene"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3572141, 
+                    "Accession": "CM000174", 
+                    "start_coord": 3549063
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000129", 
+        "publications": [
+            "20861902"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

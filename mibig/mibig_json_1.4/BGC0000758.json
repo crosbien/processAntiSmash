@@ -1,0 +1,68 @@
+{
+    "version": "14", 
+    "personal": {
+        "submitter_name": "Chia Y. Lee", 
+        "submitter_institution": "University of Arkansas for Medical Sciences", 
+        "submitter_email": "clee2@uams.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000758", 
+        "biosyn_class": [
+            "Saccharide"
+        ], 
+        "publications": "7961465,12057957", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "U10927", 
+                    "start_coord": 11343, 
+                    "end_coord": 26878, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "capsular polysaccharide ", 
+                "chem_synonyms": [], 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "cap1a", 
+                        "cap1b", 
+                        "cap1c", 
+                        "cap1d", 
+                        "cap1e", 
+                        "cap1f", 
+                        "cap1g", 
+                        "cap1h", 
+                        "cap1i", 
+                        "cap1j", 
+                        "cap1k", 
+                        "cap1l", 
+                        "cap1m", 
+                        "cap1n", 
+                        "cap1o"
+                    ], 
+                    "evidence_operon": "Other"
+                }
+            ]
+        }, 
+        "Saccharide": {
+            "saccharide_subclass": "exopolysaccharide"
+        }
+    }
+}
+
+

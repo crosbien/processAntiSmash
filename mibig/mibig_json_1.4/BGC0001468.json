@@ -1,0 +1,191 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Natalia Miguel-Vior", 
+        "submitter_institution": "John Innes Centre", 
+        "submitter_email": "natalia.miguel-vior@jic.ac.uk"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001468", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "29500259 ", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "NZ_PKFQ01000001 ", 
+                    "start_coord": 5989046, 
+                    "end_coord": 5998010, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Bicyclomycin", 
+                "chem_synonyms": [
+                    "bicozamycin", 
+                    "aizumycin"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 70685091, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "transcription termination factor rho", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "2,5-diketopiperazine (cyclodipeptide synthase derived)", 
+                        "moiety_subcluster": [
+                            "cyq11_26550"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "cyq11_26550", 
+                        "cyq11_2654", 
+                        "cyq11_26540", 
+                        "cyq11_26535", 
+                        "cyq11_26530", 
+                        "cyq11_26525", 
+                        "cyq11_26520"
+                    ], 
+                    "evidence_operon": "Sequence-based prediction"
+                }, 
+                {
+                    "operon_genes": [
+                        "cyq11_26555"
+                    ], 
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "bcmG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5989948, 
+                    "gene_endpos": 5989046, 
+                    "gene_id": "PPT15944.1", 
+                    "gene_annotation": "2OG-Fe(II) oxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bcmF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5990835, 
+                    "gene_endpos": 5989945, 
+                    "gene_id": "PPT15945.1", 
+                    "gene_annotation": "2OG-Fe(II) oxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bcmE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5991821, 
+                    "gene_endpos": 5990877, 
+                    "gene_id": "PPT16816.1", 
+                    "gene_annotation": "2OG-Fe(II) oxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bcmD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5993287, 
+                    "gene_endpos": 5991821, 
+                    "gene_id": "PPT15946.1", 
+                    "gene_annotation": "cytochrome P450", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bcmC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5994201, 
+                    "gene_endpos": 5993284, 
+                    "gene_id": "PPT15947.1", 
+                    "gene_annotation": "2OG-Fe(II) oxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bcmB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5995168, 
+                    "gene_endpos": 5994191, 
+                    "gene_id": "PPT16817.1", 
+                    "gene_annotation": "isopenicillin N synthase family oxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bcmA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5995896, 
+                    "gene_endpos": 5995171, 
+                    "gene_id": "PPT15948.1", 
+                    "gene_annotation": "tRNA-dependent cyclodipeptide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bcmT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5996589, 
+                    "gene_endpos": 5998010, 
+                    "gene_id": "PPT15949.1", 
+                    "gene_annotation": "MFS transporter", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "tRNA-derived"
+        }
+    }
+}
+

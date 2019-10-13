@@ -1,0 +1,210 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Esther Schmitt", 
+        "submitter_institution": "Novartis Institutes for BioMedical Research", 
+        "submitter_email": "esther.schmitt@novartis.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000613", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "19338336", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "FJ461360", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "thiomuracin", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(C1=C(C)SC(C(CC(N)=O)NC2=O)=N1)NC(C(O)C3=CC=CC=C3)C4=NC(C(NC(CC5=CC=C(O)C=C5)C(NC(C(C)C6CO6)C7=NC(C8=NC(C9=C(C%10=NC2=CS%10)C=CC(C%11=NC(C(NC(C(NC(C(O)=O)=C)=O)=C)=O)=CS%11)=N9)=CS8)=CS7)=O)=O)=CS4", 
+                "molecular_formula": "C59H50N14O12S6", 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "EF-Tu"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "tpdI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 1212, 
+                    "gene_id": "ACS83777.1", 
+                    "gene_annotation": "coproporphyrinogen III oxidase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpdJ1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1209, 
+                    "gene_endpos": 2372, 
+                    "gene_id": "ACS83778.1", 
+                    "gene_annotation": "cytochrome P450 monooxygenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpdJ2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2369, 
+                    "gene_endpos": 3589, 
+                    "gene_id": "ACS83779.1", 
+                    "gene_annotation": "cytochrome P450 monooxygenase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpdR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3600, 
+                    "gene_endpos": 4331, 
+                    "gene_id": "ACS83780.1", 
+                    "gene_annotation": "TetR transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpdA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4677, 
+                    "gene_endpos": 4826, 
+                    "gene_id": "ACS83781.1", 
+                    "gene_annotation": "thiomuracin prepropeptide", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpdB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4866, 
+                    "gene_endpos": 7478, 
+                    "gene_id": "ACS83782.1", 
+                    "gene_annotation": "dehydratase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpdC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7475, 
+                    "gene_endpos": 8290, 
+                    "gene_id": "ACS83783.1", 
+                    "gene_annotation": "dehydratase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpdD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8287, 
+                    "gene_endpos": 9246, 
+                    "gene_id": "ACS83784.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpdE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9243, 
+                    "gene_endpos": 10529, 
+                    "gene_id": "ACS83785.1", 
+                    "gene_annotation": "dehydrogenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpdF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10526, 
+                    "gene_endpos": 12418, 
+                    "gene_id": "ACS83786.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpdG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12411, 
+                    "gene_endpos": 14255, 
+                    "gene_id": "ACS83787.1", 
+                    "gene_annotation": "cyclodehydratase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tpdH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14252, 
+                    "gene_endpos": 15586, 
+                    "gene_id": "ACS83788.1", 
+                    "gene_annotation": "peptidase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "Thiopeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "acs83781.1"
+                    ], 
+                    "core_pept_aa": "SCNCFCYICCSCSS", 
+                    "lead_pept_len": 34, 
+                    "foll_pept_len": 1, 
+                    "peptidase": [
+                        "acs83788.1"
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

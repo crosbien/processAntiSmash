@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "(+)-O-methylkolavelool"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2705317, 
+                    "Accession": "CP000875", 
+                    "start_coord": 2702012
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001198", 
+        "publications": [
+            "25694050"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

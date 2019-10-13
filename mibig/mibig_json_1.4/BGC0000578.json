@@ -1,0 +1,91 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Alexey Melnik", 
+        "submitter_institution": "UCSD", 
+        "submitter_email": "alexvmelnik@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000578", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "21983601", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "NZ_DS999644", 
+                    "start_coord": 4289783, 
+                    "end_coord": 4294787, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "SRO15-2005", 
+                "chem_synonyms": [], 
+                "mol_mass": 2005.09, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_id": "SSGG_03858", 
+                    "gene_annotation": "Prepropeptide", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_id": "SSGG_03859", 
+                    "gene_annotation": "Lactamase", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "SSGG_03861", 
+                    "gene_annotation": "Peptidase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "SSGG_03862", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "Lassopeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "ssgg_03858"
+                    ], 
+                    "core_pept_aa": "GYFVGSYKEYWSRRII", 
+                    "lead_pept_len": 27, 
+                    "foll_pept_len": 16, 
+                    "peptidase": []
+                }
+            ]
+        }
+    }
+}
+
+

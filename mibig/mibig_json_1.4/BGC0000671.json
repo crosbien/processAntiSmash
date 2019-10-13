@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 162644, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "momilactone"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 5479082, 
+                    "Accession": "AP008210", 
+                    "start_coord": 5310457
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000671", 
+        "publications": [
+            "17872948"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

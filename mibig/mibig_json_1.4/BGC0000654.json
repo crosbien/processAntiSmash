@@ -1,0 +1,194 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Andreas Bechthold", 
+        "submitter_institution": "Albert-Ludwigs-University of Freiburg, Germany", 
+        "submitter_email": "andreas.bechthold@pharmazie.uni-freiburg.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000654", 
+        "biosyn_class": [
+            "Terpene", 
+            "Saccharide"
+        ], 
+        "publications": "16632249,18157854, 20540056, 21179045, 21685164, 24861595, ", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "DQ230532", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Phenalinolactone A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 28288564, 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "Gamma-butyrolactone", 
+                        "moiety_subcluster": [
+                            "abb69735.1", 
+                            "abb69736.1", 
+                            "abb69737.1", 
+                            "abb69738.1", 
+                            "abb69760.1", 
+                            "abb69762.1", 
+                            "abb69763.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Pyrrole ring", 
+                        "moiety_subcluster": [
+                            "abb69750.1", 
+                            "abb69751.1", 
+                            "abb69752.1", 
+                            "abb69753.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "PlaM1", 
+                    "gene_id": "ABB69739.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of PL CD1 (no methyl group of sugar moiety)  "
+                }, 
+                {
+                    "gene_name": "PlaO4", 
+                    "gene_id": "ABB69759.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of PL CD2 and PL CD3 (no sugar moiety)"
+                }, 
+                {
+                    "gene_name": "PlaO1", 
+                    "gene_id": "ABB69741.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "None", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "Production of PL CD6 (C4 side chain attached tp C-14) and PL CD7"
+                }, 
+                {
+                    "gene_name": "PlaA6", 
+                    "gene_id": "ABB69761.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of phenalinolactone without 4O-methyl-L-amicetose moiety"
+                }, 
+                {
+                    "gene_name": "PlaV", 
+                    "gene_id": "ABB69758.1", 
+                    "gene_annotation": "3-O-acetyl transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acetylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of phenalinolactone without acetyl group at 3-OH "
+                }, 
+                {
+                    "gene_name": "PlaO5", 
+                    "gene_id": "ABB69764.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "Production of non-hydroxylated Phenalinolactones"
+                }, 
+                {
+                    "gene_name": "PlaR2", 
+                    "gene_id": "ABB69734.1", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Other"
+                    ], 
+                    "mut_pheno": "Production of less phenalinolactones"
+                }, 
+                {
+                    "gene_name": "PlaR3", 
+                    "gene_id": "ABB69766.1", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Other"
+                    ], 
+                    "mut_pheno": "still production of phenalinolactones like wt"
+                }, 
+                {
+                    "gene_name": "PlaR1", 
+                    "gene_id": "ABB69733.1", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Other"
+                    ], 
+                    "mut_pheno": "No production of phenalinolactones "
+                }
+            ]
+        }, 
+        "Terpene": {
+            "terpene_subclass": "Other", 
+            "terpene_c_len": "Diterpene", 
+            "terpene_precursor": "IPP", 
+            "terpene_synth_cycl": [
+                "abb69742.1", 
+                "abb69743.1", 
+                "abb69754.1", 
+                "abb69755.1", 
+                "abb69756.1"
+            ], 
+            "prenyl_transf": [
+                "abb69744.1"
+            ]
+        }, 
+        "Saccharide": {
+            "saccharide_subclass": "hybrid/tailoring", 
+            "gt_genes": [
+                {
+                    "gt_gene": "ABB69761.1", 
+                    "gt_specificity": "Other", 
+                    "other_gt_spec": "L-amicetose", 
+                    "evidence_gt_spec": "Knock-out construct", 
+                    "sugar_subcluster": "ABB69735.1, ABB69736.1, ABB69737.1, ABB69738.1, ABB69760.1, ABB69762.1, ABB69763.1"
+                }
+            ]
+        }
+    }
+}
+
+

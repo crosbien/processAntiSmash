@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 5289234, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "pyoverdine"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 4877199, 
+                    "Accession": "CP000076", 
+                    "start_coord": 4702146
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000413", 
+        "publications": [
+            "8704959", 
+            "10383985"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

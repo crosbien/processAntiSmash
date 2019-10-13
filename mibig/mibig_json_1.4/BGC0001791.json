@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "sunshinamide"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 5556971, 
+                    "Accession": "NZ_CP007142", 
+                    "start_coord": 5526779
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001791", 
+        "publications": [
+            "30025185"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

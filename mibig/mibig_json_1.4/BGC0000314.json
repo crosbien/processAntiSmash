@@ -1,0 +1,345 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Neha Garg", 
+        "submitter_institution": "University of California at San Diego", 
+        "submitter_email": "negarg@ucsd.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000314", 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ], 
+        "publications": "23798442,25140825", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "NZ_AHCC01000002", 
+                    "start_coord": 204471, 
+                    "end_coord": 238338, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "bromoalterochromide A", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C([C@H](CC(N)=O)NC1=O)N[C@H](CC(N)=O)C(N[C@H]([C@@H](C)CC)C(O[C@H](C)[C@H](C(N[C@@H]1C(C)C)=O)NC(/C=C/C=C/C=C/C=C/C2=CC=C(O)C(Br)=C2)=O)=O)=O", 
+                "molecular_formula": "C38H50BrN7O10", 
+                "mol_mass": 844.2881, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Cytotoxic"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "altA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 204471, 
+                    "gene_endpos": 206090, 
+                    "gene_id": "WP_010369397.1", 
+                    "gene_annotation": "histidine ammonia-lyase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Abolished production of all molecules"
+                }, 
+                {
+                    "gene_name": "altB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 206228, 
+                    "gene_endpos": 206521, 
+                    "gene_id": "WP_010369398.1", 
+                    "gene_annotation": "acyl carrier protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "altC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 206556, 
+                    "gene_endpos": 208052, 
+                    "gene_id": "WP_010369400.1", 
+                    "gene_annotation": "AMP-dependent synthetase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "altD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 208045, 
+                    "gene_endpos": 210228, 
+                    "gene_id": "WP_010369404.1", 
+                    "gene_annotation": "3-oxoacyl-ACP synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "altE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 210230, 
+                    "gene_endpos": 210997, 
+                    "gene_id": "WP_010369407.1", 
+                    "gene_annotation": "ABC transporter ATPase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "altF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 210990, 
+                    "gene_endpos": 212105, 
+                    "gene_id": "WP_010369409.1", 
+                    "gene_annotation": "ABC transporter permease", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "altG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 212102, 
+                    "gene_endpos": 212500, 
+                    "gene_id": "WP_010369411.1", 
+                    "gene_annotation": "3-hydroxyacyl-ACP dehydratase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "altH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 212512, 
+                    "gene_endpos": 213243, 
+                    "gene_id": "WP_010369414.1", 
+                    "gene_annotation": "3-oxoacyl-ACP reductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "altI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 213240, 
+                    "gene_endpos": 213947, 
+                    "gene_id": "WP_010369417.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "altJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 213944, 
+                    "gene_endpos": 214699, 
+                    "gene_id": "WP_010369421.1", 
+                    "gene_annotation": "thioesterase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "altK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 214723, 
+                    "gene_endpos": 219276, 
+                    "gene_id": "WP_010369425.1", 
+                    "gene_annotation": "Non-ribosomal peptide synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "altL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 219280, 
+                    "gene_endpos": 227127, 
+                    "gene_id": "WP_010369428.1", 
+                    "gene_annotation": "Non-ribosomal peptide synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "altM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 227130, 
+                    "gene_endpos": 236972, 
+                    "gene_id": "WP_010369430.1", 
+                    "gene_annotation": "Non-ribosomal peptide synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "altN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 237100, 
+                    "gene_endpos": 238338, 
+                    "gene_id": "WP_010369433.1", 
+                    "gene_annotation": "Flavin-dependent brominase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Abolished production of halogenated molecules, un-halogenated are molecules still produced"
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Cyclic depsipeptide", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Both", 
+            "nrps_release_type": "Macrolactamization", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "WP_010369400.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "A0", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Coumaric acid", 
+                                "evidence_a_spec": "Other", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "WP_010369425.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "B1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Threonine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "WP_010369428.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "B2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Valine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "B3", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Asparagine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "WP_010369430.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "B4", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Asparagine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "B5", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Isoleucine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Aminocoumarin"
+        }, 
+        "Polyketide": {
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "WP_010369404.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "A1", 
+                            "pks_domains": [
+                                "KS"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Iterated", 
+                            "pks_evidence_skip_iter": "Structure-based inference"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

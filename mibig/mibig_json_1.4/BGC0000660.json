@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 25137938, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "albaflavenone"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 5683483, 
+                    "Accession": "AL645882", 
+                    "start_coord": 5681016
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000660", 
+        "publications": [
+            "18234666"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

@@ -1,0 +1,816 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Bradley Moore", 
+        "submitter_institution": "Scripps Institute of Oceanography, University of California-San Diego", 
+        "submitter_email": "bsmoore@ucsd.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000241", 
+        "biosyn_class": [
+            "Polyketide", 
+			"Saccharide"
+        ], 
+        "publications": "23649992, 24848236, 25045187, 24383813, 22963534, 11457405, ", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP000667", 
+                    "start_coord": 2460444, 
+                    "end_coord": 2522674, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Lomaiviticin A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 56841540, 
+                "chemspider_id": 10263582, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Cytotoxic"
+                ], 
+                "chem_target": "DNA"
+            }, 
+            {
+                "compound": "Lomaiviticin C", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1C2=C(C([H])=C3C2=C(O)C4=C(O)C=CC(O)=C4C3=O)[C@@H](O[C@H]5O[C@@H](C)[C@@H](N(C)C)[C@@H](O)C5)[C@](O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](OC)C6)(CC)C1C7[C@@](O[C@@H]8O[C@@H](C)[C@H](O)[C@@H](OC)C8)(CC)[C@H](O[C@H]9O[C@@H](C)[C@H](N(C)C)[C@@H](O)C9)C(C(C(C(C%10=C(O)C=CC(O)=C%10%11)=O)C%12C%11=O)=[N+]=[N-])=C%12C7=O", 
+                "molecular_formula": "C68H82N4O24", 
+                "mol_mass": 670.273767, 
+                "mass_ion_type": "[M+2H]2+", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Cytotoxic", 
+                    "Other"
+                ], 
+                "other_chem_act": "DNA-interfering", 
+                "chem_target": "DNA"
+            }, 
+            {
+                "compound": "Lomaiviticin D", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1C2=C(C([H])=C3C2=C(O)C4=C(O)C=CC(O)=C4C3=O)[C@@H](O[C@H]5O[C@@H](C)[C@@H](N(C)C)[C@@H](O)C5)[C@](O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](OC)C6)(CC)C1C7[C@@](O[C@@H]8O[C@@H](C)[C@H](OC)[C@@H](OC)C8)(CC)[C@H](O[C@H]9O[C@@H](C)[C@H](N(C)C)[C@@H](O)C9)C(C(C(C(C%10=C(O)C=CC(O)=C%10%11)=O)C%12C%11=O)=[N+]=[N-])=C%12C7=O", 
+                "molecular_formula": "C69H84N4O24", 
+                "mol_mass": 677.281295, 
+                "mass_ion_type": "[M+2H]2+", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Cytotoxic", 
+                    "Other"
+                ], 
+                "other_chem_act": "DNA-interfering", 
+                "chem_target": "DNA"
+            }, 
+            {
+                "compound": "Lomaiviticin E", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1C2=C(C([H])=C3C2=C(O)C4=C(O)C=CC(O)=C4C3=O)[C@@H](O[C@H]5O[C@@H](C)[C@@H](N(C)C)[C@@H](O)C5)[C@](O[C@@H]6O[C@@H](C)[C@H](OC)[C@@H](OC)C6)(CC)C1C7[C@@](O[C@@H]8O[C@@H](C)[C@H](OC)[C@@H](OC)C8)(CC)[C@H](O[C@H]9O[C@@H](C)[C@H](N(C)C)[C@@H](O)C9)C(C(C(C(C%10=C(O)C=CC(O)=C%10%11)=O)=C%12C%11=O)=[N+]=[N-])=C%12C7=O", 
+                "molecular_formula": "C70H86N4O24", 
+                "mol_mass": 684.288329, 
+                "mass_ion_type": "[M+2H]2+", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Antioxidant", 
+                    "Other"
+                ], 
+                "other_chem_act": "DNA-interfering", 
+                "chem_target": "DNA"
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": []
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 1575, 
+                    "gene_id": "ABP54623.1", 
+                    "gene_annotation": "drug resistance transporter, EmrB/QacA subfamily", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1803, 
+                    "gene_endpos": 2288, 
+                    "gene_id": "ABP54624.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2448, 
+                    "gene_endpos": 3278, 
+                    "gene_id": "ABP54625.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3275, 
+                    "gene_endpos": 4225, 
+                    "gene_id": "ABP54626.1", 
+                    "gene_annotation": "ABC transporter related", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4200, 
+                    "gene_endpos": 4715, 
+                    "gene_id": "ABP54627.1", 
+                    "gene_annotation": "Glyoxalase/bleomycin resistance protein/dioxygenase", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4860, 
+                    "gene_endpos": 5636, 
+                    "gene_id": "ABP54628.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5885, 
+                    "gene_endpos": 6721, 
+                    "gene_id": "ABP54629.1", 
+                    "gene_annotation": "transcriptional activator domain", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7093, 
+                    "gene_endpos": 7434, 
+                    "gene_id": "ABP54630.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7467, 
+                    "gene_endpos": 8312, 
+                    "gene_id": "ABP54631.1", 
+                    "gene_annotation": "transcriptional regulator, AraC family", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8560, 
+                    "gene_endpos": 9993, 
+                    "gene_id": "ABP54632.1", 
+                    "gene_annotation": "NDP-hexose 2,3-dehydratase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10046, 
+                    "gene_endpos": 10711, 
+                    "gene_id": "ABP54633.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10756, 
+                    "gene_endpos": 11202, 
+                    "gene_id": "ABP54634.1", 
+                    "gene_annotation": "Carboxymuconolactone decarboxylase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11132, 
+                    "gene_endpos": 11959, 
+                    "gene_id": "ABP54635.1", 
+                    "gene_annotation": "peptidase C26", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12425, 
+                    "gene_endpos": 14197, 
+                    "gene_id": "ABP54636.1", 
+                    "gene_annotation": "monooxygenase, FAD-binding", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14360, 
+                    "gene_endpos": 15826, 
+                    "gene_id": "ABP54637.1", 
+                    "gene_annotation": "protoporphyrinogen oxidase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15947, 
+                    "gene_endpos": 17053, 
+                    "gene_id": "ABP54638.1", 
+                    "gene_annotation": "ParB domain protein nuclease", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17105, 
+                    "gene_endpos": 18616, 
+                    "gene_id": "ABP54639.1", 
+                    "gene_annotation": "monooxygenase, FAD-binding", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18613, 
+                    "gene_endpos": 20085, 
+                    "gene_id": "ABP54640.1", 
+                    "gene_annotation": "monooxygenase, FAD-binding", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20238, 
+                    "gene_endpos": 21029, 
+                    "gene_id": "ABP54641.1", 
+                    "gene_annotation": "short-chain dehydrogenase/reductase SDR", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21084, 
+                    "gene_endpos": 21956, 
+                    "gene_id": "ABP54642.1", 
+                    "gene_annotation": "NmrA family protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22030, 
+                    "gene_endpos": 22647, 
+                    "gene_id": "ABP54643.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22662, 
+                    "gene_endpos": 22991, 
+                    "gene_id": "ABP54644.1", 
+                    "gene_annotation": "Polyketide synthesis cyclase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23020, 
+                    "gene_endpos": 23805, 
+                    "gene_id": "ABP54645.1", 
+                    "gene_annotation": "short-chain dehydrogenase/reductase SDR", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23996, 
+                    "gene_endpos": 25033, 
+                    "gene_id": "ABP54646.1", 
+                    "gene_annotation": "hydroxyneurosporene-O-methyltransferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25087, 
+                    "gene_endpos": 26598, 
+                    "gene_id": "ABP54647.1", 
+                    "gene_annotation": "monooxygenase, FAD-binding", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26624, 
+                    "gene_endpos": 27583, 
+                    "gene_id": "ABP54648.1", 
+                    "gene_annotation": "cyclase/dehydrase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27580, 
+                    "gene_endpos": 29019, 
+                    "gene_id": "ABP54649.1", 
+                    "gene_annotation": "monooxygenase, FAD-binding", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29006, 
+                    "gene_endpos": 30484, 
+                    "gene_id": "ABP54650.1", 
+                    "gene_annotation": "monooxygenase, FAD-binding", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30554, 
+                    "gene_endpos": 31297, 
+                    "gene_id": "ABP54651.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31366, 
+                    "gene_endpos": 33249, 
+                    "gene_id": "ABP54652.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33224, 
+                    "gene_endpos": 33580, 
+                    "gene_id": "ABP54653.1", 
+                    "gene_annotation": "4Fe-4S ferredoxin, iron-sulfur binding domain protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33650, 
+                    "gene_endpos": 34444, 
+                    "gene_id": "ABP54654.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 34496, 
+                    "gene_endpos": 35998, 
+                    "gene_id": "ABP54655.1", 
+                    "gene_annotation": "L-glutamine synthetase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 35995, 
+                    "gene_endpos": 37449, 
+                    "gene_id": "ABP54656.1", 
+                    "gene_annotation": "Amidase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 37656, 
+                    "gene_endpos": 38942, 
+                    "gene_id": "ABP54657.1", 
+                    "gene_annotation": "Adenylosuccinate lyase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 38926, 
+                    "gene_endpos": 39327, 
+                    "gene_id": "ABP54658.1", 
+                    "gene_annotation": "GCN5-related N-acetyltransferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 39400, 
+                    "gene_endpos": 41169, 
+                    "gene_id": "ABP54659.1", 
+                    "gene_annotation": "ABC transporter related", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 41309, 
+                    "gene_endpos": 41629, 
+                    "gene_id": "ABP54660.1", 
+                    "gene_annotation": "Rieske (2Fe-2S) domain protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 41876, 
+                    "gene_endpos": 42286, 
+                    "gene_id": "ABP54661.1", 
+                    "gene_annotation": "Glyoxalase/bleomycin resistance protein/dioxygenase", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 42355, 
+                    "gene_endpos": 43152, 
+                    "gene_id": "ABP54662.1", 
+                    "gene_annotation": "Glyoxalase/bleomycin resistance protein/dioxygenase", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43237, 
+                    "gene_endpos": 44799, 
+                    "gene_id": "ABP54663.1", 
+                    "gene_annotation": "TAP domain protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 44991, 
+                    "gene_endpos": 46133, 
+                    "gene_id": "ABP54664.1", 
+                    "gene_annotation": "protein of unknown function DUF1205", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 46130, 
+                    "gene_endpos": 47245, 
+                    "gene_id": "ABP54665.1", 
+                    "gene_annotation": "O-methyltransferase, family 2", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 47427, 
+                    "gene_endpos": 48368, 
+                    "gene_id": "ABP54666.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 48434, 
+                    "gene_endpos": 49420, 
+                    "gene_id": "ABP54667.1", 
+                    "gene_annotation": "NAD-dependent epimerase/dehydratase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 49430, 
+                    "gene_endpos": 50041, 
+                    "gene_id": "ABP54668.1", 
+                    "gene_annotation": "dTDP-4-dehydrorhamnose 3,5-epimerase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 50092, 
+                    "gene_endpos": 51105, 
+                    "gene_id": "ABP54669.1", 
+                    "gene_annotation": "oxidoreductase domain protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 51125, 
+                    "gene_endpos": 51859, 
+                    "gene_id": "ABP54670.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 51931, 
+                    "gene_endpos": 52971, 
+                    "gene_id": "ABP54671.1", 
+                    "gene_annotation": "protein of unknown function DUF1205", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 52988, 
+                    "gene_endpos": 54199, 
+                    "gene_id": "ABP54672.1", 
+                    "gene_annotation": "DegT/DnrJ/EryC1/StrS aminotransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 54374, 
+                    "gene_endpos": 55381, 
+                    "gene_id": "ABP54673.1", 
+                    "gene_annotation": "dTDP-glucose 4,6-dehydratase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 55378, 
+                    "gene_endpos": 56649, 
+                    "gene_id": "ABP54674.1", 
+                    "gene_annotation": "beta-ketoacyl synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Abolished production of lomaiviticins"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 56646, 
+                    "gene_endpos": 57932, 
+                    "gene_id": "ABP54675.1", 
+                    "gene_annotation": "beta-ketoacyl synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 57932, 
+                    "gene_endpos": 58186, 
+                    "gene_id": "ABP54676.1", 
+                    "gene_annotation": "phosphopantetheine-binding", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 58168, 
+                    "gene_endpos": 59151, 
+                    "gene_id": "ABP54677.1", 
+                    "gene_annotation": "acyl transferase domain protein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 59273, 
+                    "gene_endpos": 60247, 
+                    "gene_id": "ABP54678.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 60692, 
+                    "gene_endpos": 61174, 
+                    "gene_id": "ABP54679.1", 
+                    "gene_annotation": "transcriptional regulator, AraC family", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 61359, 
+                    "gene_endpos": 62231, 
+                    "gene_id": "ABP54680.1", 
+                    "gene_annotation": "Glucose-1-phosphate thymidylyltransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Other", 
+            "pks_genes": [
+                "abp54674.1"
+            ], 
+            "ketide_length": 10, 
+            "cyclases": "ABP54644.1, ABP54648.1"
+        }
+    }
+}

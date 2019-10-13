@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 6440994, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "2-amino-4-methoxy-trans-3-butenoic acid"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2549458, 
+                    "Accession": "AE004091", 
+                    "start_coord": 2532059
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000287", 
+        "publications": [
+            "20543073"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

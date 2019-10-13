@@ -1,0 +1,593 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Sylvie Lautru", 
+        "submitter_institution": "Centre National de la Recherche Scientifique", 
+        "submitter_email": "sylvie.lautru@u-psud.fr"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001147", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "25415678", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KJ634466", 
+                    "start_coord": 99, 
+                    "end_coord": 28109, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression"
+                    ]
+                }, 
+                {
+                    "Accession": "KJ634467", 
+                    "start_coord": 701, 
+                    "end_coord": 7370, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "disgocidine", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 133391, 
+                "chem_act": [
+                    "Unknown"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Pyrrole ring", 
+                        "moiety_subcluster": [
+                            "ais24853.1", 
+                            "ais24854.1", 
+                            "ais24855.1", 
+                            "ais24856.1", 
+                            "ais24857.1", 
+                            "ais24858.1", 
+                            "ais24861.1", 
+                            "ais24863.1"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "distamycin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 3115, 
+                "chemspider_id": 3003, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Antifungal", 
+                    "Cytotoxic"
+                ], 
+                "chem_target": "DNA", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Pyrrole ring", 
+                        "moiety_subcluster": [
+                            "ais24853.1", 
+                            "ais24854.1", 
+                            "ais24855.1", 
+                            "ais24856.1", 
+                            "ais24857.1", 
+                            "ais24858.1", 
+                            "ais24861.1", 
+                            "ais24863.1"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "congocidine", 
+                "chem_synonyms": [
+                    "netropsin", 
+                    "sinanomycin"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 4461, 
+                "chemspider_id": 4306, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Antifungal", 
+                    "Cytotoxic"
+                ], 
+                "chem_target": "DNA", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Pyrrole ring", 
+                        "moiety_subcluster": [
+                            "ais24853.1", 
+                            "ais24854.1", 
+                            "ais24855.1", 
+                            "ais24856.1", 
+                            "ais24857.1", 
+                            "ais24858.1", 
+                            "ais24861.1", 
+                            "ais24863.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "dst22", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 99, 
+                    "gene_endpos": 1670, 
+                    "gene_id": "AIS24844.1", 
+                    "gene_annotation": "Dst22", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolition of congocidine, distamycin and disgocidine production"
+                }, 
+                {
+                    "gene_name": "dst21", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1654, 
+                    "gene_endpos": 3558, 
+                    "gene_id": "AIS24845.1", 
+                    "gene_annotation": "Dst21", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "dst20", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3558, 
+                    "gene_endpos": 5408, 
+                    "gene_id": "AIS24846.1", 
+                    "gene_annotation": "Dst20", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "dst1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5983, 
+                    "gene_endpos": 6657, 
+                    "gene_id": "AIS24847.1", 
+                    "gene_annotation": "Dst1", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "dst2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6990, 
+                    "gene_endpos": 8387, 
+                    "gene_id": "AIS24848.1", 
+                    "gene_annotation": "Dst2", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no obvious phenotype likely due to cross-complementation by dst25"
+                }, 
+                {
+                    "gene_name": "dst4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8737, 
+                    "gene_endpos": 9282, 
+                    "gene_id": "AIS24849.1", 
+                    "gene_annotation": "Dst4", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "dst5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9279, 
+                    "gene_endpos": 10196, 
+                    "gene_id": "AIS24850.1", 
+                    "gene_annotation": "Dst5", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolition of congocidine, distamycin and disgocidine production"
+                }, 
+                {
+                    "gene_name": "dst6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10193, 
+                    "gene_endpos": 10990, 
+                    "gene_id": "AIS24851.1", 
+                    "gene_annotation": "Dst6", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "dst7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11043, 
+                    "gene_endpos": 12176, 
+                    "gene_id": "AIS24852.1", 
+                    "gene_annotation": "Dst7", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolition of congocidine production"
+                }, 
+                {
+                    "gene_name": "dst8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12227, 
+                    "gene_endpos": 13531, 
+                    "gene_id": "AIS24853.1", 
+                    "gene_annotation": "Dst8", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "dst9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13524, 
+                    "gene_endpos": 14504, 
+                    "gene_id": "AIS24854.1", 
+                    "gene_annotation": "Dst9", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "dst10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14510, 
+                    "gene_endpos": 15583, 
+                    "gene_id": "AIS24855.1", 
+                    "gene_annotation": "Dst10", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolition of congocidine, distamycin and disgocidine production"
+                }, 
+                {
+                    "gene_name": "dst11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15589, 
+                    "gene_endpos": 16344, 
+                    "gene_id": "AIS24856.1", 
+                    "gene_annotation": "Dst11", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "dst12", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16341, 
+                    "gene_endpos": 17492, 
+                    "gene_id": "AIS24857.1", 
+                    "gene_annotation": "Dst12", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "dst13", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17474, 
+                    "gene_endpos": 19390, 
+                    "gene_id": "AIS24858.1", 
+                    "gene_annotation": "Dst13", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "dst15", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19442, 
+                    "gene_endpos": 20215, 
+                    "gene_id": "AIS24859.1", 
+                    "gene_annotation": "Dst15", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "dst16", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20219, 
+                    "gene_endpos": 21628, 
+                    "gene_id": "AIS24860.1", 
+                    "gene_annotation": "Dst16", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolition of congocidine and disgocidine production, strongly reduced distamycin production"
+                }, 
+                {
+                    "gene_name": "dst17", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21625, 
+                    "gene_endpos": 22671, 
+                    "gene_id": "AIS24861.1", 
+                    "gene_annotation": "Dst17", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "dst18", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22668, 
+                    "gene_endpos": 25859, 
+                    "gene_id": "AIS24862.1", 
+                    "gene_annotation": "Dst18", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolition of congocidine production"
+                }, 
+                {
+                    "gene_name": "dst19", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25936, 
+                    "gene_endpos": 27363, 
+                    "gene_id": "AIS24863.1", 
+                    "gene_annotation": "Dst3", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "dst19", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27747, 
+                    "gene_endpos": 28109, 
+                    "gene_id": "AIS24864.1", 
+                    "gene_annotation": "Dst19", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolition of congocidine, distamycin and disgocidine production"
+                }, 
+                {
+                    "gene_name": "dst23", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 701, 
+                    "gene_endpos": 1057, 
+                    "gene_id": "AIS24865.1", 
+                    "gene_annotation": "Dst23", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolition of distamycin production; reduced production of disgocidine"
+                }, 
+                {
+                    "gene_name": "dst24", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1054, 
+                    "gene_endpos": 2475, 
+                    "gene_id": "AIS24866.1", 
+                    "gene_annotation": "Dst24", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolition of distamycin production; reduced production of disgocidine"
+                }, 
+                {
+                    "gene_name": "dst25", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3088, 
+                    "gene_endpos": 4608, 
+                    "gene_id": "AIS24867.1", 
+                    "gene_annotation": "Dst25", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "reduced production of distamycin"
+                }, 
+                {
+                    "gene_name": "dst14", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4760, 
+                    "gene_endpos": 5671, 
+                    "gene_id": "AIS24868.1", 
+                    "gene_annotation": "Dst14", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolition of congocidine, distamycin and disgocidine production"
+                }, 
+                {
+                    "gene_name": "dst26", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5793, 
+                    "gene_endpos": 7370, 
+                    "gene_id": "AIS24869.1", 
+                    "gene_annotation": "Dst26", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolition of distamycin and disgocidine production"
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "None", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AIS24844.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "x", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "4-acetamidopyrrole-2-carboxylate", 
+                                "evidence_a_spec": "Other", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AIS24848.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "x", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AIS24860.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "x", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AIS24862.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "x", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "glycocyamine", 
+                                "evidence_a_spec": "Other", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AIS24864.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "x", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AIS24865.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "x", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AIS24866.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "x", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AIS24867.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "x", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

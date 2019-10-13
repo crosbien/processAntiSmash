@@ -1,0 +1,733 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Eric J. N. Helfrich", 
+        "submitter_institution": "Institute of Microbiology, Eidgen\u00c3\u00b6ssische Technische Hochschule (ETH) Zurich, Piel lab", 
+        "submitter_email": "ehelfrich@ethz.ch"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000374", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "21439483, 23790494, 10.1039/C2SC21722H, 10.1002/anie.199000641", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "HQ542230", 
+                    "start_coord": 1, 
+                    "end_coord": 51499, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Sequence-based prediction", 
+                        "Other"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "hormaomycin", 
+                "chem_synonyms": [
+                    "takaokamycin"
+                ], 
+                "chem_struct": "CC[C@H](C)[C@@H](C(N1C[C@@H](/C=C\\\\C)C[C@H]1C2=O)=O)NC([C@H]([C@@H](C3=CC=CC=C3)C)NC([C@H](NC([C@H]([C@H](C)C4=CC=CC=C4)NC([C@@H]([C@@H](C)O2)NC([C@H](C[C@H]5[C@H]([N+]([O-])=O)C5)NC(C6=CC=C(Cl)N6O)=O)=O)=O)=O)C[C@H]7[C@H]([N+]([O-])=O)C7)=O)=O", 
+                "molecular_formula": "C55H69ClN10O14", 
+                "mol_mass": 1151.4546, 
+                "mass_ion_type": "[M+Na]+", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Signalling", 
+                    "Other"
+                ], 
+                "other_chem_act": "active in vitro against lamaria parasite Plasmodium falciparum", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "4-(Z)-propenylproline", 
+                        "moiety_subcluster": [
+                            "aeh41802.1", 
+                            "aeh41801.1", 
+                            "aeh41783.1", 
+                            "aeh41784.1", 
+                            "aeh41785.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "3-(trans-2`-nitrocyclopropyl) alanine", 
+                        "moiety_subcluster": [
+                            "aeh41787.1", 
+                            "aeh41788.1", 
+                            "aeh41796.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "5-chloro-1-hydroxypyrrole-2-carboxylic acid", 
+                        "moiety_subcluster": [
+                            "aeh41789.1", 
+                            "aeh41790.1", 
+                            "aeh41791.1", 
+                            "aeh41792.1", 
+                            "ace80255.1"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "hormaomycin A1", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC[C@H](C)[C@@H](C(N1C[C@@H](/C=C\\\\C)C[C@H]1C2=O)=O)NC([C@H]([C@@H](C3=CC=CC=C3)C)NC([C@H](NC([C@H]([C@H](C)C4=CC=CC=C4)NC([C@@H]([C@@H](C)O2)NC([C@H](C[C@H]5[C@H]([N+]([O-])=O)C5)NC(C6=CC=CN6O)=O)=O)=O)=O)C[C@H]7[C@H]([N+]([O-])=O)C7)=O)=O", 
+                "molecular_formula": "C55H70N10O14", 
+                "mol_mass": 1117.4929, 
+                "mass_ion_type": "[M+Na]+", 
+                "chem_act": [
+                    "Unknown"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "3-(trans-2`-nitrocyclopropyl) alanine", 
+                        "moiety_subcluster": [
+                            "aeh41787.1", 
+                            "aeh41788.1", 
+                            "aeh41796.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "4-(Z)-propenylproline", 
+                        "moiety_subcluster": [
+                            "aeh41802.1", 
+                            "aeh41801.1", 
+                            "aeh41783.1", 
+                            "aeh41784.1", 
+                            "aeh41785.1"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "hormaomycin A2", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC(C)[C@@H](C(N1C[C@@H](/C=C\\\\C)C[C@H]1C2=O)=O)NC([C@H]([C@@H](C3=CC=CC=C3)C)NC([C@H](NC([C@H]([C@H](C)C4=CC=CC=C4)NC([C@@H]([C@@H](C)O2)NC([C@H](C[C@H]5[C@H]([N+]([O-])=O)C5)NC(C6=CC=C(Cl)N6O)=O)=O)=O)=O)C[C@H]7[C@H]([N+]([O-])=O)C7)=O)=O", 
+                "molecular_formula": "C54H67N10O14Cl", 
+                "mol_mass": 1137.4401, 
+                "mass_ion_type": "[M+Na]+", 
+                "chem_act": [
+                    "Unknown"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "3-(trans-2`-nitrocyclopropyl) alanine", 
+                        "moiety_subcluster": [
+                            "aeh41787.1", 
+                            "aeh41788.1", 
+                            "aeh41796.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "4-(Z)-propenylproline", 
+                        "moiety_subcluster": [
+                            "aeh41802.1", 
+                            "aeh41801.1", 
+                            "aeh41783.1", 
+                            "aeh41784.1", 
+                            "aeh41785.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "5-chloro-1-hydroxypyrrole-2-carboxylic acid", 
+                        "moiety_subcluster": [
+                            "aeh41789.1", 
+                            "aeh41790.1", 
+                            "aeh41791.1", 
+                            "aeh41792.1", 
+                            "ace80255.1"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "hormaomycin A3", 
+                "chem_synonyms": [], 
+                "molecular_formula": "CC[C@H](C)[C@@H](C(N1C[C@@H](/C=C\\\\C)C[C@H]1C2=O)=O)NC([C@H]([C@@H](C3=CC=CC=C3)C)NC([C@H](NC([C@H]([C@H](C)C4=CC=CC=C4)NC([C@@H]([C@@H](C)O2)NC([C@H](C[C@H]5[C@H]([N+]([O-])=O)C5)NC(C6=CC=C(Cl)N6O)=O)=O)=O)=O)CC(C)C)=O)=O", 
+                "mol_mass": 1108.4852, 
+                "mass_ion_type": "[M+Na]+", 
+                "chem_act": [
+                    "Unknown"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "3-(trans-2`-nitrocyclopropyl) alanine", 
+                        "moiety_subcluster": [
+                            "aeh41787.1", 
+                            "aeh41788.1", 
+                            "aeh41796.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "4-(Z)-propenylproline", 
+                        "moiety_subcluster": [
+                            "aeh41802.1", 
+                            "aeh41801.1", 
+                            "aeh41783.1", 
+                            "aeh41784.1", 
+                            "aeh41785.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "5-chloro-1-hydroxypyrrole-2-carboxylic acid", 
+                        "moiety_subcluster": [
+                            "aeh41789.1", 
+                            "aeh41790.1", 
+                            "aeh41791.1", 
+                            "aeh41792.1", 
+                            "ace80255.1"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "hormaomycin A4", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC[C@H](C)[C@@H](C(N1C[C@@H](/C=C\\\\C)C[C@H]1C2=O)=O)NC([C@H]([C@@H](C3=CC=CC=C3)C)NC([C@H](NC([C@H]([C@H](C)C4=CC=CC=C4)NC([C@@H]([C@@H](C)O2)NC([C@H](CC(C)C)NC(C5=CC=C(Cl)N5O)=O)=O)=O)=O)C[C@H]6[C@H]([N+]([O-])=O)C6)=O)=O", 
+                "molecular_formula": "C55H72N9O12Cl", 
+                "mol_mass": 1108.4852, 
+                "mass_ion_type": "[M+Na]+", 
+                "chem_act": [
+                    "Unknown"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "3-(trans-2`-nitrocyclopropyl) alanine", 
+                        "moiety_subcluster": [
+                            "aeh41787.1", 
+                            "aeh41788.1", 
+                            "aeh41796.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "4-(Z)-propenylproline", 
+                        "moiety_subcluster": [
+                            "aeh41802.1", 
+                            "aeh41801.1", 
+                            "aeh41783.1", 
+                            "aeh41784.1", 
+                            "aeh41785.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "5-chloro-1-hydroxypyrrole-2-carboxylic acid", 
+                        "moiety_subcluster": [
+                            "aeh41789.1", 
+                            "aeh41790.1", 
+                            "aeh41791.1", 
+                            "aeh41792.1", 
+                            "ace80255.1"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "hormaomycin A5", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC[C@H](C)[C@@H](C(N1C[C@@H](/C=C\\\\C)C[C@H]1C2=O)=O)NC([C@H]([C@@H](C3=CC=CC=C3)C)NC([C@H](NC([C@H]([C@H](C)C4=CC=CC=C4)NC([C@@H]([C@@H](C)O2)NC([C@H](CC(C)C)NC(C5=CC=C(Cl)N5O)=O)=O)=O)=O)CC(C)C)=O)=O", 
+                "molecular_formula": "C55H75N8O10Cl", 
+                "mol_mass": 1065.5171, 
+                "mass_ion_type": "[M+Na]+", 
+                "chem_act": [
+                    "Unknown"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "4-(Z)-propenylproline", 
+                        "moiety_subcluster": [
+                            "aeh41802.1", 
+                            "aeh41801.1", 
+                            "aeh41783.1", 
+                            "aeh41784.1", 
+                            "aeh41785.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "5-chloro-1-hydroxypyrrole-2-carboxylic acid", 
+                        "moiety_subcluster": [
+                            "aeh41789.1", 
+                            "aeh41790.1", 
+                            "aeh41791.1", 
+                            "aeh41792.1", 
+                            "ace80255.1"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "hormaomycin A6", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC[C@H](C)[C@@H](C(N1C[C@@H](/C=C\\\\C)C[C@H]1C2=O)=O)NC([C@H]([C@@H](C3=CC=CC=C3)C)NC([C@H](NC([C@H]([C@H](C)C4=CC=CC=C4)NC([C@@H]([C@@H](C)O2)NC([C@H](C[C@H]5[C@H]([N+]([O-])=O)C5)NC(C6=CC=C(Cl)N6OCC(OCC)=O)=O)=O)=O)=O)C[C@H]7[C@H]([N+]([O-])=O)C7)=O)=O", 
+                "molecular_formula": "C59H75N10O16Cl", 
+                "mol_mass": 1237.4894, 
+                "mass_ion_type": "[M+Na]+", 
+                "chem_act": [
+                    "Unknown"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "3-(trans-2`-nitrocyclopropyl) alanine", 
+                        "moiety_subcluster": [
+                            "aeh41787.1", 
+                            "aeh41788.1", 
+                            "aeh41796.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "4-(Z)-propenylproline", 
+                        "moiety_subcluster": [
+                            "aeh41802.1", 
+                            "aeh41801.1", 
+                            "aeh41783.1", 
+                            "aeh41784.1", 
+                            "aeh41785.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "5-chloro-1-hydroxypyrrole-2-carboxylic acid", 
+                        "moiety_subcluster": [
+                            "aeh41789.1", 
+                            "aeh41790.1", 
+                            "aeh41791.1", 
+                            "aeh41792.1", 
+                            "ace80255.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 656, 
+                    "gene_endpos": 1624, 
+                    "gene_id": "AEH41781.1", 
+                    "gene_annotation": "HrmA", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2626, 
+                    "gene_endpos": 3219, 
+                    "gene_id": "AEH41782.1", 
+                    "gene_annotation": "HrmB", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3257, 
+                    "gene_endpos": 4333, 
+                    "gene_id": "AEH41802.1", 
+                    "gene_annotation": "HrmC", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4336, 
+                    "gene_endpos": 5232, 
+                    "gene_id": "AEH41801.1", 
+                    "gene_annotation": "HrmD", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "complete abolishment of HRM production. Instead of HRM, the trans-(4-Me)Pro variant HRM A7 was detected (see HrmH)."
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5306, 
+                    "gene_endpos": 6286, 
+                    "gene_id": "AEH41783.1", 
+                    "gene_annotation": "HrmE", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6270, 
+                    "gene_endpos": 6824, 
+                    "gene_id": "AEH41784.1", 
+                    "gene_annotation": "HrmF", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6869, 
+                    "gene_endpos": 8590, 
+                    "gene_id": "AEH41785.1", 
+                    "gene_annotation": "HrmG", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8916, 
+                    "gene_endpos": 9338, 
+                    "gene_id": "AEH41786.1", 
+                    "gene_annotation": "HrmH", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no effect on HRM production relative to the WT. However an additional metabolite was produced (HrmA7) that contains trans-(4-ME)Pro in place of (4-Pe)Pro. Thus HrmH has an effect on product distribution in HRM biosynthesis."
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9386, 
+                    "gene_endpos": 10435, 
+                    "gene_id": "AEH41787.1", 
+                    "gene_annotation": "HrmI", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10449, 
+                    "gene_endpos": 11132, 
+                    "gene_id": "AEH41788.1", 
+                    "gene_annotation": "HrmJ", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11145, 
+                    "gene_endpos": 12728, 
+                    "gene_id": "AEH41789.1", 
+                    "gene_annotation": "HrmK", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12725, 
+                    "gene_endpos": 13000, 
+                    "gene_id": "AEH41790.1", 
+                    "gene_annotation": "HrmL", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13039, 
+                    "gene_endpos": 14205, 
+                    "gene_id": "AEH41791.1", 
+                    "gene_annotation": "HrmM", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14230, 
+                    "gene_endpos": 15399, 
+                    "gene_id": "AEH41792.1", 
+                    "gene_annotation": "HrmN", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15504, 
+                    "gene_endpos": 31262, 
+                    "gene_id": "AEH41793.1", 
+                    "gene_annotation": "HrmO", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31259, 
+                    "gene_endpos": 41674, 
+                    "gene_id": "AEH41794.1", 
+                    "gene_annotation": "HrmP", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 41671, 
+                    "gene_endpos": 43017, 
+                    "gene_id": "ACE80255.1", 
+                    "gene_annotation": "HrmQ", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43074, 
+                    "gene_endpos": 43292, 
+                    "gene_id": "AEH41800.1", 
+                    "gene_annotation": "HrmR", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43304, 
+                    "gene_endpos": 44293, 
+                    "gene_id": "AEH41795.1", 
+                    "gene_annotation": "HrmS", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 44408, 
+                    "gene_endpos": 45313, 
+                    "gene_id": "AEH41796.1", 
+                    "gene_annotation": "HrmT", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 45544, 
+                    "gene_endpos": 46593, 
+                    "gene_id": "AEH41797.1", 
+                    "gene_annotation": "HrmU", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 46906, 
+                    "gene_endpos": 47376, 
+                    "gene_id": "AEH41798.1", 
+                    "gene_annotation": "HrmV", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 47373, 
+                    "gene_endpos": 49064, 
+                    "gene_id": "AEH41799.1", 
+                    "gene_annotation": "HrmW", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Cyclic depsipeptide", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Type I", 
+            "nrps_thioesterase": [
+                "aeh41794.1"
+            ], 
+            "nrps_release_type": "Macrolactonization", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AEH41790.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AEH41793.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "(3-Ncp)Ala", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Threonine", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "(beta-Me)Phe", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "(3-Ncp)Ala", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AEH41794.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "5", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "(beta-Me)Phe", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Valine", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither", 
+                            "comments": "both the activity assay and the nonribosomal code for HrmP2A suggest that Val is incorporated into hormaomycin although Ile is the amino acid present in hormaomycin."
+                        }, 
+                        {
+                            "module_nr": "7", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "(4-Pe)Pro", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

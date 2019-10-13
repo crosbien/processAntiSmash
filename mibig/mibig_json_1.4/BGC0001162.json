@@ -1,0 +1,119 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "R. Cameron Coates", 
+        "submitter_institution": "DOE Joint Genome Institute", 
+        "submitter_email": "rccoates@lbl.gov"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001162", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "24475038 ", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KF550302", 
+                    "start_coord": 1, 
+                    "end_coord": 9348, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "1-heptadecene", 
+                "chem_synonyms": [
+                    "heptadec-1-ene"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 23217, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "ahh34188.1", 
+                        "ahh34189.1"
+                    ], 
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 0, 
+                    "gene_endpos": 2454, 
+                    "gene_id": "AHH34188.1", 
+                    "gene_annotation": "fatty acyl ACP ligase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2464, 
+                    "gene_endpos": 9348, 
+                    "gene_id": "AHH34189.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "pks_te_type": "Type I", 
+            "pks_release_type": "Other", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AHH34189.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "ACP", 
+                                "ST", 
+                                "TE"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Other"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

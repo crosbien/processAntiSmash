@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "67-121C"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 127936, 
+                    "Accession": "MEIA01000001", 
+                    "start_coord": 2115
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001491", 
+        "publications": [
+            "28383583"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

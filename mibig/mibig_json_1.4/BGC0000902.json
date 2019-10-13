@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 160478, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "flaviolin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 1367490, 
+                    "Accession": "AM420293", 
+                    "start_coord": 1363588
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000902", 
+        "Other": {
+            "biosyn_class": [
+                "Other"
+            ]
+        }, 
+        "publications": [
+            "22187221"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

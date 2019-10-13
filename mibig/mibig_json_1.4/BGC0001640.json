@@ -1,0 +1,30 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C=C(NC(=O)C(=C)NC(=O)[C@@H]1CCCN1C(=O)[C@H](C)NC(=O)C(=C)NC(=O)c%12csc(c2cc%10cc(n2)c3csc(n3)c4csc(n4)[C@@H]5CCCN5C(=O)[C@@H](Cc6ccc(O)cc6)NC(=O)C\\7CS/C(=N7)[C@@H](Cc8ccccc8)NC(=O)c9csc(n9)[C@@H](CC(N)=O)NC(=O)c%11nc%10oc%11C)n%12)C(N)=O", 
+                "compound": "kocurin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "MF620092", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001640", 
+        "RiPP": {
+            "ripp_subclass": "Other"
+        }, 
+        "publications": [
+            "28942758"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 5281576, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "zearalenone"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 38700, 
+                    "Accession": "DQ019316", 
+                    "start_coord": 20100
+                },
+                {
+                    "end_coord": 8461233,
+                    "Accession": "HG970333",
+                    "start_coord": 8465807
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001057", 
+        "publications": [
+            "16262793, 16751498, 19159310, 21833740, 26036360"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

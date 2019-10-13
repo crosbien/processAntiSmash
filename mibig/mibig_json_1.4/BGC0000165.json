@@ -1,0 +1,142 @@
+{
+    "version": "6", 
+    "personal": {
+        "submitter_name": "Changsheng Zhang", 
+        "submitter_institution": "South China Sea Institute of Oceanology", 
+        "submitter_email": "czhang2006@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000165", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "21186805, 21633995", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "HQ011923.1", 
+                    "start_coord": 6044, 
+                    "end_coord": 88527, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "tiacumicin B", 
+                "chem_synonyms": [
+                    "dificid", 
+                    "fidaxomicin", 
+                    "lipiarmicin", 
+                    "difimicin"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 70678896, 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "RNA polymerase"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "tiaG1", 
+                    "gene_id": "ADU86026.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulating biosynthetic intermediates"
+                }, 
+                {
+                    "gene_name": "tiaS2", 
+                    "gene_id": "ADU85983.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulating biosynthetic intermediates"
+                }, 
+                {
+                    "gene_name": "tiaG2", 
+                    "gene_id": "ADU85989.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "tiaP1", 
+                    "gene_id": "ADU85996.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "tiaS5", 
+                    "gene_id": "ADU85997.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "tiaM", 
+                    "gene_id": "ADU85999.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Halogenation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "tiaS6", 
+                    "gene_id": "ADU86000.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "tiaP2", 
+                    "gene_id": "ADU86001.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Macrolide", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Ethylmalonyl-CoA", 
+            "pks_te_type": "Type II", 
+            "pks_thioesterase": [
+                "tiae"
+            ], 
+            "pks_release_type": "Macrolactonization"
+        }
+    }
+}
+

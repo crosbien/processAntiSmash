@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C\\C=C(/C)C1=CC=C(C)C(=O)O1", 
+                "compound": "gibepyrone A"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2088912, 
+                    "Accession": "HF679033", 
+                    "start_coord": 2066369
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001606", 
+        "publications": [
+            "27856636"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

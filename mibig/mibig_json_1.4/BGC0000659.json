@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 16913, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "2-methylisoborneol"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 4077099, 
+                    "Accession": "AM420293", 
+                    "start_coord": 4075163
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000659", 
+        "publications": [
+            "17369815"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

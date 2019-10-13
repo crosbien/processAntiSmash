@@ -1,0 +1,307 @@
+{
+    "version": "6", 
+    "personal": {
+        "submitter_name": "Federico Rosconi", 
+        "submitter_institution": "Instituto de Investigaciones Biol\u00c3\u00b3gicas Clemente Estabel", 
+        "submitter_email": "frosconi@iibce.edu.uy"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000424", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "23320867", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP002039", 
+                    "start_coord": 2645251, 
+                    "end_coord": 2687402, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Proven expression in natural host", 
+                        "Sequence-based prediction", 
+                        "Other"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Serobactin C", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(NC(C(O)C(O)=O)C(NC(CO)C(NC(C(O)C(O)=O)C(NC(C(C)O)C(NC(CO)C(NC1CCCN(O)C1=O)=O)=O)=O)=O)=O)CCCCCCCCCCCCC", 
+                "molecular_formula": "C37H63N7O17", 
+                "mol_mass": 900.41, 
+                "mass_ion_type": "M+Na+", 
+                "chem_act": [
+                    "Siderophore"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Lipid", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }, 
+            {
+                "compound": "Serobactin B", 
+                "chem_synonyms": [], 
+                "chem_struct": "CCCCCCCCCCCC(NC(C(O)C(O)=O)C(NC(CO)C(NC(C(O)C(O)=O)C(NC(C(C)O)C(NC(CO)C(NC1CCCN(O)C1=O)=O)=O)=O)=O)=O)=O", 
+                "molecular_formula": "C35H59N7O17", 
+                "mol_mass": 872.38, 
+                "mass_ion_type": "M+Na+", 
+                "chem_act": [
+                    "Siderophore"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Lipid", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }, 
+            {
+                "compound": "Serobactin A", 
+                "chem_synonyms": [], 
+                "chem_struct": "CCCCCCCCCC(NC(C(O)C(O)=O)C(NC(CO)C(NC(C(O)C(O)=O)C(NC(C(C)O)C(NC(CO)C(NC1CCCN(O)C1=O)=O)=O)=O)=O)=O)=O", 
+                "molecular_formula": "C33H55N7O17", 
+                "mol_mass": 844.35, 
+                "mass_ion_type": "M+Na+", 
+                "chem_act": [
+                    "Siderophore"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Lipid", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "pvdE", 
+                    "gene_id": "Hsero_2349", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "Hsero_2348", 
+                    "gene_function": "Other enzymatic"
+                }, 
+                {
+                    "gene_id": "Hsero_2347", 
+                    "gene_function": "Other enzymatic"
+                }, 
+                {
+                    "gene_id": "Hsero_2346", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "fhuA", 
+                    "gene_id": "Hsero_2345", 
+                    "gene_annotation": "TonB-dependent Fe3+-serobactin transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "No internalization of siderophore"
+                }, 
+                {
+                    "gene_id": "Hsero_2344", 
+                    "gene_function": "Other enzymatic"
+                }, 
+                {
+                    "gene_id": "Hsero_2343", 
+                    "gene_annotation": "Serobactin synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "No siderophore production"
+                }, 
+                {
+                    "gene_id": "Hsero_2342", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "Hsero_2341", 
+                    "gene_function": "Activation / processing"
+                }, 
+                {
+                    "gene_id": "Hsero_2340", 
+                    "gene_function": "Activation / processing"
+                }, 
+                {
+                    "gene_id": "Hsero_2339", 
+                    "gene_function": "Activation / processing"
+                }, 
+                {
+                    "gene_name": "pfrI", 
+                    "gene_id": "Hsero_2338", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "No siderophore production"
+                }, 
+                {
+                    "gene_name": "cirA", 
+                    "gene_id": "Hsero_2337", 
+                    "gene_annotation": "TonB-dependent transducer", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "Siderophore production diminished"
+                }
+            ], 
+            "operon": [
+                {
+                    "operon_genes": [
+                        "hsero_2349"
+                    ]
+                }, 
+                {
+                    "operon_genes": [
+                        "hsero_2348", 
+                        "hsero_2347", 
+                        "hsero_2346", 
+                        "hsero_2345", 
+                        "hsero_2344"
+                    ]
+                }, 
+                {
+                    "operon_genes": [
+                        "hsero_2339", 
+                        "hsero_2340", 
+                        "hsero_2341", 
+                        "hsero_2342", 
+                        "hsero_2343"
+                    ]
+                }, 
+                {
+                    "operon_genes": [
+                        "hsero_2337", 
+                        "hsero_2338"
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "NRP siderophore", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "Hsero_2343", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "Multiple (promiscuous)", 
+                                "a_multiple_spec": "C10:0; C12:0; C14:0", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Aspartate", 
+                                "epimerized": true, 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Serine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Aspartate", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "Other", 
+                            "nrps_other_mod_dom": "Hydroxylation", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Threonine", 
+                                "epimerized": true, 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Serine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "N5-Hydroxyornithine", 
+                                "aa_subcluster": [
+                                    "hsero_2346"
+                                ], 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ], 
+            "nrps_te_type": "Both", 
+            "nrps_release_type": "Hydrolysis"
+        }
+    }
+}
+
+

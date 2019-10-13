@@ -1,0 +1,92 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Andreas Bechthold", 
+        "submitter_institution": "Albert-Ludwigs-Universit\u00c3\u00a4t Freiburg", 
+        "submitter_email": "andreas.bechthold@pharmazie.uni-freiburg.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001177", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "22162248, 24554499", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KJ437437.1", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Mensacaricin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 403671, 
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "MsnM6", 
+                    "not_in_gbk": true, 
+                    "gene_annotation": "O-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "Production of didesmethylmensacarcin"
+                }, 
+                {
+                    "gene_name": "MsnO8", 
+                    "gene_id": "AHL46694.1", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "Production of MsnKP2 and MsnKP2"
+                }, 
+                {
+                    "gene_name": "MsnO3", 
+                    "gene_id": "AHL46683.1", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "ahl46686.1", 
+                "ahl46697.1"
+            ], 
+            "ketide_length": 10, 
+            "cyclases": "AHL46690.1, AHL46693.1, AHL46699.1"
+        }
+    }
+}
+
+

@@ -1,0 +1,44 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 71308160, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "betaenone C"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 5478031, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "betaenone A"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "LC011911", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001280", 
+        "publications": [
+            "25530455"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

@@ -1,0 +1,342 @@
+{
+   "version": "16",
+   "personal": {
+      "submitter_name": "Daniel Krug",
+      "submitter_institution": "HIPS",
+      "submitter_email": "daniel.krug@helmholtz-hzi.de"
+   },
+   "general_params": {
+      "mibig_accession": "BGC0001066",
+      "biosyn_class": [
+         "Polyketide"
+      ],
+      "publications": "18972512",
+      "loci": {
+         "complete": "complete",
+         "nucl_acc": [
+            {
+               "Accession": "AM992894",
+               "mixs_compliant": false,
+               "start_coord": 1,
+               "end_coord": 66606,
+               "conn_comp_cluster": [
+                  "Knock-out studies"
+               ]
+            }
+         ]
+      },
+      "compounds": [
+         {
+            "compound": "Kendomycin",
+            "chem_synonyms": [],
+            "database_deposited": false,
+            "chem_struct": "C[C@H]\\1CC[C@@H]2[C@@H]([C@@H]([C@H]([C@@H](O2)C3=C(C(=O)C(=C4C3=C[C@@](O4)([C@H](C[C@@H](C/C(=C1)/C)C)C)O)C)O)C)O)C",
+            "molecular_formula": "C29H42O6",
+            "mol_mass": 486.2981,
+            "chem_act": [
+               "Antibacterial",
+               "Cytotoxic"
+            ],
+            "chem_moieties": [
+               {
+                  "chem_moiety": "Other",
+                  "other_chem_moiety": "2,3,5,6-tetrahydroxy-4-methylbenzoyl-CoA",
+                  "moiety_subcluster": [
+                     "ken2",
+                     "ken3",
+                     "ken4",
+                     "ken5",
+                     "ken6",
+                     "ken7",
+                     "ken9",
+                     "ken10"
+                  ]
+               }
+            ]
+         }
+      ],
+      "genes": {
+         "gene": [
+            {
+               "gene_name": "ken1 ",
+               "not_in_gbk": false,
+               "gene_id": "CAQ52621.1",
+               "gene_annotation": "type II thioesterase",
+               "gene_function": "Other",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "ken12 ",
+               "not_in_gbk": false,
+               "gene_id": "CAQ52622.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Knock-out"
+               ],
+               "mut_pheno": "loss of production"
+            },
+            {
+               "gene_name": "ken13 ",
+               "not_in_gbk": false,
+               "gene_id": "CAQ52623.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "ken14",
+               "not_in_gbk": false,
+               "gene_id": "CAQ52624.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "ken15",
+               "not_in_gbk": false,
+               "gene_id": "CAQ52625.1",
+               "gene_annotation": "FAD-dependent mono oxygenase",
+               "gene_function": "Tailoring",
+               "tailoring": "Monooxygenation",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "ken16",
+               "not_in_gbk": false,
+               "gene_id": "CAQ52626.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "ken19",
+               "not_in_gbk": false,
+               "gene_id": "CAQ52629.1",
+               "gene_annotation": "FAD-dependent oxidoreductase",
+               "gene_function": "Tailoring",
+               "tailoring": "Oxidation",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "ken2 ",
+               "not_in_gbk": false,
+               "gene_id": "CAQ52620.1",
+               "gene_annotation": "type III polyketide synthase",
+               "gene_function": "Precursor biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "ken3 ",
+               "not_in_gbk": false,
+               "gene_id": "CAQ52619.1",
+               "gene_annotation": "enoyl-CoA hydratase/isomerase",
+               "gene_function": "Precursor biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "ken4",
+               "not_in_gbk": false,
+               "gene_id": "CAQ52618.1",
+               "gene_annotation": "dioxigenase",
+               "gene_function": "Precursor biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "ken5",
+               "not_in_gbk": false,
+               "gene_id": "CAQ52617.1",
+               "gene_annotation": "benzoyl formate decarboxylase",
+               "gene_function": "Precursor biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "ken6",
+               "not_in_gbk": false,
+               "gene_id": "CAQ52616.1",
+               "gene_annotation": "benzaldehyde degydrogenase",
+               "gene_function": "Precursor biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "ken7",
+               "not_in_gbk": false,
+               "gene_id": "CAQ52615.1",
+               "gene_annotation": "enoyl-CoA hydratase",
+               "gene_function": "Precursor biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "ken9 ",
+               "not_in_gbk": false,
+               "gene_id": "CAQ52614.1",
+               "gene_annotation": "methyl transferase",
+               "gene_function": "Precursor biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            }
+         ]
+      },
+      "Polyketide": {
+         "pk_subclass": "Other",
+         "lin_cycl_pk": "Cyclic",
+         "pks_subclass": [
+            "Modular type I"
+         ],
+         "starter_unit": "Other",
+         "mod_pks_genes": [
+            {
+               "mod_pks_gene": "CAQ52622.1",
+               "pks_module": [
+                  {
+                     "module_nr": "4",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Enoylreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Methylmalonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "5",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Methylmalonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "6",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Enoylreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Methylmalonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "7",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Enoylreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Methylmalonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "8",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Malonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "1",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Methylmalonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "2",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Methylmalonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "3",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Malonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            }
+         ],
+         "pks_te_type": "Type I",
+         "pks_thioesterase": [
+            "caq52624.1"
+         ],
+         "pks_release_type": "Unknown"
+      }
+   },
+   "embargo": false
+}

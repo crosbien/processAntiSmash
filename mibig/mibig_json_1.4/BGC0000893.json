@@ -1,0 +1,289 @@
+{
+    "personal": {
+        "submitter_email": "juan-pablo.gomez-escribano@jic.ac.uk", 
+        "submitter_name": "Juan Pablo Gomez-Escribano", 
+        "submitter_institution": "John Innes Centre; Norwich Research Park; Norwich; NR4 7UH; UK"
+    }, 
+    "version": "17", 
+    "comments": "Chloramphenicol gene cluster comprises 17 genes (sven_0913 to sven_0929) including a monomodular NRPS. ", 
+    "general_params": {
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 1061851, 
+                    "Accession": "FR845719", 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ], 
+                    "start_coord": 1039846
+                }
+            ], 
+            "complete": "complete"
+        }, 
+        "compounds": [
+            {
+                "mol_mass": "323.12938", 
+                "chem_struct": "C1=CC(=CC=C1[C@H]([C@@H](CO)NC(=O)C(Cl)Cl)O)[N+](=O)[O-]", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "pubchem_id": 5959, 
+                "chemspider_id": 5744,
+                "chem_target": "23S rRNA", 
+                "compound": "chloramphenicol", 
+                "molecular_formula": "C11H12Cl2N2O5", 
+                "databases_deposited": [
+                    "PubChem",
+                    "ChemSpider"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_function": "Regulation", 
+                    "gene_endpos": 1040880, 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "gene_id": "CCA54200.1", 
+                    "gene_annotation": "CmlR", 
+                    "gene_startpos": 1039846, 
+                    "not_in_gbk": true, 
+                    "mut_pheno": "Abolishment of production. Transcriptional activator, over-expression activates chloramphenicol production.", 
+                    "gene_name": "SVEN_0913"
+                }, 
+                {
+                    "gene_function": "Scaffold biosynthesis", 
+                    "gene_endpos": 1040885, 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "gene_id": "CCA54201.1", 
+                    "gene_annotation": "CmlL", 
+                    "gene_startpos": 1041604, 
+                    "not_in_gbk": true, 
+                    "mut_pheno": "Abolishment of production. Phosphopantetheinyl transferase.", 
+                    "gene_name": "SVEN_0914"
+                }, 
+                {
+                    "gene_function": "Transport", 
+                    "gene_endpos": 1041601, 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "gene_id": "CCA54202.1", 
+                    "gene_annotation": "CmlN", 
+                    "gene_startpos": 1043019, 
+                    "not_in_gbk": true, 
+                    "mut_pheno": "Abolishment of production. Integral membrane ion antiporter.", 
+                    "gene_name": "SVEN_0915"
+                }, 
+                {
+                    "gene_function": "Transport", 
+                    "gene_endpos": 1044543, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_id": "CCA54203.1", 
+                    "gene_annotation": "CmlF", 
+                    "gene_startpos": 1043332, 
+                    "not_in_gbk": true, 
+                    "mut_pheno": "Chloramphenicol efflux pump.", 
+                    "gene_name": "SVEN_0916"
+                }, 
+                {
+                    "gene_function": "Scaffold biosynthesis", 
+                    "gene_endpos": 1044647, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_id": "CCA54204.1", 
+                    "gene_annotation": "CmlE", 
+                    "gene_startpos": 1045909, 
+                    "not_in_gbk": true, 
+                    "mut_pheno": "DAHP synthase", 
+                    "gene_name": "SVEN_0917"
+                }, 
+                {
+                    "gene_function": "Scaffold biosynthesis", 
+                    "gene_endpos": 1045906, 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ], 
+                    "gene_id": "CCA54205.1", 
+                    "gene_annotation": "CmlD", 
+                    "gene_startpos": 1046217, 
+                    "not_in_gbk": true, 
+                    "mut_pheno": "4-Amino-4-deoxychorismate mutase", 
+                    "gene_name": "SVEN_0918"
+                }, 
+                {
+                    "gene_function": "Scaffold biosynthesis", 
+                    "gene_endpos": 1046214, 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ], 
+                    "gene_id": "CCA54206.1", 
+                    "gene_annotation": "CmlC", 
+                    "gene_startpos": 1047200, 
+                    "not_in_gbk": true, 
+                    "mut_pheno": "4-Amino-4-deoxyprephenate dehydrogenase", 
+                    "gene_name": "SVEN_0919"
+                }, 
+                {
+                    "gene_function": "Scaffold biosynthesis", 
+                    "gene_endpos": 1047197, 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ], 
+                    "gene_id": "CCA54207.1", 
+                    "gene_annotation": "CmlB", 
+                    "gene_startpos": 1049257, 
+                    "not_in_gbk": true, 
+                    "mut_pheno": "4-Amino-4-deoxychorismate synthase", 
+                    "gene_name": "SVEN_0920"
+                }, 
+                {
+                    "gene_function": "Scaffold biosynthesis", 
+                    "gene_endpos": 1049401, 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "gene_id": "CCA54208.1", 
+                    "gene_annotation": "CmlA", 
+                    "gene_startpos": 1050999, 
+                    "not_in_gbk": true, 
+                    "mut_pheno": "Nonheme iron monooxygenase catalyzing beta-hydroxylation of L-PAPA", 
+                    "gene_name": "SVEN_0921"
+                }, 
+                {
+                    "gene_function": "Scaffold biosynthesis", 
+                    "gene_endpos": 1051023, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_id": "CCA54209.1", 
+                    "gene_annotation": "CmlP", 
+                    "gene_startpos": 1053914, 
+                    "not_in_gbk": true, 
+                    "mut_pheno": "Monomodular non-ribosomal peptide synthetase with Adenylation, PCP and reductase domains", 
+                    "gene_name": "SVEN_0922"
+                }, 
+                {
+                    "gene_function": "Scaffold biosynthesis", 
+                    "gene_endpos": 1053898, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_id": "CCA54210.1", 
+                    "gene_annotation": "CmlH", 
+                    "gene_startpos": 1055076, 
+                    "not_in_gbk": true, 
+                    "mut_pheno": "Amidase", 
+                    "gene_name": "SVEN_0923"
+                }, 
+                {
+                    "gene_function": "Scaffold biosynthesis", 
+                    "gene_endpos": 1055073, 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "gene_id": "CCA54211.1", 
+                    "gene_annotation": "CmlI", 
+                    "gene_startpos": 1056092, 
+                    "not_in_gbk": true, 
+                    "mut_pheno": "N-Oxygenase, nonheme diiron oxygenase", 
+                    "gene_name": "SVEN_0924"
+                }, 
+                {
+                    "gene_function": "Scaffold biosynthesis", 
+                    "gene_endpos": 1056692, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_id": "CCA54212.1", 
+                    "gene_annotation": "CmlM", 
+                    "gene_startpos": 1056366, 
+                    "not_in_gbk": true, 
+                    "mut_pheno": "Putative acyl carrier protein", 
+                    "gene_name": "SVEN_0925"
+                }, 
+                {
+                    "gene_function": "Scaffold biosynthesis", 
+                    "gene_endpos": 1057408, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_id": "CCA54213.1", 
+                    "gene_annotation": "CmlJ", 
+                    "gene_startpos": 1056710, 
+                    "not_in_gbk": true, 
+                    "mut_pheno": "Short-chain dehydrogenase", 
+                    "gene_name": "SVEN_0926"
+                }, 
+                {
+                    "gene_function": "Scaffold biosynthesis", 
+                    "gene_endpos": 1058853, 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "gene_id": "CCA54214.1", 
+                    "gene_annotation": "CmlK", 
+                    "gene_startpos": 1057408, 
+                    "not_in_gbk": true, 
+                    "mut_pheno": "Acyl-CoA-ACP synthetase, AMP-ligase", 
+                    "gene_name": "SVEN_0927"
+                }, 
+                {
+                    "gene_function": "Tailoring", 
+                    "gene_endpos": 1060672, 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "gene_id": "CCA54215.1", 
+                    "gene_annotation": "CmlS", 
+                    "mut_pheno": "Flavin-dependent halogenase (chlorination of chloramphenicol)", 
+                    "gene_startpos": 1058957, 
+                    "not_in_gbk": true, 
+                    "tailoring": "Halogenation", 
+                    "gene_name": "SVEN_0928"
+                }, 
+                {
+                    "gene_function": "Unknown", 
+                    "gene_endpos": 1061851, 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "gene_id": "CCA54216.1", 
+                    "gene_annotation": "CmlT", 
+                    "gene_startpos": 1060871, 
+                    "not_in_gbk": true, 
+                    "mut_pheno": "KO still produces chloramphenicol Aldo-keto reductase; not essential for CHL biosynthesis", 
+                    "gene_name": "SVEN_0929"
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000893", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "NRP": {
+            "lin_cycl_nrp": "Linear", 
+            "nrps_release_type": "Reductive release", 
+            "nrps_te_type": "None", 
+            "subclass": "Other", 
+            "nrps_thioesterase": [
+                "sven_0922m cca54209.1", 
+                "cmlp"
+            ]
+        }, 
+        "publications": "11577160,25267678,20876130,15184904,20713732,24347692,19255478,14702400"
+    }
+}

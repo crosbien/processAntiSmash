@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CC1CNC(=O)\\C=C(/O)\\C=C\\C(\\C)=C\\C=C\\C(O)C(O)C(O)C(=O)\\C=C/C=C/C(/C)=C/C=C/C=C/1", 
+                "compound": "sceliphrolactam"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 94427, 
+                    "Accession": "KX230849", 
+                    "start_coord": 1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001770", 
+        "publications": [
+            "29371699"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

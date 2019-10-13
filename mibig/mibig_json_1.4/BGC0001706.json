@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "[H][C@]12CC3=C(NC4=C3C=CC=C4)[C@]1(C)[C@@]1(C)CC[C@H](O)[C@@](C)(CC\\C=C(/C)C(O)=O)[C@]1([H])CC2", 
+                "compound": "nodulisporic acid F"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 71644, 
+                    "Accession": "MG182145", 
+                    "start_coord": 42700
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001706", 
+        "publications": [
+            "29283570"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

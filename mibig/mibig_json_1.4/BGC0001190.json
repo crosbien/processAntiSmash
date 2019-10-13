@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 3442, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "fusaric acid"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 809209, 
+                    "Accession": "CM000580", 
+                    "start_coord": 756250
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001190", 
+        "publications": [
+            "25372119"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Other"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

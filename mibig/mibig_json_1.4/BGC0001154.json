@@ -1,0 +1,239 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Alexander Kristian Apel", 
+        "submitter_institution": "Eberhard Karls Universit\u00c3\u00a4t T\u00c3\u00bcbingen", 
+        "submitter_email": "kristian.apel@uni-tuebingen.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001154", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "24554531, 21304647", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP001700", 
+                    "start_coord": 3108359, 
+                    "end_coord": 3124920, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "cacibiocin B", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C(Cl)C(OC2=O)=C(C(O[H])=C2N([H])C(C3=C([H])C([H])=C(C(O)=O)N3[H])=O)C([H])=C1Cl", 
+                "molecular_formula": "C15H8Cl2N2O7", 
+                "mol_mass": 397.97, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Unknown"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Pyrrole ring", 
+                        "moiety_subcluster": [
+                            "n/a"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "aminocoumarin moiety", 
+                        "moiety_subcluster": [
+                            "acu71638.1", 
+                            "acu71637.1", 
+                            "acu71636.1", 
+                            "acu71635.1", 
+                            "acu71633.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "cabR12", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3108359, 
+                    "gene_endpos": 3109678, 
+                    "gene_id": "ACU71629.1", 
+                    "gene_annotation": "sodium/hydrogen exchanger", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "cabR11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3109685, 
+                    "gene_endpos": 3110959, 
+                    "gene_id": "ACU71630.1", 
+                    "gene_annotation": "FAD dependent oxidoreductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "cabR10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3110956, 
+                    "gene_endpos": 3112239, 
+                    "gene_id": "ACU71631.1", 
+                    "gene_annotation": "Pyridoxal-5'-phosphate-dependent protein beta subunit", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "cabL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3112206, 
+                    "gene_endpos": 3113840, 
+                    "gene_id": "ACU71632.1", 
+                    "gene_annotation": "amide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cabK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3113844, 
+                    "gene_endpos": 3114626, 
+                    "gene_id": "ACU71633.1", 
+                    "gene_annotation": "b-ketotyrosyl-reductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cabR9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3114623, 
+                    "gene_endpos": 3115117, 
+                    "gene_id": "ACU71634.1", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "cabJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3115114, 
+                    "gene_endpos": 3115881, 
+                    "gene_id": "ACU71635.1", 
+                    "gene_annotation": "b-ketotyrosyl-reductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cabY", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3115878, 
+                    "gene_endpos": 3116192, 
+                    "gene_id": "ACU71636.1", 
+                    "gene_annotation": "MbtH-like protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cabI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3116235, 
+                    "gene_endpos": 3117458, 
+                    "gene_id": "ACU71637.1", 
+                    "gene_annotation": "cytochrome P450", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cabH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3117460, 
+                    "gene_endpos": 3119235, 
+                    "gene_id": "ACU71638.1", 
+                    "gene_annotation": "peptide synthetase-like protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cabhal", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3119401, 
+                    "gene_endpos": 3120921, 
+                    "gene_id": "ACU71639.1", 
+                    "gene_annotation": "tryptophan halogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Halogenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cabR8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3121002, 
+                    "gene_endpos": 3122297, 
+                    "gene_id": "ACU71640.1", 
+                    "gene_annotation": "transcriptional regulator, LuxR family", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cabR5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3122566, 
+                    "gene_endpos": 3124068, 
+                    "gene_id": "ACU71641.1", 
+                    "gene_annotation": "drug resistance transporter, EmrB/QacA subfamily", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cabR7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3124125, 
+                    "gene_endpos": 3124919, 
+                    "gene_id": "ACU71642.1", 
+                    "gene_annotation": "transcriptional regulator, TetR family", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "None"
+        }
+    }, 
+    "comments": "genes involved in the biosynthesis of the pyrrole-\\n2,5-dicarboxylic acid moiety are not yet identified"
+}
+
+

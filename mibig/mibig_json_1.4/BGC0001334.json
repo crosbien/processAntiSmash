@@ -1,0 +1,270 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Fang-Yuan Chang", 
+        "submitter_institution": "MIT", 
+        "submitter_email": "fangyuanchang@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001334", 
+        "biosyn_class": [
+            "Alkaloid"
+        ], 
+        "publications": "21876764", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "JN165773", 
+                    "start_coord": 9571, 
+                    "end_coord": 30347, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "cladoniamide A", 
+                "chem_synonyms": [
+                    "cladoniamide"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 25053147, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_target": "V-ATPase", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Indole group", 
+                        "moiety_subcluster": [
+                            "aeo12716.1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "compound": "cladoniamide B",
+                "database_deposited": true,
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "pubchem_id": 25053151
+            },
+            {
+                "compound": "cladoniamide C",
+                "database_deposited": true,
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "pubchem_id": 25053148
+            },
+            {
+                "compound": "cladoniamide D",
+                "database_deposited": true,
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "pubchem_id": 25053152
+            },
+            {
+                "compound": "cladoniamide E",
+                "database_deposited": true,
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "pubchem_id": 25053149
+            },
+            {
+                "compound": "cladoniamide F",
+                "database_deposited": true,
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "pubchem_id": 25053218
+            },
+            {
+                "compound": "cladoniamide G",
+                "database_deposited": true,
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "pubchem_id": 25053150
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "claH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9571, 
+                    "gene_endpos": 11112, 
+                    "gene_id": "AEO12707.1", 
+                    "gene_annotation": "halogenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "claT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11137, 
+                    "gene_endpos": 12405, 
+                    "gene_id": "AEO12708.1", 
+                    "gene_annotation": "antiporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "claF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12402, 
+                    "gene_endpos": 12935, 
+                    "gene_id": "AEO12709.1", 
+                    "gene_annotation": "flavin reductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "claY", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13109, 
+                    "gene_endpos": 13945, 
+                    "gene_id": "AEO12710.1", 
+                    "gene_annotation": "putative alpha/beta hydrolase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "claO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14287, 
+                    "gene_endpos": 15846, 
+                    "gene_id": "AEO12711.1", 
+                    "gene_annotation": "amino acid oxidase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "claC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15888, 
+                    "gene_endpos": 17573, 
+                    "gene_id": "AEO12712.1", 
+                    "gene_annotation": "flavin monooxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "claP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17570, 
+                    "gene_endpos": 18832, 
+                    "gene_id": "AEO12713.1", 
+                    "gene_annotation": "cytochrome P450", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "claX1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18813, 
+                    "gene_endpos": 20474, 
+                    "gene_id": "AEO12714.1", 
+                    "gene_annotation": "flavin monooxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "claM1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20784, 
+                    "gene_endpos": 21515, 
+                    "gene_id": "AEO12715.1", 
+                    "gene_annotation": "methyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "claD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21512, 
+                    "gene_endpos": 24784, 
+                    "gene_id": "AEO12716.1", 
+                    "gene_annotation": "chromopyrrolic acid synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "claX2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24784, 
+                    "gene_endpos": 26049, 
+                    "gene_id": "AEO12717.1", 
+                    "gene_annotation": "flavin monooxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "claM3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26046, 
+                    "gene_endpos": 27080, 
+                    "gene_id": "AEO12718.1", 
+                    "gene_annotation": "methyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "claR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27402, 
+                    "gene_endpos": 30347, 
+                    "gene_id": "AEO12719.1", 
+                    "gene_annotation": "transcriptional regulator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "Alkaloid": {
+            "alkaloid_subclass": "Pyrrole/pyrrolidine"
+        }
+    }
+}

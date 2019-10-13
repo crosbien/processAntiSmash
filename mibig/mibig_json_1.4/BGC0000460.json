@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 5487539, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "vulnibactin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 914333, 
+                    "Accession": "AE016796", 
+                    "start_coord": 890623
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000460", 
+        "publications": [
+            "24478763"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

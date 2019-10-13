@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 6918349, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "clavaric acid"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "EU665687", 
+                    "start_coord": -1
+                },
+                {
+                    "end_coord": -1, 
+                    "Accession": "EF581376", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001248", 
+        "publications": [
+            "19130892, 18096502"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

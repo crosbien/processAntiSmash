@@ -1,0 +1,481 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Leonard Kaysser", 
+        "submitter_institution": "Eberhard Karls University Tuebingen", 
+        "submitter_email": "leonard.kaysser@uni-tuebingen.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001076", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "20039253,8807054", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "GU219978", 
+                    "start_coord": 1, 
+                    "end_coord": 29709, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Liposidomycin B", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=S([O-])(O[C@H]([C@@H]([C@H](O1)CN)O)[C@@H]1O[C@@H]([C@@H]2N(C[C@@H]([C@H](N(C2=O)C)C(O)=O)OC(C[C@@H](OC(C[C@@H](CC(O)=O)C)=O)CCCCCCCCCC(C)C)=O)C)[C@@H](O[C@H]3N(C(N4)=O)C=CC4=O)[C@H]([C@H]3O)O)=O", 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 90658650, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "translocase I"
+            },
+            {
+                "compound": "Liposidomycin A", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=S([O-])(O[C@H]([C@@H]([C@H](O1)CN)O)[C@@H]1O[C@@H]([C@@H]2N(C[C@@H]([C@H](N(C2=O)C)C(O)=O)OC(C[C@@H](OC(C[C@@H](CC(O)=O)C)=O)CCCC/C=C\\C/C=C\\CCCCC)=O)C)[C@@H](O[C@H]3N(C(N4)=O)C=CC4=O)[C@H]([C@H]3O)O)=O", 
+                "database_deposited": false, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "translocase I"
+            },
+            {
+                "compound": "Liposidomycin C", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=S([O-])(O[C@H]([C@@H]([C@H](O1)CN)O)[C@@H]1O[C@@H]([C@@H]2N(C[C@@H]([C@H](N(C2=O)C)C(O)=O)OC(C[C@@H](OC(C[C@@H](CC(O)=O)C)=O)CCCCCCCCCCCC)=O)C)[C@@H](O[C@H]3N(C(N4)=O)C=CC4=O)[C@H]([C@H]3O)O)=O", 
+                "database_deposited": false, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "translocase I"
+            },
+            {
+                "compound": "Liposidomycin Z", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=S([O-])(O[C@H]([C@@H]([C@H](O1)CN)O)[C@@H]1O[C@@H]([C@@H]2N(C[C@@H]([C@H](N(C2=O)C)C(O)=O)OC(C[C@@H](OC(C[C@@H](CC(O)=O)C)=O)CC/C=C\\CCCCCCCC)=O)C)[C@@H](O[C@H]3N(C(N4)=O)C=CC4=O)[C@H]([C@H]3O)O)=O", 
+                "database_deposited": false, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "translocase I"
+            },
+            {
+                "compound": "Liposidomycin H", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=S([O-])(O[C@H]([C@@H]([C@H](O1)CN)O)[C@@H]1O[C@@H]([C@@H]2N(C[C@@H]([C@H](N(C2=O)C)C(O)=O)OC(C[C@@H](OC(C[C@@H](CC(O)=O)C)=O)CC/C=C\\CCCCCCCC)=O)C)[C@@H](O[C@H]3N(C(N4)=O)C=CC4=O)[C@H]([C@H]3O)O)=O", 
+                "database_deposited": false, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "translocase I"
+            },
+            {
+                "compound": "Liposidomycin G", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=S([O-])(O[C@H]([C@@H]([C@H](O1)CN)O)[C@@H]1O[C@@H]([C@@H]2N(C[C@@H]([C@H](N(C2=O)C)C(O)=O)OC(C[C@@H](OC(C[C@@H](CC(O)=O)C)=O)CCCC/C=C\\CCCCCCCC)=O)C)[C@@H](O[C@H]3N(C(N4)=O)C=CC4=O)[C@H]([C@H]3O)O)=O", 
+                "database_deposited": false, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "translocase I"
+            },
+            {
+                "compound": "Liposidomycin L", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=S([O-])(O[C@H]([C@@H]([C@H](O1)CN)O)[C@@H]1O[C@@H]([C@@H]2N(C[C@@H]([C@H](N(C2=O)C)C(O)=O)OC(C[C@@H](OC(C[C@@H](CC(O)=O)C)=O)CCCCCCCCCCCC(C)C)=O)C)[C@@H](O[C@H]3N(C(N4)=O)C=CC4=O)[C@H]([C@H]3O)O)=O", 
+                "database_deposited": false, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "translocase I"
+            },
+            {
+                "compound": "Liposidomycin M", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=S([O-])(O[C@H]([C@@H]([C@H](O1)CN)O)[C@@H]1O[C@@H]([C@@H]2N(C[C@@H]([C@H](N(C2=O)C)C(O)=O)OC(C[C@@H](OC(C[C@@H](CC(O)=O)C)=O)CCCCCCCCCCCCCC)=O)C)[C@@H](O[C@H]3N(C(N4)=O)C=CC4=O)[C@H]([C@H]3O)O)=O", 
+                "database_deposited": false, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "translocase I"
+            },
+            {
+                "compound": "Liposidomycin K", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=S([O-])(O[C@H]([C@@H]([C@H](O1)CN)O)[C@@H]1O[C@@H]([C@@H]2N(C[C@@H]([C@H](N(C2=O)C)C(O)=O)OC(C[C@@H](OC(C[C@@H](CC(O)=O)C)=O)CC/C=C\\C/C=C\\C/C=C\\CCCCC)=O)C)[C@@H](O[C@H]3N(C(N4)=O)C=CC4=O)[C@H]([C@H]3O)O)=O", 
+                "database_deposited": false, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "translocase I"
+            },
+            {
+                "compound": "Liposidomycin N", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=S([O-])(O[C@H]([C@@H]([C@H](O1)CN)O)[C@@H]1O[C@@H]([C@@H]2N(C[C@@H]([C@H](N(C2=O)C)C(O)=O)OC(C[C@@H](OC(C[C@@H](CC(O)=O)C)=O)CCCCCC/C=C\\CCCCCCCC)=O)C)[C@@H](O[C@H]3N(C(N4)=O)C=CC4=O)[C@H]([C@H]3O)O)=O", 
+                "database_deposited": false, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "translocase I"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "lpmA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96649.1", 
+                    "gene_annotation": "HMG-CoA syntahse", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "lpmB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96650.1", 
+                    "gene_annotation": "sulfotransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Sulfation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96651.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96652.1", 
+                    "gene_annotation": "type III PKS", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96653.1", 
+                    "gene_annotation": "PAPS 3'-phosphatase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96654.1", 
+                    "gene_annotation": "sulfotransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96655.1", 
+                    "gene_annotation": "AraC-like regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96656.1", 
+                    "gene_annotation": "beta-hydroxylase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96657.1", 
+                    "gene_annotation": "SAM-dependent methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96658.1", 
+                    "gene_annotation": "kinase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96659.1", 
+                    "gene_annotation": "amino-carboxypropyl transferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96660.1", 
+                    "gene_annotation": "transaldolase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96661.1", 
+                    "gene_annotation": "Fe(II)-dependent UMP dioxygenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96662.1", 
+                    "gene_annotation": "nucleotidyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96663.1", 
+                    "gene_annotation": "glycosyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96664.1", 
+                    "gene_annotation": "aminotransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmQ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96665.1", 
+                    "gene_annotation": "pyrimidine phosphorylase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96666.1", 
+                    "gene_annotation": "acyl-CoA synthase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmS", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96667.1", 
+                    "gene_annotation": "acyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96668.1", 
+                    "gene_annotation": "ABC transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmU", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96669.1", 
+                    "gene_annotation": "acyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmV", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96670.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmW", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96671.1", 
+                    "gene_annotation": "acyl-CoA dehydrogenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmX", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96672.1", 
+                    "gene_annotation": "SAM-dependent methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "lpmY", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADC96673.1", 
+                    "gene_annotation": "kinase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Nucleoside"
+        }
+    }, 
+    "comments": "Liposidomycins are a mixture of derivatives with different chain length, saturation and branching of the fatty acyl moiety."
+}
+
+

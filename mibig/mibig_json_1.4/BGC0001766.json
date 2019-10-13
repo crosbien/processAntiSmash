@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "[H][C@]1(NC(=O)[C@@H](CC2=CC=CC=C2)N(C)C(=O)[C@@H]2NC(=O)[C@@H](NC(=O)[C@H](NC(=O)[C@@H](C)[C@@H](O)C(C)C)[C@H](C)OC(=O)[C@@H](COC(=O)CNC(=O)\\C=C\\[C@@]3(CO3)[C@H](C)OC3=CC=C2C=C3)NC1=O)[C@H](C)CC)[C@H](C)O", 
+                "compound": "salinamide A"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "BK009377", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001766", 
+        "publications": [
+            "26553755"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

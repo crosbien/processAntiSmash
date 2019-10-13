@@ -1,0 +1,252 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Douglas Mitchell", 
+        "submitter_institution": "University of Illinois", 
+        "submitter_email": "douglasm@illinois.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001348", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "27234886,20808316", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "NZ_JOBF01000033.1", 
+                    "start_coord": 93200, 
+                    "end_coord": 164000, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "JBIR-100", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 102518265, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Antifungal", 
+                    "Cytotoxic"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "Fumarate", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "hbaAIab", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 97371, 
+                    "gene_endpos": 109040, 
+                    "gene_id": "WP_063764077.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "hbaAII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 109077, 
+                    "gene_endpos": 124394, 
+                    "gene_id": "WP_048832936.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "hbaAIII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 124452, 
+                    "gene_endpos": 136256, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "beta-ketoacyl synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "hbaAIV", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 136420, 
+                    "gene_endpos": 142485, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "hbaAV", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 146912, 
+                    "gene_endpos": 153361, 
+                    "gene_id": "WP_063764078.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "hbaB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 153358, 
+                    "gene_endpos": 154242, 
+                    "gene_id": "WP_048832937.1", 
+                    "gene_annotation": "3-hydroxyacyl-CoA dehydrogenase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "hbaC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 154316, 
+                    "gene_endpos": 154618, 
+                    "gene_id": "WP_048832938.1", 
+                    "gene_annotation": "methoxymalonate biosynthesis protein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "hbaD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 154611, 
+                    "gene_endpos": 155771, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "acyl-CoA dehydrogenase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "hbaE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 155903, 
+                    "gene_endpos": 157027, 
+                    "gene_id": "WP_048832952.1", 
+                    "gene_annotation": "FkbH", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "hbaF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 157127, 
+                    "gene_endpos": 157789, 
+                    "gene_id": "WP_030890472.1", 
+                    "gene_annotation": "SAM-dependent methyltransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "hbaG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 157866, 
+                    "gene_endpos": 159779, 
+                    "gene_id": "WP_030890475.1", 
+                    "gene_annotation": "AfsR family transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "hbaH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 160255, 
+                    "gene_endpos": 161004, 
+                    "gene_id": "WP_030890478.1", 
+                    "gene_annotation": "oleoyl-ACP hydrolase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "hbaI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 161384, 
+                    "gene_endpos": 161602, 
+                    "gene_id": "WP_037966912.1", 
+                    "gene_annotation": "transcriptional regulator", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "hbaJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 161943, 
+                    "gene_endpos": 162902, 
+                    "gene_id": "WP_030890486.1", 
+                    "gene_annotation": "malonyl transferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "hbaK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 162899, 
+                    "gene_endpos": 163999, 
+                    "gene_id": "WP_048832939.1", 
+                    "gene_annotation": "arylcarboxylate reductase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Macrolide", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Isobutyryl-CoA", 
+            "pks_te_type": "Type II", 
+            "pks_thioesterase": [
+                "if55_rs32420"
+            ], 
+            "pks_release_type": "Macrolactonization"
+        }
+    }
+}

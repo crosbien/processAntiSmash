@@ -1,0 +1,105 @@
+{
+    "version": "10", 
+    "personal": {
+        "submitter_name": "Carmen M\u00c3\u00a9ndez", 
+        "submitter_institution": "University of Oviedo", 
+        "submitter_email": "cmendezf@uniovi.es"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000253", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "15368568,18988223", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AJ632203", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "oviedomycin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 5323531, 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_target": "unknown"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "ovmK", 
+                    "gene_id": "CAG14966.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "loss of oviedomycin production"
+                }, 
+                {
+                    "gene_name": "ovmOI", 
+                    "gene_id": "CAG14963.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ovmOII", 
+                    "gene_id": "CAG14970.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ovmOIII", 
+                    "gene_id": "CAG14971.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Angucycline", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "pks_genes": [
+                "cag14965.1", 
+                "cag14967.1"
+            ], 
+            "ketide_length": 10, 
+            "cyclases": "CAG14964.1, CAG14969.1"
+        }
+    }
+}
+
+

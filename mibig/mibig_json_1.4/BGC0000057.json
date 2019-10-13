@@ -1,0 +1,213 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Philipp Wiemann, Nancy Keller", 
+        "submitter_institution": "University of Wisconsin-Madison", 
+        "submitter_email": "pwiemann@wisc.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000057", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "20174687, 9448638, 19666480, ", 
+        "loci": {
+            "complete": "incomplete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AACD01000135", 
+                    "start_coord": 207766, 
+                    "end_coord": 225686, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Gene expression correlated with compound production"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "F9775A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 9843671, 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "inhibitor of cathepsin K"
+            }, 
+            {
+                "compound": "F9775B", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 25235989, 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "inhibitor of cathepsin K"
+            }, 
+            {
+                "compound": "Orsellinic acid", 
+                "chem_synonyms": [
+                    "orsellic acid", 
+                    "o-orsellinic acid", 
+                    "orcinolcarboxylic acid", 
+                    "benzoic acid"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 68072, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "orsA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 128096, 
+                    "gene_endpos": 134597, 
+                    "gene_id": "EAA59563.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of orsellinic acid, F9775A, and F977B production"
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 135422, 
+                    "gene_endpos": 136114, 
+                    "gene_id": "EAA59564.1", 
+                    "gene_annotation": "NTF2-like superfamily protein, putative", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "orsB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 136228, 
+                    "gene_endpos": 137290, 
+                    "gene_id": "EAA59565.1", 
+                    "gene_annotation": "aminohydrolase, putative", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation or orsellinic acid and gerfelin, loss of F9775A, and B"
+                }, 
+                {
+                    "gene_name": "orsC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 137660, 
+                    "gene_endpos": 138834, 
+                    "gene_id": "EAA59566.1", 
+                    "gene_annotation": "tyrosinase, putative", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation or orsellinic acid and diorcinol, loss of F9775A, and B"
+                }, 
+                {
+                    "gene_name": "orsD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 139355, 
+                    "gene_endpos": 140860, 
+                    "gene_id": "EAA59567.1", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no significant change in orsellinic acid, F9775A, and F977B production"
+                }, 
+                {
+                    "gene_name": "orsE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 141414, 
+                    "gene_endpos": 142516, 
+                    "gene_id": "EAA59568.1", 
+                    "gene_annotation": "alcohol dehydrogenase, putative", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no significant change in orsellinic acid, F9775A, and F977B production"
+                }, 
+                {
+                    "gene_name": "bglD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 142746, 
+                    "gene_endpos": 146016, 
+                    "gene_id": "EAA59569.1", 
+                    "gene_annotation": "glucosidase, putative", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no significant change in orsellinic acid, F9775A, and F977B production"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "pks_genes": [], 
+            "nr_iterations": 3, 
+            "iterative_subtype": "Non-reducing", 
+            "iter_cycl_type": "C2-C7 first", 
+            "pks_te_type": "Other", 
+            "pks_thioesterase": [], 
+            "pks_release_type": "Claisen condensation", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "EAA59563.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "SAT", 
+                                "KS", 
+                                "AT", 
+                                "PT", 
+                                "T", 
+                                "T", 
+                                "TE"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Iterated", 
+                            "pks_evidence_skip_iter": "Structure-based inference"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

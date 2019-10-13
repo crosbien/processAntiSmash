@@ -1,0 +1,160 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Fengan Yu", 
+        "submitter_institution": "University of Michigan", 
+        "submitter_email": "fenganyu@umich.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000350", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "21875091", 
+        "loci": {
+            "complete": "incomplete", 
+            "nucl_acc": [
+                {
+                    "Accession": "HQ609499", 
+                    "start_coord": 1, 
+                    "end_coord": 35392, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "ET-743", 
+                "chem_synonyms": [
+                    "yondelis", 
+                    "ecteinascidin 743", 
+                    "trabectedin"
+                ], 
+                "chem_struct": "CC1=C(C(=C2[C@@H]3[C@@H]4[C@H]5C6=C([C@@H](N4[C@H]([C@@H](N3C)CC2=C1)O)COC(=O)[C@@]7(CS5)C8=CC(=C(C=C8CCN7)O)OC)C9=C(C(=C6OC(=O)C)C)OCO9)O)OC", 
+                "molecular_formula": "C39H43N3O11S ", 
+                "mol_mass": 761.2618, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [], 
+            "gene": [
+                {
+                    "gene_name": "etua1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 0, 
+                    "gene_endpos": 0, 
+                    "gene_id": "ADQ55474.1", 
+                    "gene_annotation": "NRPS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "etua2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADQ55475.1", 
+                    "gene_annotation": "NRPS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "etua3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "ADQ55476.1", 
+                    "gene_annotation": "NRPS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Beta-lactam", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Unknown", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Reductive release", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "ADQ55476.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "3-hydroxy-4-O-methyl-5-methyl-tyrosine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Iterated", 
+                            "nrps_evidence_skip_iter": "Structure-based inference"
+                        }, 
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "3-hydroxy-4-O-methyl-5-methyl-tyrosine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Iterated", 
+                            "nrps_evidence_skip_iter": "Sequence-based prediction"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "ADQ55474.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Glycolic acid", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Alanine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "embargo": true
+}
+
+

@@ -1,0 +1,248 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Susan Jensen", 
+        "submitter_institution": "University of Alberta", 
+        "submitter_email": "susan.jensen@ualberta.ca"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001151", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": " 22435762", 
+        "loci": {
+            "complete": "unknown", 
+            "nucl_acc": [
+                {
+                    "Accession": "JN705801", 
+                    "start_coord": 15432, 
+                    "end_coord": 35367, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "valclavam", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 126919, 
+                "chem_act": [
+                    "Antifungal", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "methionine biosynthesis", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }, 
+            {
+                "compound": "2-hydroxyethylclavam", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 133204, 
+                "chem_act": [
+                    "Antifungal", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "methionine biosynthesis", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "psr", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15432, 
+                    "gene_endpos": 17963, 
+                    "gene_id": "AFH74309.1", 
+                    "gene_annotation": "SanG", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "atr", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18145, 
+                    "gene_endpos": 19548, 
+                    "gene_id": "AFH74310.1", 
+                    "gene_annotation": "4-aminobutyrate aminotransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "akr", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19529, 
+                    "gene_endpos": 20551, 
+                    "gene_id": "AFH74311.1", 
+                    "gene_annotation": "Cvm1-like aldo/keto reductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "hmt", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20655, 
+                    "gene_endpos": 21905, 
+                    "gene_id": "AFH74312.1", 
+                    "gene_annotation": "OrfA-like hydroxymethyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "ceaS3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22224, 
+                    "gene_endpos": 23939, 
+                    "gene_id": "AFH74297.1", 
+                    "gene_annotation": "carboxyethylarginine synthase 3", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "bls3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23942, 
+                    "gene_endpos": 25465, 
+                    "gene_id": "AFH74298.1", 
+                    "gene_annotation": "beta-lactam synthetase 3", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "pah3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25548, 
+                    "gene_endpos": 26510, 
+                    "gene_id": "AFH74299.1", 
+                    "gene_annotation": "proclavaminate amidinohydrolase 3", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cas3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26507, 
+                    "gene_endpos": 27481, 
+                    "gene_id": "AFH74300.1", 
+                    "gene_annotation": "clavaminate synthase 3", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "oat3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27621, 
+                    "gene_endpos": 28805, 
+                    "gene_id": "AFH74301.1", 
+                    "gene_annotation": "ornithine acetyltransferase 3", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "oxr", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 28882, 
+                    "gene_endpos": 29526, 
+                    "gene_id": "AFH74302.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "trn", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29628, 
+                    "gene_endpos": 30845, 
+                    "gene_id": "AFH74303.1", 
+                    "gene_annotation": "major facilitator superfamily MFS_1 protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "lig", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30883, 
+                    "gene_endpos": 32151, 
+                    "gene_id": "AFH74304.1", 
+                    "gene_annotation": "ligase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "pah4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 32316, 
+                    "gene_endpos": 33230, 
+                    "gene_id": "AFH74305.1", 
+                    "gene_annotation": "proclavaminate amidinohydrolase 4", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "ctr", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33997, 
+                    "gene_endpos": 35367, 
+                    "gene_id": "AFH74306.1", 
+                    "gene_annotation": "transcriptional regulator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Non-NRP beta-lactam"
+        }
+    }
+}
+
+

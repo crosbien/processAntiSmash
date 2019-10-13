@@ -1,0 +1,258 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Monica Hofte", 
+        "submitter_institution": "Ghent University", 
+        "submitter_email": "monica.hofte@ugent.be"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000398", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "24673852", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "JQ309921", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Orfamide B",
+                "chem_synonyms": [],
+                "chem_struct": "O=C([C@H](NC([C@@H](CCC(O)=O)NC([C@@H](NC(C[C@@H](O)CCCCCCCCCCC)=O)CC(C)C)=O)=O)[C@@H](C)OC([C@H](C(C)C)NC1=O)=O)N[C@H](C(C)C)C(N[C@@H](CC(C)C)C(N[C@H](CO)C(N[C@@H](CC(C)C)C(N[C@@H](CC(C)C)C(N[C@@H]1CO)=O)=O)=O)=O)=O",
+                "molecular_formula": "C63H112N10O17",
+                "mol_mass": 1280.8207,
+                "mass_ion_type": "Molecular ion",
+                "chem_act": [
+                    "Unknown"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "3-OH- tetradecanoic acid",
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_id": "AFH75326.1", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_id": "AFH75327.1", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "AFH75328.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "AFH75329.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "AFH75330.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "AFH75331.1", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "AFH75332.1", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "AFH75333.1", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_id": "AFH75334.1", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_id": "AFH75335.1", 
+                    "gene_function": "Unknown"
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Cyclic depsipeptide", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AFH75328.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "A1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Leucine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "Starter", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "A2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Glutamate", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AFH75329.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "B1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Threonine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "B2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Valine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "B3", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Leucine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "B4", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Serine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AFH75330.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "C3", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Serine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "C2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Leucine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None"
+                        }, 
+                        {
+                            "module_nr": "C1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Leucine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None"
+                        }, 
+                        {
+                            "module_nr": "C4", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Valine", 
+                                "evidence_a_spec": "Structure-based inference"
+                            }, 
+                            "cdom_subtype": "Dual", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ], 
+            "nrps_te_type": "Unknown", 
+            "nrps_thioesterase": [
+                "afh75330.1"
+            ], 
+            "nrps_release_type": "Unknown"
+        }
+    },
+    "comments": "orfamide A and B possess a 3-OH-tetradecanoic acid lipid moiety, while orfamide C possesses 3-OH dodecanoic acid"
+}
+
+

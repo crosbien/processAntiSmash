@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "COC1=C(C2=C(C(=C1)O)C(=O)C(=C(O2)C3=C(C(=CC=C3)Cl)O)OC)OC", 
+                "compound": "chlorflavonin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 603864, 
+                    "Accession": "MSFM01000001", 
+                    "start_coord": 576138
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001544", 
+        "publications": [
+            "29317534"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

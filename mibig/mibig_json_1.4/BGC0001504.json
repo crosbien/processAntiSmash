@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "amycomicin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 4676820, 
+                    "Accession": "CP024894", 
+                    "start_coord": 4663087
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001504", 
+        "publications": [
+            "doi.org/10.1101/317362"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

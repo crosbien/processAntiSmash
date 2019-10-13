@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C[C@@]12CC(=O)N[C@@]13C[C@H]4[C@H]([C@](C(=N4)C[C@@H]5[C@H]([C@@H]6CCC(=O)/C(=C/7\\[C@H]([C@@H](/C(=C/C(=N3)[C@H]2CCC(=O)O)/[N-]7)CC(=O)O)CCC(=O)O)/C6=N5)CC(=O)O)(C)CC(=O)N)CCC(=O)O.[Ni]", 
+                "compound": "coenzyme F430"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 406343, 
+                    "Accession": "NC_007355", 
+                    "start_coord": 400369
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001554", 
+        "Other": {
+            "biosyn_class": [
+                "Other"
+            ]
+        }, 
+        "publications": [
+            "28225763"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

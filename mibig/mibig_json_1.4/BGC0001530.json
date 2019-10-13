@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "[H][C@](O)([C@@](C)(O)CO)[C@@]12NC(=O)[C@@](O)(NC1=O)C(=C)CCO2", 
+                "compound": "bicyclomycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 824394, 
+                    "Accession": "NZ_NHZO01000168", 
+                    "start_coord": 815430
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001530", 
+        "publications": [
+            "29053243;29500259"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

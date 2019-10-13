@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 440202, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "1,3,6,8-tetrahydroxynaphthalene"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 7590, 
+                    "Accession": "AF549411", 
+                    "start_coord": 31
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001258", 
+        "publications": [
+            "12589439"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

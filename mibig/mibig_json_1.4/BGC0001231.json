@@ -1,0 +1,427 @@
+{
+   "version": "16",
+   "personal": {
+      "submitter_name": "Thomas Hoffmann",
+      "submitter_institution": "Helmholtz Institute for Pharmaceutical Research Saarland (HIPS)",
+      "submitter_email": "th.hoffmann83@gmail.com"
+   },
+   "general_params": {
+      "mibig_accession": "BGC0001231",
+      "biosyn_class": [
+         "NRP",
+         "Polyketide"
+      ],
+      "publications": "24124771, 18305355",
+      "loci": {
+         "complete": "complete",
+         "nucl_acc": [
+            {
+               "Accession": "KF657739",
+               "mixs_compliant": false,
+               "start_coord": 1,
+               "end_coord": 62268,
+               "conn_comp_cluster": [
+                  "Knock-out studies"
+               ]
+            }
+         ]
+      },
+      "compounds": [
+         {
+            "compound": "Microsclerodermin",
+            "chem_synonyms": [
+               "pedein"
+            ],
+            "database_deposited": false,
+            "chem_struct": "O=C([C@@H](O)[C@H](NC(C[C@@H](O)CNC(CNC([C@@H](CC1=CNC2=C1C=CC(Cl)=C2)NC(CN(C(C3)=O)C)=O)=O)=O)=O)[C@H](O)[C@@H](O)C/C=C/C4=CC=CC=C4)N[C@H](C5)[C@@]3(O)NC5=O",
+            "molecular_formula": "C40H49N8O12Cl",
+            "mol_mass": 851.312558,
+            "mass_ion_type": "[M+H-H2O]+",
+            "chem_act": [
+               "Antibacterial"
+            ],
+            "chem_moieties": [
+               {
+                  "chem_moiety": "Other",
+                  "other_chem_moiety": "pyrrolidone",
+                  "moiety_subcluster": []
+               }
+            ]
+         }
+      ],
+      "genes": {
+         "gene": [
+            {
+               "gene_name": "MscA",
+               "not_in_gbk": false,
+               "gene_id": "mscA",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "MscB",
+               "not_in_gbk": false,
+               "gene_id": "mscB",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "MscC",
+               "not_in_gbk": false,
+               "gene_id": "mscC",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "MscD",
+               "not_in_gbk": false,
+               "gene_id": "mscC",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "MscE",
+               "not_in_gbk": false,
+               "gene_id": "mscE",
+               "gene_annotation": "Putative Amidohydrolase",
+               "gene_function": "Unknown",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "MscF",
+               "not_in_gbk": false,
+               "gene_id": "mscF",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "MscG",
+               "not_in_gbk": false,
+               "gene_id": "mscG",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "MscH",
+               "not_in_gbk": false,
+               "gene_id": "mscH",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "MscI",
+               "not_in_gbk": false,
+               "gene_id": "mscI",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "MscJ",
+               "not_in_gbk": false,
+               "gene_id": "mscJ",
+               "gene_annotation": "Thioesterase II",
+               "gene_function": "Other enzymatic",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "MscK",
+               "not_in_gbk": false,
+               "gene_id": "mscK",
+               "gene_function": "Transport",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "MscL",
+               "not_in_gbk": false,
+               "gene_id": "mscL",
+               "gene_function": "Tailoring",
+               "tailoring": "Halogenation",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "MscM",
+               "not_in_gbk": false,
+               "gene_id": "mscN",
+               "gene_annotation": "Fe(II)/α-ketoglutarate dependent oxygenase",
+               "gene_function": "Tailoring",
+               "tailoring": "Hydroxylation",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "MscN",
+               "not_in_gbk": false,
+               "gene_id": "mscN",
+               "gene_function": "Tailoring",
+               "tailoring": "Methylation",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            }
+         ]
+      },
+      "NRP": {
+         "subclass": "Other",
+         "lin_cycl_nrp": "Cyclic",
+         "nrps_genes": [
+            {
+               "nrps_gene": "mscA",
+               "nrps_module": [
+                  {
+                     "module_nr": "0",
+                     "a_substr_spec": {
+                        "aa_type": "None",
+                        "epimerized": false
+                     },
+                     "nrps_mod_doms": "None"
+                  }
+               ]
+            },
+            {
+               "nrps_gene": "mscF",
+               "nrps_module": [
+                  {
+                     "module_nr": "5",
+                     "a_substr_spec": {
+                        "aa_type": "Proteinogenic",
+                        "prot_adom_spec": "Asparagine",
+                        "evidence_a_spec": "Structure-based inference",
+                        "epimerized": false
+                     },
+                     "cdom_subtype": "LCL",
+                     "nrps_mod_doms": "None",
+                     "nrps_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "nrps_gene": "mscH",
+               "nrps_module": [
+                  {
+                     "module_nr": "7",
+                     "a_substr_spec": {
+                        "aa_type": "Proteinogenic",
+                        "prot_adom_spec": "Glycine",
+                        "evidence_a_spec": "Structure-based inference",
+                        "epimerized": false
+                     },
+                     "cdom_subtype": "LCL",
+                     "nrps_mod_doms": "Methylation",
+                     "nrps_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "8",
+                     "a_substr_spec": {
+                        "aa_type": "Proteinogenic",
+                        "prot_adom_spec": "Tryptophan",
+                        "evidence_a_spec": "Structure-based inference",
+                        "epimerized": true
+                     },
+                     "cdom_subtype": "LCL",
+                     "nrps_mod_doms": "None",
+                     "nrps_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "9",
+                     "a_substr_spec": {
+                        "aa_type": "Proteinogenic",
+                        "prot_adom_spec": "Glycine",
+                        "evidence_a_spec": "Structure-based inference",
+                        "epimerized": false
+                     },
+                     "cdom_subtype": "DCL",
+                     "nrps_mod_doms": "None",
+                     "nrps_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "nrps_gene": "mscI",
+               "nrps_module": [
+                  {
+                     "module_nr": "10",
+                     "a_substr_spec": {
+                        "aa_type": "Proteinogenic",
+                        "prot_adom_spec": "Glycine",
+                        "evidence_a_spec": "Structure-based inference",
+                        "epimerized": false
+                     },
+                     "cdom_subtype": "LCL",
+                     "nrps_mod_doms": "None",
+                     "nrps_mod_skip_iter": "Neither"
+                  }
+               ]
+            }
+         ],
+         "nrps_te_type": "Type I",
+         "nrps_release_type": "Macrolactamization"
+      },
+      "Polyketide": {
+         "pk_subclass": "Aryl polyene",
+         "lin_cycl_pk": "Cyclic",
+         "pks_subclass": [
+            "Modular type I"
+         ],
+         "starter_unit": "Other",
+         "mod_pks_genes": [
+            {
+               "mod_pks_gene": "mscA",
+               "pks_module": [
+                  {
+                     "module_nr": "1",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "CoA-ligase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Malonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Iterated",
+                     "pks_evidence_skip_iter": "Structure-based inference"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "mscB",
+               "pks_module": [
+                  {
+                     "module_nr": "2",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Skipped",
+                     "pks_evidence_skip_iter": "Structure-based inference"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "mscC",
+               "pks_module": [
+                  {
+                     "module_nr": "3",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "Unknown",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Iterated",
+                     "pks_evidence_skip_iter": "Structure-based inference"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "mscD",
+               "pks_module": [
+                  {
+                     "module_nr": "4",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Iterated",
+                     "pks_evidence_skip_iter": "Structure-based inference"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "mscF",
+               "pks_module": [
+                  {
+                     "module_nr": "5",
+                     "pks_domains": [
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "mscG",
+               "pks_module": [
+                  {
+                     "module_nr": "6",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Malonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "mscI",
+               "pks_module": [
+                  {
+                     "module_nr": "11",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Acyltransferase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "Malonyl-CoA",
+                     "evidence_at_spec": "Structure-based inference",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            }
+         ],
+         "pks_te_type": "Type I",
+         "pks_thioesterase": [
+            "mscI"
+         ],
+         "pks_release_type": "Macrolactamization"
+      }
+   },
+   "comments": "module 1 can have 1 or 2 iterations, both derivatives are found. Module 3 has 2 iterations as inferred from molecule structure.",
+   "embargo": false
+}

@@ -1,0 +1,377 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Bradley S Moore", 
+        "submitter_institution": "Scripps Institution of Oceanography", 
+        "submitter_email": "smoraesmantovani@ucsd.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000198", 
+        "biosyn_class": [
+            "Polyketide", 
+			"Saccharide"
+        ], 
+        "publications": "24191063, 19927167", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "NZ_AZXI01000002", 
+                    "start_coord": 3084, 
+                    "end_coord": 41108, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Arenimycin A", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC1=CC2=C(C(O)=C1C(OC)=O)[C@]3(C(C4=CC5=C(C(O)=C4C([C@]3(CC2)OC)=O)C(C=C(C5=O)N[C@@H]6[C@@H]([C@H]([C@H]([C@@H](O6)C)O)O)OC)=O)=O)O", 
+                "molecular_formula": "C33H33NO14", 
+                "mol_mass": 667.1901, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Cytotoxic"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3084, 
+                    "gene_endpos": 3965, 
+                    "gene_id": "WP_029025939.1", 
+                    "gene_annotation": "glucose-1-phosphate thymidylyltransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4613, 
+                    "gene_endpos": 5074, 
+                    "gene_id": "WP_029025940.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5248, 
+                    "gene_endpos": 6198, 
+                    "gene_id": "WP_029025941.1", 
+                    "gene_annotation": "ABC transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6213, 
+                    "gene_endpos": 7037, 
+                    "gene_id": "WP_029025942.1", 
+                    "gene_annotation": "ABC transporter permease", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7180, 
+                    "gene_endpos": 7866, 
+                    "gene_id": "WP_029025943.1", 
+                    "gene_annotation": "SAM-dependent methyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7920, 
+                    "gene_endpos": 9080, 
+                    "gene_id": "WP_029025944.1", 
+                    "gene_annotation": "glutamine--scyllo-inositol aminotransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10426, 
+                    "gene_endpos": 11631, 
+                    "gene_id": "WP_029025945.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13104, 
+                    "gene_endpos": 14339, 
+                    "gene_id": "WP_029025946.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15744, 
+                    "gene_endpos": 16088, 
+                    "gene_id": "WP_029025947.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17585, 
+                    "gene_endpos": 18301, 
+                    "gene_id": "WP_029025948.1", 
+                    "gene_annotation": "GlcNAc-PI de-N-acetylase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19488, 
+                    "gene_endpos": 20465, 
+                    "gene_id": "WP_029025949.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20767, 
+                    "gene_endpos": 21771, 
+                    "gene_id": "WP_029025950.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24916, 
+                    "gene_endpos": 25320, 
+                    "gene_id": "WP_029025951.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25320, 
+                    "gene_endpos": 25805, 
+                    "gene_id": "WP_029025952.1", 
+                    "gene_annotation": "polyketide cyclase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26394, 
+                    "gene_endpos": 26765, 
+                    "gene_id": "WP_029025953.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 28590, 
+                    "gene_endpos": 29432, 
+                    "gene_id": "WP_029025954.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29584, 
+                    "gene_endpos": 29982, 
+                    "gene_id": "WP_029025955.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30056, 
+                    "gene_endpos": 30511, 
+                    "gene_id": "WP_029025956.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30758, 
+                    "gene_endpos": 31972, 
+                    "gene_id": "WP_029025957.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 32270, 
+                    "gene_endpos": 33538, 
+                    "gene_id": "WP_029025958.1", 
+                    "gene_annotation": "beta-ACP synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33535, 
+                    "gene_endpos": 34752, 
+                    "gene_id": "WP_029025959.1", 
+                    "gene_annotation": "beta-ketoacyl synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 34845, 
+                    "gene_endpos": 35570, 
+                    "gene_id": "WP_029025960.1", 
+                    "gene_annotation": "short-chain dehydrogenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 38089, 
+                    "gene_endpos": 38343, 
+                    "gene_id": "WP_029025961.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 38352, 
+                    "gene_endpos": 38666, 
+                    "gene_id": "WP_029025962.1", 
+                    "gene_annotation": "antibiotic biosynthesis monooxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 40254, 
+                    "gene_endpos": 41108, 
+                    "gene_id": "WP_029025963.1", 
+                    "gene_annotation": "dTDP-4-dehydrorhamnose reductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Benzoisochromanequinone", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "wp_029025958.1", 
+                "wp_029025959.1"
+            ], 
+            "ketide_length": 12, 
+            "cyclases": "WP_029025952.1, WP_029025951.1"
+        }, 
+		"Saccharide": {
+                "saccharide_subclass": "hybrid/tailoring",
+                "gt_genes": [
+                    {
+                        "gt_gene": "Unknown",
+                        "gt_specificity": "2-O-methyl-L-rhamnose",
+                        "evidence_gt_spec": "Structure-based inference"
+                    },
+					{
+                        "gt_gene": "Unknown",
+                        "gt_specificity": "L-forosamine",
+                        "evidence_gt_spec": "Structure-based inference"
+                     }
+            ]
+        }
+    }
+}
+

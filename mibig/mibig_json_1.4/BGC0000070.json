@@ -1,0 +1,222 @@
+{
+    "version": "14", 
+    "personal": {
+        "submitter_name": "Yit-Heng Chooi", 
+        "submitter_institution": "The Australian National University", 
+        "submitter_email": "yhchooi@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000070", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "23978092, 22942257, 22191585, 20534346, 15985553, 588267, 864701, 4583106", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "GU574478", 
+                    "start_coord": 9800, 
+                    "end_coord": 36750, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Proven expression in natural host"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "griseofulvin", 
+                "chem_synonyms": [ 
+                    "fulvicin", 
+                    "grisactin", 
+                    "grisovin", 
+                    "griseofulvinum", 
+                    "spirofulvin"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 441140, 
+                "chem_act": [
+                    "Antifungal", 
+                    "Cytotoxic"
+                ], 
+                "chem_target": "microtubule protein"
+            }, 
+            {
+                "compound": "dechlorogriseofulvin", 
+                "chem_synonyms": [
+                    "7-dechlorogriseofulvin"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 24066885, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "norlichexanthone", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 5281657, 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "antioxidant"
+            }, 
+            {
+                "compound": "dehydrogriseofulvin", 
+                "chem_synonyms": [
+                    "amudene"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 3082005, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "4-desmethylgriseofulvin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 44565921, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "Griseoxanthone B", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 5359037, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "gsfB", 
+                    "gene_id": "ADI24954", 
+                    "gene_annotation": "3-O-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "loss of griseofulvin and accumulation of norlichexanthone, griseophenone E, F and desmethylgriseofulvin"
+                }, 
+                {
+                    "gene_name": "GsfI", 
+                    "gene_id": "ADI24948", 
+                    "gene_annotation": "chlorinase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Halogenation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "loss of griseofulvin and accumulation of dechlorogriseofulvin"
+                }, 
+                {
+                    "gene_name": "gsfA", 
+                    "gene_id": "ADI24953", 
+                    "gene_annotation": "Polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Heterologous expression", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "loss of griseofulvin production"
+                }, 
+                {
+                    "gene_name": "GsfC", 
+                    "gene_id": "ADI24955", 
+                    "gene_annotation": "9-O-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "loss of griseofulvin and accumulation of griseophenone D, H and griseoxanthone C"
+                }, 
+                {
+                    "gene_name": "GsfD", 
+                    "gene_id": "ADI24956", 
+                    "gene_annotation": "5-O-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "loss of griseofulvin and accumulation of 4-desmethylgriseofulvin, 4-desmethyldechlorogriseofulvin and 4-desmethyldehydrogriseofulvin"
+                }, 
+                {
+                    "gene_name": "gsfE", 
+                    "gene_id": "ADI24957", 
+                    "gene_annotation": "dehydrogriseofulvin enone reductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "loss of griseofulvin and accumulation of dehydrogriseofulvin and dechloro-dehydrogriseofulvin"
+                }, 
+                {
+                    "gene_name": "GsfF", 
+                    "gene_id": "ADI24958", 
+                    "gene_annotation": "phenolic coupling oxidase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "loss of griseofulvin and accumulation of griseophenone B, C and G"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Polyphenol", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "adi24953"
+            ], 
+            "nr_iterations": 6, 
+            "iterative_subtype": "Non-reducing", 
+            "iter_cycl_type": "Other", 
+            "pks_te_type": "None", 
+            "pks_release_type": "Claisen condensation"
+        }
+    }
+}

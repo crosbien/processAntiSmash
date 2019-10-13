@@ -1,0 +1,191 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Mangal Singh", 
+        "submitter_institution": "Panjab University ", 
+        "submitter_email": "mangal@pu.ac.in"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001229", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "24621781", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP002047.1", 
+                    "start_coord": 8356685, 
+                    "end_coord": 8365315, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "SBI-06990 A1", 
+                "chem_synonyms": [
+                    "bingicin alpha"
+                ], 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "evidence_struct": [
+                    "Other"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "SBI-06989 A2", 
+                "chem_synonyms": [
+                    "bingicin beta"
+                ], 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "evidence_struct": [
+                    "Other"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "sbi_06987", 
+                        "sbi_06988", 
+                        "sbi_06989", 
+                        "sbi_06990"
+                    ], 
+                    "evidence_operon": "Other"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "bngM2T", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8356685, 
+                    "gene_endpos": 8361721, 
+                    "gene_id": "ADI10107.1", 
+                    "gene_annotation": "type II lanthionine synthetase and    transporter", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "bngM1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8361723, 
+                    "gene_endpos": 8364764, 
+                    "gene_id": "ADI10108.1", 
+                    "gene_annotation": "type II lanthionine synthetase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "bngA2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8364893, 
+                    "gene_endpos": 8365087, 
+                    "gene_id": "ADI10109.1", 
+                    "gene_annotation": "lanthipeptide beta", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "bngA1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8365112, 
+                    "gene_endpos": 8365315, 
+                    "gene_id": "ADI10110.1", 
+                    "gene_annotation": "lanthipeptide alpha", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "Lanthipeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "sbi_06990"
+                    ], 
+                    "core_pept_aa": "TISPIDTVKIIFRVSSHFGGNGGFGLFCTLSKECQPNCN", 
+                    "lead_pept_len": 28, 
+                    "foll_pept_len": -1, 
+                    "cleavage_recogn_site": "GG", 
+                    "peptidase": [
+                        "sbi_06987"
+                    ], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 16, 
+                            "AA_pos_2": 18, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 29, 
+                            "AA_pos_2": 34, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 31, 
+                            "AA_pos_2": 38, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }, 
+                {
+                    "gene_id": [
+                        "sbi_06989"
+                    ], 
+                    "core_pept_aa": "TDPAVTGLILGIVAIQAGVAVGVSAAFCPTTKCTSRC", 
+                    "lead_pept_len": 27, 
+                    "foll_pept_len": -1, 
+                    "cleavage_recogn_site": "GG", 
+                    "peptidase": [
+                        "sbi_06987"
+                    ], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 24, 
+                            "AA_pos_2": 28, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 30, 
+                            "AA_pos_2": 33, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 34, 
+                            "AA_pos_2": 37, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "comments": "The protease encoded in the two component lanthipeptide cluster is fused with a second lanthionine synthetase, LanM in the same orf SBI_06987"
+}

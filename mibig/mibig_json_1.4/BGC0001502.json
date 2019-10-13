@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "N[C@@H](CCCCNC(=O)CNC(=O)C1=CC=CC(O)=C1O)C(=O)N[C@@H](CCCCNC(=O)C1=CC=CC(O)=C1O)C(=O)N[C@@H](CC1=CC=CC=C1)C(O)=O", 
+                "compound": "amonabactin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2757479, 
+                    "Accession": "NC_008570", 
+                    "start_coord": 2741866
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001502", 
+        "publications": [
+            "27531515"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

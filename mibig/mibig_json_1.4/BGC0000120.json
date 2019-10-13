@@ -1,0 +1,272 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Olivier Puel", 
+        "submitter_institution": "National Institute of Agronomical Research, France", 
+        "submitter_email": "olivier.puel@inra.fr"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000120", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "25120234,26582186,27913847,24334092,19383676", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "    KF899892", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Patulin", 
+                "chem_synonyms": [], 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "patH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 195, 
+                    "gene_endpos": 2035, 
+                    "gene_id": "AIG62144.1", 
+                    "gene_annotation": "M-cresol hydroxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "heterologous expression"
+                    ]
+                }, 
+                {
+                    "gene_name": "patG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2810, 
+                    "gene_endpos": 3834, 
+                    "gene_id": "AIG62133.1", 
+                    "gene_annotation": "6-methylsalicylic decarboxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Decarboxylation", 
+                    "evidence_genefunction": [
+                        "heterologous expression"
+                    ]
+                }, 
+                {
+                    "gene_name": "patF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4350, 
+                    "gene_endpos": 4949, 
+                    "gene_id": "AIG62137.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "patE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5362, 
+                    "gene_endpos": 7362, 
+                    "gene_id": "AIG62134.1", 
+                    "gene_annotation": "Patulin synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "patD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7640, 
+                    "gene_endpos": 9147, 
+                    "gene_id": "AIG62135.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "ascladiol accumulation"
+                }, 
+                {
+                    "gene_name": "patC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9636, 
+                    "gene_endpos": 11387, 
+                    "gene_id": "AIG62136.1", 
+                    "gene_annotation": "MFS transporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "patB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12080, 
+                    "gene_endpos": 14006, 
+                    "gene_id": "AIG62138.1", 
+                    "gene_annotation": "carboxylesterase family protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "patA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14650, 
+                    "gene_endpos": 15690, 
+                    "gene_id": "AIG62139.1", 
+                    "gene_annotation": "acetate transporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "patM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16342, 
+                    "gene_endpos": 20894, 
+                    "gene_id": "AIG62140.1", 
+                    "gene_annotation": "ABC transporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "patN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21354, 
+                    "gene_endpos": 22249, 
+                    "gene_id": "AIG62141.1", 
+                    "gene_annotation": "isoepoxydon dehydrogenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "patO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22914, 
+                    "gene_endpos": 24873, 
+                    "gene_id": "AIG62142.1", 
+                    "gene_annotation": "isoamyl alcohol oxidase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "patL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26056, 
+                    "gene_endpos": 28511, 
+                    "gene_id": "AIG62143.1", 
+                    "gene_annotation": "C6 transcription activator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No patulin production"
+                }, 
+                {
+                    "gene_name": "patI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30147, 
+                    "gene_endpos": 32032, 
+                    "gene_id": "AIG62145.1", 
+                    "gene_annotation": "M-hydroxybenzyl alcohol hydroxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "heterologous expression"
+                    ]
+                }, 
+                {
+                    "gene_name": "patJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 32661, 
+                    "gene_endpos": 33776, 
+                    "gene_id": "AIG62147.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "patK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 34613, 
+                    "gene_endpos": 40016, 
+                    "gene_id": "AIG62146.1", 
+                    "gene_annotation": "6-methylsalicylic acid synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [], 
+            "nr_iterations": -1, 
+            "iterative_subtype": "Partially reducing", 
+            "iter_cycl_type": "C2-C7 first", 
+            "pks_te_type": "Unknown", 
+            "pks_release_type": "Unknown", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AIG62146.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "Other", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Iterated", 
+                            "pks_evidence_skip_iter": "Activity assay"
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "comments": "The patulin genes cluster and its boudaries have been validated by the deletetion of patL (AIG62143), gene encoding the specific transcription factor (PMID: 26582186 ).\\n\\nThe patulin cluster has been described in A. clavatus (PMID:19383676)\\n\\nThe role of PatH (AIG62144) , PatI (AIG62145) and PatG (AIG62133) has been determined by heterologous expression studies (PMID:19383676 and PMID:24334092)\\n\\nThe role of PatE (AIG62134) has been determined by knock-out (27913847)."
+}

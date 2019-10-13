@@ -1,0 +1,109 @@
+{
+    "version": "11", 
+    "personal": {
+        "submitter_name": "Jonathan Walton", 
+        "submitter_institution": "Michigan State University", 
+        "submitter_email": "walton@msu.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000046", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "19737099", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "FJ977165", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "depudecin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "chEBI", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 6438725, 
+                "chebi_id": 64143, 
+                "chemspider_id": 21169370, 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "Histone deacetylase (HDAC)"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "DEP2", 
+                    "gene_id": "ACZ57545.1", 
+                    "gene_annotation": "Monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No depudecin production, but production of epoxide-containing metabolite of slightly higher retention factor."
+                }, 
+                {
+                    "gene_name": "DEP4", 
+                    "gene_id": "ACZ57547.1", 
+                    "gene_annotation": "Monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No depudecin production, but production of a trace of an epoxide-containing compound of the same Rf as native depudecin."
+                }, 
+                {
+                    "gene_name": "DEP5", 
+                    "gene_id": "ACZ57548.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No depudecin production"
+                }, 
+                {
+                    "gene_name": "DEP6", 
+                    "gene_id": "ACZ57549.1", 
+                    "gene_annotation": "Transcription factor", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No depudecin production"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "acz57548.1"
+            ], 
+            "nr_iterations": 6, 
+            "iterative_subtype": "Partially reducing", 
+            "pks_te_type": "None", 
+            "pks_release_type": "Hydrolysis"
+        }
+    }
+}
+
+

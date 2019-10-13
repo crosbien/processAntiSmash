@@ -1,0 +1,643 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Marnix Medema", 
+        "submitter_institution": "Wageningen University", 
+        "submitter_email": "marnix.medema@wur.nl"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000055", 
+        "biosyn_class": [
+            "Polyketide", 
+            "Saccharide"
+        ], 
+        "publications": "11336289,24704088,23902230,21175699,18836015,18223111,17369815,16491356,15575696,15303858,12904561,12435693,10559177,9613575,9563840,9493390,9393448,9353926,7737500,7749919,8300527,8448148,8449313,8416893,1618327,1840640,2234082,2185216,2681144,2575703,2469627", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AM420293", 
+                    "start_coord": 778214, 
+                    "end_coord": 832825, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Erythromycin A", 
+                "chem_synonyms": [
+                    "abomacetin", 
+                    "erythromycin"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "chEBI", 
+                    "chEMBL", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 12560, 
+                "chebi_id": 42355, 
+                "chembl_id": 532, 
+                "chemspider_id": 12041, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry", 
+                    "X-ray", 
+                    "Chemical derivatization", 
+                    "Total synthesis"
+                ], 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "Bacterial 70S ribosome"
+            }, 
+            {
+                "compound": "Erythromycin B", 
+                "chem_synonyms": [
+                    "berythromycin"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "chEBI", 
+                    "chEMBL", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 10702, 
+                "chebi_id": 28196, 
+                "chembl_id": 3220708, 
+                "chemspider_id": 16736538, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry", 
+                    "Chemical derivatization", 
+                    "Total synthesis"
+                ], 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "Bacterial 70S ribosome"
+            }, 
+            {
+                "compound": "Erythromycin C", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "chEBI", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 441095, 
+                "chebi_id": 64273, 
+                "chemspider_id": 75735, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "Bacterial 70S ribosome"
+            }, 
+            {
+                "compound": "Erythromycin D", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "chEBI", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 24755489, 
+                "chebi_id": 28331, 
+                "chemspider_id": 21864912, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "Bacterial 70S ribosome"
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "sace_0721", 
+                        "sace_0723", 
+                        "sace_0724", 
+                        "sace_0725", 
+                        "sace_0726", 
+                        "sace_0727", 
+                        "sace_0728"
+                    ], 
+                    "evidence_operon": "Other"
+                }, 
+                {
+                    "operon_genes": [
+                        "sace_0714", 
+                        "sace_0715", 
+                        "sace_0716", 
+                        "sace_0717", 
+                        "sace_0718", 
+                        "sace_0719", 
+                        "sace_0720"
+                    ], 
+                    "evidence_operon": "Other"
+                }, 
+                {
+                    "operon_genes": [
+                        "sace_0717", 
+                        "sace_0718", 
+                        "sace_0719", 
+                        "sace_0720"
+                    ], 
+                    "evidence_operon": "Other"
+                }, 
+                {
+                    "operon_genes": [
+                        "sace_0730", 
+                        "sace_0731"
+                    ], 
+                    "evidence_operon": "Other"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 778214, 
+                    "gene_endpos": 778594, 
+                    "gene_id": "CAM00053.1", 
+                    "gene_annotation": "putative erythromycin esterase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "eryK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 778654, 
+                    "gene_endpos": 779847, 
+                    "gene_id": "CAM00054.1", 
+                    "gene_annotation": "cytochrome P450 Erythromycin B/D C-12 hydroxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        " Activity assay"
+                    ], 
+                    "mut_pheno": "Overproduction of erythromycin B, C and D"
+                }, 
+                {
+                    "gene_name": "eryBVII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 779802, 
+                    "gene_endpos": 780404, 
+                    "gene_id": "CAM00055.1", 
+                    "gene_annotation": "dTDP-4-deoxyglucose 3,5-epimerase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of erythronolide B"
+                }, 
+                {
+                    "gene_name": "eryCV", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 780412, 
+                    "gene_endpos": 781881, 
+                    "gene_id": "CAM00056.1", 
+                    "gene_annotation": "EryCV NDP-4,6-dideoxyhexose 3,4-enoyl reductase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of 3-\u03b1-mycarosylerythronolide B"
+                }, 
+                {
+                    "gene_name": "eryCIV", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 781919, 
+                    "gene_endpos": 783124, 
+                    "gene_id": "CAM00057.1", 
+                    "gene_annotation": "eryCIV NDP-6-deoxyhexose 3,4-dehydratase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of 3-\u03b1-mycarosylerythronolide B"
+                }, 
+                {
+                    "gene_name": "eryBVI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 783121, 
+                    "gene_endpos": 784584, 
+                    "gene_id": "CAM00058.1", 
+                    "gene_annotation": "NDP-4-keto-6-deoxy-glucose 2,3-dehydratase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of erythronolide B"
+                }, 
+                {
+                    "gene_name": "eryCVI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 784738, 
+                    "gene_endpos": 785451, 
+                    "gene_id": "CAM00059.1", 
+                    "gene_annotation": "TDP-desosamine-N-dimethyltransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of 3-\u03b1-mycarosylerythronolide B"
+                }, 
+                {
+                    "gene_name": "eryBV", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 785504, 
+                    "gene_endpos": 786751, 
+                    "gene_id": "CAM00060.1", 
+                    "gene_annotation": "6-DEB TDP-mycarosyl glycosyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of erythronolide B"
+                }, 
+                {
+                    "gene_name": "eryBIV", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 786751, 
+                    "gene_endpos": 787719, 
+                    "gene_id": "CAM00061.1", 
+                    "gene_annotation": "dTDP-4-keto-6-deoxy-L-hexose 4-reductase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of erythronolide B"
+                }, 
+                {
+                    "gene_name": "eryAI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 787944, 
+                    "gene_endpos": 798581, 
+                    "gene_id": "CAM00062.1", 
+                    "gene_annotation": "EryAI Erythromycin polyketide synthase modules 1 and 2", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No formation of 6-dEB"
+                }, 
+                {
+                    "gene_name": "", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 798638, 
+                    "gene_endpos": 799849, 
+                    "gene_id": "CAM00063.1", 
+                    "gene_annotation": "transposase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "eryAII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 800023, 
+                    "gene_endpos": 810726, 
+                    "gene_id": "CAM00064.1", 
+                    "gene_annotation": "EryAII Erythromycin polyketide synthase modules 3 and 4", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No formation of 6-dEB"
+                }, 
+                {
+                    "gene_name": "eryAIII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 810727, 
+                    "gene_endpos": 820242, 
+                    "gene_id": "CAM00065.1", 
+                    "gene_annotation": "EryAIII Erythromycin polyketide synthase modules 5 and 6", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No formation of 6-dEB"
+                }, 
+                {
+                    "gene_name": "eryCII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 820239, 
+                    "gene_endpos": 821324, 
+                    "gene_id": "CAM00066.1", 
+                    "gene_annotation": "TDP-4-keto-6-deoxy-glucose 3,4-isomerase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of 3-\u03b1-mycarosylerythronolide B"
+                }, 
+                {
+                    "gene_name": "eryCIII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 821335, 
+                    "gene_endpos": 822600, 
+                    "gene_id": "CAM00067.1", 
+                    "gene_annotation": "glycosyl transferase, NDP-D-desosamine : 3-L-mycarosyl erythronolide B", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of 3-\u03b1-mycarosylerythronolide B"
+                }, 
+                {
+                    "gene_name": "eryBII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 822597, 
+                    "gene_endpos": 823598, 
+                    "gene_id": "CAM00068.1", 
+                    "gene_annotation": "TDP-4-keto-6-deoxyhexose 2,3-reductase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of 2\u2032,3\u2032-unsaturated derivative of 3\u2032-C-desmethyl-erythromycin C"
+                }, 
+                {
+                    "gene_name": "eryG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 823630, 
+                    "gene_endpos": 824550, 
+                    "gene_id": "CAM00069.1", 
+                    "gene_annotation": "erythromycin C methlytransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Overproduction of erythromycin B, C and D"
+                }, 
+                {
+                    "gene_name": "", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 824527, 
+                    "gene_endpos": 825270, 
+                    "gene_id": "CAM00070.1", 
+                    "gene_annotation": "thioesterase, erythromycin biosynthesis", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "eryF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 825267, 
+                    "gene_endpos": 826481, 
+                    "gene_id": "CAM00071.1", 
+                    "gene_annotation": "6-deoxyerythronolide B hydroxylase (6-DEB hydroxylase)", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of 6-dEB"
+                }, 
+                {
+                    "gene_name": "eryBIII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 826478, 
+                    "gene_endpos": 827710, 
+                    "gene_id": "CAM00072.1", 
+                    "gene_annotation": "eryBIII NDP-4-keto-2,6-dideoxyhexose 3-C-methyltransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ], 
+                    "mut_pheno": "Targeted mutagenesis leads to production of erythronolide B"
+                }, 
+                {
+                    "gene_name": "eryBI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 827912, 
+                    "gene_endpos": 830338, 
+                    "gene_id": "CAM00073.1", 
+                    "gene_annotation": "beta-D-glucosidase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ermE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 830393, 
+                    "gene_endpos": 831538, 
+                    "gene_id": "CAM00074.1", 
+                    "gene_annotation": "N-6-aminoadenine-N-methyltransferase, erythromycinresistance", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "eryCI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 831725, 
+                    "gene_endpos": 832825, 
+                    "gene_id": "CAM00075.1", 
+                    "gene_annotation": "Erythromycin biosynthesis transaminase EryCI", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Defective in desosamine biosynthesis"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Macrolide", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Propionyl-CoA", 
+            "pks_te_type": "Both", 
+            "pks_thioesterase": [
+                "sace_0729"
+            ], 
+            "pks_release_type": "Macrolactonization", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "CAM00062.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "0", 
+                            "pks_domains": [
+                                "AT", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Propionyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "D-OH", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "L-OH", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "CAM00064.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "Inactive", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "ER", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "CAM00065.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "5", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "L-OH", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T", 
+                                "TE"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "evidence_at_spec": "Structure-based inference", 
+                            "kr_stereochem": "L-OH", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Saccharide": {
+            "saccharide_subclass": "hybrid/tailoring", 
+            "gt_genes": [
+                {
+                    "gt_gene": "SACE_0726", 
+                    "gt_specificity": "D-desosamine", 
+                    "evidence_gt_spec": "Activity assay", 
+                    "sugar_subcluster": "SACE_0725,SACE_0716,SACE_0715,SACE_0718"
+                }, 
+                {
+                    "gt_gene": "SACE_0719", 
+                    "gt_specificity": "Other", 
+                    "other_gt_spec": "L-mycarose", 
+                    "evidence_gt_spec": "Activity assay", 
+                    "sugar_subcluster": "SACE_0727,SACE_0720,SACE_0717,SACE_0714"
+                }
+            ]
+        }
+    }
+}

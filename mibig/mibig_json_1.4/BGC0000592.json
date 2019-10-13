@@ -1,0 +1,79 @@
+{
+    "version": "6", 
+    "personal": {
+        "submitter_name": "Nadine Ziemert", 
+        "submitter_institution": "University of Tuebingen", 
+        "submitter_email": "nziemert@ucsd.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000592", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "18683268, 22118675", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AM943877", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Microviridin B", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC(C)C[C@H]1NC(=O)[C@H](NC(=O)[C@@H](NC(=O)CNC(=O)[C@H](CC2=CC=CC=C2)NC(C)=O)[C@@H](C)O)[C@@H](C)OC(=O)C[C@@H]2NC(=O)[C@@H]3COC(=O)CC[C@@H](NC(=O)[C@H](CC4=CNC5=C4C=CC=C5)NC2=O)C(=O)N[C@@H](CCC(=O)NCCCC[C@H](NC1=O)C(=O)N[C@@H](CC1=CC=C(O)C=C1)C(=O)N1CCC[C@H]1C(=O)N3)C(=O)N[C@@H](CC1=CC=C(O)C=C1)C(O)=O", 
+                "molecular_formula": "C84H106N16O24", 
+                "mol_mass": 1723.8332, 
+                "mass_ion_type": "Molecular ion", 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "elastase"
+            }
+        ], 
+        "genes": {}, 
+        "RiPP": {
+            "ripp_subclass": "Microviridin", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "caq16116", 
+                        "mdna"
+                    ], 
+                    "core_pept_aa": "MAYPNDQQGKALPFFARFLSVSKEESSIKSPSPEPTFGTTLKYPSDWEEY", 
+                    "lead_pept_len": 36, 
+                    "foll_pept_len": -1, 
+                    "cleavage_recogn_site": "PFFARFL", 
+                    "peptidase": [], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 4, 
+                            "AA_pos_2": 10, 
+                            "crosslink_type": "Lactone"
+                        }, 
+                        {
+                            "AA_pos_1": 6, 
+                            "AA_pos_2": 13, 
+                            "crosslink_type": "Lactam"
+                        }, 
+                        {
+                            "AA_pos_1": 9, 
+                            "AA_pos_2": 12, 
+                            "crosslink_type": "Lactone"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

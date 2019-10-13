@@ -1,0 +1,39 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 16216151, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "emericellamide A"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 16216152, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "emericellamide B"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 4267876, 
+                    "Accession": "BN001307", 
+                    "start_coord": 4230453
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001290", 
+        "publications": [
+            "26184239"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

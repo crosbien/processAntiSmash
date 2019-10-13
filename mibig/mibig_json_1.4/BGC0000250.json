@@ -1,0 +1,270 @@
+{
+    "version": "10", 
+    "personal": {
+        "submitter_name": "Mikko Metsa-Ketela", 
+        "submitter_institution": "University of Turku", 
+        "submitter_email": "mianme@utu.fi"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000250", 
+        "biosyn_class": [
+            "Polyketide", 
+            "Saccharide"
+        ], 
+        "publications": "12715874,11683270,10639368,9349712,8668120,22633415,22120896", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AJ224512", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays", 
+                        "Heterologous expression"
+                    ]
+                }, 
+                {
+                    "Accession": "AF187532", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays", 
+                        "Heterologous expression"
+                    ]
+                }, 
+                {
+                    "Accession": "AF323753", 
+                    "start_coord": 9291, 
+                    "end_coord": 12637, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "nogalaviketone", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=CC=CC2=C1C(C3=C(O)C(C(C[C@](C)(O)[C@@H]4C(OC)=O)=O)=C4C=C3C2=O)=O", 
+                "mol_mass": -1, 
+                "mass_ion_type": "M-", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "nogalonic acid", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC(CC(C1=C(CC(O)=O)C=C(C2=O)C(C(C3=C2C=CC=C3O)=O)=C1O)=O)=O", 
+                "mol_mass": -1, 
+                "mass_ion_type": "M-", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "nogalonic acid methyl ester", 
+                "chem_synonyms": [
+                    "name"
+                ], 
+                "chem_struct": "CC(CC(C1=C(CC(OC)=O)C=C(C2=O)C(C(C3=C2C=CC=C3O)=O)=C1O)=O)=O", 
+                "mol_mass": -1, 
+                "mass_ion_type": "M-", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "nogalavinone", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=CC=CC2=C1C(C3=C(O)C([C@@H](O)C[C@](C)(O)[C@@H]4C(OC)=O)=C4C=C3C2=O)=O", 
+                "mol_mass": -1, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "3',4'-demethoxynogalose-nogalamycinone", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C([C@@H](O[C@H]2[C@H](O)[C@@](O)(C)[C@@H](O)[C@H](C)O2)C[C@@](O)(C)[C@@H]3C(OC)=O)C3=CC4=C1C(C5=C(O)C=CC=C5C4=O)=O", 
+                "mol_mass": -1, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Unknown"
+                ], 
+                "chem_target": "Topoisomerase I"
+            }, 
+            {
+                "compound": "3',4'-demethoxynogalose-1-hydroxynogalamycinone", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C([C@@H](O[C@H]2[C@H](OC)[C@@](O)(C)[C@@H](O)[C@H](C)O2)C[C@@](O)(C)[C@@H]3C(OC)=O)C3=CC4=C1C(C5=C(O)C=CC(O)=C5C4=O)=O", 
+                "mol_mass": -1, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Unknown"
+                ], 
+                "chem_target": "Topoisomerase I"
+            }, 
+            {
+                "compound": "nogalamycin F", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C([C@@H](O[C@H]2[C@H](OC)[C@@](O)(C)[C@@H](O)[C@H](C)O2)C[C@@](O)(C)[C@@H]3C(OC)=O)C3=CC4=C1C(C5=C(O)C=CC(O[C@@H]6O[C@@H](C)[C@@H](O)[C@@H](O)C6)=C5C4=O)=O", 
+                "mol_mass": -1, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_target": "Topoisomerase I"
+            }, 
+            {
+                "compound": "nogalamycin R", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C([C@@H](O[C@H]2[C@H](OC)[C@@](O)(C)[C@@H](O)[C@H](C)O2)C[C@@](O)(C)[C@@H]3C(OC)=O)C3=CC4=C1C(C5=C(O)C=C6C(O[C@@H]7O[C@@]6(C)[C@@H](O)[C@@H](N(C)C)C7)=C5C4=O)=O", 
+                "mol_mass": -1, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_target": "Topoisomerase I, Topoisomerase II"
+            }, 
+            {
+                "compound": "nogalamycin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 14965, 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_target": "Topoisomerase I, Topoisomerase II"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "snoa1", 
+                    "gene_id": "CAA12017.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "snoa2", 
+                    "gene_id": "CAA12018.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "snoa3", 
+                    "gene_id": "CAA12019.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "snoaD", 
+                    "gene_id": "CAA12013.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "snoaE", 
+                    "gene_id": "CAA12012.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "snoaM", 
+                    "gene_id": "AAF01818.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "snoaB", 
+                    "gene_id": "CAA12015.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study", 
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "snoaL", 
+                    "gene_id": "AAF01813.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study", 
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "snoaW", 
+                    "gene_id": "AAF01810.1", 
+                    "gene_annotation": "Two-component mono-oxygenase, quinone reductase partner", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Other in vivo study", 
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "snoaL2", 
+                    "gene_id": "AAF01808.1", 
+                    "gene_annotation": "Two-component mono-oxygenase, 1-hydroxylase partner", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study", 
+                        "Activity assay"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Anthracycline", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "caa12017.1"
+            ], 
+            "ketide_length": 10, 
+            "cyclases": " CAA12013.1,CAA12012.1,AAF01818.1,CAA12015.1,AAF01813.1"
+        }, 
+        "Saccharide": {
+            "saccharide_subclass": "hybrid/tailoring", 
+            "gt_genes": [
+                {
+                    "gt_gene": "AAF01809.1", 
+                    "gt_specificity": "L-nogalose", 
+                    "evidence_gt_spec": "Knock-out construct"
+                }, 
+                {
+                    "gt_gene": "AAF01811.1", 
+                    "gt_specificity": "L-rhodosamine ", 
+                    "evidence_gt_spec": "Activity assay"
+                }
+            ]
+        }
+    }
+}
+
+

@@ -1,0 +1,509 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Bradley Moore", 
+        "submitter_institution": "Scripps Institution of Oceanography, University of California San Diego", 
+        "submitter_email": "bsmoore@ucsd.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001230", 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ], 
+        "publications": "25227504,24843001,18383490,10.1016/S0040-4039(98)00726-6,10.1021/jo9814391,10.1021/ja00081a042", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "BK009377", 
+                    "start_coord": 1796, 
+                    "end_coord": 44697, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Salinamide A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 8828951, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry", 
+                    "X-ray", 
+                    "Total synthesis"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "Bacterial RNA polymerase"
+            }, 
+            {
+                "compound": "Salinamide B", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 10474924, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "Salinamide C", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 29212819, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "Salinamide D", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 8781394, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "Salinamide E", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 29212820, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "Salinamide F", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(N[C@](C(N[C@](C1=CC=C(O[C@H](C)[C@@](O)(CO)/C=C/C2=O)C=C1)([H])C(N([C@H](C(N[C@]3([H])[C@@H](C)O)=O)CC4=CC=CC=C4)C)=O)=O)([H])[C@H](CC)C)[C@H]([C@@H](C)OC([C@H](COC(CN2)=O)NC3=O)=O)NC([C@@H]([C@@H](C(C)C)O)C)=O", 
+                "molecular_formula": "C51H71N7O16", 
+                "mol_mass": 1038.50355, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "Desmethylsalinamide C", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(N[C@](C(N[C@@](C1=CC=C(O)C=C1)([H])C(N([C@H](C(N[C@]2([H])[C@@H](C)O)=O)CC3=CC=CC=C3)C)=O)=O)([H])[C@H](CC)C)[C@H]([C@@H](C)OC([C@H](COC(CNC(/C=C/C(C)=C/C)=O)=O)NC2=O)=O)NC([C@@H]([C@@H](C(C)C)O)C)=O", 
+                "molecular_formula": "C51H72N7O14", 
+                "mol_mass": 1006.51373, 
+                "mass_ion_type": "None", 
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "Desmethylsalinamide E", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(N[C@](C(N[C@](C1=CC=C(O)C=C1)([H])C(N([C@H](C(N[C@]2([H])[C@@H](C)O)=O)CC3=CC=CC=C3)C)=O)=O)([H])[C@H](CC)C)[C@H]([C@@H](C)OC([C@H](CO[H])NC2=O)=O)NC([C@@H]([C@@H](C(C)C)O)C)=O", 
+                "molecular_formula": "C42H60N6O12", 
+                "mol_mass": 841.43475, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "sln1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1796, 
+                    "gene_endpos": 3115, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "hydroxyphenylglycine aminotransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "sln2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3115, 
+                    "gene_endpos": 4218, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "2-hydroxy-acid oxidase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "sln3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4215, 
+                    "gene_endpos": 5297, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "4-hydroxyphenylpyruvate dioxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "sln4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5333, 
+                    "gene_endpos": 6367, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "methyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "sln5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6364, 
+                    "gene_endpos": 6582, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "MbtH-like protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "sln6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6623, 
+                    "gene_endpos": 10618, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "nonribosomal peptide synthetase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "sln7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10615, 
+                    "gene_endpos": 22797, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "nonribosomal peptide synthetase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "sln8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22794, 
+                    "gene_endpos": 27458, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "nonribosomal peptide synthetase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "sln9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27455, 
+                    "gene_endpos": 31411, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "nonribosomal peptide synthetase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "sln10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31768, 
+                    "gene_endpos": 32976, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "cytochrome P450", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "sln11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 32973, 
+                    "gene_endpos": 33914, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "beta-ketoacyl-ACP synthase III (KSIII)", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "sln12", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33925, 
+                    "gene_endpos": 34167, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "acyl carrier protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "sln13", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 34234, 
+                    "gene_endpos": 36951, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "LuxR regulatory protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "sln14", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 37027, 
+                    "gene_endpos": 44697, 
+                    "gene_id": "No protein ID", 
+                    "gene_annotation": "nonribosomal peptide synthetase/polyketide synthase type I", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Cyclic depsipeptide", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Type I", 
+            "nrps_thioesterase": [
+                "sln6", 
+                "sln9"
+            ], 
+            "nrps_release_type": "Macrolactonization", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "sln14", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Threonine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "sln8", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Valine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "sln7", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "4", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Hydroxyphenylglycine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Phenylalanine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "Methylation", 
+                            "nrps_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Threonine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "sln6", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "7", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Serine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither", 
+                            "comments": "cyclizing TE"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "sln9", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "8", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Glycine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither", 
+                            "comments": "intermolecular transesterifying TE"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Macrolide", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Isobutyryl-CoA", 
+            "pks_te_type": "None", 
+            "pks_release_type": "Other", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "sln14", 
+                    "pks_module": [
+                        {
+                            "module_nr": "0", 
+                            "pks_domains": [
+                                "AT", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Isobutyryl-CoA", 
+                            "evidence_at_spec": "Sequence-based prediction", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "evidence_at_spec": "Sequence-based prediction", 
+                            "kr_stereochem": "L-OH", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "comments": "You can also contact Lauren Ray (laray@ucsd.edu) with regards to this MIBiG submission. \\n", 
+    "embargo": true
+}

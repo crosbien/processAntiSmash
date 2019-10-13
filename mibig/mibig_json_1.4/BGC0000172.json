@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "basiliskamides"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 132409, 
+                    "Accession": "AXBT01000013", 
+                    "start_coord": 84598
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000172", 
+        "publications": [
+            "24595070"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Trans-AT type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

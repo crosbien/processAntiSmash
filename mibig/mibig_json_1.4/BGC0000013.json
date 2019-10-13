@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 5359485, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "alternariol"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 1127658, 
+                    "Accession": "BN001304", 
+                    "start_coord": 1119810
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000013", 
+        "publications": [
+            "22510154"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

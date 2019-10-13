@@ -1,0 +1,431 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Taifo Mahmud", 
+        "submitter_institution": "Oregon State University", 
+        "submitter_email": "Taifo.Mahmud@oregonstate.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000283", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "17195255,19101977", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "EF120454", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "cetoniacytone A", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC[C@]12C(C=C(NC(C)=O)[C@H](O)[C@H]1O2)=O", 
+                "molecular_formula": "C19H11NO5", 
+                "mol_mass": 213.06, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "aminocyclitol", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 144, 
+                    "gene_endpos": 2750, 
+                    "gene_id": "ACH85560.1", 
+                    "gene_annotation": "putative nitrite reductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4245, 
+                    "gene_endpos": 4856, 
+                    "gene_id": "ACH85561.1", 
+                    "gene_annotation": "putative chalcone synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4920, 
+                    "gene_endpos": 6551, 
+                    "gene_id": "ACH85562.1", 
+                    "gene_annotation": "putative ATPase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6319, 
+                    "gene_endpos": 9507, 
+                    "gene_id": "ACH85563.1", 
+                    "gene_annotation": "putative ATPase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11545, 
+                    "gene_endpos": 12765, 
+                    "gene_id": "ACH85564.1", 
+                    "gene_annotation": "NocH-like protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12762, 
+                    "gene_endpos": 13940, 
+                    "gene_id": "ACH85565.1", 
+                    "gene_annotation": "NikS-like protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cetG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13952, 
+                    "gene_endpos": 15010, 
+                    "gene_id": "ACH85566.1", 
+                    "gene_annotation": "TruD-like protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cetG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15001, 
+                    "gene_endpos": 16359, 
+                    "gene_id": "ACH85567.1", 
+                    "gene_annotation": "CetG", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cetH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17239, 
+                    "gene_endpos": 18537, 
+                    "gene_id": "ACH85568.1", 
+                    "gene_annotation": "CetH", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cetI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19435, 
+                    "gene_endpos": 20712, 
+                    "gene_id": "ACH85569.1", 
+                    "gene_annotation": "CetI", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cetJ1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22625, 
+                    "gene_endpos": 23194, 
+                    "gene_id": "ACH85570.1", 
+                    "gene_annotation": "CetJ1", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cetJ2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23191, 
+                    "gene_endpos": 23517, 
+                    "gene_id": "ACH85571.1", 
+                    "gene_annotation": "CetJ2", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cetJ3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23514, 
+                    "gene_endpos": 23915, 
+                    "gene_id": "ACH85572.1", 
+                    "gene_annotation": "CetJ3", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cetK1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23908, 
+                    "gene_endpos": 24627, 
+                    "gene_id": "ACH85573.1", 
+                    "gene_annotation": "CetK1", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cetK2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24714, 
+                    "gene_endpos": 25010, 
+                    "gene_id": "ACH85574.1", 
+                    "gene_annotation": "CetK2", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cetL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25350, 
+                    "gene_endpos": 26597, 
+                    "gene_id": "ACH85575.1", 
+                    "gene_annotation": "CetL", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cetM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26734, 
+                    "gene_endpos": 27957, 
+                    "gene_id": "ACH85576.1", 
+                    "gene_annotation": "CetM", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cetA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27999, 
+                    "gene_endpos": 29144, 
+                    "gene_id": "ABL74381.1", 
+                    "gene_annotation": "2-epi-5-epi-valiolone synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "cetB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29141, 
+                    "gene_endpos": 29692, 
+                    "gene_id": "ABL74382.1", 
+                    "gene_annotation": "putative glyoxalase/bleomycin resistance protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "cetC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29689, 
+                    "gene_endpos": 30183, 
+                    "gene_id": "ABL74383.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cetD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30260, 
+                    "gene_endpos": 31126, 
+                    "gene_id": "ABL74384.1", 
+                    "gene_annotation": "putative acetyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acetylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cetE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31093, 
+                    "gene_endpos": 32955, 
+                    "gene_id": "ACH85577.1", 
+                    "gene_annotation": "CetE", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cetF1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33006, 
+                    "gene_endpos": 33785, 
+                    "gene_id": "ACH85578.1", 
+                    "gene_annotation": "CetF1", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cetF2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33847, 
+                    "gene_endpos": 35502, 
+                    "gene_id": "ACH85579.1", 
+                    "gene_annotation": "CetF2", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 36158, 
+                    "gene_endpos": 38071, 
+                    "gene_id": "ACH85580.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 38068, 
+                    "gene_endpos": 39129, 
+                    "gene_id": "ACH85581.1", 
+                    "gene_annotation": "putative UnbU protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 39236, 
+                    "gene_endpos": 39433, 
+                    "gene_id": "ACH85582.1", 
+                    "gene_annotation": "putative ACP", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 39430, 
+                    "gene_endpos": 40632, 
+                    "gene_id": "ACH85583.1", 
+                    "gene_annotation": "putative 3-oxoacyl-ACP synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 40629, 
+                    "gene_endpos": 42098, 
+                    "gene_id": "ACH85584.1", 
+                    "gene_annotation": "putative 3-oxoacyl-ACP reductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 42109, 
+                    "gene_endpos": 43383, 
+                    "gene_id": "ACH85585.1", 
+                    "gene_annotation": "putative 3-oxoacyl-ACP synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43394, 
+                    "gene_endpos": 45325, 
+                    "gene_id": "ACH85586.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Cyclitol"
+        }
+    }
+}
+
+

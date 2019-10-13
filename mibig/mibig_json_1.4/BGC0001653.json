@@ -1,0 +1,34 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "linfuranone B"
+            }, 
+            {
+                "compound": "linfuranone C"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 204835, 
+                    "Accession": "NZ_BCBX01000035", 
+                    "start_coord": 138603
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001653", 
+        "publications": [
+            "29939741"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "version": "12", 
+    "personal": {
+        "submitter_name": "Oscar P. Kuipers", 
+        "submitter_institution": "University of Groningen", 
+        "submitter_email": "o.p.kuipers@rug.nl"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000488", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "14532033", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AJ566621", 
+                    "start_coord": 1, 
+                    "end_coord": 11388, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "circularin A", 
+                "chem_synonyms": [], 
+                "mol_mass": 6771, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "membrane"
+            }
+        ], 
+        "genes": {}, 
+        "RiPP": {
+            "ripp_subclass": "Head-to-tailcyclized peptide", 
+            "lin_cycl_ripp": "Cyclic", 
+             "precursor_loci": [
+                {
+                    "gene_id": [
+                        "CAD97580.1"
+                    ], 
+                    "core_pept_aa": "VAGALGVQTAAATTIVNVILNAGTLVTVLGIIASIASGGAGTLMTIGWATFKATVQKLAKQSMARAIAY", 
+                    "lead_pept_len": 3, 
+                    "foll_pept_len": 69, 
+                    "cleavage_recogn_site": "", 
+                    "peptidase": []
+                }
+            ]
+        }
+    }, 
+    "comments": "Only partial  expression data in Lactococcus or Enterococcus. No direct data on Clostridium. Same class as enterocin AS-48"
+}
+

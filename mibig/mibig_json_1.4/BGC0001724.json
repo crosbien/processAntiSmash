@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "oxaleimide C"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2264617, 
+                    "Accession": "KB644411", 
+                    "start_coord": 2193562
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001724", 
+        "publications": [
+            "28365998"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

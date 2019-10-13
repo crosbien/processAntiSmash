@@ -1,0 +1,261 @@
+{
+    "version": "11",
+    "personal": {
+        "submitter_name": "Dr. Yvonne Mast",
+        "submitter_institution": "University Tuebingen, IMIT",
+        "submitter_email": "yvonne.mast@biotech.uni-tuebingen.de"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0000952",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide"
+        ],
+        "publications": "21342465",
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "Accession": "FR681999.1",
+                    "start_coord": -1,
+                    "end_coord": -1,
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                },
+                {
+                    "Accession": "FR682000.1",
+                    "start_coord": -1,
+                    "end_coord": -1,
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                },
+                {
+                    "Accession": "FR682001.1",
+                    "start_coord": -1,
+                    "end_coord": -1,
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "pristinamycin",
+                "chem_synonyms": [
+                    "synercid",
+                    "pyostacine",
+                    "streptogramin",
+                    "staphylomycin"
+                ],
+                "database_deposited": true,
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "pubchem_id": 24847675,
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "chem_target": "50 S ribosome",
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "L-dimethylamino-phenylalanine",
+                        "moiety_subcluster": [
+                            "cbw45755",
+                            "cbw45753",
+                            "cbw45754",
+                            "cbw45752"
+                        ]
+                    },
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "L-pipecolic acid",
+                        "moiety_subcluster": [
+                            "cbw45757"
+                        ]
+                    },
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "L-phenylglycine",
+                        "moiety_subcluster": [
+                            "CBW45641",
+                            "CBW45643",
+                            "CBW45644",
+                            "CBW45645",
+                            "CBW45646"
+                        ]
+                    },
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "L-hydroxypicolinic acid",
+                        "moiety_subcluster": [
+                            "cbw45759"
+                        ]
+                    },
+                    {
+                        "chem_moiety": "Other",
+                        "other_chem_moiety": "L-2-amino-butyric acid",
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "pglE",
+                    "gene_id": "CBW45641",
+                    "gene_annotation": "phenylglycine aminotransferase",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "PI-deficient"
+                },
+                {
+                    "gene_name": "pglB",
+                    "gene_id": "CBW45645",
+                    "gene_annotation": "pyruvate-dehydrogenase E1 component, alpha subunit ",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "PI-deficient"
+                },
+                {
+                    "gene_name": "pglC",
+                    "gene_id": "CBW45644",
+                    "gene_annotation": "pyruvate-dehydrogenase E1 component, beta subunit",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "PI-deficient"
+                },
+                {
+                    "gene_name": "pglD",
+                    "gene_id": "CBW45643",
+                    "gene_annotation": " thioesterase type II",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "PI-deficient"
+                },
+                {
+                    "gene_name": "pglA",
+                    "gene_id": "CBW45646",
+                    "gene_annotation": "hydroxyacyl-dehydrogenase ",
+                    "gene_function": "Precursor biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "PI-deficient"
+                },
+                {
+                    "gene_name": "mbtY",
+                    "gene_id": "CBW45642",
+                    "gene_annotation": "MbtH-like protein",
+                    "gene_function": "Activation / processing",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "PI-deficient"
+                },
+                {
+                    "gene_name": "papR1",
+                    "gene_id": "CBW45751",
+                    "gene_annotation": "SARP-type regulator",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "reduced pristinamycin production"
+                },
+                {
+                    "gene_name": "papR2",
+                    "gene_id": "CBW45736",
+                    "gene_annotation": "SARP-type regulator",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "pristinamycin-deficient"
+                },
+                {
+                    "gene_name": "papR4",
+                    "gene_id": "CBW45766",
+                    "gene_annotation": "SARP-type regulator",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "reduced pristinamycin production"
+                },
+                {
+                    "gene_name": "papR6",
+                    "gene_id": "CBW45649",
+                    "gene_annotation": "response regulator",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "reduced pristinamycin production"
+                },
+                {
+                    "gene_name": "papR3",
+                    "gene_id": "CBW45765",
+                    "gene_annotation": "TetR-type regulator",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "increased pristinamycin production"
+                },
+                {
+                    "gene_name": "papR5",
+                    "gene_id": "CBW45767",
+                    "gene_annotation": "TetR-type regulator",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "increased pristinamycin production"
+                },
+                {
+                    "gene_name": "spbR",
+                    "gene_id": "CBW45769",
+                    "gene_annotation": "autoregulator receptor protein",
+                    "gene_function": "Regulation",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }
+            ]
+        },
+        "NRP": {
+            "subclass": "Cyclic depsipeptide",
+            "lin_cycl_nrp": "Cyclic",
+            "nrps_te_type": "Type I",
+            "nrps_thioesterase": [],
+            "nrps_release_type": "Macrolactonization"
+        },
+        "Polyketide": {
+            "pk_subclass": "Macrolide",
+            "lin_cycl_pk": "Cyclic",
+            "pks_subclass": [
+                "Modular type I",
+                "Trans-AT type I"
+            ],
+            "starter_unit": "Isobutyryl-CoA",
+            "trans_at": [
+                "cbw45739"
+            ],
+            "pks_te_type": "Type I",
+            "pks_release_type": "Macrolactonization"
+        }
+    }
+}

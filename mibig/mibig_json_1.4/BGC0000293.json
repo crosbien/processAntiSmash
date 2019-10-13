@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 102032591, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "acetylaszonalenin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2441151, 
+                    "Accession": "DS027698", 
+                    "start_coord": 2428387
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000293", 
+        "publications": [
+            "19001367,20225828"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

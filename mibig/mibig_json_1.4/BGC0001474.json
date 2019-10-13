@@ -1,0 +1,72 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Christopher Schwalen", 
+        "submitter_institution": "University of Illinois at Urbana-Champaign", 
+        "submitter_email": "cschwal@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001474", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "29983054,5045467", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "PYBW01000040", 
+                    "start_coord": 24523, 
+                    "end_coord": 52894, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "thiopeptin", 
+                "chem_synonyms": [], 
+                "chem_struct": "C[C@H]([C@H](NC1=S)C2=NC([C@@H](N3)[C@](C4=NC(C(N[C@@](C(N/C(C5=N[C@@H](C(N[C@](C(C)(O)[C@@H](C)O)([H])C6=NC1=CS6)=O)CS5)=C\\\\C)=O)([H])[C@@H](C)O)=O)=CS4)(NC([C@H](C)NC(C(NC([C@H](C)NC([C@H](C(C)C)N[C@@H]7C=CC8=C(N=C9C=C8[C@@H](O)C)[C@H]7O)=O)=O)=C)=O)=O)CC[C@@H]3C%10=NC(C(NC(C(NC(C(O)=O)=C)=O)=C)=O)=CS%10)=CS2)OC9=O", 
+                "molecular_formula": "C71H84N18O18S6", 
+                "mol_mass": 1668.45, 
+                "mass_ion_type": "None", 
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "thioamide", 
+                        "moiety_subcluster": [
+                            "pyc80225.1", 
+                            "pyc80226.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "RiPP": {
+            "ripp_subclass": "Thiopeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "pyc80213.1"
+                    ], 
+                    "core_pept_aa": "VASASCTTCICTCSCSS", 
+                    "lead_pept_len": 43, 
+                    "foll_pept_len": -1, 
+                    "peptidase": []
+                }
+            ]
+        }
+    }, 
+    "embargo": true
+}
+

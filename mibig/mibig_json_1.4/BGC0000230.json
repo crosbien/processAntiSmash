@@ -1,0 +1,560 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Eric J. N. Helfrich", 
+        "submitter_institution": "Institute of Microbiology, Eidgen\u00c3\u00b6ssische Technische Hochschule (ETH) Zurich, Piel lab", 
+        "submitter_email": "ehelfrich@ethz.ch"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000230", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "12323376, 19175308, 17625850", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AF509565", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "griseorhodin A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 5458191, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry", 
+                    "Total synthesis", 
+                    "Other"
+                ], 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Cytotoxic", 
+                    "Inhibitor", 
+                    "Other"
+                ], 
+                "other_chem_act": "anti-viral", 
+                "chem_target": "HIV reverse transcriptase, human telomerase", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "epoxyspiroketal", 
+                        "moiety_subcluster": [
+                            "grho5", 
+                            "grho1", 
+                            "grho6", 
+                            "grhj", 
+                            "kr", 
+                            "grho3", 
+                            "grho7"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "aam33678.1", 
+                        "aam33682.1", 
+                        "aam33653.1", 
+                        "aam33654.1"
+                    ], 
+                    "evidence_operon": "Other"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "grhR1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1245, 
+                    "gene_endpos": 2066, 
+                    "gene_id": "AAM33679.1", 
+                    "gene_annotation": "putative transcriptional activator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "grhR2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2296, 
+                    "gene_endpos": 3117, 
+                    "gene_id": "AAM33680.1", 
+                    "gene_annotation": "putative transcriptional activator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "grhR2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2296, 
+                    "gene_endpos": 3117, 
+                    "gene_id": "AAM33680.1", 
+                    "gene_annotation": "putative transcriptional activator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        [
+                            "Sequence-based prediction"
+                        ]
+                    ]
+                }, 
+                {
+                    "gene_name": "grhC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4323, 
+                    "gene_endpos": 4583, 
+                    "gene_id": "AAM33655.1", 
+                    "gene_annotation": "putative acyl carrier protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "grhE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4744, 
+                    "gene_endpos": 5715, 
+                    "gene_id": "AAM33657.1", 
+                    "gene_annotation": "putative cyclase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "grhF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5777, 
+                    "gene_endpos": 6580, 
+                    "gene_id": "AAM33658.1", 
+                    "gene_annotation": "putative phosphopantetheinyl transferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "grhG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6920, 
+                    "gene_endpos": 8485, 
+                    "gene_id": "AAM33659.1", 
+                    "gene_annotation": "putative transcarboxylase component of acyl-CoA carboxylase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "grhG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6920, 
+                    "gene_endpos": 8485, 
+                    "gene_id": "AAM33659.1", 
+                    "gene_annotation": "putative transcarboxylase component of acyl-CoA carboxylase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        [
+                            "Sequence-based prediction"
+                        ]
+                    ]
+                }, 
+                {
+                    "gene_name": "grhG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6920, 
+                    "gene_endpos": 8485, 
+                    "gene_id": "AAM33659.1", 
+                    "gene_annotation": "putative transcarboxylase component of acyl-CoA carboxylase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        [
+                            [
+                                "Sequence-based prediction"
+                            ]
+                        ]
+                    ]
+                }, 
+                {
+                    "gene_name": "grhO1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9482, 
+                    "gene_endpos": 10885, 
+                    "gene_id": "AAM33667.1", 
+                    "gene_annotation": "putative FAD-binding oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "grhO1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9482, 
+                    "gene_endpos": 10885, 
+                    "gene_id": "AAM33667.1", 
+                    "gene_annotation": "putative FAD-binding oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        [
+                            "Sequence-based prediction"
+                        ]
+                    ]
+                }, 
+                {
+                    "gene_name": "grhO1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9482, 
+                    "gene_endpos": 10885, 
+                    "gene_id": "AAM33667.1", 
+                    "gene_annotation": "putative FAD-binding oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        [
+                            [
+                                "Sequence-based prediction"
+                            ]
+                        ]
+                    ]
+                }, 
+                {
+                    "gene_name": "grhO4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13031, 
+                    "gene_endpos": 13234, 
+                    "gene_id": "AAM33671.1", 
+                    "gene_annotation": "putative ferredoxin", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "grhO4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13031, 
+                    "gene_endpos": 13234, 
+                    "gene_id": "AAM33671.1", 
+                    "gene_annotation": "putative ferredoxin", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        [
+                            "Sequence-based prediction"
+                        ]
+                    ]
+                }, 
+                {
+                    "gene_name": "grhO4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13031, 
+                    "gene_endpos": 13234, 
+                    "gene_id": "AAM33671.1", 
+                    "gene_annotation": "putative ferredoxin", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        [
+                            [
+                                "Sequence-based prediction"
+                            ]
+                        ]
+                    ]
+                }, 
+                {
+                    "gene_name": "grhR3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16161, 
+                    "gene_endpos": 16679, 
+                    "gene_id": "AAM33681.1", 
+                    "gene_annotation": "putative transcriptional repressor", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "grhR3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16161, 
+                    "gene_endpos": 16679, 
+                    "gene_id": "AAM33681.1", 
+                    "gene_annotation": "putative transcriptional repressor", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        [
+                            "Sequence-based prediction"
+                        ]
+                    ]
+                }, 
+                {
+                    "gene_name": "grhR3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16161, 
+                    "gene_endpos": 16679, 
+                    "gene_id": "AAM33681.1", 
+                    "gene_annotation": "putative transcriptional repressor", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        [
+                            [
+                                "Sequence-based prediction"
+                            ]
+                        ]
+                    ]
+                }, 
+                {
+                    "gene_name": "grhK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19815, 
+                    "gene_endpos": 21404, 
+                    "gene_id": "AAM33663.1", 
+                    "gene_annotation": "putative efflux protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "grhL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21607, 
+                    "gene_endpos": 22638, 
+                    "gene_id": "AAM33664.1", 
+                    "gene_annotation": "putative methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "grhL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21607, 
+                    "gene_endpos": 22638, 
+                    "gene_id": "AAM33664.1", 
+                    "gene_annotation": "putative methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        [
+                            "Sequence-based prediction"
+                        ]
+                    ]
+                }, 
+                {
+                    "gene_name": "grhL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21607, 
+                    "gene_endpos": 22638, 
+                    "gene_id": "AAM33664.1", 
+                    "gene_annotation": "putative methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        [
+                            [
+                                "Sequence-based prediction"
+                            ]
+                        ]
+                    ]
+                }, 
+                {
+                    "gene_name": "grhL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21607, 
+                    "gene_endpos": 22638, 
+                    "gene_id": "AAM33664.1", 
+                    "gene_annotation": "putative methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        [
+                            [
+                                [
+                                    "Sequence-based prediction"
+                                ]
+                            ]
+                        ]
+                    ]
+                }, 
+                {
+                    "gene_name": "grhL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21607, 
+                    "gene_endpos": 22638, 
+                    "gene_id": "AAM33664.1", 
+                    "gene_annotation": "putative methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        [
+                            [
+                                [
+                                    [
+                                        "Sequence-based prediction"
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ]
+                }, 
+                {
+                    "gene_name": "grhL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21607, 
+                    "gene_endpos": 22638, 
+                    "gene_id": "AAM33664.1", 
+                    "gene_annotation": "putative methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        [
+                            [
+                                [
+                                    [
+                                        [
+                                            "Sequence-based prediction"
+                                        ]
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ]
+                }, 
+                {
+                    "gene_name": "grhRQ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29428, 
+                    "gene_endpos": 29799, 
+                    "gene_id": "AAM33678.1", 
+                    "gene_annotation": "putative cyclase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "grhS", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29796, 
+                    "gene_endpos": 30230, 
+                    "gene_id": "AAM33682.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "grhA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30227, 
+                    "gene_endpos": 31507, 
+                    "gene_id": "AAM33653.1", 
+                    "gene_annotation": "putative ketosynthase alpha", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "grhB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31504, 
+                    "gene_endpos": 32766, 
+                    "gene_id": "AAM33654.1", 
+                    "gene_annotation": "putative ketosynthase beta", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "grhT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 32829, 
+                    "gene_endpos": 34037, 
+                    "gene_id": "AAM33685.1", 
+                    "gene_annotation": "putative bifunctional cyclase/3-oxoacyl-ACP reductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "grhO10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 34070, 
+                    "gene_endpos": 34819, 
+                    "gene_id": "AAM33668.1", 
+                    "gene_annotation": "putative 3-oxoacyl-ACP reductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "grhU", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 34821, 
+                    "gene_endpos": 35144, 
+                    "gene_id": "AAM33683.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "grhV", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 35141, 
+                    "gene_endpos": 35449, 
+                    "gene_id": "AAM33684.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Polyphenol", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Unknown", 
+            "pks_genes": [
+                "aam33653.1", 
+                "aam33655.1"
+            ], 
+            "ketide_length": 13, 
+            "cyclases": "AAM33657.1, AAM33678.1, AAM33685.1,"
+        }
+    }
+}

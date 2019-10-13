@@ -1,0 +1,28 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 16130140, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "gramicidin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 3073069, 
+                    "Accession": "AP008955", 
+                    "start_coord": 3011718
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000367", 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

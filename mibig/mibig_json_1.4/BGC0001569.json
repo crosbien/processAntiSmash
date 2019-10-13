@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CC[C@H](C)[C@@H]3NC(=O)[C@@H](CC(C)C)NC(=O)[C@@H](C(C)C)NC(=O)[C@H](Cc1c[nH]c2ccccc12)NC(=O)C(C(O)C(N)=O)NC(=O)[C@H](CCCN)NC3=O", 
+                "compound": "dechlorocuracomycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2909713, 
+                    "Accession": "CP011533", 
+                    "start_coord": 2863457
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001569", 
+        "publications": [
+            "27813109"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

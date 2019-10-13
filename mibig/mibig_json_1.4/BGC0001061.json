@@ -1,0 +1,147 @@
+{
+    "version": "10", 
+    "personal": {
+        "submitter_name": "Andreas Bechthold", 
+        "submitter_institution": "Albert-Ludwigs-University of Freiburg, Germany", 
+        "submitter_email": "andreas.bechthold@pharmazie.uni-freiburg.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001061", 
+        "biosyn_class": [
+            "Polyketide",
+            "Saccharide"
+        ], 
+        "publications": "9531983,9531984,10344562,19266534,", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "FJ483966.1", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Polyketomycin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "chEBI"
+                ], 
+                "chebi_id": 66771, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Cytotoxic"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "6-methylsalicylic acid", 
+                        "moiety_subcluster": [
+                            "acn64830.1", 
+                            "acn64831.1", 
+                            "acn64832.1", 
+                            "acn64833.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "pokO1", 
+                    "gene_id": "ACN64845.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of Polyketomycin and and POK-IP3"
+                }, 
+                {
+                    "gene_name": "pokO2", 
+                    "gene_id": "ACN64853.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Produktion of POK-IP5"
+                }, 
+                {
+                    "gene_name": "pokO4", 
+                    "gene_id": "ACN64854.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No Production of Polyketomycin"
+                }, 
+                {
+                    "gene_name": "pokMT1", 
+                    "gene_id": "ACN64833.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of Polyketomycin without DMSA"
+                }, 
+                {
+                    "gene_name": "pokMT2", 
+                    "gene_id": "ACN64843.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of 6-demethylpolyketomycin"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Iterative type I", 
+                "Type II"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "ACN64831.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "Ketosynthase", 
+                                "Acyltransferase", 
+                                "Ketoreductase", 
+                                "Thiolation (ACP/PCP)"
+                            ], 
+                            "at_substr_spec": "Methylmalonyl-CoA", 
+                            "pks_mod_doms": "None"
+                        }
+                    ]
+                }
+            ], 
+            "pks_genes": [
+                "acn64836.1", 
+                "acn64834.1" 
+            ], 
+            "nr_iterations": 9, 
+            "iterative_subtype": "Partially reducing", 
+            "iter_cycl_type": "Other", 
+            "ketide_length": 10, 
+            "cyclases": "ACN64848.1, ACN64846.1, ACN64851.1", 
+            "pks_te_type": "Unknown", 
+            "pks_release_type": "Unknown"
+        }
+    }
+}
+

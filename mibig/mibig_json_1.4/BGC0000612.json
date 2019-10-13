@@ -1,0 +1,87 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Jan Claesen", 
+        "submitter_institution": "UCSF", 
+        "submitter_email": "jan.claesen@ucsf.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000612", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "19196969,19246004", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AE016877", 
+                    "start_coord": 4977401, 
+                    "end_coord": 4998568, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Thiocillin I", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 6446118, 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "RiPP": {
+            "ripp_subclass": "Thiopeptide", 
+            "lin_cycl_ripp": "Cyclic",
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "AAP11957"
+                    ], 
+                    "core_pept_aa": "SCTTCVCTCSCCTT", 
+                    "lead_pept_len": 38, 
+                    "foll_pept_len": 0, 
+                    "peptidase": []
+                },
+                {
+                    "gene_id": [
+                        "AAP11958"
+                    ], 
+                    "core_pept_aa": "SCTTCVCTCSCCTT", 
+                    "lead_pept_len": 38, 
+                    "foll_pept_len": 0, 
+                    "peptidase": []
+                },
+                {
+                    "gene_id": [
+                        "AAP11959"
+                    ], 
+                    "core_pept_aa": "SCTTCVCTCSCCTT", 
+                    "lead_pept_len": 38, 
+                    "foll_pept_len": 0, 
+                    "peptidase": []
+                },
+                {
+                    "gene_id": [
+                        "AAP11960"
+                    ], 
+                    "core_pept_aa": "SCTTCVCTCSCCTT", 
+                    "lead_pept_len": 38, 
+                    "foll_pept_len": 0, 
+                    "peptidase": []
+                }
+            ]
+        }
+    }
+}
+
+

@@ -1,0 +1,49 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Jan Claesen", 
+        "submitter_institution": "UCSF", 
+        "submitter_email": "jan.claesen@ucsf.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000837", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "25036635", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP000020", 
+                    "start_coord": 928348, 
+                    "end_coord": 946886, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "APE Vf", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC1=C(O)C(C)=CC(/C=C/C=C/C=C/C=C/C=C/C=C/C(OC)=O)=C1", 
+                "molecular_formula": "C22H24O3", 
+                "mol_mass": 335.1652, 
+                "mass_ion_type": "[M-H]-", 
+                "chem_act": [
+                    "Unknown", 
+                    "Antioxidant"
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "Other": {
+            "other_subclass": "None"
+        }
+    }
+}
+
+

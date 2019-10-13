@@ -1,0 +1,57 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 190753, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "deoxysambucinol"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 356939, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "sambucinol"
+            }, 
+            {
+                "database_deposited": true, 
+                "pubchem_id": 44593339, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "roridin E"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "AF009418", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "AF009417", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "AF009416", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001279", 
+        "publications": [
+            "9529523"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

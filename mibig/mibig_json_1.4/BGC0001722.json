@@ -1,0 +1,28 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CC1=CC(O)=CC(O)=C1C=O", 
+                "compound": "orsellinaldehydes"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 1360358, 
+                    "Accession": "BN001306", 
+                    "start_coord": 1341776
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001722", 
+        "publications": [
+            "23248299", 
+            "22510150"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

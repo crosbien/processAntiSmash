@@ -1,0 +1,522 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Sean Brady", 
+        "submitter_institution": "The Rockefeller University", 
+        "submitter_email": "sbrady@rockefeller.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000200", 
+        "biosyn_class": [
+            "Polyketide", 
+			"Saccharide"
+        ], 
+        "publications": "24730509", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KF931341", 
+                    "start_coord": 1, 
+                    "end_coord": 31965, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Arixanthomycin A", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(C1=CC=CC(O[C@H]2[C@H](OC)[C@@H](OC)[C@H](OC)[C@@H](C)O2)=C1O3)C4=C3C(O)=C(CCC5=C6C(O)=C7C(C[C@@](C)(OC[C@]8([H])C(O)=O)N8C7=O)=C5)C6=C4O", 
+                "molecular_formula": "C37H37NO14", 
+                "mol_mass": 719.2214, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }, 
+            {
+                "compound": "Arixanthomycin B", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(C1=CC=CC(O)=C1O2)C3=C2C(C)=C(CCC4=C5C(O)=C6C(C[C@@](C)(OC[C@]7([H])C(O)=O)N7C6=O)=C4)C5=C3O", 
+                "molecular_formula": "C29H23NO9", 
+                "mol_mass": 529.1373, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }, 
+            {
+                "compound": "Arixanthomycin C", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(C1=CC=CC(O)=C1O2)C3=C2C([H])=C(CCC4=C5C(O)=C6C(C[C@@](C)(OC[C@]7([H])C(O)=O)N7C6=O)=C4)C5=C3O", 
+                "molecular_formula": "C28H21NO9", 
+                "mol_mass": 515.1216, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 1059, 
+                    "gene_id": "AHX24686.1", 
+                    "gene_annotation": "NAD-dependent epimerase/dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Epimerization", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1062, 
+                    "gene_endpos": 1796, 
+                    "gene_id": "AHX24687.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1822, 
+                    "gene_endpos": 2988, 
+                    "gene_id": "AHX24688.1", 
+                    "gene_annotation": "glycosyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3207, 
+                    "gene_endpos": 3887, 
+                    "gene_id": "AHX24689.1", 
+                    "gene_annotation": "short-chain dehydrogenase/reductase SDR", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3911, 
+                    "gene_endpos": 5761, 
+                    "gene_id": "AHX24690.1", 
+                    "gene_annotation": "amidotransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5791, 
+                    "gene_endpos": 6855, 
+                    "gene_id": "AHX24691.1", 
+                    "gene_annotation": "O-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6917, 
+                    "gene_endpos": 7744, 
+                    "gene_id": "AHX24692.1", 
+                    "gene_annotation": "ABC transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7741, 
+                    "gene_endpos": 8697, 
+                    "gene_id": "AHX24693.1", 
+                    "gene_annotation": "ABC transporter ATP-binding protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8694, 
+                    "gene_endpos": 9872, 
+                    "gene_id": "AHX24694.1", 
+                    "gene_annotation": "glycosyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9874, 
+                    "gene_endpos": 11460, 
+                    "gene_id": "AHX24695.1", 
+                    "gene_annotation": "FAD-binding monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12253, 
+                    "gene_endpos": 13065, 
+                    "gene_id": "AHX24696.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13091, 
+                    "gene_endpos": 14125, 
+                    "gene_id": "AHX24697.1", 
+                    "gene_annotation": "O-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14331, 
+                    "gene_endpos": 15218, 
+                    "gene_id": "AHX24698.1", 
+                    "gene_annotation": "dehydrogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydration", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15240, 
+                    "gene_endpos": 15575, 
+                    "gene_id": "AHX24699.1", 
+                    "gene_annotation": "cyclase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15572, 
+                    "gene_endpos": 16003, 
+                    "gene_id": "AHX24700.1", 
+                    "gene_annotation": "cyclase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16000, 
+                    "gene_endpos": 17268, 
+                    "gene_id": "AHX24701.1", 
+                    "gene_annotation": "beta-ketoacyl synthase alpha", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17272, 
+                    "gene_endpos": 18510, 
+                    "gene_id": "AHX24702.1", 
+                    "gene_annotation": "beta-ketoacyl synthase beta", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18510, 
+                    "gene_endpos": 18773, 
+                    "gene_id": "AHX24703.1", 
+                    "gene_annotation": "acyl carrier protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18775, 
+                    "gene_endpos": 19236, 
+                    "gene_id": "AHX24704.1", 
+                    "gene_annotation": "cyclase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19243, 
+                    "gene_endpos": 19701, 
+                    "gene_id": "AHX24705.1", 
+                    "gene_annotation": "monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19725, 
+                    "gene_endpos": 20483, 
+                    "gene_id": "AHX24706.1", 
+                    "gene_annotation": "3-oxoacyl-ACP reductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20483, 
+                    "gene_endpos": 20836, 
+                    "gene_id": "AHX24707.1", 
+                    "gene_annotation": "monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20833, 
+                    "gene_endpos": 21144, 
+                    "gene_id": "AHX24708.1", 
+                    "gene_annotation": "monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21158, 
+                    "gene_endpos": 21961, 
+                    "gene_id": "AHX24709.1", 
+                    "gene_annotation": "NDP-4-ketoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22020, 
+                    "gene_endpos": 22475, 
+                    "gene_id": "AHX24710.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22478, 
+                    "gene_endpos": 22858, 
+                    "gene_id": "AHX24711.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22858, 
+                    "gene_endpos": 23595, 
+                    "gene_id": "AHX24712.1", 
+                    "gene_annotation": "3-oxoacyl-ACP reductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23592, 
+                    "gene_endpos": 25082, 
+                    "gene_id": "AHX24713.1", 
+                    "gene_annotation": "putative peptide transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25098, 
+                    "gene_endpos": 25478, 
+                    "gene_id": "AHX24714.1", 
+                    "gene_annotation": "CurD-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25490, 
+                    "gene_endpos": 27076, 
+                    "gene_id": "AHX24715.1", 
+                    "gene_annotation": "FAD-binding monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27260, 
+                    "gene_endpos": 27943, 
+                    "gene_id": "AHX24716.1", 
+                    "gene_annotation": "LuxR family transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27940, 
+                    "gene_endpos": 29121, 
+                    "gene_id": "AHX24717.1", 
+                    "gene_annotation": "two-component system histidine kinase", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29300, 
+                    "gene_endpos": 30136, 
+                    "gene_id": "AHX24718.1", 
+                    "gene_annotation": "F420-dependent reductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30183, 
+                    "gene_endpos": 31214, 
+                    "gene_id": "AHX24719.1", 
+                    "gene_annotation": "putative methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31436, 
+                    "gene_endpos": 31963, 
+                    "gene_id": "AHX24720.1", 
+                    "gene_annotation": "biotin carboxyl carrier protein", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "ahx24701.1", 
+                "ahx24702.1", 
+                "ahx24703.1"
+            ], 
+            "ketide_length": 26, 
+            "cyclases": "AHX24699.1, AHX24700.1, AHX24704.1"
+        }
+    }
+}
+
+

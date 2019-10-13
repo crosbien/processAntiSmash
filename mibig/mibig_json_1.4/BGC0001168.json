@@ -1,0 +1,115 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Pablo Cruz Morales", 
+        "submitter_institution": "National Laboratory of genomics for biodiversity-CINVESTAV", 
+        "submitter_email": "pcruz@langebio.cinvestav.mx"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001168", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "23709624", 
+        "loci": {
+            "complete": "unknown", 
+            "nucl_acc": [
+                {
+                    "Accession": "CM001889", 
+                    "start_coord": 891947, 
+                    "end_coord": 896528, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Livipeptin", 
+                "chem_synonyms": [], 
+                "mol_mass": 347.16, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "Trypsin"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "SLI_0883", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 891947, 
+                    "gene_endpos": 894913, 
+                    "gene_id": "509516289", 
+                    "gene_annotation": "Adenylation and reductase domains containing protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of leupeptin production"
+                }, 
+                {
+                    "gene_name": "SLI_0884", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 894936, 
+                    "gene_endpos": 895718, 
+                    "gene_id": "509516290", 
+                    "gene_annotation": "Leucyl/Phenylalanil-tRNA-Protein transferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of leupeptin production"
+                }, 
+                {
+                    "gene_name": "SLI_0885", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 895746, 
+                    "gene_endpos": 896528, 
+                    "gene_id": "509516291", 
+                    "gene_annotation": "N-Acyl transferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of leupeptin production"
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Reductive release", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "509516289", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Arginine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "embargo": true
+}
+
+

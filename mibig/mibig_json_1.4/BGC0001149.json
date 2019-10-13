@@ -1,0 +1,173 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Harald Gross", 
+        "submitter_institution": "University of Tuebingen", 
+        "submitter_email": "harald.gross@uni-tuebingen.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001149", 
+        "biosyn_class": [
+            "NRP", 
+            "Saccharide"
+        ], 
+        "publications": "24436210", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CBLV010000330", 
+                    "start_coord": 196768, 
+                    "end_coord": 209553, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "brabantamide A", 
+                "chem_synonyms": [
+                    "sb-253514"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 8274723, 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "5,5-bicyclic carbamate", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "braA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 196768, 
+                    "gene_endpos": 198081, 
+                    "gene_id": "CDF96613.1", 
+                    "gene_annotation": "RhlB, TDP-rhamnosyltransferase 1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "BraB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 198177, 
+                    "gene_endpos": 205442, 
+                    "gene_id": "CDF96614.1", 
+                    "gene_annotation": "NRPS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "BraC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 205557, 
+                    "gene_endpos": 206720, 
+                    "gene_id": "CDF96615.1", 
+                    "gene_annotation": "FAD-dependent Baeyer\u2013Villiger monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "BraD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 207217, 
+                    "gene_endpos": 208044, 
+                    "gene_id": "CDF96616.1", 
+                    "gene_annotation": "LuxR-type transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "BraE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 208129, 
+                    "gene_endpos": 209553, 
+                    "gene_id": "CDF96617.1", 
+                    "gene_annotation": "RND efflux system", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other lipopeptide", 
+            "lipid_moiety": "3-OH tetradecanoic acid ", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Unknown", 
+            "nrps_thioesterase": [
+                "cdf96614.1"
+            ], 
+            "nrps_release_type": "Other", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "CDF96614.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Serine", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Starter", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Proline", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Saccharide": {
+            "saccharide_subclass": "hybrid/tailoring", 
+            "gt_genes": [
+                {
+                    "gt_gene": "CDF96613.1", 
+                    "gt_specificity": "D-rhamnose", 
+                    "evidence_gt_spec": "Structure-based inference", 
+                    "sugar_subcluster": "BN844_4693, BN844_4692, BN844_4691"
+                }
+            ]
+        }
+    }
+}
+
+

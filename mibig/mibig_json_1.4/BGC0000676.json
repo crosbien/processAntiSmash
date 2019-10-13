@@ -1,0 +1,180 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Hideaki Oikawa", 
+        "submitter_institution": "Hokkaido University", 
+        "submitter_email": "hoik@sci.hokudai.ac.jp"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000676", 
+        "biosyn_class": [
+            "Terpene"
+        ], 
+        "publications": "14745177", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AB114137", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "aphidicolin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "chEBI", 
+                    "chEMBL", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 457964, 
+                "chebi_id": 2766, 
+                "chembl_id": 29711, 
+                "chemspider_id": 10280269, 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "DNA polymerase alpha"
+            }, 
+            {
+                "compound": "Aphidicolan-16beta-ol", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "chEBI", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 443480, 
+                "chebi_id": 29519, 
+                "chemspider_id": 23106949, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "3-deoxyaphidicolin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 135046, 
+                "chemspider_id": 119001, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "17-deoxyaphidicolin", 
+                "chem_synonyms": [], 
+                "chem_struct": "C[C@@]1(CO)[C@H](O)CC[C@@]2(C)[C@@]1([H])CC[C@]3([H])[C@]2(CC[C@@]4(C)O)C[C@@]4([H])C3", 
+                "molecular_formula": "C20H34O3", 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "PbGGS", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 622, 
+                    "gene_endpos": 1653, 
+                    "gene_id": "BAD29970.1", 
+                    "gene_annotation": "geranylgeranyldiphosphate synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "ACS", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3293, 
+                    "gene_endpos": 6300, 
+                    "gene_id": "BAD29971.1", 
+                    "gene_annotation": "aphidicolan-16b-ol synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "PbP450-1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6699, 
+                    "gene_endpos": 8429, 
+                    "gene_id": "BAD29972.1", 
+                    "gene_annotation": "P450 monooxygenase 1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "PbTP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8957, 
+                    "gene_endpos": 10846, 
+                    "gene_id": "BAD29973.1", 
+                    "gene_annotation": "transporter protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "PbP450-2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11482, 
+                    "gene_endpos": 13230, 
+                    "gene_id": "BAD29974.1", 
+                    "gene_annotation": "P450 monooxygenase 2", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "PbTF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13451, 
+                    "gene_endpos": 14838, 
+                    "gene_id": "BAD29975.1", 
+                    "gene_annotation": "transcription factor", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Terpene": {
+            "terpene_subclass": "Other", 
+            "terpene_c_len": "Diterpene", 
+            "terpene_precursor": "GGPP", 
+            "terpene_synth_cycl": [
+                "bad29970"
+            ], 
+            "prenyl_transf": []
+        }
+    }
+}
+
+

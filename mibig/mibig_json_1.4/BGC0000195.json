@@ -1,0 +1,232 @@
+{
+    "version": "8", 
+    "personal": {
+        "submitter_name": "Mikko Metsa-Ketela", 
+        "submitter_institution": "University of Turku", 
+        "submitter_email": "mianme@utu.fi"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000195", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "18940666,22467789,22474343,23297194", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "EU852062", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "alnumycin A", 
+                "chem_synonyms": [
+                    "k1115 b1"
+                ], 
+                "chem_struct": "OC1=C2C(C=C(C)O[C@@H]2CCC)=CC3=C1C(C([C@]4([H])O[C@@H](CO)[C@H](O)CO4)=CC3=O)=O", 
+                "molecular_formula": "C22H25O8", 
+                "mol_mass": 416, 
+                "mass_ion_type": "M-", 
+                "chem_act": [
+                    "Unknown"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "dioxane", 
+                        "moiety_subcluster": [
+                            "aci88875.1", 
+                            "aci88874.1", 
+                            "aci88873.1", 
+                            "aci88870.1"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "alnumycin B", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC(O[C@@H]1CCC)=CC(C1=C2O)=CC3=C2C(C([C@@]4([H])O[C@@](CO[C@H]5O)([H])[C@@]5([H])O4)=CC3=O)=O", 
+                "molecular_formula": "C22H22O8", 
+                "mol_mass": 414.1328, 
+                "mass_ion_type": "M+", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "alnumycin C", 
+                "chem_synonyms": [
+                    "anhydroexfoliamycin"
+                ], 
+                "chem_struct": "CC(O[C@@H]1CCC)=CC(C1=C2O)=CC3=C2C(C([C@]4([H])O[C@H](CO)[C@@H](O)[C@H]4O)=CC3=O)=O", 
+                "molecular_formula": "C22H24O8", 
+                "mol_mass": 415.1394, 
+                "mass_ion_type": "M-", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "alnumycin P", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC(O[C@@H]1CCC)=CC(C1=C2O)=CC3=C2C(C([C@]4([H])O[C@H](COP([O-])([O-])=O)[C@@H](O)[C@H]4O)=CC3=O)=O", 
+                "molecular_formula": "C22H25O11P", 
+                "mol_mass": 495.1059, 
+                "mass_ion_type": "M-", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "prealnumycin", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC(O[C@@H]1CCC)=CC(C1=C2O)=CC3=C2C(C=CC3=O)=O", 
+                "molecular_formula": "C17H16O4", 
+                "mol_mass": 283, 
+                "mass_ion_type": "M-", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "thalnumycin A", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C(C(C2CC)=O)C(CC2(O)C)=CC3=CC=CC(O)=C31", 
+                "molecular_formula": "C17H17O4", 
+                "mol_mass": 285.1123, 
+                "mass_ion_type": "M-", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "thalnumycin B", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C(C(C2CC)=O)C(CC2(O)C)=CC3=C(O)C=CC(O)=C31", 
+                "molecular_formula": "C17H17O5", 
+                "mol_mass": 301.1082, 
+                "mass_ion_type": "M-", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "K1115A", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1C2=C(C=C(O)C(C(O)=O)=C2CCC)C(C3=CC=CC(O)=C31)=O", 
+                "molecular_formula": "C18H14O6", 
+                "mol_mass": 325, 
+                "mass_ion_type": "M-", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "1,6-dihydro-8-propylanthraquinone", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C1C2=C(C=C(O)C=C2CCC)C(C3=CC=CC(O)=C31)=O", 
+                "molecular_formula": "C17H14O4", 
+                "mol_mass": 281.0848, 
+                "mass_ion_type": "M-", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "alnA", 
+                    "gene_id": "ACI88875.1", 
+                    "gene_annotation": "prealnumycin C-ribosylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "prealnumycin"
+                }, 
+                {
+                    "gene_name": "alnB", 
+                    "gene_id": "ACI88874.1", 
+                    "gene_annotation": "alnumycin P phosphatase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "prealnumycin"
+                }, 
+                {
+                    "gene_name": "aln6", 
+                    "gene_id": "ACI88873.1", 
+                    "gene_annotation": "alnumycin C oxidase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "alnumycin C"
+                }, 
+                {
+                    "gene_name": "aln4", 
+                    "gene_id": "ACI88870.1", 
+                    "gene_annotation": "alnumycin B aldoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "alnumycin B"
+                }, 
+                {
+                    "gene_name": "alnT", 
+                    "gene_id": "ACI88867.1", 
+                    "gene_annotation": "quinone forming FMN-dependent mono-oxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "thalnumycin A"
+                }, 
+                {
+                    "gene_name": "alnH", 
+                    "gene_id": "ACI88884.1", 
+                    "gene_annotation": "flacin reductase", 
+                    "gene_function": "Activation / processing", 
+                    "mut_pheno": "thalnumycin A"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Butyryl-ACP", 
+            "pks_genes": [
+                "ACI88861.1"
+            ], 
+            "ketide_length": 8, 
+            "cyclases": "ACI88864.1,ACI88865.1,ACI88866.1"
+        }
+    }
+}
+

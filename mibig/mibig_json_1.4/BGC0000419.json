@@ -1,0 +1,732 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Dr. Evi Stegmann ", 
+        "submitter_institution": "University of Tuebingen, Department of Microbiology/Biotechnology", 
+        "submitter_email": "evi.stegmann@biotech.uni-tuebingen.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000419", 
+        "biosyn_class": [
+            "NRP", 
+            "Saccharide"
+        ], 
+        "publications": "25114137", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP008953", 
+                    "start_coord": 6816619, 
+                    "end_coord": 6885328, 
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Ristomycin A", 
+                "chem_synonyms": [
+                    "Ristocetin a"
+                    ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 16131418, 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "Cell wall, specifically the D-alanyl-D-alanine terminus of peptidoglycan", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "beta-hydroxytyrosine", 
+                        "moiety_subcluster": [
+                            "aig79223.1", 
+                            "aig79224.1", 
+                            "aig79225.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6817695, 
+                    "gene_endpos": 6816619, 
+                    "gene_id": "AIG79211.1", 
+                    "gene_annotation": "3-deoxy-7-phosphoheptulonate synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6818657, 
+                    "gene_endpos": 6817866, 
+                    "gene_id": "AIG79212.1", 
+                    "gene_annotation": "Enoyl-CoA Hydratase ", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6819868, 
+                    "gene_endpos": 6818654, 
+                    "gene_id": "AIG79213.1", 
+                    "gene_annotation": "3,5-Dihydroxyphenylacetyl-CoA oxydase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6820527, 
+                    "gene_endpos": 6819865, 
+                    "gene_id": "AIG79214.1", 
+                    "gene_annotation": "Enoyl-CoA Hydratase ", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6821621, 
+                    "gene_endpos": 6820521, 
+                    "gene_id": "AIG79215.1", 
+                    "gene_annotation": "3,5-Dihydroxyphenylacetyl-CoA synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6823547, 
+                    "gene_endpos": 6821820, 
+                    "gene_id": "AIG79216.1", 
+                    "gene_annotation": "Mannosyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6824326, 
+                    "gene_endpos": 6823709, 
+                    "gene_id": "AIG79217.1", 
+                    "gene_annotation": "dTDP-4-keto-6-deoxy-glucose-5-epimerase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6825455, 
+                    "gene_endpos": 6824346, 
+                    "gene_id": "AIG79218.1", 
+                    "gene_annotation": "C-3 aminotransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6826429, 
+                    "gene_endpos": 6825452, 
+                    "gene_id": "AIG79219.1", 
+                    "gene_annotation": "NAD-dependent epimerase/dehydratase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6827840, 
+                    "gene_endpos": 6826431, 
+                    "gene_id": "AIG79220.1", 
+                    "gene_annotation": "NDP-hexose 2,3-dehydratase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6828916, 
+                    "gene_endpos": 6827846, 
+                    "gene_id": "AIG79221.1", 
+                    "gene_annotation": "p-Hydroxymandelate oxidase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6829965, 
+                    "gene_endpos": 6828913, 
+                    "gene_id": "AIG79222.1", 
+                    "gene_annotation": "p-Hydroxymandelate synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6831266, 
+                    "gene_endpos": 6830076, 
+                    "gene_id": "AIG79223.1", 
+                    "gene_annotation": "P450 monooxygenase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6833014, 
+                    "gene_endpos": 6831281, 
+                    "gene_id": "AIG79224.1", 
+                    "gene_annotation": "Non-ribosomal peptide synthetase/andenylation domain", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6833835, 
+                    "gene_endpos": 6833011, 
+                    "gene_id": "AIG79225.1", 
+                    "gene_annotation": "Hydrolase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6833933, 
+                    "gene_endpos": 6835294, 
+                    "gene_id": " AIG79226.1", 
+                    "gene_annotation": "p-Hydroxy- and 3,5-dihydroxyphenylglycine aminotansferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6836671, 
+                    "gene_endpos": 6835631, 
+                    "gene_id": "AIG79227.1", 
+                    "gene_annotation": "Methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6838552, 
+                    "gene_endpos": 6836735, 
+                    "gene_id": "AIG79228.1", 
+                    "gene_annotation": "Mannosyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6839411, 
+                    "gene_endpos": 6838566, 
+                    "gene_id": "AIG79229.1", 
+                    "gene_annotation": "Inactive N-acetylglucosamine deacetylase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6840532, 
+                    "gene_endpos": 6839408, 
+                    "gene_id": "AIG79230.1", 
+                    "gene_annotation": "UDP-N-acetylglucosamine transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6841364, 
+                    "gene_endpos": 6840552, 
+                    "gene_id": "AIG79231.1", 
+                    "gene_annotation": "Methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6842604, 
+                    "gene_endpos": 6841390, 
+                    "gene_id": "AIG79232.1", 
+                    "gene_annotation": "UDP-N-acetylglucosamine transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6843837, 
+                    "gene_endpos": 6842620, 
+                    "gene_id": "AIG79233.1", 
+                    "gene_annotation": "UDP-N-acetylglucosamine transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6845016, 
+                    "gene_endpos": 6843859, 
+                    "gene_id": "AIG79234.1", 
+                    "gene_annotation": "UDP-N-acetylglucosamine transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6846270, 
+                    "gene_endpos": 6845029, 
+                    "gene_id": "AIG79235.1", 
+                    "gene_annotation": "P450 monooxygenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6847583, 
+                    "gene_endpos": 6846387, 
+                    "gene_id": "AIG79236.1", 
+                    "gene_annotation": "P450 monooxygenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6848730, 
+                    "gene_endpos": 6847573, 
+                    "gene_id": "AIG79237.1", 
+                    "gene_annotation": "P450 monooxygenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6849928, 
+                    "gene_endpos": 6848753, 
+                    "gene_id": "AIG79238.1", 
+                    "gene_annotation": "P450 monooxygenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6850367, 
+                    "gene_endpos": 6850158, 
+                    "gene_id": " AIG79239.1", 
+                    "gene_annotation": "Adenylation, loading of NRPS", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6855940, 
+                    "gene_endpos": 6850379, 
+                    "gene_id": " AIG79240.1", 
+                    "gene_annotation": "Non-ribosomal peptide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6868081, 
+                    "gene_endpos": 6856097, 
+                    "gene_id": " AIG79241.1", 
+                    "gene_annotation": "Non-ribosomal peptide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6871558, 
+                    "gene_endpos": 6868406, 
+                    "gene_id": "AIG79242.1", 
+                    "gene_annotation": "Non-ribosomal peptide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6877743, 
+                    "gene_endpos": 6871555, 
+                    "gene_id": "AIG79243.1", 
+                    "gene_annotation": "Non-ribosomal peptide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6879698, 
+                    "gene_endpos": 6877746, 
+                    "gene_id": " AIG79244.1", 
+                    "gene_annotation": "ABC transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6880710, 
+                    "gene_endpos": 6879880, 
+                    "gene_id": "AIG79245.1", 
+                    "gene_annotation": "Prephenate dehydrogenase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6881813, 
+                    "gene_endpos": 6880848, 
+                    "gene_id": "AIG79246.1", 
+                    "gene_annotation": "StrR-like regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6883394, 
+                    "gene_endpos": 6882786, 
+                    "gene_id": "AIG79247.1", 
+                    "gene_annotation": "D-Ala-D-Ala dipeptidase", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6884430, 
+                    "gene_endpos": 6883384, 
+                    "gene_id": "AIG79248.1", 
+                    "gene_annotation": "D-Ala-D-Lac ligase", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6885328, 
+                    "gene_endpos": 6884432, 
+                    "gene_id": "AIG79249.1", 
+                    "gene_annotation": "D-Lactate dehydrogenase", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Glycopeptide", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_te_type": "Unknown", 
+            "nrps_thioesterase": [
+                "aig79240.1"
+            ], 
+            "nrps_release_type": "None", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AIG79243.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Hydroxyphenylglycine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Beta-hydroxytyrosine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AIG79242.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "3,5-Dihydroxyphenylglycine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AIG79241.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "4-Hydroxyphenylglycine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "4-Hydroxyphenylglycine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Beta-hydroxytyrosine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AIG79240.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "6", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "7", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "3,5-Dihydroxyphenylglycine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Saccharide": {
+                "saccharide_subclass": "other",
+                "gt_genes": [
+                {
+                    "gt_gene": "ABJ90158.1",
+                    "gt_specificity": "D-galacturonic acid",
+                    "evidence_gt_spec": "Activity assay",
+                    "sugar_subcluster": "moeE5"
+                }
+            ]
+        }
+    }
+}
+
+
+

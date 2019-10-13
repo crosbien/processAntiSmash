@@ -1,0 +1,315 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Kapil Tahlan", 
+        "submitter_institution": "Memorial University of Newfoundland", 
+        "submitter_email": "ktahlan@mun.ca"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000843", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "22435762,1472501,10223939,2207091,15644894,17317567", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CM000913", 
+                    "start_coord": 3437628, 
+                    "end_coord": 3461293, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Alanylclavam", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 194618, 
+                "chemspider_id": 168852, 
+                "chem_act": [
+                    "Antifungal"
+                ]
+            }, 
+            {
+                "compound": "2-Hydroxymethylclavam", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 3050259, 
+                "chemspider_id": 2312342, 
+                "chem_act": [
+                    "Antifungal"
+                ]
+            }, 
+            {
+                "compound": "2-Formyloxymethylclavam", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 46173888, 
+                "chem_act": [
+                    "Antifungal"
+                ]
+            }, 
+            {
+                "compound": "Clavam-2-carboxylate", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 15573391, 
+                "chem_act": [
+                    "Antifungal"
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "07991.1", 
+                        "efg07992.1", 
+                        "efg07993.1", 
+                        "efg07994.1", 
+                        "efg07995.1", 
+                        "efg07996.1", 
+                        "efg07997.1", 
+                        "efg07998.1efg", 
+                        "07999.1", 
+                        "efg08000.1", 
+                        "efg08001.1", 
+                        "efg08002.1", 
+                        "efg08003.1", 
+                        "efg08004.1", 
+                        "efg08005.1", 
+                        "efg08006.1"
+                    ], 
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "cvm10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3437628, 
+                    "gene_endpos": 3439310, 
+                    "gene_id": "EFG07991.1", 
+                    "gene_annotation": "Putative serine-threonine protein kinase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3439374, 
+                    "gene_endpos": 3439922, 
+                    "gene_id": "EFG07992.1", 
+                    "gene_annotation": "DNA-binding protein", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3440280, 
+                    "gene_endpos": 3441638, 
+                    "gene_id": "EFG07993.1", 
+                    "gene_annotation": "Putative pyridoxal phosphate-dependent aminotransferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3441923, 
+                    "gene_endpos": 3443107, 
+                    "gene_id": "EFG07994.1", 
+                    "gene_annotation": "Flavin-dependent oxidoreductase, F420-dependent methylene-tetrahydromethanopterin reductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Unable to produce mature clavams"
+                }, 
+                {
+                    "gene_name": "cvm4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3443162, 
+                    "gene_endpos": 3444148, 
+                    "gene_id": "EFG07995.1", 
+                    "gene_annotation": "Alpha/beta hydrolase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cas1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3444600, 
+                    "gene_endpos": 3445574, 
+                    "gene_id": "EFG07996.1", 
+                    "gene_annotation": "Clavaminate synthase 1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Limits clavam production"
+                }, 
+                {
+                    "gene_name": "cvm1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3446153, 
+                    "gene_endpos": 3447187, 
+                    "gene_id": "EFG07997.1", 
+                    "gene_annotation": "Aldo/keto reductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Abolishes clavam production"
+                }, 
+                {
+                    "gene_name": "cvm2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3447624, 
+                    "gene_endpos": 3448079, 
+                    "gene_id": "EFG07998.1", 
+                    "gene_annotation": "Hypothetical protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Limits clavam production"
+                }, 
+                {
+                    "gene_name": "cvm3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3448076, 
+                    "gene_endpos": 3448586, 
+                    "gene_id": "EFG07999.1", 
+                    "gene_annotation": "Flavin reductase-like protein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Reduces flavin"
+                }, 
+                {
+                    "gene_name": "cvm7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3448733, 
+                    "gene_endpos": 3452077, 
+                    "gene_id": "EFG08000.1", 
+                    "gene_annotation": "DnrI/RedD/AfsR-family transcriptional regulator", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "knock-out has no effect on production"
+                }, 
+                {
+                    "gene_name": "cvm11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3452469, 
+                    "gene_endpos": 3453119, 
+                    "gene_id": "EFG08001.1", 
+                    "gene_annotation": "Putative translocator", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm12", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3453420, 
+                    "gene_endpos": 3454757, 
+                    "gene_id": "EFG08002.1", 
+                    "gene_annotation": "Putative transcriptional regulatory protein", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvm13", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3454884, 
+                    "gene_endpos": 3456056, 
+                    "gene_id": "EFG08003.1", 
+                    "gene_annotation": "Beta-aspartyl-peptidase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvmH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3457202, 
+                    "gene_endpos": 3458158, 
+                    "gene_id": "EFG08004.1", 
+                    "gene_annotation": "LanU-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvmP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3458289, 
+                    "gene_endpos": 3460352, 
+                    "gene_id": "EFG08005.1", 
+                    "gene_annotation": "putative protein-arginine deiminase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cvmG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3460571, 
+                    "gene_endpos": 3461293, 
+                    "gene_id": "EFG08006.1", 
+                    "gene_annotation": "Hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Non-NRP beta-lactam"
+        }
+    }
+}
+
+

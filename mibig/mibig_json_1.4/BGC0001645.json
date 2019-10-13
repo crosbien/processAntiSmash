@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "lagmysin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 35073, 
+                    "Accession": "NZ_KL591029", 
+                    "start_coord": 29465
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001645", 
+        "publications": [
+            "28244986"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

@@ -1,0 +1,876 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Zhe Rui", 
+        "submitter_institution": "UC Berkeley", 
+        "submitter_email": "ruizhebio@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000187", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "25489112", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "GQ926890.1", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "asukamycin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 6441014, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Cytotoxic", 
+                    "Pigment"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "3-amino-4-hydroxybenzoic acid", 
+                        "moiety_subcluster": [
+                            "adi58644.1", 
+                            "adi58643.1", 
+                            "adi58653.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "2-amino-4-hydroxy-5,6-epoxycyclohex-2-enone", 
+                        "moiety_subcluster": [
+                            "adi58644.1", 
+                            "adi58643.1", 
+                            "adi58653.1", 
+                            "adi58628.1", 
+                            "adi58638.1", 
+                            "adi58648.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "cyclohexylcarbonyl group", 
+                        "moiety_subcluster": [
+                            "adi58632.1", 
+                            "adi58631.1", 
+                            "adi58630.1", 
+                            "adi58629.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "2-amino-3-hydroxycyclopent-2-enone", 
+                        "moiety_subcluster": [
+                            "adi58645.1", 
+                            "adi58646.1", 
+                            "adi58647.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29, 
+                    "gene_endpos": 1096, 
+                    "gene_id": "ADI58659.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1341, 
+                    "gene_endpos": 1643, 
+                    "gene_id": "ADI58660.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1866, 
+                    "gene_endpos": 3689, 
+                    "gene_id": "ADI58661.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3689, 
+                    "gene_endpos": 4354, 
+                    "gene_id": "ADI58662.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4347, 
+                    "gene_endpos": 5102, 
+                    "gene_id": "ADI58663.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5099, 
+                    "gene_endpos": 5866, 
+                    "gene_id": "ADI58664.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5853, 
+                    "gene_endpos": 7118, 
+                    "gene_id": "ADI58665.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7370, 
+                    "gene_endpos": 7933, 
+                    "gene_id": "ADI58666.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8052, 
+                    "gene_endpos": 8630, 
+                    "gene_id": "ADI58667.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8737, 
+                    "gene_endpos": 9168, 
+                    "gene_id": "ADI58668.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9251, 
+                    "gene_endpos": 10393, 
+                    "gene_id": "ADI58669.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10390, 
+                    "gene_endpos": 10692, 
+                    "gene_id": "ADI58670.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10698, 
+                    "gene_endpos": 11426, 
+                    "gene_id": "ADI58671.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11463, 
+                    "gene_endpos": 13016, 
+                    "gene_id": "ADI58672.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13013, 
+                    "gene_endpos": 14686, 
+                    "gene_id": "ADI58673.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14761, 
+                    "gene_endpos": 16332, 
+                    "gene_id": "ADI58674.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16427, 
+                    "gene_endpos": 17881, 
+                    "gene_id": "ADI58675.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18185, 
+                    "gene_endpos": 19852, 
+                    "gene_id": "ADI58676.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19965, 
+                    "gene_endpos": 20771, 
+                    "gene_id": "ADI58677.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20849, 
+                    "gene_endpos": 21142, 
+                    "gene_id": "ADI58678.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21139, 
+                    "gene_endpos": 22389, 
+                    "gene_id": "ADI58679.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22419, 
+                    "gene_endpos": 23357, 
+                    "gene_id": "ADI58680.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23354, 
+                    "gene_endpos": 23872, 
+                    "gene_id": "ADI58681.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23921, 
+                    "gene_endpos": 24289, 
+                    "gene_id": "ADI58682.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24430, 
+                    "gene_endpos": 24885, 
+                    "gene_id": "ADI58683.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "orf26", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25156, 
+                    "gene_endpos": 25386, 
+                    "gene_id": "ADI58684.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "asuR4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25411, 
+                    "gene_endpos": 25836, 
+                    "gene_id": "ADI58623.1", 
+                    "gene_annotation": "Transcriptional regulation", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "asuR3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25976, 
+                    "gene_endpos": 26899, 
+                    "gene_id": "ADI58624.1", 
+                    "gene_annotation": "Transcriptional regulation", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "asuR2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26960, 
+                    "gene_endpos": 27535, 
+                    "gene_id": "ADI58625.1", 
+                    "gene_annotation": "Transcriptional regulation", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "asuR1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27554, 
+                    "gene_endpos": 28204, 
+                    "gene_id": "ADI58626.1", 
+                    "gene_annotation": "Transcriptional regulation", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "asuC1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 28309, 
+                    "gene_endpos": 28968, 
+                    "gene_id": "ADI58627.1", 
+                    "gene_annotation": "Phosphopantetheinyl transferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "asuE1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29329, 
+                    "gene_endpos": 30552, 
+                    "gene_id": "ADI58628.1", 
+                    "gene_annotation": "Protoasukamycin 4-hydroxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The asuE1 mutant failed to produce asukamycin A1. The asuE1 mutant accumulated protoasukamycin C1 and its congeners C2\u2013C5."
+                }, 
+                {
+                    "gene_name": "asuB4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30611, 
+                    "gene_endpos": 32614, 
+                    "gene_id": "ADI58629.1", 
+                    "gene_annotation": "2,4-DienoylCoA reductase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "asuB3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 32658, 
+                    "gene_endpos": 33491, 
+                    "gene_id": "ADI58630.1", 
+                    "gene_annotation": "1-Cyclohexenylcarbonyl CoA reductase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "AsuB2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33488, 
+                    "gene_endpos": 34672, 
+                    "gene_id": "ADI58631.1", 
+                    "gene_annotation": "Acyl-CoA dehydrogenase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "asuB1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 34669, 
+                    "gene_endpos": 37620, 
+                    "gene_id": "ADI58632.1", 
+                    "gene_annotation": "5-Enolpyruvylshikimate-3-phosphate synthase/CHC-CoA ligase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The asuB1 mutant failed to produce asukamycin A1, but titers of the asukamycin congeners A2\u2013A7 were increased 3-fold compared with the wild type strain. Three new compounds, A8, B8, and C8, were accumulated."
+                }, 
+                {
+                    "gene_name": "asuC5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 37663, 
+                    "gene_endpos": 37917, 
+                    "gene_id": "ADI58633.1", 
+                    "gene_annotation": "Asukamycin KSIII associated ACP", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "asuC4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 37928, 
+                    "gene_endpos": 39013, 
+                    "gene_id": "ADI58634.1", 
+                    "gene_annotation": "Asukamycin ketosynthase III", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The asuC3/C4 mutant only retained 0.9% asukamycin A1 and 30.0% congeners A2\u2013A7 relative to the wild type strain yield. The trace asukamycin A1 possibly results from the functional complementation by the cellular FabH of fatty acid biosynthesis."
+                }, 
+                {
+                    "gene_name": "asuC3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 39010, 
+                    "gene_endpos": 40026, 
+                    "gene_id": "ADI58635.1", 
+                    "gene_annotation": "Asukamycin ketosynthase III", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The asuC3/C4 mutant only retained 0.9% asukamycin A1 and 30.0% congeners A2\u2013A7 relative to the wild type strain yield. The trace asukamycin A1 possibly results from the functional complementation by the cellular FabH of fatty acid biosynthesis."
+                }, 
+                {
+                    "gene_name": "AsuC2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 40108, 
+                    "gene_endpos": 40917, 
+                    "gene_id": "ADI58636.1", 
+                    "gene_annotation": "Arylamine N-acyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The production of asukamycin was completely blocked in the asuC2 mutant. Instead, the N-acetylated compounds A8, B8, and C8 were accumulated."
+                }, 
+                {
+                    "gene_name": "asuC6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 41274, 
+                    "gene_endpos": 41729, 
+                    "gene_id": "ADI58637.1", 
+                    "gene_annotation": "Thioesterase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "asuE2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 41746, 
+                    "gene_endpos": 42303, 
+                    "gene_id": "ADI58638.1", 
+                    "gene_annotation": "Flavin reducatse", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "The asuE2 mutant produced asukamycin A1 in considerably lower yield than the wild type strain but accumulated major amounts of the protoasukamycins C1\u2013C5."
+                }, 
+                {
+                    "gene_name": "asuC7", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 42365, 
+                    "gene_endpos": 43069, 
+                    "gene_id": "ADI58639.1", 
+                    "gene_annotation": "Ketoreductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "asuC10", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43147, 
+                    "gene_endpos": 43431, 
+                    "gene_id": "ADI58640.1", 
+                    "gene_annotation": "Unknown", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "asuC9", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43428, 
+                    "gene_endpos": 43880, 
+                    "gene_id": "ADI58641.1", 
+                    "gene_annotation": "Acyl dehydratase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "asuC8", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43877, 
+                    "gene_endpos": 44335, 
+                    "gene_id": "ADI58642.1", 
+                    "gene_annotation": "Acyl dehydratase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "asuA2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 44332, 
+                    "gene_endpos": 45747, 
+                    "gene_id": "ADI58643.1", 
+                    "gene_annotation": "3,4-AHBA carboxyl group adenylation", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "The asuA2 mutant failed to produce any asukamycins but accumulated 3,4-AHBA."
+                }, 
+                {
+                    "gene_name": "asuA1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 45867, 
+                    "gene_endpos": 46985, 
+                    "gene_id": "ADI58644.1", 
+                    "gene_annotation": "3,4-AHBA synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Neither 3,4-AHBA nor asukamycin were detected in the cultures of asuA1 mutants."
+                }, 
+                {
+                    "gene_name": "asuD1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 47448, 
+                    "gene_endpos": 49043, 
+                    "gene_id": "ADI58645.1", 
+                    "gene_annotation": "Amide synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "All of the asuD1, D2, and D3 mutants failed to produce asukamycin but accumulated a new set of metabolites, A1a\u2013A5a, which carry a free carboxyl group in place of the amide-linked C5N moiety of A1\u2013A5, respectively."
+                }, 
+                {
+                    "gene_name": "asuD2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 49040, 
+                    "gene_endpos": 50269, 
+                    "gene_id": "ADI58646.1", 
+                    "gene_annotation": "2-Oxoamine synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "All of the asuD1, D2, and D3 mutants failed to produce asukamycin but accumulated a new set of metabolites, A1a\u2013A5a, which carry a free carboxyl group in place of the amide-linked C5N moiety of A1\u2013A5, respectively."
+                }, 
+                {
+                    "gene_name": "asuD3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 50506, 
+                    "gene_endpos": 51912, 
+                    "gene_id": "ADI58647.1", 
+                    "gene_annotation": "5-Aminolevulinate CoA ligase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "All of the asuD1, D2, and D3 mutants failed to produce asukamycin but accumulated a new set of metabolites, A1a\u2013A5a, which carry a free carboxyl group in place of the amide-linked C5N moiety of A1\u2013A5, respectively."
+                }, 
+                {
+                    "gene_name": "asuE3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 51995, 
+                    "gene_endpos": 53110, 
+                    "gene_id": "ADI58648.1", 
+                    "gene_annotation": "4-Hydroxyprotoasukamycin epoxidase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "The asuE3 mutant fails to produce asukamycin. The asuE3 mutant accumulates 4-hydroxyprotoasukamycin."
+                }, 
+                {
+                    "gene_name": "asuC14", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 53157, 
+                    "gene_endpos": 53879, 
+                    "gene_id": "ADI58649.1", 
+                    "gene_annotation": "Ketosynthase I/II", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The asuC13 mutant failed to produce any asukamycins and accumulated 3,4-AHBA."
+                }, 
+                {
+                    "gene_name": "asuC13", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 53935, 
+                    "gene_endpos": 55116, 
+                    "gene_id": "ADI58650.1", 
+                    "gene_annotation": "Ketosynthase I/II", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "asuC12", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 55118, 
+                    "gene_endpos": 55381, 
+                    "gene_id": "ADI58651.1", 
+                    "gene_annotation": "3,4-AHBA carrier protein", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "The asuC11/C12 mutant failed to produce asukamycin but accumulated 3,4-AHBA."
+                }, 
+                {
+                    "gene_name": "asuC11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 55378, 
+                    "gene_endpos": 55653, 
+                    "gene_id": "ADI58652.1", 
+                    "gene_annotation": "KSI/II associated ACP", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The asuC11/C12 mutant failed to produce asukamycin but accumulated 3,4-AHBA."
+                }, 
+                {
+                    "gene_name": "asuA3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 55734, 
+                    "gene_endpos": 56570, 
+                    "gene_id": "ADI58653.1", 
+                    "gene_annotation": "Condensation of L-aspartate-4-semialdehyde and dihydroxyacetone phosphate", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Neither 3,4-AHBA nor asukamycin were detected in the cultures of asuA3 mutants."
+                }, 
+                {
+                    "gene_name": "asuC15", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 56829, 
+                    "gene_endpos": 57611, 
+                    "gene_id": "ADI58654.1", 
+                    "gene_annotation": "Type II thioesterase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "The asuC15 mutant produced a normal amount of asukamycin A1, yet the yield of the congeners A2\u2013A7 was significantly reduced."
+                }, 
+                {
+                    "gene_name": "asuM1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 57721, 
+                    "gene_endpos": 59259, 
+                    "gene_id": "ADI58655.1", 
+                    "gene_annotation": "Asukamycin exporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "asuR5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 59539, 
+                    "gene_endpos": 60303, 
+                    "gene_id": "ADI58657.1", 
+                    "gene_annotation": "Transcriptional regulation", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "asuH1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 60425, 
+                    "gene_endpos": 61579, 
+                    "gene_id": "ADI58656.1", 
+                    "gene_annotation": "Hypothetical", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "asuR6", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 61590, 
+                    "gene_endpos": 62432, 
+                    "gene_id": "ADI58658.1", 
+                    "gene_annotation": "Transcriptional regulation", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Polyene", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Other", 
+            "pks_genes": [
+                "adi58634.1", 
+                "adi58635.1", 
+                "adi58649.1", 
+                "adi58650.1"
+            ], 
+            "ketide_length": 6
+        }
+    }, 
+    "comments": "3-amino-4-hydroxybenzoic acid is the precursor for 2-amino-4-hydroxy-5,6-epoxycyclohex-2-enone"
+}
+
+

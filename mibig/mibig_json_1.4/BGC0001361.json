@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 46187193, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "sodorifen"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2262237, 
+                    "Accession": "CP006250", 
+                    "start_coord": 2257658
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001361", 
+        "publications": [
+            "27231241", 
+            "27242752"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

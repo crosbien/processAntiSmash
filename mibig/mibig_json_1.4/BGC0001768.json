@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CC(C)C[C@@H]1NC(=O)[C@@H](NC(=O)[C@H](CC(C)C)OC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC2=CC=CC=C2)NC1=O)C(C)C", 
+                "compound": "sansalvamide"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 504188, 
+                    "Accession": "NW_003315863", 
+                    "start_coord": 476075
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001768", 
+        "publications": [
+            "26936154"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

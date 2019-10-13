@@ -1,0 +1,497 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Sean Brady", 
+        "submitter_institution": "The Rockefeller University", 
+        "submitter_email": "sbrady@rockefeller.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000274", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "23157252", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "JX843821", 
+                    "start_coord": 1, 
+                    "end_coord": 34510, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Tetarimycin A", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=CC(O)=C(C(C(C(C(C(C)=CC(O)=C2)=C2C3=O)=O)=C3C4(C)C)=O)C4=C1", 
+                "molecular_formula": "C21H16O6", 
+                "mol_mass": 364.0947, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }, 
+            {
+                "compound": "Tetarimycin B", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=CC(O)=C(C(C(C(O)=C(C(O)(C)CC(O)C2)C2=C3)=C3C4(C)C)=O)C4=C1", 
+                "molecular_formula": "C21H22O6", 
+                "mol_mass": 370.1416, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 567, 
+                    "gene_id": "AFY23013.1", 
+                    "gene_annotation": "transcriptional regulator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 603, 
+                    "gene_endpos": 1346, 
+                    "gene_id": "AFY23014.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 1300, 
+                    "gene_endpos": 2109, 
+                    "gene_id": "AFY23015.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 2184, 
+                    "gene_endpos": 3359, 
+                    "gene_id": "AFY23016.1", 
+                    "gene_annotation": "L-carnitine dehydratase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 3356, 
+                    "gene_endpos": 4507, 
+                    "gene_id": "AFY23017.1", 
+                    "gene_annotation": "isovaleryl-CoA dehydrogenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 4780, 
+                    "gene_endpos": 5850, 
+                    "gene_id": "AFY23018.1", 
+                    "gene_annotation": "unknown", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 5862, 
+                    "gene_endpos": 6881, 
+                    "gene_id": "AFY23019.1", 
+                    "gene_annotation": "cellulose-binding family protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 6907, 
+                    "gene_endpos": 8376, 
+                    "gene_id": "AFY23020.1", 
+                    "gene_annotation": "betaine aldehyde dehydrogenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 8421, 
+                    "gene_endpos": 9137, 
+                    "gene_id": "AFY23021.1", 
+                    "gene_annotation": "methyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 9305, 
+                    "gene_endpos": 10219, 
+                    "gene_id": "AFY23022.1", 
+                    "gene_annotation": "AraC family transcriptional regulator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 10284, 
+                    "gene_endpos": 11435, 
+                    "gene_id": "AFY23023.1", 
+                    "gene_annotation": "hydrolase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 11770, 
+                    "gene_endpos": 12234, 
+                    "gene_id": "AFY23024.1", 
+                    "gene_annotation": "short-chain dehydrogenase/reductase SDR", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 12568, 
+                    "gene_endpos": 13569, 
+                    "gene_id": "AFY23025.1", 
+                    "gene_annotation": "putative N-methyltransferase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 13566, 
+                    "gene_endpos": 14051, 
+                    "gene_id": "AFY23026.1", 
+                    "gene_annotation": "putative phenazine biosynthesis protein EsmA1", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 14073, 
+                    "gene_endpos": 14384, 
+                    "gene_id": "AFY23027.1", 
+                    "gene_annotation": "putative phenazine biosynthesis protein EsmH1", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 14406, 
+                    "gene_endpos": 15026, 
+                    "gene_id": "AFY23028.1", 
+                    "gene_annotation": "phenazine biosynthesis protein PhzD", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 15231, 
+                    "gene_endpos": 15437, 
+                    "gene_id": "AFY23029.1", 
+                    "gene_annotation": "XRE family transcriptional regulator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 15437, 
+                    "gene_endpos": 15916, 
+                    "gene_id": "AFY23030.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16135, 
+                    "gene_endpos": 17955, 
+                    "gene_id": "AFY23032.1", 
+                    "gene_annotation": "TamA", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17969, 
+                    "gene_endpos": 18181, 
+                    "gene_id": "AFY23031.1", 
+                    "gene_annotation": "30S ribosomal protein S1", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18223, 
+                    "gene_endpos": 19086, 
+                    "gene_id": "AFY23033.1", 
+                    "gene_annotation": "TamB", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19086, 
+                    "gene_endpos": 20123, 
+                    "gene_id": "AFY23034.1", 
+                    "gene_annotation": "TamC", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20209, 
+                    "gene_endpos": 20778, 
+                    "gene_id": "AFY23035.1", 
+                    "gene_annotation": "TamD", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20859, 
+                    "gene_endpos": 21479, 
+                    "gene_id": "AFY23036.1", 
+                    "gene_annotation": "TamE", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21503, 
+                    "gene_endpos": 22918, 
+                    "gene_id": "AFY23037.1", 
+                    "gene_annotation": "TamF", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23088, 
+                    "gene_endpos": 23522, 
+                    "gene_id": "AFY23038.1", 
+                    "gene_annotation": "TamG", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23564, 
+                    "gene_endpos": 24388, 
+                    "gene_id": "AFY23039.1", 
+                    "gene_annotation": "TamH", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24437, 
+                    "gene_endpos": 26308, 
+                    "gene_id": "AFY23040.1", 
+                    "gene_annotation": "TamI", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26357, 
+                    "gene_endpos": 26794, 
+                    "gene_id": "AFY23041.1", 
+                    "gene_annotation": "TamJ", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26791, 
+                    "gene_endpos": 27024, 
+                    "gene_id": "AFY23042.1", 
+                    "gene_annotation": "TamK", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27021, 
+                    "gene_endpos": 28247, 
+                    "gene_id": "AFY23043.1", 
+                    "gene_annotation": "TamL", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 28247, 
+                    "gene_endpos": 29503, 
+                    "gene_id": "AFY23044.1", 
+                    "gene_annotation": "TamM", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29516, 
+                    "gene_endpos": 30274, 
+                    "gene_id": "AFY23045.1", 
+                    "gene_annotation": "TamN", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30258, 
+                    "gene_endpos": 31313, 
+                    "gene_id": "AFY23046.1", 
+                    "gene_annotation": "TamO", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31360, 
+                    "gene_endpos": 34431, 
+                    "gene_id": "AFY23047.1", 
+                    "gene_annotation": "TamP", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Anthracycline", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "afy23042.1"
+            ], 
+            "ketide_length": 20, 
+            "cyclases": "AFY23038.1, AFY23039.1"
+        }
+    }
+}
+
+

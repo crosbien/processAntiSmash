@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CCCCCCCC(=O)NCC(C(C)C)N(N=O)O", 
+                "compound": "fragin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 231743, 
+                    "Accession": "HG938371", 
+                    "start_coord": 222371
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001599", 
+        "publications": [
+            "29602945"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

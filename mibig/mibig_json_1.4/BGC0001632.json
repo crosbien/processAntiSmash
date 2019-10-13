@@ -1,0 +1,30 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "C[C@H]([C@H]1C(=O)N2CCC[C@H]2C(=O)N3[C@@H](C[C@@]4([C@H]3NC5=CC=CC=C54)CC=C(C)C)C(=O)N[C@H](C(=O)N[C@H](C(=O)NCC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N6[C@@H](C[C@@]7([C@H]6NC8=CC=CC=C87)CC=C(C)C)C(=O)N[C@H](C(=O)N1)CO)CC(=O)N)CC(=O)N)CC(=O)O)CC(=O)N)CC(C)C)O", 
+                "compound": "kawaguchipeptin A"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 105011, 
+                    "Accession": "JXYX01000010", 
+                    "start_coord": 99832
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001632", 
+        "RiPP": {
+            "ripp_subclass": "Other"
+        }, 
+        "publications": [
+            "26846478"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

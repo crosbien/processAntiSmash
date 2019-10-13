@@ -1,0 +1,414 @@
+{
+    "version": "14", 
+    "personal": {
+        "submitter_name": "Daniel Edwards", 
+        "submitter_institution": "California State University, Chico", 
+        "submitter_email": "djedwards@csuchico.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001001", 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ], 
+        "publications": "21393570,19951434,19494914,16460000", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AY522504", 
+                    "start_coord": 6630, 
+                    "end_coord": 63646, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Jamaicamide", 
+                "chem_synonyms": [
+                    "jamaicamide a"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 49787031, 
+                "chem_act": [
+                    "Other"
+                ], 
+                "chem_target": "Sodium channel blocking"
+            }, 
+            {
+                "compound": "Jamaicamide b", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 49787032, 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "Sodium channel blocking", 
+                "chem_target": "Sodium channel blocking"
+            }, 
+            {
+                "compound": "jamaicamide c", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 49787033, 
+                "chem_act": [
+                    "Other"
+                ], 
+                "chem_target": "Sodium channel blocking"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 2415, 
+                    "gene_id": "AAS98794.1", 
+                    "gene_annotation": "sucrose synthase", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2460, 
+                    "gene_endpos": 2813, 
+                    "gene_id": "AAS98795.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3126, 
+                    "gene_endpos": 3749, 
+                    "gene_id": "AAS98796.1", 
+                    "gene_annotation": "putative transposase", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4382, 
+                    "gene_endpos": 4957, 
+                    "gene_id": "AAS98797.1", 
+                    "gene_annotation": "transposase", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "jamA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6630, 
+                    "gene_endpos": 8408, 
+                    "gene_id": "AAS98774.1", 
+                    "gene_annotation": "Acyl-ACP Synthetase", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "jamB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8591, 
+                    "gene_endpos": 9556, 
+                    "gene_id": "AAS98775.1", 
+                    "gene_annotation": "Desaturase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "jamC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9718, 
+                    "gene_endpos": 10020, 
+                    "gene_id": "AAS98798.1", 
+                    "gene_annotation": "acyl carrier protein", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "jamD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10463, 
+                    "gene_endpos": 12514, 
+                    "gene_id": "AAS98776.1", 
+                    "gene_annotation": "Putative bromination enzyme", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Halogenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "jamE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12596, 
+                    "gene_endpos": 17788, 
+                    "gene_id": "AAS98777.1", 
+                    "gene_annotation": "polyketide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "jamF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17811, 
+                    "gene_endpos": 18050, 
+                    "gene_id": "AAS98799.1", 
+                    "gene_annotation": "acyl carrier protein", 
+                    "gene_function": "Activation / processing", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "jamG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18222, 
+                    "gene_endpos": 19448, 
+                    "gene_id": "AAS98778.1", 
+                    "gene_annotation": "ketosynthase/decarboxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Decarboxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "jamH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19453, 
+                    "gene_endpos": 20712, 
+                    "gene_id": "AAS98779.1", 
+                    "gene_annotation": "hydroxymethyl glutaryl-ACP synthase like activity", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "jamI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20982, 
+                    "gene_endpos": 21746, 
+                    "gene_id": "AAS98780.1", 
+                    "gene_annotation": "enoyl hydratase family", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydration", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "jamJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21734, 
+                    "gene_endpos": 31642, 
+                    "gene_id": "AAS98781.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "jamK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31659, 
+                    "gene_endpos": 36752, 
+                    "gene_id": "AAS98782.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "jamL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 36820, 
+                    "gene_endpos": 48627, 
+                    "gene_id": "AAS98783.1", 
+                    "gene_annotation": "polyketide synthase/nonribosomal peptide synthase hybrid", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "jamM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 48697, 
+                    "gene_endpos": 51696, 
+                    "gene_id": "AAS98784.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "jamN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 51811, 
+                    "gene_endpos": 53277, 
+                    "gene_id": "AAS98785.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "jamO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 53274, 
+                    "gene_endpos": 56750, 
+                    "gene_id": "AAS98786.1", 
+                    "gene_annotation": "nonribosomal peptide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "jamP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 56771, 
+                    "gene_endpos": 62197, 
+                    "gene_id": "AAS98787.1", 
+                    "gene_annotation": "polyketide synthase/thioesterase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "jamQ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 62318, 
+                    "gene_endpos": 63646, 
+                    "gene_id": "AAS98788.1", 
+                    "gene_annotation": "cyclization enzyme", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Heterocyclization", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 64050, 
+                    "gene_endpos": 64766, 
+                    "gene_id": "AAS98789.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 64894, 
+                    "gene_endpos": 65517, 
+                    "gene_id": "AAS98790.1", 
+                    "gene_annotation": "putative transposase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 66175, 
+                    "gene_endpos": 66621, 
+                    "gene_id": "AAS98792.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 67688, 
+                    "gene_endpos": 68833, 
+                    "gene_id": "AAS98791.1", 
+                    "gene_annotation": "choloylglycine hydrolase-like protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 68839, 
+                    "gene_endpos": 69279, 
+                    "gene_id": "AAS98793.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_genes": [], 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "None"
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Other", 
+            "mod_pks_genes": [], 
+            "pks_te_type": "Unknown", 
+            "pks_release_type": "Macrolactamization"
+        }
+    }
+}
+

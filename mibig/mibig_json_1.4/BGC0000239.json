@@ -1,0 +1,200 @@
+{
+    "version": "10", 
+    "personal": {
+        "submitter_name": "Andreas Bechthold", 
+        "submitter_institution": "Albert-Ludwigs-Universit\u00c3\u00a4t Freiburg", 
+        "submitter_email": "andreas.bechthold@pharmazie.uni-freiburg.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000239", 
+        "biosyn_class": [
+            "Polyketide",
+            "Saccharide" 
+        ], 
+        "publications": "9933932, 2358402, 10397496,9621686, 22454092, 20583594, 18537830, 17786405, 15123249, 2358402, 16283688, 16039521, 19352642, 25581707, 21513888, 11755402, 15977274, 15515090", 
+        "loci": {
+            "complete": "incomplete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AF080235.1", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Landomycin A", 
+                "chem_synonyms": ["NSC639187","AC1L7WSP","AC1Q5B9U","CHEMBL411784","KST-1A1045","AR-1A6885","NSC-639187"], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem", 
+                    "chEBI", 
+                    "ChemSpider"
+                ], 
+                "pubchem_id": 368342, 
+                "chebi_id": 70064, 
+                "chemspider_id": 8164333, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Cytotoxic"
+                ], 
+                "chem_target": "inhibition of DNA synthesis or interference of cellular processes critical to DNA synthesis"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "LanM2", 
+                    "gene_id": "AAD13541.1", 
+                    "gene_annotation": "Dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydration", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "LanZ5", 
+                    "gene_id": "AAD13564.1", 
+                    "gene_annotation": "bifunctional oxygenase-dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydration", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "LanV ", 
+                    "gene_id": "AAD13552.1", 
+                    "gene_annotation": "bifunctional reductase + aromatase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "LanE", 
+                    "gene_id": "AAD13534.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study", 
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "LanK", 
+                    "gene_id": "AAD13556.1", 
+                    "gene_annotation": "TetR-like regulatory protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "decreased production of Landomycin"
+                }, 
+                {
+                    "gene_name": "LanI", 
+                    "not_in_gbk": true, 
+                    "gene_annotation": "transcriptional regulator ", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Other in vivo study"
+                    ], 
+                    "mut_pheno": "No Production of Landomycin, build rare spores"
+                }, 
+                {
+                    "gene_name": "LanGT3", 
+                    "gene_id": "AAD13559.1", 
+                    "gene_annotation": "D-olivosyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of Landomycin E"
+                }, 
+                {
+                    "gene_name": "LanGT1", 
+                    "gene_id": "AAD13555.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study"
+                    ], 
+                    "mut_pheno": "Landomycin I (tetrasaccharide)"
+                }, 
+                {
+                    "gene_name": "LanGT2", 
+                    "gene_id": "AAD13553.1", 
+                    "gene_annotation": "D-olivose-transferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "LanGT4", 
+                    "gene_id": "AAD13562.1", 
+                    "gene_annotation": "L-rhodinosyltransferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of Landomycin B (five sugars)"
+                }, 
+                {
+                    "gene_name": "LanZ2", 
+                    "gene_id": "AAD13560.1", 
+                    "gene_annotation": " impacts the formation of the sugar side chain", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "different sugar lenght "
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Angucycline", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "aad13536.1", 
+                "aad13538.1"
+            ], 
+            "ketide_length": 10, 
+            "cyclases": "AAD13535.1, AAD13540.1, AAD13552.1"
+        }, 
+        "Saccharide": {
+            "saccharide_subclass": "hybrid/tailoring", 
+            "gt_genes": [
+                {
+                    "gt_gene": "AAD13555.1", 
+                    "gt_specificity": "D-olivose"
+                }, 
+                {
+                    "gt_gene": "AAD13553.1", 
+                    "gt_specificity": "D-olivose"
+                }, 
+                {
+                    "gt_gene": "AAD13559.1", 
+                    "gt_specificity": "D-olivose"
+                }, 
+                {
+                    "gt_gene": "AAD13562.1", 
+                    "gt_specificity": "L-rhodinose"
+                }
+            ]
+        }
+    }
+}
+
+

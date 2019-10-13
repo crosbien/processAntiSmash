@@ -1,0 +1,220 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Philipp Wiemann, Nancy Keller", 
+        "submitter_institution": "University of Wisconsin-Madison", 
+        "submitter_email": "pwiemann@wisc.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000355", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "21899262,20225828,20804163,22344643,22902615,23330675,24121553", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CM000174", 
+                    "start_coord": 3009975, 
+                    "end_coord": 3035305, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "fumiquinazoline A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 11247802, 
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }, 
+            {
+                "compound": "fumiquinazoline C", 
+                "chem_synonyms": [
+                    "fqc", 
+                    "mls004257388", 
+                    "smr003082519"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 10003515, 
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }, 
+            {
+                "compound": "fumiquinazoline D", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 9980845, 
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [], 
+            "gene": [
+                {
+                    "gene_name": "fmqE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3010494, 
+                    "gene_endpos": 3012341, 
+                    "gene_id": "EAL89045.1", 
+                    "gene_annotation": "MFS transporter, putative", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no change in fumiquinazoline production"
+                }, 
+                {
+                    "gene_name": "fmqC, fqzC, pesL, nrps11", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3013593, 
+                    "gene_endpos": 3017507, 
+                    "gene_id": "EAL89046.1", 
+                    "gene_annotation": "nonribosomal peptide synthetase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        " Activity assay"
+                    ], 
+                    "mut_pheno": "loss of FQC and FQA, reduced levels of FQF"
+                }, 
+                {
+                    "gene_name": "fmqB, fqzB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3017908, 
+                    "gene_endpos": 3019274, 
+                    "gene_id": "EAL89047.1", 
+                    "gene_annotation": "FAD-dependent monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        " Activity assay"
+                    ], 
+                    "mut_pheno": "loss of FQC and FQA"
+                }, 
+                {
+                    "gene_name": "fmqD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3020103, 
+                    "gene_endpos": 3021926, 
+                    "gene_id": "EAL89048.1", 
+                    "gene_annotation": "FAD-dependent oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Heterocyclization", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        " Activity assay"
+                    ], 
+                    "mut_pheno": "FQA accumulation"
+                }, 
+                {
+                    "gene_name": "fmqA, pesM, nrps12,", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3023316, 
+                    "gene_endpos": 3035305, 
+                    "gene_id": "EAL89049.1", 
+                    "gene_annotation": "nonribosomal peptide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        " Activity assay"
+                    ], 
+                    "mut_pheno": "loss of fumiquinazoline production"
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Unknown", 
+            "nrps_thioesterase": [
+                "xm_745994"
+            ], 
+            "nrps_release_type": "Other", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "XP_751087.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Anthranilate", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Tryptophan", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Alanine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Heterocyclization", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "XP_751084.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Alanine", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Heterocyclization", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

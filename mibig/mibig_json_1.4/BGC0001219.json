@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 89778, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "shanorellin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 1428146, 
+                    "Accession": "CH408034", 
+                    "start_coord": 1404647
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001219", 
+        "publications": [
+            "10.1039/C4MD00352G"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Other"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

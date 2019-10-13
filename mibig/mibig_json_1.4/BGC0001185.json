@@ -1,0 +1,102 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Rainer Borriss", 
+        "submitter_institution": "Humboldt University", 
+        "submitter_email": "rainer.borriss@rz.hu-berlin.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001185", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "18957859", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP000560.1", 
+                    "start_coord": 3021250, 
+                    "end_coord": 3032970, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "bacillibactin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 125349, 
+                "evidence_struct": [
+                    "Other"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "NRP": {
+            "subclass": "NRP siderophore", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "None", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "ABS75234.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "dhb", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "ABS75232.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Glycine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Starter", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Threonine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "comments": "Deletion of the complete FZB42 bacillibactin gene cluster covering genomic region 3021250-3032970 revealed that ability to produce bacillibactin has been lost completely. Construction of mutants devoid in bacillibactin production RS01 (delta bac) and RS06 (delta sfp, delta bac) has been described in PMID   19061923 "
+}

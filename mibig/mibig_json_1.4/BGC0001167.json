@@ -1,0 +1,257 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "David Fewer", 
+        "submitter_institution": "University of Helsinki", 
+        "submitter_email": "david.fewer@helsinki.fi"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001167", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "22952627", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "JQ951924", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Piricyclamide", 
+                "chem_synonyms": [], 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "pirE2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 138, 
+                    "gene_id": "AFK79987.1", 
+                    "gene_annotation": "piricyclamide precursor", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pirE3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 387, 
+                    "gene_endpos": 542, 
+                    "gene_id": "AFK79988.1", 
+                    "gene_annotation": "piricyclamide precursor", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "pirF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 792, 
+                    "gene_endpos": 1682, 
+                    "gene_id": "AFK79989.1", 
+                    "gene_annotation": "prenyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Prenylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1694, 
+                    "gene_endpos": 2152, 
+                    "gene_id": "AFK79990.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2208, 
+                    "gene_endpos": 2786, 
+                    "gene_id": "AFK79991.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2805, 
+                    "gene_endpos": 3488, 
+                    "gene_id": "AFK79992.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "pirA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3494, 
+                    "gene_endpos": 5431, 
+                    "gene_id": "AFK79993.1", 
+                    "gene_annotation": "N-terminal cyanobactin protease", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "pirB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5560, 
+                    "gene_endpos": 5769, 
+                    "gene_id": "AFK79994.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "pirC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5816, 
+                    "gene_endpos": 6037, 
+                    "gene_id": "AFK79995.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "pirE4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6159, 
+                    "gene_endpos": 6314, 
+                    "gene_id": "AFK79996.1", 
+                    "gene_annotation": "piricyclamide precursor", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6396, 
+                    "gene_endpos": 7187, 
+                    "gene_id": "AFK79997.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "pirG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7255, 
+                    "gene_endpos": 9324, 
+                    "gene_id": "AFK79998.1", 
+                    "gene_annotation": "C-terminal cyanoabactin protease", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "None", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "afk79987.1"
+                    ], 
+                    "core_pept_aa": "WILLADGTRPKNAP", 
+                    "lead_pept_len": 32, 
+                    "foll_pept_len": 7, 
+                    "peptidase": [
+                        "afk79993.1", 
+                        "afk79998.1"
+                    ], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": -1, 
+                            "AA_pos_2": -1, 
+                            "crosslink_type": "None"
+                        }
+                    ]
+                }, 
+                {
+                    "gene_id": [
+                        "afk79996.1"
+                    ], 
+                    "core_pept_aa": "TFCDLATKQCYP", 
+                    "lead_pept_len": 32, 
+                    "foll_pept_len": 7, 
+                    "peptidase": [
+                        "afk79993.1", 
+                        "afk79998.1"
+                    ], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 3, 
+                            "AA_pos_2": 10, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }, 
+                {
+                    "gene_id": [
+                        "afk79988.1"
+                    ], 
+                    "core_pept_aa": "NEFMQTGSYSGP", 
+                    "lead_pept_len": 32, 
+                    "foll_pept_len": 7, 
+                    "peptidase": [
+                        "afk79993.1", 
+                        "afk79998.1"
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

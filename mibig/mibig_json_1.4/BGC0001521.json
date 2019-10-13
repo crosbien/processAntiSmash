@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CC[C@H](C)[C@H](O)C(=O)N[C@@H](CC1=CC(Cl)=C(O)C=C1)C(=O)CC", 
+                "compound": "auriculamide"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 54477, 
+                    "Accession": "CP000875", 
+                    "start_coord": 27203
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001521", 
+        "publications": [
+            "28144348"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

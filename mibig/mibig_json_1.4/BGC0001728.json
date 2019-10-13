@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "paenilipoheptin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2616852, 
+                    "Accession": "NC_014483", 
+                    "start_coord": 2550215
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001728", 
+        "publications": [
+            "29369464"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ]
+    }
+}

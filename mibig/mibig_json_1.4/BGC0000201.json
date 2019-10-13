@@ -1,0 +1,176 @@
+{
+    "version": "14", 
+    "personal": {
+        "submitter_name": "Jan Kormanec", 
+        "submitter_institution": "Institute of Molecular Biology, Slovak Academy of Sciences", 
+        "submitter_email": "jan.kormanec@savba.sk"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000201", 
+        "biosyn_class": [
+            "Polyketide", 
+            "Saccharide"
+        ], 
+        "publications": "12384301, 16079347, 20466770, 21393365, 23081778, 23373695, 23763439, 24265028, 25219533", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KJ396772", 
+                    "start_coord": 16153, 
+                    "end_coord": 104444, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "auricin", 
+                "chem_synonyms": [], 
+                "mol_mass": 542.2039, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "forosamine", 
+                        "moiety_subcluster": [
+                            "adm72812.1", 
+                            "adm72818.1", 
+                            "adm72819.1", 
+                            "adm72825.1", 
+                            "ack77743.1", 
+                            "ack77744.1", 
+                            "ack77745.1", 
+                            "aie41917.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "sa59", 
+                    "gene_id": "305861153", 
+                    "gene_annotation": "forosamine aminotrasnferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Amination", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "deglycosylated auricin"
+                }, 
+                {
+                    "gene_name": "sa52", 
+                    "gene_id": "305861160", 
+                    "gene_annotation": "forosamine N.N-dimethyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "demethylated forosamine"
+                }, 
+                {
+                    "gene_name": "aur1PR3", 
+                    "gene_id": "662023972", 
+                    "gene_annotation": "SARP-family auricin specific regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "decreased auricin"
+                }, 
+                {
+                    "gene_name": "aur1R", 
+                    "gene_id": "662024136", 
+                    "gene_annotation": "auricin-specific repressor of TetR family", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "increased auricin"
+                }, 
+                {
+                    "gene_name": "aur1P", 
+                    "gene_id": "662024109", 
+                    "gene_annotation": "auricin-specific activator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "decreased auricin"
+                }, 
+                {
+                    "gene_name": "aur1PR4", 
+                    "gene_id": "218511497", 
+                    "gene_annotation": "SARP-family transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }
+            ], 
+            "operon": [
+                {
+                    "operon_genes": [
+                        "662024110", 
+                        "61968690", 
+                        "61968691", 
+                        "61968692", 
+                        "662024111", 
+                        "662024112", 
+                        "61968695", 
+                        "61968696", 
+                        "662024113", 
+                        "662024114", 
+                        "61968699", 
+                        "662024115", 
+                        "662024116", 
+                        "662024117", 
+                        "218511481", 
+                        "218511482", 
+                        "218511483", 
+                        "662024118", 
+                        "662023973", 
+                        "218511486", 
+                        "218511487", 
+                        "218511488"
+                    ], 
+                    "evidence_operon": "Other"
+                }, 
+                {
+                    "operon_genes": [
+                        "662024123", 
+                        "662024122", 
+                        "662024121", 
+                        "218511498"
+                    ], 
+                    "evidence_operon": "Other"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Angucycline", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "None", 
+            "pks_genes": [
+                "61968692", 
+                "662024112"
+            ], 
+            "ketide_length": -1, 
+            "cyclases": "61968691, 61968695, 61968696"
+        }
+    }, 
+    "comments": "Auricin is stable in acid and unstable in neutral and alkaline pH. It undergoes methanolysis (addition of methanol to the aglycon)   "
+}
+
+

@@ -1,0 +1,68 @@
+{
+    "version": "6", 
+    "personal": {
+        "submitter_name": "Jan Claesen", 
+        "submitter_institution": "University of California at San Francisco", 
+        "submitter_email": "jclaesen@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000583", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "21421760", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "NC_010572", 
+                    "start_coord": 7570210, 
+                    "end_coord": 7576934, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression", 
+                        "Proven expression in natural host"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "grisemycin", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC(C(N/C(C(N1C(CCC1)C(NC(C)C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(NC(C(N/C(C(NC(C(NC(C(NC(C(NC2C(C)C)=O)CC(C)C)=O)CS/C=C\\\\NC2=O)=O)[C@H](C)CC)=O)=C/C)=O)CO)=O)[H])=O)CCC(N)=O)=O)[C@H](C)CC)=O)C(C)C)=O)CC3=CC=CC=C3)=O)CCC(N)=O)=O)C)=O)C(C)C)=O)=O)=O)=C\\\\C)=O)N(C)C", 
+                "molecular_formula": "C86H137N21O21S", 
+                "mol_mass": 1832.0019, 
+                "mass_ion_type": "Molecular ion", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "RiPP": {
+            "ripp_subclass": "Linaridin", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "grma"
+                    ], 
+                    "core_pept_aa": "atpavaqfviqgsticlvc", 
+                    "lead_pept_len": 45, 
+                    "foll_pept_len": -1, 
+                    "peptidase": [], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 16, 
+                            "AA_pos_2": 19, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

@@ -1,0 +1,416 @@
+{
+    "version": "14",
+    "personal": {
+        "submitter_name": "Rob Lavigne",
+        "submitter_institution": "KU Leuven",
+        "submitter_email": "rob.lavigne@biw.kuleuven.be"
+    },
+    "general_params": {
+        "mibig_accession": "BGC0001056",
+        "biosyn_class": [
+            "NRP",
+            "Polyketide",
+            "Other"
+        ],
+        "publications": "23349809,17258895,16997989,25452285, 10.1039/C4SC01927J",
+        "loci": {
+            "complete": "complete",
+            "nucl_acc": [
+                {
+                    "Accession": "HE995400",
+                    "start_coord": 3096,
+                    "end_coord": 53789,
+                    "conn_comp_cluster": [
+                        "Knock-out studies",
+                        "Enzymatic assays",
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        },
+        "compounds": [
+            {
+                "compound": "zeamine",
+                "chem_synonyms": [],
+                "chem_struct": "CCCCCC(N)CCCCCCCC(N)CCCCCCCC(N)CCCCCCCC(N)CCCCCCCC(O)CCNC(CC(O)CC(O)C(N)C(C)C)=O",
+                "molecular_formula": "C49H104N6O4",
+                "mol_mass": 841.81913,
+                "mass_ion_type": "[M+H]+",
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Polyamino alcohol",
+                        "moiety_subcluster": [
+                            "ccm44330.1",
+                            "ccm44331.1",
+                            "ccm44332.1",
+                            "ccm44333.1",
+                            "ccm44334.1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "compound": "zeamine I",
+                "chem_synonyms": [],
+                "chem_struct": "CCCCCC(N)CCCCCCCC(N)CCCCCCCC(N)CCCCCCCC(N)CCCCCCCC(O)CCNC(CC(O)C(N)C(C)C)=O",
+                "molecular_formula": "C47H100N6O3",
+                "mol_mass": 797.79272,
+                "mass_ion_type": "[M+H]+",
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Polyamino alcohol",
+                        "moiety_subcluster": [
+                            "ccm44330.1",
+                            "ccm44331.1",
+                            "ccm44332.1",
+                            "ccm44333.1",
+                            "ccm44334.1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "compound": "zeamine II",
+                "chem_synonyms": [],
+                "chem_struct": "CCCCCC(N)CCCCCCCC(N)CCCCCCCC(N)CCCCCCCC(N)CCCCCCCC(O)CCN",
+                "molecular_formula": "C40H87N5O",
+                "mol_mass": 654.6993,
+                "mass_ion_type": "[M+H]+",
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Polyamino alcohol",
+                        "moiety_subcluster": [
+                            "ccm44330.1",
+                            "ccm44331.1",
+                            "ccm44332.1",
+                            "ccm44333.1",
+                            "ccm44334.1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "compound": "Prezeamine",
+                "chem_synonyms": [],
+                "chem_struct": "CCCCCC(N)CCCCCCCC(N)CCCCCCCC(N)CCCCCCCC(N)CCCCCCCC(O)CCNC(CC(CC(O)C(C(C)C)NC(C(C1C)NC(C(NC(C(NC(C(NC(CC(C(O)=O)N)=O)CC2=CN=CN2)=O)CC(N1)=O)=O)CC(N)=O)=O)=O)O)=O",
+                "molecular_formula": "C71H133N15O13",
+                "mol_mass": 1405.0286,
+                "mass_ion_type": "[M+H]+",
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Polyamino alcohol",
+                        "moiety_subcluster": [
+                            "ccm44330.1",
+                            "ccm44331.1",
+                            "ccm44332.1",
+                            "ccm44333.1",
+                            "ccm44334.1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "compound": "Prezeamine I",
+                "chem_synonyms": [],
+                "chem_struct": "CCCCCC(N)CCCCCCCC(N)CCCCCCCC(N)CCCCCCCC(N)CCCCCCCC(O)CCNC(CC(O)C(C(C)C)NC(C(C1C)NC(C(NC(C(NC(C(NC(CC(C(O)=O)N)=O)CC2=CN=CN2)=O)CC(N1)=O)=O)CC(N)=O)=O)=O)=O",
+                "molecular_formula": "C69H129N15O12",
+                "mol_mass": 1361.0023,
+                "mass_ion_type": "[M+H]+",
+                "chem_act": [
+                    "Antibacterial"
+                ],
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Polyamino alcohol",
+                        "moiety_subcluster": [
+                            "ccm44330.1",
+                            "ccm44331.1",
+                            "ccm44332.1",
+                            "ccm44333.1",
+                            "ccm44334.1"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "zmn5",
+                    "gene_id": "CCM44325.1",
+                    "gene_annotation": "Phosphopantetheinyl transferase",
+                    "gene_function": "Other",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "zmn10",
+                    "gene_id": "CCM44330.1",
+                    "gene_annotation": "Polyketide synthase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Other in vivo study"
+                    ],
+                    "mut_pheno": "Loss of production of all components of the zeamine complex"
+                },
+                {
+                    "gene_name": "zmn11",
+                    "gene_id": "CCM44331.1",
+                    "gene_annotation": "Mixed fatty acid synthase-polyketide synthase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Other in vivo study"
+                    ],
+                    "mut_pheno": "Loss of production of all components of the zeamine complex"
+                },
+                {
+                    "gene_name": "zmn12",
+                    "gene_id": "CCM44332.1",
+                    "gene_annotation": "PfaD family protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Other in vivo study"
+                    ],
+                    "mut_pheno": "Loss of production of all components of the zeamine complex"
+                },
+                {
+                    "gene_name": "zmn13",
+                    "gene_id": "CCM44333.1",
+                    "gene_annotation": "3-oxoacyl-ACP reductase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "Loss of production of all components of the zeamine complex"
+                },
+                {
+                    "gene_name": "zmn14",
+                    "gene_id": "CCM44334.1",
+                    "gene_annotation": "Thioester reductase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out",
+                        "Activity assay"
+                    ],
+                    "mut_pheno": "Loss of production of all components of the zeamine complex"
+                },
+                {
+                    "gene_name": "zmn15",
+                    "gene_id": "CCM44335.1",
+                    "gene_function": "Unknown",
+                    "mut_pheno": "Reduced production of all components of the zeamine complex"
+                },
+                {
+                    "gene_name": "zmn16",
+                    "gene_id": "CCM44336.1",
+                    "gene_annotation": "Nonribosomal peptide synthetase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "Loss of production of (pre)zeamine and (pre)zeamine I"
+                },
+                {
+                    "gene_name": "zmn17",
+                    "gene_id": "CCM44337.1",
+                    "gene_annotation": "Nonribosomal peptide synthetase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "Loss of production of (pre)zeamine and (pre)zeamine I"
+                },
+                {
+                    "gene_name": "zmn18",
+                    "gene_id": "CCM44338.1",
+                    "gene_annotation": "Polyketide synthase",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "Loss of production of (pre)zeamine and (pre)zeamine I"
+                },
+                {
+                    "gene_name": "zmn19",
+                    "gene_id": "CCM44339.1",
+                    "gene_annotation": "Condensation domain-containing protein",
+                    "gene_function": "Scaffold biosynthesis",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "Loss of production of (pre)zeamine and (pre)zeamine I"
+                },
+                {
+                    "gene_name": "zmn20",
+                    "gene_id": "CCM44340.1",
+                    "gene_annotation": "ABC transporter ATP-binding protein",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "zmn21",
+                    "gene_id": "CCM44341.1",
+                    "gene_annotation": "ABC transporter permease",
+                    "gene_function": "Transport",
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                },
+                {
+                    "gene_name": "zmn22",
+                    "gene_id": "CCM44342.1",
+                    "gene_annotation": "Acylpeptide hydrolase",
+                    "gene_function": "Activation / processing",
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ],
+                    "mut_pheno": "Loss of production of zeamine and zeamine I, increased production of prezeamine and prezeamine I"
+                }
+            ]
+        },
+        "NRP": {
+            "subclass": "Other",
+            "lin_cycl_nrp": "Linear",
+            "nrps_genes": [
+                {
+                    "nrps_gene": "CCM44336.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "B0",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Aspartate",
+                                "evidence_a_spec": "Structure-based inference"
+                            },
+                            "cdom_subtype": "Other",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "B1",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Histidine",
+                                "evidence_a_spec": "Structure-based inference"
+                            },
+                            "cdom_subtype": "Unknown",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "B2",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Asparigine",
+                                "evidence_a_spec": "Structure-based inference",
+                                "epimerized": true
+                            },
+                            "cdom_subtype": "Unknown",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "B3",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Asparigine",
+                                "evidence_a_spec": "Structure-based inference"
+                            },
+                            "cdom_subtype": "Unknown",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                },
+                {
+                    "nrps_gene": "CCM44337.1",
+                    "nrps_module": [
+                        {
+                            "module_nr": "B4",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Threonine",
+                                "evidence_a_spec": "Structure-based inference"
+                            },
+                            "cdom_subtype": "Unknown",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        },
+                        {
+                            "module_nr": "B5",
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic",
+                                "prot_adom_spec": "Valine",
+                                "evidence_a_spec": "Structure-based inference"
+                            },
+                            "cdom_subtype": "Unknown",
+                            "nrps_mod_doms": "None",
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ],
+            "nrps_te_type": "None",
+            "nrps_thioesterase": [],
+            "nrps_release_type": "Other"
+        },
+        "Polyketide": {
+            "pk_subclass": "Other",
+            "lin_cycl_pk": "Linear",
+            "pks_subclass": [
+                "Modular type I",
+                "PUFA synthase or related"
+            ],
+            "starter_unit": "Acetyl-CoA",
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "CCM44338.1",
+                    "pks_module": [
+                        {
+                            "module_nr": "B6",
+                            "pks_domains": [
+                                "Ketosynthase",
+                                "Acyltransferase",
+                                "Ketoreductase",
+                                "Thiolation (ACP/PCP)"
+                            ],
+                            "at_substr_spec": "Malonyl-CoA",
+                            "evidence_at_spec": "Structure-based inference",
+                            "kr_stereochem": "A-group",
+                            "pks_mod_doms": "None",
+                            "pks_mod_skip_iter": "Iterated",
+                            "pks_evidence_skip_iter": "Structure-based inference"
+                        }
+                    ]
+                }
+            ],
+            "pks_genes": [
+                "ccm44330.1",
+                "ccm44331.1",
+                "ccm44332.1",
+                "ccm44333.1",
+                "ccm44334.1"
+            ],
+            "pks_te_type": "None",
+            "pks_release_type": "Reductive release"
+        }
+    }
+}

@@ -1,0 +1,168 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Wilfred Van Der Donk", 
+        "submitter_institution": "University of Illinois at Urbana-Champaign", 
+        "submitter_email": "vddonk@illinois.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000516", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "22431611", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "ABVH01000020", 
+                    "start_coord": 8707, 
+                    "end_coord": 19626, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "geobacillin II", 
+                "chem_synonyms": [], 
+                "molecular_formula": "C139H215N39O29S5", 
+                "mol_mass": 3055.5229, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2184097, 
+                    "gene_endpos": 2185269, 
+                    "gene_id": "ABO67412.1", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "geoTII", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2185270, 
+                    "gene_endpos": 2187435, 
+                    "gene_id": "ABO67413.1", 
+                    "gene_annotation": "LanT ABC transporter-related protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "geoM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2187465, 
+                    "gene_endpos": 2190545, 
+                    "gene_id": "ABO67414.1", 
+                    "gene_annotation": "Lanthionine synthetase M family protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "geoAII", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 2190821, 
+                    "gene_endpos": 2190630, 
+                    "gene_id": "", 
+                    "gene_annotation": "precursor peptide", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2190943, 
+                    "gene_endpos": 2191614, 
+                    "gene_id": "ABO67415.1", 
+                    "gene_annotation": "two component transcriptional regulator, LuxR family", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2191640, 
+                    "gene_endpos": 2193904, 
+                    "gene_id": "ABO67416.1", 
+                    "gene_annotation": "integral membrane sensor signal transduction histidine kinase", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2194084, 
+                    "gene_endpos": 2195016, 
+                    "gene_id": "ABO67417.1", 
+                    "gene_annotation": "pre-ComX modifying enzyme", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "Lantipeptide", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [], 
+                    "core_pept_aa": "STIVCVSLRICNWSLRFCPSFKVRCPM", 
+                    "lead_pept_len": 36, 
+                    "foll_pept_len": -1, 
+                    "cleavage_recogn_site": "GG,EVSPQ", 
+                    "peptidase": [], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 1, 
+                            "AA_pos_2": 5, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 7, 
+                            "AA_pos_2": 11, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 14, 
+                            "AA_pos_2": 18, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 20, 
+                            "AA_pos_2": 25, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

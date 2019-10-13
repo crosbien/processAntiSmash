@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "CN1CC[C@]23[C@@H]4C(=CC=C2[C@H]1CC5=C3C(=C(C=C5)OC)O4)OC", 
+                "compound": "thebaine"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 1013747, 
+                    "Accession": "MH011344", 
+                    "start_coord": 78652
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001799", 
+        "publications": [
+            "29807982"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Alkaloid"
+        ]
+    }
+}

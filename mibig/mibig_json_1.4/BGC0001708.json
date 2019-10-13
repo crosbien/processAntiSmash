@@ -1,0 +1,27 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "novofumigatonin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 136242, 
+                    "Accession": "MSZS01000014", 
+                    "start_coord": 103246
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001708", 
+        "publications": [
+            "29317534"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide", 
+            "Terpene"
+        ]
+    }
+}

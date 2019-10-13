@@ -1,0 +1,77 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "gibberellin A3"
+            }, 
+            {
+                "compound": "gibberellin A1"
+            }, 
+            {
+                "compound": "gibberellin A7"
+            }, 
+            {
+                "compound": "gibberellin A4"
+            }, 
+            {
+                "compound": "gibberellin A9"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "Y15279", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "Y15278", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "Y15280", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "Y15277", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "AJ417493", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "Y17243", 
+                    "start_coord": -1
+                }, 
+                {
+                    "end_coord": -1, 
+                    "Accession": "Y15013", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001270", 
+        "publications": [
+            "9917370", 
+            "11472927", 
+            "12750377", 
+            "9745028"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide", 
+            "Terpene"
+        ]
+    }
+}

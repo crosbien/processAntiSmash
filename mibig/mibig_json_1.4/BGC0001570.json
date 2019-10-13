@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "deimino-antipain"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 240028, 
+                    "Accession": "LWBU01000384", 
+                    "start_coord": 224545
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001570", 
+        "publications": [
+            "27797509"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

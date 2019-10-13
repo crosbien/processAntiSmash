@@ -1,0 +1,59 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Navjot Kaur, Dr. Shanmugam Mayilraj", 
+        "submitter_institution": "CSIR Imtech, Chandigarh, India", 
+        "submitter_email": "nkular67@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001460", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "14742486, 23558534 ", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AOHO01000074.1", 
+                    "start_coord": 276857, 
+                    "end_coord": 343203, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "decaplanin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 195570, 
+                "molecular_formula": " C72H86ClN9O28", 
+                "mol_mass": 1560.965, 
+                "mass_ion_type": "None", 
+                "evidence_struct": [
+                    "Other"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "cell wall"
+            }
+        ], 
+        "genes": {}, 
+        "NRP": {
+            "subclass": "Glycopeptide", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "None"
+        }
+    }, 
+    "comments": "nmayil@imtech.res.in"
+}
+

@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "aureusimine"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 183901, 
+                    "Accession": "CP002120", 
+                    "start_coord": 176051
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000308", 
+        "publications": [
+            "23302043"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

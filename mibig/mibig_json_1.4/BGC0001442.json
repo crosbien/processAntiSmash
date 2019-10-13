@@ -1,0 +1,328 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Leonard Kaysser", 
+        "submitter_institution": "University of Tuebingen", 
+        "submitter_email": "leonard.kaysser@pharm.uni-tuebingen.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001442", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "13900478,27616570,27428963", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KY906183", 
+                    "start_coord": 1, 
+                    "end_coord": 32297, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction", 
+                        "Other"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "actinonin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 443600, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "metalloproteinase, bacterial peptide deformylase "
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1, 
+                    "gene_endpos": 1017, 
+                    "gene_id": "ATJ33995.1", 
+                    "gene_annotation": "LacI family transcription regulator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1116, 
+                    "gene_endpos": 2402, 
+                    "gene_id": "ATJ33996.1", 
+                    "gene_annotation": "MFS transporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "actA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2483, 
+                    "gene_endpos": 4306, 
+                    "gene_id": "ATJ33997.1", 
+                    "gene_annotation": "beta-glucosidase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "actA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 4382, 
+                    "gene_endpos": 6415, 
+                    "gene_id": "ATJ33998.1", 
+                    "gene_annotation": "dipeptidyl-peptidase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "actB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6598, 
+                    "gene_endpos": 8259, 
+                    "gene_id": "ATJ33999.1", 
+                    "gene_annotation": "ABC transporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "actC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8266, 
+                    "gene_endpos": 8721, 
+                    "gene_id": "ATJ34000.1", 
+                    "gene_annotation": "methylmalonyl-CoA epimerase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "actD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8790, 
+                    "gene_endpos": 10232, 
+                    "gene_id": "ATJ34001.1", 
+                    "gene_annotation": "methylmalonyl-CoA mutase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "actE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10225, 
+                    "gene_endpos": 14991, 
+                    "gene_id": "ATJ34002.1", 
+                    "gene_annotation": "non-ribosomal peptide synthetase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "actF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15270, 
+                    "gene_endpos": 16595, 
+                    "gene_id": "ATJ34003.1", 
+                    "gene_annotation": "crotonyl-CoA reductase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "actG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16764, 
+                    "gene_endpos": 19844, 
+                    "gene_id": "ATJ34004.1", 
+                    "gene_annotation": "non-ribosomal peptide synthetase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "actH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19894, 
+                    "gene_endpos": 21408, 
+                    "gene_id": "ATJ34005.1", 
+                    "gene_annotation": "adenylation domain-containing protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "actI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21867, 
+                    "gene_endpos": 22886, 
+                    "gene_id": "ATJ34006.1", 
+                    "gene_annotation": "AurF-like N-oxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "actJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23019, 
+                    "gene_endpos": 24875, 
+                    "gene_id": "ATJ34007.1", 
+                    "gene_annotation": "asparagine synthetase B", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "actK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24872, 
+                    "gene_endpos": 26260, 
+                    "gene_id": "ATJ34008.1", 
+                    "gene_annotation": "amidase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "actL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26392, 
+                    "gene_endpos": 27000, 
+                    "gene_id": "ATJ34009.1", 
+                    "gene_annotation": "TetR family transcription regulator", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27284, 
+                    "gene_endpos": 28852, 
+                    "gene_id": "ATJ34010.1", 
+                    "gene_annotation": "MFS transporter", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29180, 
+                    "gene_endpos": 31240, 
+                    "gene_id": "ATJ34011.1", 
+                    "gene_annotation": "short-chain dehydrogenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31737, 
+                    "gene_endpos": 32297, 
+                    "gene_id": "ATJ34012.1", 
+                    "gene_annotation": "membrane protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "None", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_te_type": "Unknown", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "None", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "ATJ34005.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Threonine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "ATJ34004.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "None", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "ATJ34002.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Proline", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+

@@ -1,0 +1,102 @@
+{
+    "version": "11", 
+    "personal": {
+        "submitter_name": "Tomohisa Kuzuyama", 
+        "submitter_institution": "The University of Tokyo", 
+        "submitter_email": "utkuz@mail.ecc.u-tokyo.ac.jp"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000677", 
+        "biosyn_class": [
+            "Terpene"
+        ], 
+        "publications": "19635410,1474002,1335449,25689152", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AB448947", 
+                    "start_coord": 121, 
+                    "end_coord": 4940, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "cyclooctatin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 5467942, 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "lysophospholipase"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "cotB1", 
+                    "gene_id": "BAI44337.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cotB2", 
+                    "gene_id": "BAI44338.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Other in vivo study", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cotB3", 
+                    "gene_id": "BAI44339.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "cotB4", 
+                    "gene_id": "BAI44340.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Other in vivo study", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Terpene": {
+            "terpene_subclass": "Other", 
+            "terpene_c_len": "Diterpene", 
+            "terpene_precursor": "GGPP", 
+            "terpene_synth_cycl": [
+                "bai44338.1"
+            ], 
+            "prenyl_transf": [
+                "bai44337.1"
+            ]
+        }
+    }
+}
+
+

@@ -1,0 +1,29 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "chem_struct": "N[C@@H](\\C=C\\ONC=O)C(O)=O", 
+                "compound": "4-formylaminooxyvinylglycine"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 5565594, 
+                    "Accession": "CM001025", 
+                    "start_coord": 5551843
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001488", 
+        "Other": {
+            "biosyn_class": [
+                "Other"
+            ]
+        }, 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "minimal": true
+    }
+}

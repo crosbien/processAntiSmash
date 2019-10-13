@@ -1,0 +1,66 @@
+{
+    "version": "6", 
+    "personal": {
+        "submitter_name": "Nadine Ziemert", 
+        "submitter_institution": "University of Tuebingen", 
+        "submitter_email": "nziemert@ucsd.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000473", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "18245249", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AM774406", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "microcyclamide", 
+                "chem_synonyms": [
+                    "aerucyclamide"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 10555282, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "RiPP": {
+            "ripp_subclass": "Cyanobactin", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "cao82085"
+                    ], 
+                    "core_pept_aa": "MRITPMDKKNILPQQGKPVFRTTTGKLPSYLAELSEEALGGNGLEASHCATICAFDGAEASHCATICAFDGDEA", 
+                    "lead_pept_len": 74, 
+                    "foll_pept_len": -1, 
+                    "cleavage_recogn_site": "GLEAS, AFDGAEAS, AFDGDEA", 
+                    "peptidase": [
+                        "cao82081", 
+                        "cao82088"
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

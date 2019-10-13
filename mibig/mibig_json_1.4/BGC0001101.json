@@ -1,0 +1,578 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Guohui Pan", 
+        "submitter_institution": "The Scripps Research Institute", 
+        "submitter_email": "gpan@scripps.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001101", 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ], 
+        "publications": "12446651,12598647,15112993,17502372,21192727", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AF484556", 
+                    "start_coord": 60948, 
+                    "end_coord": 122161, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "leinamycin", 
+                "chem_synonyms": [
+                    "lnm"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 9849230, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Cytotoxic", 
+                    "Inhibitor"
+                ], 
+                "chem_target": "DNA", 
+                "chem_moieties": [
+                    {
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "LnmA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 60948, 
+                    "gene_endpos": 62147, 
+                    "gene_id": "AAN85514.1", 
+                    "gene_annotation": "cytochrome P450 hydroxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of leinamycin production"
+                }, 
+                {
+                    "gene_name": "LnmB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 62159, 
+                    "gene_endpos": 62395, 
+                    "gene_id": "AAN85515.1", 
+                    "gene_annotation": "ferredoxin", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "LnmC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 62682, 
+                    "gene_endpos": 63029, 
+                    "gene_id": "AAN85516.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "LnmD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 63116, 
+                    "gene_endpos": 64432, 
+                    "gene_id": "AAN85517.1", 
+                    "gene_annotation": "putative hydrolase/decarboxylase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "LnmE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 64500, 
+                    "gene_endpos": 65423, 
+                    "gene_id": "AAN85518.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "LnmF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 65441, 
+                    "gene_endpos": 66238, 
+                    "gene_id": "AAN85519.1", 
+                    "gene_annotation": "putative enoyl-CoA hydratase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "LnmG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 66268, 
+                    "gene_endpos": 68655, 
+                    "gene_id": "AAN85520.1", 
+                    "gene_annotation": "trans-acting acyltransferase/oxidoreductase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "loss of leinamycin production"
+                }, 
+                {
+                    "gene_name": "LnmH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 68725, 
+                    "gene_endpos": 69549, 
+                    "gene_id": "AAN85521.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "LnmI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 69681, 
+                    "gene_endpos": 82994, 
+                    "gene_id": "AAN85522.1", 
+                    "gene_annotation": "hybrid nonribosomal peptide synthetase / polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "loss of leinamycin production"
+                }, 
+                {
+                    "gene_name": "LnmJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 82991, 
+                    "gene_endpos": 105040, 
+                    "gene_id": "AAN85523.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of leinamycin production"
+                }, 
+                {
+                    "gene_name": "LnmK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 105037, 
+                    "gene_endpos": 105996, 
+                    "gene_id": "AAN85524.1", 
+                    "gene_annotation": "acyltransferase/decarboxylase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "loss of leinamycin production"
+                }, 
+                {
+                    "gene_name": "LnmL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 105993, 
+                    "gene_endpos": 106253, 
+                    "gene_id": "AAN85525.1", 
+                    "gene_annotation": "acyl carrier protein type II", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "loss of leinamycin production"
+                }, 
+                {
+                    "gene_name": "LnmM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 106250, 
+                    "gene_endpos": 107500, 
+                    "gene_id": "AAN85526.1", 
+                    "gene_annotation": "HMG-CoA synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of leinamycin production"
+                }, 
+                {
+                    "gene_name": "LnmN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 107557, 
+                    "gene_endpos": 108360, 
+                    "gene_id": "AAN85527.1", 
+                    "gene_annotation": "thioesterase type II", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "LnmO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 108395, 
+                    "gene_endpos": 109078, 
+                    "gene_id": "AAN85528.1", 
+                    "gene_annotation": "putative transcriptional activator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of leinamycin production"
+                }, 
+                {
+                    "gene_name": "LnmP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 109122, 
+                    "gene_endpos": 109370, 
+                    "gene_id": "AAN85529.1", 
+                    "gene_annotation": "peptidyl carrier protein type II", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "loss of leinamycin production"
+                }, 
+                {
+                    "gene_name": "LnmQ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 109367, 
+                    "gene_endpos": 110917, 
+                    "gene_id": "AAN85530.1", 
+                    "gene_annotation": "nonribosomal peptide synthetase, discrete adenylation domain", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "loss of leinamycin production"
+                }, 
+                {
+                    "gene_name": "LnmR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 110973, 
+                    "gene_endpos": 112700, 
+                    "gene_id": "AAN85531.1", 
+                    "gene_annotation": "ABC transporter component, ATP hydrolase", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "LnmS", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 112697, 
+                    "gene_endpos": 113560, 
+                    "gene_id": "AAN85532.1", 
+                    "gene_annotation": "ABC transporter component, membrane spanning protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "LnmT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 113557, 
+                    "gene_endpos": 114522, 
+                    "gene_id": "AAN85533.1", 
+                    "gene_annotation": "ABC transporter component, membrane spanning protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "LnmU", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 114519, 
+                    "gene_endpos": 116060, 
+                    "gene_id": "AAN85534.1", 
+                    "gene_annotation": "ABC transporter component, periplasmic oligopeptide binding protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "LnmV", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 116132, 
+                    "gene_endpos": 116494, 
+                    "gene_id": "AAN85535.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "LnmW", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 116491, 
+                    "gene_endpos": 118041, 
+                    "gene_id": "AAN85536.1", 
+                    "gene_annotation": "4-coumarate:CoA ligase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "LnmX", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 118049, 
+                    "gene_endpos": 118780, 
+                    "gene_id": "AAN85537.1", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "LnmY", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 118815, 
+                    "gene_endpos": 120239, 
+                    "gene_id": "AAN85538.1", 
+                    "gene_annotation": "antibiotic efflux protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "LnmZ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 120436, 
+                    "gene_endpos": 121638, 
+                    "gene_id": "AAN85539.1", 
+                    "gene_annotation": "cytochrome P450 hydroxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydroxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "LnmZ_", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 121757, 
+                    "gene_endpos": 122161, 
+                    "gene_id": "AAN85540.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of leinamycin production"
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [
+                "aan85523"
+            ], 
+            "nrps_release_type": "Macrolactamization", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AAN85530.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "D-alanine", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AAN85529.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "AAN85522.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Cysteine", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "Oxidation", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Macrolide", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Modular type I", 
+                "Trans-AT type I"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "trans_at": [
+                "aan85520"
+            ], 
+            "pks_te_type": "Type I", 
+            "pks_release_type": "Macrolactamization", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AAN85522.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "KS"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "AAN85523.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "DH", 
+                                "T", 
+                                "KR"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "pks_domains": [
+                                "KS", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "7", 
+                            "pks_domains": [
+                                "KS", 
+                                "T", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

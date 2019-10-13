@@ -1,0 +1,306 @@
+{
+    "version": "6", 
+    "personal": {
+        "submitter_name": "Bohdan Ostash", 
+        "submitter_institution": "Ivan Franko National University of Lviv", 
+        "submitter_email": "bohdanostash@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000805", 
+        "biosyn_class": [
+            "Saccharide"
+        ], 
+        "publications": "17379141, 19640006, 24164498, 22505780", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "DQ988994", 
+                    "start_coord": 5380, 
+                    "end_coord": 29682, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Proven expression in natural host", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "DQ988993", 
+                    "start_coord": 898, 
+                    "end_coord": 5623, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "moenomycin", 
+                "chem_synonyms": [
+                    "bambermycin", 
+                    "flavofosfolipol", 
+                    "flavomycin"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 46926246, 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "peptidoglycan glycosyltransferases", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "farnesyl-3-phosphoglycerate", 
+                        "moiety_subcluster": [
+                            "abj90164.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "moeD5", 
+                    "gene_id": "ABJ90154.1", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "moeJ5", 
+                    "gene_id": "ABJ90155.1", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "moeE5", 
+                    "gene_id": "ABJ90156.1", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "moeF5", 
+                    "gene_id": "ABJ90157.1", 
+                    "gene_annotation": "amidotransferase of first sugar ring of moenomycin", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "block of antibiotic production at the stage of unmodified monosaccharide "
+                }, 
+                {
+                    "gene_name": "moeGT1", 
+                    "gene_id": "ABJ90158.1", 
+                    "gene_annotation": "transfers first sugar to farnesyl-3PG precursor", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "block of antibiotic production"
+                }, 
+                {
+                    "gene_name": "moeH5", 
+                    "gene_id": "ABJ90159.1", 
+                    "gene_annotation": "transfer of diverse set of amine-carrying moieties on carboxyl group of B ring of moenomycin", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "production of B ring-unmodifed moenomycins"
+                }, 
+                {
+                    "gene_name": "moeK5", 
+                    "gene_id": "ABJ90160.1", 
+                    "gene_annotation": "SAM radical B12-dependent methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "production of unmethylated moenomycins"
+                }, 
+                {
+                    "gene_name": "moeGT4", 
+                    "gene_id": "ABJ90161.1", 
+                    "gene_annotation": "transfers second sugar to monosaccharide intermediate", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "production of monoglycosylated moenomycin intermediate"
+                }, 
+                {
+                    "gene_name": "moeM5", 
+                    "gene_id": "ABJ90162.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "production of descarbamoylated moenomycins"
+                }, 
+                {
+                    "gene_name": "moeN5", 
+                    "gene_id": "ABJ90163.1", 
+                    "gene_annotation": "converts farnesyl-3PG-trisaccharide intermediate into the one carrying mature C25 (moenocinyl) sioprene chain", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "produces moenomycins with short (C15) isoprene chain (instead of normal C25)"
+                }, 
+                {
+                    "gene_name": "moeO5", 
+                    "gene_id": "ABJ90164.1", 
+                    "gene_annotation": "farnesyl-3-phosphoglycerate synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay", 
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "cessation of moenomycin production at the first step"
+                }, 
+                {
+                    "gene_name": "moeX5", 
+                    "gene_id": "ABJ90165.1", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "moeP5", 
+                    "gene_id": "ABJ90166.1", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ]
+                }, 
+                {
+                    "gene_name": "moeGT5", 
+                    "gene_id": "ABJ90167.1", 
+                    "gene_annotation": "transfers third sugar (chinovosamine or GlcNAc) to disaccharide intermediate", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "production of disaccharide and trisaccharide (+ branching glucose residue) moenomycin precursors "
+                }, 
+                {
+                    "gene_name": "moeGT2", 
+                    "gene_id": "ABJ90168.1", 
+                    "gene_annotation": "transfers last sugar (B ring) in moenomycin biosynthesis", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "produces tetrasaccharide intermediate"
+                }, 
+                {
+                    "gene_name": "moeGT3", 
+                    "gene_id": "ABJ90169.1", 
+                    "gene_annotation": "transfers branching glucose residue in moenomycin biosynthesis", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "produces moenomycins with linear tetrasaccharide chains"
+                }, 
+                {
+                    "gene_name": "moeR5", 
+                    "gene_id": "ABJ90170.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydration", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "mutant produces moenomycins carrying GlcNAc instead of chinovosamine"
+                }, 
+                {
+                    "gene_name": "moeS5", 
+                    "gene_id": "ABJ90171.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "mutant produces moenomycins carrying GlcNAc instead of chinovosamine"
+                }, 
+                {
+                    "gene_name": "moeA4", 
+                    "gene_id": "ABJ90146.1", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "produces moenomycins without A ring"
+                }, 
+                {
+                    "gene_name": "moeC4", 
+                    "gene_id": "ABJ90148.1", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "produces moenomycins without A ring"
+                }
+            ]
+        }, 
+        "Saccharide": {
+            "saccharide_subclass": "other", 
+            "gt_genes": [
+                {
+                    "gt_gene": "ABJ90158.1", 
+                    "gt_specificity": "D-galacturonic acid", 
+                    "evidence_gt_spec": "Activity assay", 
+                    "sugar_subcluster": "moeE5"
+                }, 
+                {
+                    "gt_gene": "ABJ90161.1", 
+                    "gt_specificity": "N-acetyl-D-glucosamine", 
+                    "evidence_gt_spec": "Knock-out construct"
+                }, 
+                {
+                    "gt_gene": "ABJ90167.1", 
+                    "gt_specificity": "Other", 
+                    "other_gt_spec": "chinovosamine AND N-acetyl-D-glucosamine", 
+                    "evidence_gt_spec": "Knock-out construct", 
+                    "sugar_subcluster": "moeR5, moeS5"
+                }, 
+                {
+                    "gt_gene": "ABJ90168.1", 
+                    "gt_specificity": "D-galacturonic acid", 
+                    "evidence_gt_spec": "Knock-out construct"
+                }, 
+                {
+                    "gt_gene": "ABJ90169.1", 
+                    "gt_specificity": "D-glucose", 
+                    "evidence_gt_spec": "Knock-out construct"
+                }
+            ]
+        }
+    }
+}
+
+

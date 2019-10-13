@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "imizoquins"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 53073, 
+                    "Accession": "NW_002477244", 
+                    "start_coord": 25905
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001621", 
+        "publications": [
+            "29182847"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

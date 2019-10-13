@@ -1,0 +1,912 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Sean Brady", 
+        "submitter_institution": "The Rockefeller Univeristy", 
+        "submitter_email": "sbrady@rockefeller.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000223", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "20690632", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "HM193369", 
+                    "start_coord": 1, 
+                    "end_coord": 66760, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Rabelomycin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 443810, 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_moieties": [
+                    {
+                        "moiety_subcluster": []
+                    }
+                ]
+            }, 
+            {
+                "compound": "Dehydrorabelomycin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 443801, 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }, 
+            {
+                "compound": "Fluostatin F", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 71460594, 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }, 
+            {
+                "compound": "Fluostatin G", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=CC=CC2=C1C3=C(C([C@H](OC)[C@@H]4[C@@](C)(O4)C5=O)=C5C=C3O)C2=O", 
+                "molecular_formula": "C19H14O6", 
+                "mol_mass": 338.079, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }, 
+            {
+                "compound": "Fluostatin H", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=CC=CC2=C1C3=C(C([C@H](OC(C(C)CCC)=O)[C@@H]4[C@@](C)(O4)C5=O)=C5C=C3O)C2=O", 
+                "molecular_formula": "C24H22O7", 
+                "mol_mass": 422.1366, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 614, 
+                    "gene_endpos": 1570, 
+                    "gene_id": "AEE65458.1", 
+                    "gene_annotation": "beta-lactamase domain protein", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1680, 
+                    "gene_endpos": 2564, 
+                    "gene_id": "AEE65459.1", 
+                    "gene_annotation": "bata-lactamase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2601, 
+                    "gene_endpos": 3557, 
+                    "gene_id": "AEE65460.1", 
+                    "gene_annotation": "transcriptional regulater", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3794, 
+                    "gene_endpos": 5467, 
+                    "gene_id": "AEE65461.1", 
+                    "gene_annotation": "carboxyl transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Carboxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5440, 
+                    "gene_endpos": 6888, 
+                    "gene_id": "AEE65462.1", 
+                    "gene_annotation": "oxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6885, 
+                    "gene_endpos": 8390, 
+                    "gene_id": "AEE65463.1", 
+                    "gene_annotation": "Oxygenase reductase-like protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 8387, 
+                    "gene_endpos": 9337, 
+                    "gene_id": "AEE65464.1", 
+                    "gene_annotation": "aromatase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9361, 
+                    "gene_endpos": 10143, 
+                    "gene_id": "AEE65465.1", 
+                    "gene_annotation": "ketoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10156, 
+                    "gene_endpos": 10431, 
+                    "gene_id": "AEE65466.1", 
+                    "gene_annotation": "acyl carrier protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 10428, 
+                    "gene_endpos": 11690, 
+                    "gene_id": "AEE65467.1", 
+                    "gene_annotation": "chain length determinant", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 11687, 
+                    "gene_endpos": 12958, 
+                    "gene_id": "AEE65468.1", 
+                    "gene_annotation": "ketoacyl synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 12955, 
+                    "gene_endpos": 13284, 
+                    "gene_id": "AEE65469.1", 
+                    "gene_annotation": "putative polyketide cyclase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 13307, 
+                    "gene_endpos": 15043, 
+                    "gene_id": "AEE65470.1", 
+                    "gene_annotation": "carboxylase, alpha subunit", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Carboxylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15219, 
+                    "gene_endpos": 15905, 
+                    "gene_id": "AEE65471.1", 
+                    "gene_annotation": "two component regulater", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16178, 
+                    "gene_endpos": 16579, 
+                    "gene_id": "AEE65472.1", 
+                    "gene_annotation": "oxidase-related FMN-binding protein", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16708, 
+                    "gene_endpos": 18198, 
+                    "gene_id": "AEE65473.1", 
+                    "gene_annotation": "oxygenase-like protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18230, 
+                    "gene_endpos": 18943, 
+                    "gene_id": "AEE65474.1", 
+                    "gene_annotation": "oxidase-like protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18982, 
+                    "gene_endpos": 19521, 
+                    "gene_id": "AEE65475.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19584, 
+                    "gene_endpos": 20678, 
+                    "gene_id": "AEE65476.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20742, 
+                    "gene_endpos": 21503, 
+                    "gene_id": "AEE65477.1", 
+                    "gene_annotation": "NAD-dependent epimerase/dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Epimerization", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21583, 
+                    "gene_endpos": 23058, 
+                    "gene_id": "AEE65478.1", 
+                    "gene_annotation": "putative oxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 23303, 
+                    "gene_endpos": 24526, 
+                    "gene_id": "AEE65479.1", 
+                    "gene_annotation": "oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24532, 
+                    "gene_endpos": 25539, 
+                    "gene_id": "AEE65480.1", 
+                    "gene_annotation": "putative O-methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25792, 
+                    "gene_endpos": 26571, 
+                    "gene_id": "AEE65481.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27526, 
+                    "gene_endpos": 28497, 
+                    "gene_id": "AEE65522.1", 
+                    "gene_annotation": "alcohol dehydrogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 28497, 
+                    "gene_endpos": 29531, 
+                    "gene_id": "AEE65482.1", 
+                    "gene_annotation": "3-oxoacyl-(acyl carrier protein) synthase III", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29557, 
+                    "gene_endpos": 30282, 
+                    "gene_id": "AEE65483.1", 
+                    "gene_annotation": "short-chain dehydrogenase/reductase SDR", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30279, 
+                    "gene_endpos": 31766, 
+                    "gene_id": "AEE65484.1", 
+                    "gene_annotation": "monooxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31810, 
+                    "gene_endpos": 32802, 
+                    "gene_id": "AEE65485.1", 
+                    "gene_annotation": "streptomycin biosynthesis operon regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 33136, 
+                    "gene_endpos": 34338, 
+                    "gene_id": "AEE65486.1", 
+                    "gene_annotation": "Nitric-oxide synthase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 34343, 
+                    "gene_endpos": 35182, 
+                    "gene_id": "AEE65487.1", 
+                    "gene_annotation": "amidohydrolase-like protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydrolysis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 35234, 
+                    "gene_endpos": 35635, 
+                    "gene_id": "AEE65488.1", 
+                    "gene_annotation": "GCN5-related N-acetyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acetylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 35632, 
+                    "gene_endpos": 36906, 
+                    "gene_id": "AEE65489.1", 
+                    "gene_annotation": "adenylosuccinate lyase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydrolysis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 37062, 
+                    "gene_endpos": 38558, 
+                    "gene_id": "AEE65490.1", 
+                    "gene_annotation": "amidase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Amination", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 38558, 
+                    "gene_endpos": 40063, 
+                    "gene_id": "AEE65491.1", 
+                    "gene_annotation": "glutamine synthetase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 40142, 
+                    "gene_endpos": 40501, 
+                    "gene_id": "AEE65492.1", 
+                    "gene_annotation": "putative ferredoxin", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 40498, 
+                    "gene_endpos": 42384, 
+                    "gene_id": "AEE65493.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 42374, 
+                    "gene_endpos": 43063, 
+                    "gene_id": "AEE65494.1", 
+                    "gene_annotation": "response regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 43647, 
+                    "gene_endpos": 43910, 
+                    "gene_id": "AEE65495.1", 
+                    "gene_annotation": "Hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 44467, 
+                    "gene_endpos": 46689, 
+                    "gene_id": "AEE65496.1", 
+                    "gene_annotation": "PAS/PAC sensor signal transduction histidine kinase", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 46815, 
+                    "gene_endpos": 47255, 
+                    "gene_id": "AEE65497.1", 
+                    "gene_annotation": "ShdA", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 47504, 
+                    "gene_endpos": 48412, 
+                    "gene_id": "AEE65498.1", 
+                    "gene_annotation": "antitoxin component", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 48468, 
+                    "gene_endpos": 48659, 
+                    "gene_id": "AEE65499.1", 
+                    "gene_annotation": "putative regulatory protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 48916, 
+                    "gene_endpos": 49116, 
+                    "gene_id": "AEE65500.1", 
+                    "gene_annotation": "putative regulatory protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 49176, 
+                    "gene_endpos": 49718, 
+                    "gene_id": "AEE65501.1", 
+                    "gene_annotation": "conserved hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 49751, 
+                    "gene_endpos": 50869, 
+                    "gene_id": "AEE65502.1", 
+                    "gene_annotation": "geranylgeranyl reductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 50949, 
+                    "gene_endpos": 51494, 
+                    "gene_id": "AEE65503.1", 
+                    "gene_annotation": "galactoside O-acetyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acetylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 51491, 
+                    "gene_endpos": 52057, 
+                    "gene_id": "AEE65504.1", 
+                    "gene_annotation": "transcriptional regulator, TetR family", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 52054, 
+                    "gene_endpos": 53262, 
+                    "gene_id": "AEE65505.1", 
+                    "gene_annotation": "putative DeoR-type transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 53273, 
+                    "gene_endpos": 53719, 
+                    "gene_id": "AEE65506.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 53718, 
+                    "gene_endpos": 54041, 
+                    "gene_id": "AEE65507.1", 
+                    "gene_annotation": "AGR369Wp", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 54188, 
+                    "gene_endpos": 54628, 
+                    "gene_id": "AEE65508.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 54701, 
+                    "gene_endpos": 55240, 
+                    "gene_id": "AEE65509.1", 
+                    "gene_annotation": "intracellular protease", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 55266, 
+                    "gene_endpos": 56552, 
+                    "gene_id": "AEE65510.1", 
+                    "gene_annotation": "integral membrane protein", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 56591, 
+                    "gene_endpos": 57010, 
+                    "gene_id": "AEE65511.1", 
+                    "gene_annotation": "NUDIX hydrolase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 57122, 
+                    "gene_endpos": 58060, 
+                    "gene_id": "AEE65512.1", 
+                    "gene_annotation": "Ku protein", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 58153, 
+                    "gene_endpos": 59100, 
+                    "gene_id": "AEE65513.1", 
+                    "gene_annotation": "DNA polymerase LigD ligase region", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 59093, 
+                    "gene_endpos": 60001, 
+                    "gene_id": "AEE65514.1", 
+                    "gene_annotation": "DNA polymerase LigD, polymerase domain protein", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 60063, 
+                    "gene_endpos": 60851, 
+                    "gene_id": "AEE65515.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 60934, 
+                    "gene_endpos": 61275, 
+                    "gene_id": "AEE65516.1", 
+                    "gene_annotation": "transcriptional regulator, PadR-like family", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 61272, 
+                    "gene_endpos": 61697, 
+                    "gene_id": "AEE65517.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 61694, 
+                    "gene_endpos": 63355, 
+                    "gene_id": "AEE65518.1", 
+                    "gene_annotation": "helicase domain protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 63393, 
+                    "gene_endpos": 65792, 
+                    "gene_id": "AEE65519.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 65874, 
+                    "gene_endpos": 66107, 
+                    "gene_id": "AEE65520.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 66104, 
+                    "gene_endpos": 66760, 
+                    "gene_id": "AEE65521.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Angucycline", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "AEE65468.1"
+            ], 
+            "ketide_length": 10, 
+            "cyclases": "AEE65464.1, AEE65469.1"
+        }
+    }
+}
+
+

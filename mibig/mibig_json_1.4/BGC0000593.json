@@ -1,0 +1,78 @@
+{
+    "version": "6", 
+    "personal": {
+        "submitter_name": "Nadine Ziemert", 
+        "submitter_institution": "University of Tuebingen", 
+        "submitter_email": "nziemert@ucsd.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000593", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "18683268,12956505", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AM943878", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "microviridin J", 
+                "chem_synonyms": [], 
+                "chem_struct": "CCC(C)C(NC(C)=O)C(=O)N[C@@H](CO)C(=O)N[C@@H]1[C@@H](C)OC(=O)CC2NC(=O)[C@@H]3COC(=O)CC[C@@H](NC(=O)[C@H](CC4=CNC5=C4C=CC=C5)NC2=O)C(=O)N[C@@H](CCC(=O)NCCCC[C@H](NC(=O)C(CCCNC(N)=N)NC1=O)C(=O)N[C@@H](CC1=CC=C(O)C=C1)C(=O)N1CCC[C@H]1C(=O)N3)C(=O)N[C@@H](CC1=CC2=C(N1)C=CC=C2)C(O)=O", 
+                "molecular_formula": "C80H105N19O22", 
+                "mol_mass": 1684.8038, 
+                "mass_ion_type": "Molecular ion", 
+                "chem_act": [
+                    "Inhibitor"
+                ], 
+                "chem_target": "trypsin and chymotrypsin proteases"
+            }
+        ], 
+        "genes": {}, 
+        "RiPP": {
+            "ripp_subclass": "Microviridin", 
+            "lin_cycl_ripp": "Cyclic", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "caq16121"
+                    ], 
+                    "core_pept_aa": "MAYPNDQQGKALPFFARFLSVSKEESSIKSPSPDHEISTRKYPSDWEEW", 
+                    "lead_pept_len": 36, 
+                    "foll_pept_len": -1, 
+                    "recogn_motif": "pffarfl", 
+                    "peptidase": [], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 3, 
+                            "AA_pos_2": 9, 
+                            "crosslink_type": "Lactone"
+                        }, 
+                        {
+                            "AA_pos_1": 8, 
+                            "AA_pos_2": 11, 
+                            "crosslink_type": "Lactone"
+                        }, 
+                        {
+                            "AA_pos_1": 5, 
+                            "AA_pos_2": 13, 
+                            "crosslink_type": "Lactam"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

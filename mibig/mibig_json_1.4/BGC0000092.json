@@ -1,0 +1,72 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "megalomicin A",
+                "database_deposited": true, 
+                "pubchem_id": 31864, 
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "chem_struct": "CC[C@@H]1[C@@]([C@@H]([C@H](C(=O)[C@@H](C[C@@]([C@@H]([C@H]([C@@H]([C@H](C(=O)O1)C)O[C@H]2C[C@@]([C@H]([C@@H](O2)C)O)(C)O)C)O[C@H]3[C@@H]([C@H](C[C@H](O3)C)N(C)C)O)(C)O[C@H]4C[C@H]([C@H]([C@@H](O4)C)O)N(C)C)C)C)O)(C)O",
+                "molecular_formula": "C44H80N2O15",
+                "mol_mass": 877.11
+            },
+            {
+                "compound": "megalomicin B",
+                "database_deposited": true, 
+                "pubchem_id": 443561, 
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "chem_struct": "CC[C@@H]1[C@@]([C@@H]([C@H](C(=O)[C@@H](C[C@@]([C@@H]([C@H]([C@@H]([C@H](C(=O)O1)C)O[C@H]2C[C@@]([C@H]([C@@H](O2)C)OC(=O)C)(C)O)C)O[C@H]3[C@@H]([C@H](C[C@H](O3)C)N(C)C)O)(C)O[C@H]4C[C@H]([C@H]([C@@H](O4)C)O)N(C)C)C)C)O)(C)O",
+                "molecular_formula": "C46H82N2O16",
+                "mol_mass": 919.147
+            },
+            {
+                "compound": "megalomicin C1",
+                "database_deposited": true, 
+                "pubchem_id": 443562, 
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "chem_struct": "CC[C@@H]1[C@@]([C@@H]([C@H](C(=O)[C@@H](C[C@@]([C@@H]([C@H]([C@@H]([C@H](C(=O)O1)C)O[C@H]2C[C@@]([C@H]([C@@H](O2)C)OC(=O)C)(C)OC(=O)C)C)O[C@H]3[C@@H]([C@H](C[C@H](O3)C)N(C)C)O)(C)O[C@H]4C[C@H]([C@H]([C@@H](O4)C)O)N(C)C)C)C)O)(C)O",
+                "molecular_formula": "C48H84N2O17",
+                "mol_mass": 961.183
+            },
+            {
+                "compound": "megalomicin C2",
+                "database_deposited": true, 
+                "pubchem_id": 443563, 
+                "databases_deposited": [
+                    "PubChem"
+                ],
+                "chem_struct": "CC[C@@H]1[C@@]([C@@H]([C@H](C(=O)[C@@H](C[C@@]([C@@H]([C@H]([C@@H]([C@H](C(=O)O1)C)O[C@H]2C[C@@]([C@H]([C@@H](O2)C)OC(=O)CC)(C)OC(=O)C)C)O[C@H]3[C@@H]([C@H](C[C@H](O3)C)N(C)C)O)(C)O[C@H]4C[C@H]([C@H]([C@@H](O4)C)O)N(C)C)C)C)O)(C)O",
+                "molecular_formula": "C49H86N2O17",
+                "mol_mass": 975.21
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": -1, 
+                    "Accession": "AF263245", 
+                    "start_coord": -1
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000092", 
+        "publications": [
+            "10972798"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

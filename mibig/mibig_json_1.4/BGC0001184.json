@@ -1,0 +1,145 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Rainer Borriss", 
+        "submitter_institution": "Humboldt University", 
+        "submitter_email": "rainer.borriss@rz.hu-berlin.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001184", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "19061923,    25261512,    26268540", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP000560.1", 
+                    "start_coord": 3593877, 
+                    "end_coord": 3599784, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "bacilysin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 160175, 
+                "evidence_struct": [
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "dhbA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3032970, 
+                    "gene_endpos": 3032200, 
+                    "gene_id": "ABS75236.1", 
+                    "gene_annotation": "2,3-dihydro-2,3-dihydroxybenzoate dehydrogenase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "no bacillibactin synthesis"
+                }, 
+                {
+                    "gene_name": "dhbC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3032176, 
+                    "gene_endpos": 3030980, 
+                    "gene_id": "ABS75235.1", 
+                    "gene_annotation": "isochorismatase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "no bacillibactin synthesis"
+                }, 
+                {
+                    "gene_name": "dhbE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3030961, 
+                    "gene_endpos": 3029336, 
+                    "gene_id": "ABS75234.1", 
+                    "gene_annotation": "2,3-dihydroxybenzoate-AMP ligase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "no bacillibactin synthesis"
+                }, 
+                {
+                    "gene_name": "dhbB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3029318, 
+                    "gene_endpos": 3028392, 
+                    "gene_id": "ABS75233.1", 
+                    "gene_annotation": " isochorismatase", 
+                    "gene_function": "Other enzymatic", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "no bacillibactin synthesis"
+                }, 
+                {
+                    "gene_name": "ABS75232.1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3028377, 
+                    "gene_endpos": 3021250, 
+                    "gene_id": "ABS75232.1", 
+                    "gene_annotation": "dimodular nonribosomal peptide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": "no bacillibactin synthesis"
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": true, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": null, 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": null, 
+                    "not_in_gbk": true, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": null, 
+                    "gene_annotation": null, 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "None"
+                    ], 
+                    "mut_pheno": null
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "None"
+        }
+    }
+}

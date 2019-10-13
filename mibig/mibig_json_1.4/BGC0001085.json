@@ -1,0 +1,32 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 72425, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "teleocidin B"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 14329, 
+                    "Accession": "AB937114", 
+                    "start_coord": 3684
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001085", 
+        "publications": [
+            "24992358"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP", 
+            "Terpene"
+        ]
+    }
+}

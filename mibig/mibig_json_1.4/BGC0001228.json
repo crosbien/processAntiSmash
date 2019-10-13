@@ -1,0 +1,350 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Max Cr\u00c3\u00bcsemann", 
+        "submitter_institution": "University of Bonn", 
+        "submitter_email": "cruesemann@uni-bonn.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001228", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "25865308", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "NZ_KI911494", 
+                    "start_coord": 196325, 
+                    "end_coord": 234105, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Retimycin A", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(NC1C(NC(C)C(N(C)C2C(N(C)C3(C(C)C3)C(OC(C)C(NC(C4=NC5=CC=CC=C5C=C4O)=O)C(NC(C)C(N(C)C(C(S(C)=O)SC2)C(N(C)C6(C(C)C6)C(OC1C)=O)=O)=O)=O)=O)=O)=O)=O)C7=NC8=CC=CC=C8C=C7O", 
+                "molecular_formula": "C55H66N10O15S2", 
+                "mol_mass": 1171.4151, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Cytotoxic"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "rtmR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 196325, 
+                    "gene_endpos": 196732, 
+                    "gene_id": "WP_051419346.1", 
+                    "gene_annotation": "Signal transduction response regulator, C-terminal", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "rtmQ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 196880, 
+                    "gene_endpos": 197092, 
+                    "gene_id": "WP_028678147.1", 
+                    "gene_annotation": "MbtH-like protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "rtmP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 197126, 
+                    "gene_endpos": 206506, 
+                    "gene_id": "WP_028678148.1", 
+                    "gene_annotation": "non-ribosomal peptide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "rtmO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 206516, 
+                    "gene_endpos": 214213, 
+                    "gene_id": "WP_028678149.1", 
+                    "gene_annotation": "non-ribosomal peptide synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "rtmN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 214459, 
+                    "gene_endpos": 216834, 
+                    "gene_id": "WP_028678150.1", 
+                    "gene_annotation": "Excinuclease ATPase subunit", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "rtmM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 216889, 
+                    "gene_endpos": 217590, 
+                    "gene_id": "WP_043555673.1", 
+                    "gene_annotation": "thioesterase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "rtmL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 217642, 
+                    "gene_endpos": 219573, 
+                    "gene_id": "WP_051419351.1", 
+                    "gene_annotation": "Fe-S oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "rtmK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 219830, 
+                    "gene_endpos": 220519, 
+                    "gene_id": "WP_051419347.1", 
+                    "gene_annotation": "methyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Methylation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "rtmJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 220761, 
+                    "gene_endpos": 222599, 
+                    "gene_id": "WP_051419352.1", 
+                    "gene_annotation": "Fe-S oxidoreductase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "rtmI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 222611, 
+                    "gene_endpos": 223753, 
+                    "gene_id": "WP_043555682.1", 
+                    "gene_annotation": "aminotransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "rtmH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 223792, 
+                    "gene_endpos": 224967, 
+                    "gene_id": "WP_028678152.1", 
+                    "gene_annotation": "cytchrome p450", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "rtmG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 224978, 
+                    "gene_endpos": 226777, 
+                    "gene_id": "WP_051419348.1", 
+                    "gene_annotation": "Amino acid adenylation domain", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "rtmF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 226968, 
+                    "gene_endpos": 228554, 
+                    "gene_id": "WP_028678153.1", 
+                    "gene_annotation": "(2,3-dihydroxybenzoyl)adenylate synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "rtmE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 228559, 
+                    "gene_endpos": 229779, 
+                    "gene_id": "WP_051419353.1", 
+                    "gene_annotation": "cytochrome p450", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "rtmD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 229967, 
+                    "gene_endpos": 230662, 
+                    "gene_id": "WP_051419354.1", 
+                    "gene_annotation": "dehydrogenase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "rtmC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 230707, 
+                    "gene_endpos": 231957, 
+                    "gene_id": "WP_051419355.1", 
+                    "gene_annotation": "aminotransferase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "rtmB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 231954, 
+                    "gene_endpos": 232664, 
+                    "gene_id": "WP_043555647.1", 
+                    "gene_annotation": "Tryptophan 2,3 dioxygenase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "rtmA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 232672, 
+                    "gene_endpos": 234105, 
+                    "gene_id": "WP_043555649.1", 
+                    "gene_annotation": "Amino acid adenylation domain", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ], 
+                    "mut_pheno": null
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Cyclic depsipeptide", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Unknown", 
+            "nrps_thioesterase": [
+                "b110_rs0125715", 
+                "b110_rs27195"
+            ], 
+            "nrps_release_type": "Macrolactonization", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "WP_028678149.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Threonine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "Starter", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Alanine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Other", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "WP_028678148.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Cysteine", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "Methylation", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "Norcoronamic acid", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "Methylation", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

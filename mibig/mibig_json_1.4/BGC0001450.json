@@ -1,0 +1,216 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Mancheng Tang", 
+        "submitter_institution": "UCLA", 
+        "submitter_email": "tmc19@163.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001450", 
+        "biosyn_class": [
+            "Terpene"
+        ], 
+        "publications": "10.1021/acs.orglett.7b02653, 10.1021/np010152n, 10.1080/00021369.1983.10865611", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "MF989995", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production"
+                    ]
+                }, 
+                {
+                    "Accession": "MF989996", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "MF989997", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "MF989998", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "MF989999", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Heterologous expression"
+                    ]
+                }, 
+                {
+                    "Accession": "MF990000", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "MF990001", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "MF990002", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "MF990003", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "MF990004", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays"
+                    ]
+                }, 
+                {
+                    "Accession": "MF990005", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "macrophorin A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 14526957, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }, 
+            {
+                "compound": "4'-oxomacrophorin A", 
+                "chem_synonyms": [], 
+                "chem_struct": "C=C1CC[C@@]2([H])C(C)(C)CCC[C@]2(C)[C@H]1C[C@@]34[C@H](O4)C(C(CO)=CC3=O)=O", 
+                "molecular_formula": "C22H30O4", 
+                "mol_mass": 359.2, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "immunomodulatory activity"
+            }, 
+            {
+                "compound": "4'-oxomacrophorin D", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 9180817, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "immunomodulatory activity"
+            }, 
+            {
+                "compound": "4'-oxomacrophorin E", 
+                "chem_synonyms": [], 
+                "chem_struct": "C=C1CC[C@@]2([H])C(C)(C)CCC[C@]2(C)[C@H]1C[C@@]34[C@H](O4)C(C(COC(CC(O)=O)=O)=CC3=O)=O", 
+                "molecular_formula": "C25H32O7", 
+                "mol_mass": 445.2, 
+                "mass_ion_type": "[M+H]+", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "Terpene": {
+            "terpene_subclass": "Other", 
+            "terpene_c_len": "Sesquiterpene", 
+            "terpene_precursor": "FPP", 
+            "terpene_synth_cycl": [
+                "mf990004"
+            ], 
+            "prenyl_transf": [
+                "mf989998"
+            ]
+        }, 
+        "Polyketide": {
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "AVK70100", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "AT", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "at_substr_spec": "Malonyl-CoA", 
+                            "evidence_at_spec": "None", 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Iterated", 
+                            "pks_evidence_skip_iter": "Sequence-based prediction"
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "comments": "This cluster is responsible for the biosynthesis of meroterpenoid macrophorins. The membrane-bound terpene cyclase, MacJ, was characterized to catalyze the cyclization of meroterpenoids via direct protonation of the terminal olefin in the linear isoprenoid chain."
+}
+

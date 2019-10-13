@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "subterisin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 27234, 
+                    "Accession": "JRVC01000028", 
+                    "start_coord": 16281
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001786", 
+        "publications": [
+            "https://doi.org/10.1016/j.tetlet.2017.07.064"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "RiPP"
+        ]
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Alexander Kristian Apel", 
+        "submitter_institution": "Eberhard Karls Universit\u00c3\u00a4t T\u00c3\u00bcbingen", 
+        "submitter_email": "kristian.apel@uni-tuebingen.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001221", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "25224759,26319318", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KJ451627", 
+                    "start_coord": 5112, 
+                    "end_coord": 13891, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "KJ451628", 
+                    "start_coord": 1020, 
+                    "end_coord": 6354, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "marinophenazine A", 
+                "chem_synonyms": [], 
+                "chem_struct": "C/C(=C\\\\COc1cccc2c1nc1cccc(c1[n+]2[O-])O)/CCC=C(C)C", 
+                "molecular_formula": "C22N2O3H24", 
+                "mol_mass": 364.44, 
+                "mass_ion_type": "Other", 
+                "evidence_struct": [
+                    "NMR"
+                ], 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "phenazine-1-carboxylic acid", 
+                        "moiety_subcluster": [
+                            "ait42116", 
+                            "ait42117", 
+                            "ait42118", 
+                            "ait42119", 
+                            "ait42120", 
+                            "ait42121", 
+                            "ait42135"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "marinophenazine B", 
+                "chem_synonyms": [], 
+                "chem_struct": "C/C(=C\\\\COc1cccc2c1nc1cccc(c1n2)O)/CCC=C(C)C", 
+                "molecular_formula": "C22N2O2H24", 
+                "mol_mass": 348.44, 
+                "mass_ion_type": "Other", 
+                "evidence_struct": [
+                    "NMR"
+                ], 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "phenazine-1-carboxylic acid", 
+                        "moiety_subcluster": [
+                            "ait42116", 
+                            "ait42117", 
+                            "ait42118", 
+                            "ait42119", 
+                            "ait42120", 
+                            "ait42121", 
+                            "ait42135"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "cnqPT1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3984, 
+                    "gene_endpos": 4988, 
+                    "gene_id": "CnqPT1", 
+                    "gene_annotation": "membrane-bound Prenyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Prenylation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Phenazine"
+        }
+    }, 
+    "comments": "Cluster information for Marinophenazine A and B"
+}

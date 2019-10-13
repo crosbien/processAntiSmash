@@ -1,0 +1,300 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Margherita Sosio and Lorena T. Fern\u00c3\u00a1ndez-Mart\u00c3\u00adnez",
+        "submitter_institution": "Naicons Srl and John Innes Centre; Norwich Research Park; Norwich; NR4 7UH; United Kingdom", 
+        "submitter_email": "msosio@naicons.com and lorena.fernandez-martinez@jic.ac.uk"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000544", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "23475977,23776227,19301921,22083835,17469849", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "HF570921", 
+                    "start_coord": 14970, 
+                    "end_coord": 30259, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "planosporicin", 
+                "chem_synonyms": [], 
+                "chem_struct": "O=C(N[C@H](C(NC(C(N[C@H]1CC2=CNC3=C2C=CC=C3)=O)=C)=O)C(C)C)[C@H](NC(/C(NC(C(N)C(C)CC)=O)=C/C)=O)CSC[C@@H](C(N[C@@H](C(N4[C@H](C(NCC(N5)=O)=O)CCC4)=O)[C@H](C)SC[C@H]5C(N[C@H]([C@H](O)C)C(N[C@@H](C(NC(CCC(O)=O)C(NCC(NCC(NCC(N6)=O)=O)=O)=O)=O)CSC[C@@H](C(N[C@@H](CSC7)C(N[C@@H]8CC9=CNC=N9)=O)=O)NC(CNC([C@H]6CSC[C@@H](C(N[C@@H]7C(O)=O)=O)NC8=O)=O)=O)=O)=O)=O)NC1=O", 
+                "molecular_formula": "C90 H125 N27 O28 S5", 
+                "mol_mass": 2191.79, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "Lipid II, blocks cell-wall biosynthesis"
+            }
+        ], 
+        "genes": {
+             "operon": [
+                {
+                    "operon_genes": [
+                        "CCQ18686.1,CCQ18687.1"
+                    ], 
+                    "evidence_operon": "Other"
+                }, 
+                {
+                    "operon_genes": [
+                        "CCQ18688.1,CCQ18689.1,CCQ18690.1,CCQ18691.1,CCQ18692.1,CCQ18693.1,CCQ18694.1"  
+                    ], 
+                    "evidence_operon": "Other"
+                }, 
+                {
+                    "operon_genes": [
+                        "CCQ18695.1,CCQ18696.1,CCQ18697.1,CCQ18698.1,CCQ18699.1,CCQ18700.1"
+                    ], 
+                    "evidence_operon": "Other"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "pspE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 14970, 
+                    "gene_endpos": 15779, 
+                    "gene_id": "CCQ18686.1", 
+                    "gene_annotation": "ABC transporter permease", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pspF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15782, 
+                    "gene_endpos": 16531, 
+                    "gene_id": "CCQ18687.1", 
+                    "gene_annotation": "ABC transporter ATP-binding protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pspR", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16599, 
+                    "gene_endpos": 17381, 
+                    "gene_id": "CCQ18688.1", 
+                    "gene_annotation": "putative DNA-binding protein", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No production"
+                }, 
+                {
+                    "gene_name": "pspQ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17471, 
+                    "gene_endpos": 17887, 
+                    "gene_id": "CCQ18689.1", 
+                    "gene_annotation": "putative lipoprotein", 
+                    "gene_function": "Resistance/immunity", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "no effect on production"
+                }, 
+                {
+                    "gene_name": "pspZ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17900, 
+                    "gene_endpos": 18805, 
+                    "gene_id": "CCQ18690.1", 
+                    "gene_annotation": "ABC transporter ATP-binding protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pspY", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18852, 
+                    "gene_endpos": 19646, 
+                    "gene_id": "CCQ18691.1", 
+                    "gene_annotation": "ABC transporter permease", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pspJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19646, 
+                    "gene_endpos": 20287, 
+                    "gene_id": "CCQ18692.1", 
+                    "gene_annotation": "hypothetical membrane protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No production"
+                }, 
+                {
+                    "gene_name": "pspW", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 20519, 
+                    "gene_endpos": 21463, 
+                    "gene_id": "CCQ18693.1", 
+                    "gene_annotation": "anti-sigma factor", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "increase production"
+                }, 
+                {
+                    "gene_name": "pspX", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 21460, 
+                    "gene_endpos": 21930, 
+                    "gene_id": "CCQ18694.1", 
+                    "gene_annotation": "ECF sigma factor", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No production"
+                }, 
+                {
+                    "gene_name": "pspA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22297, 
+                    "gene_endpos": 22467, 
+                    "gene_id": "CCQ18695.1", 
+                    "gene_annotation": "planosporicin precursor peptide", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No production"
+                }, 
+                {
+                    "gene_name": "pspB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 22561, 
+                    "gene_endpos": 25764, 
+                    "gene_id": "CCQ18696.1", 
+                    "gene_annotation": "lantibiotic dehydratase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pspC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25761, 
+                    "gene_endpos": 27134, 
+                    "gene_id": "CCQ18697.1", 
+                    "gene_annotation": "lantibiotic cyclase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pspT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27131, 
+                    "gene_endpos": 28099, 
+                    "gene_id": "CCQ18698.1", 
+                    "gene_annotation": "ABC transporter ATP-binding domain", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pspU", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 28149, 
+                    "gene_endpos": 28946, 
+                    "gene_id": "CCQ18699.1", 
+                    "gene_annotation": "ABC transporter permease", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "pspV", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 28943, 
+                    "gene_endpos": 30259, 
+                    "gene_id": "CCQ18700.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No production"
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "Lantipeptide", 
+            "lin_cycl_ripp": "Linear", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "ccq18695"
+                    ], 
+                    "core_pept_aa": "ITSVSWCTPGCTSEGGGSGCSHCC", 
+                    "lead_pept_len": 32, 
+                    "foll_pept_len": -1, 
+                    "recogn_motif": "FQLD", 
+                    "peptidase": [], 
+                    "crosslinks": [
+                        {
+                            "AA_pos_1": 3, 
+                            "AA_pos_2": 7, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 8, 
+                            "AA_pos_2": 11, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 13, 
+                            "AA_pos_2": 20, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 18, 
+                            "AA_pos_2": 23, 
+                            "crosslink_type": "Thioether"
+                        }, 
+                        {
+                            "AA_pos_1": 21, 
+                            "AA_pos_2": 24, 
+                            "crosslink_type": "Thioether"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

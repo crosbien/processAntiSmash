@@ -1,0 +1,640 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Eric J. N. Helfrich", 
+        "submitter_institution": "ETH Zurich", 
+        "submitter_email": "ehelfrich@ethz.ch"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001470", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "26633631", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "LMPN02000017", 
+                    "start_coord": 318348, 
+                    "end_coord": 223174, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "macrobrevin", 
+                "chem_synonyms": [], 
+                "chem_struct": "CCC(C)C(O)/C=C/C(C)=C/C=C/C(C)CC(C)C(O1)CC(O)C(C)/C=C/C=C/C(C)C/C=C(C)/C(O)/C=C/CC(O)C(C)/C=C/C1=O", 
+                "molecular_formula": "C42H66O6", 
+                "mol_mass": 689.4762, 
+                "mass_ion_type": "[M+Na]+", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "rat98531.1", 
+                        "rat98530.1", 
+                        "rat98529.1", 
+                        "rat98528.1", 
+                        "rat98527.1", 
+                        "rat98526.1", 
+                        "rat98525.1", 
+                        "rat98524.1", 
+                        "rat98523.1", 
+                        "rat98522.1", 
+                        "rat98521.1", 
+                        "rat98520.1", 
+                        "rat98519.1", 
+                        "rat98518.1", 
+                        "rat98517.1"
+                    ], 
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "breO", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 223174, 
+                    "gene_endpos": 237495, 
+                    "gene_id": "RAT98517.1", 
+                    "gene_annotation": "trans-acyltransferase polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "breN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 237539, 
+                    "gene_endpos": 247891, 
+                    "gene_id": "RAT98518.1", 
+                    "gene_annotation": "trans-acyltransferase polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "breM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 247930, 
+                    "gene_endpos": 253734, 
+                    "gene_id": "RAT98519.1", 
+                    "gene_annotation": "trans-acyltransferase polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "breL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 253757, 
+                    "gene_endpos": 254503, 
+                    "gene_id": "RAT98520.1", 
+                    "gene_annotation": "enoyl-CoA hydratase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "breK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 254510, 
+                    "gene_endpos": 255274, 
+                    "gene_id": "RAT98521.1", 
+                    "gene_annotation": "enoyl-CoA hydratase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "breJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 255274, 
+                    "gene_endpos": 256524, 
+                    "gene_id": "RAT98522.1", 
+                    "gene_annotation": "3-hydroxy-3-methylglutaryl-ACP synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "breI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 256549, 
+                    "gene_endpos": 257787, 
+                    "gene_id": "RAT98523.1", 
+                    "gene_annotation": "polyketide beta-ketoacyl:ACP synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "breH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 257765, 
+                    "gene_endpos": 258007, 
+                    "gene_id": "RAT98524.1", 
+                    "gene_annotation": "acyl carrier protein", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "breG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 258004, 
+                    "gene_endpos": 271413, 
+                    "gene_id": "RAT98525.1", 
+                    "gene_annotation": "trans-acyltransferase polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "breF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 271432, 
+                    "gene_endpos": 276963, 
+                    "gene_id": "RAT98526.1", 
+                    "gene_annotation": "trans-acyltransferase polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "breE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 276988, 
+                    "gene_endpos": 292734, 
+                    "gene_id": "RAT98527.1", 
+                    "gene_annotation": "trans-acyltransferase polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "breD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 292737, 
+                    "gene_endpos": 300644, 
+                    "gene_id": "RAT98528.1", 
+                    "gene_annotation": "trans-acyltransferase polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "breC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 300685, 
+                    "gene_endpos": 310422, 
+                    "gene_id": "RAT98529.1", 
+                    "gene_annotation": "trans-acyltransferase polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "breB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 310472, 
+                    "gene_endpos": 315031, 
+                    "gene_id": "RAT98530.1", 
+                    "gene_annotation": "trans-acyltransferase polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolishment of macrobrevin production"
+                }, 
+                {
+                    "gene_name": "breA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 315049, 
+                    "gene_endpos": 318348, 
+                    "gene_id": "RAT98531.1", 
+                    "gene_annotation": "acyltransferase acyltransferase 2-Nitropropane dioxygenase (NPD)-like domain", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Trans-AT type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "trans_at": [
+                "rat98531.1"
+            ], 
+            "pks_te_type": "Unknown", 
+            "pks_release_type": "Macrolactonization", 
+            "mod_pks_genes": [
+                {
+                    "mod_pks_gene": "RAT98530.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "RAT98529.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "1", 
+                            "pks_domains": [
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "RAT98528.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "3", 
+                            "pks_domains": [
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "pks_domains": [
+                                "KS"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Non-elongating"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "RAT98527.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "5", 
+                            "pks_domains": [
+                                "DH", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "7", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T", 
+                                "ER"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "8", 
+                            "pks_domains": [
+                                "KS"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "RAT98526.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "10", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "9", 
+                            "pks_domains": [
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "RAT98525.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "10", 
+                            "pks_domains": [
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "11", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "12", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "13", 
+                            "pks_domains": [
+                                "KS", 
+                                "T", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "RAT98519.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "13", 
+                            "pks_domains": [
+                                "ER", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "14", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "RAT98518.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "14", 
+                            "pks_domains": [
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "15", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "16", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "17", 
+                            "pks_domains": [
+                                "KS"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Non-elongating"
+                        }
+                    ]
+                }, 
+                {
+                    "mod_pks_gene": "RAT98517.1", 
+                    "pks_module": [
+                        {
+                            "module_nr": "17", 
+                            "pks_domains": [
+                                "DH", 
+                                "T"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "18", 
+                            "pks_domains": [
+                                "KS", 
+                                "KR", 
+                                "T"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "Methylation"
+                            ], 
+                            "pks_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "19", 
+                            "pks_domains": [
+                                "KS", 
+                                "DH", 
+                                "KR"
+                            ], 
+                            "kr_stereochem": "Unknown", 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }, 
+                        {
+                            "module_nr": "20", 
+                            "pks_domains": [
+                                "KS", 
+                                "T", 
+                                "TE"
+                            ], 
+                            "pks_mod_doms": [
+                                "None"
+                            ], 
+                            "pks_mod_skip_iter": "Non-elongating", 
+                            "comments": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+

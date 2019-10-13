@@ -1,0 +1,70 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Zhen Qi", 
+        "submitter_institution": "Shanghai Jiao Tong University", 
+        "submitter_email": "qizhen@sjtu.edu.cn"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000114", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "17584617", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "1154333182", 
+                    "start_coord": 1552111, 
+                    "end_coord": 1684080, 
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "nigericin", 
+                "chem_synonyms": [
+                    "antibiotic k178", 
+                    "antibiotic x464", 
+                    "azalomycin m", 
+                    "helexin c", 
+                    "polyetherin a"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 34230, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": " veterinary medicine, animal husbandry,antimalaria", 
+                "chem_target": "metal ion"
+            }
+        ], 
+        "genes": {}, 
+        "Polyketide": {
+            "pk_subclass": "Polyether", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_te_type": "Other", 
+            "pks_thioesterase": [
+                "nigcii"
+            ], 
+            "pks_release_type": "Hydrolysis"
+        }
+    }
+}
+

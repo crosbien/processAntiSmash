@@ -1,0 +1,88 @@
+{
+    "version": "13", 
+    "personal": {
+        "submitter_name": "Helge Bode", 
+        "submitter_institution": "Goethe Universit\u00c3\u00a4t Frankfurt", 
+        "submitter_email": "h.bode@bio.uni-frankfurt.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000871", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "24814673,24520059", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP000113", 
+                    "start_coord": 1789113, 
+                    "end_coord": 1797919, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Proven expression in natural host"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "VEPE", 
+                "chem_synonyms": [], 
+                "chem_struct": "NCCOP([O-])(OCC(OC(CCCCCCCCCCCC(C)C)=O)CO/C=C\\\\CCCCCCCCCCC(C)C)=O", 
+                "molecular_formula": "C35H69NO7P", 
+                "mol_mass": 646.89917, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "AEPE", 
+                "chem_synonyms": [], 
+                "chem_struct": "NCCOP([O-])(OCC(OC(CCCCCCCCCCCC(C)C)=O)COCCCCCCCCCCCCC(C)C)=O", 
+                "molecular_formula": "C35H71NO7P", 
+                "mol_mass": 648.91505, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "TG-1", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC(C)CCCCCCCCCCCC(OCC(OC(CCCCCCCCCCCC(C)C)=O)COCCCCCCCCCCCCC(C)C)=O", 
+                "molecular_formula": "C48H94O5", 
+                "mol_mass": 751.25696, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Signalling"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "elbD", 
+                    "gene_id": "MXAN_1528", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of ether lipid formation"
+                }, 
+                {
+                    "gene_name": "elbE", 
+                    "gene_id": "MXAN_1527", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "decrease in ether lipid formation"
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Nucleoside"
+        }
+    }
+}
+
+

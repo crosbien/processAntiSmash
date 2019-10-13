@@ -1,0 +1,336 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Eric J. N. Helfrich", 
+        "submitter_institution": "ETH Zurich", 
+        "submitter_email": "ehelfrich@ethz.ch"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001469", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "23215246 ", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "LMPN02000037", 
+                    "start_coord": 252909, 
+                    "end_coord": 282961, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "marthiapeptide A", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 71459810, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "polythiazole", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "rat94085.1", 
+                        "rat94086.1", 
+                        "rat94087.1", 
+                        "rat94088.1", 
+                        "rat94089.1", 
+                        "rat94090.1", 
+                        "rat94091.1", 
+                        "rat94093.1"
+                    ], 
+                    "evidence_operon": "Sequence-based prediction"
+                }, 
+                {
+                    "operon_genes": [
+                        "rat94094.1"
+                    ], 
+                    "evidence_operon": "Sequence-based prediction"
+                }, 
+                {
+                    "operon_genes": [
+                        "rat94095.1", 
+                        "rat94096.1"
+                    ], 
+                    "evidence_operon": "Sequence-based prediction"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "marD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 252909, 
+                    "gene_endpos": 253166, 
+                    "gene_id": "RAT94085.1", 
+                    "gene_annotation": "transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "marE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 253520, 
+                    "gene_endpos": 253990, 
+                    "gene_id": "RAT94086.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "marF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 254099, 
+                    "gene_endpos": 254710, 
+                    "gene_id": "RAT94087.1", 
+                    "gene_annotation": "DUF 4304 domain-containing protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "marG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 254767, 
+                    "gene_endpos": 255186, 
+                    "gene_id": "RAT94088.1", 
+                    "gene_annotation": "DUF 2809 domain-containing protein", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "marH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 255445, 
+                    "gene_endpos": 256374, 
+                    "gene_id": "RAT94089.1", 
+                    "gene_annotation": "acetamidase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "marB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 257040, 
+                    "gene_endpos": 274781, 
+                    "gene_id": "RAT94090.1", 
+                    "gene_annotation": "NRPS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "marA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 274798, 
+                    "gene_endpos": 278088, 
+                    "gene_id": "RAT94091.1", 
+                    "gene_annotation": "NRPS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "abolishment of marthiapeptide production"
+                }, 
+                {
+                    "gene_name": "marC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 278596, 
+                    "gene_endpos": 279609, 
+                    "gene_id": "RAT94092.1", 
+                    "gene_annotation": "dehydrogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "marJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 279647, 
+                    "gene_endpos": 280219, 
+                    "gene_id": "RAT94093.1", 
+                    "gene_annotation": "serine O-acetyl-transferase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "marK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 280585, 
+                    "gene_endpos": 281148, 
+                    "gene_id": "RAT94094.1", 
+                    "gene_annotation": "PadR family transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "marL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 281524, 
+                    "gene_endpos": 282960, 
+                    "gene_id": "RAT94095.1", 
+                    "gene_annotation": "sensor histidine kinase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "marM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 282961, 
+                    "gene_endpos": 283614, 
+                    "gene_id": "RAT94096.1", 
+                    "gene_annotation": "DNA-binding response regulator", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Unknown", 
+            "nrps_thioesterase": [
+                "rat94090.1"
+            ], 
+            "nrps_release_type": "Macrolactamization", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "RAT94091.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Isoleucine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "Epimerization", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "RAT94090.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Serine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "Epimerization", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Cysteine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Heterocyclization", 
+                            "nrps_mod_doms": "Heterocyclization", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "4", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Cysteine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Heterocyclization", 
+                            "nrps_mod_doms": "Heterocyclization", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "5", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Cysteine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Heterocyclization", 
+                            "nrps_mod_doms": "Heterocyclization", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "6", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Cysteine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "Heterocyclization", 
+                            "nrps_mod_doms": "Heterocyclization", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "comments": "Reference of the current paper describing the biosynthetic gene cluster will be added as soon as published. "
+}
+

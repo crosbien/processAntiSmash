@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 44632924, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "tropodithietic acid"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 108392, 
+                    "Accession": "CP002977", 
+                    "start_coord": 88769
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001362", 
+        "Other": {
+            "biosyn_class": [
+                "Other"
+            ]
+        }, 
+        "publications": [
+            "27006458"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Other"
+        ]
+    }
+}

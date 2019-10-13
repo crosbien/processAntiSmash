@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "equibactin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 59836, 
+                    "Accession": "AM909652", 
+                    "start_coord": 36024
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000347", 
+        "publications": [
+            "18990191"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

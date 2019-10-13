@@ -1,0 +1,163 @@
+{
+    "version": "13", 
+    "personal": {
+        "submitter_name": "Yit-Heng Chooi", 
+        "submitter_institution": "The Australian National University", 
+        "submitter_email": "yhchooi@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000168", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "20534346,22590971,24161266,19168978,23168407,23893651,25317739", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "GU574477", 
+                    "start_coord": 6230, 
+                    "end_coord": 40800, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Proven expression in natural host"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "viridicatumtoxin", 
+                "chem_synonyms": [
+                    "viriditoxin"
+                ], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 54679209, 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "undecaprenyl diphosphate synthase", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "Geranyl-derived spirobicylic ring", 
+                        "moiety_subcluster": [
+                            "adi24929", 
+                            "adi24928", 
+                            "adi24937"
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "compound": "Previridicatumtoxin", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C(C(O)=C(C([C@@](C(C(C(N)=O)=C(O)C2)=O)(O)[C@@]2(O)[C@H]3O)=O)C3=C4C/C=C(C)/CC/C=C(C)/C)C4=CC(OC)=C1", 
+                "molecular_formula": "C30H33NO10", 
+                "mol_mass": 567.21, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    ""
+                ], 
+                "chem_target": ""
+            }, 
+            {
+                "compound": "5-hydroxyanthrotainin", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C(C(O)=C(C([C@@](C(C(C(N)=O)=C(O)C2)=O)(O)[C@@]2(O)[C@H]3O)=O)C3=C4)C4=CC(OC)=C1", 
+                "molecular_formula": "C30H33NO10", 
+                "mol_mass": 567.21, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    ""
+                ], 
+                "chem_target": ""
+            }, 
+            {
+                "compound": "8-O-desmethylanthrotainin", 
+                "chem_synonyms": [], 
+                "chem_struct": "OC1=C(C(O)=C(C([C@@](C(C(C(N)=O)=C(O)C2)=O)(O)[C@@]2(O)C3)=O)C3=C4)C4=CC(O)=C1", 
+                "molecular_formula": "C19H15NO9", 
+                "mol_mass": 401.07, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    ""
+                ], 
+                "chem_target": ""
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "VrtC", 
+                    "gene_id": "ADI24928", 
+                    "gene_annotation": "polycylic ring geranyl transferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Prenylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "loss production of viridicatumtoxin and accumulation of the non-prenylated precursor 5-hydroxyanthrotainin"
+                }, 
+                {
+                    "gene_name": "VrtD", 
+                    "gene_id": "ADI24929", 
+                    "gene_annotation": "Geranyl diphosphate synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "lowered viridicatumtoxin production and accumulation of the non-prenylated precursor 5-hydroxyanthrotainin"
+                }, 
+                {
+                    "gene_name": "VrtH", 
+                    "gene_id": "ADI24934", 
+                    "gene_annotation": "putative FAD-dependent oxidoreductase", 
+                    "gene_function": "Tailoring", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of 8-O-desmethylanthrotainin"
+                }, 
+                {
+                    "gene_name": "VrtK", 
+                    "gene_id": "ADI24937", 
+                    "gene_annotation": "oxidative terpene cyclization forming the fused spirobicylic ring", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": "accumulation of the open-ring geranyl intermediate previridicatumtoxin"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Tetracycline", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Malonamyl-CoA", 
+            "pks_genes": [
+                "adi24926"
+            ], 
+            "nr_iterations": 8, 
+            "iterative_subtype": "Non-reducing", 
+            "iter_cycl_type": "C6-C11 first", 
+            "pks_te_type": "other", 
+            "pks_thioesterase": [
+                "adi24932"
+            ], 
+            "pks_release_type": "Claisen condensation"
+        }
+    }
+}
+
+

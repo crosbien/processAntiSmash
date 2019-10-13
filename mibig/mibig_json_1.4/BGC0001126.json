@@ -1,0 +1,606 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Xinyu Liu", 
+        "submitter_institution": "University of Pittsburgh", 
+        "submitter_email": "xinyuliu@pitt.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001126", 
+        "biosyn_class": [
+            "Terpene", 
+            "Alkaloid"
+        ], 
+        "publications": "24180436", 
+        "loci": {
+            "complete": "unknown", 
+            "nucl_acc": [
+                {
+                    "Accession": "KF664586.1", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "3-(Z-2'-isocyanoethenyl)-indole", 
+                "chem_synonyms": [], 
+                "chem_struct": "[C-]#[N+]/C=C\\\\C1=CNC2=CC=CC=C21", 
+                "molecular_formula": "C11H8N2", 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "hapalindole U", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC1(C)[C@]2([H])[C@@]([C@@H]([N+]#[C-])[C@](C=C)(C)CC2)([H])C3=CNC4=CC=CC1=C43", 
+                "molecular_formula": "C21H24N2", 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "ambiguine A isonitrile", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 10249743, 
+                "chem_act": [
+                    "Antifungal"
+                ]
+            }, 
+            {
+                "compound": "ambiguine B isonitrile", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 21610113, 
+                "chem_act": [
+                    "Antifungal"
+                ]
+            }, 
+            {
+                "compound": "ambiguine C isonitrile", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 21610114, 
+                "chem_act": [
+                    "Antifungal"
+                ]
+            }, 
+            {
+                "compound": "ambiguine D isonitrile", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 21610115, 
+                "chem_act": [
+                    "Antifungal"
+                ]
+            }, 
+            {
+                "compound": "ambiguine E isonitrile", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 21610116, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Antifungal"
+                ]
+            }, 
+            {
+                "compound": "ambiguine K isonitrile", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 44139368, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Antifungal"
+                ]
+            }, 
+            {
+                "compound": "ambiguine L isonitrile", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 44139241, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Antifungal", 
+                    "Cytotoxic"
+                ]
+            }, 
+            {
+                "compound": "ambiguine I isonitrile", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "chEBI"
+                ], 
+                "chebi_id": 65401, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Antifungal"
+                ]
+            }, 
+            {
+                "compound": "ambiguine J isonitrile", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC1(C)[C@]2([H])[C@@]([C@@]3([N+]#[C-])[C@](C=C)(C)CC2)(O)[C@]4(O)C(C(C)(C)[C@H]5[C@@H]3O5)=NC6=CC=CC1=C64", 
+                "molecular_formula": "C26H30N2O3", 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Antifungal"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "ambE3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 0, 
+                    "gene_endpos": 0, 
+                    "gene_id": "AHB62752.1", 
+                    "gene_annotation": "conserved membrane hypothetical protein (possible transporter)", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ambE2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62753.1", 
+                    "gene_annotation": " ABC exporter membrane fusion protein, DevB family", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambE1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62754.1", 
+                    "gene_annotation": "DevC protein", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambO5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62755.1", 
+                    "gene_annotation": "halogenase, 2OG-Fe(II) oxygenase family", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Halogenation", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambO4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62756.1", 
+                    "gene_annotation": "rieske oxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambU4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62757.1", 
+                    "gene_annotation": "unknown function", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambU3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62758.1", 
+                    "gene_annotation": "unknown function", 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambU2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62759.1", 
+                    "gene_annotation": "unknown function", 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambU1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62760.1", 
+                    "gene_annotation": "unknown function", 
+                    "gene_function": null, 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambO3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62761.1", 
+                    "gene_annotation": "rieske oxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambO2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62762.1", 
+                    "gene_annotation": "rieske oxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambO1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62763.1", 
+                    "gene_annotation": "rieske oxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambP3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62764.1", 
+                    "gene_annotation": "aromatic prenyl transferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambD4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62765.1", 
+                    "gene_annotation": "4-hydroxy-3-methylbut-2-enyl diphosphate reductase (IspH)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambP2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62766.1", 
+                    "gene_annotation": "geranyl diphosphate synthase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambR1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62767.1", 
+                    "gene_annotation": "LuxR family transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambR2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62768.1", 
+                    "gene_annotation": "LuxR family transcriptional regulator", 
+                    "gene_function": "Regulation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambC1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62769.1", 
+                    "gene_annotation": "dephospho-CoA kinase-like protein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambD1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62770.1", 
+                    "gene_annotation": "1-deoxy-D-xylulose 5-phosphate reductoisomerase (IspC, Dxr)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambI1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62771.1", 
+                    "gene_annotation": "isonitrile indole synthase A (IsnA)", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambI2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62772.1", 
+                    "gene_annotation": "isonitrile indole synthase A (IsnA)", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambI3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62773.1", 
+                    "gene_annotation": "isonitrile indole synthase B (IsnB)", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambP1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62774.1", 
+                    "gene_annotation": "aromatic prenyl transferase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambD2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62775.1", 
+                    "gene_annotation": "1-deoxy-D-xylulose-5-phosphate synthase (DXS)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambD3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62776.1", 
+                    "gene_annotation": "4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (IspG)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambC2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62777.1", 
+                    "gene_annotation": "3-deoxy-D-arabinoheptulosonate 7-phosphate (DAHP) synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambT1", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62778.1", 
+                    "gene_annotation": "anthranilate synthase (TrpE)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambT2", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62779.1", 
+                    "gene_annotation": "indole-3-glycerol phosphate synthase (TrpC)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambT3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62780.1", 
+                    "gene_annotation": "tryptophan synthase subunit alpha (TrpA)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambT4", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62781.1", 
+                    "gene_annotation": "tryptophan synthase subunit beta (TrpB)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambT5", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62782.1", 
+                    "gene_annotation": "anthranilate phosphoribosyltransferase (TrpD)", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }, 
+                {
+                    "gene_name": "ambC3", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": -1, 
+                    "gene_endpos": -1, 
+                    "gene_id": "AHB62783.1", 
+                    "gene_annotation": "phosphoglycerate mutase family protein", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ], 
+                    "mut_pheno": null
+                }
+            ]
+        }, 
+        "Terpene": {
+            "terpene_subclass": "Other", 
+            "terpene_c_len": "Monoterpene", 
+            "terpene_precursor": "GPP", 
+            "terpene_synth_cycl": [], 
+            "prenyl_transf": [
+                "ahb62774.1", 
+                "ahb62766.1"
+            ]
+        }, 
+        "Alkaloid": {
+            "alkaloid_subclass": "Indole/benzopyrrole"
+        }
+    }
+}
+
+
+

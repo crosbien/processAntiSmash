@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "frankiamicin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2851386, 
+                    "Accession": "CP000820", 
+                    "start_coord": 2838708
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001197", 
+        "publications": [
+            "25837682"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Other"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

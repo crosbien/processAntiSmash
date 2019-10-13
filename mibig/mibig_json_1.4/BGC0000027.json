@@ -1,0 +1,173 @@
+{
+    "version": "8", 
+    "personal": {
+        "submitter_name": "Hyung-Jin Kwon", 
+        "submitter_institution": "Myongji University", 
+        "submitter_email": "hjink@mju.ac.kr"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000027", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "23504076", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KC148521", 
+                    "start_coord": 13800, 
+                    "end_coord": 76200, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "ankaflavin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 15294091, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "monascin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 12118082, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "rubropunctatin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 6452445, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }, 
+            {
+                "compound": "monascorubrin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 12118084, 
+                "chem_act": [
+                    "Unknown"
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "mppB", 
+                    "gene_id": "AGN71607.1", 
+                    "gene_annotation": "acyltransferase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Acylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Loss of azaphilone pigment production"
+                }, 
+                {
+                    "gene_name": "mppA", 
+                    "gene_id": "AGN71606.1", 
+                    "gene_annotation": "ketoreductase ", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "production of C10 bicyclic compounds "
+                }, 
+                {
+                    "gene_name": "mppC", 
+                    "gene_id": "AGN71608.1", 
+                    "gene_annotation": "dehydrogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Reduction", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "production of monasfluore A/B and their dehydrogenated derivatives "
+                }, 
+                {
+                    "gene_name": "mppG", 
+                    "gene_id": "AGN71609.1", 
+                    "gene_function": "Unknown", 
+                    "mut_pheno": "no effect on azaphilone pigment production"
+                }, 
+                {
+                    "gene_name": "mppD", 
+                    "not_in_gbk": true, 
+                    "gene_startpos": 32864, 
+                    "gene_endpos": 33676, 
+                    "gene_annotation": "esterase-like hydrolase", 
+                    "gene_function": "Other", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "low productivity"
+                }, 
+                {
+                    "gene_name": "mpp7", 
+                    "gene_id": "AGN71622.1", 
+                    "gene_annotation": "dehydratase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Dehydration", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "production of monasfluol A/B "
+                }, 
+                {
+                    "gene_name": "mppF", 
+                    "gene_id": "AGN71623.1", 
+                    "gene_annotation": "hydroxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "accumulation of FK17-P2a "
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Acetoacetyl-CoA", 
+            "pks_genes": [
+                "kc148521", 
+                "2362mppks5"
+            ], 
+            "nr_iterations": 5, 
+            "iterative_subtype": "Non-reducing", 
+            "iter_cycl_type": "C2-C7 first", 
+            "pks_te_type": "Unknown", 
+            "pks_release_type": "Hydrolysis"
+        }
+    }
+}
+

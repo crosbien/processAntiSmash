@@ -1,0 +1,26 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "cysteoamide"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 911036, 
+                    "Accession": "NZ_CP016438", 
+                    "start_coord": 880171
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001567", 
+        "publications": [
+            "29557172"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

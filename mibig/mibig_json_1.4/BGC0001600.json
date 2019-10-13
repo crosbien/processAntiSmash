@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "compound": "fusarielin H"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 10955572, 
+                    "Accession": "HG970332", 
+                    "start_coord": 10931974
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0001600", 
+        "publications": [
+            "27983606"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Modular Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

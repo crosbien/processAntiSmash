@@ -1,0 +1,90 @@
+{
+    "version": "15", 
+    "personal": {
+        "submitter_name": "Alexey Melnik", 
+        "submitter_institution": "UCSD", 
+        "submitter_email": "alexvmelnik@gmail.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000564", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "20581111,21315972", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AM412317", 
+                    "start_coord": 576447, 
+                    "end_coord": 585080, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "clostridiolysin S", 
+                "chem_synonyms": [], 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "Hemolytic", 
+                "chem_target": "Hemoglobin"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "SagA", 
+                    "gene_id": "CAL82040.1", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "SagB", 
+                    "gene_id": "CAL82041.1", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "SagC", 
+                    "gene_id": "CAL82042.1", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "SagD", 
+                    "gene_id": "CAL82043.1", 
+                    "gene_function": "Unknown"
+                }, 
+                {
+                    "gene_name": "SagG", 
+                    "gene_id": "CAL82046.1", 
+                    "gene_function": "Unknown"
+                }
+            ]
+        }, 
+        "RiPP": {
+            "ripp_subclass": "LAP", 
+            "lin_cycl_ripp": "Linear", 
+            "precursor_loci": [
+                {
+                    "gene_id": [
+                        "saga"
+                    ], 
+                    "core_pept_aa": "VAPGSCCCCSCCCCVSVSVGGGSASTGGGAAAGQGGN", 
+                    "lead_pept_len": -1, 
+                    "foll_pept_len": -1, 
+                    "peptidase": []
+                }
+            ]
+        }
+    }
+}
+
+

@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 24205476, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "amychelin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2757628, 
+                    "Accession": "GG657746", 
+                    "start_coord": 2722391
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000300", 
+        "publications": [
+            "21699219"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "NRP"
+        ]
+    }
+}

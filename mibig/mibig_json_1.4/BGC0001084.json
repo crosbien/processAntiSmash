@@ -1,0 +1,105 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Fengan Yu", 
+        "submitter_institution": "University of Michigan", 
+        "submitter_email": "fenganyu@umich.edu"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001084", 
+        "biosyn_class": [
+            "NRP", 
+            "Terpene", 
+            "Alkaloid"
+        ], 
+        "publications": "20722388", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "HM622670", 
+                    "start_coord": 1, 
+                    "end_coord": 42456, 
+                    "conn_comp_cluster": [
+                        "Gene expression correlated with compound production"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "notoamide A", 
+                "chem_synonyms": [], 
+                "chem_struct": "CC1(C=CC2=C(O1)C=CC3=C2N(C(=O)[C@@]34C[C@]56[C@H](C4(C)C)C[C@@]7(CCCN7C5=O)C(=O)N6)O)C", 
+                "molecular_formula": "C26H29N3O5", 
+                "mol_mass": 463.2107, 
+                "mass_ion_type": "[M+H]+", 
+                "chem_act": [
+                    "Cytotoxic", 
+                    "Inhibitor"
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": []
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "None", 
+            "nrps_thioesterase": [], 
+            "nrps_release_type": "Other", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "ADM34138.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Proline", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Tryptophan", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "Terpene": {
+            "terpene_subclass": "Other", 
+            "terpene_c_len": "Hemiterpene", 
+            "terpene_precursor": "DMAPP", 
+            "terpene_synth_cycl": [], 
+            "prenyl_transf": [
+                "hm622670", 
+                "adm34136.1", 
+                "notc", 
+                "hm622670", 
+                "adm34138.1", 
+                "notf"
+            ]
+        }, 
+        "Alkaloid": {
+            "alkaloid_subclass": "Pyrrole/pyrrolidine"
+        }
+    }, 
+    "embargo": true
+}
+
+

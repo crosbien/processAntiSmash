@@ -1,0 +1,81 @@
+{
+    "version": "17", 
+    "personal": {
+        "submitter_name": "Oscar P. Kuipers", 
+        "submitter_institution": "University of Groningen", 
+        "submitter_email": "o.p.kuipers@rug.nl"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000520", 
+        "biosyn_class": [
+            "RiPP"
+        ], 
+        "publications": "9464377,10608807,10658659,10974102,11251818,16751576,15023056,18791001,23433070,21827422,20616009", 
+        "loci": {
+            "complete": "incomplete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AF167432", 
+                    "start_coord": 1, 
+                    "end_coord": 1069, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "lacticin 3147 A1", 
+                "chem_synonyms": [
+                    "lacticin 3147"
+                ], 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "cellular membrane", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "D-Ala", 
+                        "moiety_subcluster": [
+                            "ltnj"
+                        ]
+                    } 
+                ]
+            }, 
+            {
+                "compound": "lacticin 3147 A2", 
+                "chem_synonyms": [
+                    "lacticin 3147"
+                ], 
+                "mol_mass": -1, 
+                "mass_ion_type": "None", 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "cellular membrane", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "D-Ala", 
+                        "moiety_subcluster": [
+                            "ltnj"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {}, 
+        "RiPP": {
+            "ripp_subclass": "Lantipeptide", 
+            "lin_cycl_ripp": "Linear"
+        }
+    }
+}
+

@@ -1,0 +1,182 @@
+{
+    "version": "11", 
+    "personal": {
+        "submitter_name": "Russell Cox", 
+        "submitter_institution": "Leibniz Universit\u00c3\u00a4t Hannover", 
+        "submitter_email": "russell.cox@oci.uni-hannover.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000154", 
+        "biosyn_class": [
+            "Polyketide"
+        ], 
+        "publications": "22508998, 23870699, 24863423", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "EQ962655", 
+                    "start_coord": 1790000, 
+                    "end_coord": 1845000, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "stipitatic acid", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "ChemSpider"
+                ], 
+                "chemspider_id": 19955692, 
+                "chem_act": [
+                    "Other"
+                ], 
+                "other_chem_act": "Antiplasmodial", 
+                "chem_target": "Unknown", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "tropolone", 
+                        "moiety_subcluster": [
+                            "tsta_117750", 
+                            "tsta_117740", 
+                            "tsta_117800"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "tropA", 
+                    "gene_id": "TSTA_117750", 
+                    "gene_annotation": "NR-PKS", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "No tropolone production observed"
+                }, 
+                {
+                    "gene_name": "tropB", 
+                    "gene_id": "TSTA_117740", 
+                    "gene_annotation": "FAD oxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Methylorcinaldehyde produced"
+                }, 
+                {
+                    "gene_name": "tropC", 
+                    "gene_id": "TSTA_117800", 
+                    "gene_annotation": "non-heme iron oxygenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Talaroenamine, leptosphaerone  produced"
+                }, 
+                {
+                    "gene_name": "tropD", 
+                    "gene_id": "TSTA_117730", 
+                    "gene_annotation": "P450", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Stipitaldehyde, 3\u00c2\u00admethyl\u00c2\u00ad5,7\u00c2\u00addihydroxytropone  produced"
+                }, 
+                {
+                    "gene_name": "tropE", 
+                    "gene_id": "TSTA_117820", 
+                    "gene_annotation": "NAD oxidase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Stipitafuran, cordytropolone and talaroditropolone  produced"
+                }, 
+                {
+                    "gene_name": "tropF", 
+                    "gene_id": "TSTA_117780", 
+                    "gene_annotation": "Hydrolase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydrolysis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tropG", 
+                    "gene_id": "unknown", 
+                    "gene_annotation": "NAD oxidase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "tropH", 
+                    "gene_id": "TSTA_117790", 
+                    "gene_annotation": "NAD oxidase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Oxidation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "stipitaldehydic acid"
+                }, 
+                {
+                    "gene_name": "tropI", 
+                    "gene_id": "TSTA_117760", 
+                    "gene_annotation": "Hydrolase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Hydrolysis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "none"
+                }, 
+                {
+                    "gene_name": "TropJ", 
+                    "gene_id": "TSTA_117720", 
+                    "gene_annotation": "Decarboxylase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Decarboxylation", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "\u00ef\u00bf\u00bcstipitatonic acid"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Other", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Iterative type I"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "tsta_117750"
+            ], 
+            "nr_iterations": 3, 
+            "iterative_subtype": "Non-reducing", 
+            "iter_cycl_type": "C2-C7 first", 
+            "pks_te_type": "Unknown", 
+            "pks_release_type": "Reductive release"
+        }
+    }
+}

@@ -1,0 +1,207 @@
+{
+    "version": "14", 
+    "personal": {
+        "submitter_name": "Andreas Bechthold", 
+        "submitter_institution": "Albert-Ludwigs-Universit\u00c3\u00a4t Freiburg", 
+        "submitter_email": "andreas.bechthold@pharmazie.uni-freiburg.de"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000276", 
+        "biosyn_class": [
+            "Polyketide", 
+            "Saccharide"
+        ], 
+        "publications": "3818439, 2925521, 2753820, 7592377, 10658661, 10662691, 11094336, 11410375, 11927254,12022840, 12512084,12696864, 17434221,17640665, 3839784, 19265871", 
+        "loci": {
+            "complete": "incomplete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AF164961.1", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }, 
+                {
+                    "Accession": "AF164960.1", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }, 
+                {
+                    "Accession": "AF269227.1", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies"
+                    ]
+                }, 
+                {
+                    "Accession": "X87093.1", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Other"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Urdamycin A", 
+                "chem_synonyms": ["Kerriamycin B"], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "chEBI"
+                ], 
+                "chebi_id": 32279, 
+                "chem_act": [
+                    "Antibacterial", 
+                    "Cytotoxic",
+                    "Other"
+                ],
+                "other_chem_act": "Inhibition of protein SUMOylation"
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "UrdM ", 
+                    "gene_id": "AAF00206.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of rabelomycin and urdamycin L "
+                }, 
+                {
+                    "gene_name": "UrdGT2", 
+                    "gene_id": "AAF00209.1", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Heterologous expression", 
+                        "Other in vivo study", 
+                        "Other"
+                    ], 
+                    "mut_pheno": "Production of Urdamycin I, J, K (lacki8ng C-C connected deoxysugar moiety)"
+                }, 
+                {
+                    "gene_name": "UrdGT1a", 
+                    "gene_id": "AAF00214.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Knock-out", 
+                        "Heterologous expression"
+                    ], 
+                    "mut_pheno": "Production of urdamycin B and 12b-derhodinosyl-urdamycin A"
+                }, 
+                {
+                    "gene_name": "UrdGT1c", 
+                    "gene_id": "AAF00217.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Heterologous expression", 
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "UrdGT1b", 
+                    "gene_id": "AAF00215.1", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Glycosylation", 
+                    "evidence_genefunction": [
+                        "Heterologous expression", 
+                        "Other in vivo study"
+                    ]
+                }, 
+                {
+                    "gene_name": "UrdR ", 
+                    "gene_id": "AAF72551.1", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of urdamycin M (lack of D-olivose) "
+                }, 
+                {
+                    "gene_name": "UrdZ3", 
+                    "gene_id": "AAF72549.1", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of urdamycinone B (lack of L-rhodinose)"
+                }, 
+                {
+                    "gene_name": "UrdQ", 
+                    "gene_id": "AAF72550.1", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of urdamycinone B (lack of L-rhodinose)"
+                }, 
+                {
+                    "gene_name": "UrdZ1", 
+                    "gene_id": "AAF00208.1", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "Production of urdamycinone B (lack of L-rhodinose)"
+                }
+            ]
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Angucycline", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Acetyl-CoA", 
+            "pks_genes": [
+                "caa60569.1", 
+                "caa60571.1"
+            ], 
+            "ketide_length": 10, 
+            "cyclases": "CAA60568.1, AAF00205.1, "
+        }, 
+        "Saccharide": {
+            "saccharide_subclass": "hybrid/tailoring", 
+            "gt_genes": [
+                {
+                    "gt_gene": "AAF00209.1", 
+                    "gt_specificity": "D-olivose ", 
+                    "evidence_gt_spec": "Knock-out construct", 
+                    "sugar_subcluster": "AAF72551.1"
+                }, 
+                {
+                    "gt_gene": "AAF00214.1", 
+                    "gt_specificity": "L-rhodinose", 
+                    "evidence_gt_spec": "Knock-out construct", 
+                    "sugar_subcluster": "AAF72549.1, AAF72550.1, AAF00208.1"
+                }, 
+                {
+                    "gt_gene": "AAF00215.1", 
+                    "gt_specificity": "D-olivose ", 
+                    "evidence_gt_spec": "Knock-out construct", 
+                    "sugar_subcluster": "AAF72551.1"
+                }, 
+                {
+                    "gt_gene": "AAF00217.1", 
+                    "gt_specificity": "L-rhodinose", 
+                    "sugar_subcluster": "AAF72549.1, AAF72550.1, AAF00208.1"
+                }
+            ]
+        }
+    }
+}
+
+

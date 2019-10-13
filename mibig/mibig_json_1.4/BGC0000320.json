@@ -1,0 +1,316 @@
+{
+    "version": "16", 
+    "personal": {
+        "submitter_name": "Monika Ehling-Schulz", 
+        "submitter_institution": "Veterinary University of Vienna", 
+        "submitter_email": "monika.ehling-schulz@vetmeduni.ac.at"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000320", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "15640177,16512902,16910662,17041058,20038713,19994891,19246763,22571587,8082824,10429194", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "DQ360825.1", 
+                    "start_coord": 3342, 
+                    "end_coord": 26943, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Cereulide", 
+                "chem_synonyms": [],
+                "molecular_formula": "C57H96N6O18", 
+                "mol_mass": -1, 
+                "mass_ion_type": "[M+NH4]+", 
+                "chem_act": [
+                    "Cytotoxic"
+                ], 
+                "chem_target": "membrane (K+ ionophore)", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "alpha keto acids", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": [
+                        "abd14709.1", 
+                        "abd14710.1", 
+                        "abd14711.1", 
+                        "abd14712.1", 
+                        "abd14713.1", 
+                        "abd14714.1"
+                    ], 
+                    "evidence_operon": "RACE"
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 278, 
+                    "gene_endpos": 466, 
+                    "gene_id": "ABD14705.1", 
+                    "gene_annotation": "hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 677, 
+                    "gene_endpos": 1156, 
+                    "gene_id": "ABD14706.1", 
+                    "gene_annotation": "CAAX amino terminal protease", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1781, 
+                    "gene_endpos": 3091, 
+                    "gene_id": "ABD14707.1", 
+                    "gene_annotation": "pXO-14-like conserved protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cesH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3342, 
+                    "gene_endpos": 4151, 
+                    "gene_id": "ABD14708.1", 
+                    "gene_annotation": "CesH", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cesP", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5142, 
+                    "gene_endpos": 5897, 
+                    "gene_id": "ABD14709.1", 
+                    "gene_annotation": "CesP", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cesT", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6166, 
+                    "gene_endpos": 6879, 
+                    "gene_id": "ABD14710.1", 
+                    "gene_annotation": "CesT", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cesA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6845, 
+                    "gene_endpos": 17020, 
+                    "gene_id": "ABD14711.1", 
+                    "gene_annotation": "CesA", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "cesB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 17034, 
+                    "gene_endpos": 25079, 
+                    "gene_id": "ABD14712.1", 
+                    "gene_annotation": "CesB", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Knock-out"
+                    ], 
+                    "mut_pheno": "loss of cereulide production"
+                }, 
+                {
+                    "gene_name": "cesC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 25245, 
+                    "gene_endpos": 26120, 
+                    "gene_id": "ABD14713.1", 
+                    "gene_annotation": "CesC", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "cesD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 26137, 
+                    "gene_endpos": 26943, 
+                    "gene_id": "ABD14714.1", 
+                    "gene_annotation": "CesD", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 27915, 
+                    "gene_endpos": 28328, 
+                    "gene_id": "ABD14715.1", 
+                    "gene_annotation": "pXO-11-like hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 29370, 
+                    "gene_endpos": 31298, 
+                    "gene_id": "ABD14716.1", 
+                    "gene_annotation": "reverse transcriptase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 31554, 
+                    "gene_endpos": 32564, 
+                    "gene_id": "ABD14717.1", 
+                    "gene_annotation": "pXO1-10-like hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "No gene ID", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 32879, 
+                    "gene_endpos": 35864, 
+                    "gene_id": "ABD14718.1", 
+                    "gene_annotation": "pXO1-8-like hypothetical protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Cyclic depsipeptide", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Both", 
+            "nrps_release_type": "Unknown", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "ABD14711.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "alpha-ketoisocaproic acid", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "Other", 
+                            "nrps_mod_skip_iter": "Iterated", 
+                            "nrps_evidence_skip_iter": "Structure-based inference"
+                        }, 
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Alanine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": true
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Iterated", 
+                            "nrps_evidence_skip_iter": "Structure-based inference"
+                        }, 
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "DCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }
+                    ]
+                }, 
+                {
+                    "nrps_gene": "ABD14712.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "2", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "alpha-ketoisovaleric acid", 
+                                "evidence_a_spec": "Activity assay", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "Other", 
+                            "nrps_mod_skip_iter": "Iterated", 
+                            "nrps_evidence_skip_iter": "Structure-based inference"
+                        }, 
+                        {
+                            "module_nr": "3", 
+                            "a_substr_spec": {
+                                "aa_type": "Proteinogenic", 
+                                "prot_adom_spec": "Valine", 
+                                "evidence_a_spec": "Sequence-based prediction", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Iterated", 
+                            "nrps_evidence_skip_iter": "Structure-based inference"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+
+

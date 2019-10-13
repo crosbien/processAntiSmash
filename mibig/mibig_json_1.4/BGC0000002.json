@@ -1,0 +1,36 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 6449919, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "aculeximycin"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 7504512, 
+                    "Accession": "CP007155", 
+                    "start_coord": 7362971
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000002", 
+        "publications": [
+            "25301375"
+        ], 
+        "Polyketide": {
+            "pks_subclass": [
+                "Type I"
+            ]
+        }, 
+        "minimal": true, 
+        "biosyn_class": [
+            "Polyketide"
+        ]
+    }
+}

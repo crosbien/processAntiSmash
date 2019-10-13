@@ -1,0 +1,89 @@
+{
+    "version": "11", 
+    "personal": {
+        "submitter_name": "Antonio Ruzzini", 
+        "submitter_institution": "Harvard Medical School", 
+        "submitter_email": "antonio_ruzzini@hms.harvard.edu"
+    }, 
+    "general_params": {
+    	"mibig_accession": "BGC0000956", 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ], 
+        "publications": "15066985, 16910643, 17653193, 18652473, 18768797, 21561099", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AY192157", 
+                    "start_coord": 1, 
+                    "end_coord": 28485, 
+                    "conn_comp_cluster": [
+                        "Enzymatic assays", 
+                        "Heterologous expression", 
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "andrimid", 
+                "chem_synonyms": [],
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 636857, 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_target": "beta-subunit of acetyl-CoA carboxylase"
+            }
+        ], 
+        "genes": {}, 
+        "NRP": {
+            "subclass": "Beta-lactam", 
+            "lin_cycl_nrp": "Linear", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AdmI"
+                }, 
+                {
+                    "nrps_gene": "AdmJ"
+                }, 
+                {
+                    "nrps_gene": "AdmK"
+                }, 
+                {
+                    "nrps_gene": "AdmO"
+                }, 
+                {
+                    "nrps_gene": "AdmP"
+                }, 
+                {
+                    "nrps_gene": "AdmM"
+                }
+            ], 
+            "nrps_te_type": "Type I", 
+            "nrps_thioesterase": [
+                "admm"
+            ], 
+            "nrps_release_type": "Hydrolysis"
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Ansamycin", 
+            "lin_cycl_pk": "Linear", 
+            "pks_subclass": [
+                "Type II"
+            ], 
+            "starter_unit": "Malonyl-CoA", 
+            "pks_genes": [
+                "AAO39098.1"
+            ], 
+            "ketide_length": 8
+        }
+    }
+}
+

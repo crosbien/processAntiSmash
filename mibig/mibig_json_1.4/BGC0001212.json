@@ -1,0 +1,249 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Esther Schmitt", 
+        "submitter_institution": "Novartis Institutes for BioMedical Research", 
+        "submitter_email": "esther.schmitt@novartis.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001212", 
+        "biosyn_class": [
+            "NRP", 
+            "Polyketide"
+        ], 
+        "publications": "26179970", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "KT067736", 
+                    "start_coord": -1, 
+                    "end_coord": -1, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "nannocystin a", 
+                "chem_synonyms": [], 
+                "chem_struct": "C[C@@H](CC)[C@@H]1N(C([C@@]2(C)[C@H](C[C@H](/C(C)=C/C=C/[C@H]([C@@H](C3=CC=CC=C3)OC([C@H](C(O)(C)C)NC([C@H](NC1=O)CC4=CC(Cl)=C(O)C(Cl)=C4)=O)=O)C)OC)O2)=O)C", 
+                "molecular_formula": "C42H55Cl2N3O9", 
+                "mol_mass": 816.8, 
+                "mass_ion_type": "None", 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry", 
+                    "Chemical derivatization"
+                ], 
+                "chem_act": [
+                    "Antifungal", 
+                    "Cytotoxic"
+                ], 
+                "chem_target": "eukaryotic translation elongation factor 1a (EF-1a)", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "uncommon benzyl starter unit", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "ncyA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 519, 
+                    "gene_endpos": 7424, 
+                    "gene_id": "ALD82521.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncyB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7421, 
+                    "gene_endpos": 19156, 
+                    "gene_id": "ALD82522.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncyC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 19163, 
+                    "gene_endpos": 24862, 
+                    "gene_id": "ALD82523.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncyD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 24859, 
+                    "gene_endpos": 30504, 
+                    "gene_id": "ALD82524.1", 
+                    "gene_annotation": "polyketide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncyE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 30501, 
+                    "gene_endpos": 35132, 
+                    "gene_id": "ALD82525.1", 
+                    "gene_annotation": "non-ribosomal peptide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncyF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 35165, 
+                    "gene_endpos": 45550, 
+                    "gene_id": "ALD82526.1", 
+                    "gene_annotation": "non-ribosomal peptide synthase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncyG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 45582, 
+                    "gene_endpos": 47078, 
+                    "gene_id": "ALD82527.1", 
+                    "gene_annotation": "NcyG", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncyH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 47470, 
+                    "gene_endpos": 48693, 
+                    "gene_id": "ALD82528.1", 
+                    "gene_annotation": "P450 protein", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Monooxygenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncyI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 48962, 
+                    "gene_endpos": 49831, 
+                    "gene_id": "ALD82529.1", 
+                    "gene_annotation": "kinase/phosphodiesterase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncyJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 50197, 
+                    "gene_endpos": 50295, 
+                    "gene_id": "ALD82530.1", 
+                    "gene_annotation": "NcyJ", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncyK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 50557, 
+                    "gene_endpos": 50760, 
+                    "gene_id": "ALD82531.1", 
+                    "gene_annotation": "NcyK", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncyL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 50764, 
+                    "gene_endpos": 50901, 
+                    "gene_id": "ALD82532.1", 
+                    "gene_annotation": "NcyL", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncyM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 51082, 
+                    "gene_endpos": 52581, 
+                    "gene_id": "ALD82533.1", 
+                    "gene_annotation": "halogenase", 
+                    "gene_function": "Tailoring", 
+                    "tailoring": "Halogenation", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "ncyN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 52643, 
+                    "gene_endpos": 54811, 
+                    "gene_id": "ALD82534.1", 
+                    "gene_annotation": "heavy metal translocating P-type ATPase", 
+                    "gene_function": "Unknown", 
+                    "evidence_genefunction": [
+                        "N/A"
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Type I", 
+            "nrps_thioesterase": [
+                "ncyf"
+            ], 
+            "nrps_release_type": "Macrolactonization"
+        }, 
+        "Polyketide": {
+            "pk_subclass": "Macrolide", 
+            "lin_cycl_pk": "Cyclic", 
+            "pks_subclass": [
+                "Modular type I"
+            ], 
+            "starter_unit": "Benzoyl-CoA", 
+            "pks_te_type": "None", 
+            "pks_release_type": "Macrolactonization"
+        }
+    }
+}

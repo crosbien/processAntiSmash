@@ -1,0 +1,33 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 173878, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "fumigaclavine C"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 2929163, 
+                    "Accession": "AAHF01000001", 
+                    "start_coord": 2907012
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000811", 
+        "publications": [
+            "15933009", 
+            "15870460", 
+            "16397874"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Alkaloid"
+        ]
+    }
+}

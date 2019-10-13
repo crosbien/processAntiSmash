@@ -1,0 +1,31 @@
+{
+    "general_params": {
+        "compounds": [
+            {
+                "database_deposited": true, 
+                "pubchem_id": 9984420, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "compound": "isorenieratene"
+            }
+        ], 
+        "loci": {
+            "nucl_acc": [
+                {
+                    "end_coord": 8214963, 
+                    "Accession": "AP009493", 
+                    "start_coord": 8206573
+                }
+            ]
+        }, 
+        "mibig_accession": "BGC0000664", 
+        "publications": [
+            "10395965"
+        ], 
+        "minimal": true, 
+        "biosyn_class": [
+            "Terpene"
+        ]
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "version": "8", 
+    "personal": {
+        "submitter_name": "Carl Balibar", 
+        "submitter_institution": "Merck", 
+        "submitter_email": "carl.balibar@merck.com"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0000944", 
+        "biosyn_class": [
+            "Other"
+        ], 
+        "publications": "19138128,19400778", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "CP000253", 
+                    "start_coord": 257890, 
+                    "end_coord": 263982, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Heterologous expression"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Staphyloferrin A", 
+                "chem_synonyms": [], 
+                "chem_struct": "C(C[C@H](C(=O)[O-])NC(=O)CC(CC(=O)[O-])(C(=O)[O-])O)CNC(=O)CC(CC(=O)[O-])(C(=O)[O-])O", 
+                "molecular_formula": "C17 H24 N2 O14 ", 
+                "mol_mass": 479.1, 
+                "mass_ion_type": "[M-H]-", 
+                "chem_act": [
+                    "Siderophore"
+                ], 
+                "chem_target": "Iron", 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "citric acid", 
+                        "moiety_subcluster": []
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "L-ornithine", 
+                        "moiety_subcluster": []
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "gene": [
+                {
+                    "gene_name": "sfaA", 
+                    "gene_id": "SAOUHSC_02434", 
+                    "gene_annotation": "Siderophore Transporter", 
+                    "gene_function": "Transport", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sfaC", 
+                    "gene_id": "SAOUHSC_02436", 
+                    "gene_annotation": "L-ornithine Racemase", 
+                    "gene_function": "Precursor biosynthesis", 
+                    "evidence_genefunction": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "gene_name": "sfaB", 
+                    "gene_id": "SAOUHSC_02435", 
+                    "gene_annotation": "Nonribosomal peptide synthetase independent siderophore (NIS) Synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }, 
+                {
+                    "gene_name": "sfaD", 
+                    "gene_id": "SAOUHSC_02433", 
+                    "gene_annotation": "Nonribosomal peptide synthetase independent siderophore (NIS) Synthetase", 
+                    "gene_function": "Scaffold biosynthesis", 
+                    "evidence_genefunction": [
+                        "Activity assay"
+                    ]
+                }
+            ]
+        }, 
+        "Other": {
+            "other_subclass": "Non-NRP siderophore"
+        }
+    }
+}
+
+

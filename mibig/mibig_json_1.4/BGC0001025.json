@@ -1,0 +1,436 @@
+{
+   "version": "16",
+   "personal": {
+      "submitter_name": "Daniel Krug",
+      "submitter_institution": "HIPS",
+      "submitter_email": "daniel.krug@helmholtz-hzi.de"
+   },
+   "general_params": {
+      "mibig_accession": "BGC0001025",
+      "biosyn_class": [
+         "NRP",
+         "Polyketide"
+      ],
+      "publications": "16835859",
+      "loci": {
+         "complete": "complete",
+         "nucl_acc": [
+            {
+               "Accession": "CP000113",
+               "mixs_compliant": false,
+               "start_coord": 18728,
+               "end_coord": 128324,
+               "conn_comp_cluster": [
+                  "Knock-out studies"
+               ]
+            }
+         ]
+      },
+      "compounds": [
+         {
+            "compound": "Myxovirescin A",
+            "chem_synonyms": [
+               "antibiotic ta"
+            ],
+            "database_deposited": false,
+            "chem_struct": "C1C(CCC[C@@H](CC)C=CC=C(COC)CC[C@@H](O)[C@H](C[C@H](O)CNC(=O)[C@H](CCC)OC(=O)[C@@H](C)C[C@H](C)CCC1)O)=O",
+            "molecular_formula": "C35H61N1O8",
+            "mol_mass": 624.447,
+            "mass_ion_type": "[M+H]+",
+            "chem_act": [
+               "Antibacterial"
+            ]
+         }
+      ],
+      "genes": {
+         "gene": [
+            {
+               "gene_name": "Ta1",
+               "not_in_gbk": false,
+               "gene_id": "ABF85931.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "lspA",
+               "not_in_gbk": false,
+               "gene_id": "MXAN_3930",
+               "gene_annotation": "lipoprotein signal peptidase; signal peptidase II"
+            },
+            {
+               "gene_name": "taA",
+               "not_in_gbk": false,
+               "gene_id": "MXAN_3950",
+               "gene_annotation": "NusG-like protein; NusG-like protein",
+               "gene_function": "Regulation",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "taB",
+               "not_in_gbk": false,
+               "gene_id": "ABF90753.1",
+               "gene_annotation": "acyl-carrier protein",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "taC",
+               "not_in_gbk": false,
+               "gene_id": "ABF90176.1",
+               "gene_annotation": "HMGCoA synthase",
+               "gene_function": "Tailoring",
+               "tailoring": "Acetylation",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "taD",
+               "not_in_gbk": false,
+               "gene_id": "ABF88380.1",
+               "gene_function": "Unknown"
+            },
+            {
+               "gene_name": "taE",
+               "not_in_gbk": false,
+               "gene_id": "MXAN_3946",
+               "gene_annotation": "acyl carier protein",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "taF",
+               "not_in_gbk": false,
+               "gene_id": "ABF92623.1",
+               "gene_annotation": "HMGCoA synthase",
+               "gene_function": "Tailoring",
+               "tailoring": "Acetylation",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "taH",
+               "not_in_gbk": false,
+               "gene_id": "ABF86324.1",
+               "gene_annotation": "cytochrome P450",
+               "gene_function": "Tailoring",
+               "tailoring": "Oxidation",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "taI",
+               "not_in_gbk": false,
+               "gene_id": "ABF89568.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Knock-out"
+               ],
+               "mut_pheno": "loss of production"
+            },
+            {
+               "gene_name": "taJ",
+               "not_in_gbk": false,
+               "gene_id": "MXAN_3937",
+               "gene_annotation": "luciferase-like monooxygenase",
+               "gene_function": "Tailoring",
+               "tailoring": "Oxidation",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "taK",
+               "not_in_gbk": false,
+               "gene_id": "MXAN_3941",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "taL",
+               "not_in_gbk": false,
+               "gene_id": "ABF92824.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Knock-out"
+               ],
+               "mut_pheno": "loss of production"
+            },
+            {
+               "gene_name": "taN",
+               "not_in_gbk": false,
+               "gene_id": "MXAN_3934",
+               "gene_function": "Tailoring",
+               "tailoring": "Dioxygenation",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "taO",
+               "not_in_gbk": false,
+               "gene_id": "MXAN_3933",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "taP",
+               "not_in_gbk": false,
+               "gene_id": "ABF88102.1",
+               "gene_function": "Scaffold biosynthesis",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "taQ",
+               "not_in_gbk": false,
+               "gene_id": "ABF89350.1",
+               "gene_annotation": "methyltransferase",
+               "gene_function": "Tailoring",
+               "tailoring": "Methylation",
+               "evidence_genefunction": [
+                  "Knock-out"
+               ],
+               "mut_pheno": "Production of two novel intermediates, loss of Myxovirescin A production"
+            },
+            {
+               "gene_name": "taV",
+               "not_in_gbk": false,
+               "gene_id": "ABF91606.1",
+               "gene_function": "Activation / processing",
+               "evidence_genefunction": [
+                  "Knock-out"
+               ],
+               "mut_pheno": "loss of production"
+            },
+            {
+               "gene_name": "taX",
+               "not_in_gbk": false,
+               "gene_id": "ABF86745.1",
+               "gene_function": "Tailoring",
+               "tailoring": "Other",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            },
+            {
+               "gene_name": "taY",
+               "not_in_gbk": false,
+               "gene_id": "ABF92581.1",
+               "gene_annotation": "\"putative enoyl-CoA-hydratase",
+               "gene_function": "Tailoring",
+               "tailoring": "Other",
+               "evidence_genefunction": [
+                  "Sequence-based prediction"
+               ]
+            }
+         ]
+      },
+      "NRP": {
+         "subclass": "Other",
+         "lin_cycl_nrp": "Linear",
+         "nrps_genes": [],
+         "nrps_te_type": "None",
+         "nrps_thioesterase": [],
+         "nrps_release_type": "Macrolactonization"
+      },
+      "Polyketide": {
+         "pk_subclass": "Macrolide",
+         "lin_cycl_pk": "Cyclic",
+         "pks_subclass": [
+            "Trans-AT type I"
+         ],
+         "starter_unit": "Other",
+         "mod_pks_genes": [
+            {
+               "mod_pks_gene": "ABF85931.1",
+               "pks_module": [
+                  {
+                     "module_nr": "1",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "2",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "B-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "3",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "4",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "5",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "6",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "7",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "MXAN_3933",
+               "pks_module": [
+                  {
+                     "module_nr": "8",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "9",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "10",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "11",
+                     "pks_domains": [
+                        "Ketosynthase"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "Methylation",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            },
+            {
+               "mod_pks_gene": "ABF88102.1",
+               "pks_module": [
+                  {
+                     "module_nr": "11",
+                     "pks_domains": [
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "pks_mod_doms": "None",
+                     "pks_mod_skip_iter": "Neither"
+                  },
+                  {
+                     "module_nr": "12",
+                     "pks_domains": [
+                        "Ketosynthase",
+                        "Ketoreductase",
+                        "Dehydratase",
+                        "Enoylreductase",
+                        "Thiolation (ACP/PCP)"
+                     ],
+                     "at_substr_spec": "None",
+                     "kr_stereochem": "A-group",
+                     "pks_mod_doms": "Methylation",
+                     "pks_mod_skip_iter": "Neither"
+                  }
+               ]
+            }
+         ],
+         "pks_genes": [],
+         "trans_at": [
+            "abf91606.1"
+         ],
+         "pks_te_type": "Type I",
+         "pks_thioesterase": [],
+         "pks_release_type": "Macrolactonization"
+      }
+   },
+   "embargo": false
+}

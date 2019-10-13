@@ -1,0 +1,397 @@
+{
+    "version": "18", 
+    "personal": {
+        "submitter_name": "Professor Barrie Wilkinson", 
+        "submitter_institution": "John Innes Centre", 
+        "submitter_email": "barrie.wilkinson@jic.ac.uk"
+    }, 
+    "general_params": {
+        "mibig_accession": "BGC0001437", 
+        "biosyn_class": [
+            "NRP"
+        ], 
+        "publications": "10.1038/ncomms15935", 
+        "loci": {
+            "complete": "complete", 
+            "nucl_acc": [
+                {
+                    "Accession": "AQZ26579.1", 
+                    "start_coord": 452, 
+                    "end_coord": 1165, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "AQZ26580.1", 
+                    "start_coord": 1385, 
+                    "end_coord": 1894, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "AQZ26581.1", 
+                    "start_coord": 1982, 
+                    "end_coord": 2932, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "AQZ26582.1", 
+                    "start_coord": 2958, 
+                    "end_coord": 3557, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "AQZ26583.1", 
+                    "start_coord": 3598, 
+                    "end_coord": 5058, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "AQZ26584.1", 
+                    "start_coord": 5055, 
+                    "end_coord": 6317, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "AQZ26585.1", 
+                    "start_coord": 6314, 
+                    "end_coord": 7636, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "AQZ26586.1", 
+                    "start_coord": 7633, 
+                    "end_coord": 9336, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "AQZ26587.1", 
+                    "start_coord": 9378, 
+                    "end_coord": 15110, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Enzymatic assays", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "AQZ26588.1", 
+                    "start_coord": 15153, 
+                    "end_coord": 15797, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "AQZ26589.1", 
+                    "start_coord": 15794, 
+                    "end_coord": 16060, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "AQZ26590.1", 
+                    "start_coord": 16057, 
+                    "end_coord": 16827, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "AQZ26591.1", 
+                    "start_coord": 16824, 
+                    "end_coord": 18020, 
+                    "conn_comp_cluster": [
+                        "Knock-out studies", 
+                        "Sequence-based prediction"
+                    ]
+                }, 
+                {
+                    "Accession": "AQZ26592.1", 
+                    "start_coord": 18017, 
+                    "end_coord": 19435, 
+                    "conn_comp_cluster": [
+                        "Sequence-based prediction"
+                    ]
+                }
+            ]
+        }, 
+        "compounds": [
+            {
+                "compound": "Obafluorin", 
+                "chem_synonyms": [], 
+                "database_deposited": true, 
+                "databases_deposited": [
+                    "PubChem"
+                ], 
+                "pubchem_id": 146354, 
+                "evidence_struct": [
+                    "NMR", 
+                    "Mass spectrometry"
+                ], 
+                "chem_act": [
+                    "Antibacterial"
+                ], 
+                "chem_moieties": [
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "\u03b2-lactone ", 
+                        "moiety_subcluster": [
+                            "aqz26587.1"
+                        ]
+                    }, 
+                    {
+                        "chem_moiety": "Other", 
+                        "other_chem_moiety": "(2S,3R)-2-amino-3-hydroxy-4-(4-nitrophenyl)butanoate", 
+                        "moiety_subcluster": [
+                            "aqz26585.1", 
+                            "aqz26586.1"
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "genes": {
+            "operon": [
+                {
+                    "operon_genes": []
+                }
+            ], 
+            "gene": [
+                {
+                    "gene_name": "obaA", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 452, 
+                    "gene_endpos": 1165, 
+                    "gene_id": "AQZ26579.1", 
+                    "gene_annotation": "ObaA", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "obaB", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1385, 
+                    "gene_endpos": 1894, 
+                    "gene_id": "AQZ26580.1", 
+                    "gene_annotation": "N-acylhomoserine lactone synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "obaC", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 1982, 
+                    "gene_endpos": 2932, 
+                    "gene_id": "AQZ26581.1", 
+                    "gene_annotation": "N-oxygenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "obaD", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 2958, 
+                    "gene_endpos": 3557, 
+                    "gene_id": "AQZ26582.1", 
+                    "gene_annotation": "4-Amino-4-deoxychorismate synthase component II", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "obaE", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 3598, 
+                    "gene_endpos": 5058, 
+                    "gene_id": "AQZ26583.1", 
+                    "gene_annotation": "4-Amino-4-deoxychorismate synthase component I", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "obaF", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 5055, 
+                    "gene_endpos": 6317, 
+                    "gene_id": "AQZ26584.1", 
+                    "gene_annotation": "4-Amino-4-deoxychorismate mutase/prephenate dehydrogenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "obaG", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 6314, 
+                    "gene_endpos": 7636, 
+                    "gene_id": "AQZ26585.1", 
+                    "gene_annotation": "threonine transaldolase PLP-dependent", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "obaH", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 7633, 
+                    "gene_endpos": 9336, 
+                    "gene_id": "AQZ26586.1", 
+                    "gene_annotation": "nitrophenylpyruvate decarboxylase ThDP-dependent", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "obaI", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 9378, 
+                    "gene_endpos": 15110, 
+                    "gene_id": "AQZ26587.1", 
+                    "gene_annotation": "obafluorin dimodular nonribosomal peptide synthetase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "obaJ", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15153, 
+                    "gene_endpos": 15797, 
+                    "gene_id": "AQZ26588.1", 
+                    "gene_annotation": "isochorismatase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "obaK", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 15794, 
+                    "gene_endpos": 16060, 
+                    "gene_id": "AQZ26589.1", 
+                    "gene_annotation": "obafluorin aryl carrier protein", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "obaL", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16057, 
+                    "gene_endpos": 16827, 
+                    "gene_id": "AQZ26590.1", 
+                    "gene_annotation": "2,3-dihydro-2,3-dihydroxybenzoate dehydrogenase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "obaM", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 16824, 
+                    "gene_endpos": 18020, 
+                    "gene_id": "AQZ26591.1", 
+                    "gene_annotation": "DAHP synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }, 
+                {
+                    "gene_name": "obaN", 
+                    "not_in_gbk": false, 
+                    "gene_startpos": 18017, 
+                    "gene_endpos": 19435, 
+                    "gene_id": "AQZ26592.1", 
+                    "gene_annotation": "isochorismate synthase", 
+                    "gene_function": "", 
+                    "evidence_genefunction": [
+                        ""
+                    ]
+                }
+            ]
+        }, 
+        "NRP": {
+            "subclass": "Other", 
+            "lin_cycl_nrp": "Cyclic", 
+            "nrps_te_type": "Type I", 
+            "nrps_thioesterase": [
+                "aqz26587.1"
+            ], 
+            "nrps_release_type": "Other", 
+            "nrps_genes": [
+                {
+                    "nrps_gene": "AQZ26587.1", 
+                    "nrps_module": [
+                        {
+                            "module_nr": "0", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "2,3-Dihydroxybenzoic acid", 
+                                "evidence_a_spec": "Structure-based inference", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "N/A", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither"
+                        }, 
+                        {
+                            "module_nr": "1", 
+                            "a_substr_spec": {
+                                "aa_type": "Nonproteinogenic", 
+                                "nonprot_adom_spec": "(2S,3R)-2-amino-3-hydroxy-4-(4-nitrophenyl)butanoate", 
+                                "evidence_a_spec": "Other", 
+                                "epimerized": false
+                            }, 
+                            "cdom_subtype": "LCL", 
+                            "nrps_mod_doms": "None", 
+                            "nrps_mod_skip_iter": "Neither", 
+                            "comments": null
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+

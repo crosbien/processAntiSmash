@@ -1,17 +1,14 @@
 ################################################################### mibig.sh ###################################################################
 ##                                                                                                                                            ##
-##  Munge antiSmash 5.0 (json) to output queried results, combine with MiBiG metadata and write to TSV                                        ##
-##  Nicholas Crosbie, Oct. 2019                                                                                                               ##
+##  Wrangle antiSmash 5.0 (json) to output queried results, combine with MiBiG metadata and write to TSV                                      ##
+##  Nicholas Crosbie, October 2019                                                                                                            ##
 ##                                                                                                                                            ##
 ##  Usage: ./mibig percentID percentCoverage dataDirectory ouputDirectory                                                                     ##
 ##                                                                                                                                            ##
 ################################################################### mibig.sh ###################################################################
 
 ### LIMITATIONS
-# Only two chemical activies and three product compounds are written to output file.
-
-### TODO:
-# continue testing, e.g. on multiple data files
+# Only two chemical activies and three product compounds are written to output TSV file
 
 # 1. For each data file, do ...
 for FILE in $3/*.json; do
@@ -20,7 +17,6 @@ for FILE in $3/*.json; do
   jq <$FILE -r --argjson ARG1 "$1" --argjson ARG2 "$2" '.records[0].modules["antismash.modules.clusterblast"].knowncluster.results[].ranking[][1].pairings[]  # pass data at this level in json (i.e. entry point for query)
   | select((.[2].perc_ident > $ARG1) and .[2].perc_coverage > $ARG2) # restrict query
   | [.[2].annotation, .[2].genecluster, .[0]] | @tsv' > out1.txt
-
 
   # 3. Extract the MiBiG identifier field and remove final few characters
   awk -F\t '{print $2}' out1.txt | cut -c 1-10 >out2.txt

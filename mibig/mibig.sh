@@ -13,7 +13,7 @@
 # 1. For each data file, do ...
 for FILE in $3/*.json; do
 
-  # 2. Return the pairing input sequence metadata for the selected query
+  # 2. Return the pairing input sequence metadata for the selected query at user-defined thresholds for KnownClusterBlast search results
   jq <$FILE -r --argjson ARG1 "$1" --argjson ARG2 "$2" '.records[0].modules["antismash.modules.clusterblast"].knowncluster.results[].ranking[][1].pairings[]  # pass data at this level in json (i.e. entry point for query)
   | select((.[2].perc_ident > $ARG1) and .[2].perc_coverage > $ARG2) # restrict query
   | [.[2].annotation, .[2].genecluster, .[0]] | @tsv' > out1.txt

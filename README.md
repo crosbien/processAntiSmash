@@ -2,7 +2,7 @@
 ## mibig.sh - summarise antiSMASH 5.0 KnownClusterBlast output
 © Nick Crosbie, October 2019
 
-*A shell script to summarise antiSMASH 5.0 (Blin et al. 2019) KnownClusterBlast output, producing a TSV file (```clustersOut.tsv```)containing KnownClusterBlast search results for biosynthetic gene clusters at a user-specified threshold for percent_ID and percent_coverage*
+*A shell script to summarise antiSMASH 5.0 (Blin et al. 2019) KnownClusterBlast output, producing a TSV file (```clustersOut.tsv```) containing KnownClusterBlast search results (individual pairings) for Biosynthetic Gene Clusters at a user-specified threshold for percent_ID and percent_coverage*
 
 
 
@@ -12,11 +12,11 @@
 
   - **Dependencies:** GNU bash (recent version with readarray), gawk, jq, cut, xargs, paste
 
-  - **Input requirements:** antiSMASH 5 output JSON file(s); MIBiG data files in JSON format (obtain from https://mibig.secondarymetabolites.org/download)
+  - **Input requirements:** antiSMASH 5.0 output JSON file(s); MIBiG data files in JSON format (obtain from https://mibig.secondarymetabolites.org/download)
 
   - **Installation**
-    - install dependencies (brew, apt-get, etc. )
-    - clone the repository (https://github.com/crosbien/processAntiSmash.git)
+    - install dependencies (e.g. brew, apt-get)
+    - clone the repository (```git clone https://github.com/crosbien/processAntiSmash.git```)
     - update MIBiG JSON files - these **must** be stored in the directory ```/processAntiSmash/mibig/mbig_json```
 
 <br/>
@@ -37,7 +37,7 @@
 
   - **Usage example:** ```./mibig.sh 95 95 ../testData ../testOutput```   (command **must** be issued from the directory ```/processAntiSmash/mibig```)
 
-  - **Example data:** three antiSMASH 5 output JSON files are included in the directory ```/processAntiSmash/testData```
+  - **Example data:** three antiSMASH 5.0 output JSON files are included in the directory ```/processAntiSmash/testData```
 
   - **Example output:** an example output TSV file (```clustersOutExample.tsv```) is included in the directory ```/processAntiSmash/testOutput```
 

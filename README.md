@@ -4,8 +4,6 @@
 
 *A shell script to summarise antiSMASH 5.0 (Blin et al. 2019) KnownClusterBlast output, producing a TSV file (```clustersOut.tsv```) containing KnownClusterBlast search results (individual pairings) for Biosynthetic Gene Clusters at a user-specified threshold for percent_ID and percent_coverage*
 
-
-
 <br/>
 
 **1. INSTALLING**
@@ -35,12 +33,12 @@ Finally, update the MIBiG JSON files - these *must* be stored in the directory `
 
 **Usage:** 
 ```
-./mibig.sh percent_ID percent_coverage ../path-to-data-directory ../path-to-output-directory
+./mibig.sh percent_ID percent_coverage ./path-to-data-directory ./path-to-output-directory
 ```
 This assumes you are issuing the ```./mibig.sh``` command from the ```./processAntiSmash/mibig``` directory
 
 **Ouput:** <br/> 
-The output file will be written to ```../path-to-output-directory/clustersOut.tsv```
+The output file will be written to ```./path-to-output-directory/clustersOut.tsv```
 
 **Limitation:** To keep the number of columns in the output manageable, only two MiBiG file chemical activies and three MiBiG file product compounds are written to ```clustersOut.tsv```
 
@@ -52,7 +50,7 @@ The output file will be written to ```../path-to-output-directory/clustersOut.ts
 
 **Usage example:** 
 ```
-./mibig.sh 95 95 ../testData ../testOutput
+./mibig.sh 95 95 ./testData ./testOutput
 ```   
 
 **Example data:** three antiSMASH 5.0 output JSON files are included in the ```./processAntiSmash/testData``` directory

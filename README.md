@@ -50,12 +50,12 @@ The output file will be written to ```./path-to-output-directory/clustersOut.tsv
 
 **Usage example:** 
 ```
-./mibig.sh 95 95 ./testData ./testOutput
+./mibig.sh 95 95 ./exampleData ./exampleOutput
 ```   
 
-**Example data:** three antiSMASH 5.0 output JSON files are included in the ```./processAntiSmash/testData``` directory
+**Example data:** three antiSMASH 5.0 output JSON files are included in the ```./processAntiSmash/exampleData``` directory
 
-**Example output:** an example output TSV file (```clustersOutExample.tsv```) is included in the ```./processAntiSmash/testOutput``` directory
+**Example output:** an example output TSV file (```clustersOutExample.tsv```) is included in the ```./processAntiSmash/exampleOutput``` directory
 
 <br/>
 

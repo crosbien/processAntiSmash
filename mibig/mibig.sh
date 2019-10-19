@@ -1,6 +1,6 @@
 ################################################################### mibig.sh ###################################################################
 ##                                                                                                                                            ##
-##  Wrangle antiSmash 5.0 (json) to output queried results, combine with MiBiG metadata and write to TSV                                      ##
+##  Wrangle antiSmash 5.0 (json) to output queried results, combine with MIBiG metadata and write to TSV                                      ##
 ##  Nicholas Crosbie, October 2019                                                                                                            ##
 ##                                                                                                                                            ##
 ##  Usage: ./mibig percentID percentCoverage dataDirectory ouputDirectory                                                                     ##
@@ -9,14 +9,14 @@
 ################################################################### mibig.sh ###################################################################
 
 ### LIMITATIONS
-# Only two chemical activies and three product compounds are written to output TSV file (clustersOut.tsv)
+# Only two MIBiG chemical activies and three MIBiG product compounds are written to output TSV file (clustersOut.tsv)
 
 # 1. For each data file, do ...
 for FILE in $3/*.json; do
 
   # 2. Return the pairing input metadata and 'blast' output for the selected query at user-defined thresholds for KnownClusterBlast search results
   jq <$FILE -r --argjson ARG1 "$1" --argjson ARG2 "$2" '.records[0].modules["antismash.modules.clusterblast"].knowncluster.results[].ranking[][1].pairings[] 
-    | select((.[2].perc_ident > $ARG1) and .[2].perc_coverage > $ARG2) # restrict query
+    | select((.[2].perc_ident > $ARG1) and .[2].perc_coverage > $ARG2)
     | [.[0],
        .[2].genecluster,
        .[2].annotation,
@@ -31,13 +31,13 @@ for FILE in $3/*.json; do
        .[2].evalue]
     | @tsv' > out1.txt
 
-  # 3. Extract the MiBiG identifier field and remove final few characters
+  # 3. Extract the MIBiG identifier field and remove final few characters
   awk -F\t '{print $2}' out1.txt | cut -c 1-10 >out2.txt
 
   # 4. Create an array from out2.txt
   readarray mibigArray <out2.txt
 
-  # 5. Extract metadata from each mibig.json file
+  # 5. Extract metadata from each MIBiG.json file
   for i in "${mibigArray[@]}"; do
     k=$(echo $i | xargs) # strip whitespace
     jq -r '[.general_params.biosyn_class[0],
@@ -45,7 +45,7 @@ for FILE in $3/*.json; do
             .general_params.compounds[0].chem_act[1],
             .general_params.compounds[0].compound,
             .general_params.compounds[1].compound,
-            .general_params.compounds[2].compound] | @tsv' ./mibig_json/$k.json
+            .general_params.compounds[2].compound] | @tsv' ../mibig_json/$k.json
   done >out3.txt
 
   # 6. Retrieve the genome annotations metadata
@@ -57,7 +57,7 @@ for FILE in $3/*.json; do
   # 8. Append the genome annotations and genome filename metadata
   <out3.txt awk -F\t -v a="$ANNOTATIONS" -v b="$FILENAME" 'BEGIN{OFS="\t";} { print $0,a,b; }' > out4.txt
 
-  # 9. Column-wise merge pairing metadata with mibig.json metadata (>> appends each data file output)
+  # 9. Column-wise merge pairing metadata with MIBiG JSON metadata (>> appends each data file output)
   paste -d'\t' out1.txt out4.txt >>clusters.txt
 
 done

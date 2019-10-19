@@ -37,7 +37,7 @@ Finally, update the MIBiG JSON files - these *must* be stored in the directory `
 ```
 ./mibig.sh percent_ID percent_coverage ../path-to-data-directory ../path-to-output-directory
 ```
-This assumes you are issuing the ./mibig.sh command from the ```/processAntiSmash/mibig``` directory
+This assumes you are issuing the ```./mibig.sh``` command from the ```./processAntiSmash/mibig``` directory
 
 **Ouput:** <br/> 
 The output file will be written to ```../path-to-output-directory/clustersOut.tsv```
@@ -55,17 +55,18 @@ The output file will be written to ```../path-to-output-directory/clustersOut.ts
 ./mibig.sh 95 95 ../testData ../testOutput
 ```   
 
-**Example data:** three antiSMASH 5.0 output JSON files are included in the ```/processAntiSmash/testData``` directory
+**Example data:** three antiSMASH 5.0 output JSON files are included in the ```./processAntiSmash/testData``` directory
 
-**Example output:** an example output TSV file (```clustersOutExample.tsv```) is included in the ```/processAntiSmash/testOutput``` directory
+**Example output:** an example output TSV file (```clustersOutExample.tsv```) is included in the ```./processAntiSmash/testOutput``` directory
 
 <br/>
 
-**4. CITATION AND REFERENCE**
-
-**Citation for mibig.sh tool:** 
-```
+**4. CITATION**
+<br/>
 Crosbie ND (2019) mibig.sh: A shell script to summarise antiSMASH 5.0 KnownClusterBlast output. https://github.com/crosbien/processAntiSmash
-```
 
-**Reference:** Blin K, Shaw S, Steinke K, Villebro R, Ziemert N, Yup Lee S, Medema MH, Weber T (2019) antiSMASH 5.0 updates to the secondary metabolite genome mining pipeline. *Nucleic Acids Research* 47(W1):W81-W87. https://doi.org/10.1093/nar/gkz310
+<br/>
+
+**5. REFERENCE** 
+<br/>
+Blin K, Shaw S, Steinke K, Villebro R, Ziemert N, Yup Lee S, Medema MH, Weber T (2019) antiSMASH 5.0 updates to the secondary metabolite genome mining pipeline. *Nucleic Acids Research* 47(W1):W81-W87. https://doi.org/10.1093/nar/gkz310

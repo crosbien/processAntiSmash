@@ -3,7 +3,7 @@
 ##  Wrangle antiSmash 5.0 (json) to output queried results, combine with MIBiG metadata and write to TSV                                      ##
 ##  Nicholas Crosbie, October 2019                                                                                                            ##
 ##                                                                                                                                            ##
-##  Usage: ./mibig percentID percentCoverage dataDirectory ouputDirectory                                                                     ##
+##  Usage: ./mibig.sh percentID percentCoverage dataDirectory ouputDirectory                                                                     ##
 ##  Produces: ./ouputDirectory/clustersOut.tsv                                                                                                ##
 ##                                                                                                                                            ##
 ################################################################### mibig.sh ###################################################################
@@ -45,7 +45,7 @@ for FILE in $3/*.json; do
             .general_params.compounds[0].chem_act[1],
             .general_params.compounds[0].compound,
             .general_params.compounds[1].compound,
-            .general_params.compounds[2].compound] | @tsv' ../mibig_json/$k.json
+            .general_params.compounds[2].compound] | @tsv' ./mibig_json/$k.json
   done >out3.txt
 
   # 6. Retrieve the genome annotations metadata

@@ -21,7 +21,7 @@ The easiest way to install the mibig.sh dependencies is to use the Mac package m
 ``` 
 Then, to install the mibig.sh dependencies, copy the following to the command prompt and press return:
 ```
-brew upgrade; brew install git; brew install bash; brew install gawk; brew install jq
+brew update; brew install git; brew install bash; brew install coreutils; brew install gawk; brew install jq
 ```
 Now, clone the mibig.sh repository by issuing the following command from the directory of your choice:
 ```

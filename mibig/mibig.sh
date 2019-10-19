@@ -29,10 +29,10 @@ for FILE in $3/*.json; do
        .[2].end,
        .[2].blastscore,
        .[2].evalue]
-    | @tsv' > out1.txt
+    | @tsv' >out1.txt
 
   # 3. Extract the MIBiG identifier field and remove final few characters
-  gawk -F\t '{print $2}' out1.txt | cut -c 1-10 >out2.txt
+  gawk 'BEGIN { FS = "\t" } ; {print $2}' out1.txt | cut -c 1-10 >out2.txt
 
   # 4. Create an array from out2.txt
   readarray mibigArray <out2.txt
@@ -55,7 +55,7 @@ for FILE in $3/*.json; do
   FILENAME="$(basename "$FILE")"
   
   # 8. Append the genome annotations and genome filename metadata
-  <out3.txt awk -F\t -v a="$ANNOTATIONS" -v b="$FILENAME" 'BEGIN{OFS="\t";} { print $0,a,b; }' > out4.txt
+  <out3.txt awk -v a="$ANNOTATIONS" -v b="$FILENAME" 'BEGIN {FS = "\t"; OFS="\t"} { print $0,a,b }' >out4.txt
 
   # 9. Column-wise merge pairing metadata with MIBiG JSON metadata (>> appends each data file output)
   paste -d'\t' out1.txt out4.txt >>clusters.txt
@@ -68,6 +68,6 @@ cat header.txt clusters.txt >tmpfile
 mv tmpfile $4/clustersOut.tsv
 
 # 11. Cleanup
-# rm out*.txt
-# rm header.txt
-# rm clusters.txt
+rm out*.txt
+rm header.txt
+rm clusters.txt

@@ -32,7 +32,7 @@ for FILE in $3/*.json; do
     | @tsv' > out1.txt
 
   # 3. Extract the MIBiG identifier field and remove final few characters
-  awk -F\t '{print $2}' out1.txt | cut -c 1-10 >out2.txt
+  gawk -F\t '{print $2}' out1.txt | cut -c 1-10 >out2.txt
 
   # 4. Create an array from out2.txt
   readarray mibigArray <out2.txt
@@ -68,6 +68,6 @@ cat header.txt clusters.txt >tmpfile
 mv tmpfile $4/clustersOut.tsv
 
 # 11. Cleanup
-rm out*.txt
-rm header.txt
-rm clusters.txt
+# rm out*.txt
+# rm header.txt
+# rm clusters.txt

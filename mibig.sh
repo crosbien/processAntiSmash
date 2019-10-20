@@ -1,10 +1,10 @@
 ################################################################### mibig.sh ###################################################################
 ##                                                                                                                                            ##
-##  Wrangle antiSmash 5.0 (json) to output queried results, combine with MIBiG metadata and write to TSV                                      ##
-##  Nicholas Crosbie, October 2019                                                                                                            ##
+##                Wrangle antiSmash 5.0 (json) to output queried results, combine with MIBiG metadata and write to TSV                        ##
+##                Copyright Nicholas Crosbie, October 2019                                                                                    ##
 ##                                                                                                                                            ##
-##  Usage: ./mibig.sh percentID percentCoverage dataDirectory ouputDirectory                                                                     ##
-##  Produces: ./ouputDirectory/clustersOut.tsv                                                                                                ##
+##                Usage: ./mibig.sh percentID percentCoverage dataDirectory ouputDirectory                                                    ##
+##                Produces: ./ouputDirectory/clustersOut.tsv                                                                                  ##
 ##                                                                                                                                            ##
 ################################################################### mibig.sh ###################################################################
 

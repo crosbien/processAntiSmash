@@ -2,7 +2,7 @@
 ## mibig.sh - summarise antiSMASH 5.0 KnownClusterBlast output
 © Nick Crosbie, October 2019
 
-*A shell script to summarise antiSMASH 5.0 (Blin et al. 2019) KnownClusterBlast output, producing a TSV file (```clustersOut.tsv```) containing KnownClusterBlast search results (individual pairings) for Biosynthetic Gene Clusters at a user-specified threshold for percent_ID and percent_coverage*
+*A shell script to summarise antiSMASH 5.0 (Blin et al. 2019) KnownClusterBlast output (individual pairings) for Biosynthetic Gene Clusters at a user-specified threshold for percent_ID and percent_coverage. The output is combined with metadata from MIBiG JSON files and written to a single TSV file (```clustersOut.tsv```)*
 
 <br/>
 

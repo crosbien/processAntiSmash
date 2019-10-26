@@ -9,7 +9,7 @@
 ################################################################### mibig.sh ###################################################################
 
 ### LIMITATIONS
-# Only two MIBiG chemical activies and three MIBiG product compounds are written to output TSV file (clustersOut.tsv)
+# Only three MIBiG product compounds are written to output TSV file (clustersOut.tsv)
 
 # 1. For each data file, do ...
 for FILE in $DATADIR/*.json; do
@@ -40,12 +40,10 @@ for FILE in $DATADIR/*.json; do
   # 5. Extract metadata from each MIBiG.json file
   for i in "${mibigArray[@]}"; do
     k=$(echo $i | xargs) # strip whitespace
-    jq -r '[.general_params.biosyn_class[0],
-            .general_params.compounds[0].chem_act[0],
-            .general_params.compounds[0].chem_act[1],
-            .general_params.compounds[0].compound,
-            .general_params.compounds[1].compound,
-            .general_params.compounds[2].compound] | @tsv' $MIBIG/$k.json
+    jq -r '[.cluster.biosyn_class[0],
+            .cluster.compounds[0].compound,
+            .cluster.compounds[1].compound,
+            .cluster.compounds[2].compound] | @tsv' $MIBIG/$k.json
   done >$RESULTDIR/out3.txt
 
   # 6. Retrieve the genome annotations metadata
@@ -63,7 +61,7 @@ for FILE in $DATADIR/*.json; do
 done
 
 # 10. Add a header row to clustersOut.tsv (echo -e means 'enable interpretation of backslash escapes')
-echo -e 'Pairings_input\tPairings_genecluster\tPairings_annotation\tPairings_name\tPairings_locus_tag\tPairings_perc_ident\tPairings_perc_coverage\tPairings_strand\tPairings_start\tPairings_end\tPairings_blastscore\tPairings_evalue\tMiBiG_biosynthetic_class\tMiBiG_chemical_activity1\tMiBiG_chemical_activity2\tMiBiG_product_compound1\tMiBiG_product_compound2\tMiBiG_product_compound3\tGenome_accession\tOrganism\tData_file' >$RESULTDIR/header.txt
+echo -e 'Pairings_input\tPairings_genecluster\tPairings_annotation\tPairings_name\tPairings_locus_tag\tPairings_perc_ident\tPairings_perc_coverage\tPairings_strand\tPairings_start\tPairings_end\tPairings_blastscore\tPairings_evalue\tMiBiG_biosynthetic_class\tMiBiG_product_compound1\tMiBiG_product_compound2\tMiBiG_product_compound3\tGenome_accession\tOrganism\tData_file' >$RESULTDIR/header.txt
 cat $RESULTDIR/header.txt $RESULTDIR/clusters.txt >$RESULTDIR/tmpfile
 mv $RESULTDIR/tmpfile $RESULTDIR/clustersOut.tsv
 

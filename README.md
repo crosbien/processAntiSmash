@@ -12,7 +12,7 @@ Nick Crosbie, October 2019
 
 **Example output:** an example output TSV file (```clustersOutExample.tsv```) is included in the ```./processAntiSmash/exampleOutput``` directory
 
-**Limitation:** To keep the number of columns in the output manageable, only two MiBiG file chemical activies and three MiBiG file product compounds are written to ```clustersOut.tsv```
+**Limitation:** To keep the number of columns in the output manageable, only three product compounds are written to ```clustersOut.tsv```
 
 **Note:** antiSMASH 5.0 uses the DIAMOND software to produce blast-like output and 'blastscore' and 'evalue' are used in that context
 
@@ -83,22 +83,10 @@ git clone https://github.com/crosbien/processAntiSmash.git
 
 **(ii) Download and unpack MIBiG JSON files**
 
-1. If you don't have **wget**, then install it first with ``brew install wget`` (Mac) or ```sudo apt-get install wget``` (Debian or Ubuntu linux). Then  issue the following command from the ``as-files`` directory to download the MIBiG JSON files:
+1. Issue the following command from the ``as-files`` directory to download the MIBiG JSON archive, unpack the files and rename the ```mibig_json_2.0``` directory to ```mibig``` :
 
 ```bash
-wget https://dl.secondarymetabolites.org/mibig/mibig_json_2.0.tar.gz
-```
-
-2. Unpack the tar.gz archive, by issuing the following from the ``as-files`` directory:
-
-```bash
-tar -xvf mibig_json_2.0.tar.gz
-```
-
-This will create a ```mibig_json_2.0``` directory in your ```as-files``` directory, and will contain the unpacked MIBiG JSON files. You'll need to rename that directory by issuing the following command from the ```as-files``` directory:
-
-```bash
-mv mibig_json_2.0 mibig
+curl https://dl.secondarymetabolites.org/mibig/mibig_json_2.0.tar.gz | tar xvz; mv mibig_json_2.0 mibig 
 ```
 
 <br>
@@ -113,7 +101,7 @@ mv mibig_json_2.0 mibig
 export PERC_ID=70 && export PERC_COV=70 && export DATADIR=./datavol/data && export RESULTDIR=./datavol/out export MIBIG=./datavol/mibig
 ```
 
-2. Run the *processAntiSmash* program as a docker container by issuing the following from the command line (note: you will need to change the ``path-to`` part of the following command to reflect where you have put your ```as-files``` directory):
+2. Run the *processAntiSmash* program as a docker container by issuing the following from the command line (you will need to change the ``path-to`` part of the following command to reflect where you have put your ```as-files``` directory):
 
 ```bash 
 docker run -e PERC_ID -e PERC_COV -e DATADIR -e RESULTDIR -e MIBIG --name processAntiSmash --rm -v /path-to/as-files:/datavol milesforjazz/process-antismash

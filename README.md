@@ -16,7 +16,7 @@ Nick Crosbie, October 2019
 
 **Note:** antiSMASH 5.0 uses the DIAMOND software to produce blast-like output and 'blastscore' and 'evalue' are used in that context
 
-
+<br>
 
 **1. INSTALL THE SOFTWARE**
 
@@ -71,7 +71,7 @@ brew update; brew install git; brew install bash; brew install coreutils; brew i
 git clone https://github.com/crosbien/processAntiSmash.git
 ```
 
-
+<br>
 
 **2. SETUP WORKING DIRECTORIES AND DOWNLOAD MIBiG FILES**
 
@@ -101,7 +101,7 @@ This will create a ```mibig_json_2.0``` directory in your ```as-files``` directo
 mv mibig_json_2.0 mibig
 ```
 
-
+<br>
 
 **3. USAGE**
 
@@ -132,13 +132,13 @@ docker run -e PERC_ID -e PERC_COV -e DATADIR -e RESULTDIR -e MIBIG --name proces
 
  The output file will be written to ```./path-to/as-files/out clustersOut.tsv```
 
-
+<br>
 
 **4. CITATION**
 
 Crosbie ND (2019) *processAntiSmash*: a tool to summarise antiSMASH 5.0 KnownClusterBlast output. https://github.com/crosbien/processAntiSmash
 
-
+<br>
 
 **5. REFERENCE** 
 

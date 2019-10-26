@@ -31,7 +31,7 @@ Nick Crosbie, October 2019
 docker pull milesforjazz/process-antismash
 ```
 
-This will install the docker image ```milesforjazz/process-antismash`` on your system, which you can verify by issuing the following command:
+This will install the docker image ```milesforjazz/process-antismash``` on your system, which you can verify by issuing the following command:
 
 ```bash
 docker images

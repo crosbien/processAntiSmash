@@ -1,5 +1,5 @@
 
-## *processAntiSmash* &#150; summarise antiSMASH 5.0 KnownClusterBlast output
+## *processAntiSmash*: summarise antiSMASH 5.0 KnownClusterBlast output
 Nick Crosbie, October 2019
 
 *Summarises antiSMASH 5.0 (Blin et al. 2019) KnownClusterBlast output (individual pairings) for Biosynthetic Gene Clusters at a user-specified threshold for percent identity and percent coverage. The output is combined with metadata from MIBiG JSON files and written to a single TSV file.*
@@ -49,7 +49,7 @@ sudo apt-get update; sudo apt-get install git bash coreutils gawk jq
 
 2. Clone the *processAntiSmash* repository by issuing the following command:
 
-​```bash
+```bash
 git clone https://github.com/crosbien/processAntiSmash.git
 ```
 
@@ -141,7 +141,3 @@ Crosbie ND (2019) *processAntiSmash*: a tool to summarise antiSMASH 5.0 KnownClu
 **5. REFERENCE** 
 
 Blin K, Shaw S, Steinke K, Villebro R, Ziemert N, Yup Lee S, Medema MH, Weber T (2019) antiSMASH 5.0 updates to the secondary metabolite genome mining pipeline. *Nucleic Acids Research* 47(W1):W81-W87. https://doi.org/10.1093/nar/gkz310
-
-```
-
-```

@@ -105,7 +105,7 @@ mv mibig_json_2.0 mibig
 
 **3. USAGE**
 
-**(i) Run as a docker container from the command line (if you have installed the docker image)**
+**(i) Run as a docker container from the command line** (if you have installed the docker image)
 
 1. Export variables to the shell by issuing the following from the command line, adjusting the ```PERC_ID``` (percent identity) and ```PERC_COV``` (percent coverage) values according to need (here both have been set to a value of 70)
 
@@ -121,7 +121,9 @@ docker run -e PERC_ID -e PERC_COV -e DATADIR -e RESULTDIR -e MIBIG --name proces
 
  The output file will be written to ```./path-to/as-files/out clustersOut.tsv```
 
-**(ii) Run natively (if you have cloned the github repository and installed all dependencies) by issuing the following command:**
+**(ii) Run natively by issuing the following command:**
+
+(if you have cloned the github repository and installed all dependencies) 
 
 ```bash
 ./path-to/mibig.sh 70 70 path-to/as-files/data path-to/as-files/out path-to/as-files/mibig_json_2.0

@@ -4,6 +4,8 @@ Nick Crosbie, October 2019
 
 *Summarises antiSMASH 5.0 (Blin et al. 2019) KnownClusterBlast output (individual pairings) for Biosynthetic Gene Clusters at a user-specified threshold for percent identity and percent coverage. The output is combined with metadata from MIBiG JSON files and written to a single TSV file.*
 
+**License:** GPL-3.0
+
 **Dependencies:** GNU bash (recent version with readarray), gawk, jq
 
 **Input requirements:** antiSMASH 5.0 output JSON file(s); Version 2.0 MIBiG data files in JSON format

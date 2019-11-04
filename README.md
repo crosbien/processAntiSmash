@@ -6,7 +6,7 @@ Nick Crosbie, October 2019
 
 **Dependencies:** GNU bash (recent version with readarray), gawk, jq
 
-**Input requirements:** antiSMASH 5.0 output JSON file(s); MIBiG data files in JSON format
+**Input requirements:** antiSMASH 5.0 output JSON file(s); Version 2.0 MIBiG data files in JSON format
 
 **Example data:** three antiSMASH 5.0 output JSON files are included in the ```./processAntiSmash/exampleData``` directory
 

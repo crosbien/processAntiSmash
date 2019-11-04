@@ -105,7 +105,7 @@ curl https://dl.secondarymetabolites.org/mibig/mibig_json_2.0.tar.gz | tar xvz; 
 1. Export variables to the shell by issuing the following from the command line, adjusting the ```PERC_ID``` (percent identity) and ```PERC_COV``` (percent coverage) values according to need (here both have been set to a value of 70)
 
 ```bash
-export PERC_ID=70 && export PERC_COV=70 && export DATADIR=./datavol/data && export RESULTDIR=./datavol/out export MIBIG=./datavol/mibig
+export PERC_ID=70 && export PERC_COV=70 && export DATADIR=./datavol/data && export RESULTDIR=./datavol/out && export MIBIG=./datavol/mibig
 ```
 
 2. Run the *processAntiSmash* program as a docker container by issuing the following from the command line (you will need to change the ``path-to`` part of the following command to reflect where you have put your ```as-files``` directory)

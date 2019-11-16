@@ -3,13 +3,17 @@
 ##                Wrangle antiSmash 5.0 (json) to output queried results, combine with MIBiG metadata and write to TSV                        ##
 ##                Nicholas Crosbie, October 2019                                                                                              ##
 ##                                                                                                                                            ##
-##                Usage: ./mibig.sh percentID percentCoverage dataDirectory ouputDirectory mibigDirectory                                     ##
-##                Produces: ./ouputDirectory/clustersOut.tsv                                                                                  ##
+##                Usage: see README at https://github.com/crosbien/processAntiSmash                                                           ##
 ##                                                                                                                                            ##
 ################################################################### mibig.sh ###################################################################
 
 ### LIMITATIONS
 # Only three MIBiG product compounds are written to output TSV file (clustersOut.tsv)
+
+set -euo pipefail
+
+counter=0
+echo -e "\nProcessing of antiSMASH JSON output files commenced at $(date -u) ... \n"
 
 # 1. For each data file, do ...
 for FILE in $DATADIR/*.json; do
@@ -49,7 +53,7 @@ for FILE in $DATADIR/*.json; do
   # 6. Retrieve the genome annotations metadata
   ANNOTATIONS="$(jq <$FILE -r '[.records[0].annotations.accessions[0], .records[0].annotations.organism] | @tsv')"
 
-  #7. Retrieve the genome data file name
+  # 7. Retrieve the genome data file name
   FILENAME="$(basename "$FILE")"
   
   # 8. Append the genome annotations and genome filename metadata
@@ -58,14 +62,22 @@ for FILE in $DATADIR/*.json; do
   # 9. Column-wise merge pairing metadata with MIBiG JSON metadata (>> appends each data file output)
   paste -d'\t' $RESULTDIR/out1.txt $RESULTDIR/out4.txt >>$RESULTDIR/clusters.txt
 
+  # 10. Write time and processed file names stdout and log file
+ counter=$((counter+1))
+ echo -e "$counter\t$FILENAME\t$(date -u)" | tee -a $RESULTDIR/processed-data-files.tsv
+ 
 done
 
-# 10. Add a header row to clustersOut.tsv (echo -e means 'enable interpretation of backslash escapes')
+# 11. Add a header row to clustersOut.tsv (echo -e means 'enable interpretation of backslash escapes')
 echo -e 'Pairings_input\tPairings_genecluster\tPairings_annotation\tPairings_name\tPairings_locus_tag\tPairings_perc_ident\tPairings_perc_coverage\tPairings_strand\tPairings_start\tPairings_end\tPairings_blastscore\tPairings_evalue\tMiBiG_biosynthetic_class\tMiBiG_product_compound1\tMiBiG_product_compound2\tMiBiG_product_compound3\tGenome_accession\tOrganism\tData_file' >$RESULTDIR/header.txt
 cat $RESULTDIR/header.txt $RESULTDIR/clusters.txt >$RESULTDIR/tmpfile
 mv $RESULTDIR/tmpfile $RESULTDIR/clustersOut.tsv
 
-# 11. Cleanup
+# 12. Cleanup
 rm $RESULTDIR/out*.txt
 rm $RESULTDIR/header.txt
 rm $RESULTDIR/clusters.txt
+
+echo -e "\nProcessing completed at $(date -u)\n"
+echo -e "Results written to: clustersOut.tsv\n"
+echo -e "List of processed files written to: processed-data-files.tsv\n"

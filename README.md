@@ -114,18 +114,30 @@ export PERC_ID=70 && export PERC_COV=70 && export DATADIR=./datavol/data && expo
 docker run -e PERC_ID -e PERC_COV -e DATADIR -e RESULTDIR -e MIBIG --name processAntiSmash --rm -v /path-to/as-files:/datavol milesforjazz/process-antismash
 ```
 
- The output file will be written to ```./path-to/as-files/out clustersOut.tsv```
+ The output data file will be written to ```./path-to/as-files/out clustersOut.tsv```
 
-**(ii) Run natively by issuing the following command:**
+ A list of processed data files will be written to ```./path-to/as-files/out processed-data-files.tsv```
+
+**(ii) Run natively by issuing the following commands:**
 
 (if you have cloned the github repository and installed all dependencies) 
 
+1. Export variables to the shell by issuing the following from the command line, adjusting the ```PERC_ID``` (percent identity) and ```PERC_COV``` (percent coverage) values according to need (here both have been set to a value of 70). You will need to change the ``path-to`` part of the following command to reflect where you have put your ```as-files``` directory.
+
 ```bash
-./path-to/mibig.sh 70 70 path-to/as-files/data path-to/as-files/out path-to/as-files/mibig_json_2.0
+export PERC_ID=70 && export PERC_COV=70 && export DATADIR=/path-to/as-files/data && export RESULTDIR=/path-to/as-files/out && export MIBIG=/path-to/as-files/mibig
 ```
 
+2. Execute the bash script
 
- The output file will be written to ```./path-to/as-files/out clustersOut.tsv```
+```bash
+./mibig.sh
+```
+(you may need to alter the path to ``mibig.sh``)
+
+The output data file will be written to ```./path-to/as-files/out clustersOut.tsv```
+
+ A list of processed data files will be written to ```./path-to/as-files/out processed-data-files.tsv```
 
 <br>
 
